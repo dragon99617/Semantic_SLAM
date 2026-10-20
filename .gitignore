@@ -57,3 +57,4 @@ __pycache__/
 
 # Local convenience symlink points to an absolute machine path.
 /experiments/latest_success
+/experiments/system_dependencies_installed
