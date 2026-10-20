@@ -1,0 +1,128 @@
+{
+  "checked_date": "2026-10-20",
+  "upstream": "https://github.com/hku-mars/FAST-LIVO2",
+  "commit": "0d2c0346107b75b59934975adec9a6eeeb913c64",
+  "note": "Author-provided NTU VIRAL benchmark resources, not results of our ROS 2 execution; no new odometry run or evo evaluation performed.",
+  "files": [
+    {
+      "path": "Log/result/ntu_viral/README.md",
+      "bytes": 1280,
+      "sha256": "582f974f70a7bdb46dce6bfffba213f50cc5df805c5de62809046ceff87b3cd9",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/eee_01_gt.txt",
+      "bytes": 544553,
+      "sha256": "f582877eed0da4c6d656bcd6cd2108d76d8dc8d68afb085dfe18f186aec6caca",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/eee_01_prism.txt",
+      "bytes": 338632,
+      "sha256": "56ada55fc913e3cc9987e52bbadfe84f062a7aa674d7a46b878c174094691bef",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/eee_02_gt.txt",
+      "bytes": 455290,
+      "sha256": "596e2637740dc4a3d458ccbaa5bbfa6d8fb30dbc4efce3bc6869f341fb833ca2",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/eee_02_prism.txt",
+      "bytes": 272559,
+      "sha256": "b49b89968924442dcd8cd4b66eb29d6ef7e86b51bc9132885b2b6259d969ce89",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/eee_03_gt.txt",
+      "bytes": 247079,
+      "sha256": "d6a05855308e356e839829f5c6063beab00d6cd5723aeb625b099a61c6d2c1b7",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/eee_03_prism.txt",
+      "bytes": 153394,
+      "sha256": "af442e50ec5c1a893bcf19a520cc7bbb6e36b5c0f37c57a9aea96551178628ea",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/evaluate_viral.py",
+      "bytes": 3438,
+      "sha256": "d1c8e1dc287a6595d1a62966f74fbe1bf708a63a15c9786301b5e449a05398f1",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/nya_01_gt.txt",
+      "bytes": 628663,
+      "sha256": "277f61bbfa83b84db5f9d8f9b89636e4803b267840c041cbc310908b32d24236",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/nya_01_prism.txt",
+      "bytes": 333296,
+      "sha256": "652193d35ac68533ea0a3142018e0945858cc257cf3a1f4b1a5f95979d73d7f6",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/nya_02_gt.txt",
+      "bytes": 628818,
+      "sha256": "3668af066df048aa0ab089afb86f6c8b90a8076528c17dd5d0037340d50b8e4b",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/nya_02_prism.txt",
+      "bytes": 365664,
+      "sha256": "179efd02443928a691abea12d35067bd6ee29305f401eca520c56348016861eb",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/nya_03_gt.txt",
+      "bytes": 631538,
+      "sha256": "25ec15e0264991fc76ca9fefdb6cd9750e82be5a801da4e8a41b98280699f136",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/nya_03_prism.txt",
+      "bytes": 345566,
+      "sha256": "3a22bc494b097bc4c86b361a2738e8d5408cd3bc79d6fe3e67272f1355e9d613",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/sbs_01_gt.txt",
+      "bytes": 465526,
+      "sha256": "bde39be4ecbe13da9ab20a9ab3f2d984ac2d79ac553037815839cd1d1d90a00f",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/sbs_01_prism.txt",
+      "bytes": 300173,
+      "sha256": "e048b7a61fb90735db665d5fcbd73ae23501f52f802225ed6d0f68900d7f020c",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/sbs_02_gt.txt",
+      "bytes": 501022,
+      "sha256": "ee072f544e59fceb116feed4f346630b62d5a6148cfdeca1f3ed6250d1c09f06",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/sbs_02_prism.txt",
+      "bytes": 313980,
+      "sha256": "38a2e6dac02552a021bfe6321c22b485d6656a0e05e3df6b2b2d92c611693d63",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/sbs_03_gt.txt",
+      "bytes": 447531,
+      "sha256": "26bd4d4aa67dac5b6888e5e7717569b35f642d7f9c4d5332e24dbde706775b77",
+      "same_as_ros2_checkout": true
+    },
+    {
+      "path": "Log/result/ntu_viral/sbs_03_prism.txt",
+      "bytes": 330132,
+      "sha256": "929cfe2beefbb2e1e0cb91cb3f9d0dfbc2c6792dd6812781bafb82d421078d17",
+      "same_as_ros2_checkout": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "poses": 1348,
+  "finite": true,
+  "timestamp_strictly_increasing": true,
+  "duration_s": 134.70038104057312,
+  "interval_min_median_max_s": [
+    0.0998159646987915,
+    0.0998450517654419,
+    0.10072600841522217
+  ],
+  "internal_gaps_over_0_15s": 0,
+  "max_quaternion_norm_error": 6.653237213383179e-07,
+  "log_errors": 0,
+  "clean_exit": true,
+  "mapper_logged_imu_callbacks": 27313,
+  "mapper_logged_image_callbacks": 1350,
+  "mapper_first_last_imu_sensor_time": [
+    "946685437.910972",
+    "946685573.018303"
+  ],
+  "mapper_first_last_image_corrected_time": [
+    "946685437.999663",
+    "946685572.899796"
+  ],
+  "source_commits_match": {
+    "FAST-LIVO2": true,
+    "rpg_vikit": true,
+    "livox_ros_driver2": true,
+    "Sophus": true,
+    "Livox-SDK2": true
+  },
+  "patches_match_manifest": {
+    "FAST-LIVO2": {
+      "stored_patch": true,
+      "working_tree_patch": true
+    },
+    "rpg_vikit": {
+      "stored_patch": true,
+      "working_tree_patch": true
+    }
+  },
+  "map": {
+    "points": 100604,
+    "coordinates_finite": true,
+    "rgb_unique_values": 52933,
+    "file_bytes": 1609848,
+    "header_fields": [
+      "x",
+      "y",
+      "z",
+      "rgb"
+    ]
+  }
+}

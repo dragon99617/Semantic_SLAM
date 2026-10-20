@@ -1,0 +1,349 @@
+{
+  "protocol": {
+    "metric": "absolute translation error RMSE, meters",
+    "alignment": "SE(3) Umeyama; scale fixed to 1",
+    "max_time_difference_s": 0.01,
+    "time_offset_s": 0.0,
+    "association": "evo nearest_time, no interpolation",
+    "lever_arm_imu_to_prism_m": [
+      -0.293656,
+      -0.012288,
+      -0.273095
+    ],
+    "rotation_error": "not evaluated; GT orientations are identity placeholders",
+    "parameters": "unmodified community NTU estimation configuration; output options only"
+  },
+  "versions": {
+    "evo": "1.38.0",
+    "rosbags": "0.11.8",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.3.3"
+  },
+  "callback_audit": {
+    "error_log_lines": 1,
+    "error_log_details": [
+      "[ERROR] [parameter_blackboard-1]: process has died [pid 3061, exit code -2, cmd '/opt/ros/humble/lib/demo_nodes_cpp/parameter_blackboard --ros-args -r __node:=parameter_blackboard --params-file /home/hxy/SLAM_project/fast_livo2_ws/src/FAST-LIVO2/config/camera_NTU_VIRAL.yaml']."
+    ],
+    "runtime_error_log_lines": 0,
+    "mapper_error_log_lines": 0,
+    "vio_frames_with_raw_features": 3982,
+    "limitation": "These are callback log matches; PointCloud2 callback has no per-message log, so this does not prove every LiDAR record was consumed.",
+    "/imu/imu": {
+      "bag_records": 153347,
+      "callback_log_entries": 153321,
+      "matched_records": 153321,
+      "unmatched_records": 26,
+      "unmatched_before_first_callback": 26,
+      "unmatched_between_callbacks": 0,
+      "unmatched_after_last_callback": 0,
+      "unmatched_sensor_times": [
+        1609059013.11459,
+        1609059013.114602,
+        1609059013.11983,
+        1609059013.119854,
+        1609059013.124938,
+        1609059013.1249518,
+        1609059013.1300201,
+        1609059013.1300337,
+        1609059013.1350987,
+        1609059013.1351094,
+        1609059013.1401768,
+        1609059013.14019,
+        1609059013.1452534,
+        1609059013.1452627,
+        1609059013.1503267,
+        1609059013.150336,
+        1609059013.1554055,
+        1609059013.1554234,
+        1609059013.1604528,
+        1609059013.1604655,
+        1609059013.1655374,
+        1609059013.1655548,
+        1609059013.1706276,
+        1609059013.1706514,
+        1609059013.1756983,
+        1609059013.1757174
+      ],
+      "matching_tolerance_s": 2e-06
+    },
+    "/left/image_raw": {
+      "bag_records": 3986,
+      "callback_log_entries": 3986,
+      "matched_records": 3986,
+      "unmatched_records": 0,
+      "unmatched_before_first_callback": 0,
+      "unmatched_between_callbacks": 0,
+      "unmatched_after_last_callback": 0,
+      "unmatched_sensor_times": [],
+      "matching_tolerance_s": 2e-06
+    }
+  },
+  "ros2_vs_author_gt": {
+    "stats_m": {
+      "rmse": 0.02497987571947976,
+      "mean": 0.02154970003050397,
+      "median": 0.018555055936810682,
+      "std": 0.012633472189226193,
+      "min": 0.0022374278376158614,
+      "max": 0.07625233947175716,
+      "sse": 0.8342802333143949
+    },
+    "reference_poses": 6616,
+    "estimated_poses": 3983,
+    "associated_poses": 1337,
+    "associated_estimate_fraction": 0.335676625659051,
+    "matched_time_start_s": 1609059075.189797,
+    "matched_time_end_s": 1609059391.989135,
+    "reference_time_start_s": 1609059060.109754,
+    "reference_time_end_s": 1609059396.474167,
+    "association_abs_dt_max_s": 0.009997844696044922,
+    "association_abs_dt_median_s": 0.004686117172241211,
+    "alignment_R": [
+      [
+        -0.8877683125370572,
+        -0.4575196746197295,
+        -0.05042985812951384
+      ],
+      [
+        -0.45709135775715776,
+        0.8891857717688505,
+        -0.02039985165515229
+      ],
+      [
+        0.054174845812641204,
+        0.004940710444019461,
+        -0.9985192414077384
+      ]
+    ],
+    "alignment_t": [
+      -0.37059141131360507,
+      -0.19334564548878985,
+      -0.2397951796994171
+    ],
+    "scale": 1.0,
+    "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt.txt",
+    "estimate_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/estimate_prism.tum",
+    "command": [
+      "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+      "tum",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt.txt",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/estimate_prism.tum",
+      "-a",
+      "--t_max_diff",
+      "0.01",
+      "--save_results",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/ros2_evo_ape.zip"
+    ]
+  },
+  "author_vs_author_gt": {
+    "stats_m": {
+      "rmse": 0.027108645448808238,
+      "mean": 0.02351230369597511,
+      "median": 0.020154247096320264,
+      "std": 0.013492599192795527,
+      "min": 0.0008571344089030014,
+      "max": 0.08777238581602413,
+      "sse": 0.9825327658385091
+    },
+    "reference_poses": 6616,
+    "estimated_poses": 3982,
+    "associated_poses": 1337,
+    "associated_estimate_fraction": 0.3357609241587142,
+    "matched_time_start_s": 1609059075.189797,
+    "matched_time_end_s": 1609059391.989135,
+    "reference_time_start_s": 1609059060.109754,
+    "reference_time_end_s": 1609059396.474167,
+    "association_abs_dt_max_s": 0.009997844696044922,
+    "association_abs_dt_median_s": 0.004686117172241211,
+    "alignment_R": [
+      [
+        -0.8901763513779851,
+        -0.45208778339378336,
+        -0.056592398371801966
+      ],
+      [
+        -0.45162154048202824,
+        0.891950385520034,
+        -0.02150567235178097
+      ],
+      [
+        0.060200063289141736,
+        0.006414505184206984,
+        -0.9981657209618179
+      ]
+    ],
+    "alignment_t": [
+      -0.3529929700676495,
+      -0.17310407008435313,
+      -0.23253053922712663
+    ],
+    "scale": 1.0,
+    "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt.txt",
+    "estimate_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_prism.txt",
+    "command": [
+      "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+      "tum",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt.txt",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_prism.txt",
+      "-a",
+      "--t_max_diff",
+      "0.01",
+      "--save_results",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/author_evo_ape.zip"
+    ]
+  },
+  "ros2_vs_raw_bag_gt": {
+    "stats_m": {
+      "rmse": 0.02497985821707755,
+      "mean": 0.021549687710173522,
+      "median": 0.01855487660187648,
+      "std": 0.012633458597679937,
+      "min": 0.0022375411284687157,
+      "max": 0.07625177195272848,
+      "sse": 0.8342790642210618
+    },
+    "reference_poses": 6616,
+    "estimated_poses": 3983,
+    "associated_poses": 1337,
+    "associated_estimate_fraction": 0.335676625659051,
+    "matched_time_start_s": 1609059075.189797,
+    "matched_time_end_s": 1609059391.989135,
+    "reference_time_start_s": 1609059060.1097538,
+    "reference_time_end_s": 1609059396.474167,
+    "association_abs_dt_max_s": 0.009997844696044922,
+    "association_abs_dt_median_s": 0.004686117172241211,
+    "alignment_R": [
+      [
+        -0.8877683132856093,
+        -0.457519672971074,
+        -0.05042985990924481
+      ],
+      [
+        -0.4570913559237752,
+        0.889185772630582,
+        -0.02039985517400522
+      ],
+      [
+        0.0541748490149217,
+        0.004940708025865631,
+        -0.9985192412459633
+      ]
+    ],
+    "alignment_t": [
+      -0.3705914378270738,
+      -0.19334568061480573,
+      -0.23979517518212834
+    ],
+    "scale": 1.0,
+    "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+    "estimate_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/estimate_prism.tum",
+    "command": [
+      "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+      "tum",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/estimate_prism.tum",
+      "-a",
+      "--t_max_diff",
+      "0.01",
+      "--save_results",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/ros2_raw_gt_evo_ape.zip"
+    ]
+  },
+  "author_vs_raw_bag_gt": {
+    "stats_m": {
+      "rmse": 0.027108626650652792,
+      "mean": 0.023512289071564507,
+      "median": 0.020154250579928572,
+      "std": 0.013492586909102018,
+      "min": 0.0008575527149040551,
+      "max": 0.08777223776452785,
+      "sse": 0.9825314031885536
+    },
+    "reference_poses": 6616,
+    "estimated_poses": 3982,
+    "associated_poses": 1337,
+    "associated_estimate_fraction": 0.3357609241587142,
+    "matched_time_start_s": 1609059075.189797,
+    "matched_time_end_s": 1609059391.989135,
+    "reference_time_start_s": 1609059060.1097538,
+    "reference_time_end_s": 1609059396.474167,
+    "association_abs_dt_max_s": 0.009997844696044922,
+    "association_abs_dt_median_s": 0.004686117172241211,
+    "alignment_R": [
+      [
+        -0.8901763521057029,
+        -0.4520877817366895,
+        -0.056592400162776196
+      ],
+      [
+        -0.45162153862139026,
+        0.8919503863774698,
+        -0.021505675863165624
+      ],
+      [
+        0.060200066486943093,
+        0.006414502746350095,
+        -0.9981657207846225
+      ]
+    ],
+    "alignment_t": [
+      -0.35299299659510597,
+      -0.17310410525140307,
+      -0.23253053482322805
+    ],
+    "scale": 1.0,
+    "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+    "estimate_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_prism.txt",
+    "command": [
+      "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+      "tum",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_prism.txt",
+      "-a",
+      "--t_max_diff",
+      "0.01",
+      "--save_results",
+      "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/author_raw_gt_evo_ape.zip"
+    ]
+  },
+  "raw_gt_interpolation_crosscheck": {
+    "ros2": {
+      "rmse_m": 0.029758636542490446,
+      "mean_m": 0.02450085657996778,
+      "median_m": 0.020418036916247446,
+      "max_m": 0.11047258274014048,
+      "matched_poses": 3341,
+      "estimated_poses": 3983,
+      "max_bracket_distance_s": 0.1,
+      "matched_time_start_s": 1609059060.185104,
+      "matched_time_end_s": 1609059396.390527,
+      "alignment": "rigid rotation and translation, no scale correction",
+      "time_offset_s": 0.0,
+      "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum"
+    },
+    "author": {
+      "rmse_m": 0.0310282464084968,
+      "mean_m": 0.02604594176723126,
+      "median_m": 0.022327068966323554,
+      "max_m": 0.16802731102594282,
+      "matched_poses": 3341,
+      "estimated_poses": 3982,
+      "max_bracket_distance_s": 0.1,
+      "matched_time_start_s": 1609059060.185104,
+      "matched_time_end_s": 1609059396.390527,
+      "alignment": "rigid rotation and translation, no scale correction",
+      "time_offset_s": 0.0,
+      "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum"
+    }
+  },
+  "trajectory": {
+    "pose_count": 3983,
+    "start_sensor_s": 1609059013.37036,
+    "end_sensor_s": 1609059411.695381,
+    "duration_s": 398.3250210285187,
+    "max_quaternion_norm_error": 6.659327782543301e-07,
+    "max_pose_interval_s": 0.1014719009399414
+  },
+  "ros2_to_author_rmse_ratio": 0.9214726632745841
+}

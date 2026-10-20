@@ -1,0 +1,30 @@
+{
+  "miou": 0.3271521594805317,
+  "macc": 0.39216483573955446,
+  "overall_accuracy": 0.7741819899863335,
+  "dataset": "Replica",
+  "scene": "room0",
+  "gt_points": 954492,
+  "evaluated_gt_points": 946107,
+  "condition": "baseline",
+  "data_origin": "released",
+  "assigned_map_points": 1752693,
+  "total_map_points": 1836495,
+  "objects": 146,
+  "coverage": {
+    "0.02": 0.8300678464486575,
+    "0.05": 0.8650364070871477,
+    "0.1": 0.9071563787182634
+  },
+  "strict_5cm": {
+    "miou": 0.2955917118620052,
+    "macc": 0.34475074146928686,
+    "overall_accuracy": 0.6978830090042669
+  },
+  "nearest_neighbors": 5,
+  "template": "This is a photo of a {}",
+  "vocabulary": "Replica official reduced 51",
+  "pose_source": "dataset_reference",
+  "classification_encoder": "SigLIP-384",
+  "evaluation_wall_seconds": 13.577300869999817
+}

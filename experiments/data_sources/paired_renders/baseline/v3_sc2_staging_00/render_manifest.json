@@ -1,0 +1,96 @@
+{
+  "scene": "v3_sc2_staging_00",
+  "condition": "baseline",
+  "completed": true,
+  "frames": 1318,
+  "source": "local Habitat 0.3.3 replay using official HaDaGe lighting configs",
+  "source_published": "/home/hxy/SLAM_project/datasets/OSMa-Bench/data/replica_cad/v3_sc2_staging_00",
+  "pose_source": "published reference sensor poses",
+  "rgb_rendering": "Mesa llvmpipe, JPEG quality=75",
+  "fixed_depth_and_truth_from": "/home/hxy/SLAM_project/datasets/OSMa_paired/baseline/v3_sc2_staging_00",
+  "navigation_boundary_frame_ids": [
+    0,
+    302,
+    388,
+    744,
+    1156
+  ],
+  "baseline_comparison_samples": [
+    {
+      "frame": 0,
+      "depth_mae_m": 1.3071994767427075e-05,
+      "sem_agreement": 1.0
+    },
+    {
+      "frame": 100,
+      "depth_mae_m": 5.7347993915465025e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 200,
+      "depth_mae_m": 8.103325433610538e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 300,
+      "depth_mae_m": 4.780266110983953e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 400,
+      "depth_mae_m": 4.5436320604765904e-05,
+      "sem_agreement": 0.999990234375
+    },
+    {
+      "frame": 500,
+      "depth_mae_m": 6.14265039673457e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 600,
+      "depth_mae_m": 2.5749102737722843e-05,
+      "sem_agreement": 1.0
+    },
+    {
+      "frame": 700,
+      "depth_mae_m": 1.2916026900384018e-05,
+      "sem_agreement": 1.0
+    },
+    {
+      "frame": 800,
+      "depth_mae_m": 3.0296013103685054e-05,
+      "sem_agreement": 1.0
+    },
+    {
+      "frame": 900,
+      "depth_mae_m": 8.18702156608428e-05,
+      "sem_agreement": 1.0
+    },
+    {
+      "frame": 1000,
+      "depth_mae_m": 7.007626331985453e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 1100,
+      "depth_mae_m": 3.9001404306858935e-05,
+      "sem_agreement": 0.9999934895833333
+    },
+    {
+      "frame": 1200,
+      "depth_mae_m": 5.815862945372702e-05,
+      "sem_agreement": 0.9999869791666667
+    },
+    {
+      "frame": 1300,
+      "depth_mae_m": 6.726983513898426e-05,
+      "sem_agreement": 0.9999934895833333
+    }
+  ],
+  "wall_seconds": 192.10212061099992,
+  "sha256": {
+    "rgb": "25ff625f5311cac724237bdf345b57a3962c1ed054060ba4fcfd143367083d8f",
+    "depth": "cd1ea6d29be9508ff36005fa4e40d562ff50cfbfa04782b10294365f6f3ce87e",
+    "semantic": "849d4471106404ca8548a35c058e9a8949e0bc80ade89a346ba613ac9bce3dc4"
+  }
+}

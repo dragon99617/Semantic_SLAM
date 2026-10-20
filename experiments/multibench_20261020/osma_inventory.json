@@ -1,0 +1,332 @@
+[
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00800-TEEsavR23oF",
+    "rgb_frames": 756,
+    "depth_frames": 756,
+    "semantic_frames": 756,
+    "pose_frames": 756,
+    "sim_conditions": [
+      "no_lights_1"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00802-wcojb4TFT35",
+    "rgb_frames": 318,
+    "depth_frames": 318,
+    "semantic_frames": 318,
+    "pose_frames": 318,
+    "sim_conditions": [
+      "no_lights_2"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00803-k1cupFYWXJ6",
+    "rgb_frames": 420,
+    "depth_frames": 420,
+    "semantic_frames": 420,
+    "pose_frames": 420,
+    "sim_conditions": [
+      "no_lights_1"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00808-y9hTuugGdiq",
+    "rgb_frames": 1234,
+    "depth_frames": 1234,
+    "semantic_frames": 1234,
+    "pose_frames": 1234,
+    "sim_conditions": [
+      "no_lights_1"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00810-CrMo8WxCyVb",
+    "rgb_frames": 1504,
+    "depth_frames": 1504,
+    "semantic_frames": 1504,
+    "pose_frames": 1504,
+    "sim_conditions": [
+      "no_lights"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00813-svBbv1Pavdk",
+    "rgb_frames": 810,
+    "depth_frames": 810,
+    "semantic_frames": 810,
+    "pose_frames": 810,
+    "sim_conditions": [
+      "no_lights"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00814-p53SfW6mjZe",
+    "rgb_frames": 436,
+    "depth_frames": 436,
+    "semantic_frames": 436,
+    "pose_frames": 436,
+    "sim_conditions": [
+      "no_lights"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/hm3d/00815-h1zeeAwLh9Z",
+    "rgb_frames": 442,
+    "depth_frames": 442,
+    "semantic_frames": 442,
+    "pose_frames": 442,
+    "sim_conditions": [
+      "no_lights"
+    ],
+    "camera_sha256": "3970210cac0a534f7096902bf752616d6e26f9388e27d3f05daa47c3e1a616ff"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/apt_0",
+    "rgb_frames": 1636,
+    "depth_frames": 1636,
+    "semantic_frames": 1636,
+    "pose_frames": 1636,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/apt_3",
+    "rgb_frames": 1502,
+    "depth_frames": 1502,
+    "semantic_frames": 1502,
+    "pose_frames": 1502,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc0_staging_00",
+    "rgb_frames": 1380,
+    "depth_frames": 1380,
+    "semantic_frames": 1380,
+    "pose_frames": 1380,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc0_staging_12",
+    "rgb_frames": 860,
+    "depth_frames": 860,
+    "semantic_frames": 860,
+    "pose_frames": 860,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc0_staging_16",
+    "rgb_frames": 1534,
+    "depth_frames": 1534,
+    "semantic_frames": 1534,
+    "pose_frames": 1534,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc0_staging_19",
+    "rgb_frames": 1456,
+    "depth_frames": 1456,
+    "semantic_frames": 1456,
+    "pose_frames": 1456,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc0_staging_20",
+    "rgb_frames": 1324,
+    "depth_frames": 1324,
+    "semantic_frames": 1324,
+    "pose_frames": 1324,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc1_staging_00",
+    "rgb_frames": 770,
+    "depth_frames": 770,
+    "semantic_frames": 770,
+    "pose_frames": 770,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc1_staging_06",
+    "rgb_frames": 336,
+    "depth_frames": 336,
+    "semantic_frames": 336,
+    "pose_frames": 336,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc1_staging_12",
+    "rgb_frames": 966,
+    "depth_frames": 966,
+    "semantic_frames": 966,
+    "pose_frames": 966,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc1_staging_19",
+    "rgb_frames": 934,
+    "depth_frames": 934,
+    "semantic_frames": 934,
+    "pose_frames": 934,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc1_staging_20",
+    "rgb_frames": 1370,
+    "depth_frames": 1370,
+    "semantic_frames": 1370,
+    "pose_frames": 1370,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc2_staging_00",
+    "rgb_frames": 1318,
+    "depth_frames": 1318,
+    "semantic_frames": 1318,
+    "pose_frames": 1318,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc2_staging_11",
+    "rgb_frames": 796,
+    "depth_frames": 796,
+    "semantic_frames": 796,
+    "pose_frames": 796,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc2_staging_13",
+    "rgb_frames": 566,
+    "depth_frames": 566,
+    "semantic_frames": 566,
+    "pose_frames": 566,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc2_staging_19",
+    "rgb_frames": 1314,
+    "depth_frames": 1314,
+    "semantic_frames": 1314,
+    "pose_frames": 1314,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc2_staging_20",
+    "rgb_frames": 1118,
+    "depth_frames": 1118,
+    "semantic_frames": 1118,
+    "pose_frames": 1118,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc3_staging_03",
+    "rgb_frames": 1278,
+    "depth_frames": 1278,
+    "semantic_frames": 1278,
+    "pose_frames": 1278,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc3_staging_04",
+    "rgb_frames": 836,
+    "depth_frames": 836,
+    "semantic_frames": 836,
+    "pose_frames": 836,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc3_staging_08",
+    "rgb_frames": 824,
+    "depth_frames": 824,
+    "semantic_frames": 824,
+    "pose_frames": 824,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc3_staging_15",
+    "rgb_frames": 1102,
+    "depth_frames": 1102,
+    "semantic_frames": 1102,
+    "pose_frames": 1102,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  },
+  {
+    "scene": "datasets/OSMa-Bench/data/replica_cad/v3_sc3_staging_20",
+    "rgb_frames": 1236,
+    "depth_frames": 1236,
+    "semantic_frames": 1236,
+    "pose_frames": 1236,
+    "sim_conditions": [
+      "baseline"
+    ],
+    "camera_sha256": "08fd503e2d02e21cc4cb620da32d293ecf4a3f61e0167d58db6c90c671fdd631"
+  }
+]

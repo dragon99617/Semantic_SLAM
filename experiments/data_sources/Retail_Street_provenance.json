@@ -1,0 +1,14 @@
+{
+  "source_readme": "https://github.com/DeepRoboticsLab/fast-livo2-deep-robotics/blob/main/README.md",
+  "source_folder": "https://drive.google.com/drive/folders/15RL0__M6ZcCCf0qx8_IM40qhhoPoYnNf",
+  "description": "Community ROS 2 conversion of Retail_Street. Not the original ROS 1 bag; not independently matched to an upstream hash.",
+  "files": {
+    "metadata.yaml": {
+      "file_id": "1r-75Y3C11IQr1IdtDgQYX3ugat-ffmyR"
+    },
+    "Retail_Street.db3": {
+      "file_id": "1G5AXUw4rZy_ODfVXW9yZZd2-PoXrWu03",
+      "expected_size": 1995526144
+    }
+  }
+}

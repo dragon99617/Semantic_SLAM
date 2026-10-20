@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00",
+      "frames": 1380,
+      "gt_points": 8477348,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00",
+      "frames": 770,
+      "gt_points": 4730363,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00",
+      "frames": 1318,
+      "gt_points": 8107022,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/Replica/office0",
+      "frames": 2000,
+      "gt_points": 589517,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": true
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/Replica/office1",
+      "frames": 2000,
+      "gt_points": 423007,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": true
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/Replica/room0",
+      "frames": 2000,
+      "gt_points": 954492,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": true
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00",
+      "frames": 1380,
+      "gt_points": 8477348,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00",
+      "frames": 770,
+      "gt_points": 4730363,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00",
+      "frames": 1318,
+      "gt_points": 8107023,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00",
+      "frames": 1380,
+      "gt_points": 8477348,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00",
+      "frames": 770,
+      "gt_points": 4730363,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00",
+      "frames": 1318,
+      "gt_points": 8107023,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00",
+      "frames": 1380,
+      "gt_points": 8477348,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00",
+      "frames": 770,
+      "gt_points": 4730363,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00",
+      "frames": 1318,
+      "gt_points": 8107023,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00",
+      "frames": 1380,
+      "gt_points": 8477348,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00",
+      "frames": 770,
+      "gt_points": 4730363,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00",
+      "frames": 1318,
+      "gt_points": 8107023,
+      "confusion_rebuilt_exact": true,
+      "official_metric_formula_matches": true,
+      "official_neighbor_sample_matches": false
+    }
+  ]
+}

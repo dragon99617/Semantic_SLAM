@@ -1,0 +1,16 @@
+{
+  "dataset": "OSMa",
+  "scene": "v3_sc1_staging_00",
+  "condition": "no_lights",
+  "input_path": "/home/hxy/SLAM_project/datasets/OSMa_paired/no_lights/v3_sc1_staging_00",
+  "rgb_frames": 770,
+  "depth_frames": 770,
+  "pose_frames": 770,
+  "requested_frame_limit": -1,
+  "pose_source": "dataset_reference",
+  "ovo_commit": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "start_time": "2026-10-20T13:07:08+0800"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "playback_completed",
+  "error": null,
+  "diagnostic_duration_s": null,
+  "rate": 0.5,
+  "mapper_clean_exit": true,
+  "player_returncode": 0,
+  "launch_returncode": 0,
+  "wall_seconds": 824.6505886200002,
+  "timestamp_basis": "saved TUM uses sensor time",
+  "run_dir": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001"
+}

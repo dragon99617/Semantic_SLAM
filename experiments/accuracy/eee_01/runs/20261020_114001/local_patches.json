@@ -1,0 +1,10 @@
+{
+  "FAST-LIVO2": {
+    "patch": "experiments/patches/FAST-LIVO2.patch",
+    "sha256": "548e5da6e68d27e7ca985a1c7633d3defcf73d33b27d4a4f97de8850443e3322"
+  },
+  "rpg_vikit": {
+    "patch": "experiments/patches/rpg_vikit.patch",
+    "sha256": "962c667990e4c8c5ae82d51ba6392d4b7d62871d0fd20c537bd1312746720609"
+  }
+}

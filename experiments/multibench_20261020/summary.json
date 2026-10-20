@@ -1,0 +1,229 @@
+{
+  "scenes": [
+    {
+      "miou": 0.3222471096255017,
+      "macc": 0.49011489580009715,
+      "overall_accuracy": 0.6700794871226238,
+      "dataset": "OSMa",
+      "scene": "v3_sc0_staging_00",
+      "gt_points": 8477348,
+      "evaluated_gt_points": 8477348,
+      "condition": "baseline",
+      "data_origin": "released",
+      "assigned_map_points": 1402627,
+      "total_map_points": 1754320,
+      "objects": 87,
+      "coverage": {
+        "0.02": 0.947687177640932,
+        "0.05": 0.972298766076372,
+        "0.1": 0.981240713487284
+      },
+      "strict_5cm": {
+        "miou": 0.31736786775280745,
+        "macc": 0.4690358193239512,
+        "overall_accuracy": 0.6620838262154627
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 17.369990302000588,
+      "frames": 1380,
+      "wall_s": 219.88617427500049,
+      "rgb_fps_including_initialization": 6.275974396980976,
+      "peak_gpu_gib": 5.180734157562256,
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00"
+    },
+    {
+      "miou": 0.24144476229332767,
+      "macc": 0.4096353313786961,
+      "overall_accuracy": 0.5846771167455859,
+      "dataset": "OSMa",
+      "scene": "v3_sc1_staging_00",
+      "gt_points": 4730363,
+      "evaluated_gt_points": 4730363,
+      "assigned_map_points": 793034,
+      "total_map_points": 949427,
+      "objects": 64,
+      "coverage": {
+        "0.02": 0.9126149515375459,
+        "0.05": 0.9497330331731413,
+        "0.1": 0.9652079554993982
+      },
+      "strict_5cm": {
+        "miou": 0.24443860133146086,
+        "macc": 0.3934608047091401,
+        "overall_accuracy": 0.5771472506444009
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 14.137174219999906,
+      "frames": 770,
+      "wall_s": 139.94697585700033,
+      "rgb_fps_including_initialization": 5.502083880589147,
+      "peak_gpu_gib": 5.157319068908691,
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00"
+    },
+    {
+      "miou": 0.25262200506954274,
+      "macc": 0.3848520411741231,
+      "overall_accuracy": 0.6465560350027421,
+      "dataset": "OSMa",
+      "scene": "v3_sc2_staging_00",
+      "gt_points": 8107022,
+      "evaluated_gt_points": 8107022,
+      "condition": "baseline",
+      "data_origin": "released",
+      "assigned_map_points": 1129665,
+      "total_map_points": 1357673,
+      "objects": 92,
+      "coverage": {
+        "0.02": 0.9318611692431573,
+        "0.05": 0.9641008745258123,
+        "0.1": 0.9773064634584685
+      },
+      "strict_5cm": {
+        "miou": 0.2560184914661413,
+        "macc": 0.38152079384135545,
+        "overall_accuracy": 0.641177117812188
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 14.60171586999968,
+      "frames": 1318,
+      "wall_s": 209.4843199879997,
+      "rgb_fps_including_initialization": 6.291640348430382,
+      "peak_gpu_gib": 5.158418655395508,
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00"
+    },
+    {
+      "miou": 0.265235302756014,
+      "macc": 0.3477773698647802,
+      "overall_accuracy": 0.5954443313423089,
+      "dataset": "Replica",
+      "scene": "office0",
+      "gt_points": 589517,
+      "evaluated_gt_points": 520670,
+      "assigned_map_points": 1751411,
+      "total_map_points": 2179828,
+      "objects": 148,
+      "coverage": {
+        "0.02": 0.6838842260933029,
+        "0.05": 0.7382833656634721,
+        "0.1": 0.8079570553325522
+      },
+      "strict_5cm": {
+        "miou": 0.22931467379818568,
+        "macc": 0.29565284027962463,
+        "overall_accuracy": 0.4546161676301688
+      },
+      "nearest_neighbors": 5,
+      "template": "This is a photo of a {}",
+      "vocabulary": "Replica official reduced 51",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 16.310959625000578,
+      "frames": 2000,
+      "wall_s": 388.15466138899956,
+      "rgb_fps_including_initialization": 5.1525852938183485,
+      "peak_gpu_gib": 5.274549961090088,
+      "run": "experiments/multibench_20261020/runs/Replica/office0"
+    },
+    {
+      "miou": 0.1677008245574834,
+      "macc": 0.32656659380408126,
+      "overall_accuracy": 0.3138580768666682,
+      "dataset": "Replica",
+      "scene": "office1",
+      "gt_points": 423007,
+      "evaluated_gt_points": 388647,
+      "condition": "baseline",
+      "data_origin": "released",
+      "assigned_map_points": 1708365,
+      "total_map_points": 1956184,
+      "objects": 78,
+      "coverage": {
+        "0.02": 0.5992713181884847,
+        "0.05": 0.65947247759535,
+        "0.1": 0.724243336498159
+      },
+      "strict_5cm": {
+        "miou": 0.1939880135427067,
+        "macc": 0.3003455684399086,
+        "overall_accuracy": 0.27233968099586514
+      },
+      "nearest_neighbors": 5,
+      "template": "This is a photo of a {}",
+      "vocabulary": "Replica official reduced 51",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 21.061200751999422,
+      "frames": 2000,
+      "wall_s": 350.6279391039998,
+      "rgb_fps_including_initialization": 5.704052007694629,
+      "peak_gpu_gib": 5.216053485870361,
+      "run": "experiments/multibench_20261020/runs/Replica/office1"
+    },
+    {
+      "miou": 0.3271521594805317,
+      "macc": 0.39216483573955446,
+      "overall_accuracy": 0.7741819899863335,
+      "dataset": "Replica",
+      "scene": "room0",
+      "gt_points": 954492,
+      "evaluated_gt_points": 946107,
+      "condition": "baseline",
+      "data_origin": "released",
+      "assigned_map_points": 1752693,
+      "total_map_points": 1836495,
+      "objects": 146,
+      "coverage": {
+        "0.02": 0.8300678464486575,
+        "0.05": 0.8650364070871477,
+        "0.1": 0.9071563787182634
+      },
+      "strict_5cm": {
+        "miou": 0.2955917118620052,
+        "macc": 0.34475074146928686,
+        "overall_accuracy": 0.6978830090042669
+      },
+      "nearest_neighbors": 5,
+      "template": "This is a photo of a {}",
+      "vocabulary": "Replica official reduced 51",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 13.577300869999817,
+      "frames": 2000,
+      "wall_s": 485.1136232789995,
+      "rgb_fps_including_initialization": 4.122745484823781,
+      "peak_gpu_gib": 5.403494834899902,
+      "run": "experiments/multibench_20261020/runs/Replica/room0"
+    }
+  ],
+  "aggregates": {
+    "Replica": {
+      "scenes": 3,
+      "mean_scene_miou": 0.25336276226467636,
+      "mean_scene_macc": 0.3555029331361386,
+      "pooled_miou": 0.2805563811189815,
+      "pooled_macc": 0.4220677485414022,
+      "pooled_overall_accuracy": 0.6276026396122935
+    },
+    "OSMa": {
+      "scenes": 3,
+      "mean_scene_miou": 0.27210462566279064,
+      "mean_scene_macc": 0.4282007561176388,
+      "pooled_miou": 0.29945159419520556,
+      "pooled_macc": 0.461067290411459,
+      "pooled_overall_accuracy": 0.6421790974346242
+    }
+  },
+  "M2DGR": "not_evaluated_download_blocked"
+}

@@ -1,0 +1,414 @@
+{
+  "scenes": [
+    {
+      "miou": 0.274530108843964,
+      "macc": 0.43973223316509075,
+      "overall_accuracy": 0.6204147806601782,
+      "dataset": "OSMa",
+      "scene": "v3_sc0_staging_00",
+      "gt_points": 8477348,
+      "evaluated_gt_points": 8477348,
+      "condition": "baseline",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1393066,
+      "total_map_points": 1754365,
+      "objects": 85,
+      "coverage": {
+        "0.02": 0.9477065233136589,
+        "0.05": 0.9714365860644154,
+        "0.1": 0.9804974385857463
+      },
+      "strict_5cm": {
+        "miou": 0.26690108238275306,
+        "macc": 0.41968416743316816,
+        "overall_accuracy": 0.615192510676688
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 17.750913218999813,
+      "frames": 1380,
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00"
+    },
+    {
+      "miou": 0.2709810353557174,
+      "macc": 0.41428180489874755,
+      "overall_accuracy": 0.6504147778933668,
+      "dataset": "OSMa",
+      "scene": "v3_sc1_staging_00",
+      "gt_points": 4730363,
+      "evaluated_gt_points": 4730363,
+      "condition": "baseline",
+      "data_origin": "local_replay",
+      "assigned_map_points": 794913,
+      "total_map_points": 950170,
+      "objects": 65,
+      "coverage": {
+        "0.02": 0.9121386667365697,
+        "0.05": 0.9474913447445787,
+        "0.1": 0.962560167158419
+      },
+      "strict_5cm": {
+        "miou": 0.27168249768228725,
+        "macc": 0.3920234652372427,
+        "overall_accuracy": 0.6404747373510236
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 13.723062543000196,
+      "frames": 770,
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00"
+    },
+    {
+      "miou": 0.2852266633602567,
+      "macc": 0.4156551923534178,
+      "overall_accuracy": 0.6703316371496664,
+      "dataset": "OSMa",
+      "scene": "v3_sc2_staging_00",
+      "gt_points": 8107023,
+      "evaluated_gt_points": 8107023,
+      "condition": "baseline",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1131674,
+      "total_map_points": 1357585,
+      "objects": 91,
+      "coverage": {
+        "0.02": 0.9327618781888247,
+        "0.05": 0.9641958583317205,
+        "0.1": 0.9778224386436304
+      },
+      "strict_5cm": {
+        "miou": 0.28232370787883737,
+        "macc": 0.40552466801537607,
+        "overall_accuracy": 0.6642835477338599
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 15.57555868199961,
+      "frames": 1318,
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00"
+    },
+    {
+      "miou": 0.32291831011780303,
+      "macc": 0.4338657114008987,
+      "overall_accuracy": 0.6577356503472548,
+      "dataset": "OSMa",
+      "scene": "v3_sc0_staging_00",
+      "gt_points": 8477348,
+      "evaluated_gt_points": 8477348,
+      "condition": "camera_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1386353,
+      "total_map_points": 1754365,
+      "objects": 85,
+      "coverage": {
+        "0.02": 0.942926726613087,
+        "0.05": 0.9668556723163895,
+        "0.1": 0.9770427025055477
+      },
+      "strict_5cm": {
+        "miou": 0.3152951895170119,
+        "macc": 0.4167500334992281,
+        "overall_accuracy": 0.6457119608632322
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 14.34568961900004,
+      "frames": 1380,
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00"
+    },
+    {
+      "miou": 0.2570782784003337,
+      "macc": 0.42451515675832097,
+      "overall_accuracy": 0.6136036494450848,
+      "dataset": "OSMa",
+      "scene": "v3_sc1_staging_00",
+      "gt_points": 4730363,
+      "evaluated_gt_points": 4730363,
+      "condition": "camera_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 790105,
+      "total_map_points": 950170,
+      "objects": 69,
+      "coverage": {
+        "0.02": 0.912567597877795,
+        "0.05": 0.9468924477888906,
+        "0.1": 0.9613399648187676
+      },
+      "strict_5cm": {
+        "miou": 0.2651634552777768,
+        "macc": 0.40328056606429186,
+        "overall_accuracy": 0.6057169396936345
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 11.519252752999819,
+      "frames": 770,
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00"
+    },
+    {
+      "miou": 0.3146786677048666,
+      "macc": 0.44682464663171734,
+      "overall_accuracy": 0.7059920762528983,
+      "dataset": "OSMa",
+      "scene": "v3_sc2_staging_00",
+      "gt_points": 8107023,
+      "evaluated_gt_points": 8107023,
+      "condition": "camera_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1160978,
+      "total_map_points": 1357585,
+      "objects": 95,
+      "coverage": {
+        "0.02": 0.9479283579188069,
+        "0.05": 0.9746588852652818,
+        "0.1": 0.9850803433023442
+      },
+      "strict_5cm": {
+        "miou": 0.3146152504611509,
+        "macc": 0.43910989626784613,
+        "overall_accuracy": 0.7000379794161186
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 12.660325822000232,
+      "frames": 1318,
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00"
+    },
+    {
+      "miou": 0.2483130622623961,
+      "macc": 0.41174541273015564,
+      "overall_accuracy": 0.5106449564179741,
+      "dataset": "OSMa",
+      "scene": "v3_sc0_staging_00",
+      "gt_points": 8477348,
+      "evaluated_gt_points": 8477348,
+      "condition": "dynamic_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1394002,
+      "total_map_points": 1754365,
+      "objects": 79,
+      "coverage": {
+        "0.02": 0.9426161341966851,
+        "0.05": 0.9684065110928559,
+        "0.1": 0.9792720553644843
+      },
+      "strict_5cm": {
+        "miou": 0.24015726032183307,
+        "macc": 0.38438001023070195,
+        "overall_accuracy": 0.5038079125688836
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 15.33513738900001,
+      "frames": 1380,
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00"
+    },
+    {
+      "miou": 0.23460477327036622,
+      "macc": 0.38915651274191665,
+      "overall_accuracy": 0.6302937005045913,
+      "dataset": "OSMa",
+      "scene": "v3_sc1_staging_00",
+      "gt_points": 4730363,
+      "evaluated_gt_points": 4730363,
+      "condition": "dynamic_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 779450,
+      "total_map_points": 950170,
+      "objects": 63,
+      "coverage": {
+        "0.02": 0.9006674540621935,
+        "0.05": 0.9398422488929496,
+        "0.1": 0.9572256928273792
+      },
+      "strict_5cm": {
+        "miou": 0.24507924518772475,
+        "macc": 0.37570387925500454,
+        "overall_accuracy": 0.6222824759960283
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 11.191525304000606,
+      "frames": 770,
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00"
+    },
+    {
+      "miou": 0.2382624929017937,
+      "macc": 0.37739679915600655,
+      "overall_accuracy": 0.6065946772323206,
+      "dataset": "OSMa",
+      "scene": "v3_sc2_staging_00",
+      "gt_points": 8107023,
+      "evaluated_gt_points": 8107023,
+      "condition": "dynamic_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1141838,
+      "total_map_points": 1357585,
+      "objects": 85,
+      "coverage": {
+        "0.02": 0.9348599356385199,
+        "0.05": 0.9624366428959188,
+        "0.1": 0.9765410804928023
+      },
+      "strict_5cm": {
+        "miou": 0.23452397247750256,
+        "macc": 0.36612477996419274,
+        "overall_accuracy": 0.5998347358827032
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 12.553136438000365,
+      "frames": 1318,
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00"
+    },
+    {
+      "miou": 0.27817202246753336,
+      "macc": 0.5111209149875061,
+      "overall_accuracy": 0.6017857235541115,
+      "dataset": "OSMa",
+      "scene": "v3_sc0_staging_00",
+      "gt_points": 8477348,
+      "evaluated_gt_points": 8477348,
+      "condition": "no_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1410103,
+      "total_map_points": 1754365,
+      "objects": 91,
+      "coverage": {
+        "0.02": 0.9559514366993074,
+        "0.05": 0.9788335927698143,
+        "0.1": 0.9852169570011754
+      },
+      "strict_5cm": {
+        "miou": 0.2690975460950861,
+        "macc": 0.4772414584766263,
+        "overall_accuracy": 0.5960041984828274
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 14.045491204000427,
+      "frames": 1380,
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00"
+    },
+    {
+      "miou": 0.2298862848328153,
+      "macc": 0.4303283940682004,
+      "overall_accuracy": 0.6541292919803406,
+      "dataset": "OSMa",
+      "scene": "v3_sc1_staging_00",
+      "gt_points": 4730363,
+      "evaluated_gt_points": 4730363,
+      "condition": "no_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 796947,
+      "total_map_points": 950170,
+      "objects": 60,
+      "coverage": {
+        "0.02": 0.9118598297847332,
+        "0.05": 0.9478815896369898,
+        "0.1": 0.9628713483510674
+      },
+      "strict_5cm": {
+        "miou": 0.2290708028560867,
+        "macc": 0.39971996981875313,
+        "overall_accuracy": 0.644578227928808
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 11.728242260000115,
+      "frames": 770,
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00"
+    },
+    {
+      "miou": 0.22594107162059207,
+      "macc": 0.3790705951362742,
+      "overall_accuracy": 0.5963165517107821,
+      "dataset": "OSMa",
+      "scene": "v3_sc2_staging_00",
+      "gt_points": 8107023,
+      "evaluated_gt_points": 8107023,
+      "condition": "no_lights",
+      "data_origin": "local_replay",
+      "assigned_map_points": 1165717,
+      "total_map_points": 1357585,
+      "objects": 94,
+      "coverage": {
+        "0.02": 0.9426003848761746,
+        "0.05": 0.9699393969894992,
+        "0.1": 0.9809367754353232
+      },
+      "strict_5cm": {
+        "miou": 0.22465132581452954,
+        "macc": 0.37032109798054197,
+        "overall_accuracy": 0.5921560849155109
+      },
+      "nearest_neighbors": 1,
+      "template": "an image of {}",
+      "vocabulary": "OSMa official scene label set, excluding 0",
+      "pose_source": "dataset_reference",
+      "classification_encoder": "SigLIP-384",
+      "evaluation_wall_seconds": 11.459584267000537,
+      "frames": 1318,
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00"
+    }
+  ],
+  "scene_means": {
+    "baseline": {
+      "scenes": 3,
+      "miou": 0.27691260251997935,
+      "macc": 0.42322307680575205,
+      "coverage_5cm": 0.961041263046905
+    },
+    "camera_lights": {
+      "scenes": 3,
+      "miou": 0.2982250854076678,
+      "macc": 0.4350685049303123,
+      "coverage_5cm": 0.9628023351235205
+    },
+    "no_lights": {
+      "scenes": 3,
+      "miou": 0.24466645964031355,
+      "macc": 0.44017330139732697,
+      "coverage_5cm": 0.9655515264654344
+    },
+    "dynamic_lights": {
+      "scenes": 3,
+      "miou": 0.24039344281151867,
+      "macc": 0.3927662415426929,
+      "coverage_5cm": 0.9568951342939082
+    }
+  }
+}

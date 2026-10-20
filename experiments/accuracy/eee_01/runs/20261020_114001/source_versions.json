@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-15T13:28:02.530383+08:00",
+  "repositories": {
+    "FAST-LIVO2": {
+      "path": "fast_livo2_ws/src/FAST-LIVO2",
+      "url": "https://github.com/Robotic-Developer-Road/FAST-LIVO2.git",
+      "commit": "837b7bbc1431cb04cf936528e52c83c835efba8e",
+      "ref": "humble"
+    },
+    "rpg_vikit": {
+      "path": "fast_livo2_ws/src/rpg_vikit",
+      "url": "https://github.com/Robotic-Developer-Road/rpg_vikit.git",
+      "commit": "4b7abc838f5d2ca9137f70f122eaaeff9eaf0f50",
+      "ref": "main"
+    },
+    "livox_ros_driver2": {
+      "path": "fast_livo2_ws/src/livox_ros_driver2",
+      "url": "https://github.com/Livox-SDK/livox_ros_driver2.git",
+      "commit": "21445540f0d100dc86a7e6df312dd70bbdb4afdf",
+      "ref": "master"
+    },
+    "Sophus": {
+      "path": "third_party/Sophus",
+      "url": "https://github.com/strasdat/Sophus.git",
+      "commit": "de0f8d3d92bf776271e16de56d1803940ebccab9",
+      "ref": "HEAD"
+    },
+    "Livox-SDK2": {
+      "path": "third_party/Livox-SDK2",
+      "url": "https://github.com/Livox-SDK/Livox-SDK2.git",
+      "commit": "c0796f04c143143899c87a773d9f6b7136453c0b",
+      "ref": "master"
+    }
+  }
+}

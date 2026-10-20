@@ -1,0 +1,30 @@
+{
+  "miou": 0.1677008245574834,
+  "macc": 0.32656659380408126,
+  "overall_accuracy": 0.3138580768666682,
+  "dataset": "Replica",
+  "scene": "office1",
+  "gt_points": 423007,
+  "evaluated_gt_points": 388647,
+  "condition": "baseline",
+  "data_origin": "released",
+  "assigned_map_points": 1708365,
+  "total_map_points": 1956184,
+  "objects": 78,
+  "coverage": {
+    "0.02": 0.5992713181884847,
+    "0.05": 0.65947247759535,
+    "0.1": 0.724243336498159
+  },
+  "strict_5cm": {
+    "miou": 0.1939880135427067,
+    "macc": 0.3003455684399086,
+    "overall_accuracy": 0.27233968099586514
+  },
+  "nearest_neighbors": 5,
+  "template": "This is a photo of a {}",
+  "vocabulary": "Replica official reduced 51",
+  "pose_source": "dataset_reference",
+  "classification_encoder": "SigLIP-384",
+  "evaluation_wall_seconds": 21.061200751999422
+}

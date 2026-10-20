@@ -1,0 +1,66 @@
+{
+  "scene": "v3_sc1_staging_00",
+  "condition": "baseline",
+  "completed": true,
+  "frames": 770,
+  "source": "local Habitat 0.3.3 replay using official HaDaGe lighting configs",
+  "source_published": "/home/hxy/SLAM_project/datasets/OSMa-Bench/data/replica_cad/v3_sc1_staging_00",
+  "pose_source": "published reference sensor poses",
+  "rgb_rendering": "Mesa llvmpipe, JPEG quality=75",
+  "fixed_depth_and_truth_from": "/home/hxy/SLAM_project/datasets/OSMa_paired/baseline/v3_sc1_staging_00",
+  "navigation_boundary_frame_ids": [
+    0,
+    168,
+    262,
+    412,
+    668
+  ],
+  "baseline_comparison_samples": [
+    {
+      "frame": 0,
+      "depth_mae_m": 6.395626303374787e-05,
+      "sem_agreement": 0.9999934895833333
+    },
+    {
+      "frame": 100,
+      "depth_mae_m": 8.01307269016556e-05,
+      "sem_agreement": 0.999990234375
+    },
+    {
+      "frame": 200,
+      "depth_mae_m": 4.7829483609267316e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 300,
+      "depth_mae_m": 3.815103173240762e-05,
+      "sem_agreement": 0.9999772135416667
+    },
+    {
+      "frame": 400,
+      "depth_mae_m": 1.3104777822283257e-05,
+      "sem_agreement": 0.9999772135416667
+    },
+    {
+      "frame": 500,
+      "depth_mae_m": 7.976017903919025e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 600,
+      "depth_mae_m": 5.301665697082984e-05,
+      "sem_agreement": 0.9999967447916667
+    },
+    {
+      "frame": 700,
+      "depth_mae_m": 1.3458934157320514e-05,
+      "sem_agreement": 1.0
+    }
+  ],
+  "wall_seconds": 116.908929532,
+  "sha256": {
+    "rgb": "4c14e1dbed32459ca973c4578506b72d6d312d80178c1925d8856cfc508b0d38",
+    "depth": "f31271db7813a7b37aca0499a3bc9d17276b43b0d732c4aa910ca321fa93431a",
+    "semantic": "556c1f944d8d3c2304ecaef17262e3161c82ff078b1662f43a9b61119dffc414"
+  }
+}

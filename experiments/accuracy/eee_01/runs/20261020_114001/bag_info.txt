@@ -1,0 +1,13 @@
+
+Files:             eee_01.db3
+Bag size:          4.3 GiB
+Storage id:        sqlite3
+Duration:          398.682868021s
+Start:             Dec 27 2020 16:50:13.114720345 (1609059013.114720345)
+End:               Dec 27 2020 16:56:51.797588366 (1609059411.797588366)
+Messages:          167936
+Topic information: Topic: /imu/imu | Type: sensor_msgs/msg/Imu | Count: 153347 | Serialization Format: cdr
+                   Topic: /left/image_raw | Type: sensor_msgs/msg/Image | Count: 3986 | Serialization Format: cdr
+                   Topic: /leica/pose/relative | Type: geometry_msgs/msg/PoseStamped | Count: 6616 | Serialization Format: cdr
+                   Topic: /os1_cloud_node1/points | Type: sensor_msgs/msg/PointCloud2 | Count: 3987 | Serialization Format: cdr
+

@@ -1,0 +1,152 @@
+{
+  "database": "/home/hxy/SLAM_project/datasets/Retail_Street_humble/Retail_Street.db3",
+  "bytes": 1995456512,
+  "integrity": "ok",
+  "schema": [
+    [
+      "schema",
+      "CREATE TABLE schema(schema_version INTEGER PRIMARY KEY, ros_distro TEXT NOT NULL)"
+    ],
+    [
+      "metadata",
+      "CREATE TABLE metadata(id INTEGER PRIMARY KEY, metadata_version INTEGER NOT NULL, metadata TEXT NOT NULL)"
+    ],
+    [
+      "topics",
+      "CREATE TABLE topics(id INTEGER PRIMARY KEY, name TEXT NOT NULL, type TEXT NOT NULL,\n                                serialization_format TEXT NOT NULL, offered_qos_profiles TEXT NOT NULL)"
+    ],
+    [
+      "messages",
+      "CREATE TABLE messages(id INTEGER PRIMARY KEY, topic_id INTEGER NOT NULL,\n                                  timestamp INTEGER NOT NULL, data BLOB NOT NULL)"
+    ]
+  ],
+  "topics": [
+    {
+      "name": "/livox/imu",
+      "type": "sensor_msgs/msg/Imu",
+      "serialization": "cdr",
+      "count": 27447,
+      "start_ns": 1664265583030094834,
+      "end_ns": 1664265718500347043,
+      "mean_rate_hz": 202.59798407739746,
+      "samples": [
+        {
+          "bag_timestamp_ns": 1664265583030094834,
+          "stamp_ns": 946685437510941982,
+          "frame_id": "livox_frame",
+          "orientation_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.005878365598618984,
+            -0.0026146285235881805,
+            0.0024534252006560564
+          ],
+          "linear_acceleration": [
+            -0.021532289683818817,
+            -0.016617104411125183,
+            0.9974053502082825
+          ]
+        },
+        {
+          "bag_timestamp_ns": 1664265718500347043,
+          "stamp_ns": 946685573018302917,
+          "frame_id": "livox_frame",
+          "orientation_xyzw": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angular_velocity": [
+            0.002682572463527322,
+            -0.0004840996116399765,
+            -0.0018076325068250299
+          ],
+          "linear_acceleration": [
+            -0.014299624599516392,
+            -0.00471524940803647,
+            0.9922783970832825
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/livox/lidar",
+      "type": "livox_ros_driver2/msg/CustomMsg",
+      "serialization": "cdr",
+      "count": 1355,
+      "start_ns": 1664265583031406241,
+      "end_ns": 1664265718496507668,
+      "mean_rate_hz": 9.995194228896283,
+      "samples": [
+        {
+          "bag_timestamp_ns": 1664265583031406241,
+          "stamp_ns": 946685437499511003,
+          "frame_id": "livox_frame",
+          "timebase": 946685277499511000,
+          "point_num": 24000,
+          "lidar_id": 0,
+          "points_length": 24000,
+          "first_point": {
+            "offset_time": 0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "bag_timestamp_ns": 1664265718496507668,
+          "stamp_ns": 946685572899635911,
+          "frame_id": "livox_frame",
+          "timebase": 946685372899636000,
+          "point_num": 24000,
+          "lidar_id": 0,
+          "points_length": 24000,
+          "first_point": {
+            "offset_time": 0,
+            "x": 10.378000259399414,
+            "y": -0.37400001287460327,
+            "z": -0.22499999403953552
+          }
+        }
+      ]
+    },
+    {
+      "name": "/left_camera/image",
+      "type": "sensor_msgs/msg/Image",
+      "serialization": "cdr",
+      "count": 1355,
+      "start_ns": 1664265583036557182,
+      "end_ns": 1664265718497365400,
+      "mean_rate_hz": 9.995511010247174,
+      "samples": [
+        {
+          "bag_timestamp_ns": 1664265583036557182,
+          "stamp_ns": 946685437499511003,
+          "frame_id": "",
+          "height": 512,
+          "width": 640,
+          "encoding": "rgb8",
+          "is_bigendian": 0,
+          "step": 1920,
+          "data_length": 983040
+        },
+        {
+          "bag_timestamp_ns": 1664265718497365400,
+          "stamp_ns": 946685572899635911,
+          "frame_id": "",
+          "height": 512,
+          "width": 640,
+          "encoding": "rgb8",
+          "is_bigendian": 0,
+          "step": 1920,
+          "data_length": 983040
+        }
+      ]
+    }
+  ]
+}

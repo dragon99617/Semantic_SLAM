@@ -1,0 +1,139 @@
+{
+  "/livox/imu": {
+    "bag_messages": 27447,
+    "log_messages": 27313,
+    "matched_bag_messages": 27313,
+    "unmatched_bag_indices": [
+      {
+        "first_index": 0,
+        "last_index": 79,
+        "count": 80,
+        "first_seconds_from_start": 0.0,
+        "last_seconds_from_start": 0.3949970006942749
+      },
+      {
+        "first_index": 5372,
+        "last_index": 5376,
+        "count": 5,
+        "first_seconds_from_start": 26.511267066001892,
+        "last_seconds_from_start": 26.53126811981201
+      },
+      {
+        "first_index": 7457,
+        "last_index": 7458,
+        "count": 2,
+        "first_seconds_from_start": 36.81410610675812,
+        "last_seconds_from_start": 36.81908893585205
+      },
+      {
+        "first_index": 13688,
+        "last_index": 13692,
+        "count": 5,
+        "first_seconds_from_start": 67.61866199970245,
+        "last_seconds_from_start": 67.63866090774536
+      },
+      {
+        "first_index": 14434,
+        "last_index": 14439,
+        "count": 6,
+        "first_seconds_from_start": 71.30193507671356,
+        "last_seconds_from_start": 71.32695305347443
+      },
+      {
+        "first_index": 17282,
+        "last_index": 17282,
+        "count": 1,
+        "first_seconds_from_start": 85.34915792942047,
+        "last_seconds_from_start": 85.34915792942047
+      },
+      {
+        "first_index": 18650,
+        "last_index": 18652,
+        "count": 3,
+        "first_seconds_from_start": 92.10267794132233,
+        "last_seconds_from_start": 92.11267602443695
+      },
+      {
+        "first_index": 19429,
+        "last_index": 19429,
+        "count": 1,
+        "first_seconds_from_start": 95.94703912734985,
+        "last_seconds_from_start": 95.94703912734985
+      },
+      {
+        "first_index": 21564,
+        "last_index": 21573,
+        "count": 10,
+        "first_seconds_from_start": 106.49992597103119,
+        "last_seconds_from_start": 106.54493796825409
+      },
+      {
+        "first_index": 22558,
+        "last_index": 22559,
+        "count": 2,
+        "first_seconds_from_start": 111.41132712364197,
+        "last_seconds_from_start": 111.41627299785614
+      },
+      {
+        "first_index": 23730,
+        "last_index": 23731,
+        "count": 2,
+        "first_seconds_from_start": 117.1967670917511,
+        "last_seconds_from_start": 117.20183002948761
+      },
+      {
+        "first_index": 23737,
+        "last_index": 23740,
+        "count": 4,
+        "first_seconds_from_start": 117.23179793357849,
+        "last_seconds_from_start": 117.24680411815643
+      },
+      {
+        "first_index": 24688,
+        "last_index": 24688,
+        "count": 1,
+        "first_seconds_from_start": 121.91921305656433,
+        "last_seconds_from_start": 121.91921305656433
+      },
+      {
+        "first_index": 24991,
+        "last_index": 24999,
+        "count": 9,
+        "first_seconds_from_start": 123.4172990322113,
+        "last_seconds_from_start": 123.44631099700928
+      },
+      {
+        "first_index": 27004,
+        "last_index": 27006,
+        "count": 3,
+        "first_seconds_from_start": 133.33114898204803,
+        "last_seconds_from_start": 133.34114611148834
+      }
+    ],
+    "comparison_tolerance_seconds": 2e-06,
+    "configured_time_offset_seconds": 0
+  },
+  "/left_camera/image": {
+    "bag_messages": 1355,
+    "log_messages": 1350,
+    "matched_bag_messages": 1350,
+    "unmatched_bag_indices": [
+      {
+        "first_index": 0,
+        "last_index": 3,
+        "count": 4,
+        "first_seconds_from_start": 0.0,
+        "last_seconds_from_start": 0.3003169298171997
+      },
+      {
+        "first_index": 1354,
+        "last_index": 1354,
+        "count": 1,
+        "first_seconds_from_start": 135.4001249074936,
+        "last_seconds_from_start": 135.4001249074936
+      }
+    ],
+    "comparison_tolerance_seconds": 2e-06,
+    "configured_time_offset_seconds": 0.1
+  }
+}

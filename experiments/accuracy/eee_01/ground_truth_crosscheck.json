@@ -1,0 +1,12 @@
+{
+  "author_gt_shape": [
+    6616,
+    8
+  ],
+  "bag_gt_shape": [
+    6616,
+    8
+  ],
+  "max_timestamp_difference_s": 2.384185791015625e-07,
+  "max_position_component_difference_m": 5.000000005139782e-07
+}

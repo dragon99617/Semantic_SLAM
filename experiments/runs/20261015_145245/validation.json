@@ -1,0 +1,53 @@
+{
+  "run_status": "playback_completed",
+  "trajectory_poses": 1348,
+  "mapper_clean_exit": true,
+  "trajectory_duration_seconds": 134.70038104057312,
+  "lidar_input_messages": 1355,
+  "sensor_time_coverage_fraction": 0.9948320293840309,
+  "initialization_gap_seconds": 0.6999038457870483,
+  "path_length_meters": 67.47964789225128,
+  "start_xyz": [
+    -0.000754,
+    0.000108,
+    1.4e-05
+  ],
+  "end_xyz": [
+    -0.029442,
+    0.023678,
+    0.003112
+  ],
+  "trajectory_xyz_min": [
+    -17.695003,
+    -19.233428,
+    -0.00321
+  ],
+  "trajectory_xyz_max": [
+    1.361727,
+    3.095119,
+    1.08661
+  ],
+  "last_trajectory_to_last_lidar_seconds": -0.00016009807586669922,
+  "vio_frames_in_log": 1346,
+  "vio_frames_with_retrieved_points": 1346,
+  "vio_frames_with_reference_updates": 1236,
+  "downsampled_map_points": 100604,
+  "map_fields": [
+    "x",
+    "y",
+    "z",
+    "rgb"
+  ],
+  "map_xyz_min": [
+    -56.43491744995117,
+    -136.92396545410156,
+    -3.637152671813965
+  ],
+  "map_xyz_max": [
+    125.15914154052734,
+    66.26467895507812,
+    80.92034912109375
+  ],
+  "ground_truth_evaluated": false,
+  "scope": "Basic full-sequence execution and output validation; no ATE/RPE claim."
+}

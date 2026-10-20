@@ -1,0 +1,16 @@
+{
+  "dataset": "Replica",
+  "scene": "room0",
+  "condition": "baseline",
+  "input_path": "/home/hxy/SLAM_project/datasets/Replica/room0",
+  "rgb_frames": 2000,
+  "depth_frames": 2000,
+  "pose_frames": 2000,
+  "requested_frame_limit": -1,
+  "pose_source": "dataset_reference",
+  "ovo_commit": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "start_time": "2026-10-20T12:52:41+0800"
+}

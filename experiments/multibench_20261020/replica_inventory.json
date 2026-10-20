@@ -1,0 +1,23 @@
+[
+  {
+    "scene": "room0",
+    "rgb": 2000,
+    "depth": 2000,
+    "poses": 2000,
+    "gt_vertices_labels": 954492
+  },
+  {
+    "scene": "office0",
+    "rgb": 2000,
+    "depth": 2000,
+    "poses": 2000,
+    "gt_vertices_labels": 589517
+  },
+  {
+    "scene": "office1",
+    "rgb": 2000,
+    "depth": 2000,
+    "poses": 2000,
+    "gt_vertices_labels": 423007
+  }
+]

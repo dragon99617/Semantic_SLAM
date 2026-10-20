@@ -1,0 +1,10 @@
+{
+  "download_date": "2026-10-20",
+  "sequence": "eee_01",
+  "official_dataset": "https://ntu-aris.github.io/ntu_viral_dataset/",
+  "url": "https://researchdata.ntu.edu.sg/api/access/datafile/68133",
+  "bytes": 4533480279,
+  "md5": "5def8677063a4fbbf3e6c116bb8e685c",
+  "official_md5_matches": true,
+  "sha256": "7cd8e99bd0ed250638dd98a7157d0ebe334bacd4d3d544f2385540dfb1ad4279"
+}

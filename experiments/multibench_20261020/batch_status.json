@@ -1,0 +1,49 @@
+{
+  "started": "2026-10-20T12:30:12+0800",
+  "M2DGR": "blocked: official download HTTP 429; user has no local data",
+  "jobs": [
+    {
+      "dataset": "OSMa",
+      "scene": "v3_sc1_staging_00",
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00",
+      "state": "completed"
+    },
+    {
+      "dataset": "Replica",
+      "scene": "office0",
+      "run": "experiments/multibench_20261020/runs/Replica/office0",
+      "state": "completed",
+      "stage": "evaluation"
+    },
+    {
+      "dataset": "OSMa",
+      "scene": "v3_sc0_staging_00",
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00",
+      "state": "completed",
+      "stage": "evaluation"
+    },
+    {
+      "dataset": "Replica",
+      "scene": "office1",
+      "run": "experiments/multibench_20261020/runs/Replica/office1",
+      "state": "completed",
+      "stage": "evaluation"
+    },
+    {
+      "dataset": "OSMa",
+      "scene": "v3_sc2_staging_00",
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00",
+      "state": "completed",
+      "stage": "evaluation"
+    },
+    {
+      "dataset": "Replica",
+      "scene": "room0",
+      "run": "experiments/multibench_20261020/runs/Replica/room0",
+      "state": "completed",
+      "stage": "evaluation"
+    }
+  ],
+  "updated": "2026-10-20T13:01:25+0800",
+  "available_data_jobs_completed": true
+}

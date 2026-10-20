@@ -1,0 +1,20 @@
+[
+  {
+    "scene": "v3_sc0_staging_00",
+    "first_frame_points": 30706,
+    "max_coordinate_error_m": 5.487514904700674e-07,
+    "class_labels_exact": true
+  },
+  {
+    "scene": "v3_sc1_staging_00",
+    "first_frame_points": 30716,
+    "max_coordinate_error_m": 5.712873036856081e-07,
+    "class_labels_exact": true
+  },
+  {
+    "scene": "v3_sc2_staging_00",
+    "first_frame_points": 30654,
+    "max_coordinate_error_m": 3.5064162240416863e-07,
+    "class_labels_exact": true
+  }
+]

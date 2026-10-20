@@ -1,0 +1,30 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/NTU_VIRAL.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/fast_livo2_ws/src/FAST-LIVO2/config/camera_NTU_VIRAL.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/NTU_VIRAL_eee01_humble",
+    "--rate",
+    "0.5",
+    "--read-ahead-queue-size",
+    "2000"
+  ],
+  "ROS_DOMAIN_ID": "71",
+  "parameter_changes": {
+    "evo.seq_name": "NTU_VIRAL_eee_01",
+    "evo.pose_output_en": true,
+    "pcd_save.pcd_save_en": false,
+    "image_save.img_save_en": false
+  },
+  "all_estimation_parameters": "unchanged from community NTU_VIRAL.yaml"
+}

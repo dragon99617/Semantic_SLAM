@@ -1,0 +1,30 @@
+{
+  "miou": 0.2852266633602567,
+  "macc": 0.4156551923534178,
+  "overall_accuracy": 0.6703316371496664,
+  "dataset": "OSMa",
+  "scene": "v3_sc2_staging_00",
+  "gt_points": 8107023,
+  "evaluated_gt_points": 8107023,
+  "condition": "baseline",
+  "data_origin": "local_replay",
+  "assigned_map_points": 1131674,
+  "total_map_points": 1357585,
+  "objects": 91,
+  "coverage": {
+    "0.02": 0.9327618781888247,
+    "0.05": 0.9641958583317205,
+    "0.1": 0.9778224386436304
+  },
+  "strict_5cm": {
+    "miou": 0.28232370787883737,
+    "macc": 0.40552466801537607,
+    "overall_accuracy": 0.6642835477338599
+  },
+  "nearest_neighbors": 1,
+  "template": "an image of {}",
+  "vocabulary": "OSMa official scene label set, excluding 0",
+  "pose_source": "dataset_reference",
+  "classification_encoder": "SigLIP-384",
+  "evaluation_wall_seconds": 15.57555868199961
+}

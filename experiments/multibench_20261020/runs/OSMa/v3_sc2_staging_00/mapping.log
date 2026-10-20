@@ -1,0 +1,283 @@
+Loaded 1318 frames
+Loading SAM2.1
+{'frame_id': 0, 'n_matches': 73036, 'n_obj': [8], 't_obj': 0.16, 't_sam': 0.77}
+{'frame_id': 10, 'n_matches': 76991, 'n_obj': [3], 't_obj': 0.042, 't_sam': 0.77}
+{'frame_id': 20, 'n_matches': 88928, 'n_obj': [4], 't_obj': 0.027, 't_sam': 0.77}
+{'frame_id': 30, 'n_matches': 102706, 'n_obj': [0], 't_obj': 0.031, 't_sam': 0.76}
+{'frame_id': 40, 'n_matches': 107767, 'n_obj': [1], 't_obj': 0.033, 't_sam': 0.8}
+{'frame_id': 50, 'n_matches': 109031, 'n_obj': [4], 't_obj': 0.03, 't_sam': 0.84}
+{'frame_id': 60, 'n_matches': 106092, 'n_obj': [5], 't_obj': 0.033, 't_sam': 0.8}
+{'frame_id': 70, 'n_matches': 105580, 'n_obj': [2], 't_obj': 0.033, 't_sam': 0.81}
+{'frame_id': 80, 'n_matches': 101620, 'n_obj': [4], 't_obj': 0.039, 't_sam': 0.8}
+{'frame_id': 90, 'n_matches': 84317, 'n_obj': [0], 't_obj': 0.033, 't_sam': 0.77}
+{'frame_id': 100, 'n_matches': 73193, 'n_obj': [1], 't_obj': 0.037, 't_sam': 0.79}
+{'frame_id': 0, 't_clip': 0.64, 't_up': 0.0}
+{'frame_id': 110, 'n_matches': 63906, 'n_obj': [3], 't_obj': 0.035, 't_sam': 0.83}
+{'frame_id': 10, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 120, 'n_matches': 62193, 'n_obj': [0], 't_obj': 0.03, 't_sam': 1.66}
+{'frame_id': 20, 't_clip': 0.79, 't_up': 0.0}
+{'frame_id': 130, 'n_matches': 59945, 'n_obj': [3], 't_obj': 0.029, 't_sam': 0.83}
+{'frame_id': 30, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 140, 'n_matches': 59408, 'n_obj': [3], 't_obj': 0.028, 't_sam': 0.82}
+{'frame_id': 40, 't_clip': 0.45, 't_up': 0.0}
+{'frame_id': 150, 'n_matches': 61633, 'n_obj': [1], 't_obj': 0.029, 't_sam': 0.83}
+{'frame_id': 50, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 160, 'n_matches': 60503, 'n_obj': [3], 't_obj': 0.035, 't_sam': 0.84}
+{'frame_id': 60, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 170, 'n_matches': 61444, 'n_obj': [1], 't_obj': 0.031, 't_sam': 0.83}
+{'frame_id': 70, 't_clip': 0.73, 't_up': 0.001}
+{'frame_id': 180, 'n_matches': 64887, 'n_obj': [1], 't_obj': 0.029, 't_sam': 0.85}
+{'frame_id': 80, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 190, 'n_matches': 73284, 'n_obj': [1], 't_obj': 0.03, 't_sam': 0.85}
+{'frame_id': 90, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 200, 'n_matches': 76022, 'n_obj': [1], 't_obj': 0.031, 't_sam': 0.86}
+{'frame_id': 100, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 210, 'n_matches': 76059, 'n_obj': [0], 't_obj': 0.026, 't_sam': 0.85}
+{'frame_id': 110, 't_clip': 0.79, 't_up': 0.001}
+{'frame_id': 220, 'n_matches': 70523, 'n_obj': [0], 't_obj': 0.033, 't_sam': 0.93}
+{'frame_id': 120, 't_clip': 0.72, 't_up': 0.001}
+{'frame_id': 230, 'n_matches': 64419, 'n_obj': [1], 't_obj': 0.027, 't_sam': 0.87}
+{'frame_id': 130, 't_clip': 0.79, 't_up': 0.0}
+{'frame_id': 240, 'n_matches': 63941, 'n_obj': [0], 't_obj': 0.038, 't_sam': 0.87}
+{'frame_id': 140, 't_clip': 0.67, 't_up': 0.0}
+{'frame_id': 250, 'n_matches': 59943, 'n_obj': [0], 't_obj': 0.024, 't_sam': 0.85}
+{'frame_id': 150, 't_clip': 0.85, 't_up': 0.0}
+{'frame_id': 260, 'n_matches': 58955, 'n_obj': [0], 't_obj': 0.027, 't_sam': 0.82}
+{'frame_id': 160, 't_clip': 0.93, 't_up': 0.0}
+{'frame_id': 270, 'n_matches': 56706, 'n_obj': [0], 't_obj': 0.029, 't_sam': 0.81}
+{'frame_id': 170, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 280, 'n_matches': 53778, 'n_obj': [0], 't_obj': 0.025, 't_sam': 0.84}
+{'frame_id': 180, 't_clip': 0.73, 't_up': 0.001}
+{'frame_id': 290, 'n_matches': 56843, 'n_obj': [0], 't_obj': 0.022, 't_sam': 0.79}
+{'frame_id': 190, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 300, 'n_matches': 64132, 'n_obj': [3], 't_obj': 0.024, 't_sam': 0.81}
+{'frame_id': 200, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 310, 'n_matches': 57066, 'n_obj': [0], 't_obj': 0.019, 't_sam': 0.79}
+{'frame_id': 210, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 320, 'n_matches': 62927, 'n_obj': [1], 't_obj': 0.033, 't_sam': 1.73}
+{'frame_id': 220, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 330, 'n_matches': 69278, 'n_obj': [0], 't_obj': 0.03, 't_sam': 0.83}
+{'frame_id': 230, 't_clip': 0.53, 't_up': 0.001}
+{'frame_id': 340, 'n_matches': 73159, 'n_obj': [2], 't_obj': 0.029, 't_sam': 0.8}
+{'frame_id': 240, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 350, 'n_matches': 67756, 'n_obj': [0], 't_obj': 0.03, 't_sam': 0.82}
+{'frame_id': 250, 't_clip': 0.59, 't_up': 0.001}
+{'frame_id': 360, 'n_matches': 62643, 'n_obj': [0], 't_obj': 0.024, 't_sam': 0.81}
+{'frame_id': 260, 't_clip': 0.53, 't_up': 0.001}
+{'frame_id': 370, 'n_matches': 55685, 'n_obj': [0], 't_obj': 0.026, 't_sam': 0.82}
+{'frame_id': 270, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 380, 'n_matches': 58275, 'n_obj': [1], 't_obj': 0.029, 't_sam': 0.81}
+{'frame_id': 280, 't_clip': 0.6, 't_up': 0.0}
+{'frame_id': 390, 'n_matches': 63914, 'n_obj': [0], 't_obj': 0.029, 't_sam': 0.77}
+{'frame_id': 290, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 400, 'n_matches': 76224, 'n_obj': [0], 't_obj': 0.029, 't_sam': 0.75}
+{'frame_id': 300, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 410, 'n_matches': 87438, 'n_obj': [1], 't_obj': 0.027, 't_sam': 0.74}
+{'frame_id': 310, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 420, 'n_matches': 105636, 'n_obj': [2], 't_obj': 0.032, 't_sam': 0.78}
+{'frame_id': 320, 't_clip': 0.72, 't_up': 0.001}
+{'frame_id': 430, 'n_matches': 161591, 'n_obj': [0], 't_obj': 0.042, 't_sam': 0.75}
+{'frame_id': 330, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 440, 'n_matches': 191762, 'n_obj': [3], 't_obj': 0.052, 't_sam': 0.79}
+{'frame_id': 340, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 450, 'n_matches': 188739, 'n_obj': [0], 't_obj': 0.056, 't_sam': 0.76}
+{'frame_id': 350, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 460, 'n_matches': 180406, 'n_obj': [0], 't_obj': 0.059, 't_sam': 0.8}
+{'frame_id': 360, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 470, 'n_matches': 176173, 'n_obj': [0], 't_obj': 0.056, 't_sam': 0.75}
+{'frame_id': 370, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 480, 'n_matches': 172442, 'n_obj': [0], 't_obj': 0.049, 't_sam': 0.77}
+{'frame_id': 380, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 490, 'n_matches': 169449, 'n_obj': [0], 't_obj': 0.058, 't_sam': 0.77}
+{'frame_id': 390, 't_clip': 0.72, 't_up': 0.001}
+{'frame_id': 500, 'n_matches': 166410, 'n_obj': [0], 't_obj': 0.054, 't_sam': 0.77}
+{'frame_id': 400, 't_clip': 0.56, 't_up': 0.0}
+{'frame_id': 510, 'n_matches': 165957, 'n_obj': [0], 't_obj': 0.063, 't_sam': 0.93}
+{'frame_id': 410, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 520, 'n_matches': 166765, 'n_obj': [2], 't_obj': 0.071, 't_sam': 0.81}
+{'frame_id': 420, 't_clip': 0.46, 't_up': 0.001}
+{'frame_id': 530, 'n_matches': 165892, 'n_obj': [0], 't_obj': 0.893, 't_sam': 0.81}
+{'frame_id': 430, 't_clip': 0.33, 't_up': 0.001}
+{'frame_id': 540, 'n_matches': 162214, 'n_obj': [0], 't_obj': 0.056, 't_sam': 0.79}
+{'frame_id': 440, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 550, 'n_matches': 172908, 'n_obj': [0], 't_obj': 0.055, 't_sam': 0.8}
+{'frame_id': 450, 't_clip': 0.27, 't_up': 0.0}
+{'frame_id': 560, 'n_matches': 181792, 'n_obj': [0], 't_obj': 0.06, 't_sam': 0.8}
+{'frame_id': 460, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 570, 'n_matches': 179964, 'n_obj': [0], 't_obj': 0.048, 't_sam': 0.81}
+{'frame_id': 470, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 580, 'n_matches': 174928, 'n_obj': [0], 't_obj': 0.053, 't_sam': 0.8}
+{'frame_id': 480, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 590, 'n_matches': 169452, 'n_obj': [0], 't_obj': 0.049, 't_sam': 0.81}
+{'frame_id': 490, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 600, 'n_matches': 159157, 'n_obj': [0], 't_obj': 0.041, 't_sam': 0.76}
+{'frame_id': 500, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 610, 'n_matches': 157303, 'n_obj': [1], 't_obj': 0.042, 't_sam': 0.76}
+{'frame_id': 510, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 620, 'n_matches': 144649, 'n_obj': [0], 't_obj': 0.046, 't_sam': 0.78}
+{'frame_id': 520, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 630, 'n_matches': 133453, 'n_obj': [2], 't_obj': 0.039, 't_sam': 0.73}
+{'frame_id': 530, 't_clip': 0.39, 't_up': 0.0}
+{'frame_id': 640, 'n_matches': 119904, 'n_obj': [1], 't_obj': 0.04, 't_sam': 0.74}
+{'frame_id': 540, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 650, 'n_matches': 113600, 'n_obj': [0], 't_obj': 0.035, 't_sam': 0.74}
+{'frame_id': 550, 't_clip': 0.39, 't_up': 0.002}
+{'frame_id': 660, 'n_matches': 101262, 'n_obj': [0], 't_obj': 0.03, 't_sam': 0.74}
+{'frame_id': 560, 't_clip': 0.39, 't_up': 0.0}
+{'frame_id': 670, 'n_matches': 72240, 'n_obj': [1], 't_obj': 0.029, 't_sam': 0.75}
+{'frame_id': 570, 't_clip': 0.27, 't_up': 0.001}
+{'frame_id': 680, 'n_matches': 54252, 'n_obj': [0], 't_obj': 0.029, 't_sam': 0.76}
+{'frame_id': 580, 't_clip': 0.46, 't_up': 0.001}
+{'frame_id': 690, 'n_matches': 51028, 'n_obj': [0], 't_obj': 0.023, 't_sam': 0.71}
+{'frame_id': 590, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 700, 'n_matches': 49921, 'n_obj': [1], 't_obj': 0.022, 't_sam': 0.77}
+{'frame_id': 600, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 710, 'n_matches': 46950, 'n_obj': [1], 't_obj': 0.018, 't_sam': 0.78}
+{'frame_id': 610, 't_clip': 0.26, 't_up': 0.0}
+{'frame_id': 720, 'n_matches': 60087, 'n_obj': [5], 't_obj': 0.026, 't_sam': 0.79}
+{'frame_id': 620, 't_clip': 0.45, 't_up': 0.0}
+{'frame_id': 730, 'n_matches': 58665, 'n_obj': [0], 't_obj': 0.025, 't_sam': 0.76}
+{'frame_id': 630, 't_clip': 0.52, 't_up': 0.0}
+{'frame_id': 740, 'n_matches': 63967, 'n_obj': [2], 't_obj': 0.023, 't_sam': 0.73}
+{'frame_id': 640, 't_clip': 0.65, 't_up': 0.0}
+{'frame_id': 750, 'n_matches': 73978, 'n_obj': [0], 't_obj': 0.024, 't_sam': 0.71}
+{'frame_id': 650, 't_clip': 0.64, 't_up': 0.0}
+{'frame_id': 760, 'n_matches': 87618, 'n_obj': [2], 't_obj': 0.034, 't_sam': 0.73}
+{'frame_id': 660, 't_clip': 0.54, 't_up': 0.0}
+{'frame_id': 770, 'n_matches': 87186, 'n_obj': [0], 't_obj': 0.029, 't_sam': 1.78}
+{'frame_id': 670, 't_clip': 0.59, 't_up': 0.001}
+{'frame_id': 780, 'n_matches': 101495, 'n_obj': [1], 't_obj': 0.041, 't_sam': 0.77}
+{'frame_id': 680, 't_clip': 0.66, 't_up': 0.001}
+{'frame_id': 790, 'n_matches': 150242, 'n_obj': [1], 't_obj': 0.071, 't_sam': 0.76}
+{'frame_id': 690, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 800, 'n_matches': 198358, 'n_obj': [0], 't_obj': 0.084, 't_sam': 0.74}
+{'frame_id': 700, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 810, 'n_matches': 206746, 'n_obj': [0], 't_obj': 0.091, 't_sam': 0.79}
+{'frame_id': 710, 't_clip': 0.46, 't_up': 0.0}
+{'frame_id': 820, 'n_matches': 235456, 'n_obj': [0], 't_obj': 0.089, 't_sam': 0.82}
+{'frame_id': 720, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 830, 'n_matches': 225125, 'n_obj': [1], 't_obj': 0.086, 't_sam': 0.81}
+{'frame_id': 730, 't_clip': 0.62, 't_up': 0.0}
+{'frame_id': 840, 'n_matches': 208969, 'n_obj': [0], 't_obj': 0.077, 't_sam': 0.86}
+{'frame_id': 740, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 850, 'n_matches': 204380, 'n_obj': [0], 't_obj': 0.068, 't_sam': 0.79}
+{'frame_id': 750, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 860, 'n_matches': 193328, 'n_obj': [0], 't_obj': 0.067, 't_sam': 0.79}
+{'frame_id': 760, 't_clip': 0.54, 't_up': 0.0}
+{'frame_id': 870, 'n_matches': 191047, 'n_obj': [0], 't_obj': 0.064, 't_sam': 0.79}
+{'frame_id': 770, 't_clip': 0.27, 't_up': 0.0}
+{'frame_id': 880, 'n_matches': 190526, 'n_obj': [0], 't_obj': 0.054, 't_sam': 0.75}
+{'frame_id': 780, 't_clip': 0.42, 't_up': 0.0}
+{'frame_id': 890, 'n_matches': 192147, 'n_obj': [0], 't_obj': 0.06, 't_sam': 0.81}
+{'frame_id': 790, 't_clip': 0.53, 't_up': 0.001}
+{'frame_id': 900, 'n_matches': 185091, 'n_obj': [0], 't_obj': 0.062, 't_sam': 0.83}
+{'frame_id': 800, 't_clip': 0.26, 't_up': 0.0}
+{'frame_id': 910, 'n_matches': 184843, 'n_obj': [0], 't_obj': 0.053, 't_sam': 0.8}
+{'frame_id': 810, 't_clip': 0.19, 't_up': 0.0}
+{'frame_id': 920, 'n_matches': 185244, 'n_obj': [1], 't_obj': 0.055, 't_sam': 0.82}
+{'frame_id': 820, 't_clip': 0.27, 't_up': 0.0}
+{'frame_id': 930, 'n_matches': 177174, 'n_obj': [0], 't_obj': 0.051, 't_sam': 0.82}
+{'frame_id': 830, 't_clip': 0.4, 't_up': 0.001}
+{'frame_id': 940, 'n_matches': 170203, 'n_obj': [0], 't_obj': 0.051, 't_sam': 0.81}
+{'frame_id': 840, 't_clip': 0.33, 't_up': 0.001}
+{'frame_id': 950, 'n_matches': 169263, 'n_obj': [0], 't_obj': 0.049, 't_sam': 0.83}
+{'frame_id': 850, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 960, 'n_matches': 172322, 'n_obj': [0], 't_obj': 0.05, 't_sam': 0.82}
+{'frame_id': 860, 't_clip': 0.33, 't_up': 0.001}
+{'frame_id': 970, 'n_matches': 186240, 'n_obj': [0], 't_obj': 0.049, 't_sam': 0.85}
+{'frame_id': 870, 't_clip': 0.19, 't_up': 0.0}
+{'frame_id': 980, 'n_matches': 189581, 'n_obj': [0], 't_obj': 0.049, 't_sam': 0.85}
+{'frame_id': 880, 't_clip': 0.2, 't_up': 0.001}
+{'frame_id': 990, 'n_matches': 176264, 'n_obj': [0], 't_obj': 0.043, 't_sam': 0.86}
+{'frame_id': 890, 't_clip': 1.39, 't_up': 0.0}
+{'frame_id': 1000, 'n_matches': 166909, 'n_obj': [0], 't_obj': 0.044, 't_sam': 0.85}
+{'frame_id': 900, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 1010, 'n_matches': 157174, 'n_obj': [0], 't_obj': 0.04, 't_sam': 0.85}
+{'frame_id': 910, 't_clip': 0.2, 't_up': 0.0}
+{'frame_id': 1020, 'n_matches': 147259, 'n_obj': [0], 't_obj': 0.04, 't_sam': 0.84}
+{'frame_id': 920, 't_clip': 0.27, 't_up': 0.001}
+{'frame_id': 1030, 'n_matches': 135077, 'n_obj': [0], 't_obj': 0.032, 't_sam': 0.84}
+{'frame_id': 1040, 'n_matches': 123543, 'n_obj': [0], 't_obj': 0.032, 't_sam': 0.83}
+{'frame_id': 940, 't_clip': 0.27, 't_up': 0.001}
+{'frame_id': 1050, 'n_matches': 111962, 'n_obj': [0], 't_obj': 0.031, 't_sam': 0.84}
+{'frame_id': 950, 't_clip': 0.27, 't_up': 0.001}
+{'frame_id': 1060, 'n_matches': 104225, 'n_obj': [0], 't_obj': 0.029, 't_sam': 0.84}
+{'frame_id': 960, 't_clip': 0.25, 't_up': 0.001}
+{'frame_id': 1070, 'n_matches': 92559, 'n_obj': [0], 't_obj': 0.031, 't_sam': 0.79}
+{'frame_id': 970, 't_clip': 0.31, 't_up': 0.0}
+{'frame_id': 1080, 'n_matches': 83200, 'n_obj': [0], 't_obj': 0.034, 't_sam': 0.78}
+{'frame_id': 980, 't_clip': 0.25, 't_up': 0.0}
+{'frame_id': 1090, 'n_matches': 76353, 'n_obj': [1], 't_obj': 0.031, 't_sam': 0.81}
+{'frame_id': 990, 't_clip': 0.25, 't_up': 0.001}
+{'frame_id': 1100, 'n_matches': 66678, 'n_obj': [0], 't_obj': 0.025, 't_sam': 0.79}
+{'frame_id': 1000, 't_clip': 0.19, 't_up': 0.001}
+{'frame_id': 1110, 'n_matches': 60163, 'n_obj': [1], 't_obj': 0.031, 't_sam': 0.77}
+{'frame_id': 1010, 't_clip': 0.19, 't_up': 0.0}
+{'frame_id': 1120, 'n_matches': 55518, 'n_obj': [0], 't_obj': 0.026, 't_sam': 0.82}
+{'frame_id': 1020, 't_clip': 0.2, 't_up': 0.001}
+{'frame_id': 1130, 'n_matches': 49936, 'n_obj': [0], 't_obj': 0.022, 't_sam': 0.81}
+{'frame_id': 1030, 't_clip': 0.19, 't_up': 0.0}
+{'frame_id': 1140, 'n_matches': 48456, 'n_obj': [0], 't_obj': 0.023, 't_sam': 0.78}
+{'frame_id': 1040, 't_clip': 0.4, 't_up': 0.001}
+{'frame_id': 1150, 'n_matches': 53828, 'n_obj': [0], 't_obj': 0.017, 't_sam': 0.77}
+{'frame_id': 1050, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 1160, 'n_matches': 63396, 'n_obj': [1], 't_obj': 0.021, 't_sam': 0.78}
+{'frame_id': 1060, 't_clip': 0.19, 't_up': 0.0}
+{'frame_id': 1170, 'n_matches': 88632, 'n_obj': [1], 't_obj': 0.03, 't_sam': 0.79}
+{'frame_id': 1070, 't_clip': 0.4, 't_up': 0.001}
+{'frame_id': 1180, 'n_matches': 92034, 'n_obj': [2], 't_obj': 0.031, 't_sam': 0.8}
+{'frame_id': 1080, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 1190, 'n_matches': 106269, 'n_obj': [0], 't_obj': 0.038, 't_sam': 0.8}
+{'frame_id': 1090, 't_clip': 0.53, 't_up': 0.0}
+{'frame_id': 1200, 'n_matches': 140222, 'n_obj': [1], 't_obj': 0.092, 't_sam': 0.83}
+{'frame_id': 1100, 't_clip': 0.66, 't_up': 0.0}
+{'frame_id': 1210, 'n_matches': 264507, 'n_obj': [0], 't_obj': 0.105, 't_sam': 0.84}
+{'frame_id': 1110, 't_clip': 0.59, 't_up': 0.0}
+{'frame_id': 1220, 'n_matches': 277991, 'n_obj': [0], 't_obj': 0.104, 't_sam': 0.85}
+{'frame_id': 1120, 't_clip': 0.4, 't_up': 0.0}
+{'frame_id': 1230, 'n_matches': 266413, 'n_obj': [0], 't_obj': 0.114, 't_sam': 0.83}
+{'frame_id': 1130, 't_clip': 0.27, 't_up': 0.0}
+{'frame_id': 1240, 'n_matches': 255645, 'n_obj': [0], 't_obj': 0.106, 't_sam': 1.94}
+{'frame_id': 1140, 't_clip': 0.27, 't_up': 0.0}
+{'frame_id': 1250, 'n_matches': 241573, 'n_obj': [0], 't_obj': 0.098, 't_sam': 0.86}
+{'frame_id': 1150, 't_clip': 0.2, 't_up': 0.0}
+{'frame_id': 1260, 'n_matches': 238598, 'n_obj': [0], 't_obj': 0.1, 't_sam': 0.81}
+{'frame_id': 1160, 't_clip': 0.27, 't_up': 0.0}
+{'frame_id': 1270, 'n_matches': 226191, 'n_obj': [0], 't_obj': 0.104, 't_sam': 0.82}
+{'frame_id': 1170, 't_clip': 0.33, 't_up': 0.0}
+{'frame_id': 1280, 'n_matches': 222630, 'n_obj': [0], 't_obj': 0.105, 't_sam': 0.8}
+{'frame_id': 1180, 't_clip': 0.41, 't_up': 0.0}
+{'frame_id': 1290, 'n_matches': 219536, 'n_obj': [0], 't_obj': 0.094, 't_sam': 0.8}
+{'frame_id': 1190, 't_clip': 0.34, 't_up': 0.0}
+{'frame_id': 1300, 'n_matches': 217023, 'n_obj': [0], 't_obj': 0.087, 't_sam': 0.79}
+{'frame_id': 1200, 't_clip': 0.37, 't_up': 0.0}
+{'frame_id': 1310, 'n_matches': 220797, 'n_obj': [0], 't_obj': 0.081, 't_sam': 0.72}
+{'frame_id': 1210, 't_clip': 0.37, 't_up': 0.001}
+{'frame_id': 1220, 't_clip': 0.53, 't_up': 0.001}
+{'frame_id': 1230, 't_clip': 0.2, 't_up': 0.0}
+{'frame_id': 1240, 't_clip': 0.3, 't_up': 0.0}
+{'frame_id': 1250, 't_clip': 0.2, 't_up': 0.0}
+{'frame_id': 1260, 't_clip': 0.31, 't_up': 0.002}
+{'frame_id': 1270, 't_clip': 0.21, 't_up': 0.0}
+{'frame_id': 1280, 't_clip': 0.15, 't_up': 0.0}
+{'frame_id': 1290, 't_clip': 0.27, 't_up': 0.001}
+{'frame_id': 1300, 't_clip': 0.33, 't_up': 0.001}
+{'frame_id': 1310, 't_clip': 0.27, 't_up': 0.0}
+/home/hxy/SLAM_project/third_party/OVO/ovo/entities/logger.py:102: RuntimeWarning: Mean of empty slice.
+  stats = {f"Avg {key}": np.asarray(stat).mean().round(3) for key, stat in self.stats.items() if key not in ["frame_id", "max_vram", "max_ram"] }
+/home/hxy/SLAM_project/third_party/semantic_venv/lib/python3.11/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Final statistics:
+{'Avg avg_fps': 0.674,
+ 'Avg n_matches': 124910.538,
+ 'Avg n_obj': 0.697,
+ 'Avg ram': 2.917,
+ 'Avg spf': 1.312,
+ 'Avg t_clip': 0.453,
+ 'Avg t_obj': 0.052,
+ 'Avg t_sam': 0.831,
+ 'Avg t_seg': nan,
+ 'Avg t_up': 0.0,
+ 'Avg vram': 5.075,
+ 'Max RAM': 2.97,
+ 'Max vRAM': 5.54}

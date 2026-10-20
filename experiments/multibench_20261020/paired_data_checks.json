@@ -1,0 +1,113 @@
+{
+  "all_complete": true,
+  "groups": [
+    {
+      "scene": "v3_sc0_staging_00",
+      "condition": "baseline",
+      "frames": 1380,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": false
+    },
+    {
+      "scene": "v3_sc0_staging_00",
+      "condition": "camera_lights",
+      "frames": 1380,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc0_staging_00",
+      "condition": "no_lights",
+      "frames": 1380,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc0_staging_00",
+      "condition": "dynamic_lights",
+      "frames": 1380,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc1_staging_00",
+      "condition": "baseline",
+      "frames": 770,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": false
+    },
+    {
+      "scene": "v3_sc1_staging_00",
+      "condition": "camera_lights",
+      "frames": 770,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc1_staging_00",
+      "condition": "no_lights",
+      "frames": 770,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc1_staging_00",
+      "condition": "dynamic_lights",
+      "frames": 770,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc2_staging_00",
+      "condition": "baseline",
+      "frames": 1318,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": false
+    },
+    {
+      "scene": "v3_sc2_staging_00",
+      "condition": "camera_lights",
+      "frames": 1318,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc2_staging_00",
+      "condition": "no_lights",
+      "frames": 1318,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    },
+    {
+      "scene": "v3_sc2_staging_00",
+      "condition": "dynamic_lights",
+      "frames": 1318,
+      "hashes_verified": true,
+      "poses_intrinsics_classes_identical": true,
+      "fixed_gt_and_depth": true,
+      "rgb_differs_from_baseline": true
+    }
+  ]
+}

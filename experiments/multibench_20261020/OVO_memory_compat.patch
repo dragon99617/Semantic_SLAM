@@ -1,0 +1,87 @@
+diff --git a/ovo/entities/clip_generator.py b/ovo/entities/clip_generator.py
+index 858828f..1d3685a 100644
+--- a/ovo/entities/clip_generator.py
++++ b/ovo/entities/clip_generator.py
+@@ -22,13 +22,18 @@ class CLIPGenerator:
+                 model_config = yaml.full_load(f)
+             pt_path = os.path.join(config["weights_predictor_path"], "model.pt")
+ 
+-            model_weights = torch.load(pt_path, weights_only=False)
+-            self.clips_fusion_model = WeightsPredictorMerger(model_config["model"]).eval()
+-            self.clips_fusion_model.load_state_dict(model_weights)
++            # Avoid two resident copies of the large published fusion MLP on
++            # memory-limited hosts; the model architecture and weights match.
++            model_weights = torch.load(pt_path, map_location="cpu", weights_only=False, mmap=True)
++            with torch.device("meta"):
++                self.clips_fusion_model = WeightsPredictorMerger(model_config["model"]).eval()
++            self.clips_fusion_model.load_state_dict(model_weights, assign=True)
++            del model_weights
+ 
+             self.clips_fusion = lambda clip_g, clip_seg, clip_bbox: self.clips_fusion_model(torch.cat([clip_g[:,None], clip_seg[:,None],clip_bbox[:,None]], dim=1))
+             if config.get("use_half", False):
+                 self.clips_fusion_model.half()
++            self.clips_fusion_model.to(self.device)
+         else:
+             w_masked = config.get("w_masked", 0.4418)
+             w_global = config.get("w_global", 0.1)
+@@ -119,7 +124,9 @@ class CLIPGenerator:
+         processed_input = self.preprocess(input)
+         if self.config.get("use_half", False):
+             processed_input = processed_input.half()
+-        return self.model.encode_image(processed_input)    
++        batch_size = self.config.get("image_batch_size", 8)
++        return torch.cat([self.model.encode_image(part)
++                          for part in processed_input.split(batch_size)], dim=0)
+ 
+     @torch.no_grad
+     def extract_clip(self, image: torch.Tensor, binary_maps: torch.Tensor, return_all: bool = False) -> torch.Tensor:
+@@ -196,4 +203,4 @@ class CLIPGenerator:
+             txt_embeds[j] = torch.nn.functional.normalize(embed, p=2, dim=-1)
+ 
+         sim_map = self.get_similarity(txt_embeds, ins_descriptors, *self.similarity_args)
+-        return sim_map
+\ No newline at end of file
++        return sim_map
+diff --git a/ovo/utils/clip_utils.py b/ovo/utils/clip_utils.py
+index 80c226b..a792563 100644
+--- a/ovo/utils/clip_utils.py
++++ b/ovo/utils/clip_utils.py
+@@ -3,8 +3,6 @@ from torchvision.transforms import Resize, Normalize, CenterCrop, Compose
+ import open_clip
+ import torch
+ 
+-import core.vision_encoder.pe as pe
+-import core.vision_encoder.transforms as transforms
+ 
+ 
+ def siglip_cosine_similarity(txt_embeds:torch.Tensor, img_embed: torch.Tensor, logit_scale:torch.Tensor, logit_bias:float) -> torch.Tensor:
+@@ -88,6 +86,10 @@ def load_clip_model(model_card: str, use_half: bool) -> Tuple[Any, Any, Compose,
+ 
+ 
+ def load_perception_encoder(model_card: str, ckpt_path = None) -> Tuple[Any, Any, Compose, str]:
++    # Optional PE dependency is only needed for PE descriptors. SigLIP is the
++    # published OVO default and can run without installing a second encoder.
++    import core.vision_encoder.pe as pe
++    import core.vision_encoder.transforms as transforms
+ 
+     if "Core" in model_card:
+         model = pe.CLIP.from_config(model_card, pretrained=True, checkpoint_path=str(ckpt_path / f"data/input/ckpts/pe/{model_card}.pt") if ckpt_path else None).cuda()
+@@ -113,4 +115,4 @@ def load_perception_encoder(model_card: str, ckpt_path = None) -> Tuple[Any, Any
+ 
+ 
+ def load_camfusion_model(ckpt_path: str):
+-    raise NotImplementedError("CAMFusion loading function not implemented yet.")
+\ No newline at end of file
++    raise NotImplementedError("CAMFusion loading function not implemented yet.")
+diff --git a/ovo/utils/segment_utils.py b/ovo/utils/segment_utils.py
+index a9464e7..07faae6 100644
+--- a/ovo/utils/segment_utils.py
++++ b/ovo/utils/segment_utils.py
+@@ -304,6 +304,7 @@ def load_sam(config: Dict[str, Any], device: str = "cuda") -> SamAutomaticMaskGe
+ 
+     mask_generator = SamAutomaticMaskGenerator(
+         model=sam,
++        points_per_batch=config.get("points_per_batch", 64),
+         **sam_config
+     )
+     return mask_generator

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "frames": [
+    {
+      "frame": 0,
+      "pose_error": 0.0,
+      "depth_mae_m": 6.395626303374785e-05,
+      "depth_within_1cm": 0.9999967447916667,
+      "semantic_agreement": 0.9999934895833333,
+      "rgb_mean": 71.93411458333334
+    },
+    {
+      "frame": 100,
+      "pose_error": 0.0,
+      "depth_mae_m": 8.013072690165557e-05,
+      "depth_within_1cm": 0.9999446614583334,
+      "semantic_agreement": 0.999990234375,
+      "rgb_mean": 108.56411675347222
+    },
+    {
+      "frame": 500,
+      "pose_error": 9.88128640022623e-09,
+      "depth_mae_m": 7.976017903919023e-05,
+      "depth_within_1cm": 1.0,
+      "semantic_agreement": 0.9999967447916667,
+      "rgb_mean": 87.41318250868055
+    }
+  ]
+}

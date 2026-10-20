@@ -1,0 +1,37 @@
+{
+  "OVO": {
+    "path": "third_party/OVO",
+    "commit": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+    "remote": "https://github.com/tberriel/OVO.git"
+  },
+  "OSMa-Bench": {
+    "path": "third_party/OSMa-Bench",
+    "commit": "7d9f33c756adaea2030711d24b08ca96d74ff344",
+    "remote": "https://github.com/be2rlab/OSMa-Bench.git"
+  },
+  "M2DGR": {
+    "path": "third_party/M2DGR",
+    "commit": "5db59c1fe38d8f1d2fb3a71f1f8c5581b8de00e5",
+    "remote": "https://github.com/SJTU-ViSYS/M2DGR.git"
+  },
+  "SAM2": {
+    "path": "third_party/OVO/thirdParty/segment-anything-2",
+    "commit": "c98aa6bea377d5c000cdc80197ce402dbf5304dc",
+    "remote": "https://github.com/facebookresearch/sam2.git"
+  },
+  "M2DGR-Benchmark": {
+    "path": "third_party/M2DGR-Benchmark",
+    "commit": "44bbaa27bf3935f691f412be3951efdb526b34f5",
+    "remote": "https://github.com/sjtuyinjie/M2DGR-Benchmark.git"
+  },
+  "SigLIP": {
+    "repository": "timm/ViT-SO400M-14-SigLIP-384",
+    "commit": "ac16108d567c4389e6cd2b11c9b8585f7474435b",
+    "filename": "open_clip_model.safetensors"
+  },
+  "HaDaGe": {
+    "path": "third_party/HaDaGe",
+    "commit": "8e659d54e32dddfbf62b9c1940e207aeee381175",
+    "remote": "https://github.com/warmhammer/habitat_data_generator.git"
+  }
+}

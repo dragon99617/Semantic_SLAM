@@ -1,0 +1,136 @@
+/laserMapping:
+  ros__parameters:
+    common:
+      img_en: 1
+      img_topic: /left/image_raw
+      imu_topic: /imu/imu
+      lid_topic: /os1_cloud_node1/points
+      lidar_en: 1
+      ros_driver_bug_fix: false
+    debug:
+      frame_cnt: 6
+      plot_time: -10.0
+    evo:
+      pose_output_en: true
+      seq_name: NTU_VIRAL_eee_01
+    extrin_calib:
+      Pcl:
+      - 0.122993
+      - 0.0398643
+      - -0.0577101
+      Rcl:
+      - 0.0218308
+      - 0.99976
+      - -0.00201407
+      - -0.0131205
+      - 0.00230088
+      - 0.999911
+      - 0.999676
+      - -0.0218025
+      - 0.0131676
+      extrinsic_R:
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      - 0.0
+      - 0.0
+      - 0.0
+      - 1.0
+      extrinsic_T:
+      - -0.05
+      - 0.0
+      - 0.055
+    image_save:
+      img_save_en: false
+      interval: 1
+    imu:
+      acc_cov: 0.5
+      ba_bg_est_en: true
+      gravity_est_en: true
+      gyr_cov: 0.3
+      imu_en: true
+      imu_int_frame: 30
+    lio:
+      beam_err: 0.01
+      dept_err: 0.02
+      layer_init_num:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+      max_layer: 2
+      max_points_num: 50
+      min_eigen_value: 0.0025
+      min_iterations: 5
+      sigma_num: 3.0
+      voxel_size: 0.5
+    local_map:
+      half_map_size: 100
+      map_sliding_en: false
+      sliding_thresh: 8.0
+    pcd_save:
+      colmap_output_en: false
+      filter_size_pcd: 0.15
+      interval: -1
+      pcd_save_en: false
+      type: 0
+    preprocess:
+      blind: 1.0
+      feature_extract_enabled: false
+      filter_size_surf: 0.1
+      hilti_en: false
+      lidar_type: 3
+      point_filter_num: 3
+      scan_line: 16
+    publish:
+      blind_rgb_points: 0.0
+      dense_map_en: true
+      pub_effect_point_en: false
+      pub_plane_en: false
+      pub_scan_num: 1
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    rgb_img:
+      enable_pub_plugins:
+      - image_transport/compressedDepth
+      - image_transport/compressed
+      - image_transport/raw
+      - image_transport/theora
+      format: jpeg
+      jpeg_quality: 95
+      png_level: 3
+      tiff:
+        res_unit: inch
+        xdpi: -1
+        ydpi: -1
+    time_offset:
+      exposure_time_init: 0.0
+      img_time_offset: 0.0
+      imu_time_offset: 0.0
+      lidar_time_offset: -0.1
+    uav:
+      gravity_align_en: false
+      imu_rate_odom: false
+    use_sim_time: false
+    vio:
+      exposure_estimate_en: true
+      grid_n_height: 17
+      grid_size: 5
+      img_point_cov: 100
+      inv_expo_cov: 0.1
+      inverse_composition_en: false
+      max_iterations: 5
+      normal_en: true
+      outlier_threshold: 1000
+      patch_pyrimid_level: 3
+      patch_size: 8
+      raycast_en: false
+

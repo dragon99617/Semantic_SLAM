@@ -1,0 +1,23 @@
+{
+  "scene": "v3_sc0_staging_00",
+  "condition": "no_lights",
+  "completed": true,
+  "frames": 1380,
+  "source": "local Habitat 0.3.3 replay using official HaDaGe lighting configs",
+  "source_published": "/home/hxy/SLAM_project/datasets/OSMa-Bench/data/replica_cad/v3_sc0_staging_00",
+  "pose_source": "published reference sensor poses",
+  "rgb_rendering": "Mesa llvmpipe, JPEG quality=75",
+  "fixed_depth_and_truth_from": "/home/hxy/SLAM_project/datasets/OSMa_paired/baseline/v3_sc0_staging_00",
+  "navigation_boundary_frame_ids": [
+    0,
+    134,
+    442,
+    582,
+    972
+  ],
+  "baseline_comparison_samples": [],
+  "wall_seconds": 56.35657077700034,
+  "sha256": {
+    "rgb": "763a1d3c2264023757c68826e096c99e2adf51034bee2edbd4c9c39cb509d952"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "source_bag": "/home/hxy/SLAM_project/datasets/NTU_VIRAL_original/extracted/eee_01/eee_01.bag",
+  "selected_topics": [
+    "/imu/imu",
+    "/left/image_raw",
+    "/leica/pose/relative",
+    "/os1_cloud_node1/points"
+  ],
+  "all_selected_record_counts_match_source": true,
+  "sensor_headers_preserved": true,
+  "all_image_and_pointcloud_buffers_verified_equal_after_conversion": true,
+  "record_timestamps_preserved": true,
+  "data_transform": "ROS 1 wire serialization to ROS 2 CDR only; Header.seq omitted by ROS 2 schema",
+  "ground_truth": "Leica measured prism positions from message header times; identity quaternions are placeholders, not measured orientations",
+  "restamping_applied": false,
+  "concatenated_ros1_payload_sha256": "7a5cd5d00921016cde5c9ab146984e26f9fc22e56dbf070cc9e952553e915b7b",
+  "concatenated_cdr_payload_sha256": "2090efca6fdaded1f82ba9f7acd6e1bfe127ddaa143b443782f458262fe2b51c",
+  "headers": {
+    "/imu/imu": {
+      "count": 153347,
+      "first_ns": 1609059013114589857,
+      "last_ns": 1609059411797435511,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 6.26e-06,
+      "dt_median_s": 0.0050621325,
+      "dt_max_s": 0.022256221
+    },
+    "/left/image_raw": {
+      "count": 3986,
+      "first_ns": 1609059013170260000,
+      "last_ns": 1609059411795316000,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.098477,
+      "dt_median_s": 0.100031,
+      "dt_max_s": 0.101472
+    },
+    "/os1_cloud_node1/points": {
+      "count": 3987,
+      "first_ns": 1609059013173237687,
+      "last_ns": 1609059411783955170,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.069217624,
+      "dt_median_s": 0.10299000950000001,
+      "dt_max_s": 0.112734575
+    },
+    "/leica/pose/relative": {
+      "count": 6616,
+      "first_ns": 1609059060109753943,
+      "last_ns": 1609059396474166966,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.03738904,
+      "dt_median_s": 0.049820185,
+      "dt_max_s": 0.245398045
+    }
+  },
+  "image": {
+    "width": 752,
+    "height": 480,
+    "encoding": "mono8",
+    "step": 752
+  },
+  "pointcloud": {
+    "width": 1024,
+    "height": 16,
+    "point_step": 48,
+    "row_step": 49152,
+    "fields": [
+      {
+        "name": "x",
+        "offset": 0,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "y",
+        "offset": 4,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "z",
+        "offset": 8,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "intensity",
+        "offset": 16,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "t",
+        "offset": 20,
+        "datatype": 6,
+        "count": 1
+      },
+      {
+        "name": "reflectivity",
+        "offset": 24,
+        "datatype": 4,
+        "count": 1
+      },
+      {
+        "name": "ring",
+        "offset": 26,
+        "datatype": 2,
+        "count": 1
+      },
+      {
+        "name": "ambient",
+        "offset": 28,
+        "datatype": 4,
+        "count": 1
+      },
+      {
+        "name": "range",
+        "offset": 32,
+        "datatype": 6,
+        "count": 1
+      }
+    ]
+  },
+  "conversion_seconds": 67.37493735099997
+}

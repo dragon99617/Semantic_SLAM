@@ -1,0 +1,41 @@
+{
+  "status": "playback_completed",
+  "error": null,
+  "wall_seconds": 157.2550967940042,
+  "play_rate": 1.0,
+  "received_message_counts": {
+    "/aft_mapped_to_init": 1348,
+    "/cloud_registered": 2695,
+    "/rgb_img": 1347,
+    "/livox/lidar": 1325,
+    "/livox/imu": 26826,
+    "/left_camera/image": 1324
+  },
+  "first_header_stamp": {
+    "/aft_mapped_to_init": 1792047176.1079261,
+    "/cloud_registered": 1792047176.1152802,
+    "/rgb_img": 1792047176.1193275,
+    "/livox/lidar": 946685440.499361,
+    "/livox/imu": 946685440.516208,
+    "/left_camera/image": 946685440.499361
+  },
+  "last_header_stamp": {
+    "/aft_mapped_to_init": 1792047313.1732662,
+    "/cloud_registered": 1792047313.1766746,
+    "/rgb_img": 1792047313.152273,
+    "/livox/lidar": 946685572.8996359,
+    "/livox/imu": 946685573.0183029,
+    "/left_camera/image": 946685572.799796
+  },
+  "last_cloud_points": 0,
+  "max_cloud_points": 14566,
+  "nonempty_cloud_messages": 1347,
+  "mapper_clean_exit": true,
+  "timestamp_basis": {
+    "input_headers": "sensor time",
+    "odometry_topic": "node/system time",
+    "Retail_Street.txt": "sensor time"
+  },
+  "mapper_launch_returncode": 0,
+  "player_returncode": 0
+}

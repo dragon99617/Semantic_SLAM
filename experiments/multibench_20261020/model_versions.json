@@ -1,0 +1,24 @@
+[
+  {
+    "path": "third_party/OVO/data/input/sam_ckpts/sam2.1_hiera_large.pt",
+    "bytes": 898083611,
+    "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "source": "https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt"
+  },
+  {
+    "path": "third_party/OVO/data/input/weights_predictor/base/model.pt",
+    "bytes": 3599650274,
+    "sha256": "cf83bc853446fcbcfdf2c21496d38256f19ecc67874a240511fa91f5d7f01192",
+    "source": "https://drive.google.com/file/d/186wZ2mLES_QjUjW8l2DmVmlWDpNl2fSY/view",
+    "note": "Publisher link distributes a torch.save ZIP-format checkpoint, placed as model.pt. SHA-256 records this download; no publisher checksum supplied."
+  },
+  {
+    "repository": "timm/ViT-SO400M-14-SigLIP-384",
+    "filename": "open_clip_model.safetensors",
+    "revision": "ac16108d567c4389e6cd2b11c9b8585f7474435b",
+    "lfs_sha256": "97faeafa0576c1ba4c92bae739ca06ef5f5d0c2db92f86a6086653d82a262043",
+    "sha256": "97faeafa0576c1ba4c92bae739ca06ef5f5d0c2db92f86a6086653d82a262043",
+    "bytes": 3511918424,
+    "lfs_hash_verified": true
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/config/retail_street.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/Retail_Street_humble",
+    "--rate",
+    "1.0"
+  ],
+  "ROS_DOMAIN_ID": "0"
+}

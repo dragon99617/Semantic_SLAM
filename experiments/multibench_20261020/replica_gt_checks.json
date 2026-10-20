@@ -1,0 +1,20 @@
+[
+  {
+    "scene": "office0",
+    "vertices": 589517,
+    "valid_gt_vertices": 520670,
+    "gt_class_count": 24
+  },
+  {
+    "scene": "office1",
+    "vertices": 423007,
+    "valid_gt_vertices": 388647,
+    "gt_class_count": 22
+  },
+  {
+    "scene": "room0",
+    "vertices": 954492,
+    "valid_gt_vertices": 946107,
+    "gt_class_count": 28
+  }
+]

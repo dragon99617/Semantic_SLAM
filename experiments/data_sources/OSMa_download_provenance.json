@@ -1,0 +1,7 @@
+{
+  "url": "https://huggingface.co/datasets/warmhammer/OSMa-Bench_dataset/resolve/compressed/data.zip",
+  "bytes": 3218010116,
+  "sha256": "e03b11abd0c9f6062296e5b348cd3c0049c3d5a18f3493fd5a3ed2d4e24f71fa",
+  "matches_huggingface_lfs_sha256": true,
+  "extracted_with_crc_validation": true
+}
