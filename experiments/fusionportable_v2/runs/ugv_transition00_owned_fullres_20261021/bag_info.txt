@@ -1,0 +1,12 @@
+
+Files:             fusionportable.db3
+Bag size:          50.6 GiB
+Storage id:        sqlite3
+Duration:          491.997245563s
+Start:             Jun 13 2023 08:09:49.000045174 (1686614989.000045174)
+End:               Jun 13 2023 08:18:00.997290737 (1686615480.997290737)
+Messages:          113161
+Topic information: Topic: /os_cloud_node/points | Type: sensor_msgs/msg/PointCloud2 | Count: 4921 | Serialization Format: cdr
+                   Topic: /left_camera/image | Type: sensor_msgs/msg/Image | Count: 9840 | Serialization Format: cdr
+                   Topic: /stim300/imu/data_raw | Type: sensor_msgs/msg/Imu | Count: 98400 | Serialization Format: cdr
+

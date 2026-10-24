@@ -1,0 +1,8 @@
+{
+  "updated_at": "2026-10-23T12:18:19.292419+08:00",
+  "id": "ntu_eee01",
+  "old_path": "experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+  "new_path": "datasets/NTU_VIRAL_eee01_humble/eee_01_gt_from_bag.tum",
+  "identical_sha256": "61dff03eb13716c5f88759cfb6a69107d7bf168d91b42bc9c63a66011fd5d262",
+  "reason": "Use canonical converter-produced dataset reference for fresh-machine reproduction instead of a historical run directory. Same bytes, no metric/data/parameter change; prior run descriptors remain untouched."
+}

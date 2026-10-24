@@ -1,0 +1,30 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r2/mapper.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r2/camera.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/FusionPortableV2/ugv_transition00_humble",
+    "--rate",
+    "0.5",
+    "--read-ahead-queue-size",
+    "300",
+    "--start-paused",
+    "--wait-for-all-acked",
+    "5000",
+    "--qos-profile-overrides-path",
+    "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r2/playback_qos.yaml"
+  ],
+  "transport_protocol": "startup_sync_plus_lag_capped_playback",
+  "ROS_DOMAIN_ID": "82",
+  "OMP_NUM_THREADS": "2"
+}

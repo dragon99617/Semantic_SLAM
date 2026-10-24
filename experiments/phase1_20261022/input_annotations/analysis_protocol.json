@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-22T20:08:36.162564",
+  "alignment": "Reuse each full-sequence global SE3 and association CSV; do not realign per window",
+  "windows_relative_to_boundary_midpoint_s": {
+    "before": [
+      -30,
+      -10
+    ],
+    "transition": [
+      -10,
+      10
+    ],
+    "after": [
+      10,
+      30
+    ]
+  },
+  "overlap_policy": "Report next/previous boundary overlap and truncation; do not count overlapped windows as independent samples",
+  "recovery": "Exploratory fixed criterion: after center, APE above 0.5m triggers an excursion; first subsequent 5s with all matched APE<=0.5m and no matched-data gap>0.5s within 30s is return-below-threshold, otherwise right-censored. No excursion means not applicable, not zero recovery. Not proof of relocalization.",
+  "trajectory_gap_flag_s": 0.5,
+  "reset_detection": "Only explicit reset/reinitialization evidence in log; position jumps alone do not establish reset",
+  "diagnostics": "Image intensity/black/saturation statistics, visual retrieval/update counts, pose intervals; no claim of novel recovery/gating mechanism",
+  "semantic_scope": "OVO uses reference poses; original 18 runs and independent metrics are retained, not an integrated FAST-LIVO2+OVO result"
+}

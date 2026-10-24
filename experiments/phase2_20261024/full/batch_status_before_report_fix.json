@@ -1,0 +1,47 @@
+{
+  "status": "failed",
+  "semantic_accuracy": "awaiting_independent_annotation",
+  "stages": {
+    "oxford02_capture": {
+      "state": "completed"
+    },
+    "oxford05_capture": {
+      "state": "running",
+      "pid": 4532,
+      "command": [
+        "python3",
+        "-u",
+        "scripts/capture_livo_ovo.py",
+        "experiments/phase1_20261022/oxford05.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase2_20261024/full/captures/oxford05_full_r1",
+        "--seconds",
+        "0",
+        "--rate",
+        ".5"
+      ]
+    },
+    "oxford02_prepare": {
+      "state": "completed",
+      "returncode": 0
+    },
+    "oxford02_ovo": {
+      "state": "completed",
+      "returncode": 0
+    },
+    "oxford02_map_checks": {
+      "state": "completed",
+      "returncode": 0
+    },
+    "oxford02_transition_audit": {
+      "state": "failed",
+      "returncode": 1
+    },
+    "batch": {
+      "state": "failed",
+      "error": "RuntimeError: oxford02_transition_audit failed; see its log"
+    }
+  },
+  "updated_at": "2026-10-24T01:29:39.094104+08:00",
+  "error": "RuntimeError: oxford02_transition_audit failed; see its log"
+}

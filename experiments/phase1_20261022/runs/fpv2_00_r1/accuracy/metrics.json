@@ -1,0 +1,213 @@
+{
+  "status": "evaluated",
+  "dataset": "FusionPortableV2",
+  "sequence": "ugv_transition00",
+  "poses": 9834,
+  "trajectory_duration_s": 491.7000160217285,
+  "path_length_m": 467.58841409573284,
+  "trajectory_span_fraction": 0.9993938224885368,
+  "protocol": {
+    "alignment": "One global SE3 per association protocol",
+    "scale": 1.0,
+    "extra_time_offset_s": 0.0,
+    "time_offset_search": false,
+    "nearest_tolerance_s": 0.01,
+    "interpolation_max_each_neighbor_distance_s": 0.1,
+    "interpolation_max_total_bracket_span_s": 0.2
+  },
+  "comparisons": {
+    "imu_direct": {
+      "nearest": {
+        "stats_m": {
+          "rmse": 0.1685805430227578,
+          "mean": 0.13563392847908945,
+          "median": 0.12066554732834456,
+          "std": 0.10011411953953918,
+          "min": 0.003540631441302371,
+          "max": 1.691794525188445,
+          "sse": 105.97594068272679
+        },
+        "reference_poses": 8283,
+        "estimated_poses": 9834,
+        "associated_poses": 3729,
+        "associated_estimate_fraction": 0.37919463087248323,
+        "matched_time_start_s": 1686614989.522207,
+        "matched_time_end_s": 1686615480.918473,
+        "reference_time_start_s": 1686614983.38,
+        "reference_time_end_s": 1686615490.469987,
+        "association_abs_dt_max_s": 0.009999990463256836,
+        "association_abs_dt_median_s": 0.009099006652832031,
+        "alignment_R": [
+          [
+            0.13221768783615304,
+            -0.9911994779363182,
+            0.00648675281115819
+          ],
+          [
+            0.9911951719291752,
+            0.13216448080861906,
+            -0.00804245962881595
+          ],
+          [
+            0.0071143634679857095,
+            0.007492993484555643,
+            0.9999466190157781
+          ]
+        ],
+        "alignment_t": [
+          -67.86773711169239,
+          32.15739250329475,
+          1.2508485275360297
+        ],
+        "scale": 1.0,
+        "reference_file": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/ugv_transition00_gt.tum",
+        "estimate_file": "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct.tum",
+        "command": [
+          "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+          "tum",
+          "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/ugv_transition00_gt.tum",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct.tum",
+          "-a",
+          "--no_warnings",
+          "--t_max_diff",
+          "0.01",
+          "--save_results",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_evo_ape.zip"
+        ]
+      },
+      "interpolated": {
+        "rmse_m": 0.17512911102241546,
+        "mean_m": 0.15050151615991775,
+        "median_m": 0.1397158436861281,
+        "max_m": 1.5773983334349795,
+        "matched_poses": 7969,
+        "estimated_poses": 9834,
+        "max_bracket_distance_s": 0.1,
+        "matched_time_start_s": 1686614989.218457,
+        "matched_time_end_s": 1686615480.918473,
+        "alignment": "rigid rotation and translation, no scale correction",
+        "time_offset_s": 0.0,
+        "reference_file": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/ugv_transition00_gt.tum"
+      }
+    },
+    "prism_compensated": {
+      "nearest": {
+        "stats_m": {
+          "rmse": 0.1684686092025533,
+          "mean": 0.1355670108478785,
+          "median": 0.12096866264329423,
+          "std": 0.10001628795558164,
+          "min": 0.003537678311316484,
+          "max": 1.692181555774478,
+          "sse": 105.83525595689036
+        },
+        "reference_poses": 8283,
+        "estimated_poses": 9834,
+        "associated_poses": 3729,
+        "associated_estimate_fraction": 0.37919463087248323,
+        "matched_time_start_s": 1686614989.522207,
+        "matched_time_end_s": 1686615480.918473,
+        "reference_time_start_s": 1686614983.38,
+        "reference_time_end_s": 1686615490.469987,
+        "association_abs_dt_max_s": 0.009999990463256836,
+        "association_abs_dt_median_s": 0.009099006652832031,
+        "alignment_R": [
+          [
+            0.1321876391502215,
+            -0.9912034868231084,
+            0.006486583507669732
+          ],
+          [
+            0.9911991854555151,
+            0.13213444137902144,
+            -0.008041402475759386
+          ],
+          [
+            0.007113565084676371,
+            0.007492470297918801,
+            0.9999466286160582
+          ]
+        ],
+        "alignment_t": [
+          -67.86616137245247,
+          32.1570136116018,
+          1.1067809138690072
+        ],
+        "scale": 1.0,
+        "reference_file": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/ugv_transition00_gt.tum",
+        "estimate_file": "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated.tum",
+        "command": [
+          "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+          "tum",
+          "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/ugv_transition00_gt.tum",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated.tum",
+          "-a",
+          "--no_warnings",
+          "--t_max_diff",
+          "0.01",
+          "--save_results",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_evo_ape.zip"
+        ]
+      },
+      "interpolated": {
+        "rmse_m": 0.17501246808133133,
+        "mean_m": 0.15038154192491718,
+        "median_m": 0.13970291990220995,
+        "max_m": 1.578022583255109,
+        "matched_poses": 7969,
+        "estimated_poses": 9834,
+        "max_bracket_distance_s": 0.1,
+        "matched_time_start_s": 1686614989.218457,
+        "matched_time_end_s": 1686615480.918473,
+        "alignment": "rigid rotation and translation, no scale correction",
+        "time_offset_s": 0.0,
+        "reference_file": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/ugv_transition00_gt.tum"
+      }
+    }
+  },
+  "RPE_evaluated": false,
+  "input_audit": {
+    "/os_cloud_node/points": {
+      "expected": 4921,
+      "received_callbacks": 4921,
+      "unique_received": 4921,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/stim300/imu/data_raw": {
+      "expected": 98400,
+      "received_callbacks": 98400,
+      "unique_received": 98400,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left_camera/image": {
+      "expected": 9840,
+      "received_callbacks": 9840,
+      "unique_received": 9840,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "reference_file": "datasets/FusionPortableV2/original/ugv_transition00_gt.tum",
+  "ros_pose_time_check": {
+    "observed": 9834,
+    "matched_to_native": 9834,
+    "max_matched_dt_s": 4.76837158203125e-07,
+    "max_matched_position_difference_m": 8.343961888456015e-07
+  },
+  "reference_sha256": "845226f8715ff83c13967e594a858f25fef0db0ed8179f91b5a18cacac07c47c",
+  "reference_rows": 8283,
+  "reference_gap_gt_0_1_s": 5,
+  "reference_point": "Published reference point not explicitly stated; retain both interpretations, do not select lower score",
+  "RPE_not_evaluated_reason": "GT orientations are identity placeholders; do not construct full-pose RPE from them",
+  "registered_map": {
+    "captured_points": 35388948,
+    "voxel_points": 2476185,
+    "voxel_m": 0.1,
+    "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+  }
+}

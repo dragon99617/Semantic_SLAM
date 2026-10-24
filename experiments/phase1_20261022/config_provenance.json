@@ -1,0 +1,18 @@
+{
+  "estimator_source": "ori-drs/FAST-LIVO2 config-used-OSD f2c9abb72f82359bcb9190e31b8faa6b6b7b9a64: oxford_spires.yaml plus its voxel_map.cpp defaults",
+  "calibration_source": "Oxford dataset pinned default calibration/sensor.yaml, independently invert cam<-imu and cam<-lidar",
+  "resources": {
+    "decoded_image_scale": 0.5,
+    "native_camera_scale_on_pre_scaled_bag": 1.0,
+    "sliding_map_half_extent_m": 30.0,
+    "mapper_rss_budget_GiB": 13,
+    "play_rate": 0.5
+  },
+  "diagnostic_v3_note": "Tests input/camera compatibility; its LIO defaults came from community NTU and are not the final OSD profile. Full baselines use explicit OSD defaults.",
+  "no_gt_tuning": true,
+  "effective_ros2_parameter_note": {
+    "lio.max_iterations": "YAML not read; actual lio.min_iterations default5 is iteration maximum and matches declared intended5",
+    "imu.b_acc_cov_and_b_gyr_cov": "YAML not read; native source explicitly fixes both to0.0001, equal requested values",
+    "verification": "Per-run parameter_checks.json verifies actual dumps and pinned constants"
+  }
+}

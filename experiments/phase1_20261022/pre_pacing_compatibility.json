@@ -1,0 +1,16 @@
+{
+  "ntu_eee01_r1": {
+    "native_lio_blocks": 3983,
+    "native_poses": 3983,
+    "max_received_image_minus_current_state_s": 1.0003881454467773,
+    "lag_cap_would_trigger_at_2_s": false,
+    "all_input_callback_multisets_exact": true
+  },
+  "retail_r1": {
+    "native_lio_blocks": 1351,
+    "native_poses": 1351,
+    "max_received_image_minus_current_state_s": 0.0007189512252807617,
+    "lag_cap_would_trigger_at_2_s": false,
+    "all_input_callback_multisets_exact": true
+  }
+}

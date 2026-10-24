@@ -1,0 +1,188 @@
+{
+  "recorded_date": "2026-10-22",
+  "scope": "User-defined phase 1: reproduce selected original-method baselines before new modules and ablation studies",
+  "phase1_status": "partially_completed_not_frozen",
+  "new_runs_started_by_this_audit": false,
+  "terminology": {
+    "original_method": "Preserve method/model/weights; disclose ROS2 port, necessary fixes and resource settings. Not an unmodified official ROS1 reproduction.",
+    "lighting_conditions": "Robustness experiments; not component ablations.",
+    "ovo_pose_source": "dataset_reference; not FAST-LIVO2 estimated poses"
+  },
+  "counts": {
+    "completed_geometric_sequences": 3,
+    "position_reference_comparison_sequences": 2,
+    "published_semantic_scene_runs": 6,
+    "local_paired_lighting_runs": 12,
+    "semantic_rgb_frames": 23340
+  },
+  "geometry": [
+    {
+      "dataset": "Retail_Street",
+      "sequence": "retail_street",
+      "status": "completed_engineering_run",
+      "summary": "experiments/runs/20261015_145245/summary.json",
+      "metrics": null,
+      "limitations": [
+        "No verified matching GT",
+        "Historical runtime callback gaps",
+        "Predates final BGR8 ownership fix"
+      ]
+    },
+    {
+      "dataset": "NTU_VIRAL",
+      "sequence": "eee_01",
+      "status": "completed_with_position_reference_comparison",
+      "summary": "experiments/accuracy/eee_01/runs/20261020_114001/summary.json",
+      "metrics": "experiments/accuracy/eee_01/runs/20261020_114001/accuracy/metrics.json",
+      "limitations": [
+        "One accepted run; predates final BGR8 ownership fix",
+        "GT orientations are placeholders; no orientation/full-pose RPE result"
+      ],
+      "translation_rmse_m": {
+        "nearest": 0.02497987571947976,
+        "interpolated": 0.029758636542490446
+      }
+    },
+    {
+      "dataset": "FusionPortableV2",
+      "sequence": "ugv_transition00",
+      "status": "completed_with_position_reference_comparison",
+      "summary": "experiments/fusionportable_v2/runs/ugv_transition00_owned_fullres_20261021/summary.json",
+      "metrics": "experiments/fusionportable_v2/runs/ugv_transition00_owned_fullres_20261021/accuracy/metrics.json",
+      "limitations": [
+        "GT measurement reference point not uniquely confirmed",
+        "Callback log match gaps; zero LiDAR loss not established",
+        "Sampled map only; not full dense-map accuracy"
+      ],
+      "translation_rmse_m": {
+        "imu_nearest": 0.16742811046220707,
+        "prism_nearest": 0.16734682021200958,
+        "imu_interpolated": 0.17191095778737553,
+        "prism_interpolated": 0.1717920060861353
+      }
+    },
+    {
+      "dataset": "FusionPortableV2",
+      "sequence": "ugv_transition01",
+      "status": "archive_downloaded_not_run",
+      "archive": "ugv_transition01.7z",
+      "evidence": "experiments/fusionportable_v2/downloaded_archives.sha256"
+    },
+    {
+      "dataset": "OxfordSpires",
+      "sequence": "2024-03-18-christ-church-02",
+      "status": "data_verified_not_run",
+      "evidence": [
+        "experiments/oxford_spires/download_status.json",
+        "experiments/oxford_spires/data_checks.json"
+      ]
+    },
+    {
+      "dataset": "OxfordSpires",
+      "sequence": "2024-03-20-christ-church-05",
+      "status": "data_verified_not_run",
+      "evidence": [
+        "experiments/oxford_spires/download_status.json",
+        "experiments/oxford_spires/data_checks.json"
+      ]
+    },
+    {
+      "dataset": "M2DGR",
+      "sequence": "door_01",
+      "status": "not_run_data_unavailable",
+      "note": "Historical HTTP 429 and no verified local bag/GT; no fresh retry made by this audit",
+      "evidence": "experiments/multibench_20261020/m2dgr_access_20261020_throttle.json"
+    },
+    {
+      "dataset": "M2DGR",
+      "sequence": "door_02",
+      "status": "not_run_data_unavailable",
+      "note": "Historical HTTP 429 and no verified local bag/GT; no fresh retry made by this audit",
+      "evidence": "experiments/multibench_20261020/m2dgr_access_20261020_throttle.json"
+    }
+  ],
+  "semantics": [
+    {
+      "dataset": "Replica",
+      "scenes": [
+        "office0",
+        "office1",
+        "room0"
+      ],
+      "status": "completed_reference_pose_baseline",
+      "runs": 3,
+      "mean_miou_percent": 25.34,
+      "seed": 0,
+      "repeats_per_scene": 1,
+      "evidence": "experiments/多数据集评测报告_20261020.md"
+    },
+    {
+      "dataset": "OSMa_published",
+      "scenes": [
+        "v3_sc0_staging_00",
+        "v3_sc1_staging_00",
+        "v3_sc2_staging_00"
+      ],
+      "status": "completed_reference_pose_baseline",
+      "runs": 3,
+      "mean_miou_percent": 27.21,
+      "seed": 0,
+      "repeats_per_scene": 1,
+      "evidence": "experiments/多数据集评测报告_20261020.md"
+    },
+    {
+      "dataset": "OSMa_local_paired",
+      "scenes": [
+        "v3_sc0_staging_00",
+        "v3_sc1_staging_00",
+        "v3_sc2_staging_00"
+      ],
+      "conditions": [
+        "baseline",
+        "camera_lights",
+        "no_lights",
+        "dynamic_lights"
+      ],
+      "status": "completed_reference_pose_robustness_experiment",
+      "runs": 12,
+      "baseline_mean_miou_percent": 27.69,
+      "dynamic_mean_miou_percent": 24.04,
+      "seed": 0,
+      "repeats_per_condition_scene": 1,
+      "evidence": "experiments/OSMa配对光照评测_20261020.md"
+    }
+  ],
+  "baseline_freeze": {
+    "status": "not_frozen",
+    "current_patch": {
+      "patch": "experiments/patches/FAST-LIVO2.patch",
+      "sha256": "caded01c333eb27d0c493bb7fc1c62cb507e1d4f850889b7e8c8192638c2467a",
+      "updated_at": "2026-10-21",
+      "added_fix": "Own BGR8 image buffers across ROS callback, image queue and VIO processing"
+    },
+    "old_retail_ntu_patch_sha256": "548e5da6e68d27e7ca985a1c7633d3defcf73d33b27d4a4f97de8850443e3322",
+    "necessary_followup": "Freeze the final shared implementation after Oxford adaptation; rerun NTU and regress Retail. Per-dataset calibration remains dataset-specific."
+  },
+  "pending": [
+    "Oxford QT64/fisheye/config adaptation and complete LIVO runs for christ-church-02 and 05",
+    "FusionPortableV2 transition01 extraction, input audit, conversion, full run and applicable reference evaluation",
+    "Version-consistent regression runs and core repeatability checks",
+    "Transition event annotation, common evaluation protocol and per-window diagnostic time series",
+    "Sensor-time pose interface and runtime input-consumption audit",
+    "Unified resource and failure/coverage reporting; valid RPE only where GT supports it",
+    "FAST-LIVO2 to OVO integration and estimated-pose semantic experiments",
+    "New reliability/recovery/review modules and formal component ablations"
+  ],
+  "proposed_order_not_executed": [
+    "freeze_protocol",
+    "oxford_livo_baselines",
+    "fpv2_transition01",
+    "freeze_shared_build_and_regress",
+    "transition_annotation_and_diagnosis",
+    "freeze_ovo_baselines"
+  ],
+  "historical_metadata_caveats": [
+    "FPV2 config/provenance.json retains generator-time candidate/unverified text; use successful run summary and accuracy evidence for final state.",
+    "Per-run running.json is a startup snapshot, not final status."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "m2dgr_availability.json": {
+    "sequence": "M2DGR door01",
+    "url": "https://sjtueducn-my.sharepoint.com/_api/v2.1/shares/u!aHR0cHM6Ly9zanR1ZWR1Y24tbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvNTk0NjY2X3NqdHVfZWR1X2NuL0VSeElrOG9fSHdsQWdicUoyd3dnSGw4QnIzdUJaaHl1QmJ4TTJiR18wQTZRWUE_ZT11UXI5NFI/driveItem?$select=name,size",
+    "probe_only": true,
+    "checked_at": "2026-10-23T11:15:53.718859+08:00",
+    "http_status": 429,
+    "response_type": "application/json; charset=utf-8",
+    "retry_after": "300",
+    "response_excerpt": "{\"error\":{\"code\":\"activityLimitReached\",\"innerError\":{\"code\":\"throttledRequest\",\"innerError\":{\"code\":\"forbiddenQuota\"}},\"message\":\"The request has been throttled\",\"retryAfterSeconds\":300,\"@error.X-ClientErrorCode\":\"forbidden\"}}",
+    "available": false
+  },
+  "m2dgr_door02_availability.json": {
+    "sequence": "M2DGR door02",
+    "url": "https://sjtueducn-my.sharepoint.com/_api/v2.1/shares/u!aHR0cHM6Ly9zanR1ZWR1Y24tbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvNTk0NjY2X3NqdHVfZWR1X2NuL0VXQ0tOb0VmQW14R3NhaHduSkRZV1M0QmZnRVBvT05RS1I4SEF1WkE0bmc1ZWc_ZT1LQjlQWUY/driveItem?$select=name,size",
+    "probe_only": true,
+    "checked_at": "2026-10-23T11:15:53.737875+08:00",
+    "http_status": 429,
+    "response_type": "application/json; charset=utf-8",
+    "retry_after": "300",
+    "response_excerpt": "{\"error\":{\"code\":\"activityLimitReached\",\"innerError\":{\"code\":\"throttledRequest\",\"innerError\":{\"code\":\"forbiddenQuota\"}},\"message\":\"The request has been throttled\",\"retryAfterSeconds\":300,\"@error.X-ClientErrorCode\":\"forbidden\"}}",
+    "available": false
+  }
+}

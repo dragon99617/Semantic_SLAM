@@ -1,0 +1,8 @@
+{
+  "sequence": "oxford05",
+  "finished_at": "2026-10-24T01:49:27.636729+08:00",
+  "causal_renders": 53,
+  "requested_renders": 53,
+  "all_rendered": true,
+  "peak_sampled_rss_bytes": 3309604864
+}

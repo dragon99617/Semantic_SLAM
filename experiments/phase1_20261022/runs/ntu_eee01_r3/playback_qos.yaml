@@ -1,0 +1,15 @@
+/imu/imu:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/left/image_raw:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/os1_cloud_node1/points:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable

@@ -1,0 +1,23 @@
+{
+  "/os_cloud_node/points": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ],
+  "/stim300/imu/data_raw": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ],
+  "/left_camera/image": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ]
+}

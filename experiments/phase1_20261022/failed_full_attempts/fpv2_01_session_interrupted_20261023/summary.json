@@ -1,0 +1,6 @@
+{
+  "status": "interrupted_external_session",
+  "error": "Execution session interrupted; environment restarted before completion. No final observer outputs or normal-exit summary. Retain as interrupted attempt and replay entire sequence.",
+  "diagnostic": false,
+  "mapper_clean_exit": null
+}

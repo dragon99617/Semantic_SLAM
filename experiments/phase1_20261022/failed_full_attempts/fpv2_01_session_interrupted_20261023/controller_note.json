@@ -1,0 +1,16 @@
+{
+  "classified_at": "2026-10-23T11:05:55.472816+08:00",
+  "reason": "Execution session interrupted; environment restarted before completion. No final observer outputs or normal-exit summary. Retain as interrupted attempt and replay entire sequence.",
+  "algorithm_failure": false,
+  "last_progress": {
+    "elapsed_s": 621,
+    "poses": 5938,
+    "sensor_seconds": 297.342,
+    "outputs": {
+      "/aft_mapped_to_init": 5938,
+      "/cloud_registered": 11838,
+      "/rgb_img": 2732
+    },
+    "peak_mapper_GiB": 6.504371643066406
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/fusionportable_v2/diagnostic_run_memory_profile/mapper.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/experiments/fusionportable_v2/diagnostic_run_memory_profile/camera.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/FusionPortableV2/diagnostic_30s_humble_v2",
+    "--rate",
+    "0.5",
+    "--read-ahead-queue-size",
+    "300"
+  ],
+  "ROS_DOMAIN_ID": "75",
+  "diagnostic": true
+}

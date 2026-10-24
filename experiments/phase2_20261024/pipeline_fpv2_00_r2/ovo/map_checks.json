@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": {
+    "finite_map": true,
+    "nonempty_map": true,
+    "object_ids_resolve": true,
+    "nonempty_objects": true,
+    "nonempty_semantic_points": true,
+    "map_grows_across_frames": true,
+    "finite_nonzero_descriptors": true,
+    "finite_text_query_scores": true
+  },
+  "map_points": 41544,
+  "assigned_points": 124,
+  "assigned_fraction": 0.002984787213556711,
+  "objects": 1,
+  "checkpoint_sha256": "e3b9b7b64e4e19cb4291bd7bca596a876e0f33c624c34940773f344f4e8fa198",
+  "queries": [
+    "building",
+    "ground",
+    "tree",
+    "person",
+    "car",
+    "fence",
+    "sky"
+  ],
+  "query_results": [
+    {
+      "object_id": 0,
+      "points": 124,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.048726364970207214,
+        0.19347752630710602,
+        2.0105348085053265e-05,
+        4.297456598578719e-06,
+        5.859236807737034e-06,
+        0.0029176275711506605,
+        0.0002028954477282241
+      ]
+    }
+  ],
+  "limitation": "No semantic/instance GT on these real segments; query rankings are not accuracy measurements."
+}

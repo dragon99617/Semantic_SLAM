@@ -1,0 +1,44 @@
+----------+[0m
+got imu: 1.68662e+09 imu size 25
+[ VIO ] Raw feature num: 26923
+
+Thread 17 "fastlivo_mappin" received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 0x7fffd22f6640 (LWP 471959)]
+0x00007ffff75f53ee in ?? () from /lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d
+
+Thr
+
+Thread 17 (Thread 0x7fffd22f6640 (LWP 471959) "fastlivo_mappin"):
+#0  0x00007ffff75f53ee in ?? () from /lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d
+#1  0x00007ffff71bc2bc in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#2  0x00007ffff71b527d in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#3  0x00007ffff71bdd04 in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#4  0x00007ffff5ba5f15 in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#5  0x00007ffff5ba625c in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#6  0x00007ffff5b9f9d7 in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#7  0x00007ffff5b9e078 in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#8  0x00007ffff5b9a420 in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#9  0x00007ffff5b9a68d in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#10 0x00007ffff5e94a83 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+#11 0x00007ffff5f268e0 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+
+Thread 1 (Thread 0x7fffe5e93bc0 (LWP 471940) "fastlivo_mappin"):
+#0  0x00007ffff75f543e in ?? () from /lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d
+#1  0x00007ffff71bc2bc in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#2  0x00007ffff71b527d in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#3  0x00007ffff71bdd04 in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#4  0x00007ffff5ba5f15 in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#5  0x00007ffff5ba625c in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#6  0x00007ffff5ba3b28 in ?? () from /lib/x86_64-linux-gnu/libtbb.so.2
+#7  0x00007ffff72a2181 in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#8  0x00007ffff71bdc6b in ?? () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#9  0x00007ffff5ba0fae in tbb::interface7::internal::task_arena_base::internal_execute(tbb::interface7::internal::delegate_base&) const () from /lib/x86_64-linux-gnu/libtbb.so.2
+#10 0x00007ffff71bcc39 in cv::parallel_for_(cv::Range const&, cv::ParallelLoopBody const&, double) () from /lib/x86_64-linux-gnu/libopencv_core.so.4.5d
+#11 0x00007ffff75e8c93 in ?? () from /lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d
+#12 0x00007ffff75ed3f7 in cv::hal::resize(int, unsigned char const*, unsigned long, int, int, unsigned char*, unsigned long, int, int, double, double, int) () from /lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d
+#13 0x00007ffff75ed9ae in cv::resize(cv::_InputArray const&, cv::_OutputArray const&, cv::Size_<int>, double, double, int) () from /lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d
+#14 0x0000555555663620 in VIOManager::processFrame(cv::Mat&, std::vector<pointWithVar, std::allocator<pointWithVar> >&, std::unordered_map<VOXEL_LOCATION, VoxelOctoTree*, std::hash<VOXEL_LOCATION>, std::equal_to<VOXEL_LOCATION>, std::allocator<std::pair<VOXEL_LOCATION const, VoxelOctoTree*> > > const&, double) ()
+#15 0x00005555555a729b in LIVMapper::handleVIO() ()
+#16 0x00005555555af150 in LIVMapper::run(std::shared_ptr<rclcpp::Node>&) ()
+#17 0x0000555555589df6 in main ()
+

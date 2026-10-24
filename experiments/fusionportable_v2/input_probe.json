@@ -1,0 +1,444 @@
+{
+  "scope": "preliminary first 20 scans while extraction continues",
+  "connections_seen": {
+    "0": {
+      "topic": "/stim300/imu/data_raw",
+      "type": "sensor_msgs/Imu"
+    },
+    "1": {
+      "topic": "/os_image_node/range_image",
+      "type": "sensor_msgs/Image"
+    },
+    "2": {
+      "topic": "/os_image_node/nearir_image",
+      "type": "sensor_msgs/Image"
+    },
+    "3": {
+      "topic": "/os_image_node/signal_image",
+      "type": "sensor_msgs/Image"
+    },
+    "4": {
+      "topic": "/os_cloud_node/imu/data_raw",
+      "type": "sensor_msgs/Imu"
+    },
+    "5": {
+      "topic": "/os_image_node/reflec_image",
+      "type": "sensor_msgs/Image"
+    },
+    "6": {
+      "topic": "/3dm_ins/gnss_right/aiding_status",
+      "type": "microstrain_inertial_msgs/GNSSAidingStatus"
+    },
+    "7": {
+      "topic": "/3dm_ins/gnss_left/aiding_status",
+      "type": "microstrain_inertial_msgs/GNSSAidingStatus"
+    },
+    "8": {
+      "topic": "/3dm_ins/nav/heading",
+      "type": "microstrain_inertial_msgs/FilterHeading"
+    },
+    "9": {
+      "topic": "/3dm_ins/nav/aiding_summary",
+      "type": "microstrain_inertial_msgs/FilterAidingMeasurementSummary"
+    },
+    "10": {
+      "topic": "/3dm_ins/nav/odom",
+      "type": "nav_msgs/Odometry"
+    },
+    "11": {
+      "topic": "/3dm_ins/nav/dual_antenna_status",
+      "type": "microstrain_inertial_msgs/GNSSDualAntennaStatus"
+    },
+    "12": {
+      "topic": "/os_cloud_node/points",
+      "type": "sensor_msgs/PointCloud2"
+    },
+    "13": {
+      "topic": "/3dm_ins/imu/data_raw",
+      "type": "sensor_msgs/Imu"
+    },
+    "14": {
+      "topic": "/3dm_ins/mag/data_raw",
+      "type": "sensor_msgs/MagneticField"
+    },
+    "15": {
+      "topic": "/3dm_ins/nav/status",
+      "type": "microstrain_inertial_msgs/FilterStatus"
+    },
+    "16": {
+      "topic": "/stereo/davis_left/imu/data_raw",
+      "type": "sensor_msgs/Imu"
+    },
+    "17": {
+      "topic": "/stereo/davis_right/imu/data_raw",
+      "type": "sensor_msgs/Imu"
+    },
+    "18": {
+      "topic": "/stereo/davis_left/events",
+      "type": "dvs_msgs/EventArray"
+    },
+    "19": {
+      "topic": "/stereo/davis_right/events",
+      "type": "dvs_msgs/EventArray"
+    },
+    "20": {
+      "topic": "/stereo/davis_left/image_chunk_data",
+      "type": "geometry_msgs/PointStamped"
+    },
+    "21": {
+      "topic": "/stereo/davis_left/image_raw/compressed",
+      "type": "sensor_msgs/CompressedImage"
+    },
+    "22": {
+      "topic": "/stereo/davis_right/image_chunk_data",
+      "type": "geometry_msgs/PointStamped"
+    },
+    "23": {
+      "topic": "/stereo/davis_right/image_raw/compressed",
+      "type": "sensor_msgs/CompressedImage"
+    },
+    "24": {
+      "topic": "/stereo/frame_right/image_raw/compressed",
+      "type": "sensor_msgs/CompressedImage"
+    },
+    "25": {
+      "topic": "/stereo/frame_left/image_raw/compressed",
+      "type": "sensor_msgs/CompressedImage"
+    },
+    "26": {
+      "topic": "/tf_static",
+      "type": "tf2_msgs/TFMessage"
+    },
+    "27": {
+      "topic": "/stereo/frame_left/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    "28": {
+      "topic": "/stereo/frame_right/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    "29": {
+      "topic": "/stereo/davis_left/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    "30": {
+      "topic": "/stereo/davis_right/camera_info",
+      "type": "sensor_msgs/CameraInfo"
+    },
+    "31": {
+      "topic": "/stereo/frame_right/image_chunk_data",
+      "type": "geometry_msgs/PointStamped"
+    },
+    "32": {
+      "topic": "/stereo/frame_left/image_chunk_data",
+      "type": "geometry_msgs/PointStamped"
+    },
+    "33": {
+      "topic": "/3dm_ins/gnss_left/fix",
+      "type": "sensor_msgs/NavSatFix"
+    },
+    "34": {
+      "topic": "/3dm_ins/gnss_left/fix_info",
+      "type": "microstrain_inertial_msgs/GNSSFixInfo"
+    },
+    "35": {
+      "topic": "/3dm_ins/gnss_left/odom",
+      "type": "nav_msgs/Odometry"
+    },
+    "36": {
+      "topic": "/3dm_ins/gnss_right/fix",
+      "type": "sensor_msgs/NavSatFix"
+    },
+    "37": {
+      "topic": "/3dm_ins/gnss_right/odom",
+      "type": "nav_msgs/Odometry"
+    },
+    "38": {
+      "topic": "/3dm_ins/gnss_right/fix_info",
+      "type": "microstrain_inertial_msgs/GNSSFixInfo"
+    }
+  },
+  "samples": {
+    "/stim300/imu/data_raw": {
+      "frame": "body_imu",
+      "acc_norm": 9.762228078862844
+    },
+    "/os_cloud_node/points": {
+      "frame": "ouster00",
+      "width": 1024,
+      "height": 128,
+      "point_step": 48,
+      "row_step": 49152,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "t",
+          "offset": 20,
+          "datatype": 6,
+          "count": 1
+        },
+        {
+          "name": "reflectivity",
+          "offset": 24,
+          "datatype": 4,
+          "count": 1
+        },
+        {
+          "name": "ring",
+          "offset": 26,
+          "datatype": 2,
+          "count": 1
+        },
+        {
+          "name": "ambient",
+          "offset": 28,
+          "datatype": 4,
+          "count": 1
+        },
+        {
+          "name": "range",
+          "offset": 32,
+          "datatype": 6,
+          "count": 1
+        }
+      ]
+    },
+    "/stereo/frame_left/image_raw/compressed": {
+      "frame": "frame_cam00",
+      "format": "jpg",
+      "decoded_shape": [
+        768,
+        1024,
+        3
+      ],
+      "header": 1686614989.0323973,
+      "record": 1686614989.0323973
+    }
+  },
+  "clouds": [
+    {
+      "header": 1686614988.9833512,
+      "record": 1686614989.0014715,
+      "t_min_ns": 0,
+      "t_max_ns": 99843340,
+      "t_first_ns": 0,
+      "t_last_ns": 99843340
+    },
+    {
+      "header": 1686614989.0865126,
+      "record": 1686614989.0976644,
+      "t_min_ns": 0,
+      "t_max_ns": 99844170,
+      "t_first_ns": 0,
+      "t_last_ns": 99844170
+    },
+    {
+      "header": 1686614989.1832044,
+      "record": 1686614989.1951716,
+      "t_min_ns": 0,
+      "t_max_ns": 99855260,
+      "t_first_ns": 0,
+      "t_last_ns": 99855260
+    },
+    {
+      "header": 1686614989.282988,
+      "record": 1686614989.2977397,
+      "t_min_ns": 0,
+      "t_max_ns": 99909350,
+      "t_first_ns": 0,
+      "t_last_ns": 99909350
+    },
+    {
+      "header": 1686614989.3844233,
+      "record": 1686614989.396611,
+      "t_min_ns": 0,
+      "t_max_ns": 99938490,
+      "t_first_ns": 0,
+      "t_last_ns": 99938490
+    },
+    {
+      "header": 1686614989.4830375,
+      "record": 1686614989.493631,
+      "t_min_ns": 0,
+      "t_max_ns": 99918490,
+      "t_first_ns": 0,
+      "t_last_ns": 99918490
+    },
+    {
+      "header": 1686614989.584709,
+      "record": 1686614989.596813,
+      "t_min_ns": 0,
+      "t_max_ns": 99931540,
+      "t_first_ns": 0,
+      "t_last_ns": 99931540
+    },
+    {
+      "header": 1686614989.6844482,
+      "record": 1686614989.6963964,
+      "t_min_ns": 0,
+      "t_max_ns": 99909230,
+      "t_first_ns": 0,
+      "t_last_ns": 99909230
+    },
+    {
+      "header": 1686614989.7849016,
+      "record": 1686614989.7997458,
+      "t_min_ns": 0,
+      "t_max_ns": 99897240,
+      "t_first_ns": 0,
+      "t_last_ns": 99897240
+    },
+    {
+      "header": 1686614989.8835926,
+      "record": 1686614989.8989685,
+      "t_min_ns": 0,
+      "t_max_ns": 99969060,
+      "t_first_ns": 0,
+      "t_last_ns": 99969060
+    },
+    {
+      "header": 1686614989.9828014,
+      "record": 1686614989.9946237,
+      "t_min_ns": 0,
+      "t_max_ns": 99879510,
+      "t_first_ns": 0,
+      "t_last_ns": 99879510
+    },
+    {
+      "header": 1686614990.0851207,
+      "record": 1686614990.0971732,
+      "t_min_ns": 0,
+      "t_max_ns": 99842490,
+      "t_first_ns": 0,
+      "t_last_ns": 99842490
+    },
+    {
+      "header": 1686614990.1829782,
+      "record": 1686614990.1969616,
+      "t_min_ns": 0,
+      "t_max_ns": 99813590,
+      "t_first_ns": 0,
+      "t_last_ns": 99813590
+    },
+    {
+      "header": 1686614990.2845407,
+      "record": 1686614990.2955525,
+      "t_min_ns": 0,
+      "t_max_ns": 99806760,
+      "t_first_ns": 0,
+      "t_last_ns": 99806760
+    },
+    {
+      "header": 1686614990.3855827,
+      "record": 1686614990.397582,
+      "t_min_ns": 0,
+      "t_max_ns": 99833370,
+      "t_first_ns": 0,
+      "t_last_ns": 99833370
+    },
+    {
+      "header": 1686614990.4827526,
+      "record": 1686614990.4948657,
+      "t_min_ns": 0,
+      "t_max_ns": 99853800,
+      "t_first_ns": 0,
+      "t_last_ns": 99853800
+    },
+    {
+      "header": 1686614990.585996,
+      "record": 1686614990.5993648,
+      "t_min_ns": 0,
+      "t_max_ns": 99863760,
+      "t_first_ns": 0,
+      "t_last_ns": 99863760
+    },
+    {
+      "header": 1686614990.6829123,
+      "record": 1686614990.697336,
+      "t_min_ns": 0,
+      "t_max_ns": 99900880,
+      "t_first_ns": 0,
+      "t_last_ns": 99900880
+    },
+    {
+      "header": 1686614990.7847583,
+      "record": 1686614990.8010838,
+      "t_min_ns": 0,
+      "t_max_ns": 99917060,
+      "t_first_ns": 0,
+      "t_last_ns": 99917060
+    },
+    {
+      "header": 1686614990.885552,
+      "record": 1686614990.8991673,
+      "t_min_ns": 0,
+      "t_max_ns": 100029360,
+      "t_first_ns": 0,
+      "t_last_ns": 100029360
+    }
+  ],
+  "imu_first": [
+    {
+      "header": 1686614988.9999008,
+      "acc": [
+        0.055609074497222896,
+        0.015113397979736327,
+        9.762057994079589
+      ],
+      "gyr": [
+        0.0004953479627547383,
+        -0.00021198762277030737,
+        -0.00043888894764505847
+      ]
+    },
+    {
+      "header": 1686614989.004853,
+      "acc": [
+        0.039859716701507564,
+        0.03299509162902832,
+        9.763909759426117
+      ],
+      "gyr": [
+        0.0004101268078722027,
+        -0.0006189186373344149,
+        -0.0006828345034963167
+      ]
+    },
+    {
+      "header": 1686614989.0098817,
+      "acc": [
+        0.012887538623809813,
+        0.03681085052490234,
+        9.746084179878235
+      ],
+      "gyr": [
+        -0.0002844256044204626,
+        -0.0006114617862821931,
+        -0.0006050701996660029
+      ]
+    }
+  ]
+}

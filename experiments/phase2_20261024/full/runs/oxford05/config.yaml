@@ -1,0 +1,75 @@
+benchmark:
+  camera_axes: right_down_forward
+  depth_policy: valid_mask
+  geometry_precision: float32
+  input_manifest_sha256: 50458ec37eb97e3286df2fc402250bb33cb4b1a2d0cf82d60a192318bdfca604
+  mapping_policy: valid_mask
+  pose_source: FAST-LIVO2_estimated
+  short_segment: false
+cam:
+  H: 540
+  W: 720
+  crop_edge: 0
+  cx: 356.3823383627503
+  cy: 280.2875642410254
+  depth_scale: 1.0
+  fx: 349.08460474571314
+  fy: 349.25737924366183
+checkpoint_path: null
+data:
+  frame_limit: 3959
+  input_path: /home/hxy/SLAM_project/experiments/phase2_20261024/full/inputs/oxford05
+  scene_name: oxford05
+dataset_name: livo_sparse
+debug: false
+debug_info: false
+device: cuda
+mapping:
+  downscale_ratio: 2
+  k_pooling: 3
+  map_every: 5
+  max_frame_points: 1e5
+project_name: ovo
+seed: 0
+semantic:
+  clip:
+    embed_type: learned
+    fusion: l1_medoid
+    image_batch_size: 8
+    k_top_views: 10
+    mask_res: 384
+    model_card: SigLIP-384
+    mv_fuser: false
+    mv_fuser_ckpt: '20250725_1200'
+    use_half: true
+    weights_predictor_path: data/input/weights_predictor/base
+  depth_filter: true
+  kf_queue_delay: 10
+  log: true
+  match_distance_th: 0.05
+  sam:
+    masks_base_path: data/working/masks/replica_384_sam2.1_16
+    multi_crop: true
+    points_per_batch: 16
+    points_per_side: 16
+    precomputed: false
+    sam_ckpt_path: data/input/sam_ckpts/
+    sam_encoder: hiera_l
+    sam_version: '2.1'
+  segment_every: 10
+  track_th: 100
+  use_gt_clips: false
+  use_gt_masks: false
+  verbose: false
+slam:
+  close_loops: true
+  config_path: data/working/configs/slam
+  save_estimated_cam: true
+  slam_module: vanilla
+  use_viewer: false
+tracking:
+  track_every: 1
+use_wandb: false
+vis:
+  show_stream: false
+  stream: false

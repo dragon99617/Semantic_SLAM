@@ -1,0 +1,5937 @@
+[
+  {
+    "frame_id": 0,
+    "points_added": 638,
+    "map_points": 638
+  },
+  {
+    "frame_id": 5,
+    "points_added": 632,
+    "map_points": 1270
+  },
+  {
+    "frame_id": 10,
+    "points_added": 658,
+    "map_points": 1928
+  },
+  {
+    "frame_id": 15,
+    "points_added": 515,
+    "map_points": 2443
+  },
+  {
+    "frame_id": 20,
+    "points_added": 260,
+    "map_points": 2703
+  },
+  {
+    "frame_id": 25,
+    "points_added": 199,
+    "map_points": 2902
+  },
+  {
+    "frame_id": 30,
+    "points_added": 590,
+    "map_points": 3492
+  },
+  {
+    "frame_id": 35,
+    "points_added": 637,
+    "map_points": 4129
+  },
+  {
+    "frame_id": 40,
+    "points_added": 636,
+    "map_points": 4765
+  },
+  {
+    "frame_id": 45,
+    "points_added": 802,
+    "map_points": 5567
+  },
+  {
+    "frame_id": 50,
+    "points_added": 1072,
+    "map_points": 6639
+  },
+  {
+    "frame_id": 55,
+    "points_added": 1238,
+    "map_points": 7877
+  },
+  {
+    "frame_id": 60,
+    "points_added": 1370,
+    "map_points": 9247
+  },
+  {
+    "frame_id": 65,
+    "points_added": 1572,
+    "map_points": 10819
+  },
+  {
+    "frame_id": 70,
+    "points_added": 1605,
+    "map_points": 12424
+  },
+  {
+    "frame_id": 75,
+    "points_added": 1732,
+    "map_points": 14156
+  },
+  {
+    "frame_id": 80,
+    "points_added": 1713,
+    "map_points": 15869
+  },
+  {
+    "frame_id": 85,
+    "points_added": 1699,
+    "map_points": 17568
+  },
+  {
+    "frame_id": 90,
+    "points_added": 1747,
+    "map_points": 19315
+  },
+  {
+    "frame_id": 95,
+    "points_added": 1679,
+    "map_points": 20994
+  },
+  {
+    "frame_id": 100,
+    "points_added": 1665,
+    "map_points": 22659
+  },
+  {
+    "frame_id": 105,
+    "points_added": 1630,
+    "map_points": 24289
+  },
+  {
+    "frame_id": 110,
+    "points_added": 1638,
+    "map_points": 25927
+  },
+  {
+    "frame_id": 115,
+    "points_added": 1667,
+    "map_points": 27594
+  },
+  {
+    "frame_id": 120,
+    "points_added": 1714,
+    "map_points": 29308
+  },
+  {
+    "frame_id": 125,
+    "points_added": 1687,
+    "map_points": 30995
+  },
+  {
+    "frame_id": 130,
+    "points_added": 1637,
+    "map_points": 32632
+  },
+  {
+    "frame_id": 135,
+    "points_added": 1639,
+    "map_points": 34271
+  },
+  {
+    "frame_id": 140,
+    "points_added": 1660,
+    "map_points": 35931
+  },
+  {
+    "frame_id": 145,
+    "points_added": 1635,
+    "map_points": 37566
+  },
+  {
+    "frame_id": 150,
+    "points_added": 1670,
+    "map_points": 39236
+  },
+  {
+    "frame_id": 155,
+    "points_added": 1754,
+    "map_points": 40990
+  },
+  {
+    "frame_id": 160,
+    "points_added": 1625,
+    "map_points": 42615
+  },
+  {
+    "frame_id": 165,
+    "points_added": 1677,
+    "map_points": 44292
+  },
+  {
+    "frame_id": 170,
+    "points_added": 1707,
+    "map_points": 45999
+  },
+  {
+    "frame_id": 175,
+    "points_added": 1641,
+    "map_points": 47640
+  },
+  {
+    "frame_id": 180,
+    "points_added": 1707,
+    "map_points": 49347
+  },
+  {
+    "frame_id": 185,
+    "points_added": 1767,
+    "map_points": 51114
+  },
+  {
+    "frame_id": 190,
+    "points_added": 1710,
+    "map_points": 52824
+  },
+  {
+    "frame_id": 195,
+    "points_added": 1665,
+    "map_points": 54489
+  },
+  {
+    "frame_id": 200,
+    "points_added": 1684,
+    "map_points": 56173
+  },
+  {
+    "frame_id": 205,
+    "points_added": 1674,
+    "map_points": 57847
+  },
+  {
+    "frame_id": 210,
+    "points_added": 1642,
+    "map_points": 59489
+  },
+  {
+    "frame_id": 215,
+    "points_added": 1630,
+    "map_points": 61119
+  },
+  {
+    "frame_id": 220,
+    "points_added": 1711,
+    "map_points": 62830
+  },
+  {
+    "frame_id": 225,
+    "points_added": 1704,
+    "map_points": 64534
+  },
+  {
+    "frame_id": 230,
+    "points_added": 1764,
+    "map_points": 66298
+  },
+  {
+    "frame_id": 235,
+    "points_added": 1649,
+    "map_points": 67947
+  },
+  {
+    "frame_id": 240,
+    "points_added": 1686,
+    "map_points": 69633
+  },
+  {
+    "frame_id": 245,
+    "points_added": 1713,
+    "map_points": 71346
+  },
+  {
+    "frame_id": 250,
+    "points_added": 1799,
+    "map_points": 73145
+  },
+  {
+    "frame_id": 255,
+    "points_added": 1774,
+    "map_points": 74919
+  },
+  {
+    "frame_id": 260,
+    "points_added": 1829,
+    "map_points": 76748
+  },
+  {
+    "frame_id": 265,
+    "points_added": 1814,
+    "map_points": 78562
+  },
+  {
+    "frame_id": 270,
+    "points_added": 1779,
+    "map_points": 80341
+  },
+  {
+    "frame_id": 275,
+    "points_added": 1722,
+    "map_points": 82063
+  },
+  {
+    "frame_id": 280,
+    "points_added": 1768,
+    "map_points": 83831
+  },
+  {
+    "frame_id": 285,
+    "points_added": 1800,
+    "map_points": 85631
+  },
+  {
+    "frame_id": 290,
+    "points_added": 1731,
+    "map_points": 87362
+  },
+  {
+    "frame_id": 295,
+    "points_added": 1737,
+    "map_points": 89099
+  },
+  {
+    "frame_id": 300,
+    "points_added": 1845,
+    "map_points": 90944
+  },
+  {
+    "frame_id": 305,
+    "points_added": 1720,
+    "map_points": 92664
+  },
+  {
+    "frame_id": 310,
+    "points_added": 1533,
+    "map_points": 94197
+  },
+  {
+    "frame_id": 315,
+    "points_added": 1265,
+    "map_points": 95462
+  },
+  {
+    "frame_id": 320,
+    "points_added": 1261,
+    "map_points": 96723
+  },
+  {
+    "frame_id": 325,
+    "points_added": 1187,
+    "map_points": 97910
+  },
+  {
+    "frame_id": 330,
+    "points_added": 1156,
+    "map_points": 99066
+  },
+  {
+    "frame_id": 335,
+    "points_added": 1087,
+    "map_points": 100153
+  },
+  {
+    "frame_id": 340,
+    "points_added": 1142,
+    "map_points": 101295
+  },
+  {
+    "frame_id": 345,
+    "points_added": 1142,
+    "map_points": 102437
+  },
+  {
+    "frame_id": 350,
+    "points_added": 1114,
+    "map_points": 103551
+  },
+  {
+    "frame_id": 355,
+    "points_added": 1153,
+    "map_points": 104704
+  },
+  {
+    "frame_id": 360,
+    "points_added": 1161,
+    "map_points": 105865
+  },
+  {
+    "frame_id": 365,
+    "points_added": 1142,
+    "map_points": 107007
+  },
+  {
+    "frame_id": 370,
+    "points_added": 1147,
+    "map_points": 108154
+  },
+  {
+    "frame_id": 375,
+    "points_added": 1222,
+    "map_points": 109376
+  },
+  {
+    "frame_id": 380,
+    "points_added": 1219,
+    "map_points": 110595
+  },
+  {
+    "frame_id": 385,
+    "points_added": 1180,
+    "map_points": 111775
+  },
+  {
+    "frame_id": 390,
+    "points_added": 1204,
+    "map_points": 112979
+  },
+  {
+    "frame_id": 395,
+    "points_added": 1168,
+    "map_points": 114147
+  },
+  {
+    "frame_id": 400,
+    "points_added": 1211,
+    "map_points": 115358
+  },
+  {
+    "frame_id": 405,
+    "points_added": 1233,
+    "map_points": 116591
+  },
+  {
+    "frame_id": 410,
+    "points_added": 1250,
+    "map_points": 117841
+  },
+  {
+    "frame_id": 415,
+    "points_added": 1262,
+    "map_points": 119103
+  },
+  {
+    "frame_id": 420,
+    "points_added": 1242,
+    "map_points": 120345
+  },
+  {
+    "frame_id": 425,
+    "points_added": 1223,
+    "map_points": 121568
+  },
+  {
+    "frame_id": 430,
+    "points_added": 1276,
+    "map_points": 122844
+  },
+  {
+    "frame_id": 435,
+    "points_added": 1304,
+    "map_points": 124148
+  },
+  {
+    "frame_id": 440,
+    "points_added": 1236,
+    "map_points": 125384
+  },
+  {
+    "frame_id": 445,
+    "points_added": 1227,
+    "map_points": 126611
+  },
+  {
+    "frame_id": 450,
+    "points_added": 1167,
+    "map_points": 127778
+  },
+  {
+    "frame_id": 455,
+    "points_added": 1229,
+    "map_points": 129007
+  },
+  {
+    "frame_id": 460,
+    "points_added": 1151,
+    "map_points": 130158
+  },
+  {
+    "frame_id": 465,
+    "points_added": 1181,
+    "map_points": 131339
+  },
+  {
+    "frame_id": 470,
+    "points_added": 1121,
+    "map_points": 132460
+  },
+  {
+    "frame_id": 475,
+    "points_added": 1202,
+    "map_points": 133662
+  },
+  {
+    "frame_id": 480,
+    "points_added": 1163,
+    "map_points": 134825
+  },
+  {
+    "frame_id": 485,
+    "points_added": 1171,
+    "map_points": 135996
+  },
+  {
+    "frame_id": 490,
+    "points_added": 1180,
+    "map_points": 137176
+  },
+  {
+    "frame_id": 495,
+    "points_added": 1211,
+    "map_points": 138387
+  },
+  {
+    "frame_id": 500,
+    "points_added": 1275,
+    "map_points": 139662
+  },
+  {
+    "frame_id": 505,
+    "points_added": 1180,
+    "map_points": 140842
+  },
+  {
+    "frame_id": 510,
+    "points_added": 1190,
+    "map_points": 142032
+  },
+  {
+    "frame_id": 515,
+    "points_added": 1204,
+    "map_points": 143236
+  },
+  {
+    "frame_id": 520,
+    "points_added": 1202,
+    "map_points": 144438
+  },
+  {
+    "frame_id": 525,
+    "points_added": 1214,
+    "map_points": 145652
+  },
+  {
+    "frame_id": 530,
+    "points_added": 1338,
+    "map_points": 146990
+  },
+  {
+    "frame_id": 535,
+    "points_added": 1294,
+    "map_points": 148284
+  },
+  {
+    "frame_id": 540,
+    "points_added": 1347,
+    "map_points": 149631
+  },
+  {
+    "frame_id": 545,
+    "points_added": 1271,
+    "map_points": 150902
+  },
+  {
+    "frame_id": 550,
+    "points_added": 1317,
+    "map_points": 152219
+  },
+  {
+    "frame_id": 555,
+    "points_added": 1206,
+    "map_points": 153425
+  },
+  {
+    "frame_id": 560,
+    "points_added": 1315,
+    "map_points": 154740
+  },
+  {
+    "frame_id": 565,
+    "points_added": 1243,
+    "map_points": 155983
+  },
+  {
+    "frame_id": 570,
+    "points_added": 1294,
+    "map_points": 157277
+  },
+  {
+    "frame_id": 575,
+    "points_added": 1263,
+    "map_points": 158540
+  },
+  {
+    "frame_id": 580,
+    "points_added": 1286,
+    "map_points": 159826
+  },
+  {
+    "frame_id": 585,
+    "points_added": 1378,
+    "map_points": 161204
+  },
+  {
+    "frame_id": 590,
+    "points_added": 1355,
+    "map_points": 162559
+  },
+  {
+    "frame_id": 595,
+    "points_added": 1314,
+    "map_points": 163873
+  },
+  {
+    "frame_id": 600,
+    "points_added": 1350,
+    "map_points": 165223
+  },
+  {
+    "frame_id": 605,
+    "points_added": 1405,
+    "map_points": 166628
+  },
+  {
+    "frame_id": 610,
+    "points_added": 1315,
+    "map_points": 167943
+  },
+  {
+    "frame_id": 615,
+    "points_added": 1359,
+    "map_points": 169302
+  },
+  {
+    "frame_id": 620,
+    "points_added": 1256,
+    "map_points": 170558
+  },
+  {
+    "frame_id": 625,
+    "points_added": 1267,
+    "map_points": 171825
+  },
+  {
+    "frame_id": 630,
+    "points_added": 1375,
+    "map_points": 173200
+  },
+  {
+    "frame_id": 635,
+    "points_added": 1327,
+    "map_points": 174527
+  },
+  {
+    "frame_id": 640,
+    "points_added": 1329,
+    "map_points": 175856
+  },
+  {
+    "frame_id": 645,
+    "points_added": 1288,
+    "map_points": 177144
+  },
+  {
+    "frame_id": 650,
+    "points_added": 1347,
+    "map_points": 178491
+  },
+  {
+    "frame_id": 655,
+    "points_added": 1372,
+    "map_points": 179863
+  },
+  {
+    "frame_id": 660,
+    "points_added": 1375,
+    "map_points": 181238
+  },
+  {
+    "frame_id": 665,
+    "points_added": 1366,
+    "map_points": 182604
+  },
+  {
+    "frame_id": 670,
+    "points_added": 1476,
+    "map_points": 184080
+  },
+  {
+    "frame_id": 675,
+    "points_added": 1401,
+    "map_points": 185481
+  },
+  {
+    "frame_id": 680,
+    "points_added": 1424,
+    "map_points": 186905
+  },
+  {
+    "frame_id": 685,
+    "points_added": 1414,
+    "map_points": 188319
+  },
+  {
+    "frame_id": 690,
+    "points_added": 1398,
+    "map_points": 189717
+  },
+  {
+    "frame_id": 695,
+    "points_added": 1379,
+    "map_points": 191096
+  },
+  {
+    "frame_id": 700,
+    "points_added": 1461,
+    "map_points": 192557
+  },
+  {
+    "frame_id": 705,
+    "points_added": 1583,
+    "map_points": 194140
+  },
+  {
+    "frame_id": 710,
+    "points_added": 1511,
+    "map_points": 195651
+  },
+  {
+    "frame_id": 715,
+    "points_added": 1497,
+    "map_points": 197148
+  },
+  {
+    "frame_id": 720,
+    "points_added": 1505,
+    "map_points": 198653
+  },
+  {
+    "frame_id": 725,
+    "points_added": 1569,
+    "map_points": 200222
+  },
+  {
+    "frame_id": 730,
+    "points_added": 1472,
+    "map_points": 201694
+  },
+  {
+    "frame_id": 735,
+    "points_added": 1566,
+    "map_points": 203260
+  },
+  {
+    "frame_id": 740,
+    "points_added": 1573,
+    "map_points": 204833
+  },
+  {
+    "frame_id": 745,
+    "points_added": 1486,
+    "map_points": 206319
+  },
+  {
+    "frame_id": 750,
+    "points_added": 1567,
+    "map_points": 207886
+  },
+  {
+    "frame_id": 755,
+    "points_added": 1552,
+    "map_points": 209438
+  },
+  {
+    "frame_id": 760,
+    "points_added": 1608,
+    "map_points": 211046
+  },
+  {
+    "frame_id": 765,
+    "points_added": 1562,
+    "map_points": 212608
+  },
+  {
+    "frame_id": 770,
+    "points_added": 1642,
+    "map_points": 214250
+  },
+  {
+    "frame_id": 775,
+    "points_added": 1630,
+    "map_points": 215880
+  },
+  {
+    "frame_id": 780,
+    "points_added": 1611,
+    "map_points": 217491
+  },
+  {
+    "frame_id": 785,
+    "points_added": 1701,
+    "map_points": 219192
+  },
+  {
+    "frame_id": 790,
+    "points_added": 1685,
+    "map_points": 220877
+  },
+  {
+    "frame_id": 795,
+    "points_added": 1648,
+    "map_points": 222525
+  },
+  {
+    "frame_id": 800,
+    "points_added": 1600,
+    "map_points": 224125
+  },
+  {
+    "frame_id": 805,
+    "points_added": 1682,
+    "map_points": 225807
+  },
+  {
+    "frame_id": 810,
+    "points_added": 1696,
+    "map_points": 227503
+  },
+  {
+    "frame_id": 815,
+    "points_added": 1750,
+    "map_points": 229253
+  },
+  {
+    "frame_id": 820,
+    "points_added": 1740,
+    "map_points": 230993
+  },
+  {
+    "frame_id": 825,
+    "points_added": 1760,
+    "map_points": 232753
+  },
+  {
+    "frame_id": 830,
+    "points_added": 1800,
+    "map_points": 234553
+  },
+  {
+    "frame_id": 835,
+    "points_added": 1725,
+    "map_points": 236278
+  },
+  {
+    "frame_id": 840,
+    "points_added": 1638,
+    "map_points": 237916
+  },
+  {
+    "frame_id": 845,
+    "points_added": 1796,
+    "map_points": 239712
+  },
+  {
+    "frame_id": 850,
+    "points_added": 1764,
+    "map_points": 241476
+  },
+  {
+    "frame_id": 855,
+    "points_added": 1765,
+    "map_points": 243241
+  },
+  {
+    "frame_id": 860,
+    "points_added": 1757,
+    "map_points": 244998
+  },
+  {
+    "frame_id": 865,
+    "points_added": 1746,
+    "map_points": 246744
+  },
+  {
+    "frame_id": 870,
+    "points_added": 1680,
+    "map_points": 248424
+  },
+  {
+    "frame_id": 875,
+    "points_added": 1664,
+    "map_points": 250088
+  },
+  {
+    "frame_id": 880,
+    "points_added": 1772,
+    "map_points": 251860
+  },
+  {
+    "frame_id": 885,
+    "points_added": 1657,
+    "map_points": 253517
+  },
+  {
+    "frame_id": 890,
+    "points_added": 1762,
+    "map_points": 255279
+  },
+  {
+    "frame_id": 895,
+    "points_added": 1620,
+    "map_points": 256899
+  },
+  {
+    "frame_id": 900,
+    "points_added": 1573,
+    "map_points": 258472
+  },
+  {
+    "frame_id": 905,
+    "points_added": 1322,
+    "map_points": 259794
+  },
+  {
+    "frame_id": 910,
+    "points_added": 1457,
+    "map_points": 261251
+  },
+  {
+    "frame_id": 915,
+    "points_added": 1382,
+    "map_points": 262633
+  },
+  {
+    "frame_id": 920,
+    "points_added": 1328,
+    "map_points": 263961
+  },
+  {
+    "frame_id": 925,
+    "points_added": 1262,
+    "map_points": 265223
+  },
+  {
+    "frame_id": 930,
+    "points_added": 1287,
+    "map_points": 266510
+  },
+  {
+    "frame_id": 935,
+    "points_added": 1159,
+    "map_points": 267669
+  },
+  {
+    "frame_id": 940,
+    "points_added": 1236,
+    "map_points": 268905
+  },
+  {
+    "frame_id": 945,
+    "points_added": 1159,
+    "map_points": 270064
+  },
+  {
+    "frame_id": 950,
+    "points_added": 1136,
+    "map_points": 271200
+  },
+  {
+    "frame_id": 955,
+    "points_added": 1238,
+    "map_points": 272438
+  },
+  {
+    "frame_id": 960,
+    "points_added": 1229,
+    "map_points": 273667
+  },
+  {
+    "frame_id": 965,
+    "points_added": 1091,
+    "map_points": 274758
+  },
+  {
+    "frame_id": 970,
+    "points_added": 1160,
+    "map_points": 275918
+  },
+  {
+    "frame_id": 975,
+    "points_added": 1185,
+    "map_points": 277103
+  },
+  {
+    "frame_id": 980,
+    "points_added": 1207,
+    "map_points": 278310
+  },
+  {
+    "frame_id": 985,
+    "points_added": 1213,
+    "map_points": 279523
+  },
+  {
+    "frame_id": 990,
+    "points_added": 1204,
+    "map_points": 280727
+  },
+  {
+    "frame_id": 995,
+    "points_added": 1160,
+    "map_points": 281887
+  },
+  {
+    "frame_id": 1000,
+    "points_added": 1139,
+    "map_points": 283026
+  },
+  {
+    "frame_id": 1005,
+    "points_added": 1147,
+    "map_points": 284173
+  },
+  {
+    "frame_id": 1010,
+    "points_added": 1087,
+    "map_points": 285260
+  },
+  {
+    "frame_id": 1015,
+    "points_added": 1130,
+    "map_points": 286390
+  },
+  {
+    "frame_id": 1020,
+    "points_added": 1157,
+    "map_points": 287547
+  },
+  {
+    "frame_id": 1025,
+    "points_added": 1248,
+    "map_points": 288795
+  },
+  {
+    "frame_id": 1030,
+    "points_added": 1225,
+    "map_points": 290020
+  },
+  {
+    "frame_id": 1035,
+    "points_added": 1275,
+    "map_points": 291295
+  },
+  {
+    "frame_id": 1040,
+    "points_added": 1306,
+    "map_points": 292601
+  },
+  {
+    "frame_id": 1045,
+    "points_added": 1270,
+    "map_points": 293871
+  },
+  {
+    "frame_id": 1050,
+    "points_added": 1249,
+    "map_points": 295120
+  },
+  {
+    "frame_id": 1055,
+    "points_added": 1137,
+    "map_points": 296257
+  },
+  {
+    "frame_id": 1060,
+    "points_added": 1098,
+    "map_points": 297355
+  },
+  {
+    "frame_id": 1065,
+    "points_added": 1195,
+    "map_points": 298550
+  },
+  {
+    "frame_id": 1070,
+    "points_added": 1100,
+    "map_points": 299650
+  },
+  {
+    "frame_id": 1075,
+    "points_added": 1156,
+    "map_points": 300806
+  },
+  {
+    "frame_id": 1080,
+    "points_added": 1038,
+    "map_points": 301844
+  },
+  {
+    "frame_id": 1085,
+    "points_added": 1177,
+    "map_points": 303021
+  },
+  {
+    "frame_id": 1090,
+    "points_added": 1278,
+    "map_points": 304299
+  },
+  {
+    "frame_id": 1095,
+    "points_added": 1244,
+    "map_points": 305543
+  },
+  {
+    "frame_id": 1100,
+    "points_added": 1208,
+    "map_points": 306751
+  },
+  {
+    "frame_id": 1105,
+    "points_added": 1249,
+    "map_points": 308000
+  },
+  {
+    "frame_id": 1110,
+    "points_added": 1229,
+    "map_points": 309229
+  },
+  {
+    "frame_id": 1115,
+    "points_added": 1305,
+    "map_points": 310534
+  },
+  {
+    "frame_id": 1120,
+    "points_added": 1226,
+    "map_points": 311760
+  },
+  {
+    "frame_id": 1125,
+    "points_added": 1242,
+    "map_points": 313002
+  },
+  {
+    "frame_id": 1130,
+    "points_added": 1370,
+    "map_points": 314372
+  },
+  {
+    "frame_id": 1135,
+    "points_added": 1257,
+    "map_points": 315629
+  },
+  {
+    "frame_id": 1140,
+    "points_added": 1391,
+    "map_points": 317020
+  },
+  {
+    "frame_id": 1145,
+    "points_added": 1290,
+    "map_points": 318310
+  },
+  {
+    "frame_id": 1150,
+    "points_added": 1317,
+    "map_points": 319627
+  },
+  {
+    "frame_id": 1155,
+    "points_added": 1367,
+    "map_points": 320994
+  },
+  {
+    "frame_id": 1160,
+    "points_added": 1430,
+    "map_points": 322424
+  },
+  {
+    "frame_id": 1165,
+    "points_added": 1332,
+    "map_points": 323756
+  },
+  {
+    "frame_id": 1170,
+    "points_added": 1383,
+    "map_points": 325139
+  },
+  {
+    "frame_id": 1175,
+    "points_added": 1322,
+    "map_points": 326461
+  },
+  {
+    "frame_id": 1180,
+    "points_added": 1308,
+    "map_points": 327769
+  },
+  {
+    "frame_id": 1185,
+    "points_added": 1394,
+    "map_points": 329163
+  },
+  {
+    "frame_id": 1190,
+    "points_added": 1497,
+    "map_points": 330660
+  },
+  {
+    "frame_id": 1195,
+    "points_added": 1419,
+    "map_points": 332079
+  },
+  {
+    "frame_id": 1200,
+    "points_added": 1675,
+    "map_points": 333754
+  },
+  {
+    "frame_id": 1205,
+    "points_added": 1563,
+    "map_points": 335317
+  },
+  {
+    "frame_id": 1210,
+    "points_added": 1571,
+    "map_points": 336888
+  },
+  {
+    "frame_id": 1215,
+    "points_added": 1628,
+    "map_points": 338516
+  },
+  {
+    "frame_id": 1220,
+    "points_added": 1662,
+    "map_points": 340178
+  },
+  {
+    "frame_id": 1225,
+    "points_added": 1705,
+    "map_points": 341883
+  },
+  {
+    "frame_id": 1230,
+    "points_added": 1569,
+    "map_points": 343452
+  },
+  {
+    "frame_id": 1235,
+    "points_added": 1664,
+    "map_points": 345116
+  },
+  {
+    "frame_id": 1240,
+    "points_added": 1571,
+    "map_points": 346687
+  },
+  {
+    "frame_id": 1245,
+    "points_added": 1533,
+    "map_points": 348220
+  },
+  {
+    "frame_id": 1250,
+    "points_added": 1550,
+    "map_points": 349770
+  },
+  {
+    "frame_id": 1255,
+    "points_added": 1582,
+    "map_points": 351352
+  },
+  {
+    "frame_id": 1260,
+    "points_added": 1499,
+    "map_points": 352851
+  },
+  {
+    "frame_id": 1265,
+    "points_added": 1555,
+    "map_points": 354406
+  },
+  {
+    "frame_id": 1270,
+    "points_added": 1553,
+    "map_points": 355959
+  },
+  {
+    "frame_id": 1275,
+    "points_added": 1573,
+    "map_points": 357532
+  },
+  {
+    "frame_id": 1280,
+    "points_added": 1515,
+    "map_points": 359047
+  },
+  {
+    "frame_id": 1285,
+    "points_added": 1566,
+    "map_points": 360613
+  },
+  {
+    "frame_id": 1290,
+    "points_added": 1560,
+    "map_points": 362173
+  },
+  {
+    "frame_id": 1295,
+    "points_added": 1552,
+    "map_points": 363725
+  },
+  {
+    "frame_id": 1300,
+    "points_added": 1648,
+    "map_points": 365373
+  },
+  {
+    "frame_id": 1305,
+    "points_added": 1671,
+    "map_points": 367044
+  },
+  {
+    "frame_id": 1310,
+    "points_added": 1595,
+    "map_points": 368639
+  },
+  {
+    "frame_id": 1315,
+    "points_added": 1738,
+    "map_points": 370377
+  },
+  {
+    "frame_id": 1320,
+    "points_added": 1557,
+    "map_points": 371934
+  },
+  {
+    "frame_id": 1325,
+    "points_added": 1645,
+    "map_points": 373579
+  },
+  {
+    "frame_id": 1330,
+    "points_added": 1643,
+    "map_points": 375222
+  },
+  {
+    "frame_id": 1335,
+    "points_added": 1599,
+    "map_points": 376821
+  },
+  {
+    "frame_id": 1340,
+    "points_added": 1749,
+    "map_points": 378570
+  },
+  {
+    "frame_id": 1345,
+    "points_added": 1626,
+    "map_points": 380196
+  },
+  {
+    "frame_id": 1350,
+    "points_added": 1726,
+    "map_points": 381922
+  },
+  {
+    "frame_id": 1355,
+    "points_added": 1668,
+    "map_points": 383590
+  },
+  {
+    "frame_id": 1360,
+    "points_added": 1730,
+    "map_points": 385320
+  },
+  {
+    "frame_id": 1365,
+    "points_added": 1720,
+    "map_points": 387040
+  },
+  {
+    "frame_id": 1370,
+    "points_added": 1687,
+    "map_points": 388727
+  },
+  {
+    "frame_id": 1375,
+    "points_added": 1769,
+    "map_points": 390496
+  },
+  {
+    "frame_id": 1380,
+    "points_added": 1815,
+    "map_points": 392311
+  },
+  {
+    "frame_id": 1385,
+    "points_added": 1787,
+    "map_points": 394098
+  },
+  {
+    "frame_id": 1390,
+    "points_added": 1761,
+    "map_points": 395859
+  },
+  {
+    "frame_id": 1395,
+    "points_added": 1778,
+    "map_points": 397637
+  },
+  {
+    "frame_id": 1400,
+    "points_added": 1768,
+    "map_points": 399405
+  },
+  {
+    "frame_id": 1405,
+    "points_added": 1910,
+    "map_points": 401315
+  },
+  {
+    "frame_id": 1410,
+    "points_added": 1821,
+    "map_points": 403136
+  },
+  {
+    "frame_id": 1415,
+    "points_added": 1893,
+    "map_points": 405029
+  },
+  {
+    "frame_id": 1420,
+    "points_added": 1905,
+    "map_points": 406934
+  },
+  {
+    "frame_id": 1425,
+    "points_added": 1929,
+    "map_points": 408863
+  },
+  {
+    "frame_id": 1430,
+    "points_added": 1843,
+    "map_points": 410706
+  },
+  {
+    "frame_id": 1435,
+    "points_added": 1641,
+    "map_points": 412347
+  },
+  {
+    "frame_id": 1440,
+    "points_added": 1453,
+    "map_points": 413800
+  },
+  {
+    "frame_id": 1445,
+    "points_added": 1460,
+    "map_points": 415260
+  },
+  {
+    "frame_id": 1450,
+    "points_added": 1382,
+    "map_points": 416642
+  },
+  {
+    "frame_id": 1455,
+    "points_added": 1304,
+    "map_points": 417946
+  },
+  {
+    "frame_id": 1460,
+    "points_added": 1299,
+    "map_points": 419245
+  },
+  {
+    "frame_id": 1465,
+    "points_added": 1220,
+    "map_points": 420465
+  },
+  {
+    "frame_id": 1470,
+    "points_added": 1199,
+    "map_points": 421664
+  },
+  {
+    "frame_id": 1475,
+    "points_added": 1259,
+    "map_points": 422923
+  },
+  {
+    "frame_id": 1480,
+    "points_added": 1191,
+    "map_points": 424114
+  },
+  {
+    "frame_id": 1485,
+    "points_added": 1271,
+    "map_points": 425385
+  },
+  {
+    "frame_id": 1490,
+    "points_added": 1194,
+    "map_points": 426579
+  },
+  {
+    "frame_id": 1495,
+    "points_added": 1248,
+    "map_points": 427827
+  },
+  {
+    "frame_id": 1500,
+    "points_added": 1248,
+    "map_points": 429075
+  },
+  {
+    "frame_id": 1505,
+    "points_added": 1268,
+    "map_points": 430343
+  },
+  {
+    "frame_id": 1510,
+    "points_added": 1299,
+    "map_points": 431642
+  },
+  {
+    "frame_id": 1515,
+    "points_added": 1236,
+    "map_points": 432878
+  },
+  {
+    "frame_id": 1520,
+    "points_added": 1289,
+    "map_points": 434167
+  },
+  {
+    "frame_id": 1525,
+    "points_added": 1210,
+    "map_points": 435377
+  },
+  {
+    "frame_id": 1530,
+    "points_added": 1223,
+    "map_points": 436600
+  },
+  {
+    "frame_id": 1535,
+    "points_added": 1276,
+    "map_points": 437876
+  },
+  {
+    "frame_id": 1540,
+    "points_added": 1263,
+    "map_points": 439139
+  },
+  {
+    "frame_id": 1545,
+    "points_added": 1245,
+    "map_points": 440384
+  },
+  {
+    "frame_id": 1550,
+    "points_added": 1277,
+    "map_points": 441661
+  },
+  {
+    "frame_id": 1555,
+    "points_added": 1222,
+    "map_points": 442883
+  },
+  {
+    "frame_id": 1560,
+    "points_added": 1270,
+    "map_points": 444153
+  },
+  {
+    "frame_id": 1565,
+    "points_added": 1247,
+    "map_points": 445400
+  },
+  {
+    "frame_id": 1570,
+    "points_added": 1216,
+    "map_points": 446616
+  },
+  {
+    "frame_id": 1575,
+    "points_added": 1254,
+    "map_points": 447870
+  },
+  {
+    "frame_id": 1580,
+    "points_added": 1283,
+    "map_points": 449153
+  },
+  {
+    "frame_id": 1585,
+    "points_added": 1268,
+    "map_points": 450421
+  },
+  {
+    "frame_id": 1590,
+    "points_added": 1246,
+    "map_points": 451667
+  },
+  {
+    "frame_id": 1595,
+    "points_added": 1178,
+    "map_points": 452845
+  },
+  {
+    "frame_id": 1600,
+    "points_added": 1220,
+    "map_points": 454065
+  },
+  {
+    "frame_id": 1605,
+    "points_added": 1226,
+    "map_points": 455291
+  },
+  {
+    "frame_id": 1610,
+    "points_added": 1268,
+    "map_points": 456559
+  },
+  {
+    "frame_id": 1615,
+    "points_added": 1283,
+    "map_points": 457842
+  },
+  {
+    "frame_id": 1620,
+    "points_added": 1266,
+    "map_points": 459108
+  },
+  {
+    "frame_id": 1625,
+    "points_added": 1304,
+    "map_points": 460412
+  },
+  {
+    "frame_id": 1630,
+    "points_added": 1368,
+    "map_points": 461780
+  },
+  {
+    "frame_id": 1635,
+    "points_added": 1330,
+    "map_points": 463110
+  },
+  {
+    "frame_id": 1640,
+    "points_added": 1402,
+    "map_points": 464512
+  },
+  {
+    "frame_id": 1645,
+    "points_added": 1343,
+    "map_points": 465855
+  },
+  {
+    "frame_id": 1650,
+    "points_added": 1421,
+    "map_points": 467276
+  },
+  {
+    "frame_id": 1655,
+    "points_added": 1327,
+    "map_points": 468603
+  },
+  {
+    "frame_id": 1660,
+    "points_added": 1412,
+    "map_points": 470015
+  },
+  {
+    "frame_id": 1665,
+    "points_added": 1493,
+    "map_points": 471508
+  },
+  {
+    "frame_id": 1670,
+    "points_added": 1465,
+    "map_points": 472973
+  },
+  {
+    "frame_id": 1675,
+    "points_added": 1463,
+    "map_points": 474436
+  },
+  {
+    "frame_id": 1680,
+    "points_added": 1473,
+    "map_points": 475909
+  },
+  {
+    "frame_id": 1685,
+    "points_added": 1474,
+    "map_points": 477383
+  },
+  {
+    "frame_id": 1690,
+    "points_added": 1393,
+    "map_points": 478776
+  },
+  {
+    "frame_id": 1695,
+    "points_added": 1413,
+    "map_points": 480189
+  },
+  {
+    "frame_id": 1700,
+    "points_added": 1490,
+    "map_points": 481679
+  },
+  {
+    "frame_id": 1705,
+    "points_added": 1399,
+    "map_points": 483078
+  },
+  {
+    "frame_id": 1710,
+    "points_added": 1469,
+    "map_points": 484547
+  },
+  {
+    "frame_id": 1715,
+    "points_added": 1429,
+    "map_points": 485976
+  },
+  {
+    "frame_id": 1720,
+    "points_added": 1399,
+    "map_points": 487375
+  },
+  {
+    "frame_id": 1725,
+    "points_added": 1354,
+    "map_points": 488729
+  },
+  {
+    "frame_id": 1730,
+    "points_added": 1421,
+    "map_points": 490150
+  },
+  {
+    "frame_id": 1735,
+    "points_added": 1344,
+    "map_points": 491494
+  },
+  {
+    "frame_id": 1740,
+    "points_added": 1376,
+    "map_points": 492870
+  },
+  {
+    "frame_id": 1745,
+    "points_added": 1437,
+    "map_points": 494307
+  },
+  {
+    "frame_id": 1750,
+    "points_added": 1413,
+    "map_points": 495720
+  },
+  {
+    "frame_id": 1755,
+    "points_added": 1436,
+    "map_points": 497156
+  },
+  {
+    "frame_id": 1760,
+    "points_added": 1475,
+    "map_points": 498631
+  },
+  {
+    "frame_id": 1765,
+    "points_added": 1596,
+    "map_points": 500227
+  },
+  {
+    "frame_id": 1770,
+    "points_added": 1529,
+    "map_points": 501756
+  },
+  {
+    "frame_id": 1775,
+    "points_added": 1556,
+    "map_points": 503312
+  },
+  {
+    "frame_id": 1780,
+    "points_added": 1570,
+    "map_points": 504882
+  },
+  {
+    "frame_id": 1785,
+    "points_added": 1546,
+    "map_points": 506428
+  },
+  {
+    "frame_id": 1790,
+    "points_added": 1491,
+    "map_points": 507919
+  },
+  {
+    "frame_id": 1795,
+    "points_added": 1577,
+    "map_points": 509496
+  },
+  {
+    "frame_id": 1800,
+    "points_added": 1574,
+    "map_points": 511070
+  },
+  {
+    "frame_id": 1805,
+    "points_added": 1523,
+    "map_points": 512593
+  },
+  {
+    "frame_id": 1810,
+    "points_added": 1536,
+    "map_points": 514129
+  },
+  {
+    "frame_id": 1815,
+    "points_added": 1557,
+    "map_points": 515686
+  },
+  {
+    "frame_id": 1820,
+    "points_added": 1619,
+    "map_points": 517305
+  },
+  {
+    "frame_id": 1825,
+    "points_added": 1551,
+    "map_points": 518856
+  },
+  {
+    "frame_id": 1830,
+    "points_added": 1549,
+    "map_points": 520405
+  },
+  {
+    "frame_id": 1835,
+    "points_added": 1601,
+    "map_points": 522006
+  },
+  {
+    "frame_id": 1840,
+    "points_added": 1626,
+    "map_points": 523632
+  },
+  {
+    "frame_id": 1845,
+    "points_added": 1588,
+    "map_points": 525220
+  },
+  {
+    "frame_id": 1850,
+    "points_added": 1615,
+    "map_points": 526835
+  },
+  {
+    "frame_id": 1855,
+    "points_added": 1614,
+    "map_points": 528449
+  },
+  {
+    "frame_id": 1860,
+    "points_added": 1605,
+    "map_points": 530054
+  },
+  {
+    "frame_id": 1865,
+    "points_added": 1597,
+    "map_points": 531651
+  },
+  {
+    "frame_id": 1870,
+    "points_added": 1671,
+    "map_points": 533322
+  },
+  {
+    "frame_id": 1875,
+    "points_added": 1740,
+    "map_points": 535062
+  },
+  {
+    "frame_id": 1880,
+    "points_added": 1657,
+    "map_points": 536719
+  },
+  {
+    "frame_id": 1885,
+    "points_added": 1686,
+    "map_points": 538405
+  },
+  {
+    "frame_id": 1890,
+    "points_added": 1645,
+    "map_points": 540050
+  },
+  {
+    "frame_id": 1895,
+    "points_added": 1751,
+    "map_points": 541801
+  },
+  {
+    "frame_id": 1900,
+    "points_added": 1751,
+    "map_points": 543552
+  },
+  {
+    "frame_id": 1905,
+    "points_added": 1774,
+    "map_points": 545326
+  },
+  {
+    "frame_id": 1910,
+    "points_added": 1739,
+    "map_points": 547065
+  },
+  {
+    "frame_id": 1915,
+    "points_added": 1704,
+    "map_points": 548769
+  },
+  {
+    "frame_id": 1920,
+    "points_added": 1737,
+    "map_points": 550506
+  },
+  {
+    "frame_id": 1925,
+    "points_added": 1662,
+    "map_points": 552168
+  },
+  {
+    "frame_id": 1930,
+    "points_added": 1740,
+    "map_points": 553908
+  },
+  {
+    "frame_id": 1935,
+    "points_added": 1859,
+    "map_points": 555767
+  },
+  {
+    "frame_id": 1940,
+    "points_added": 1674,
+    "map_points": 557441
+  },
+  {
+    "frame_id": 1945,
+    "points_added": 1707,
+    "map_points": 559148
+  },
+  {
+    "frame_id": 1950,
+    "points_added": 1650,
+    "map_points": 560798
+  },
+  {
+    "frame_id": 1955,
+    "points_added": 1685,
+    "map_points": 562483
+  },
+  {
+    "frame_id": 1960,
+    "points_added": 1607,
+    "map_points": 564090
+  },
+  {
+    "frame_id": 1965,
+    "points_added": 1568,
+    "map_points": 565658
+  },
+  {
+    "frame_id": 1970,
+    "points_added": 1408,
+    "map_points": 567066
+  },
+  {
+    "frame_id": 1975,
+    "points_added": 1328,
+    "map_points": 568394
+  },
+  {
+    "frame_id": 1980,
+    "points_added": 1212,
+    "map_points": 569606
+  },
+  {
+    "frame_id": 1985,
+    "points_added": 1263,
+    "map_points": 570869
+  },
+  {
+    "frame_id": 1990,
+    "points_added": 1190,
+    "map_points": 572059
+  },
+  {
+    "frame_id": 1995,
+    "points_added": 1223,
+    "map_points": 573282
+  },
+  {
+    "frame_id": 2000,
+    "points_added": 1196,
+    "map_points": 574478
+  },
+  {
+    "frame_id": 2005,
+    "points_added": 1239,
+    "map_points": 575717
+  },
+  {
+    "frame_id": 2010,
+    "points_added": 1233,
+    "map_points": 576950
+  },
+  {
+    "frame_id": 2015,
+    "points_added": 1233,
+    "map_points": 578183
+  },
+  {
+    "frame_id": 2020,
+    "points_added": 1340,
+    "map_points": 579523
+  },
+  {
+    "frame_id": 2025,
+    "points_added": 1304,
+    "map_points": 580827
+  },
+  {
+    "frame_id": 2030,
+    "points_added": 1374,
+    "map_points": 582201
+  },
+  {
+    "frame_id": 2035,
+    "points_added": 1285,
+    "map_points": 583486
+  },
+  {
+    "frame_id": 2040,
+    "points_added": 1304,
+    "map_points": 584790
+  },
+  {
+    "frame_id": 2045,
+    "points_added": 1231,
+    "map_points": 586021
+  },
+  {
+    "frame_id": 2050,
+    "points_added": 1324,
+    "map_points": 587345
+  },
+  {
+    "frame_id": 2055,
+    "points_added": 1220,
+    "map_points": 588565
+  },
+  {
+    "frame_id": 2060,
+    "points_added": 1274,
+    "map_points": 589839
+  },
+  {
+    "frame_id": 2065,
+    "points_added": 1283,
+    "map_points": 591122
+  },
+  {
+    "frame_id": 2070,
+    "points_added": 1325,
+    "map_points": 592447
+  },
+  {
+    "frame_id": 2075,
+    "points_added": 1258,
+    "map_points": 593705
+  },
+  {
+    "frame_id": 2080,
+    "points_added": 1226,
+    "map_points": 594931
+  },
+  {
+    "frame_id": 2085,
+    "points_added": 1286,
+    "map_points": 596217
+  },
+  {
+    "frame_id": 2090,
+    "points_added": 1228,
+    "map_points": 597445
+  },
+  {
+    "frame_id": 2095,
+    "points_added": 1270,
+    "map_points": 598715
+  },
+  {
+    "frame_id": 2100,
+    "points_added": 1332,
+    "map_points": 600047
+  },
+  {
+    "frame_id": 2105,
+    "points_added": 1285,
+    "map_points": 601332
+  },
+  {
+    "frame_id": 2110,
+    "points_added": 1284,
+    "map_points": 602616
+  },
+  {
+    "frame_id": 2115,
+    "points_added": 1229,
+    "map_points": 603845
+  },
+  {
+    "frame_id": 2120,
+    "points_added": 1297,
+    "map_points": 605142
+  },
+  {
+    "frame_id": 2125,
+    "points_added": 1306,
+    "map_points": 606448
+  },
+  {
+    "frame_id": 2130,
+    "points_added": 1292,
+    "map_points": 607740
+  },
+  {
+    "frame_id": 2135,
+    "points_added": 1226,
+    "map_points": 608966
+  },
+  {
+    "frame_id": 2140,
+    "points_added": 1272,
+    "map_points": 610238
+  },
+  {
+    "frame_id": 2145,
+    "points_added": 1255,
+    "map_points": 611493
+  },
+  {
+    "frame_id": 2150,
+    "points_added": 1308,
+    "map_points": 612801
+  },
+  {
+    "frame_id": 2155,
+    "points_added": 1320,
+    "map_points": 614121
+  },
+  {
+    "frame_id": 2160,
+    "points_added": 1409,
+    "map_points": 615530
+  },
+  {
+    "frame_id": 2165,
+    "points_added": 1255,
+    "map_points": 616785
+  },
+  {
+    "frame_id": 2170,
+    "points_added": 1424,
+    "map_points": 618209
+  },
+  {
+    "frame_id": 2175,
+    "points_added": 1404,
+    "map_points": 619613
+  },
+  {
+    "frame_id": 2180,
+    "points_added": 1399,
+    "map_points": 621012
+  },
+  {
+    "frame_id": 2185,
+    "points_added": 1450,
+    "map_points": 622462
+  },
+  {
+    "frame_id": 2190,
+    "points_added": 1455,
+    "map_points": 623917
+  },
+  {
+    "frame_id": 2195,
+    "points_added": 1484,
+    "map_points": 625401
+  },
+  {
+    "frame_id": 2200,
+    "points_added": 1470,
+    "map_points": 626871
+  },
+  {
+    "frame_id": 2205,
+    "points_added": 1423,
+    "map_points": 628294
+  },
+  {
+    "frame_id": 2210,
+    "points_added": 1361,
+    "map_points": 629655
+  },
+  {
+    "frame_id": 2215,
+    "points_added": 1443,
+    "map_points": 631098
+  },
+  {
+    "frame_id": 2220,
+    "points_added": 1337,
+    "map_points": 632435
+  },
+  {
+    "frame_id": 2225,
+    "points_added": 1347,
+    "map_points": 633782
+  },
+  {
+    "frame_id": 2230,
+    "points_added": 1262,
+    "map_points": 635044
+  },
+  {
+    "frame_id": 2235,
+    "points_added": 1321,
+    "map_points": 636365
+  },
+  {
+    "frame_id": 2240,
+    "points_added": 1300,
+    "map_points": 637665
+  },
+  {
+    "frame_id": 2245,
+    "points_added": 507,
+    "map_points": 638172
+  },
+  {
+    "frame_id": 2250,
+    "points_added": 1314,
+    "map_points": 639486
+  },
+  {
+    "frame_id": 2255,
+    "points_added": 1340,
+    "map_points": 640826
+  },
+  {
+    "frame_id": 2260,
+    "points_added": 1387,
+    "map_points": 642213
+  },
+  {
+    "frame_id": 2265,
+    "points_added": 1385,
+    "map_points": 643598
+  },
+  {
+    "frame_id": 2270,
+    "points_added": 1393,
+    "map_points": 644991
+  },
+  {
+    "frame_id": 2275,
+    "points_added": 1445,
+    "map_points": 646436
+  },
+  {
+    "frame_id": 2280,
+    "points_added": 1457,
+    "map_points": 647893
+  },
+  {
+    "frame_id": 2285,
+    "points_added": 1511,
+    "map_points": 649404
+  },
+  {
+    "frame_id": 2290,
+    "points_added": 1410,
+    "map_points": 650814
+  },
+  {
+    "frame_id": 2295,
+    "points_added": 1503,
+    "map_points": 652317
+  },
+  {
+    "frame_id": 2300,
+    "points_added": 1449,
+    "map_points": 653766
+  },
+  {
+    "frame_id": 2305,
+    "points_added": 1520,
+    "map_points": 655286
+  },
+  {
+    "frame_id": 2310,
+    "points_added": 1550,
+    "map_points": 656836
+  },
+  {
+    "frame_id": 2315,
+    "points_added": 1622,
+    "map_points": 658458
+  },
+  {
+    "frame_id": 2320,
+    "points_added": 1584,
+    "map_points": 660042
+  },
+  {
+    "frame_id": 2325,
+    "points_added": 1485,
+    "map_points": 661527
+  },
+  {
+    "frame_id": 2330,
+    "points_added": 1559,
+    "map_points": 663086
+  },
+  {
+    "frame_id": 2335,
+    "points_added": 1526,
+    "map_points": 664612
+  },
+  {
+    "frame_id": 2340,
+    "points_added": 1552,
+    "map_points": 666164
+  },
+  {
+    "frame_id": 2345,
+    "points_added": 1559,
+    "map_points": 667723
+  },
+  {
+    "frame_id": 2350,
+    "points_added": 1584,
+    "map_points": 669307
+  },
+  {
+    "frame_id": 2355,
+    "points_added": 1582,
+    "map_points": 670889
+  },
+  {
+    "frame_id": 2360,
+    "points_added": 1627,
+    "map_points": 672516
+  },
+  {
+    "frame_id": 2365,
+    "points_added": 1599,
+    "map_points": 674115
+  },
+  {
+    "frame_id": 2370,
+    "points_added": 1549,
+    "map_points": 675664
+  },
+  {
+    "frame_id": 2375,
+    "points_added": 1640,
+    "map_points": 677304
+  },
+  {
+    "frame_id": 2380,
+    "points_added": 1647,
+    "map_points": 678951
+  },
+  {
+    "frame_id": 2385,
+    "points_added": 1600,
+    "map_points": 680551
+  },
+  {
+    "frame_id": 2390,
+    "points_added": 1609,
+    "map_points": 682160
+  },
+  {
+    "frame_id": 2395,
+    "points_added": 1650,
+    "map_points": 683810
+  },
+  {
+    "frame_id": 2400,
+    "points_added": 1648,
+    "map_points": 685458
+  },
+  {
+    "frame_id": 2405,
+    "points_added": 1651,
+    "map_points": 687109
+  },
+  {
+    "frame_id": 2410,
+    "points_added": 1620,
+    "map_points": 688729
+  },
+  {
+    "frame_id": 2415,
+    "points_added": 1617,
+    "map_points": 690346
+  },
+  {
+    "frame_id": 2420,
+    "points_added": 1692,
+    "map_points": 692038
+  },
+  {
+    "frame_id": 2425,
+    "points_added": 1661,
+    "map_points": 693699
+  },
+  {
+    "frame_id": 2430,
+    "points_added": 1674,
+    "map_points": 695373
+  },
+  {
+    "frame_id": 2435,
+    "points_added": 1645,
+    "map_points": 697018
+  },
+  {
+    "frame_id": 2440,
+    "points_added": 1727,
+    "map_points": 698745
+  },
+  {
+    "frame_id": 2445,
+    "points_added": 1668,
+    "map_points": 700413
+  },
+  {
+    "frame_id": 2450,
+    "points_added": 1681,
+    "map_points": 702094
+  },
+  {
+    "frame_id": 2455,
+    "points_added": 1657,
+    "map_points": 703751
+  },
+  {
+    "frame_id": 2460,
+    "points_added": 1719,
+    "map_points": 705470
+  },
+  {
+    "frame_id": 2465,
+    "points_added": 1678,
+    "map_points": 707148
+  },
+  {
+    "frame_id": 2470,
+    "points_added": 1639,
+    "map_points": 708787
+  },
+  {
+    "frame_id": 2475,
+    "points_added": 1717,
+    "map_points": 710504
+  },
+  {
+    "frame_id": 2480,
+    "points_added": 1651,
+    "map_points": 712155
+  },
+  {
+    "frame_id": 2485,
+    "points_added": 1736,
+    "map_points": 713891
+  },
+  {
+    "frame_id": 2490,
+    "points_added": 1753,
+    "map_points": 715644
+  },
+  {
+    "frame_id": 2495,
+    "points_added": 1684,
+    "map_points": 717328
+  },
+  {
+    "frame_id": 2500,
+    "points_added": 1705,
+    "map_points": 719033
+  },
+  {
+    "frame_id": 2505,
+    "points_added": 1733,
+    "map_points": 720766
+  },
+  {
+    "frame_id": 2510,
+    "points_added": 1667,
+    "map_points": 722433
+  },
+  {
+    "frame_id": 2515,
+    "points_added": 1788,
+    "map_points": 724221
+  },
+  {
+    "frame_id": 2520,
+    "points_added": 1725,
+    "map_points": 725946
+  },
+  {
+    "frame_id": 2525,
+    "points_added": 1781,
+    "map_points": 727727
+  },
+  {
+    "frame_id": 2530,
+    "points_added": 1853,
+    "map_points": 729580
+  },
+  {
+    "frame_id": 2535,
+    "points_added": 1770,
+    "map_points": 731350
+  },
+  {
+    "frame_id": 2540,
+    "points_added": 1762,
+    "map_points": 733112
+  },
+  {
+    "frame_id": 2545,
+    "points_added": 1848,
+    "map_points": 734960
+  },
+  {
+    "frame_id": 2550,
+    "points_added": 1794,
+    "map_points": 736754
+  },
+  {
+    "frame_id": 2555,
+    "points_added": 1867,
+    "map_points": 738621
+  },
+  {
+    "frame_id": 2560,
+    "points_added": 1717,
+    "map_points": 740338
+  },
+  {
+    "frame_id": 2565,
+    "points_added": 1765,
+    "map_points": 742103
+  },
+  {
+    "frame_id": 2570,
+    "points_added": 1794,
+    "map_points": 743897
+  },
+  {
+    "frame_id": 2575,
+    "points_added": 1869,
+    "map_points": 745766
+  },
+  {
+    "frame_id": 2580,
+    "points_added": 1801,
+    "map_points": 747567
+  },
+  {
+    "frame_id": 2585,
+    "points_added": 1828,
+    "map_points": 749395
+  },
+  {
+    "frame_id": 2590,
+    "points_added": 1944,
+    "map_points": 751339
+  },
+  {
+    "frame_id": 2595,
+    "points_added": 1854,
+    "map_points": 753193
+  },
+  {
+    "frame_id": 2600,
+    "points_added": 1914,
+    "map_points": 755107
+  },
+  {
+    "frame_id": 2605,
+    "points_added": 1780,
+    "map_points": 756887
+  },
+  {
+    "frame_id": 2610,
+    "points_added": 1794,
+    "map_points": 758681
+  },
+  {
+    "frame_id": 2615,
+    "points_added": 1859,
+    "map_points": 760540
+  },
+  {
+    "frame_id": 2620,
+    "points_added": 1861,
+    "map_points": 762401
+  },
+  {
+    "frame_id": 2625,
+    "points_added": 1808,
+    "map_points": 764209
+  },
+  {
+    "frame_id": 2630,
+    "points_added": 1814,
+    "map_points": 766023
+  },
+  {
+    "frame_id": 2635,
+    "points_added": 1868,
+    "map_points": 767891
+  },
+  {
+    "frame_id": 2640,
+    "points_added": 1805,
+    "map_points": 769696
+  },
+  {
+    "frame_id": 2645,
+    "points_added": 1793,
+    "map_points": 771489
+  },
+  {
+    "frame_id": 2650,
+    "points_added": 1753,
+    "map_points": 773242
+  },
+  {
+    "frame_id": 2655,
+    "points_added": 1752,
+    "map_points": 774994
+  },
+  {
+    "frame_id": 2660,
+    "points_added": 1723,
+    "map_points": 776717
+  },
+  {
+    "frame_id": 2665,
+    "points_added": 1741,
+    "map_points": 778458
+  },
+  {
+    "frame_id": 2670,
+    "points_added": 1688,
+    "map_points": 780146
+  },
+  {
+    "frame_id": 2675,
+    "points_added": 1751,
+    "map_points": 781897
+  },
+  {
+    "frame_id": 2680,
+    "points_added": 1695,
+    "map_points": 783592
+  },
+  {
+    "frame_id": 2685,
+    "points_added": 1736,
+    "map_points": 785328
+  },
+  {
+    "frame_id": 2690,
+    "points_added": 1813,
+    "map_points": 787141
+  },
+  {
+    "frame_id": 2695,
+    "points_added": 1772,
+    "map_points": 788913
+  },
+  {
+    "frame_id": 2700,
+    "points_added": 1930,
+    "map_points": 790843
+  },
+  {
+    "frame_id": 2705,
+    "points_added": 1816,
+    "map_points": 792659
+  },
+  {
+    "frame_id": 2710,
+    "points_added": 1819,
+    "map_points": 794478
+  },
+  {
+    "frame_id": 2715,
+    "points_added": 1859,
+    "map_points": 796337
+  },
+  {
+    "frame_id": 2720,
+    "points_added": 1807,
+    "map_points": 798144
+  },
+  {
+    "frame_id": 2725,
+    "points_added": 1844,
+    "map_points": 799988
+  },
+  {
+    "frame_id": 2730,
+    "points_added": 1767,
+    "map_points": 801755
+  },
+  {
+    "frame_id": 2735,
+    "points_added": 1819,
+    "map_points": 803574
+  },
+  {
+    "frame_id": 2740,
+    "points_added": 1764,
+    "map_points": 805338
+  },
+  {
+    "frame_id": 2745,
+    "points_added": 1787,
+    "map_points": 807125
+  },
+  {
+    "frame_id": 2750,
+    "points_added": 1803,
+    "map_points": 808928
+  },
+  {
+    "frame_id": 2755,
+    "points_added": 1843,
+    "map_points": 810771
+  },
+  {
+    "frame_id": 2760,
+    "points_added": 1747,
+    "map_points": 812518
+  },
+  {
+    "frame_id": 2765,
+    "points_added": 1824,
+    "map_points": 814342
+  },
+  {
+    "frame_id": 2770,
+    "points_added": 1874,
+    "map_points": 816216
+  },
+  {
+    "frame_id": 2775,
+    "points_added": 1848,
+    "map_points": 818064
+  },
+  {
+    "frame_id": 2780,
+    "points_added": 1841,
+    "map_points": 819905
+  },
+  {
+    "frame_id": 2785,
+    "points_added": 1915,
+    "map_points": 821820
+  },
+  {
+    "frame_id": 2790,
+    "points_added": 1789,
+    "map_points": 823609
+  },
+  {
+    "frame_id": 2795,
+    "points_added": 1867,
+    "map_points": 825476
+  },
+  {
+    "frame_id": 2800,
+    "points_added": 1820,
+    "map_points": 827296
+  },
+  {
+    "frame_id": 2805,
+    "points_added": 1868,
+    "map_points": 829164
+  },
+  {
+    "frame_id": 2810,
+    "points_added": 1764,
+    "map_points": 830928
+  },
+  {
+    "frame_id": 2815,
+    "points_added": 1901,
+    "map_points": 832829
+  },
+  {
+    "frame_id": 2820,
+    "points_added": 1857,
+    "map_points": 834686
+  },
+  {
+    "frame_id": 2825,
+    "points_added": 1845,
+    "map_points": 836531
+  },
+  {
+    "frame_id": 2830,
+    "points_added": 1765,
+    "map_points": 838296
+  },
+  {
+    "frame_id": 2835,
+    "points_added": 1849,
+    "map_points": 840145
+  },
+  {
+    "frame_id": 2840,
+    "points_added": 1961,
+    "map_points": 842106
+  },
+  {
+    "frame_id": 2845,
+    "points_added": 1766,
+    "map_points": 843872
+  },
+  {
+    "frame_id": 2850,
+    "points_added": 1736,
+    "map_points": 845608
+  },
+  {
+    "frame_id": 2855,
+    "points_added": 1811,
+    "map_points": 847419
+  },
+  {
+    "frame_id": 2860,
+    "points_added": 1769,
+    "map_points": 849188
+  },
+  {
+    "frame_id": 2865,
+    "points_added": 1820,
+    "map_points": 851008
+  },
+  {
+    "frame_id": 2870,
+    "points_added": 1818,
+    "map_points": 852826
+  },
+  {
+    "frame_id": 2875,
+    "points_added": 1693,
+    "map_points": 854519
+  },
+  {
+    "frame_id": 2880,
+    "points_added": 1791,
+    "map_points": 856310
+  },
+  {
+    "frame_id": 2885,
+    "points_added": 1730,
+    "map_points": 858040
+  },
+  {
+    "frame_id": 2890,
+    "points_added": 1716,
+    "map_points": 859756
+  },
+  {
+    "frame_id": 2895,
+    "points_added": 1679,
+    "map_points": 861435
+  },
+  {
+    "frame_id": 2900,
+    "points_added": 1836,
+    "map_points": 863271
+  },
+  {
+    "frame_id": 2905,
+    "points_added": 1809,
+    "map_points": 865080
+  },
+  {
+    "frame_id": 2910,
+    "points_added": 1738,
+    "map_points": 866818
+  },
+  {
+    "frame_id": 2915,
+    "points_added": 1724,
+    "map_points": 868542
+  },
+  {
+    "frame_id": 2920,
+    "points_added": 1817,
+    "map_points": 870359
+  },
+  {
+    "frame_id": 2925,
+    "points_added": 1769,
+    "map_points": 872128
+  },
+  {
+    "frame_id": 2930,
+    "points_added": 1840,
+    "map_points": 873968
+  },
+  {
+    "frame_id": 2935,
+    "points_added": 1754,
+    "map_points": 875722
+  },
+  {
+    "frame_id": 2940,
+    "points_added": 1775,
+    "map_points": 877497
+  },
+  {
+    "frame_id": 2945,
+    "points_added": 1802,
+    "map_points": 879299
+  },
+  {
+    "frame_id": 2950,
+    "points_added": 1707,
+    "map_points": 881006
+  },
+  {
+    "frame_id": 2955,
+    "points_added": 1748,
+    "map_points": 882754
+  },
+  {
+    "frame_id": 2960,
+    "points_added": 1900,
+    "map_points": 884654
+  },
+  {
+    "frame_id": 2965,
+    "points_added": 1876,
+    "map_points": 886530
+  },
+  {
+    "frame_id": 2970,
+    "points_added": 1823,
+    "map_points": 888353
+  },
+  {
+    "frame_id": 2975,
+    "points_added": 1779,
+    "map_points": 890132
+  },
+  {
+    "frame_id": 2980,
+    "points_added": 1725,
+    "map_points": 891857
+  },
+  {
+    "frame_id": 2985,
+    "points_added": 1783,
+    "map_points": 893640
+  },
+  {
+    "frame_id": 2990,
+    "points_added": 1776,
+    "map_points": 895416
+  },
+  {
+    "frame_id": 2995,
+    "points_added": 1775,
+    "map_points": 897191
+  },
+  {
+    "frame_id": 3000,
+    "points_added": 1731,
+    "map_points": 898922
+  },
+  {
+    "frame_id": 3005,
+    "points_added": 1727,
+    "map_points": 900649
+  },
+  {
+    "frame_id": 3010,
+    "points_added": 1803,
+    "map_points": 902452
+  },
+  {
+    "frame_id": 3015,
+    "points_added": 1760,
+    "map_points": 904212
+  },
+  {
+    "frame_id": 3020,
+    "points_added": 1698,
+    "map_points": 905910
+  },
+  {
+    "frame_id": 3025,
+    "points_added": 1822,
+    "map_points": 907732
+  },
+  {
+    "frame_id": 3030,
+    "points_added": 1768,
+    "map_points": 909500
+  },
+  {
+    "frame_id": 3035,
+    "points_added": 1749,
+    "map_points": 911249
+  },
+  {
+    "frame_id": 3040,
+    "points_added": 1746,
+    "map_points": 912995
+  },
+  {
+    "frame_id": 3045,
+    "points_added": 1770,
+    "map_points": 914765
+  },
+  {
+    "frame_id": 3050,
+    "points_added": 1774,
+    "map_points": 916539
+  },
+  {
+    "frame_id": 3055,
+    "points_added": 1884,
+    "map_points": 918423
+  },
+  {
+    "frame_id": 3060,
+    "points_added": 1859,
+    "map_points": 920282
+  },
+  {
+    "frame_id": 3065,
+    "points_added": 1797,
+    "map_points": 922079
+  },
+  {
+    "frame_id": 3070,
+    "points_added": 1792,
+    "map_points": 923871
+  },
+  {
+    "frame_id": 3075,
+    "points_added": 1824,
+    "map_points": 925695
+  },
+  {
+    "frame_id": 3080,
+    "points_added": 1874,
+    "map_points": 927569
+  },
+  {
+    "frame_id": 3085,
+    "points_added": 1810,
+    "map_points": 929379
+  },
+  {
+    "frame_id": 3090,
+    "points_added": 1887,
+    "map_points": 931266
+  },
+  {
+    "frame_id": 3095,
+    "points_added": 1828,
+    "map_points": 933094
+  },
+  {
+    "frame_id": 3100,
+    "points_added": 1822,
+    "map_points": 934916
+  },
+  {
+    "frame_id": 3105,
+    "points_added": 1773,
+    "map_points": 936689
+  },
+  {
+    "frame_id": 3110,
+    "points_added": 1813,
+    "map_points": 938502
+  },
+  {
+    "frame_id": 3115,
+    "points_added": 1864,
+    "map_points": 940366
+  },
+  {
+    "frame_id": 3120,
+    "points_added": 1783,
+    "map_points": 942149
+  },
+  {
+    "frame_id": 3125,
+    "points_added": 1916,
+    "map_points": 944065
+  },
+  {
+    "frame_id": 3130,
+    "points_added": 1841,
+    "map_points": 945906
+  },
+  {
+    "frame_id": 3135,
+    "points_added": 1771,
+    "map_points": 947677
+  },
+  {
+    "frame_id": 3140,
+    "points_added": 1791,
+    "map_points": 949468
+  },
+  {
+    "frame_id": 3145,
+    "points_added": 1744,
+    "map_points": 951212
+  },
+  {
+    "frame_id": 3150,
+    "points_added": 1851,
+    "map_points": 953063
+  },
+  {
+    "frame_id": 3155,
+    "points_added": 1916,
+    "map_points": 954979
+  },
+  {
+    "frame_id": 3160,
+    "points_added": 1848,
+    "map_points": 956827
+  },
+  {
+    "frame_id": 3165,
+    "points_added": 1804,
+    "map_points": 958631
+  },
+  {
+    "frame_id": 3170,
+    "points_added": 1871,
+    "map_points": 960502
+  },
+  {
+    "frame_id": 3175,
+    "points_added": 1755,
+    "map_points": 962257
+  },
+  {
+    "frame_id": 3180,
+    "points_added": 1849,
+    "map_points": 964106
+  },
+  {
+    "frame_id": 3185,
+    "points_added": 1782,
+    "map_points": 965888
+  },
+  {
+    "frame_id": 3190,
+    "points_added": 1829,
+    "map_points": 967717
+  },
+  {
+    "frame_id": 3195,
+    "points_added": 1831,
+    "map_points": 969548
+  },
+  {
+    "frame_id": 3200,
+    "points_added": 1760,
+    "map_points": 971308
+  },
+  {
+    "frame_id": 3205,
+    "points_added": 1858,
+    "map_points": 973166
+  },
+  {
+    "frame_id": 3210,
+    "points_added": 1873,
+    "map_points": 975039
+  },
+  {
+    "frame_id": 3215,
+    "points_added": 1895,
+    "map_points": 976934
+  },
+  {
+    "frame_id": 3220,
+    "points_added": 1805,
+    "map_points": 978739
+  },
+  {
+    "frame_id": 3225,
+    "points_added": 1737,
+    "map_points": 980476
+  },
+  {
+    "frame_id": 3230,
+    "points_added": 1820,
+    "map_points": 982296
+  },
+  {
+    "frame_id": 3235,
+    "points_added": 1790,
+    "map_points": 984086
+  },
+  {
+    "frame_id": 3240,
+    "points_added": 1756,
+    "map_points": 985842
+  },
+  {
+    "frame_id": 3245,
+    "points_added": 1874,
+    "map_points": 987716
+  },
+  {
+    "frame_id": 3250,
+    "points_added": 1879,
+    "map_points": 989595
+  },
+  {
+    "frame_id": 3255,
+    "points_added": 1772,
+    "map_points": 991367
+  },
+  {
+    "frame_id": 3260,
+    "points_added": 1828,
+    "map_points": 993195
+  },
+  {
+    "frame_id": 3265,
+    "points_added": 1750,
+    "map_points": 994945
+  },
+  {
+    "frame_id": 3270,
+    "points_added": 1786,
+    "map_points": 996731
+  },
+  {
+    "frame_id": 3275,
+    "points_added": 1880,
+    "map_points": 998611
+  },
+  {
+    "frame_id": 3280,
+    "points_added": 1911,
+    "map_points": 1000522
+  },
+  {
+    "frame_id": 3285,
+    "points_added": 1812,
+    "map_points": 1002334
+  },
+  {
+    "frame_id": 3290,
+    "points_added": 1774,
+    "map_points": 1004108
+  },
+  {
+    "frame_id": 3295,
+    "points_added": 1771,
+    "map_points": 1005879
+  },
+  {
+    "frame_id": 3300,
+    "points_added": 1713,
+    "map_points": 1007592
+  },
+  {
+    "frame_id": 3305,
+    "points_added": 1789,
+    "map_points": 1009381
+  },
+  {
+    "frame_id": 3310,
+    "points_added": 1781,
+    "map_points": 1011162
+  },
+  {
+    "frame_id": 3315,
+    "points_added": 1737,
+    "map_points": 1012899
+  },
+  {
+    "frame_id": 3320,
+    "points_added": 1734,
+    "map_points": 1014633
+  },
+  {
+    "frame_id": 3325,
+    "points_added": 1737,
+    "map_points": 1016370
+  },
+  {
+    "frame_id": 3330,
+    "points_added": 1783,
+    "map_points": 1018153
+  },
+  {
+    "frame_id": 3335,
+    "points_added": 1776,
+    "map_points": 1019929
+  },
+  {
+    "frame_id": 3340,
+    "points_added": 1851,
+    "map_points": 1021780
+  },
+  {
+    "frame_id": 3345,
+    "points_added": 1641,
+    "map_points": 1023421
+  },
+  {
+    "frame_id": 3350,
+    "points_added": 1714,
+    "map_points": 1025135
+  },
+  {
+    "frame_id": 3355,
+    "points_added": 1765,
+    "map_points": 1026900
+  },
+  {
+    "frame_id": 3360,
+    "points_added": 1744,
+    "map_points": 1028644
+  },
+  {
+    "frame_id": 3365,
+    "points_added": 1747,
+    "map_points": 1030391
+  },
+  {
+    "frame_id": 3370,
+    "points_added": 1687,
+    "map_points": 1032078
+  },
+  {
+    "frame_id": 3375,
+    "points_added": 1761,
+    "map_points": 1033839
+  },
+  {
+    "frame_id": 3380,
+    "points_added": 1791,
+    "map_points": 1035630
+  },
+  {
+    "frame_id": 3385,
+    "points_added": 1747,
+    "map_points": 1037377
+  },
+  {
+    "frame_id": 3390,
+    "points_added": 1834,
+    "map_points": 1039211
+  },
+  {
+    "frame_id": 3395,
+    "points_added": 1750,
+    "map_points": 1040961
+  },
+  {
+    "frame_id": 3400,
+    "points_added": 1820,
+    "map_points": 1042781
+  },
+  {
+    "frame_id": 3405,
+    "points_added": 1768,
+    "map_points": 1044549
+  },
+  {
+    "frame_id": 3410,
+    "points_added": 1692,
+    "map_points": 1046241
+  },
+  {
+    "frame_id": 3415,
+    "points_added": 1730,
+    "map_points": 1047971
+  },
+  {
+    "frame_id": 3420,
+    "points_added": 1741,
+    "map_points": 1049712
+  },
+  {
+    "frame_id": 3425,
+    "points_added": 1785,
+    "map_points": 1051497
+  },
+  {
+    "frame_id": 3430,
+    "points_added": 1796,
+    "map_points": 1053293
+  },
+  {
+    "frame_id": 3435,
+    "points_added": 1913,
+    "map_points": 1055206
+  },
+  {
+    "frame_id": 3440,
+    "points_added": 1887,
+    "map_points": 1057093
+  },
+  {
+    "frame_id": 3445,
+    "points_added": 1824,
+    "map_points": 1058917
+  },
+  {
+    "frame_id": 3450,
+    "points_added": 1769,
+    "map_points": 1060686
+  },
+  {
+    "frame_id": 3455,
+    "points_added": 1789,
+    "map_points": 1062475
+  },
+  {
+    "frame_id": 3460,
+    "points_added": 1774,
+    "map_points": 1064249
+  },
+  {
+    "frame_id": 3465,
+    "points_added": 1808,
+    "map_points": 1066057
+  },
+  {
+    "frame_id": 3470,
+    "points_added": 1818,
+    "map_points": 1067875
+  },
+  {
+    "frame_id": 3475,
+    "points_added": 1778,
+    "map_points": 1069653
+  },
+  {
+    "frame_id": 3480,
+    "points_added": 1854,
+    "map_points": 1071507
+  },
+  {
+    "frame_id": 3485,
+    "points_added": 1839,
+    "map_points": 1073346
+  },
+  {
+    "frame_id": 3490,
+    "points_added": 1762,
+    "map_points": 1075108
+  },
+  {
+    "frame_id": 3495,
+    "points_added": 1745,
+    "map_points": 1076853
+  },
+  {
+    "frame_id": 3500,
+    "points_added": 1776,
+    "map_points": 1078629
+  },
+  {
+    "frame_id": 3505,
+    "points_added": 1852,
+    "map_points": 1080481
+  },
+  {
+    "frame_id": 3510,
+    "points_added": 1815,
+    "map_points": 1082296
+  },
+  {
+    "frame_id": 3515,
+    "points_added": 1759,
+    "map_points": 1084055
+  },
+  {
+    "frame_id": 3520,
+    "points_added": 1767,
+    "map_points": 1085822
+  },
+  {
+    "frame_id": 3525,
+    "points_added": 1748,
+    "map_points": 1087570
+  },
+  {
+    "frame_id": 3530,
+    "points_added": 1825,
+    "map_points": 1089395
+  },
+  {
+    "frame_id": 3535,
+    "points_added": 1759,
+    "map_points": 1091154
+  },
+  {
+    "frame_id": 3540,
+    "points_added": 1827,
+    "map_points": 1092981
+  },
+  {
+    "frame_id": 3545,
+    "points_added": 1828,
+    "map_points": 1094809
+  },
+  {
+    "frame_id": 3550,
+    "points_added": 1785,
+    "map_points": 1096594
+  },
+  {
+    "frame_id": 3555,
+    "points_added": 1704,
+    "map_points": 1098298
+  },
+  {
+    "frame_id": 3560,
+    "points_added": 1699,
+    "map_points": 1099997
+  },
+  {
+    "frame_id": 3565,
+    "points_added": 1710,
+    "map_points": 1101707
+  },
+  {
+    "frame_id": 3570,
+    "points_added": 1674,
+    "map_points": 1103381
+  },
+  {
+    "frame_id": 3575,
+    "points_added": 1823,
+    "map_points": 1105204
+  },
+  {
+    "frame_id": 3580,
+    "points_added": 1708,
+    "map_points": 1106912
+  },
+  {
+    "frame_id": 3585,
+    "points_added": 1898,
+    "map_points": 1108810
+  },
+  {
+    "frame_id": 3590,
+    "points_added": 1833,
+    "map_points": 1110643
+  },
+  {
+    "frame_id": 3595,
+    "points_added": 1753,
+    "map_points": 1112396
+  },
+  {
+    "frame_id": 3600,
+    "points_added": 1744,
+    "map_points": 1114140
+  },
+  {
+    "frame_id": 3605,
+    "points_added": 1842,
+    "map_points": 1115982
+  },
+  {
+    "frame_id": 3610,
+    "points_added": 1797,
+    "map_points": 1117779
+  },
+  {
+    "frame_id": 3615,
+    "points_added": 1998,
+    "map_points": 1119777
+  },
+  {
+    "frame_id": 3620,
+    "points_added": 1874,
+    "map_points": 1121651
+  },
+  {
+    "frame_id": 3625,
+    "points_added": 1810,
+    "map_points": 1123461
+  },
+  {
+    "frame_id": 3630,
+    "points_added": 1761,
+    "map_points": 1125222
+  },
+  {
+    "frame_id": 3635,
+    "points_added": 1916,
+    "map_points": 1127138
+  },
+  {
+    "frame_id": 3640,
+    "points_added": 1846,
+    "map_points": 1128984
+  },
+  {
+    "frame_id": 3645,
+    "points_added": 1855,
+    "map_points": 1130839
+  },
+  {
+    "frame_id": 3650,
+    "points_added": 1929,
+    "map_points": 1132768
+  },
+  {
+    "frame_id": 3655,
+    "points_added": 1843,
+    "map_points": 1134611
+  },
+  {
+    "frame_id": 3660,
+    "points_added": 2015,
+    "map_points": 1136626
+  },
+  {
+    "frame_id": 3665,
+    "points_added": 1988,
+    "map_points": 1138614
+  },
+  {
+    "frame_id": 3670,
+    "points_added": 1949,
+    "map_points": 1140563
+  },
+  {
+    "frame_id": 3675,
+    "points_added": 1909,
+    "map_points": 1142472
+  },
+  {
+    "frame_id": 3680,
+    "points_added": 1896,
+    "map_points": 1144368
+  },
+  {
+    "frame_id": 3685,
+    "points_added": 1773,
+    "map_points": 1146141
+  },
+  {
+    "frame_id": 3690,
+    "points_added": 1771,
+    "map_points": 1147912
+  },
+  {
+    "frame_id": 3695,
+    "points_added": 1982,
+    "map_points": 1149894
+  },
+  {
+    "frame_id": 3700,
+    "points_added": 1766,
+    "map_points": 1151660
+  },
+  {
+    "frame_id": 3705,
+    "points_added": 1803,
+    "map_points": 1153463
+  },
+  {
+    "frame_id": 3710,
+    "points_added": 1825,
+    "map_points": 1155288
+  },
+  {
+    "frame_id": 3715,
+    "points_added": 1755,
+    "map_points": 1157043
+  },
+  {
+    "frame_id": 3720,
+    "points_added": 173,
+    "map_points": 1157216
+  },
+  {
+    "frame_id": 3725,
+    "points_added": 1762,
+    "map_points": 1158978
+  },
+  {
+    "frame_id": 3730,
+    "points_added": 1776,
+    "map_points": 1160754
+  },
+  {
+    "frame_id": 3735,
+    "points_added": 1789,
+    "map_points": 1162543
+  },
+  {
+    "frame_id": 3740,
+    "points_added": 1831,
+    "map_points": 1164374
+  },
+  {
+    "frame_id": 3745,
+    "points_added": 1820,
+    "map_points": 1166194
+  },
+  {
+    "frame_id": 3750,
+    "points_added": 1797,
+    "map_points": 1167991
+  },
+  {
+    "frame_id": 3755,
+    "points_added": 1866,
+    "map_points": 1169857
+  },
+  {
+    "frame_id": 3760,
+    "points_added": 1772,
+    "map_points": 1171629
+  },
+  {
+    "frame_id": 3765,
+    "points_added": 1871,
+    "map_points": 1173500
+  },
+  {
+    "frame_id": 3770,
+    "points_added": 1811,
+    "map_points": 1175311
+  },
+  {
+    "frame_id": 3775,
+    "points_added": 1792,
+    "map_points": 1177103
+  },
+  {
+    "frame_id": 3780,
+    "points_added": 1856,
+    "map_points": 1178959
+  },
+  {
+    "frame_id": 3785,
+    "points_added": 1835,
+    "map_points": 1180794
+  },
+  {
+    "frame_id": 3790,
+    "points_added": 1677,
+    "map_points": 1182471
+  },
+  {
+    "frame_id": 3795,
+    "points_added": 1789,
+    "map_points": 1184260
+  },
+  {
+    "frame_id": 3800,
+    "points_added": 1760,
+    "map_points": 1186020
+  },
+  {
+    "frame_id": 3805,
+    "points_added": 1738,
+    "map_points": 1187758
+  },
+  {
+    "frame_id": 3810,
+    "points_added": 1775,
+    "map_points": 1189533
+  },
+  {
+    "frame_id": 3815,
+    "points_added": 1728,
+    "map_points": 1191261
+  },
+  {
+    "frame_id": 3820,
+    "points_added": 1728,
+    "map_points": 1192989
+  },
+  {
+    "frame_id": 3825,
+    "points_added": 1707,
+    "map_points": 1194696
+  },
+  {
+    "frame_id": 3830,
+    "points_added": 1672,
+    "map_points": 1196368
+  },
+  {
+    "frame_id": 3835,
+    "points_added": 1706,
+    "map_points": 1198074
+  },
+  {
+    "frame_id": 3840,
+    "points_added": 1663,
+    "map_points": 1199737
+  },
+  {
+    "frame_id": 3845,
+    "points_added": 1658,
+    "map_points": 1201395
+  },
+  {
+    "frame_id": 3850,
+    "points_added": 1672,
+    "map_points": 1203067
+  },
+  {
+    "frame_id": 3855,
+    "points_added": 1605,
+    "map_points": 1204672
+  },
+  {
+    "frame_id": 3860,
+    "points_added": 1688,
+    "map_points": 1206360
+  },
+  {
+    "frame_id": 3865,
+    "points_added": 1750,
+    "map_points": 1208110
+  },
+  {
+    "frame_id": 3870,
+    "points_added": 1709,
+    "map_points": 1209819
+  },
+  {
+    "frame_id": 3875,
+    "points_added": 1674,
+    "map_points": 1211493
+  },
+  {
+    "frame_id": 3880,
+    "points_added": 1647,
+    "map_points": 1213140
+  },
+  {
+    "frame_id": 3885,
+    "points_added": 1755,
+    "map_points": 1214895
+  },
+  {
+    "frame_id": 3890,
+    "points_added": 1689,
+    "map_points": 1216584
+  },
+  {
+    "frame_id": 3895,
+    "points_added": 1653,
+    "map_points": 1218237
+  },
+  {
+    "frame_id": 3900,
+    "points_added": 1683,
+    "map_points": 1219920
+  },
+  {
+    "frame_id": 3905,
+    "points_added": 1731,
+    "map_points": 1221651
+  },
+  {
+    "frame_id": 3910,
+    "points_added": 1719,
+    "map_points": 1223370
+  },
+  {
+    "frame_id": 3915,
+    "points_added": 1823,
+    "map_points": 1225193
+  },
+  {
+    "frame_id": 3920,
+    "points_added": 1793,
+    "map_points": 1226986
+  },
+  {
+    "frame_id": 3925,
+    "points_added": 1912,
+    "map_points": 1228898
+  },
+  {
+    "frame_id": 3930,
+    "points_added": 1717,
+    "map_points": 1230615
+  },
+  {
+    "frame_id": 3935,
+    "points_added": 1868,
+    "map_points": 1232483
+  },
+  {
+    "frame_id": 3940,
+    "points_added": 1800,
+    "map_points": 1234283
+  },
+  {
+    "frame_id": 3945,
+    "points_added": 1838,
+    "map_points": 1236121
+  },
+  {
+    "frame_id": 3950,
+    "points_added": 1887,
+    "map_points": 1238008
+  },
+  {
+    "frame_id": 3955,
+    "points_added": 1844,
+    "map_points": 1239852
+  },
+  {
+    "frame_id": 3960,
+    "points_added": 1844,
+    "map_points": 1241696
+  },
+  {
+    "frame_id": 3965,
+    "points_added": 1807,
+    "map_points": 1243503
+  },
+  {
+    "frame_id": 3970,
+    "points_added": 1854,
+    "map_points": 1245357
+  },
+  {
+    "frame_id": 3975,
+    "points_added": 1808,
+    "map_points": 1247165
+  },
+  {
+    "frame_id": 3980,
+    "points_added": 1789,
+    "map_points": 1248954
+  },
+  {
+    "frame_id": 3985,
+    "points_added": 1736,
+    "map_points": 1250690
+  },
+  {
+    "frame_id": 3990,
+    "points_added": 1683,
+    "map_points": 1252373
+  },
+  {
+    "frame_id": 3995,
+    "points_added": 1698,
+    "map_points": 1254071
+  },
+  {
+    "frame_id": 4000,
+    "points_added": 1664,
+    "map_points": 1255735
+  },
+  {
+    "frame_id": 4005,
+    "points_added": 1769,
+    "map_points": 1257504
+  },
+  {
+    "frame_id": 4010,
+    "points_added": 1716,
+    "map_points": 1259220
+  },
+  {
+    "frame_id": 4015,
+    "points_added": 1730,
+    "map_points": 1260950
+  },
+  {
+    "frame_id": 4020,
+    "points_added": 1609,
+    "map_points": 1262559
+  },
+  {
+    "frame_id": 4025,
+    "points_added": 1661,
+    "map_points": 1264220
+  },
+  {
+    "frame_id": 4030,
+    "points_added": 1643,
+    "map_points": 1265863
+  },
+  {
+    "frame_id": 4035,
+    "points_added": 1731,
+    "map_points": 1267594
+  },
+  {
+    "frame_id": 4040,
+    "points_added": 1669,
+    "map_points": 1269263
+  },
+  {
+    "frame_id": 4045,
+    "points_added": 1698,
+    "map_points": 1270961
+  },
+  {
+    "frame_id": 4050,
+    "points_added": 1727,
+    "map_points": 1272688
+  },
+  {
+    "frame_id": 4055,
+    "points_added": 1698,
+    "map_points": 1274386
+  },
+  {
+    "frame_id": 4060,
+    "points_added": 1516,
+    "map_points": 1275902
+  },
+  {
+    "frame_id": 4065,
+    "points_added": 1687,
+    "map_points": 1277589
+  },
+  {
+    "frame_id": 4070,
+    "points_added": 1651,
+    "map_points": 1279240
+  },
+  {
+    "frame_id": 4075,
+    "points_added": 1694,
+    "map_points": 1280934
+  },
+  {
+    "frame_id": 4080,
+    "points_added": 1650,
+    "map_points": 1282584
+  },
+  {
+    "frame_id": 4085,
+    "points_added": 1696,
+    "map_points": 1284280
+  },
+  {
+    "frame_id": 4090,
+    "points_added": 1729,
+    "map_points": 1286009
+  },
+  {
+    "frame_id": 4095,
+    "points_added": 1764,
+    "map_points": 1287773
+  },
+  {
+    "frame_id": 4100,
+    "points_added": 1660,
+    "map_points": 1289433
+  },
+  {
+    "frame_id": 4105,
+    "points_added": 1629,
+    "map_points": 1291062
+  },
+  {
+    "frame_id": 4110,
+    "points_added": 1794,
+    "map_points": 1292856
+  },
+  {
+    "frame_id": 4115,
+    "points_added": 1778,
+    "map_points": 1294634
+  },
+  {
+    "frame_id": 4120,
+    "points_added": 1804,
+    "map_points": 1296438
+  },
+  {
+    "frame_id": 4125,
+    "points_added": 1853,
+    "map_points": 1298291
+  },
+  {
+    "frame_id": 4130,
+    "points_added": 1834,
+    "map_points": 1300125
+  },
+  {
+    "frame_id": 4135,
+    "points_added": 1763,
+    "map_points": 1301888
+  },
+  {
+    "frame_id": 4140,
+    "points_added": 1789,
+    "map_points": 1303677
+  },
+  {
+    "frame_id": 4145,
+    "points_added": 1612,
+    "map_points": 1305289
+  },
+  {
+    "frame_id": 4150,
+    "points_added": 1617,
+    "map_points": 1306906
+  },
+  {
+    "frame_id": 4155,
+    "points_added": 1719,
+    "map_points": 1308625
+  },
+  {
+    "frame_id": 4160,
+    "points_added": 1695,
+    "map_points": 1310320
+  },
+  {
+    "frame_id": 4165,
+    "points_added": 1675,
+    "map_points": 1311995
+  },
+  {
+    "frame_id": 4170,
+    "points_added": 1646,
+    "map_points": 1313641
+  },
+  {
+    "frame_id": 4175,
+    "points_added": 1606,
+    "map_points": 1315247
+  },
+  {
+    "frame_id": 4180,
+    "points_added": 1631,
+    "map_points": 1316878
+  },
+  {
+    "frame_id": 4185,
+    "points_added": 1606,
+    "map_points": 1318484
+  },
+  {
+    "frame_id": 4190,
+    "points_added": 1651,
+    "map_points": 1320135
+  },
+  {
+    "frame_id": 4195,
+    "points_added": 1598,
+    "map_points": 1321733
+  },
+  {
+    "frame_id": 4200,
+    "points_added": 1569,
+    "map_points": 1323302
+  },
+  {
+    "frame_id": 4205,
+    "points_added": 1552,
+    "map_points": 1324854
+  },
+  {
+    "frame_id": 4210,
+    "points_added": 1499,
+    "map_points": 1326353
+  },
+  {
+    "frame_id": 4215,
+    "points_added": 1502,
+    "map_points": 1327855
+  },
+  {
+    "frame_id": 4220,
+    "points_added": 1483,
+    "map_points": 1329338
+  },
+  {
+    "frame_id": 4225,
+    "points_added": 1478,
+    "map_points": 1330816
+  },
+  {
+    "frame_id": 4230,
+    "points_added": 1518,
+    "map_points": 1332334
+  },
+  {
+    "frame_id": 4235,
+    "points_added": 1402,
+    "map_points": 1333736
+  },
+  {
+    "frame_id": 4240,
+    "points_added": 1749,
+    "map_points": 1335485
+  },
+  {
+    "frame_id": 4245,
+    "points_added": 1765,
+    "map_points": 1337250
+  },
+  {
+    "frame_id": 4250,
+    "points_added": 1552,
+    "map_points": 1338802
+  },
+  {
+    "frame_id": 4255,
+    "points_added": 1773,
+    "map_points": 1340575
+  },
+  {
+    "frame_id": 4260,
+    "points_added": 1758,
+    "map_points": 1342333
+  },
+  {
+    "frame_id": 4265,
+    "points_added": 1691,
+    "map_points": 1344024
+  },
+  {
+    "frame_id": 4270,
+    "points_added": 1693,
+    "map_points": 1345717
+  },
+  {
+    "frame_id": 4275,
+    "points_added": 1789,
+    "map_points": 1347506
+  },
+  {
+    "frame_id": 4280,
+    "points_added": 1744,
+    "map_points": 1349250
+  },
+  {
+    "frame_id": 4285,
+    "points_added": 1700,
+    "map_points": 1350950
+  },
+  {
+    "frame_id": 4290,
+    "points_added": 1696,
+    "map_points": 1352646
+  },
+  {
+    "frame_id": 4295,
+    "points_added": 1741,
+    "map_points": 1354387
+  },
+  {
+    "frame_id": 4300,
+    "points_added": 1759,
+    "map_points": 1356146
+  },
+  {
+    "frame_id": 4305,
+    "points_added": 1678,
+    "map_points": 1357824
+  },
+  {
+    "frame_id": 4310,
+    "points_added": 1727,
+    "map_points": 1359551
+  },
+  {
+    "frame_id": 4315,
+    "points_added": 1740,
+    "map_points": 1361291
+  },
+  {
+    "frame_id": 4320,
+    "points_added": 1759,
+    "map_points": 1363050
+  },
+  {
+    "frame_id": 4325,
+    "points_added": 1682,
+    "map_points": 1364732
+  },
+  {
+    "frame_id": 4330,
+    "points_added": 1765,
+    "map_points": 1366497
+  },
+  {
+    "frame_id": 4335,
+    "points_added": 1771,
+    "map_points": 1368268
+  },
+  {
+    "frame_id": 4340,
+    "points_added": 1789,
+    "map_points": 1370057
+  },
+  {
+    "frame_id": 4345,
+    "points_added": 1832,
+    "map_points": 1371889
+  },
+  {
+    "frame_id": 4350,
+    "points_added": 1685,
+    "map_points": 1373574
+  },
+  {
+    "frame_id": 4355,
+    "points_added": 1739,
+    "map_points": 1375313
+  },
+  {
+    "frame_id": 4360,
+    "points_added": 1677,
+    "map_points": 1376990
+  },
+  {
+    "frame_id": 4365,
+    "points_added": 1653,
+    "map_points": 1378643
+  },
+  {
+    "frame_id": 4370,
+    "points_added": 1629,
+    "map_points": 1380272
+  },
+  {
+    "frame_id": 4375,
+    "points_added": 1753,
+    "map_points": 1382025
+  },
+  {
+    "frame_id": 4380,
+    "points_added": 1783,
+    "map_points": 1383808
+  },
+  {
+    "frame_id": 4385,
+    "points_added": 1672,
+    "map_points": 1385480
+  },
+  {
+    "frame_id": 4390,
+    "points_added": 1684,
+    "map_points": 1387164
+  },
+  {
+    "frame_id": 4395,
+    "points_added": 1683,
+    "map_points": 1388847
+  },
+  {
+    "frame_id": 4400,
+    "points_added": 1702,
+    "map_points": 1390549
+  },
+  {
+    "frame_id": 4405,
+    "points_added": 1819,
+    "map_points": 1392368
+  },
+  {
+    "frame_id": 4410,
+    "points_added": 1944,
+    "map_points": 1394312
+  },
+  {
+    "frame_id": 4415,
+    "points_added": 1837,
+    "map_points": 1396149
+  },
+  {
+    "frame_id": 4420,
+    "points_added": 1870,
+    "map_points": 1398019
+  },
+  {
+    "frame_id": 4425,
+    "points_added": 1916,
+    "map_points": 1399935
+  },
+  {
+    "frame_id": 4430,
+    "points_added": 1767,
+    "map_points": 1401702
+  },
+  {
+    "frame_id": 4435,
+    "points_added": 1837,
+    "map_points": 1403539
+  },
+  {
+    "frame_id": 4440,
+    "points_added": 1925,
+    "map_points": 1405464
+  },
+  {
+    "frame_id": 4445,
+    "points_added": 1881,
+    "map_points": 1407345
+  },
+  {
+    "frame_id": 4450,
+    "points_added": 1912,
+    "map_points": 1409257
+  },
+  {
+    "frame_id": 4455,
+    "points_added": 1847,
+    "map_points": 1411104
+  },
+  {
+    "frame_id": 4460,
+    "points_added": 1742,
+    "map_points": 1412846
+  },
+  {
+    "frame_id": 4465,
+    "points_added": 1727,
+    "map_points": 1414573
+  },
+  {
+    "frame_id": 4470,
+    "points_added": 1731,
+    "map_points": 1416304
+  },
+  {
+    "frame_id": 4475,
+    "points_added": 1887,
+    "map_points": 1418191
+  },
+  {
+    "frame_id": 4480,
+    "points_added": 1910,
+    "map_points": 1420101
+  },
+  {
+    "frame_id": 4485,
+    "points_added": 1728,
+    "map_points": 1421829
+  },
+  {
+    "frame_id": 4490,
+    "points_added": 1724,
+    "map_points": 1423553
+  },
+  {
+    "frame_id": 4495,
+    "points_added": 1725,
+    "map_points": 1425278
+  },
+  {
+    "frame_id": 4500,
+    "points_added": 1712,
+    "map_points": 1426990
+  },
+  {
+    "frame_id": 4505,
+    "points_added": 1643,
+    "map_points": 1428633
+  },
+  {
+    "frame_id": 4510,
+    "points_added": 1740,
+    "map_points": 1430373
+  },
+  {
+    "frame_id": 4515,
+    "points_added": 1700,
+    "map_points": 1432073
+  },
+  {
+    "frame_id": 4520,
+    "points_added": 1710,
+    "map_points": 1433783
+  },
+  {
+    "frame_id": 4525,
+    "points_added": 1743,
+    "map_points": 1435526
+  },
+  {
+    "frame_id": 4530,
+    "points_added": 1684,
+    "map_points": 1437210
+  },
+  {
+    "frame_id": 4535,
+    "points_added": 1742,
+    "map_points": 1438952
+  },
+  {
+    "frame_id": 4540,
+    "points_added": 1773,
+    "map_points": 1440725
+  },
+  {
+    "frame_id": 4545,
+    "points_added": 1740,
+    "map_points": 1442465
+  },
+  {
+    "frame_id": 4550,
+    "points_added": 1780,
+    "map_points": 1444245
+  },
+  {
+    "frame_id": 4555,
+    "points_added": 1729,
+    "map_points": 1445974
+  },
+  {
+    "frame_id": 4560,
+    "points_added": 1686,
+    "map_points": 1447660
+  },
+  {
+    "frame_id": 4565,
+    "points_added": 1781,
+    "map_points": 1449441
+  },
+  {
+    "frame_id": 4570,
+    "points_added": 1678,
+    "map_points": 1451119
+  },
+  {
+    "frame_id": 4575,
+    "points_added": 1846,
+    "map_points": 1452965
+  },
+  {
+    "frame_id": 4580,
+    "points_added": 1742,
+    "map_points": 1454707
+  },
+  {
+    "frame_id": 4585,
+    "points_added": 1709,
+    "map_points": 1456416
+  },
+  {
+    "frame_id": 4590,
+    "points_added": 1676,
+    "map_points": 1458092
+  },
+  {
+    "frame_id": 4595,
+    "points_added": 1633,
+    "map_points": 1459725
+  },
+  {
+    "frame_id": 4600,
+    "points_added": 1687,
+    "map_points": 1461412
+  },
+  {
+    "frame_id": 4605,
+    "points_added": 1712,
+    "map_points": 1463124
+  },
+  {
+    "frame_id": 4610,
+    "points_added": 1712,
+    "map_points": 1464836
+  },
+  {
+    "frame_id": 4615,
+    "points_added": 1580,
+    "map_points": 1466416
+  },
+  {
+    "frame_id": 4620,
+    "points_added": 1741,
+    "map_points": 1468157
+  },
+  {
+    "frame_id": 4625,
+    "points_added": 1738,
+    "map_points": 1469895
+  },
+  {
+    "frame_id": 4630,
+    "points_added": 1741,
+    "map_points": 1471636
+  },
+  {
+    "frame_id": 4635,
+    "points_added": 1733,
+    "map_points": 1473369
+  },
+  {
+    "frame_id": 4640,
+    "points_added": 1736,
+    "map_points": 1475105
+  },
+  {
+    "frame_id": 4645,
+    "points_added": 1680,
+    "map_points": 1476785
+  },
+  {
+    "frame_id": 4650,
+    "points_added": 1773,
+    "map_points": 1478558
+  },
+  {
+    "frame_id": 4655,
+    "points_added": 1753,
+    "map_points": 1480311
+  },
+  {
+    "frame_id": 4660,
+    "points_added": 1786,
+    "map_points": 1482097
+  },
+  {
+    "frame_id": 4665,
+    "points_added": 1774,
+    "map_points": 1483871
+  },
+  {
+    "frame_id": 4670,
+    "points_added": 1819,
+    "map_points": 1485690
+  },
+  {
+    "frame_id": 4675,
+    "points_added": 1792,
+    "map_points": 1487482
+  },
+  {
+    "frame_id": 4680,
+    "points_added": 1723,
+    "map_points": 1489205
+  },
+  {
+    "frame_id": 4685,
+    "points_added": 1817,
+    "map_points": 1491022
+  },
+  {
+    "frame_id": 4690,
+    "points_added": 1737,
+    "map_points": 1492759
+  },
+  {
+    "frame_id": 4695,
+    "points_added": 1729,
+    "map_points": 1494488
+  },
+  {
+    "frame_id": 4700,
+    "points_added": 1730,
+    "map_points": 1496218
+  },
+  {
+    "frame_id": 4705,
+    "points_added": 1653,
+    "map_points": 1497871
+  },
+  {
+    "frame_id": 4710,
+    "points_added": 1788,
+    "map_points": 1499659
+  },
+  {
+    "frame_id": 4715,
+    "points_added": 1803,
+    "map_points": 1501462
+  },
+  {
+    "frame_id": 4720,
+    "points_added": 1788,
+    "map_points": 1503250
+  },
+  {
+    "frame_id": 4725,
+    "points_added": 1776,
+    "map_points": 1505026
+  },
+  {
+    "frame_id": 4730,
+    "points_added": 1729,
+    "map_points": 1506755
+  },
+  {
+    "frame_id": 4735,
+    "points_added": 1693,
+    "map_points": 1508448
+  },
+  {
+    "frame_id": 4740,
+    "points_added": 1778,
+    "map_points": 1510226
+  },
+  {
+    "frame_id": 4745,
+    "points_added": 1811,
+    "map_points": 1512037
+  },
+  {
+    "frame_id": 4750,
+    "points_added": 1702,
+    "map_points": 1513739
+  },
+  {
+    "frame_id": 4755,
+    "points_added": 1704,
+    "map_points": 1515443
+  },
+  {
+    "frame_id": 4760,
+    "points_added": 1755,
+    "map_points": 1517198
+  },
+  {
+    "frame_id": 4765,
+    "points_added": 1692,
+    "map_points": 1518890
+  },
+  {
+    "frame_id": 4770,
+    "points_added": 1709,
+    "map_points": 1520599
+  },
+  {
+    "frame_id": 4775,
+    "points_added": 1831,
+    "map_points": 1522430
+  },
+  {
+    "frame_id": 4780,
+    "points_added": 1798,
+    "map_points": 1524228
+  },
+  {
+    "frame_id": 4785,
+    "points_added": 1759,
+    "map_points": 1525987
+  },
+  {
+    "frame_id": 4790,
+    "points_added": 1749,
+    "map_points": 1527736
+  },
+  {
+    "frame_id": 4795,
+    "points_added": 1772,
+    "map_points": 1529508
+  },
+  {
+    "frame_id": 4800,
+    "points_added": 1783,
+    "map_points": 1531291
+  },
+  {
+    "frame_id": 4805,
+    "points_added": 1841,
+    "map_points": 1533132
+  },
+  {
+    "frame_id": 4810,
+    "points_added": 1808,
+    "map_points": 1534940
+  },
+  {
+    "frame_id": 4815,
+    "points_added": 1767,
+    "map_points": 1536707
+  },
+  {
+    "frame_id": 4820,
+    "points_added": 1770,
+    "map_points": 1538477
+  },
+  {
+    "frame_id": 4825,
+    "points_added": 1837,
+    "map_points": 1540314
+  },
+  {
+    "frame_id": 4830,
+    "points_added": 1763,
+    "map_points": 1542077
+  },
+  {
+    "frame_id": 4835,
+    "points_added": 1786,
+    "map_points": 1543863
+  },
+  {
+    "frame_id": 4840,
+    "points_added": 1809,
+    "map_points": 1545672
+  },
+  {
+    "frame_id": 4845,
+    "points_added": 1720,
+    "map_points": 1547392
+  },
+  {
+    "frame_id": 4850,
+    "points_added": 1720,
+    "map_points": 1549112
+  },
+  {
+    "frame_id": 4855,
+    "points_added": 1758,
+    "map_points": 1550870
+  },
+  {
+    "frame_id": 4860,
+    "points_added": 1710,
+    "map_points": 1552580
+  },
+  {
+    "frame_id": 4865,
+    "points_added": 1731,
+    "map_points": 1554311
+  },
+  {
+    "frame_id": 4870,
+    "points_added": 1753,
+    "map_points": 1556064
+  },
+  {
+    "frame_id": 4875,
+    "points_added": 1715,
+    "map_points": 1557779
+  },
+  {
+    "frame_id": 4880,
+    "points_added": 1721,
+    "map_points": 1559500
+  },
+  {
+    "frame_id": 4885,
+    "points_added": 1712,
+    "map_points": 1561212
+  },
+  {
+    "frame_id": 4890,
+    "points_added": 1692,
+    "map_points": 1562904
+  },
+  {
+    "frame_id": 4895,
+    "points_added": 1667,
+    "map_points": 1564571
+  },
+  {
+    "frame_id": 4900,
+    "points_added": 1692,
+    "map_points": 1566263
+  },
+  {
+    "frame_id": 4905,
+    "points_added": 1713,
+    "map_points": 1567976
+  },
+  {
+    "frame_id": 4910,
+    "points_added": 983,
+    "map_points": 1568959
+  },
+  {
+    "frame_id": 4915,
+    "points_added": 1652,
+    "map_points": 1570611
+  },
+  {
+    "frame_id": 4920,
+    "points_added": 1741,
+    "map_points": 1572352
+  },
+  {
+    "frame_id": 4925,
+    "points_added": 1706,
+    "map_points": 1574058
+  },
+  {
+    "frame_id": 4930,
+    "points_added": 1789,
+    "map_points": 1575847
+  },
+  {
+    "frame_id": 4935,
+    "points_added": 1754,
+    "map_points": 1577601
+  },
+  {
+    "frame_id": 4940,
+    "points_added": 1707,
+    "map_points": 1579308
+  },
+  {
+    "frame_id": 4945,
+    "points_added": 1734,
+    "map_points": 1581042
+  },
+  {
+    "frame_id": 4950,
+    "points_added": 1591,
+    "map_points": 1582633
+  },
+  {
+    "frame_id": 4955,
+    "points_added": 1629,
+    "map_points": 1584262
+  },
+  {
+    "frame_id": 4960,
+    "points_added": 1663,
+    "map_points": 1585925
+  },
+  {
+    "frame_id": 4965,
+    "points_added": 1581,
+    "map_points": 1587506
+  },
+  {
+    "frame_id": 4970,
+    "points_added": 1593,
+    "map_points": 1589099
+  },
+  {
+    "frame_id": 4975,
+    "points_added": 1540,
+    "map_points": 1590639
+  },
+  {
+    "frame_id": 4980,
+    "points_added": 1568,
+    "map_points": 1592207
+  },
+  {
+    "frame_id": 4985,
+    "points_added": 1590,
+    "map_points": 1593797
+  },
+  {
+    "frame_id": 4990,
+    "points_added": 1627,
+    "map_points": 1595424
+  },
+  {
+    "frame_id": 4995,
+    "points_added": 1653,
+    "map_points": 1597077
+  },
+  {
+    "frame_id": 5000,
+    "points_added": 1636,
+    "map_points": 1598713
+  },
+  {
+    "frame_id": 5005,
+    "points_added": 1557,
+    "map_points": 1600270
+  },
+  {
+    "frame_id": 5010,
+    "points_added": 1705,
+    "map_points": 1601975
+  },
+  {
+    "frame_id": 5015,
+    "points_added": 1650,
+    "map_points": 1603625
+  },
+  {
+    "frame_id": 5020,
+    "points_added": 1641,
+    "map_points": 1605266
+  },
+  {
+    "frame_id": 5025,
+    "points_added": 1626,
+    "map_points": 1606892
+  },
+  {
+    "frame_id": 5030,
+    "points_added": 1620,
+    "map_points": 1608512
+  },
+  {
+    "frame_id": 5035,
+    "points_added": 1686,
+    "map_points": 1610198
+  },
+  {
+    "frame_id": 5040,
+    "points_added": 1677,
+    "map_points": 1611875
+  },
+  {
+    "frame_id": 5045,
+    "points_added": 1759,
+    "map_points": 1613634
+  },
+  {
+    "frame_id": 5050,
+    "points_added": 1734,
+    "map_points": 1615368
+  },
+  {
+    "frame_id": 5055,
+    "points_added": 1770,
+    "map_points": 1617138
+  },
+  {
+    "frame_id": 5060,
+    "points_added": 1774,
+    "map_points": 1618912
+  },
+  {
+    "frame_id": 5065,
+    "points_added": 1809,
+    "map_points": 1620721
+  },
+  {
+    "frame_id": 5070,
+    "points_added": 1786,
+    "map_points": 1622507
+  },
+  {
+    "frame_id": 5075,
+    "points_added": 1697,
+    "map_points": 1624204
+  },
+  {
+    "frame_id": 5080,
+    "points_added": 1766,
+    "map_points": 1625970
+  },
+  {
+    "frame_id": 5085,
+    "points_added": 1817,
+    "map_points": 1627787
+  },
+  {
+    "frame_id": 5090,
+    "points_added": 1795,
+    "map_points": 1629582
+  },
+  {
+    "frame_id": 5095,
+    "points_added": 1779,
+    "map_points": 1631361
+  },
+  {
+    "frame_id": 5100,
+    "points_added": 1744,
+    "map_points": 1633105
+  },
+  {
+    "frame_id": 5105,
+    "points_added": 1668,
+    "map_points": 1634773
+  },
+  {
+    "frame_id": 5110,
+    "points_added": 1773,
+    "map_points": 1636546
+  },
+  {
+    "frame_id": 5115,
+    "points_added": 1618,
+    "map_points": 1638164
+  },
+  {
+    "frame_id": 5120,
+    "points_added": 1666,
+    "map_points": 1639830
+  },
+  {
+    "frame_id": 5125,
+    "points_added": 1807,
+    "map_points": 1641637
+  },
+  {
+    "frame_id": 5130,
+    "points_added": 2023,
+    "map_points": 1643660
+  },
+  {
+    "frame_id": 5135,
+    "points_added": 2033,
+    "map_points": 1645693
+  },
+  {
+    "frame_id": 5140,
+    "points_added": 2096,
+    "map_points": 1647789
+  },
+  {
+    "frame_id": 5145,
+    "points_added": 1876,
+    "map_points": 1649665
+  },
+  {
+    "frame_id": 5150,
+    "points_added": 1731,
+    "map_points": 1651396
+  },
+  {
+    "frame_id": 5155,
+    "points_added": 1845,
+    "map_points": 1653241
+  },
+  {
+    "frame_id": 5160,
+    "points_added": 1642,
+    "map_points": 1654883
+  },
+  {
+    "frame_id": 5165,
+    "points_added": 1752,
+    "map_points": 1656635
+  },
+  {
+    "frame_id": 5170,
+    "points_added": 1763,
+    "map_points": 1658398
+  },
+  {
+    "frame_id": 5175,
+    "points_added": 1794,
+    "map_points": 1660192
+  },
+  {
+    "frame_id": 5180,
+    "points_added": 1750,
+    "map_points": 1661942
+  },
+  {
+    "frame_id": 5185,
+    "points_added": 1750,
+    "map_points": 1663692
+  },
+  {
+    "frame_id": 5190,
+    "points_added": 1677,
+    "map_points": 1665369
+  },
+  {
+    "frame_id": 5195,
+    "points_added": 1711,
+    "map_points": 1667080
+  },
+  {
+    "frame_id": 5200,
+    "points_added": 1681,
+    "map_points": 1668761
+  },
+  {
+    "frame_id": 5205,
+    "points_added": 1657,
+    "map_points": 1670418
+  },
+  {
+    "frame_id": 5210,
+    "points_added": 1696,
+    "map_points": 1672114
+  },
+  {
+    "frame_id": 5215,
+    "points_added": 1693,
+    "map_points": 1673807
+  },
+  {
+    "frame_id": 5220,
+    "points_added": 1669,
+    "map_points": 1675476
+  },
+  {
+    "frame_id": 5225,
+    "points_added": 1735,
+    "map_points": 1677211
+  },
+  {
+    "frame_id": 5230,
+    "points_added": 1658,
+    "map_points": 1678869
+  },
+  {
+    "frame_id": 5235,
+    "points_added": 1556,
+    "map_points": 1680425
+  },
+  {
+    "frame_id": 5240,
+    "points_added": 1711,
+    "map_points": 1682136
+  },
+  {
+    "frame_id": 5245,
+    "points_added": 1684,
+    "map_points": 1683820
+  },
+  {
+    "frame_id": 5250,
+    "points_added": 1594,
+    "map_points": 1685414
+  },
+  {
+    "frame_id": 5255,
+    "points_added": 1673,
+    "map_points": 1687087
+  },
+  {
+    "frame_id": 5260,
+    "points_added": 1636,
+    "map_points": 1688723
+  },
+  {
+    "frame_id": 5265,
+    "points_added": 1607,
+    "map_points": 1690330
+  },
+  {
+    "frame_id": 5270,
+    "points_added": 1753,
+    "map_points": 1692083
+  },
+  {
+    "frame_id": 5275,
+    "points_added": 1705,
+    "map_points": 1693788
+  },
+  {
+    "frame_id": 5280,
+    "points_added": 1734,
+    "map_points": 1695522
+  },
+  {
+    "frame_id": 5285,
+    "points_added": 1774,
+    "map_points": 1697296
+  },
+  {
+    "frame_id": 5290,
+    "points_added": 1806,
+    "map_points": 1699102
+  },
+  {
+    "frame_id": 5295,
+    "points_added": 1774,
+    "map_points": 1700876
+  },
+  {
+    "frame_id": 5300,
+    "points_added": 1653,
+    "map_points": 1702529
+  },
+  {
+    "frame_id": 5305,
+    "points_added": 1623,
+    "map_points": 1704152
+  },
+  {
+    "frame_id": 5310,
+    "points_added": 1692,
+    "map_points": 1705844
+  },
+  {
+    "frame_id": 5315,
+    "points_added": 1644,
+    "map_points": 1707488
+  },
+  {
+    "frame_id": 5320,
+    "points_added": 1778,
+    "map_points": 1709266
+  },
+  {
+    "frame_id": 5325,
+    "points_added": 1714,
+    "map_points": 1710980
+  },
+  {
+    "frame_id": 5330,
+    "points_added": 1764,
+    "map_points": 1712744
+  },
+  {
+    "frame_id": 5335,
+    "points_added": 1776,
+    "map_points": 1714520
+  },
+  {
+    "frame_id": 5340,
+    "points_added": 1746,
+    "map_points": 1716266
+  },
+  {
+    "frame_id": 5345,
+    "points_added": 1705,
+    "map_points": 1717971
+  },
+  {
+    "frame_id": 5350,
+    "points_added": 1817,
+    "map_points": 1719788
+  },
+  {
+    "frame_id": 5355,
+    "points_added": 1759,
+    "map_points": 1721547
+  },
+  {
+    "frame_id": 5360,
+    "points_added": 1689,
+    "map_points": 1723236
+  },
+  {
+    "frame_id": 5365,
+    "points_added": 1790,
+    "map_points": 1725026
+  },
+  {
+    "frame_id": 5370,
+    "points_added": 1780,
+    "map_points": 1726806
+  },
+  {
+    "frame_id": 5375,
+    "points_added": 1778,
+    "map_points": 1728584
+  },
+  {
+    "frame_id": 5380,
+    "points_added": 1631,
+    "map_points": 1730215
+  },
+  {
+    "frame_id": 5385,
+    "points_added": 1772,
+    "map_points": 1731987
+  },
+  {
+    "frame_id": 5390,
+    "points_added": 1652,
+    "map_points": 1733639
+  },
+  {
+    "frame_id": 5395,
+    "points_added": 1682,
+    "map_points": 1735321
+  },
+  {
+    "frame_id": 5400,
+    "points_added": 1694,
+    "map_points": 1737015
+  },
+  {
+    "frame_id": 5405,
+    "points_added": 1651,
+    "map_points": 1738666
+  },
+  {
+    "frame_id": 5410,
+    "points_added": 1763,
+    "map_points": 1740429
+  },
+  {
+    "frame_id": 5415,
+    "points_added": 1754,
+    "map_points": 1742183
+  },
+  {
+    "frame_id": 5420,
+    "points_added": 1671,
+    "map_points": 1743854
+  },
+  {
+    "frame_id": 5425,
+    "points_added": 1747,
+    "map_points": 1745601
+  },
+  {
+    "frame_id": 5430,
+    "points_added": 1851,
+    "map_points": 1747452
+  },
+  {
+    "frame_id": 5435,
+    "points_added": 1746,
+    "map_points": 1749198
+  },
+  {
+    "frame_id": 5440,
+    "points_added": 1807,
+    "map_points": 1751005
+  },
+  {
+    "frame_id": 5445,
+    "points_added": 1734,
+    "map_points": 1752739
+  },
+  {
+    "frame_id": 5450,
+    "points_added": 1738,
+    "map_points": 1754477
+  },
+  {
+    "frame_id": 5455,
+    "points_added": 1763,
+    "map_points": 1756240
+  },
+  {
+    "frame_id": 5460,
+    "points_added": 1592,
+    "map_points": 1757832
+  },
+  {
+    "frame_id": 5465,
+    "points_added": 1583,
+    "map_points": 1759415
+  },
+  {
+    "frame_id": 5470,
+    "points_added": 1639,
+    "map_points": 1761054
+  },
+  {
+    "frame_id": 5475,
+    "points_added": 1644,
+    "map_points": 1762698
+  },
+  {
+    "frame_id": 5480,
+    "points_added": 1481,
+    "map_points": 1764179
+  },
+  {
+    "frame_id": 5485,
+    "points_added": 1489,
+    "map_points": 1765668
+  },
+  {
+    "frame_id": 5490,
+    "points_added": 1481,
+    "map_points": 1767149
+  },
+  {
+    "frame_id": 5495,
+    "points_added": 1474,
+    "map_points": 1768623
+  },
+  {
+    "frame_id": 5500,
+    "points_added": 1547,
+    "map_points": 1770170
+  },
+  {
+    "frame_id": 5505,
+    "points_added": 1507,
+    "map_points": 1771677
+  },
+  {
+    "frame_id": 5510,
+    "points_added": 1598,
+    "map_points": 1773275
+  },
+  {
+    "frame_id": 5515,
+    "points_added": 1589,
+    "map_points": 1774864
+  },
+  {
+    "frame_id": 5520,
+    "points_added": 1451,
+    "map_points": 1776315
+  },
+  {
+    "frame_id": 5525,
+    "points_added": 1547,
+    "map_points": 1777862
+  },
+  {
+    "frame_id": 5530,
+    "points_added": 1463,
+    "map_points": 1779325
+  },
+  {
+    "frame_id": 5535,
+    "points_added": 1389,
+    "map_points": 1780714
+  },
+  {
+    "frame_id": 5540,
+    "points_added": 1357,
+    "map_points": 1782071
+  },
+  {
+    "frame_id": 5545,
+    "points_added": 1398,
+    "map_points": 1783469
+  },
+  {
+    "frame_id": 5550,
+    "points_added": 1317,
+    "map_points": 1784786
+  },
+  {
+    "frame_id": 5555,
+    "points_added": 1265,
+    "map_points": 1786051
+  },
+  {
+    "frame_id": 5560,
+    "points_added": 1281,
+    "map_points": 1787332
+  },
+  {
+    "frame_id": 5565,
+    "points_added": 1201,
+    "map_points": 1788533
+  },
+  {
+    "frame_id": 5570,
+    "points_added": 1056,
+    "map_points": 1789589
+  },
+  {
+    "frame_id": 5575,
+    "points_added": 1073,
+    "map_points": 1790662
+  },
+  {
+    "frame_id": 5580,
+    "points_added": 987,
+    "map_points": 1791649
+  },
+  {
+    "frame_id": 5585,
+    "points_added": 898,
+    "map_points": 1792547
+  },
+  {
+    "frame_id": 5590,
+    "points_added": 655,
+    "map_points": 1793202
+  },
+  {
+    "frame_id": 5595,
+    "points_added": 719,
+    "map_points": 1793921
+  },
+  {
+    "frame_id": 5600,
+    "points_added": 1043,
+    "map_points": 1794964
+  },
+  {
+    "frame_id": 5605,
+    "points_added": 1020,
+    "map_points": 1795984
+  },
+  {
+    "frame_id": 5610,
+    "points_added": 1010,
+    "map_points": 1796994
+  },
+  {
+    "frame_id": 5615,
+    "points_added": 1003,
+    "map_points": 1797997
+  },
+  {
+    "frame_id": 5620,
+    "points_added": 1016,
+    "map_points": 1799013
+  },
+  {
+    "frame_id": 5625,
+    "points_added": 1014,
+    "map_points": 1800027
+  },
+  {
+    "frame_id": 5630,
+    "points_added": 985,
+    "map_points": 1801012
+  },
+  {
+    "frame_id": 5635,
+    "points_added": 955,
+    "map_points": 1801967
+  },
+  {
+    "frame_id": 5640,
+    "points_added": 927,
+    "map_points": 1802894
+  },
+  {
+    "frame_id": 5645,
+    "points_added": 956,
+    "map_points": 1803850
+  },
+  {
+    "frame_id": 5650,
+    "points_added": 910,
+    "map_points": 1804760
+  },
+  {
+    "frame_id": 5655,
+    "points_added": 923,
+    "map_points": 1805683
+  },
+  {
+    "frame_id": 5660,
+    "points_added": 952,
+    "map_points": 1806635
+  },
+  {
+    "frame_id": 5665,
+    "points_added": 940,
+    "map_points": 1807575
+  },
+  {
+    "frame_id": 5670,
+    "points_added": 860,
+    "map_points": 1808435
+  },
+  {
+    "frame_id": 5675,
+    "points_added": 984,
+    "map_points": 1809419
+  },
+  {
+    "frame_id": 5680,
+    "points_added": 972,
+    "map_points": 1810391
+  },
+  {
+    "frame_id": 5685,
+    "points_added": 994,
+    "map_points": 1811385
+  },
+  {
+    "frame_id": 5690,
+    "points_added": 1004,
+    "map_points": 1812389
+  },
+  {
+    "frame_id": 5695,
+    "points_added": 919,
+    "map_points": 1813308
+  },
+  {
+    "frame_id": 5700,
+    "points_added": 971,
+    "map_points": 1814279
+  },
+  {
+    "frame_id": 5705,
+    "points_added": 867,
+    "map_points": 1815146
+  },
+  {
+    "frame_id": 5710,
+    "points_added": 871,
+    "map_points": 1816017
+  },
+  {
+    "frame_id": 5715,
+    "points_added": 886,
+    "map_points": 1816903
+  },
+  {
+    "frame_id": 5720,
+    "points_added": 826,
+    "map_points": 1817729
+  },
+  {
+    "frame_id": 5725,
+    "points_added": 855,
+    "map_points": 1818584
+  },
+  {
+    "frame_id": 5730,
+    "points_added": 1041,
+    "map_points": 1819625
+  },
+  {
+    "frame_id": 5735,
+    "points_added": 1162,
+    "map_points": 1820787
+  },
+  {
+    "frame_id": 5740,
+    "points_added": 1553,
+    "map_points": 1822340
+  },
+  {
+    "frame_id": 5745,
+    "points_added": 1610,
+    "map_points": 1823950
+  },
+  {
+    "frame_id": 5750,
+    "points_added": 1716,
+    "map_points": 1825666
+  },
+  {
+    "frame_id": 5755,
+    "points_added": 1804,
+    "map_points": 1827470
+  },
+  {
+    "frame_id": 5760,
+    "points_added": 1664,
+    "map_points": 1829134
+  },
+  {
+    "frame_id": 5765,
+    "points_added": 1714,
+    "map_points": 1830848
+  },
+  {
+    "frame_id": 5770,
+    "points_added": 1654,
+    "map_points": 1832502
+  },
+  {
+    "frame_id": 5775,
+    "points_added": 1590,
+    "map_points": 1834092
+  },
+  {
+    "frame_id": 5780,
+    "points_added": 1654,
+    "map_points": 1835746
+  },
+  {
+    "frame_id": 5785,
+    "points_added": 1641,
+    "map_points": 1837387
+  },
+  {
+    "frame_id": 5790,
+    "points_added": 1660,
+    "map_points": 1839047
+  },
+  {
+    "frame_id": 5795,
+    "points_added": 1696,
+    "map_points": 1840743
+  },
+  {
+    "frame_id": 5800,
+    "points_added": 1661,
+    "map_points": 1842404
+  },
+  {
+    "frame_id": 5805,
+    "points_added": 1691,
+    "map_points": 1844095
+  },
+  {
+    "frame_id": 5810,
+    "points_added": 1720,
+    "map_points": 1845815
+  },
+  {
+    "frame_id": 5815,
+    "points_added": 1614,
+    "map_points": 1847429
+  },
+  {
+    "frame_id": 5820,
+    "points_added": 1644,
+    "map_points": 1849073
+  },
+  {
+    "frame_id": 5825,
+    "points_added": 1646,
+    "map_points": 1850719
+  },
+  {
+    "frame_id": 5830,
+    "points_added": 1700,
+    "map_points": 1852419
+  },
+  {
+    "frame_id": 5835,
+    "points_added": 1681,
+    "map_points": 1854100
+  },
+  {
+    "frame_id": 5840,
+    "points_added": 1693,
+    "map_points": 1855793
+  },
+  {
+    "frame_id": 5845,
+    "points_added": 1679,
+    "map_points": 1857472
+  },
+  {
+    "frame_id": 5850,
+    "points_added": 1711,
+    "map_points": 1859183
+  },
+  {
+    "frame_id": 5855,
+    "points_added": 1676,
+    "map_points": 1860859
+  },
+  {
+    "frame_id": 5860,
+    "points_added": 1656,
+    "map_points": 1862515
+  },
+  {
+    "frame_id": 5865,
+    "points_added": 1810,
+    "map_points": 1864325
+  },
+  {
+    "frame_id": 5870,
+    "points_added": 1702,
+    "map_points": 1866027
+  },
+  {
+    "frame_id": 5875,
+    "points_added": 1698,
+    "map_points": 1867725
+  },
+  {
+    "frame_id": 5880,
+    "points_added": 1648,
+    "map_points": 1869373
+  },
+  {
+    "frame_id": 5885,
+    "points_added": 1727,
+    "map_points": 1871100
+  },
+  {
+    "frame_id": 5890,
+    "points_added": 1624,
+    "map_points": 1872724
+  },
+  {
+    "frame_id": 5895,
+    "points_added": 1615,
+    "map_points": 1874339
+  },
+  {
+    "frame_id": 5900,
+    "points_added": 1573,
+    "map_points": 1875912
+  },
+  {
+    "frame_id": 5905,
+    "points_added": 1707,
+    "map_points": 1877619
+  },
+  {
+    "frame_id": 5910,
+    "points_added": 1694,
+    "map_points": 1879313
+  },
+  {
+    "frame_id": 5915,
+    "points_added": 1651,
+    "map_points": 1880964
+  },
+  {
+    "frame_id": 5920,
+    "points_added": 1758,
+    "map_points": 1882722
+  },
+  {
+    "frame_id": 5925,
+    "points_added": 1678,
+    "map_points": 1884400
+  },
+  {
+    "frame_id": 5930,
+    "points_added": 1751,
+    "map_points": 1886151
+  }
+]

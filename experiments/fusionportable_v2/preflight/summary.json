@@ -1,0 +1,17 @@
+{
+  "scope": "node startup and parameter loading only; no dataset playback",
+  "command": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/fusionportable_v2/config/fusionportable_v2.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/experiments/fusionportable_v2/config/camera.yaml"
+  ],
+  "ROS_DOMAIN_ID": "72",
+  "parameter_loading": "passed",
+  "mapper_clean_exit": true,
+  "dataset_playback": "not_started_missing_complete_bag"
+}

@@ -1,0 +1,28 @@
+APE w.r.t. translation part (m)
+(with SE(3) Umeyama alignment)
+
+       max	0.873163
+      mean	0.226550
+    median	0.151254
+       min	0.036837
+      rmse	0.297048
+       sse	983.318635
+       std	0.192126
+
+[WARNING] /home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_evo_ape.zip exists, overwrite?
+enter 'y' to overwrite or any other key to cancel
+[ERROR] Unhandled error in evo.cli.ape
+Traceback (most recent call last):
+  File "/home/hxy/SLAM_project/third_party/accuracy_venv/lib/python3.10/site-packages/evo/cli/entry_points.py", line 96, in launch
+    main_module.run(args)
+  File "/home/hxy/SLAM_project/third_party/accuracy_venv/lib/python3.10/site-packages/evo/cli/ape.py", line 118, in run
+    file_interface.save_res_file(
+  File "/home/hxy/SLAM_project/third_party/accuracy_venv/lib/python3.10/site-packages/evo/tools/file_interface.py", line 494, in save_res_file
+    if confirm_overwrite and not user.check_and_confirm_overwrite(
+  File "/home/hxy/SLAM_project/third_party/accuracy_venv/lib/python3.10/site-packages/evo/tools/user.py", line 46, in check_and_confirm_overwrite
+    return confirm("enter 'y' to overwrite or any other key to cancel")
+  File "/home/hxy/SLAM_project/third_party/accuracy_venv/lib/python3.10/site-packages/evo/tools/user.py", line 37, in confirm
+    if input(msg + "\n") != key:
+EOFError: EOF when reading a line
+
+[ERROR] evo module evo.cli.ape crashed - no logfile written (disabled)

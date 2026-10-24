@@ -1,0 +1,1392 @@
+{
+  "recorded_date": "2026-10-23",
+  "phase1_status": "completed_available_dataset_scope",
+  "report": "experiments/\u9636\u6bb5\u4e00_\u6267\u884c\u4e0e\u7ed3\u679c_20261023.md",
+  "counts": {
+    "completed_geometry_runs": 12,
+    "planned_geometry_runs": 12,
+    "completed_geometry_sequences": 6,
+    "geometry_sequences_with_position_reference": 5,
+    "semantic_runs": 18,
+    "semantic_rgb_frames": 23340
+  },
+  "geometry": [
+    {
+      "id": "ntu_eee01_r1",
+      "descriptor": "experiments/phase1_20261022/ntu_eee01.json",
+      "repeat": 1,
+      "capture_full_registered_outputs": true,
+      "dataset": "NTU_VIRAL",
+      "sequence": "eee_01",
+      "run": "experiments/phase1_20261022/runs/ntu_eee01_r1",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 4.265636444091797,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 847.3535161559994,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os1_cloud_node1/points": 0,
+        "/imu/imu": 0,
+        "/left/image_raw": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "pauses": 0,
+        "legacy_no_lag_trigger_evidence": "experiments/phase1_20261022/pre_pacing_compatibility.json"
+      },
+      "evaluated": true,
+      "poses": 3983,
+      "coverage": 0.9992832699782402,
+      "position_metrics": {
+        "prism": {
+          "nearest_rmse_m": 0.02511763654478515,
+          "nearest_matched_fraction": 0.335676625659051,
+          "interpolated_rmse_m": 0.031824444291289444,
+          "interpolated_matched_fraction": 0.83881496359528
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 3982,
+        "matched_to_native": 3982,
+        "max_matched_dt_s": 2.384185791015625e-07,
+        "max_matched_position_difference_m": 8.361231966074012e-07
+      },
+      "registered_map": {
+        "captured_points": 5373832,
+        "voxel_points": 1616888,
+        "voxel_m": 0.1,
+        "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+      },
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 0,
+      "visual_diagnostics": {
+        "lio_blocks": 3983,
+        "native_poses": 3983,
+        "visual_frames": 3982,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 3981,
+          "mean": 99.13162521979402,
+          "median": 98.0,
+          "p95": 142.0,
+          "max": 196.0,
+          "rmse": 102.78658174385548
+        },
+        "updated_appearance_map_points": {
+          "samples": 3981,
+          "mean": 54.90982165285104,
+          "median": 56.0,
+          "p95": 107.0,
+          "max": 169.0,
+          "rmse": 63.57426771658147
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 0
+      }
+    },
+    {
+      "id": "retail_r1",
+      "descriptor": "experiments/phase1_20261022/retail.json",
+      "repeat": 1,
+      "capture_full_registered_outputs": true,
+      "dataset": "Retail_Street",
+      "sequence": "Retail_Street",
+      "run": "experiments/phase1_20261022/runs/retail_r1",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 0.7676849365234375,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 316.2089469060011,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/livox/lidar": 0,
+        "/livox/imu": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "pauses": 0,
+        "legacy_no_lag_trigger_evidence": "experiments/phase1_20261022/pre_pacing_compatibility.json"
+      },
+      "evaluated": true,
+      "poses": 1351,
+      "coverage": 0.9970446345167217,
+      "position_metrics": {},
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 1351,
+        "matched_to_native": 1351,
+        "max_matched_dt_s": 1.1920928955078125e-07,
+        "max_matched_position_difference_m": 8.285656283173839e-07
+      },
+      "registered_map": {
+        "captured_points": 18660091,
+        "voxel_points": 212175,
+        "voxel_m": 0.1,
+        "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+      },
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 0,
+      "visual_diagnostics": {
+        "lio_blocks": 1351,
+        "native_poses": 1351,
+        "visual_frames": 1350,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 1349,
+          "mean": 120.44625648628613,
+          "median": 117.0,
+          "p95": 162.0,
+          "max": 187.0,
+          "rmse": 122.83655149827408
+        },
+        "updated_appearance_map_points": {
+          "samples": 1349,
+          "mean": 45.09266123054114,
+          "median": 46.0,
+          "p95": 80.0,
+          "max": 118.0,
+          "rmse": 50.0928123020572
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 0
+      }
+    },
+    {
+      "id": "fpv2_01_r1",
+      "descriptor": "experiments/phase1_20261022/fpv2_01.json",
+      "repeat": 1,
+      "capture_full_registered_outputs": true,
+      "dataset": "FusionPortableV2",
+      "sequence": "ugv_transition01",
+      "run": "experiments/phase1_20261022/runs/fpv2_01_r1",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 8.021366119384766,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 801.90103327,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os_cloud_node/points": 0,
+        "/stim300/imu/data_raw": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 0,
+        "paused_wall_s": 0.0,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 7486,
+      "coverage": 0.9991994911170081,
+      "position_metrics": {
+        "imu_direct": {
+          "nearest_rmse_m": 0.1688268591615953,
+          "nearest_matched_fraction": 0.3658829815655891,
+          "interpolated_rmse_m": 0.19880222481530593,
+          "interpolated_matched_fraction": 0.7909430937750468
+        },
+        "prism_compensated": {
+          "nearest_rmse_m": 0.16892383301930128,
+          "nearest_matched_fraction": 0.3658829815655891,
+          "interpolated_rmse_m": 0.1988999735909106,
+          "interpolated_matched_fraction": 0.7909430937750468
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 7486,
+        "matched_to_native": 7486,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.355028476378034e-07
+      },
+      "registered_map": {
+        "captured_points": 27008908,
+        "voxel_points": 2265909,
+        "voxel_m": 0.1,
+        "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+      },
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 2,
+      "visual_diagnostics": {
+        "lio_blocks": 7486,
+        "native_poses": 7486,
+        "visual_frames": 7485,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 7484,
+          "mean": 63.05251202565473,
+          "median": 50.0,
+          "p95": 159.0,
+          "max": 228.0,
+          "rmse": 79.38644074953696
+        },
+        "updated_appearance_map_points": {
+          "samples": 7404,
+          "mean": 39.473662884927066,
+          "median": 30.0,
+          "p95": 119.0,
+          "max": 194.0,
+          "rmse": 52.99429522930134
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 80
+      }
+    },
+    {
+      "id": "oxford02_r1",
+      "descriptor": "experiments/phase1_20261022/oxford02.json",
+      "repeat": 1,
+      "capture_full_registered_outputs": true,
+      "dataset": "OxfordSpires",
+      "sequence": "2024-03-18-christ-church-02",
+      "run": "experiments/phase1_20261022/runs/oxford02_r1",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 5.556186676025391,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1246.437613297001,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/hesai/pandar": 0,
+        "/alphasense_driver_ros/imu": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 2,
+        "paused_wall_s": 9.046471029998429,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 11763,
+      "coverage": 0.9997430587367586,
+      "position_metrics": {
+        "base": {
+          "nearest_rmse_m": 0.2970479661022926,
+          "nearest_matched_fraction": 0.9473773697186092,
+          "interpolated_rmse_m": 0.29702834264417216,
+          "interpolated_matched_fraction": 0.9469523080846722
+        }
+      },
+      "RPE": {
+        "delta_s": 1.0,
+        "relative_delta_tolerance": 0.05,
+        "pairs_from_reference": true,
+        "all_pairs": false,
+        "pair_filter": "Nearest reference timestamp at +1s within0.05s, next pair starts at prior endpoint; no interpolation",
+        "error_formula": "evo.metrics.RPE.rpe_base, standard TUM SE3 relative error",
+        "reference_dt_min_s": 0.9999618530273438,
+        "reference_dt_max_s": 1.049983263015747,
+        "translation_m": {
+          "stats": {
+            "rmse": 0.015766410441343522,
+            "mean": 0.010309460326083692,
+            "median": 0.007100243029193038,
+            "std": 0.011928735305547373,
+            "min": 0.0006497028872945887,
+            "max": 0.12092841038891004,
+            "sse": 0.1392046309947474
+          },
+          "pairs": 560
+        },
+        "rotation_deg": {
+          "stats": {
+            "rmse": 0.1667407735247116,
+            "mean": 0.13480738161514907,
+            "median": 0.11013501768871664,
+            "std": 0.09812978863569777,
+            "min": 0.0077315328000744105,
+            "max": 0.5753414632495526,
+            "sse": 15.569391911146727
+          },
+          "pairs": 560
+        }
+      },
+      "ros_pose_time_check": {
+        "observed": 11754,
+        "matched_to_native": 11754,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.591053487193188e-07
+      },
+      "registered_map": {
+        "captured_points": 73825446,
+        "voxel_points": 2934893,
+        "voxel_m": 0.1,
+        "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+      },
+      "registered_map_tls_check": {
+        "scope": "Observed registered outputs to 5cm-voxel TLS, using the trajectory global alignment; not full-map completeness or raw-cloud registration accuracy",
+        "output_voxel_m": 0.1,
+        "tls_voxel_m": 0.05,
+        "points": 2934893,
+        "mean_m": 0.25495503799324115,
+        "rmse_m": 0.667437006710069,
+        "median_m": 0.09333858215625433,
+        "p95_m": 0.8289153643128265,
+        "max_m": 29.541406860153828,
+        "fraction_within_0_2_m": 0.7532795914535896,
+        "fraction_within_0_5_m": 0.8830328737708666
+      },
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 7,
+      "visual_diagnostics": {
+        "lio_blocks": 11763,
+        "native_poses": 11763,
+        "visual_frames": 11762,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 11759,
+          "mean": 6.128837486180798,
+          "median": 0.0,
+          "p95": 34.0,
+          "max": 211.0,
+          "rmse": 25.85939826469531
+        },
+        "updated_appearance_map_points": {
+          "samples": 2777,
+          "mean": 13.563197695354699,
+          "median": 2.0,
+          "p95": 70.0,
+          "max": 103.0,
+          "rmse": 27.17942755024374
+        },
+        "missing_retrieval_entries": 3,
+        "zero_retrieval_frames": 8982
+      }
+    },
+    {
+      "id": "oxford05_r1",
+      "descriptor": "experiments/phase1_20261022/oxford05.json",
+      "repeat": 1,
+      "capture_full_registered_outputs": true,
+      "dataset": "OxfordSpires",
+      "sequence": "2024-03-20-christ-church-05",
+      "run": "experiments/phase1_20261022/runs/oxford05_r1",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 2.327098846435547,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1648.093741910001,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/hesai/pandar": 0,
+        "/alphasense_driver_ros/imu": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 0,
+        "paused_wall_s": 0.0,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 3959,
+      "coverage": 0.9993426574905176,
+      "position_metrics": {
+        "base": {
+          "nearest_rmse_m": 0.14722816428447413,
+          "nearest_matched_fraction": 1.0,
+          "interpolated_rmse_m": 0.1457710983830523,
+          "interpolated_matched_fraction": 0.9585753978277343
+        }
+      },
+      "RPE": {
+        "delta_s": 1.0,
+        "relative_delta_tolerance": 0.05,
+        "pairs_from_reference": true,
+        "all_pairs": false,
+        "pair_filter": "Nearest reference timestamp at +1s within0.05s, next pair starts at prior endpoint; no interpolation",
+        "error_formula": "evo.metrics.RPE.rpe_base, standard TUM SE3 relative error",
+        "reference_dt_min_s": 0.9999289512634277,
+        "reference_dt_max_s": 1.0000193119049072,
+        "translation_m": {
+          "stats": {
+            "rmse": 0.03646088673830559,
+            "mean": 0.010340274209542972,
+            "median": 0.006076568767713788,
+            "std": 0.03496390983592952,
+            "min": 0.0005285860803288681,
+            "max": 0.6598099722707992,
+            "sse": 1.0608582168713514
+          },
+          "pairs": 798
+        },
+        "rotation_deg": {
+          "stats": {
+            "rmse": 0.13758373618697345,
+            "mean": 0.09351081351688659,
+            "median": 0.07546052911092706,
+            "std": 0.1009208215314202,
+            "min": 0.0029066494824782282,
+            "max": 1.6354689761026782,
+            "sse": 15.105569001607032
+          },
+          "pairs": 798
+        }
+      },
+      "ros_pose_time_check": {
+        "observed": 3959,
+        "matched_to_native": 3959,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.39479602476663e-07
+      },
+      "registered_map": {
+        "captured_points": 33675657,
+        "voxel_points": 3097531,
+        "voxel_m": 0.1,
+        "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+      },
+      "registered_map_tls_check": {
+        "scope": "Observed registered outputs to 5cm-voxel TLS, using the trajectory global alignment; not full-map completeness or raw-cloud registration accuracy",
+        "output_voxel_m": 0.1,
+        "tls_voxel_m": 0.05,
+        "points": 3097531,
+        "mean_m": 0.13743626420271057,
+        "rmse_m": 0.5222309221678424,
+        "median_m": 0.060682555898381785,
+        "p95_m": 0.2912815775389492,
+        "max_m": 33.726223510982265,
+        "fraction_within_0_2_m": 0.9096654722745309,
+        "fraction_within_0_5_m": 0.9700316155027988
+      },
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 10,
+      "transition_events": 6,
+      "visual_diagnostics": {
+        "lio_blocks": 3959,
+        "native_poses": 3959,
+        "visual_frames": 3959,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 3957,
+          "mean": 8.10411928228456,
+          "median": 1.0,
+          "p95": 54.0,
+          "max": 97.0,
+          "rmse": 20.00366405658356
+        },
+        "updated_appearance_map_points": {
+          "samples": 1997,
+          "mean": 10.033049574361542,
+          "median": 2.0,
+          "p95": 43.0,
+          "max": 91.0,
+          "rmse": 18.28424103443476
+        },
+        "missing_retrieval_entries": 2,
+        "zero_retrieval_frames": 1960
+      }
+    },
+    {
+      "id": "fpv2_00_r1",
+      "descriptor": "experiments/phase1_20261022/fpv2_00.json",
+      "repeat": 1,
+      "capture_full_registered_outputs": true,
+      "dataset": "FusionPortableV2",
+      "sequence": "ugv_transition00",
+      "run": "experiments/phase1_20261022/runs/fpv2_00_r1",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 10.656063079833984,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1090.2102136369995,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os_cloud_node/points": 0,
+        "/stim300/imu/data_raw": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 2,
+        "paused_wall_s": 47.4923403089997,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 9834,
+      "coverage": 0.9993938224885368,
+      "position_metrics": {
+        "imu_direct": {
+          "nearest_rmse_m": 0.1685805430227578,
+          "nearest_matched_fraction": 0.37919463087248323,
+          "interpolated_rmse_m": 0.17512911102241546,
+          "interpolated_matched_fraction": 0.8103518405531829
+        },
+        "prism_compensated": {
+          "nearest_rmse_m": 0.1684686092025533,
+          "nearest_matched_fraction": 0.37919463087248323,
+          "interpolated_rmse_m": 0.17501246808133133,
+          "interpolated_matched_fraction": 0.8103518405531829
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 9834,
+        "matched_to_native": 9834,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.343961888456015e-07
+      },
+      "registered_map": {
+        "captured_points": 35388948,
+        "voxel_points": 2476185,
+        "voxel_m": 0.1,
+        "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+      },
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 2,
+      "visual_diagnostics": {
+        "lio_blocks": 9834,
+        "native_poses": 9834,
+        "visual_frames": 9833,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 9832,
+          "mean": 50.9496541903987,
+          "median": 21.0,
+          "p95": 176.0,
+          "max": 246.0,
+          "rmse": 79.63921583580685
+        },
+        "updated_appearance_map_points": {
+          "samples": 6337,
+          "mean": 44.21524380621745,
+          "median": 39.0,
+          "p95": 120.0,
+          "max": 196.0,
+          "rmse": 57.53326322080527
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 3495
+      }
+    },
+    {
+      "id": "ntu_eee01_r2",
+      "descriptor": "experiments/phase1_20261022/ntu_eee01.json",
+      "repeat": 2,
+      "capture_full_registered_outputs": false,
+      "dataset": "NTU_VIRAL",
+      "sequence": "eee_01",
+      "run": "experiments/phase1_20261022/runs/ntu_eee01_r2",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 4.316612243652344,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 839.3960806080013,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os1_cloud_node1/points": 0,
+        "/imu/imu": 0,
+        "/left/image_raw": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 0,
+        "paused_wall_s": 0.0,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 3983,
+      "coverage": 0.9992832699782402,
+      "position_metrics": {
+        "prism": {
+          "nearest_rmse_m": 0.02493197601466663,
+          "nearest_matched_fraction": 0.335676625659051,
+          "interpolated_rmse_m": 0.03155018939181025,
+          "interpolated_matched_fraction": 0.83881496359528
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 3983,
+        "matched_to_native": 3983,
+        "max_matched_dt_s": 2.384185791015625e-07,
+        "max_matched_position_difference_m": 8.47631995542899e-07
+      },
+      "registered_map": null,
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 0,
+      "visual_diagnostics": {
+        "lio_blocks": 3983,
+        "native_poses": 3983,
+        "visual_frames": 3982,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 3981,
+          "mean": 98.12911328811856,
+          "median": 97.0,
+          "p95": 142.0,
+          "max": 203.0,
+          "rmse": 101.94172377623764
+        },
+        "updated_appearance_map_points": {
+          "samples": 3981,
+          "mean": 55.00150715900528,
+          "median": 55.0,
+          "p95": 108.0,
+          "max": 173.0,
+          "rmse": 63.60777869233702
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 0
+      }
+    },
+    {
+      "id": "ntu_eee01_r3",
+      "descriptor": "experiments/phase1_20261022/ntu_eee01.json",
+      "repeat": 3,
+      "capture_full_registered_outputs": false,
+      "dataset": "NTU_VIRAL",
+      "sequence": "eee_01",
+      "run": "experiments/phase1_20261022/runs/ntu_eee01_r3",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 4.319377899169922,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 838.4905117620001,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os1_cloud_node1/points": 0,
+        "/imu/imu": 0,
+        "/left/image_raw": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 0,
+        "paused_wall_s": 0.0,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 3983,
+      "coverage": 0.9992832699782402,
+      "position_metrics": {
+        "prism": {
+          "nearest_rmse_m": 0.025038063754789657,
+          "nearest_matched_fraction": 0.335676625659051,
+          "interpolated_rmse_m": 0.031574353274814886,
+          "interpolated_matched_fraction": 0.83881496359528
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 3983,
+        "matched_to_native": 3983,
+        "max_matched_dt_s": 2.384185791015625e-07,
+        "max_matched_position_difference_m": 8.407960513703631e-07
+      },
+      "registered_map": null,
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 0,
+      "visual_diagnostics": {
+        "lio_blocks": 3983,
+        "native_poses": 3983,
+        "visual_frames": 3982,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 3981,
+          "mean": 97.96834966088922,
+          "median": 97.0,
+          "p95": 143.0,
+          "max": 201.0,
+          "rmse": 101.76413765978558
+        },
+        "updated_appearance_map_points": {
+          "samples": 3981,
+          "mean": 55.09068073348405,
+          "median": 56.0,
+          "p95": 108.0,
+          "max": 174.0,
+          "rmse": 63.6967034677236
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 0
+      }
+    },
+    {
+      "id": "oxford02_r2",
+      "descriptor": "experiments/phase1_20261022/oxford02.json",
+      "repeat": 2,
+      "capture_full_registered_outputs": false,
+      "dataset": "OxfordSpires",
+      "sequence": "2024-03-18-christ-church-02",
+      "run": "experiments/phase1_20261022/runs/oxford02_r2",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 5.513202667236328,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1237.0175052970008,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/hesai/pandar": 0,
+        "/alphasense_driver_ros/imu": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 0,
+        "paused_wall_s": 0.0,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 11763,
+      "coverage": 0.9997430587367586,
+      "position_metrics": {
+        "base": {
+          "nearest_rmse_m": 0.29513101725227536,
+          "nearest_matched_fraction": 0.9473773697186092,
+          "interpolated_rmse_m": 0.29511194590115797,
+          "interpolated_matched_fraction": 0.9469523080846722
+        }
+      },
+      "RPE": {
+        "delta_s": 1.0,
+        "relative_delta_tolerance": 0.05,
+        "pairs_from_reference": true,
+        "all_pairs": false,
+        "pair_filter": "Nearest reference timestamp at +1s within0.05s, next pair starts at prior endpoint; no interpolation",
+        "error_formula": "evo.metrics.RPE.rpe_base, standard TUM SE3 relative error",
+        "reference_dt_min_s": 0.9999618530273438,
+        "reference_dt_max_s": 1.049983263015747,
+        "translation_m": {
+          "stats": {
+            "rmse": 0.017748177426155455,
+            "mean": 0.010643588328426132,
+            "median": 0.007050548973837608,
+            "std": 0.014202528980617682,
+            "min": 0.0005285485254545923,
+            "max": 0.15851340838700076,
+            "sse": 0.17639876909216468
+          },
+          "pairs": 560
+        },
+        "rotation_deg": {
+          "stats": {
+            "rmse": 0.16601211749778827,
+            "mean": 0.13483407932040795,
+            "median": 0.10830169710724305,
+            "std": 0.09684933768445401,
+            "min": 0.006771594160132946,
+            "max": 0.5685462644811528,
+            "sse": 15.4336129674157
+          },
+          "pairs": 560
+        }
+      },
+      "ros_pose_time_check": {
+        "observed": 11763,
+        "matched_to_native": 11763,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.505110219343177e-07
+      },
+      "registered_map": null,
+      "registered_map_tls_check": {
+        "scope": "Observed registered outputs to 5cm-voxel TLS, using the trajectory global alignment; not full-map completeness or raw-cloud registration accuracy",
+        "output_voxel_m": 0.1,
+        "tls_voxel_m": 0.05,
+        "points": 193341,
+        "mean_m": 0.17883878243852622,
+        "rmse_m": 0.35543369255487556,
+        "median_m": 0.07740141755326328,
+        "p95_m": 0.7437603673490466,
+        "max_m": 13.807186720664326,
+        "fraction_within_0_2_m": 0.789594550560926,
+        "fraction_within_0_5_m": 0.8992505469610688
+      },
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 7,
+      "visual_diagnostics": {
+        "lio_blocks": 11763,
+        "native_poses": 11763,
+        "visual_frames": 11762,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 11759,
+          "mean": 5.930776426566885,
+          "median": 0.0,
+          "p95": 31.100000000000364,
+          "max": 211.0,
+          "rmse": 25.782595679768036
+        },
+        "updated_appearance_map_points": {
+          "samples": 2395,
+          "mean": 15.166597077244258,
+          "median": 2.0,
+          "p95": 73.0,
+          "max": 105.0,
+          "rmse": 29.074090080129317
+        },
+        "missing_retrieval_entries": 3,
+        "zero_retrieval_frames": 9364
+      }
+    },
+    {
+      "id": "oxford02_r3",
+      "descriptor": "experiments/phase1_20261022/oxford02.json",
+      "repeat": 3,
+      "capture_full_registered_outputs": false,
+      "dataset": "OxfordSpires",
+      "sequence": "2024-03-18-christ-church-02",
+      "run": "experiments/phase1_20261022/runs/oxford02_r3",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 5.562370300292969,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1242.7820111189976,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/hesai/pandar": 0,
+        "/alphasense_driver_ros/imu": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 1,
+        "paused_wall_s": 5.982323408999946,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 11763,
+      "coverage": 0.9997430587367586,
+      "position_metrics": {
+        "base": {
+          "nearest_rmse_m": 0.29698435352049074,
+          "nearest_matched_fraction": 0.9473773697186092,
+          "interpolated_rmse_m": 0.29696511809140075,
+          "interpolated_matched_fraction": 0.9469523080846722
+        }
+      },
+      "RPE": {
+        "delta_s": 1.0,
+        "relative_delta_tolerance": 0.05,
+        "pairs_from_reference": true,
+        "all_pairs": false,
+        "pair_filter": "Nearest reference timestamp at +1s within0.05s, next pair starts at prior endpoint; no interpolation",
+        "error_formula": "evo.metrics.RPE.rpe_base, standard TUM SE3 relative error",
+        "reference_dt_min_s": 0.9999618530273438,
+        "reference_dt_max_s": 1.049983263015747,
+        "translation_m": {
+          "stats": {
+            "rmse": 0.01625404860908841,
+            "mean": 0.010232543003440247,
+            "median": 0.0072433712880792525,
+            "std": 0.012628901768140998,
+            "min": 0.0007193711563643897,
+            "max": 0.16547831523575934,
+            "sse": 0.14794869386450094
+          },
+          "pairs": 560
+        },
+        "rotation_deg": {
+          "stats": {
+            "rmse": 0.17107925613079514,
+            "mean": 0.13624890901011108,
+            "median": 0.10825537149782288,
+            "std": 0.10346181262582187,
+            "min": 0.008522152807957985,
+            "max": 0.7519741909811885,
+            "sse": 16.390142651829073
+          },
+          "pairs": 560
+        }
+      },
+      "ros_pose_time_check": {
+        "observed": 11763,
+        "matched_to_native": 11763,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.470023606977467e-07
+      },
+      "registered_map": null,
+      "registered_map_tls_check": {
+        "scope": "Observed registered outputs to 5cm-voxel TLS, using the trajectory global alignment; not full-map completeness or raw-cloud registration accuracy",
+        "output_voxel_m": 0.1,
+        "tls_voxel_m": 0.05,
+        "points": 150755,
+        "mean_m": 0.17511642268039299,
+        "rmse_m": 0.35491204973784657,
+        "median_m": 0.0721159827161715,
+        "p95_m": 0.754194668909433,
+        "max_m": 9.75729422434317,
+        "fraction_within_0_2_m": 0.7937249179131703,
+        "fraction_within_0_5_m": 0.9049716427315844
+      },
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 7,
+      "visual_diagnostics": {
+        "lio_blocks": 11763,
+        "native_poses": 11763,
+        "visual_frames": 11762,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 11759,
+          "mean": 6.063355727527851,
+          "median": 0.0,
+          "p95": 31.0,
+          "max": 212.0,
+          "rmse": 25.836466547435883
+        },
+        "updated_appearance_map_points": {
+          "samples": 2617,
+          "mean": 14.202521971723348,
+          "median": 2.0,
+          "p95": 71.0,
+          "max": 103.0,
+          "rmse": 27.92382782659121
+        },
+        "missing_retrieval_entries": 3,
+        "zero_retrieval_frames": 9142
+      }
+    },
+    {
+      "id": "fpv2_00_r2",
+      "descriptor": "experiments/phase1_20261022/fpv2_00.json",
+      "repeat": 2,
+      "capture_full_registered_outputs": false,
+      "dataset": "FusionPortableV2",
+      "sequence": "ugv_transition00",
+      "run": "experiments/phase1_20261022/runs/fpv2_00_r2",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 10.625732421875,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1062.8719247100016,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os_cloud_node/points": 0,
+        "/stim300/imu/data_raw": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 2,
+        "paused_wall_s": 18.137824824996642,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 9834,
+      "coverage": 0.9993938224885368,
+      "position_metrics": {
+        "imu_direct": {
+          "nearest_rmse_m": 0.16777988521174866,
+          "nearest_matched_fraction": 0.37919463087248323,
+          "interpolated_rmse_m": 0.1734999984242755,
+          "interpolated_matched_fraction": 0.8103518405531829
+        },
+        "prism_compensated": {
+          "nearest_rmse_m": 0.16770476454916952,
+          "nearest_matched_fraction": 0.37919463087248323,
+          "interpolated_rmse_m": 0.17340201626427465,
+          "interpolated_matched_fraction": 0.8103518405531829
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 9833,
+        "matched_to_native": 9833,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.637163898497841e-07
+      },
+      "registered_map": null,
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 2,
+      "visual_diagnostics": {
+        "lio_blocks": 9834,
+        "native_poses": 9834,
+        "visual_frames": 9833,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 9832,
+          "mean": 50.70890968266884,
+          "median": 22.0,
+          "p95": 172.0,
+          "max": 237.0,
+          "rmse": 79.0870327357699
+        },
+        "updated_appearance_map_points": {
+          "samples": 6283,
+          "mean": 44.290943816648095,
+          "median": 38.0,
+          "p95": 119.0,
+          "max": 186.0,
+          "rmse": 57.51175342995496
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 3549
+      }
+    },
+    {
+      "id": "fpv2_00_r3",
+      "descriptor": "experiments/phase1_20261022/fpv2_00.json",
+      "repeat": 3,
+      "capture_full_registered_outputs": false,
+      "dataset": "FusionPortableV2",
+      "sequence": "ugv_transition00",
+      "run": "experiments/phase1_20261022/runs/fpv2_00_r3",
+      "status": "playback_completed",
+      "peak_mapper_rss_GiB": 10.598129272460938,
+      "peak_mapper_swap_kib": 0,
+      "wall_seconds": 1079.0540592370016,
+      "input_callbacks_exact": true,
+      "input_missing": {
+        "/os_cloud_node/points": 0,
+        "/stim300/imu/data_raw": 0,
+        "/left_camera/image": 0
+      },
+      "mapper_clean_exit": true,
+      "parameters_match_effective_values": true,
+      "playback_pacing": {
+        "nominal_rate": 0.5,
+        "pause_lag_threshold_s": 2.0,
+        "resume_lag_threshold_s": 0.25,
+        "pauses": 5,
+        "paused_wall_s": 32.28431916199406,
+        "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+      },
+      "evaluated": true,
+      "poses": 9832,
+      "coverage": 0.9991907894490019,
+      "position_metrics": {
+        "imu_direct": {
+          "nearest_rmse_m": 0.1647905548205734,
+          "nearest_matched_fraction": 0.37927176566314075,
+          "interpolated_rmse_m": 0.16842697845892723,
+          "interpolated_matched_fraction": 0.810313262815297
+        },
+        "prism_compensated": {
+          "nearest_rmse_m": 0.1647821543009874,
+          "nearest_matched_fraction": 0.37927176566314075,
+          "interpolated_rmse_m": 0.16832763668550413,
+          "interpolated_matched_fraction": 0.810313262815297
+        }
+      },
+      "RPE": null,
+      "ros_pose_time_check": {
+        "observed": 9831,
+        "matched_to_native": 9831,
+        "max_matched_dt_s": 4.76837158203125e-07,
+        "max_matched_position_difference_m": 8.413768471166927e-07
+      },
+      "registered_map": null,
+      "registered_map_tls_check": null,
+      "diagnostics_complete": true,
+      "visual_trace_valid": true,
+      "pose_gaps_over_0_5_s": 0,
+      "transition_events": 2,
+      "visual_diagnostics": {
+        "lio_blocks": 9832,
+        "native_poses": 9832,
+        "visual_frames": 9831,
+        "log_order_mapping_validated": true,
+        "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+        "retrieved_points": {
+          "samples": 9830,
+          "mean": 52.66022380467955,
+          "median": 23.0,
+          "p95": 186.0,
+          "max": 226.0,
+          "rmse": 81.15852390251186
+        },
+        "updated_appearance_map_points": {
+          "samples": 6354,
+          "mean": 44.53053194837897,
+          "median": 37.0,
+          "p95": 112.0,
+          "max": 187.0,
+          "rmse": 56.96251853165651
+        },
+        "missing_retrieval_entries": 1,
+        "zero_retrieval_frames": 3476
+      }
+    }
+  ],
+  "repeatability": {
+    "ntu_eee01": {
+      "runs": [
+        "ntu_eee01_r1",
+        "ntu_eee01_r2",
+        "ntu_eee01_r3"
+      ],
+      "completed_repeats": 3,
+      "peak_mapper_rss_GiB": {
+        "n": 3,
+        "mean": 4.3005421956380205,
+        "sample_std": 0.03026087954547116,
+        "min": 4.265636444091797,
+        "max": 4.319377899169922
+      },
+      "position_metrics": {
+        "prism": {
+          "nearest_rmse_m": {
+            "n": 3,
+            "mean": 0.02502922543808048,
+            "sample_std": 9.314528969658743e-05,
+            "min": 0.02493197601466663,
+            "max": 0.02511763654478515
+          },
+          "interpolated_rmse_m": {
+            "n": 3,
+            "mean": 0.03164966231930486,
+            "sample_std": 0.00015184705004898984,
+            "min": 0.03155018939181025,
+            "max": 0.031824444291289444
+          }
+        }
+      }
+    },
+    "fpv2_00": {
+      "runs": [
+        "fpv2_00_r1",
+        "fpv2_00_r2",
+        "fpv2_00_r3"
+      ],
+      "completed_repeats": 3,
+      "peak_mapper_rss_GiB": {
+        "n": 3,
+        "mean": 10.626641591389975,
+        "sample_std": 0.02897760257663742,
+        "min": 10.598129272460938,
+        "max": 10.656063079833984
+      },
+      "position_metrics": {
+        "imu_direct": {
+          "nearest_rmse_m": {
+            "n": 3,
+            "mean": 0.16705032768502662,
+            "sample_std": 0.001997546815914919,
+            "min": 0.1647905548205734,
+            "max": 0.1685805430227578
+          },
+          "interpolated_rmse_m": {
+            "n": 3,
+            "mean": 0.17235202930187274,
+            "sample_std": 0.0034954284507245957,
+            "min": 0.16842697845892723,
+            "max": 0.17512911102241546
+          }
+        },
+        "prism_compensated": {
+          "nearest_rmse_m": {
+            "n": 3,
+            "mean": 0.1669851760175701,
+            "sample_std": 0.0019457243320745424,
+            "min": 0.1647821543009874,
+            "max": 0.1684686092025533
+          },
+          "interpolated_rmse_m": {
+            "n": 3,
+            "mean": 0.17224737367703669,
+            "sample_std": 0.0034887880884136445,
+            "min": 0.16832763668550413,
+            "max": 0.17501246808133133
+          }
+        }
+      }
+    },
+    "oxford02": {
+      "runs": [
+        "oxford02_r1",
+        "oxford02_r2",
+        "oxford02_r3"
+      ],
+      "completed_repeats": 3,
+      "peak_mapper_rss_GiB": {
+        "n": 3,
+        "mean": 5.5439198811848955,
+        "sample_std": 0.02678095828834747,
+        "min": 5.513202667236328,
+        "max": 5.562370300292969
+      },
+      "position_metrics": {
+        "base": {
+          "nearest_rmse_m": {
+            "n": 3,
+            "mean": 0.2963877789583529,
+            "sample_std": 0.0010888522073900012,
+            "min": 0.29513101725227536,
+            "max": 0.2970479661022926
+          },
+          "interpolated_rmse_m": {
+            "n": 3,
+            "mean": 0.29636846887891033,
+            "sample_std": 0.0010886398997064927,
+            "min": 0.29511194590115797,
+            "max": 0.29702834264417216
+          }
+        }
+      }
+    }
+  },
+  "semantics": {
+    "reference_pose_only": true,
+    "published_scene_runs": 6,
+    "local_paired_lighting_runs": 12,
+    "rgb_frames": 23340,
+    "Replica_mean_mIoU_percent": 25.34,
+    "OSMa_published_mean_mIoU_percent": 27.21,
+    "OSMa_local_baseline_mean_mIoU_percent": 27.69,
+    "OSMa_local_dynamic_mean_mIoU_percent": 24.04,
+    "seeds": [
+      0
+    ],
+    "runs_per_scene_condition": 1,
+    "freeze_check": "experiments/phase1_20261022/semantic_baseline_freeze_check.json",
+    "independent_result_check": "experiments/multibench_20261020/final_result_checks.json"
+  },
+  "checks": {
+    "prepared_inputs_passed": true,
+    "seconds_rpe_independent_crosscheck_passed": true,
+    "all_actual_parameters_match": true,
+    "sensor_time_pose_outputs_match": true,
+    "all_12_full_runs_evaluated": true,
+    "native_artifacts_and_protocol_hashes_match": true,
+    "all_input_callback_multisets_exact": true,
+    "all_diagnostics_complete_and_log_order_valid": true,
+    "three_repeats_each_core": true,
+    "primary_maps_exported": true,
+    "semantic_18_archived_runs_independently_verified": true,
+    "semantic_source_and_weight_checks_pass": true,
+    "oxford_primary_tls_map_checks_available": true,
+    "oxford_full_pose_rpe_available": true
+  },
+  "baseline_freeze": "experiments/phase1_20261022/baseline_freeze.json",
+  "initial_audit_snapshot": "experiments/phase1_20261022/initial_inventory_snapshot.json",
+  "retained_failed_attempts": [
+    {
+      "run": "experiments/phase1_20261022/failed_full_attempts/fpv2_01_session_interrupted_20261023",
+      "status": "interrupted_external_session",
+      "error": "Execution session interrupted; environment restarted before completion. No final observer outputs or normal-exit summary. Retain as interrupted attempt and replay entire sequence.",
+      "controller_note": {
+        "classified_at": "2026-10-23T11:05:55.472816+08:00",
+        "reason": "Execution session interrupted; environment restarted before completion. No final observer outputs or normal-exit summary. Retain as interrupted attempt and replay entire sequence.",
+        "algorithm_failure": false,
+        "last_progress": {
+          "elapsed_s": 621,
+          "poses": 5938,
+          "sensor_seconds": 297.342,
+          "outputs": {
+            "/aft_mapped_to_init": 5938,
+            "/cloud_registered": 11838,
+            "/rgb_img": 2732
+          },
+          "peak_mapper_GiB": 6.504371643066406
+        }
+      }
+    },
+    {
+      "run": "experiments/phase1_20261022/failed_full_attempts/fpv2_01_transport_loss_20261022",
+      "status": "failed",
+      "error": "Interrupted",
+      "controller_note": {
+        "stopped_at": "2026-10-22T20:33:40.680702+08:00",
+        "reason": "Runtime IMU callback receipt has a 0.494719612s gap near sensor +57.4s despite source max IMU gap 0.01250693s; upstream >0.2s guard rejects all later IMUs, causing fixed pose and growing input queues. Stop without changing estimator. Retain failed transport attempt; add bounded playback pacing before retry.",
+        "first_missing_receipt_interval_sensor_s": [
+          1686616050.3851328,
+          1686616050.8798525
+        ],
+        "not_an_accuracy_filtered_attempt": true
+      }
+    },
+    {
+      "run": "experiments/phase1_20261022/failed_full_attempts/oxford02_r2_user_paused_20261023",
+      "status": "interrupted_by_user",
+      "error": "User requested save and stop; incomplete run excluded from completed baselines",
+      "controller_note": {
+        "classified_at": "2026-10-23T13:13:39.460312+08:00",
+        "reason": "\u7528\u6237\u8981\u6c42\u4fdd\u5b58\u5e76\u505c\u6b62\u3002\u5df2\u901a\u8fc7 SIGINT \u6b63\u5e38\u6536\u5c3e\uff0c\u539f\u751f mapper \u5e72\u51c0\u9000\u51fa\uff1b\u672a\u5b8c\u6210\u5168\u7a0b\uff0c\u4e0d\u8ba1\u5165\u6210\u529f\u57fa\u7ebf\u3002\u6062\u590d\u540e\u4ece\u8be5\u5e8f\u5217\u5f00\u5934\u91cd\u65b0\u8fd0\u884c\uff0c\u4e0d\u80fd\u6062\u590d\u5185\u90e8\u4f30\u8ba1\u5668\u72b6\u6001\u3002",
+        "algorithm_failure": false,
+        "user_requested_pause": true,
+        "last_progress": {
+          "elapsed_s": 411,
+          "poses": 3867,
+          "sensor_seconds": 194.926,
+          "outputs": {
+            "/aft_mapped_to_init": 3867,
+            "/cloud_registered": 6881,
+            "/rgb_img": 2555
+          },
+          "peak_mapper_GiB": 2.0165023803710938
+        },
+        "native_clean_exit": true,
+        "resume_job": "oxford02_r2"
+      }
+    }
+  ],
+  "optional_unavailable": {
+    "door01": "experiments/phase1_20261022/m2dgr_availability.json",
+    "door02": "experiments/phase1_20261022/m2dgr_door02_availability.json"
+  },
+  "phase2_pending": [
+    "FAST-LIVO2 to OVO interface and estimated-pose semantics"
+  ],
+  "later_research_pending": [
+    "New reliability/recovery/review mechanisms, component ablations, semantic multi-seed and wider benchmark scope"
+  ]
+}

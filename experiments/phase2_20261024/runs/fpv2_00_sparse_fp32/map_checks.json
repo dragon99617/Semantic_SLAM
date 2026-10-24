@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "checks": {
+    "finite_map": true,
+    "nonempty_map": true,
+    "object_ids_resolve": true,
+    "nonempty_objects": true,
+    "nonempty_semantic_points": true,
+    "map_grows_across_frames": true,
+    "finite_nonzero_descriptors": true,
+    "finite_text_query_scores": true
+  },
+  "map_points": 41544,
+  "assigned_points": 2130,
+  "assigned_fraction": 0.05127094165222415,
+  "objects": 8,
+  "checkpoint_sha256": "875a3f27956bd161397afbd7aef38b50475f75693458dec15ad20cd06318582d",
+  "queries": [
+    "building",
+    "ground",
+    "tree",
+    "person",
+    "car",
+    "fence",
+    "sky"
+  ],
+  "query_results": [
+    {
+      "object_id": 0,
+      "points": 128,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.43410471081733704,
+        0.7178475260734558,
+        0.00014168872439768165,
+        1.6272928405669518e-05,
+        9.450379002373666e-05,
+        0.04324568808078766,
+        0.0027793808840215206
+      ]
+    },
+    {
+      "object_id": 1,
+      "points": 556,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.048359066247940063,
+        0.19134920835494995,
+        2.007184230023995e-05,
+        4.296686256566318e-06,
+        5.8060272749571595e-06,
+        0.002901384374126792,
+        0.00020242492610123008
+      ]
+    },
+    {
+      "object_id": 2,
+      "points": 232,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.2077331393957138,
+        0.6447333693504333,
+        4.9271304305875674e-05,
+        2.4496057449141517e-05,
+        1.016004171106033e-05,
+        0.015989486128091812,
+        0.0010053172009065747
+      ]
+    },
+    {
+      "object_id": 3,
+      "points": 433,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.06753101944923401,
+        0.2876051962375641,
+        2.1406738596851937e-05,
+        3.34084825226455e-06,
+        1.837759555201046e-05,
+        0.005132623016834259,
+        0.000579720304813236
+      ]
+    },
+    {
+      "object_id": 4,
+      "points": 317,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.13001732528209686,
+        0.36071598529815674,
+        1.7542630303069018e-05,
+        1.2341456567810383e-05,
+        8.325919225171674e-06,
+        0.0042717233300209045,
+        0.0007367489743046463
+      ]
+    },
+    {
+      "object_id": 5,
+      "points": 158,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.04757982864975929,
+        0.08338518440723419,
+        5.8538748817227315e-06,
+        3.2915543215494836e-06,
+        2.471358811817481e-06,
+        0.0014523993013426661,
+        0.0002101295831380412
+      ]
+    },
+    {
+      "object_id": 6,
+      "points": 189,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.17062793672084808,
+        0.23803019523620605,
+        1.8519258446758613e-05,
+        2.9384143545030383e-06,
+        1.5125888239708729e-05,
+        0.004852777346968651,
+        0.0003114725404884666
+      ]
+    },
+    {
+      "object_id": 7,
+      "points": 117,
+      "highest_scoring_query": "ground",
+      "scores": [
+        0.4182267487049103,
+        0.43697768449783325,
+        5.116608372190967e-05,
+        3.375287406015559e-06,
+        5.435883576865308e-05,
+        0.025213252753019333,
+        0.0008130396017804742
+      ]
+    }
+  ],
+  "limitation": "No semantic/instance GT on these real segments; query rankings are not accuracy measurements."
+}

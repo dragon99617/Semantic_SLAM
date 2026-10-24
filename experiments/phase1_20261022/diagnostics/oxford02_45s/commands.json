@@ -1,0 +1,24 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/phase1_20261022/diagnostics/oxford02_45s/mapper.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/experiments/phase1_20261022/diagnostics/oxford02_45s/camera.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/OxfordSpires/diagnostic_christ_church02_45s",
+    "--rate",
+    "0.5",
+    "--read-ahead-queue-size",
+    "300"
+  ],
+  "ROS_DOMAIN_ID": "81",
+  "OMP_NUM_THREADS": "2"
+}

@@ -1,0 +1,295 @@
+{
+  "schema": "oxford_transition_annotation_v1",
+  "status": "awaiting_independent_annotation",
+  "blinded_to_model_predictions": true,
+  "sampling": "Nearest raw input to fixed frozen-event anchors; no selection by semantic output/quality",
+  "anchor_offsets_s": {
+    "before": [
+      -25,
+      -20,
+      -15
+    ],
+    "transition": [
+      -5,
+      0,
+      5
+    ],
+    "after": [
+      15,
+      20,
+      25
+    ]
+  },
+  "max_image_distance_ns": 350000000,
+  "ontology_sha256": "ce89fec9c3aa081653f19f2a335922ddd1694a732ce0cb8983b476f6d51e6b0b",
+  "sources": [
+    {
+      "sequence": "oxford02",
+      "descriptor": "/home/hxy/SLAM_project/experiments/phase1_20261022/oxford02.json",
+      "bag": "/home/hxy/SLAM_project/datasets/OxfordSpires/christ_church02_livo_half",
+      "camera_config": "/home/hxy/SLAM_project/experiments/phase1_20261022/configs/oxford_camera.yaml",
+      "camera_sha256": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+      "events_sha256": "93d1f7d265c467d16425100b36168e2ea2f47ef7fb6f4f66aee768391fde04fc",
+      "header_cache_sha256": "17a5d6cebb9baa797067ba858102f5528ddc60956def41b7c5e17a1ac140328f"
+    },
+    {
+      "sequence": "oxford05",
+      "descriptor": "/home/hxy/SLAM_project/experiments/phase1_20261022/oxford05.json",
+      "bag": "/home/hxy/SLAM_project/datasets/OxfordSpires/christ_church05_livo_half",
+      "camera_config": "/home/hxy/SLAM_project/experiments/phase1_20261022/configs/oxford_camera.yaml",
+      "camera_sha256": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+      "events_sha256": "c2f2e3cf459bde719db37468b7812373739d48027cca50654771ba8e680b9bde",
+      "header_cache_sha256": "6e5bd07a42f78d1c51b167fbf3bbc619cd76d3d89d407ff47f2c43866f8c32db"
+    }
+  ],
+  "events": [
+    {
+      "id": "oxford02_t1",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Great Hall staircase entrance",
+      "interval_start_sensor_s": 1710754340.4013495,
+      "interval_end_sensor_s": 1710754345.4512675,
+      "center_sensor_s": 1710754342.9263086,
+      "center_from_first_image_s": 253.97076869010925,
+      "uncertainty_half_width_s": 2.5249589681625366,
+      "evidence_indices": [
+        50,
+        51
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t2",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710754521.3484547,
+      "interval_end_sensor_s": 1710754526.398371,
+      "center_sensor_s": 1710754523.8734128,
+      "center_from_first_image_s": 434.9178729057312,
+      "uncertainty_half_width_s": 2.5249581336975098,
+      "evidence_indices": [
+        86,
+        87
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t3",
+      "from_environment": "outdoor",
+      "to_environment": "covered_passage",
+      "note": "Enter cloister; open arches, secondary event",
+      "interval_start_sensor_s": 1710754536.3981993,
+      "interval_end_sensor_s": 1710754541.448116,
+      "center_sensor_s": 1710754538.9231577,
+      "center_from_first_image_s": 449.96761775016785,
+      "uncertainty_half_width_s": 2.524958372116089,
+      "evidence_indices": [
+        89,
+        90
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford02_t4",
+      "from_environment": "covered_passage",
+      "to_environment": "outdoor",
+      "note": "Leave cloister, secondary event",
+      "interval_start_sensor_s": 1710754576.5975356,
+      "interval_end_sensor_s": 1710754581.597453,
+      "center_sensor_s": 1710754579.0974944,
+      "center_from_first_image_s": 490.14195442199707,
+      "uncertainty_half_width_s": 2.4999587535858154,
+      "evidence_indices": [
+        97,
+        98
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford02_t5",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Staircase entrance",
+      "interval_start_sensor_s": 1710754606.797037,
+      "interval_end_sensor_s": 1710754611.8469732,
+      "center_sensor_s": 1710754609.322005,
+      "center_from_first_image_s": 520.3664650917053,
+      "uncertainty_half_width_s": 2.524968147277832,
+      "evidence_indices": [
+        103,
+        104
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t6",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Staircase exit",
+      "interval_start_sensor_s": 1710754642.0464933,
+      "interval_end_sensor_s": 1710754647.0964224,
+      "center_sensor_s": 1710754644.5714579,
+      "center_from_first_image_s": 555.6159179210663,
+      "uncertainty_half_width_s": 2.5249645709991455,
+      "evidence_indices": [
+        110,
+        111
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t7",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Return to staircase",
+      "interval_start_sensor_s": 1710754657.1962342,
+      "interval_end_sensor_s": 1710754662.2461596,
+      "center_sensor_s": 1710754659.721197,
+      "center_from_first_image_s": 570.7656569480896,
+      "uncertainty_half_width_s": 2.5249626636505127,
+      "evidence_indices": [
+        113,
+        114
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t1",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710926448.6982598,
+      "interval_end_sensor_s": 1710926453.8981977,
+      "center_sensor_s": 1710926451.2982287,
+      "center_from_first_image_s": 129.39851689338684,
+      "uncertainty_half_width_s": 2.599968910217285,
+      "evidence_indices": [
+        25,
+        26
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t2",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Cathedral entrance via vestibule",
+      "interval_start_sensor_s": 1710926667.895254,
+      "interval_end_sensor_s": 1710926678.0951152,
+      "center_sensor_s": 1710926672.9951844,
+      "center_from_first_image_s": 351.095472574234,
+      "uncertainty_half_width_s": 5.099930644035339,
+      "evidence_indices": [
+        68,
+        70
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t3",
+      "from_environment": "indoor",
+      "to_environment": "covered_passage",
+      "note": "Leave cathedral for cloister; broader uncertain interval",
+      "interval_start_sensor_s": 1710926939.4913528,
+      "interval_end_sensor_s": 1710926954.6911147,
+      "center_sensor_s": 1710926947.0912337,
+      "center_from_first_image_s": 625.1915218830109,
+      "uncertainty_half_width_s": 7.599880933761597,
+      "evidence_indices": [
+        121,
+        124
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford05_t4",
+      "from_environment": "covered_passage",
+      "to_environment": "outdoor",
+      "note": "Leave cloister to courtyard",
+      "interval_start_sensor_s": 1710926995.4904506,
+      "interval_end_sensor_s": 1710927000.6903648,
+      "center_sensor_s": 1710926998.0904078,
+      "center_from_first_image_s": 676.1906960010529,
+      "uncertainty_half_width_s": 2.5999571084976196,
+      "evidence_indices": [
+        132,
+        133
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford05_t5",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Great Hall staircase entrance",
+      "interval_start_sensor_s": 1710927041.4896958,
+      "interval_end_sensor_s": 1710927046.489613,
+      "center_sensor_s": 1710927043.9896545,
+      "center_from_first_image_s": 722.0899426937103,
+      "uncertainty_half_width_s": 2.499958634376526,
+      "evidence_indices": [
+        141,
+        142
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t6",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710927097.4888246,
+      "interval_end_sensor_s": 1710927102.488775,
+      "center_sensor_s": 1710927099.9887998,
+      "center_from_first_image_s": 778.0890879631042,
+      "uncertainty_half_width_s": 2.4999752044677734,
+      "evidence_indices": [
+        152,
+        153
+      ],
+      "primary_indoor_outdoor": true
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "probe_120",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754101155338092
+    },
+    {
+      "sample_id": "probe_150",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754104155288492
+    }
+  ],
+  "missing_anchors": [
+    {
+      "sequence": "oxford02",
+      "reason": "no_raw_input_within_350ms_or_sequence_truncated",
+      "event_id": "oxford02_t7",
+      "window": "after",
+      "anchor_offset_s": 25,
+      "requested_ns": 1710754684721197000,
+      "actual_delta_ns": -3625321419
+    },
+    {
+      "sequence": "oxford05",
+      "reason": "no_raw_input_within_350ms_or_sequence_truncated",
+      "event_id": "oxford05_t6",
+      "window": "after",
+      "anchor_offset_s": 25,
+      "requested_ns": 1710927124988799800,
+      "actual_delta_ns": -3300310171
+    }
+  ],
+  "requested_anchors": 117,
+  "unique_images": 114,
+  "labels_available": 0,
+  "limitations": [
+    "Boundary intervals are approximate; midpoint only anchors windows",
+    "Overlapping event windows are correlated; deduplicate global scores",
+    "Sampled 2D evaluation does not equal full-scene 3D or instance accuracy"
+  ]
+}

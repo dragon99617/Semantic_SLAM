@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-21T15:35:34.084285+00:00",
+  "kernel": "Linux localhost 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux",
+  "source_commits": {
+    "FAST-LIVO2": "837b7bbc1431cb04cf936528e52c83c835efba8e",
+    "rpg_vikit": "4b7abc838f5d2ca9137f70f122eaaeff9eaf0f50"
+  },
+  "patches": {
+    "FAST-LIVO2": {
+      "patch": "experiments/patches/FAST-LIVO2.patch",
+      "sha256": "caded01c333eb27d0c493bb7fc1c62cb507e1d4f850889b7e8c8192638c2467a",
+      "updated_at": "2026-10-21",
+      "added_fix": "Own BGR8 image buffers across ROS callback, image queue and VIO processing"
+    },
+    "rpg_vikit": {
+      "patch": "experiments/patches/rpg_vikit.patch",
+      "sha256": "962c667990e4c8c5ae82d51ba6392d4b7d62871d0fd20c537bd1312746720609"
+    }
+  },
+  "memory_total": "15987884 kB",
+  "swap_total": "4194304 kB",
+  "packages": "libopencv-core4.5d:amd64\t4.5.4+dfsg-9ubuntu4\nros-humble-cv-bridge\t3.2.1-1jammy.20260907.220118\nros-humble-rosbag2\t0.15.17-1jammy.20260908.100944",
+  "run": "runs/ugv_transition00_owned_fullres_20261021",
+  "binary": {
+    "path": "/home/hxy/SLAM_project/fast_livo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping",
+    "sha256": "26fa42b69e80ebfc87c40cb0ca79345a0e01c8392ada28b8b2db38d4ef5c0cb1"
+  }
+}

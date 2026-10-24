@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-10-21T12:51:44.138486+00:00",
+  "status": "completed_full_playback_and_position_comparison",
+  "project_goal": "FAST-LIVO2 geometry and pose -> OVO open-vocabulary instance map -> CLIP retrieval and historical-view verification; robustness through indoor/outdoor transitions and lighting changes",
+  "selected_sequence": "ugv_transition00",
+  "archive_bytes": 14779194746,
+  "download_complete": true,
+  "checked_sensor_archives": [
+    "ugv_transition00",
+    "ugv_transition01",
+    "legged_transition00",
+    "handheld_room00"
+  ],
+  "official_download_page": "https://fusionportable.github.io/dataset/fusionportable_v2_data/",
+  "official_drive_folder": "https://drive.google.com/drive/folders/1PYhnf3PlY5r0hbyzWDGTUTPxRMl6SYa-",
+  "archive_file_id": "15ChHaSBrR05EL6X7W1VGSuo_zfebCvIm",
+  "alternative": {
+    "url": "https://pan.baidu.com/s/1lZwK-TNrCyoyC9oWEs8jUg?pwd=byj8",
+    "code": "byj8",
+    "checked": "Share extraction-code page reachable; no sensor archive downloaded"
+  },
+  "ground_truth": {
+    "path": "datasets/FusionPortableV2/original/ugv_transition00_gt.tum",
+    "sha256": "845226f8715ff83c13967e594a858f25fef0db0ed8179f91b5a18cacac07c47c",
+    "rows": 8283,
+    "start": 1686614983.38,
+    "end": 1686615490.469987,
+    "duration_seconds": 507.08998680114746,
+    "quaternions": "All identities; orientation accuracy must not be evaluated"
+  },
+  "upstream_sync_issue": "https://github.com/hku-mars/FAST-LIVO2/issues/234",
+  "completed_evaluation": true,
+  "trajectory": "experiments/fusionportable_v2/runs/ugv_transition00_owned_fullres_20261021/estimate_imu.tum",
+  "ATE": {
+    "imu_direct_rmse_m": 0.16742811046220707,
+    "prism_compensated_rmse_m": 0.16734682021200958,
+    "nearest_time_tolerance_s": 0.01,
+    "associated_poses": 3726,
+    "reference_point_limitations_recorded": true
+  },
+  "RPE": null,
+  "preflight": {
+    "scope": "node startup and parameter loading only; no dataset playback",
+    "command": [
+      "ros2",
+      "launch",
+      "fast_livo",
+      "mapping_aviz.launch.py",
+      "use_rviz:=False",
+      "use_compressed_image:=False",
+      "avia_params_file:=/home/hxy/SLAM_project/experiments/fusionportable_v2/config/fusionportable_v2.yaml",
+      "camera_params_file:=/home/hxy/SLAM_project/experiments/fusionportable_v2/config/camera.yaml"
+    ],
+    "ROS_DOMAIN_ID": "72",
+    "parameter_loading": "passed",
+    "mapper_clean_exit": true,
+    "dataset_playback": "not_started_missing_complete_bag"
+  },
+  "previous_download_attempt_status": "blocked_missing_sensor_bag",
+  "local_archives": [
+    {
+      "path": "ugv_transition00.7z",
+      "bytes": 14779194746
+    },
+    {
+      "path": "ugv_transition01.7z",
+      "bytes": 11460922572
+    }
+  ],
+  "archive_sha256_file": "experiments/fusionportable_v2/downloaded_archives.sha256",
+  "diagnostic_run": "experiments/fusionportable_v2/diagnostic_run_30s_v2",
+  "full_playback_status": "playback_completed",
+  "extraction": {
+    "source": "ugv_transition00.7z",
+    "bytes": 14779194746,
+    "bag_bytes": 42657427199,
+    "archive_member_crc32": 3134562721,
+    "extraction_crc_verified": true,
+    "seconds": 834.6859354350017
+  },
+  "full_run": "experiments/fusionportable_v2/runs/ugv_transition00_owned_fullres_20261021",
+  "conversion_checks_passed": true,
+  "memory_profile": {
+    "image_scale": 1.0,
+    "image_dimensions": [
+      1024,
+      768
+    ],
+    "map_half_extent_m": 30,
+    "map_sliding_threshold_m": 2
+  },
+  "finalized_at": "2026-10-21T15:49:38.317377+00:00",
+  "initial_download_attempt": {
+    "failure": "Official Google Drive download endpoint returned HTTP 200 text/html titled Google Drive - Quota exceeded; not a valid archive",
+    "partial_bytes": 6291456,
+    "partial_parts": 3
+  }
+}

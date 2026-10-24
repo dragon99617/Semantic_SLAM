@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-10-23T15:45:26.636218+08:00",
+  "passed": true,
+  "checks": [
+    {
+      "repository": "FAST-LIVO2",
+      "commit_matches": true,
+      "patch_matches": true,
+      "working_diff_text_identical": false,
+      "patched_files_match": true,
+      "patched_file_checks": {
+        "launch/mapping_aviz.launch.py": true,
+        "src/LIVMapper.cpp": true,
+        "CMakeLists.txt": true,
+        "src/main.cpp": true
+      },
+      "note": "Archived patch uses smaller diff context than git default; verify by applying archived patch to HEAD blobs in a temporary directory, then compare resulting bytes."
+    },
+    {
+      "repository": "rpg_vikit",
+      "commit_matches": true,
+      "patch_matches": true,
+      "working_diff_text_identical": false,
+      "patched_files_match": true,
+      "patched_file_checks": {
+        "vikit_common/package.xml": true,
+        "vikit_ros/src/camera_loader.cpp": true,
+        "vikit_ros/package.xml": true,
+        "vikit_ros/include/vikit/params_helper.h": true,
+        "vikit_ros/CMakeLists.txt": true,
+        "vikit_common/CMakeLists.txt": true
+      },
+      "note": "Archived patch uses smaller diff context than git default; verify by applying archived patch to HEAD blobs in a temporary directory, then compare resulting bytes."
+    },
+    {
+      "weight": "sam2.1_hiera_large.pt",
+      "matches": true
+    },
+    {
+      "weight": "model.pt",
+      "matches": true
+    },
+    {
+      "weight": "SigLIP",
+      "matches": true
+    }
+  ]
+}

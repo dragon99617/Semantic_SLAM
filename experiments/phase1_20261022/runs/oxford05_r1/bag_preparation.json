@@ -1,0 +1,51 @@
+{
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-20-christ-church-05",
+  "diagnostic": false,
+  "source_databases": [
+    "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-20-christ-church-05/raw/ros2bag/1710926317_2024-03-20-09-18-38_0/1710926317_2024-03-20-09-18-38_0_blurred_filtered_compressed.db3"
+  ],
+  "headers": {
+    "/alphasense_driver_ros/imu": {
+      "count": 319608,
+      "first_ns": 1710926321989205842,
+      "last_ns": 1710927121988289829,
+      "dt_min_s": 0.002443995,
+      "dt_median_s": 0.0025031,
+      "dt_max_s": 0.0025342
+    },
+    "/hesai/pandar": {
+      "count": 8007,
+      "first_ns": 1710926321969089000,
+      "last_ns": 1710927121883690000,
+      "dt_min_s": 0.098699,
+      "dt_median_s": 0.0999125,
+      "dt_max_s": 0.101098
+    },
+    "/left_camera/image": {
+      "count": 3961,
+      "first_ns": 1710926321899711842,
+      "last_ns": 1710927121688489629,
+      "dt_min_s": 0.199938895,
+      "dt_median_s": 0.1999972,
+      "dt_max_s": 0.599994689
+    }
+  },
+  "selected_topics": {
+    "/hesai/pandar": "/hesai/pandar",
+    "/alphasense_driver_ros/imu": "/alphasense_driver_ros/imu",
+    "/alphasense_driver_ros/cam0/debayered/image/compressed": "/left_camera/image"
+  },
+  "all_selected_record_counts_match_source": true,
+  "timestamps_preserved": true,
+  "point_records_preserved_by_stable_permutation": true,
+  "reordered_clouds": 0,
+  "source_point_bytes_sha256": "f8b51709942a147109a91f76420cb04b80426f7ec64e8e6d8398f8495862f3af",
+  "output_point_bytes_sha256": "f8b51709942a147109a91f76420cb04b80426f7ec64e8e6d8398f8495862f3af",
+  "native_camera_model": "EquidistantCamera",
+  "images": "JPEG decoded to BGR8; optional declared linear half-resolution, no rectification",
+  "image_scale": 0.5,
+  "image_cdr_pixel_roundtrip_verified": true,
+  "duration_record_s": 799.989254778,
+  "conversion_seconds": 713.7576477729999
+}

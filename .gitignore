@@ -16,6 +16,8 @@ __pycache__/
 *.ckpt
 *.safetensors
 *.zip
+*.7z
+/FusionPortableV2_dataset_release/
 *.bin
 *.part
 *.npy
@@ -55,6 +57,46 @@ __pycache__/
 /experiments/accuracy/eee_01/runs/*/accuracy/eee_01_prism.txt
 /experiments/accuracy/eee_01/runs/*/accuracy/author_interpolated.csv
 
+# FusionPortableV2 raw callback traces and sampled point maps remain local.
+/experiments/fusionportable_v2/**/imu.txt
+/experiments/fusionportable_v2/**/mat_pre.txt
+/experiments/fusionportable_v2/**/mat_out.txt
+/experiments/fusionportable_v2/**/sampled_map.npz
+
 # Local convenience symlink points to an absolute machine path.
 /experiments/latest_success
 /experiments/system_dependencies_installed
+
+# Phase-one raw traces/maps stay local; compact metrics and trajectories remain reviewable.
+/experiments/phase1_20261022/**/imu.txt
+/experiments/phase1_20261022/**/mat_pre.txt
+/experiments/phase1_20261022/**/mat_out.txt
+/experiments/phase1_20261022/**/sampled_map.npz
+/experiments/phase1_20261022/**/registered_map_10cm.npz
+/experiments/phase1_20261022/**/expected_input_headers.npz
+/experiments/phase1_20261022/**/input_thumbnails/
+/experiments/phase1_20261022/input_annotations/*/[0-9][0-9][0-9]_*.jpg
+
+# Local frozen executables and downloaded author reference source caches.
+/experiments/phase1_20261022/frozen_runtime/
+/experiments/phase1_20261022/author_oxford/
+/experiments/phase1_20261022/cfg_ugv.py
+/experiments/phase1_20261022/fp_correlation.py
+/experiments/phase1_20261022/ugv_transition01_resampled.txt
+
+# Phase-two raw sensor captures and sparse RGB-D bundles remain local.
+/experiments/.livo_capture.lock
+/experiments/phase2_*/**/raw/
+/experiments/phase2_*/**/input_bag/
+/experiments/phase2_*/**/expected_input_headers.npz
+/experiments/phase2_*/**/frames/
+/experiments/phase2_*/**/map_preview.npz
+/experiments/phase2_*/full/annotations/**/images/
+/experiments/phase2_*/full/annotations/**/valid_masks/
+/experiments/phase2_*/full/annotations/**/label_templates/
+/experiments/phase2_*/full/**/transition_predictions/*_features.npz
+/experiments/phase2_*/full/**/transition_predictions/*_instances.npz
+
+# Dense projection preview sequences and machine-local installation inventory.
+/experiments/phase2_*/full/inputs/**/projection_*.jpg
+/symlink_install_manifest.txt

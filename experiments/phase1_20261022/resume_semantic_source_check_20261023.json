@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-23T15:37:49.802223+08:00",
+  "passed": true,
+  "checks": [
+    {
+      "repository": "OVO",
+      "commit": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+      "matches": true
+    },
+    {
+      "repository": "OSMa-Bench",
+      "commit": "7d9f33c756adaea2030711d24b08ca96d74ff344",
+      "matches": true
+    },
+    {
+      "repository": "SAM2",
+      "commit": "c98aa6bea377d5c000cdc80197ce402dbf5304dc",
+      "matches": true
+    },
+    {
+      "OVO_patch_matches": true
+    }
+  ]
+}

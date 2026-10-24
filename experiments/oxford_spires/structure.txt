@@ -1,0 +1,109 @@
+## Folder Structure
+
+![Folder structure](media/folder_structure.png)
+
+## Top-level layout
+
+```
+oxford_spires_dataset/
+├── sequences/
+│   └── <sequence-name>/        # e.g. 2024-03-12-keble-college-02
+│       ├── raw/
+│       │   ├── ros2bag/
+│       │   │   └── <bag-name>/         # timestamped ROS 2 bag directory
+│       │   │       ├── <bag-name>.db3
+│       │   │       └── metadata.yaml
+│       │   ├── rosbag/
+│       │   │   └── <bag-name>.bag  # legacy ROS 1 bag
+│       │   ├── cam0/               # raw camera images (white-balanced), <timestamp>.jpg
+│       │   ├── cam1/
+│       │   ├── cam2/
+│       │   ├── lidar-clouds/       # raw LiDAR point clouds, <timestamp>.pcd
+│       │   └── imu.csv             # IMU measurements
+│       └── processed/
+│           ├── vilens-slam/
+│           │   ├── slam-poses.csv      # VILENS SLAM poses
+│           │   └── undist-clouds/      # PCD, named cloud_<sec>_<nsec>.pcd
+│           ├── colmap/
+│           │   ├── 0/                  # COLMAP sparse model
+│           │   │   ├── cameras.bin
+│           │   │   ├── images.bin
+│           │   │   ├── points3D.bin
+│           │   │   └── project.ini
+│           │   ├── alphasense_driver_ros_cam0_debayered_image_compressed/  # <timestamp>.jpg
+│           │   ├── alphasense_driver_ros_cam1_debayered_image_compressed/
+│           │   ├── alphasense_driver_ros_cam2_debayered_image_compressed/
+│           │   ├── database.db
+│           │   ├── transforms_colmap.json
+│           │   └── transforms_colmap_scaled.json
+│           └── trajectory/
+│               ├── vilens-slam-tum.txt
+│               ├── hba-tum.txt
+│               ├── colmap-tum.txt
+│               └── gt-tum.txt
+├── ground_truth_map/
+│   └── <site-name>/            # e.g. blenheim-palace
+│       ├── merged-cloud-1cm.pcd        # merged TLS point cloud at 1 cm resolution
+│       ├── individual_cloud_e57.zip    # individual TLS scans in E57 format
+│       └── FinalizeReport.pdf          # survey report
+├── calibration/                # sensor.yaml and calibration targets
+├── reconstruction_benchmark/   # benchmark data for 3D reconstruction
+└── novel_view_synthesis_benchmark/  # benchmark data for NeRF / 3DGS
+```
+
+## Image files
+- Format: JPEG
+- Resolution: 1440 × 1080
+- Camera model: `OPENCV_FISHEYE` (FoV 126° ×92.4°)
+- Filename: Unix timestamp in seconds with nanosecond precision, e.g. `1710230400.123456789.jpg`
+- Three cameras: `cam0` (front), `cam1` (left), `cam2` (right)
+
+## LiDAR files
+
+- Format: PCD (binary or ASCII)
+- Sensor: Hesai QT64 (64 channels, 10 Hz, 60 m range)
+
+### Raw clouds (`raw/lidar-clouds/`)
+- Filename: `<timestamp>.pcd`, e.g. `1710230400.123456789.pcd`
+- Points are in the **lidar frame**
+
+### Undistorted clouds (`processed/vilens-slam/undist-clouds/`)
+- Filename: `cloud_<sec>_<nsec>.pcd`, e.g. `cloud_1710230400_123456789.pcd`
+  - `sec`: 10-digit Unix timestamp seconds
+  - `nsec`: 9-digit nanoseconds
+- Points are in the **base frame** (defined [here](https://github.com/ori-drs/oxford_spires_dataset/blob/main/configs/sensor.yaml#L37))
+
+## Trajectory files
+
+Two formats are used across the codebase:
+
+### TUM format
+```
+timestamp tx ty tz qx qy qz qw
+```
+Standard [TUM RGB-D format](https://vision.in.tum.de/data/datasets/rgbd-dataset/file_formats). Read/written via `oxspires_tools.trajectory.file_interfaces.TumTrajReader/Writer`.
+
+### VILENS SLAM format (`poses.csv`)
+CSV with columns `timestamp, tx, ty, tz, qx, qy, qz, qw`. Read/written via `oxspires_tools.trajectory.file_interfaces.VilensSlamTrajReader/Writer`.
+
+
+## Notes
+### ROS message timestamps
+Rhere are two distinct timestamps associated with a ROS message in the ROSbag:
+
+- **Sensor Time (preferred)** 
+  The time when the data was actually captured by the sensor. This is the true acquisition time.
+
+- **ROS Receive Time** 
+  The time when the message is read from the bag or received by the system. This may include transport and processing delays.
+
+#### Example
+
+```python
+import rosbag
+
+bag = rosbag.Bag(bag_path)
+
+for topic, msg, t in bag.read_messages(topics=[topic_name]):
+    receive_time = t                 # when ROS reads the message
+    sensor_time = msg.header.stamp   # actual sensor capture time

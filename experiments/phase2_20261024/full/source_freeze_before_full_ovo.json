@@ -1,0 +1,14 @@
+{
+  "scope": "Source freeze after read-only monitor checks, before full Oxford semantic inference",
+  "files": {
+    "scripts/livo_ovo_geometry.py": "3d54088e39767f2a272c0bc78cd753089e36b8bd4ec0b5ea250540c6ca50f0d2",
+    "scripts/prepare_livo_ovo.py": "6110dc7952e2b7c1709198097ea56a44d8b3d388853bff2aeddb60b3dd31d5da",
+    "scripts/run_livo_ovo.py": "805049a2d0c1bc167804708f632ea8e6f6f8871af3cc2485d4006fb80e33e70d",
+    "scripts/sparse_depth_filter.py": "96313fd4706901ba85323b703da7a8648f950af8329f54688679b4cbfc7d07d8",
+    "scripts/run_oxford_ovo_full.py": "472c029bb4a888783877e6dcd039d91b6b0757b77fc394231253f629fb589983",
+    "scripts/prepare_oxford_transition_annotations.py": "5029f23e64002d7a9927975df2211442d2c62262e85fb3d49fc9ea42b253ecb5",
+    "scripts/score_oxford_transition_annotations.py": "d7fad14b01a4b9fe4d96c824bb56b9c1e8992d1b9c327ee0830ea80c64e63128",
+    "scripts/audit_oxford_full_run.py": "0e0ec7f6cac41e407953dc99667796e1a1f07b86c2db7c0abc47124c0386dc81",
+    "scripts/run_oxford_full_batch.py": "bb162872b0594874a71936aaa259535b69b949857dd3212df59fb4bafece9c01"
+  }
+}

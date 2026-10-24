@@ -1,0 +1,2398 @@
+{
+  "started_at": "2026-10-24T01:39:30.890353+08:00",
+  "input_manifest": "/home/hxy/SLAM_project/experiments/phase2_20261024/full/inputs/oxford05/manifest.json",
+  "input_manifest_sha256": "50458ec37eb97e3286df2fc402250bb33cb4b1a2d0cf82d60a192318bdfca604",
+  "source_version": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+  "ovo_patch_sha256": "da41369e61601573734b5410328d2d1740224697b41e323e5543fdde2e3ca407",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "frame_count": 3959,
+  "pose_source": "FAST-LIVO2_estimated",
+  "depth_policy": "valid_mask",
+  "original_semantic_config_unchanged": true,
+  "mapping_policy": "valid_mask",
+  "geometry_precision": "float32",
+  "adapter_source_hashes": {
+    "run_livo_ovo.py": "805049a2d0c1bc167804708f632ea8e6f6f8871af3cc2485d4006fb80e33e70d",
+    "sparse_depth_filter.py": "96313fd4706901ba85323b703da7a8648f950af8329f54688679b4cbfc7d07d8"
+  },
+  "filter_probe": [
+    {
+      "frame_id": 0,
+      "valid_pixels": 8525,
+      "author_surviving_pixels": 81,
+      "valid_mask_surviving_pixels": 7312
+    },
+    {
+      "frame_id": 10,
+      "valid_pixels": 9280,
+      "author_surviving_pixels": 102,
+      "valid_mask_surviving_pixels": 7862
+    },
+    {
+      "frame_id": 20,
+      "valid_pixels": 12529,
+      "author_surviving_pixels": 48,
+      "valid_mask_surviving_pixels": 10279
+    },
+    {
+      "frame_id": 30,
+      "valid_pixels": 8753,
+      "author_surviving_pixels": 74,
+      "valid_mask_surviving_pixels": 7451
+    },
+    {
+      "frame_id": 40,
+      "valid_pixels": 12188,
+      "author_surviving_pixels": 38,
+      "valid_mask_surviving_pixels": 9905
+    },
+    {
+      "frame_id": 50,
+      "valid_pixels": 12048,
+      "author_surviving_pixels": 1,
+      "valid_mask_surviving_pixels": 9163
+    },
+    {
+      "frame_id": 60,
+      "valid_pixels": 12428,
+      "author_surviving_pixels": 1,
+      "valid_mask_surviving_pixels": 10264
+    },
+    {
+      "frame_id": 70,
+      "valid_pixels": 12772,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10846
+    },
+    {
+      "frame_id": 80,
+      "valid_pixels": 12604,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10381
+    },
+    {
+      "frame_id": 90,
+      "valid_pixels": 12526,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10559
+    },
+    {
+      "frame_id": 100,
+      "valid_pixels": 12708,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10694
+    },
+    {
+      "frame_id": 110,
+      "valid_pixels": 12649,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10263
+    },
+    {
+      "frame_id": 120,
+      "valid_pixels": 12500,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10367
+    },
+    {
+      "frame_id": 130,
+      "valid_pixels": 12574,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10668
+    },
+    {
+      "frame_id": 140,
+      "valid_pixels": 12541,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10860
+    },
+    {
+      "frame_id": 150,
+      "valid_pixels": 12317,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10909
+    },
+    {
+      "frame_id": 160,
+      "valid_pixels": 12747,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11048
+    },
+    {
+      "frame_id": 170,
+      "valid_pixels": 12902,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11162
+    },
+    {
+      "frame_id": 180,
+      "valid_pixels": 12669,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11323
+    },
+    {
+      "frame_id": 190,
+      "valid_pixels": 12652,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11256
+    },
+    {
+      "frame_id": 200,
+      "valid_pixels": 12537,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11291
+    },
+    {
+      "frame_id": 210,
+      "valid_pixels": 12957,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11952
+    },
+    {
+      "frame_id": 220,
+      "valid_pixels": 13266,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12388
+    },
+    {
+      "frame_id": 230,
+      "valid_pixels": 12721,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10321
+    },
+    {
+      "frame_id": 240,
+      "valid_pixels": 12890,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11220
+    },
+    {
+      "frame_id": 250,
+      "valid_pixels": 12345,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10464
+    },
+    {
+      "frame_id": 260,
+      "valid_pixels": 12584,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10284
+    },
+    {
+      "frame_id": 270,
+      "valid_pixels": 13378,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11555
+    },
+    {
+      "frame_id": 280,
+      "valid_pixels": 13139,
+      "author_surviving_pixels": 4,
+      "valid_mask_surviving_pixels": 11489
+    },
+    {
+      "frame_id": 290,
+      "valid_pixels": 13043,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11446
+    },
+    {
+      "frame_id": 300,
+      "valid_pixels": 12653,
+      "author_surviving_pixels": 14,
+      "valid_mask_surviving_pixels": 11066
+    },
+    {
+      "frame_id": 310,
+      "valid_pixels": 12969,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11660
+    },
+    {
+      "frame_id": 320,
+      "valid_pixels": 13134,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11902
+    },
+    {
+      "frame_id": 330,
+      "valid_pixels": 12869,
+      "author_surviving_pixels": 2,
+      "valid_mask_surviving_pixels": 12075
+    },
+    {
+      "frame_id": 340,
+      "valid_pixels": 12715,
+      "author_surviving_pixels": 11,
+      "valid_mask_surviving_pixels": 11997
+    },
+    {
+      "frame_id": 350,
+      "valid_pixels": 11894,
+      "author_surviving_pixels": 4,
+      "valid_mask_surviving_pixels": 10529
+    },
+    {
+      "frame_id": 360,
+      "valid_pixels": 13233,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12474
+    },
+    {
+      "frame_id": 370,
+      "valid_pixels": 12844,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12097
+    },
+    {
+      "frame_id": 380,
+      "valid_pixels": 13476,
+      "author_surviving_pixels": 18,
+      "valid_mask_surviving_pixels": 12447
+    },
+    {
+      "frame_id": 390,
+      "valid_pixels": 13660,
+      "author_surviving_pixels": 43,
+      "valid_mask_surviving_pixels": 12387
+    },
+    {
+      "frame_id": 400,
+      "valid_pixels": 13533,
+      "author_surviving_pixels": 34,
+      "valid_mask_surviving_pixels": 12494
+    },
+    {
+      "frame_id": 410,
+      "valid_pixels": 13139,
+      "author_surviving_pixels": 22,
+      "valid_mask_surviving_pixels": 11952
+    },
+    {
+      "frame_id": 420,
+      "valid_pixels": 12929,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12142
+    },
+    {
+      "frame_id": 430,
+      "valid_pixels": 12351,
+      "author_surviving_pixels": 1,
+      "valid_mask_surviving_pixels": 11234
+    },
+    {
+      "frame_id": 440,
+      "valid_pixels": 11934,
+      "author_surviving_pixels": 47,
+      "valid_mask_surviving_pixels": 9156
+    },
+    {
+      "frame_id": 450,
+      "valid_pixels": 13103,
+      "author_surviving_pixels": 28,
+      "valid_mask_surviving_pixels": 11662
+    },
+    {
+      "frame_id": 460,
+      "valid_pixels": 12920,
+      "author_surviving_pixels": 18,
+      "valid_mask_surviving_pixels": 11699
+    },
+    {
+      "frame_id": 470,
+      "valid_pixels": 13037,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11907
+    },
+    {
+      "frame_id": 480,
+      "valid_pixels": 13181,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11906
+    },
+    {
+      "frame_id": 490,
+      "valid_pixels": 13019,
+      "author_surviving_pixels": 9,
+      "valid_mask_surviving_pixels": 11860
+    },
+    {
+      "frame_id": 500,
+      "valid_pixels": 13451,
+      "author_surviving_pixels": 4,
+      "valid_mask_surviving_pixels": 12779
+    },
+    {
+      "frame_id": 510,
+      "valid_pixels": 13341,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12759
+    },
+    {
+      "frame_id": 520,
+      "valid_pixels": 13168,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12502
+    },
+    {
+      "frame_id": 530,
+      "valid_pixels": 13346,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 13257
+    },
+    {
+      "frame_id": 540,
+      "valid_pixels": 13108,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12595
+    },
+    {
+      "frame_id": 550,
+      "valid_pixels": 13102,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12333
+    },
+    {
+      "frame_id": 560,
+      "valid_pixels": 13122,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12320
+    },
+    {
+      "frame_id": 570,
+      "valid_pixels": 12862,
+      "author_surviving_pixels": 3,
+      "valid_mask_surviving_pixels": 11868
+    },
+    {
+      "frame_id": 580,
+      "valid_pixels": 12499,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11868
+    },
+    {
+      "frame_id": 590,
+      "valid_pixels": 12832,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12330
+    },
+    {
+      "frame_id": 600,
+      "valid_pixels": 12837,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12545
+    },
+    {
+      "frame_id": 610,
+      "valid_pixels": 12889,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12603
+    },
+    {
+      "frame_id": 620,
+      "valid_pixels": 9554,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9020
+    },
+    {
+      "frame_id": 630,
+      "valid_pixels": 9737,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9329
+    },
+    {
+      "frame_id": 640,
+      "valid_pixels": 8125,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 7577
+    },
+    {
+      "frame_id": 650,
+      "valid_pixels": 7682,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6638
+    },
+    {
+      "frame_id": 660,
+      "valid_pixels": 7115,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6294
+    },
+    {
+      "frame_id": 670,
+      "valid_pixels": 7055,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6012
+    },
+    {
+      "frame_id": 680,
+      "valid_pixels": 6560,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 5839
+    },
+    {
+      "frame_id": 690,
+      "valid_pixels": 8166,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6877
+    },
+    {
+      "frame_id": 700,
+      "valid_pixels": 9966,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8819
+    },
+    {
+      "frame_id": 710,
+      "valid_pixels": 9735,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8822
+    },
+    {
+      "frame_id": 720,
+      "valid_pixels": 9700,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8737
+    },
+    {
+      "frame_id": 730,
+      "valid_pixels": 9359,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8318
+    },
+    {
+      "frame_id": 740,
+      "valid_pixels": 8932,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 7486
+    },
+    {
+      "frame_id": 750,
+      "valid_pixels": 8971,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 7850
+    },
+    {
+      "frame_id": 760,
+      "valid_pixels": 9222,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8186
+    },
+    {
+      "frame_id": 770,
+      "valid_pixels": 9108,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8070
+    },
+    {
+      "frame_id": 780,
+      "valid_pixels": 8605,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 7339
+    },
+    {
+      "frame_id": 790,
+      "valid_pixels": 8508,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 7380
+    },
+    {
+      "frame_id": 800,
+      "valid_pixels": 7217,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6471
+    },
+    {
+      "frame_id": 810,
+      "valid_pixels": 6991,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6243
+    },
+    {
+      "frame_id": 820,
+      "valid_pixels": 7350,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6408
+    },
+    {
+      "frame_id": 830,
+      "valid_pixels": 8145,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 6767
+    },
+    {
+      "frame_id": 840,
+      "valid_pixels": 9157,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8212
+    },
+    {
+      "frame_id": 850,
+      "valid_pixels": 9932,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8940
+    },
+    {
+      "frame_id": 860,
+      "valid_pixels": 10501,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9570
+    },
+    {
+      "frame_id": 870,
+      "valid_pixels": 10126,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9216
+    },
+    {
+      "frame_id": 880,
+      "valid_pixels": 10213,
+      "author_surviving_pixels": 1,
+      "valid_mask_surviving_pixels": 9180
+    },
+    {
+      "frame_id": 890,
+      "valid_pixels": 10910,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9860
+    },
+    {
+      "frame_id": 900,
+      "valid_pixels": 10838,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9809
+    },
+    {
+      "frame_id": 910,
+      "valid_pixels": 11393,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10308
+    },
+    {
+      "frame_id": 920,
+      "valid_pixels": 11344,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10197
+    },
+    {
+      "frame_id": 930,
+      "valid_pixels": 11668,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10013
+    },
+    {
+      "frame_id": 940,
+      "valid_pixels": 11350,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10081
+    },
+    {
+      "frame_id": 950,
+      "valid_pixels": 11509,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9986
+    },
+    {
+      "frame_id": 960,
+      "valid_pixels": 11465,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9469
+    },
+    {
+      "frame_id": 970,
+      "valid_pixels": 11721,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10342
+    },
+    {
+      "frame_id": 980,
+      "valid_pixels": 12000,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11365
+    },
+    {
+      "frame_id": 990,
+      "valid_pixels": 11769,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10549
+    },
+    {
+      "frame_id": 1000,
+      "valid_pixels": 11379,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10255
+    },
+    {
+      "frame_id": 1010,
+      "valid_pixels": 10702,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9088
+    },
+    {
+      "frame_id": 1020,
+      "valid_pixels": 10644,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9206
+    },
+    {
+      "frame_id": 1030,
+      "valid_pixels": 10910,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9534
+    },
+    {
+      "frame_id": 1040,
+      "valid_pixels": 10567,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9338
+    },
+    {
+      "frame_id": 1050,
+      "valid_pixels": 10500,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8651
+    },
+    {
+      "frame_id": 1060,
+      "valid_pixels": 10480,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9477
+    },
+    {
+      "frame_id": 1070,
+      "valid_pixels": 10096,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 7864
+    },
+    {
+      "frame_id": 1080,
+      "valid_pixels": 10683,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9288
+    },
+    {
+      "frame_id": 1090,
+      "valid_pixels": 10245,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9008
+    },
+    {
+      "frame_id": 1100,
+      "valid_pixels": 10481,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9430
+    },
+    {
+      "frame_id": 1110,
+      "valid_pixels": 10518,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8775
+    },
+    {
+      "frame_id": 1120,
+      "valid_pixels": 10058,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8271
+    },
+    {
+      "frame_id": 1130,
+      "valid_pixels": 10287,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8619
+    },
+    {
+      "frame_id": 1140,
+      "valid_pixels": 10368,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9312
+    },
+    {
+      "frame_id": 1150,
+      "valid_pixels": 10797,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9789
+    },
+    {
+      "frame_id": 1160,
+      "valid_pixels": 10746,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9327
+    },
+    {
+      "frame_id": 1170,
+      "valid_pixels": 10831,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9011
+    },
+    {
+      "frame_id": 1180,
+      "valid_pixels": 11240,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9960
+    },
+    {
+      "frame_id": 1190,
+      "valid_pixels": 10868,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9160
+    },
+    {
+      "frame_id": 1200,
+      "valid_pixels": 10369,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8720
+    },
+    {
+      "frame_id": 1210,
+      "valid_pixels": 10475,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8667
+    },
+    {
+      "frame_id": 1220,
+      "valid_pixels": 11083,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9211
+    },
+    {
+      "frame_id": 1230,
+      "valid_pixels": 11193,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9509
+    },
+    {
+      "frame_id": 1240,
+      "valid_pixels": 11223,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9654
+    },
+    {
+      "frame_id": 1250,
+      "valid_pixels": 11756,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10077
+    },
+    {
+      "frame_id": 1260,
+      "valid_pixels": 11487,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9479
+    },
+    {
+      "frame_id": 1270,
+      "valid_pixels": 12805,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12227
+    },
+    {
+      "frame_id": 1280,
+      "valid_pixels": 12676,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11923
+    },
+    {
+      "frame_id": 1290,
+      "valid_pixels": 12981,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12704
+    },
+    {
+      "frame_id": 1300,
+      "valid_pixels": 11861,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10947
+    },
+    {
+      "frame_id": 1310,
+      "valid_pixels": 9603,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8679
+    },
+    {
+      "frame_id": 1320,
+      "valid_pixels": 10494,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9695
+    },
+    {
+      "frame_id": 1330,
+      "valid_pixels": 10770,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9781
+    },
+    {
+      "frame_id": 1340,
+      "valid_pixels": 11193,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9852
+    },
+    {
+      "frame_id": 1350,
+      "valid_pixels": 10938,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9863
+    },
+    {
+      "frame_id": 1360,
+      "valid_pixels": 10761,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9368
+    },
+    {
+      "frame_id": 1370,
+      "valid_pixels": 11572,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10341
+    },
+    {
+      "frame_id": 1380,
+      "valid_pixels": 11321,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10235
+    },
+    {
+      "frame_id": 1390,
+      "valid_pixels": 11359,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10631
+    },
+    {
+      "frame_id": 1400,
+      "valid_pixels": 11883,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10328
+    },
+    {
+      "frame_id": 1410,
+      "valid_pixels": 12329,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10981
+    },
+    {
+      "frame_id": 1420,
+      "valid_pixels": 12787,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11853
+    },
+    {
+      "frame_id": 1430,
+      "valid_pixels": 12822,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11668
+    },
+    {
+      "frame_id": 1440,
+      "valid_pixels": 13039,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12130
+    },
+    {
+      "frame_id": 1450,
+      "valid_pixels": 12975,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12084
+    },
+    {
+      "frame_id": 1460,
+      "valid_pixels": 12762,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11491
+    },
+    {
+      "frame_id": 1470,
+      "valid_pixels": 12986,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12118
+    },
+    {
+      "frame_id": 1480,
+      "valid_pixels": 13452,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12996
+    },
+    {
+      "frame_id": 1490,
+      "valid_pixels": 13035,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12927
+    },
+    {
+      "frame_id": 1500,
+      "valid_pixels": 11812,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10847
+    },
+    {
+      "frame_id": 1510,
+      "valid_pixels": 9729,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8497
+    },
+    {
+      "frame_id": 1520,
+      "valid_pixels": 9732,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8236
+    },
+    {
+      "frame_id": 1530,
+      "valid_pixels": 9681,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8633
+    },
+    {
+      "frame_id": 1540,
+      "valid_pixels": 9763,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8806
+    },
+    {
+      "frame_id": 1550,
+      "valid_pixels": 9561,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8703
+    },
+    {
+      "frame_id": 1560,
+      "valid_pixels": 9295,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8583
+    },
+    {
+      "frame_id": 1570,
+      "valid_pixels": 9653,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8895
+    },
+    {
+      "frame_id": 1580,
+      "valid_pixels": 9521,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8456
+    },
+    {
+      "frame_id": 1590,
+      "valid_pixels": 9166,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 8204
+    },
+    {
+      "frame_id": 1600,
+      "valid_pixels": 10579,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9298
+    },
+    {
+      "frame_id": 1610,
+      "valid_pixels": 10572,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9703
+    },
+    {
+      "frame_id": 1620,
+      "valid_pixels": 10943,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9968
+    },
+    {
+      "frame_id": 1630,
+      "valid_pixels": 11239,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 9832
+    },
+    {
+      "frame_id": 1640,
+      "valid_pixels": 11624,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10488
+    },
+    {
+      "frame_id": 1650,
+      "valid_pixels": 11631,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10491
+    },
+    {
+      "frame_id": 1660,
+      "valid_pixels": 11880,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10861
+    },
+    {
+      "frame_id": 1670,
+      "valid_pixels": 12171,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10951
+    },
+    {
+      "frame_id": 1680,
+      "valid_pixels": 12078,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10908
+    },
+    {
+      "frame_id": 1690,
+      "valid_pixels": 12409,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11407
+    },
+    {
+      "frame_id": 1700,
+      "valid_pixels": 12491,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11617
+    },
+    {
+      "frame_id": 1710,
+      "valid_pixels": 12558,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11917
+    },
+    {
+      "frame_id": 1720,
+      "valid_pixels": 12887,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11951
+    },
+    {
+      "frame_id": 1730,
+      "valid_pixels": 12051,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11333
+    },
+    {
+      "frame_id": 1740,
+      "valid_pixels": 12485,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11515
+    },
+    {
+      "frame_id": 1750,
+      "valid_pixels": 12530,
+      "author_surviving_pixels": 1,
+      "valid_mask_surviving_pixels": 9025
+    },
+    {
+      "frame_id": 1760,
+      "valid_pixels": 12531,
+      "author_surviving_pixels": 3,
+      "valid_mask_surviving_pixels": 9264
+    },
+    {
+      "frame_id": 1770,
+      "valid_pixels": 11021,
+      "author_surviving_pixels": 4,
+      "valid_mask_surviving_pixels": 9083
+    },
+    {
+      "frame_id": 1780,
+      "valid_pixels": 11901,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10358
+    },
+    {
+      "frame_id": 1790,
+      "valid_pixels": 12331,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11013
+    },
+    {
+      "frame_id": 1800,
+      "valid_pixels": 11563,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10655
+    },
+    {
+      "frame_id": 1810,
+      "valid_pixels": 11974,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10145
+    },
+    {
+      "frame_id": 1820,
+      "valid_pixels": 12668,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10497
+    },
+    {
+      "frame_id": 1830,
+      "valid_pixels": 12579,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10767
+    },
+    {
+      "frame_id": 1840,
+      "valid_pixels": 12273,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10111
+    },
+    {
+      "frame_id": 1850,
+      "valid_pixels": 12647,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10496
+    },
+    {
+      "frame_id": 1860,
+      "valid_pixels": 12745,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10777
+    },
+    {
+      "frame_id": 1870,
+      "valid_pixels": 12564,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10500
+    },
+    {
+      "frame_id": 1880,
+      "valid_pixels": 12824,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11279
+    },
+    {
+      "frame_id": 1890,
+      "valid_pixels": 12786,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11629
+    },
+    {
+      "frame_id": 1900,
+      "valid_pixels": 12325,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10982
+    },
+    {
+      "frame_id": 1910,
+      "valid_pixels": 12619,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10791
+    },
+    {
+      "frame_id": 1920,
+      "valid_pixels": 12518,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10784
+    },
+    {
+      "frame_id": 1930,
+      "valid_pixels": 12539,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10987
+    },
+    {
+      "frame_id": 1940,
+      "valid_pixels": 12725,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11200
+    },
+    {
+      "frame_id": 1950,
+      "valid_pixels": 12887,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11366
+    },
+    {
+      "frame_id": 1960,
+      "valid_pixels": 12910,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11767
+    },
+    {
+      "frame_id": 1970,
+      "valid_pixels": 12158,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10487
+    },
+    {
+      "frame_id": 1980,
+      "valid_pixels": 12938,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12237
+    },
+    {
+      "frame_id": 1990,
+      "valid_pixels": 12784,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12196
+    },
+    {
+      "frame_id": 2000,
+      "valid_pixels": 12913,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12396
+    },
+    {
+      "frame_id": 2010,
+      "valid_pixels": 12921,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12188
+    },
+    {
+      "frame_id": 2020,
+      "valid_pixels": 12823,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11005
+    },
+    {
+      "frame_id": 2030,
+      "valid_pixels": 12713,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11037
+    },
+    {
+      "frame_id": 2040,
+      "valid_pixels": 12454,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11582
+    },
+    {
+      "frame_id": 2050,
+      "valid_pixels": 12699,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12115
+    },
+    {
+      "frame_id": 2060,
+      "valid_pixels": 13224,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12860
+    },
+    {
+      "frame_id": 2070,
+      "valid_pixels": 12374,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11963
+    },
+    {
+      "frame_id": 2080,
+      "valid_pixels": 12025,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11639
+    },
+    {
+      "frame_id": 2090,
+      "valid_pixels": 12902,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11893
+    },
+    {
+      "frame_id": 2100,
+      "valid_pixels": 13561,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 13474
+    },
+    {
+      "frame_id": 2110,
+      "valid_pixels": 12773,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11469
+    },
+    {
+      "frame_id": 2120,
+      "valid_pixels": 12678,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11403
+    },
+    {
+      "frame_id": 2130,
+      "valid_pixels": 12804,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11535
+    },
+    {
+      "frame_id": 2140,
+      "valid_pixels": 12857,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11420
+    },
+    {
+      "frame_id": 2150,
+      "valid_pixels": 12706,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10970
+    },
+    {
+      "frame_id": 2160,
+      "valid_pixels": 13235,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12589
+    },
+    {
+      "frame_id": 2170,
+      "valid_pixels": 13010,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12160
+    },
+    {
+      "frame_id": 2180,
+      "valid_pixels": 13102,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12254
+    },
+    {
+      "frame_id": 2190,
+      "valid_pixels": 12987,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11721
+    },
+    {
+      "frame_id": 2200,
+      "valid_pixels": 13817,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12669
+    },
+    {
+      "frame_id": 2210,
+      "valid_pixels": 12835,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11983
+    },
+    {
+      "frame_id": 2220,
+      "valid_pixels": 12865,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11602
+    },
+    {
+      "frame_id": 2230,
+      "valid_pixels": 12976,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12666
+    },
+    {
+      "frame_id": 2240,
+      "valid_pixels": 12561,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12285
+    },
+    {
+      "frame_id": 2250,
+      "valid_pixels": 12621,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12097
+    },
+    {
+      "frame_id": 2260,
+      "valid_pixels": 12692,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11831
+    },
+    {
+      "frame_id": 2270,
+      "valid_pixels": 13123,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11626
+    },
+    {
+      "frame_id": 2280,
+      "valid_pixels": 12910,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11477
+    },
+    {
+      "frame_id": 2290,
+      "valid_pixels": 12994,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11983
+    },
+    {
+      "frame_id": 2300,
+      "valid_pixels": 12838,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11866
+    },
+    {
+      "frame_id": 2310,
+      "valid_pixels": 12579,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11474
+    },
+    {
+      "frame_id": 2320,
+      "valid_pixels": 12658,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11548
+    },
+    {
+      "frame_id": 2330,
+      "valid_pixels": 12757,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11293
+    },
+    {
+      "frame_id": 2340,
+      "valid_pixels": 12562,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11696
+    },
+    {
+      "frame_id": 2350,
+      "valid_pixels": 12455,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11540
+    },
+    {
+      "frame_id": 2360,
+      "valid_pixels": 12503,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11580
+    },
+    {
+      "frame_id": 2370,
+      "valid_pixels": 12538,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11764
+    },
+    {
+      "frame_id": 2380,
+      "valid_pixels": 12537,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11978
+    },
+    {
+      "frame_id": 2390,
+      "valid_pixels": 12435,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11218
+    },
+    {
+      "frame_id": 2400,
+      "valid_pixels": 12687,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11534
+    },
+    {
+      "frame_id": 2410,
+      "valid_pixels": 23161,
+      "author_surviving_pixels": 2,
+      "valid_mask_surviving_pixels": 21322
+    },
+    {
+      "frame_id": 2420,
+      "valid_pixels": 12288,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11877
+    },
+    {
+      "frame_id": 2430,
+      "valid_pixels": 12386,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11999
+    },
+    {
+      "frame_id": 2440,
+      "valid_pixels": 12112,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11262
+    },
+    {
+      "frame_id": 2450,
+      "valid_pixels": 12106,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11306
+    },
+    {
+      "frame_id": 2460,
+      "valid_pixels": 11425,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10666
+    },
+    {
+      "frame_id": 2470,
+      "valid_pixels": 12188,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11085
+    },
+    {
+      "frame_id": 2480,
+      "valid_pixels": 12433,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11083
+    },
+    {
+      "frame_id": 2490,
+      "valid_pixels": 12780,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11953
+    },
+    {
+      "frame_id": 2500,
+      "valid_pixels": 12236,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10930
+    },
+    {
+      "frame_id": 2510,
+      "valid_pixels": 12887,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11604
+    },
+    {
+      "frame_id": 2520,
+      "valid_pixels": 12831,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11784
+    },
+    {
+      "frame_id": 2530,
+      "valid_pixels": 12361,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10857
+    },
+    {
+      "frame_id": 2540,
+      "valid_pixels": 12839,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12044
+    },
+    {
+      "frame_id": 2550,
+      "valid_pixels": 12586,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11911
+    },
+    {
+      "frame_id": 2560,
+      "valid_pixels": 12771,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11786
+    },
+    {
+      "frame_id": 2570,
+      "valid_pixels": 12502,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11489
+    },
+    {
+      "frame_id": 2580,
+      "valid_pixels": 12642,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11430
+    },
+    {
+      "frame_id": 2590,
+      "valid_pixels": 12645,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11270
+    },
+    {
+      "frame_id": 2600,
+      "valid_pixels": 12686,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11782
+    },
+    {
+      "frame_id": 2610,
+      "valid_pixels": 12304,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11356
+    },
+    {
+      "frame_id": 2620,
+      "valid_pixels": 12565,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11769
+    },
+    {
+      "frame_id": 2630,
+      "valid_pixels": 12767,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11773
+    },
+    {
+      "frame_id": 2640,
+      "valid_pixels": 12615,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11674
+    },
+    {
+      "frame_id": 2650,
+      "valid_pixels": 12851,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11580
+    },
+    {
+      "frame_id": 2660,
+      "valid_pixels": 12664,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11645
+    },
+    {
+      "frame_id": 2670,
+      "valid_pixels": 24175,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 21478
+    },
+    {
+      "frame_id": 2680,
+      "valid_pixels": 12544,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11422
+    },
+    {
+      "frame_id": 2690,
+      "valid_pixels": 12834,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11664
+    },
+    {
+      "frame_id": 2700,
+      "valid_pixels": 13385,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12575
+    },
+    {
+      "frame_id": 2710,
+      "valid_pixels": 13436,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12802
+    },
+    {
+      "frame_id": 2720,
+      "valid_pixels": 13396,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 13175
+    },
+    {
+      "frame_id": 2730,
+      "valid_pixels": 12754,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12116
+    },
+    {
+      "frame_id": 2740,
+      "valid_pixels": 12933,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11424
+    },
+    {
+      "frame_id": 2750,
+      "valid_pixels": 13133,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12076
+    },
+    {
+      "frame_id": 2760,
+      "valid_pixels": 12863,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11958
+    },
+    {
+      "frame_id": 2770,
+      "valid_pixels": 12769,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11726
+    },
+    {
+      "frame_id": 2780,
+      "valid_pixels": 12805,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12035
+    },
+    {
+      "frame_id": 2790,
+      "valid_pixels": 12298,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11832
+    },
+    {
+      "frame_id": 2800,
+      "valid_pixels": 12441,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12178
+    },
+    {
+      "frame_id": 2810,
+      "valid_pixels": 23207,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 22126
+    },
+    {
+      "frame_id": 2820,
+      "valid_pixels": 12477,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11887
+    },
+    {
+      "frame_id": 2830,
+      "valid_pixels": 12267,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11331
+    },
+    {
+      "frame_id": 2840,
+      "valid_pixels": 12875,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11742
+    },
+    {
+      "frame_id": 2850,
+      "valid_pixels": 12845,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11781
+    },
+    {
+      "frame_id": 2860,
+      "valid_pixels": 12905,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11736
+    },
+    {
+      "frame_id": 2870,
+      "valid_pixels": 12674,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11829
+    },
+    {
+      "frame_id": 2880,
+      "valid_pixels": 12329,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11385
+    },
+    {
+      "frame_id": 2890,
+      "valid_pixels": 12901,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12054
+    },
+    {
+      "frame_id": 2900,
+      "valid_pixels": 12973,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12343
+    },
+    {
+      "frame_id": 2910,
+      "valid_pixels": 12948,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12324
+    },
+    {
+      "frame_id": 2920,
+      "valid_pixels": 12715,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12365
+    },
+    {
+      "frame_id": 2930,
+      "valid_pixels": 12810,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12319
+    },
+    {
+      "frame_id": 2940,
+      "valid_pixels": 12689,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11774
+    },
+    {
+      "frame_id": 2950,
+      "valid_pixels": 12774,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11812
+    },
+    {
+      "frame_id": 2960,
+      "valid_pixels": 12889,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12002
+    },
+    {
+      "frame_id": 2970,
+      "valid_pixels": 12633,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11873
+    },
+    {
+      "frame_id": 2980,
+      "valid_pixels": 12762,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11873
+    },
+    {
+      "frame_id": 2990,
+      "valid_pixels": 12528,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11805
+    },
+    {
+      "frame_id": 3000,
+      "valid_pixels": 12524,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12173
+    },
+    {
+      "frame_id": 3010,
+      "valid_pixels": 12736,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12398
+    },
+    {
+      "frame_id": 3020,
+      "valid_pixels": 12470,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11759
+    },
+    {
+      "frame_id": 3030,
+      "valid_pixels": 12538,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11285
+    },
+    {
+      "frame_id": 3040,
+      "valid_pixels": 12231,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11334
+    },
+    {
+      "frame_id": 3050,
+      "valid_pixels": 12330,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11652
+    },
+    {
+      "frame_id": 3060,
+      "valid_pixels": 12600,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11998
+    },
+    {
+      "frame_id": 3070,
+      "valid_pixels": 12655,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12035
+    },
+    {
+      "frame_id": 3080,
+      "valid_pixels": 11547,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10518
+    },
+    {
+      "frame_id": 3090,
+      "valid_pixels": 11876,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11200
+    },
+    {
+      "frame_id": 3100,
+      "valid_pixels": 12818,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12269
+    },
+    {
+      "frame_id": 3110,
+      "valid_pixels": 12460,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11793
+    },
+    {
+      "frame_id": 3120,
+      "valid_pixels": 12365,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10895
+    },
+    {
+      "frame_id": 3130,
+      "valid_pixels": 11984,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11376
+    },
+    {
+      "frame_id": 3140,
+      "valid_pixels": 12006,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11530
+    },
+    {
+      "frame_id": 3150,
+      "valid_pixels": 11974,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11740
+    },
+    {
+      "frame_id": 3160,
+      "valid_pixels": 12387,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12219
+    },
+    {
+      "frame_id": 3170,
+      "valid_pixels": 12258,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11973
+    },
+    {
+      "frame_id": 3180,
+      "valid_pixels": 12284,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11193
+    },
+    {
+      "frame_id": 3190,
+      "valid_pixels": 12224,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11166
+    },
+    {
+      "frame_id": 3200,
+      "valid_pixels": 12404,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11502
+    },
+    {
+      "frame_id": 3210,
+      "valid_pixels": 12361,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11515
+    },
+    {
+      "frame_id": 3220,
+      "valid_pixels": 12597,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11494
+    },
+    {
+      "frame_id": 3230,
+      "valid_pixels": 12422,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11331
+    },
+    {
+      "frame_id": 3240,
+      "valid_pixels": 12379,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11492
+    },
+    {
+      "frame_id": 3250,
+      "valid_pixels": 12527,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11692
+    },
+    {
+      "frame_id": 3260,
+      "valid_pixels": 12456,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11661
+    },
+    {
+      "frame_id": 3270,
+      "valid_pixels": 13058,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12254
+    },
+    {
+      "frame_id": 3280,
+      "valid_pixels": 12802,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11667
+    },
+    {
+      "frame_id": 3290,
+      "valid_pixels": 12553,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11644
+    },
+    {
+      "frame_id": 3300,
+      "valid_pixels": 12467,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11760
+    },
+    {
+      "frame_id": 3310,
+      "valid_pixels": 12669,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12111
+    },
+    {
+      "frame_id": 3320,
+      "valid_pixels": 12999,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12278
+    },
+    {
+      "frame_id": 3330,
+      "valid_pixels": 12567,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12126
+    },
+    {
+      "frame_id": 3340,
+      "valid_pixels": 12365,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11934
+    },
+    {
+      "frame_id": 3350,
+      "valid_pixels": 12735,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11585
+    },
+    {
+      "frame_id": 3360,
+      "valid_pixels": 12981,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12311
+    },
+    {
+      "frame_id": 3370,
+      "valid_pixels": 13042,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11966
+    },
+    {
+      "frame_id": 3380,
+      "valid_pixels": 13219,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12198
+    },
+    {
+      "frame_id": 3390,
+      "valid_pixels": 13256,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12517
+    },
+    {
+      "frame_id": 3400,
+      "valid_pixels": 13132,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12056
+    },
+    {
+      "frame_id": 3410,
+      "valid_pixels": 12931,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11998
+    },
+    {
+      "frame_id": 3420,
+      "valid_pixels": 12404,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12003
+    },
+    {
+      "frame_id": 3430,
+      "valid_pixels": 13104,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12806
+    },
+    {
+      "frame_id": 3440,
+      "valid_pixels": 12985,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12589
+    },
+    {
+      "frame_id": 3450,
+      "valid_pixels": 12544,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12320
+    },
+    {
+      "frame_id": 3460,
+      "valid_pixels": 12744,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12548
+    },
+    {
+      "frame_id": 3470,
+      "valid_pixels": 12658,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12086
+    },
+    {
+      "frame_id": 3480,
+      "valid_pixels": 12780,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11843
+    },
+    {
+      "frame_id": 3490,
+      "valid_pixels": 12601,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10620
+    },
+    {
+      "frame_id": 3500,
+      "valid_pixels": 13069,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11608
+    },
+    {
+      "frame_id": 3510,
+      "valid_pixels": 13803,
+      "author_surviving_pixels": 20,
+      "valid_mask_surviving_pixels": 12219
+    },
+    {
+      "frame_id": 3520,
+      "valid_pixels": 12852,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12084
+    },
+    {
+      "frame_id": 3530,
+      "valid_pixels": 12841,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11734
+    },
+    {
+      "frame_id": 3540,
+      "valid_pixels": 12672,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10681
+    },
+    {
+      "frame_id": 3550,
+      "valid_pixels": 12969,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11710
+    },
+    {
+      "frame_id": 3560,
+      "valid_pixels": 12670,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12007
+    },
+    {
+      "frame_id": 3570,
+      "valid_pixels": 12699,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11975
+    },
+    {
+      "frame_id": 3580,
+      "valid_pixels": 12177,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11844
+    },
+    {
+      "frame_id": 3590,
+      "valid_pixels": 12245,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11766
+    },
+    {
+      "frame_id": 3600,
+      "valid_pixels": 12143,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11636
+    },
+    {
+      "frame_id": 3610,
+      "valid_pixels": 12353,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11708
+    },
+    {
+      "frame_id": 3620,
+      "valid_pixels": 12904,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12444
+    },
+    {
+      "frame_id": 3630,
+      "valid_pixels": 12791,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12444
+    },
+    {
+      "frame_id": 3640,
+      "valid_pixels": 12696,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12182
+    },
+    {
+      "frame_id": 3650,
+      "valid_pixels": 12077,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11703
+    },
+    {
+      "frame_id": 3660,
+      "valid_pixels": 12264,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11846
+    },
+    {
+      "frame_id": 3670,
+      "valid_pixels": 11849,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11369
+    },
+    {
+      "frame_id": 3680,
+      "valid_pixels": 11884,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11284
+    },
+    {
+      "frame_id": 3690,
+      "valid_pixels": 11197,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10565
+    },
+    {
+      "frame_id": 3700,
+      "valid_pixels": 12627,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11919
+    },
+    {
+      "frame_id": 3710,
+      "valid_pixels": 12247,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11787
+    },
+    {
+      "frame_id": 3720,
+      "valid_pixels": 12501,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12355
+    },
+    {
+      "frame_id": 3730,
+      "valid_pixels": 13050,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12707
+    },
+    {
+      "frame_id": 3740,
+      "valid_pixels": 11819,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11004
+    },
+    {
+      "frame_id": 3750,
+      "valid_pixels": 11808,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11299
+    },
+    {
+      "frame_id": 3760,
+      "valid_pixels": 11328,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10727
+    },
+    {
+      "frame_id": 3770,
+      "valid_pixels": 11342,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10340
+    },
+    {
+      "frame_id": 3780,
+      "valid_pixels": 11814,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10929
+    },
+    {
+      "frame_id": 3790,
+      "valid_pixels": 12475,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11969
+    },
+    {
+      "frame_id": 3800,
+      "valid_pixels": 13165,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12586
+    },
+    {
+      "frame_id": 3810,
+      "valid_pixels": 12700,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11867
+    },
+    {
+      "frame_id": 3820,
+      "valid_pixels": 12886,
+      "author_surviving_pixels": 7,
+      "valid_mask_surviving_pixels": 12236
+    },
+    {
+      "frame_id": 3830,
+      "valid_pixels": 12472,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11787
+    },
+    {
+      "frame_id": 3840,
+      "valid_pixels": 12188,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11178
+    },
+    {
+      "frame_id": 3850,
+      "valid_pixels": 11976,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 10210
+    },
+    {
+      "frame_id": 3860,
+      "valid_pixels": 13351,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11885
+    },
+    {
+      "frame_id": 3870,
+      "valid_pixels": 12757,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11793
+    },
+    {
+      "frame_id": 3880,
+      "valid_pixels": 12997,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11410
+    },
+    {
+      "frame_id": 3890,
+      "valid_pixels": 13608,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 11959
+    },
+    {
+      "frame_id": 3900,
+      "valid_pixels": 13348,
+      "author_surviving_pixels": 8,
+      "valid_mask_surviving_pixels": 11846
+    },
+    {
+      "frame_id": 3910,
+      "valid_pixels": 12839,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12139
+    },
+    {
+      "frame_id": 3920,
+      "valid_pixels": 13261,
+      "author_surviving_pixels": 1,
+      "valid_mask_surviving_pixels": 13006
+    },
+    {
+      "frame_id": 3930,
+      "valid_pixels": 13767,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 12352
+    },
+    {
+      "frame_id": 3940,
+      "valid_pixels": 10491,
+      "author_surviving_pixels": 17,
+      "valid_mask_surviving_pixels": 9878
+    },
+    {
+      "frame_id": 3950,
+      "valid_pixels": 10483,
+      "author_surviving_pixels": 15,
+      "valid_mask_surviving_pixels": 10023
+    }
+  ]
+}

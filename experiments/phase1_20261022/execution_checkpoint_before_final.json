@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-10-23T16:33:40.454769+08:00",
+  "status": "running",
+  "objective": "Finish phase1 original-method baselines; phase2 integration excluded",
+  "completed_geometry_evaluations": 11,
+  "completed_primary_sequences": 6,
+  "current_job": "fpv2_00_r3",
+  "restart_from": "fpv2_00_r3",
+  "remaining_jobs": [
+    "fpv2_00_r3"
+  ],
+  "interrupted_attempt": "experiments/phase1_20261022/failed_full_attempts/oxford02_r2_user_paused_20261023",
+  "all_execution_processes_stopped": false,
+  "resume_command": "source scripts/env.sh && python3 -u scripts/run_phase1_batch.py",
+  "known_repaired_evaluation": "Oxford02_r1 final metrics valid after offline RPE evaluator repair; state reconciled in paused status, original controller snapshot retained",
+  "final_actions": [
+    "Finish four full repetitions",
+    "Refresh plots via accuracy_venv/bin/python scripts/refresh_phase1_accuracy_plots.py",
+    "Rebuild final report via accuracy_venv/bin/python scripts/write_phase1_report.py",
+    "Require all completion checks to pass; final hash/provenance and syntax checks"
+  ],
+  "frozen_runtime_manifest": "frozen_runtime_manifest.json",
+  "controller_pid": 8156,
+  "resumed_after_user_pause": true,
+  "batch_log": "experiments/phase1_20261022/batch_resumed_20261023_afternoon.log",
+  "report_watcher_pid": 8230
+}

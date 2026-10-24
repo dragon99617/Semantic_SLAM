@@ -1,0 +1,123 @@
+{
+  "source_bag": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/extracted/ugv_transition00/ugv_transition00.bag",
+  "selected_topics": {
+    "/os_cloud_node/points": "/os_cloud_node/points",
+    "/stim300/imu/data_raw": "/stim300/imu/data_raw",
+    "/stereo/frame_left/image_raw/compressed": "/left_camera/image"
+  },
+  "all_selected_record_counts_match_source": true,
+  "all_cdr_messages_roundtrip_verified": true,
+  "all_pointcloud_buffers_preserved": true,
+  "image_pixels_equal_to_opencv_jpeg_decode": true,
+  "record_timestamps_preserved": true,
+  "imu_and_image_headers_preserved": true,
+  "cloud_header_transform": "original scan-end header - max(uint32 per-point t) nanoseconds",
+  "additional_lidar_time_offset_required": 0.0,
+  "scan_duration_s": {
+    "min": 0.0993635,
+    "median": 0.09989965,
+    "max": 0.10045569
+  },
+  "concatenated_selected_source_payload_sha256": "fbdeef65a607263732007af580a911ebfc28a1ee5ba965472afb1ba4c00ab3ba",
+  "concatenated_cloud_data_sha256": "9a9481bc7f0768ea7704884bc63226021604c37d3d4abaa2d99ead70a4853530",
+  "headers": {
+    "/stim300/imu/data_raw": {
+      "count": 98400,
+      "first_ns": 1686614988999900816,
+      "last_ns": 1686615480994886093,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 8.3307e-05,
+      "dt_median_s": 0.005000182,
+      "dt_max_s": 0.012383645
+    },
+    "/os_cloud_node/points": {
+      "count": 4921,
+      "first_ns": 1686614988883507777,
+      "last_ns": 1686615480881762043,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.092197792,
+      "dt_median_s": 0.10016242850000001,
+      "dt_max_s": 0.108754903
+    },
+    "/stereo/frame_left/image_raw/compressed": {
+      "count": 9840,
+      "first_ns": 1686614989032397270,
+      "last_ns": 1686615480982938051,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.038008928,
+      "dt_median_s": 0.049984216,
+      "dt_max_s": 0.060702324
+    }
+  },
+  "pointcloud": {
+    "width": 1024,
+    "height": 128,
+    "point_step": 48,
+    "fields": [
+      {
+        "name": "x",
+        "offset": 0,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "y",
+        "offset": 4,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "z",
+        "offset": 8,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "intensity",
+        "offset": 16,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "t",
+        "offset": 20,
+        "datatype": 6,
+        "count": 1
+      },
+      {
+        "name": "reflectivity",
+        "offset": 24,
+        "datatype": 4,
+        "count": 1
+      },
+      {
+        "name": "ring",
+        "offset": 26,
+        "datatype": 2,
+        "count": 1
+      },
+      {
+        "name": "ambient",
+        "offset": 28,
+        "datatype": 4,
+        "count": 1
+      },
+      {
+        "name": "range",
+        "offset": 32,
+        "datatype": 6,
+        "count": 1
+      }
+    ]
+  },
+  "image": {
+    "source_format": "jpg",
+    "width": 1024,
+    "height": 768,
+    "encoding": "bgr8"
+  },
+  "conversion_seconds": 830.4282754870073
+}

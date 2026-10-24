@@ -1,0 +1,86 @@
+## Mobile Sensor Platform (Frontier)
+<img src="media/unit.png" height="300" />
+
+| Sensor | Model | Rate | Notes |
+|---|---|---|---|
+| LiDAR | Hesai QT64 | 10 Hz | 64 channels, 60 m range, 104° FoV, ±3 cm accuracy |
+| Cameras (×3) | Alphasense Core Development Kit (Sevensense Robotics AG) | 20 Hz | 1440 × 1080, 126° × 92.4° FoV, global shutter, colour fisheye |
+| IMU | Alphasense Core Development Kit (Sevensense Robotics AG) | 400 Hz | Cell-phone grade MEMS, hardware-synchronised with cameras via FPGA |
+
+### ROS Topics
+
+| Topic | Rate | Description |
+|---|---|---|
+| `/hesai/pandar` | 10 Hz | LiDAR point clouds |
+| `/alphasense_driver_ros/imu` | 400 Hz | IMU measurements |
+| `/alphasense_driver_ros/cam0/color/image/compressed` | 20 Hz | Front camera images |
+| `/alphasense_driver_ros/cam1/color/image/compressed` | 20 Hz | Left camera images |
+| `/alphasense_driver_ros/cam2/color/image/compressed` | 20 Hz | Right camera images |
+
+### Synchronisation
+
+Multi-sensor synchronisation operates at two levels:
+- **Hardware**: cameras and IMU are synchronised within the Alphasense Core Development Kit via an FPGA from Sevensense.
+- **Software**: the Alphasense device clock is synchronised to the host computer (and to the Hesai LiDAR) using the Precision Time Protocol (PTP), achieving sub-microsecond accuracy.
+
+LiDAR point clouds are motion-undistorted using IMU pre-integration ([VILENS](https://github.com/ori-drs/vilens)) so that each point cloud is temporally aligned with its corresponding camera frame triplet.
+
+---
+
+## Calibration
+
+### Tools
+
+Calibration was performed using:
+- [Kalibr](https://github.com/ethz-asl/kalibr) — multi-camera intrinsics and camera–IMU extrinsics
+- [DiffCal](https://github.com/ori-drs/diffcal) — LiDAR–camera extrinsics
+
+### Calibration Sequences
+
+Calibration sequences and the resulting parameter files are available on [HuggingFace](https://huggingface.co/datasets/ori-drs/oxford_spires_dataset/tree/main/calibration).
+
+The main calibration ([2024-03-19](https://huggingface.co/datasets/ori-drs/oxford_spires_dataset/tree/main/calibration/calibration-sequences-2024-03-19)) was captured close to the main sequences (March 2024) and is the source for `configs/sensor.yaml`. Additional calibration sequences are also provided:
+
+| Date | Link |
+|---|---|
+| 2024-03-19 (primary) | [HuggingFace](https://huggingface.co/datasets/ori-drs/oxford_spires_dataset/tree/main/calibration/calibration-sequences-2024-03-19) |
+| 2024-06-29 | [HuggingFace](https://huggingface.co/datasets/ori-drs/oxford_spires_dataset/tree/main/calibration/calibration-sequences-2024-06-29) |
+| 2024-10-29 | [HuggingFace](https://huggingface.co/datasets/ori-drs/oxford_spires_dataset/tree/main/calibration/calibration-sequences-2024-10-29) |
+
+### Calibration File: `configs/sensor.yaml`
+
+The file stores all intrinsic and extrinsic parameters. Camera labels are `cam_front`, `cam_left`, `cam_right`.
+
+#### Camera Intrinsics
+
+| Field | Description |
+|---|---|
+| `intrinsics` | `[fx, fy, cx, cy]` — focal lengths and principal point in pixels |
+| `extra_params` | `[k1, k2, k3, k4]` — equidistant distortion coefficients (Kalibr); equivalent to OpenCV's `OPENCV_FISHEYE` model |
+| `camera_model` | `OPENCV_FISHEYE` |
+| `image_height` / `image_width` | 1080 × 1440 pixels |
+| `camera_fov` | Horizontal FoV in degrees (H × V: 126° × 92.4°) |
+
+#### Extrinsics
+
+| Field | Description |
+|---|---|
+| `T_cam_lidar_t_xyz_q_xyzw` | Transform from **LiDAR** frame to **camera** frame, as `[tx, ty, tz, qx, qy, qz, qw]` (metres, quaternion xyzw) |
+| `T_cam_imu_t_xyz_q_xyzw` | Transform from **IMU** frame to **camera** frame, as `[tx, ty, tz, qx, qy, qz, qw]` |
+| `T_base_lidar_t_xyz_q_xyzw` | Transform from **LiDAR** frame to **base** frame, as `[tx, ty, tz, qx, qy, qz, qw]=[0.0, 0.0, 0.124, 0.0, 0.0, 1.0, 0.0]`. The **base** frame is an artificial frame located at the bottom of the device with the x-axis pointing forward for visualisation convenience.|
+
+#### Loading `sensor.yaml` and visualise sensor frames
+
+```python
+from oxspires_tools.sensor import Sensor
+from pathlib import Path
+import yaml
+
+config_yaml_path = Path("<oxford_spires_dataset>/configs/sensor.yaml")
+with open(config_yaml_path, "r") as f:
+    yaml_data = yaml.safe_load(f)
+sensor = Sensor(**yaml_data["sensor"])
+T_cam0_base = sensor.tf.get_transform("base", "cam_front")
+sensor.viz_sensor_frames()
+```
+

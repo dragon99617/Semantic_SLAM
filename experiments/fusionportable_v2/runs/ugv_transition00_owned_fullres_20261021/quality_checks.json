@@ -1,0 +1,14 @@
+{
+  "poses": 9818,
+  "first_sensor_stamp": 1686614989.918509,
+  "last_sensor_stamp": 1686615480.918473,
+  "trajectory_duration_s": 490.99996399879456,
+  "input_lidar_scan_start_span_s": 491.998254266,
+  "trajectory_span_fraction": 0.9979709475418875,
+  "initialization_gap_from_first_scan_start_s": 1.035001277923584,
+  "last_lidar_point_minus_last_pose_s": 0.06322789192199707,
+  "position_and_orientation_finite": true,
+  "timestamps_strictly_increasing": true,
+  "max_quaternion_norm_deviation": 6.947767413612027e-07,
+  "map_sample_points": 239024
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Aazeus/oxford-spires-part",
+  "sha": "bcdc59df120cdee9a5b0e080a998f5da3f97ff2f",
+  "lastModified": "2026-04-28T16:18:12.000Z",
+  "cardData": {
+    "license": "mit"
+  },
+  "files": [
+    ".gitattributes",
+    "README.md",
+    "calibration-sequences-2024-06.zip"
+  ]
+}

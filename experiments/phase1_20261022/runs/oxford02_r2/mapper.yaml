@@ -1,0 +1,106 @@
+/**:
+  ros__parameters:
+    common:
+      img_topic: /left_camera/image
+      lid_topic: /hesai/pandar
+      imu_topic: /alphasense_driver_ros/imu
+      img_en: 1
+      lidar_en: 1
+      ros_driver_bug_fix: false
+    extrin_calib:
+      extrinsic_T:
+      - -0.0006517086833720874
+      - -0.015510342560109067
+      - 0.08463265780318903
+      extrinsic_R:
+      - -0.016638045748656106
+      - -0.9998601056363501
+      - 0.0017159809243348027
+      - 0.9998552572581156
+      - -0.016631813594098228
+      - 0.0035843144224121702
+      - -0.003555273122162421
+      - 0.0017753685358884413
+      - 0.9999921040186209
+      Rcl:
+      - 0.00976944336946739
+      - 0.9999460020163567
+      - 0.003542742970500279
+      - 0.007671197638838501
+      - 0.00346786135188204
+      - -0.999964562704314
+      - -0.9999228523756404
+      - 0.0097962742483243
+      - -0.007636904334543448
+      Pcl:
+      - 0.00035060884033447846
+      - -0.079574053851818
+      - -0.053826061545697405
+    time_offset:
+      lidar_time_offset: 0.0
+      imu_time_offset: 0.0
+      img_time_offset: 0.0
+      exposure_time_init: 0.0
+    preprocess:
+      point_filter_num: 1
+      filter_size_surf: 0.5
+      lidar_type: 5
+      scan_line: 64
+      blind: 1.0
+    vio:
+      max_iterations: 5
+      outlier_threshold: 78
+      img_point_cov: 100
+      patch_size: 8
+      patch_pyrimid_level: 4
+      normal_en: true
+      raycast_en: false
+      inverse_composition_en: false
+      exposure_estimate_en: true
+      inv_expo_cov: 0.1
+    imu:
+      imu_en: true
+      imu_int_frame: 1
+      acc_cov: 0.1
+      gyr_cov: 0.1
+      b_acc_cov: 0.0001
+      b_gyr_cov: 0.0001
+    lio:
+      max_iterations: 5
+      dept_err: 0.05
+      beam_err: 0.02
+      min_eigen_value: 0.01
+      voxel_size: 0.5
+      max_layer: 1
+      max_points_num: 50
+      layer_init_num:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+    local_map:
+      map_sliding_en: true
+      half_map_size: 60
+      sliding_thresh: 2.0
+    uav:
+      imu_rate_odom: false
+      gravity_align_en: false
+    publish:
+      dense_map_en: true
+      pub_effect_point_en: false
+      pub_plane_en: false
+      pub_scan_num: 1
+      blind_rgb_points: 0.0
+    evo:
+      seq_name: Phase1_oxford02_oxford02_r2
+      pose_output_en: true
+    pcd_save:
+      pcd_save_en: false
+      type: 0
+      colmap_output_en: false
+      filter_size_pcd: 0.15
+      interval: -1
+    image_save:
+      img_save_en: false
+      interval: 1

@@ -1,0 +1,41 @@
+{
+  "status": "fixed_rebuilt_full_sequence_regression_passed",
+  "gdb_backtrace": "debug_segfault/gdb.log",
+  "gdb_observation": "SIGSEGV in OpenCV resize worker; main thread VIOManager::processFrame -> cv::resize",
+  "lifetime_error": "getImageFromMsg returned cv_bridge::toCvShare(...)->image without preserving CvImage/ROS message ownership; BGR8 zero-copy pixels outlive callback message",
+  "fix": "cv_bridge::toCvCopy(img_msg, \"bgr8\")->image",
+  "ownership_probe": {
+    "borrowed_mat_loses_ros_owner": true,
+    "copied_mat_survives_owner_release_and_resize": true
+  },
+  "reference_feature_uninitialized_risk": "Observed during static inspection, not established as the cause, and not changed in this fix",
+  "memory_after_user_update": "15 GiB RAM, 4 GiB swap",
+  "final_profile": {
+    "image_dimensions": [
+      1024,
+      768
+    ],
+    "image_scale": 1.0,
+    "map_half_extent_m": 30,
+    "map_sliding_threshold_m": 2
+  },
+  "full_run": "runs/ugv_transition00_owned_fullres_20261021",
+  "full_sequence_regression_summary": {
+    "status": "playback_completed",
+    "error": null,
+    "diagnostic": false,
+    "rate": 0.5,
+    "mapper_clean_exit": true,
+    "player_returncode": 0,
+    "wall_seconds": 1024.919520005,
+    "received_outputs": {
+      "/aft_mapped_to_init": 9818,
+      "/cloud_registered": 19537,
+      "/rgb_img": 4289
+    },
+    "max_cloud_points": 9651,
+    "timestamp_basis": "saved TUM sensor time; ROS output stamps are node time",
+    "map_artifact": "sampled output clouds, every tenth message, ~512 points/message, 10 cm deduplication",
+    "run_dir": "/home/hxy/SLAM_project/experiments/fusionportable_v2/runs/ugv_transition00_owned_fullres_20261021"
+  }
+}

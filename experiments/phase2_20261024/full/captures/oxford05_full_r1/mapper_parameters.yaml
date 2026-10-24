@@ -1,0 +1,136 @@
+/laserMapping:
+  ros__parameters:
+    common:
+      img_en: 1
+      img_topic: /left_camera/image
+      imu_topic: /alphasense_driver_ros/imu
+      lid_topic: /hesai/pandar
+      lidar_en: 1
+      ros_driver_bug_fix: false
+    debug:
+      frame_cnt: 6
+      plot_time: -10.0
+    evo:
+      pose_output_en: true
+      seq_name: Phase2_oxford05_oxford05_full_r1
+    extrin_calib:
+      Pcl:
+      - 0.00035060884033447846
+      - -0.079574053851818
+      - -0.053826061545697405
+      Rcl:
+      - 0.00976944336946739
+      - 0.9999460020163567
+      - 0.003542742970500279
+      - 0.007671197638838501
+      - 0.00346786135188204
+      - -0.999964562704314
+      - -0.9999228523756404
+      - 0.0097962742483243
+      - -0.007636904334543448
+      extrinsic_R:
+      - -0.016638045748656106
+      - -0.9998601056363501
+      - 0.0017159809243348027
+      - 0.9998552572581156
+      - -0.016631813594098228
+      - 0.0035843144224121702
+      - -0.003555273122162421
+      - 0.0017753685358884413
+      - 0.9999921040186209
+      extrinsic_T:
+      - -0.0006517086833720874
+      - -0.015510342560109067
+      - 0.08463265780318903
+    image_save:
+      img_save_en: false
+      interval: 1
+    imu:
+      acc_cov: 0.1
+      ba_bg_est_en: true
+      gravity_est_en: true
+      gyr_cov: 0.1
+      imu_en: true
+      imu_int_frame: 1
+    lio:
+      beam_err: 0.02
+      dept_err: 0.05
+      layer_init_num:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+      max_layer: 1
+      max_points_num: 50
+      min_eigen_value: 0.01
+      min_iterations: 5
+      sigma_num: 3.0
+      voxel_size: 0.5
+    local_map:
+      half_map_size: 60
+      map_sliding_en: true
+      sliding_thresh: 2.0
+    pcd_save:
+      colmap_output_en: false
+      filter_size_pcd: 0.15
+      interval: -1
+      pcd_save_en: false
+      type: 0
+    preprocess:
+      blind: 1.0
+      feature_extract_enabled: false
+      filter_size_surf: 0.5
+      hilti_en: false
+      lidar_type: 5
+      point_filter_num: 1
+      scan_line: 64
+    publish:
+      blind_rgb_points: 0.0
+      dense_map_en: true
+      pub_effect_point_en: false
+      pub_plane_en: false
+      pub_scan_num: 1
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    rgb_img:
+      enable_pub_plugins:
+      - image_transport/compressedDepth
+      - image_transport/compressed
+      - image_transport/raw
+      - image_transport/theora
+      format: jpeg
+      jpeg_quality: 95
+      png_level: 3
+      tiff:
+        res_unit: inch
+        xdpi: -1
+        ydpi: -1
+    time_offset:
+      exposure_time_init: 0.0
+      img_time_offset: 0.0
+      imu_time_offset: 0.0
+      lidar_time_offset: 0.0
+    uav:
+      gravity_align_en: false
+      imu_rate_odom: false
+    use_sim_time: false
+    vio:
+      exposure_estimate_en: true
+      grid_n_height: 17
+      grid_size: 5
+      img_point_cov: 100
+      inv_expo_cov: 0.1
+      inverse_composition_en: false
+      max_iterations: 5
+      normal_en: true
+      outlier_threshold: 78
+      patch_pyrimid_level: 4
+      patch_size: 8
+      raycast_en: false
+

@@ -1,0 +1,26 @@
+[
+  {
+    "action": "pause",
+    "wall_s": 641.3267206340024,
+    "image_to_state_lag_s": 2.901099681854248,
+    "forced_diagnostic": false
+  },
+  {
+    "action": "resume",
+    "wall_s": 647.3361892370012,
+    "image_to_state_lag_s": -4.76837158203125e-07,
+    "forced_diagnostic": false
+  },
+  {
+    "action": "pause",
+    "wall_s": 852.0925931140009,
+    "image_to_state_lag_s": 2.3976523876190186,
+    "forced_diagnostic": false
+  },
+  {
+    "action": "resume",
+    "wall_s": 864.2206806239992,
+    "image_to_state_lag_s": 0.1998302936553955,
+    "forced_diagnostic": false
+  }
+]

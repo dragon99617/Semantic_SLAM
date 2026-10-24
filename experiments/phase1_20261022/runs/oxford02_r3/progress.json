@@ -1,0 +1,11 @@
+{
+  "elapsed_s": 1192,
+  "poses": 11564,
+  "sensor_seconds": 582.169,
+  "outputs": {
+    "/aft_mapped_to_init": 11564,
+    "/cloud_registered": 20598,
+    "/rgb_img": 7830
+  },
+  "peak_mapper_GiB": 5.465629577636719
+}

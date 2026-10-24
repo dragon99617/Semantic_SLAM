@@ -1,0 +1,9 @@
+{
+  "reason": "Report serialization of NumPy scalar booleans and restartable controller only; no change to estimator, depth projection, OVO inference, thresholds, map data or numeric scoring formulas.",
+  "revised_files": {
+    "scripts/audit_oxford_full_run.py": "ec48068db3b747941ebf0ed726c1db40bee05ff5a9f448127b4e658f2cf9706d",
+    "scripts/run_oxford_full_batch.py": "08e98b52806740a89cf16359a45e0d73eed6c576fb8d421fb279a7666d5d88e4"
+  },
+  "previous_snapshot": "source_snapshot",
+  "preserved_failure": "failed_controller_attempts/oxford02_transition_audit_before_report_fix.log"
+}

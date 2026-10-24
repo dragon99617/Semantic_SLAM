@@ -1,0 +1,22 @@
+{
+  "updated_at": "2026-10-23T16:46:52.470864+08:00",
+  "status": "completed_available_dataset_scope",
+  "objective": "Finish phase1 original-method baselines; phase2 integration excluded",
+  "completed_geometry_evaluations": 12,
+  "completed_primary_sequences": 6,
+  "current_job": null,
+  "restart_from": null,
+  "remaining_jobs": [],
+  "interrupted_attempt": "experiments/phase1_20261022/failed_full_attempts/oxford02_r2_user_paused_20261023",
+  "all_execution_processes_stopped": true,
+  "resume_command": "source scripts/env.sh && python3 -u scripts/run_phase1_batch.py",
+  "known_repaired_evaluation": "Oxford02_r1 final metrics valid after offline RPE evaluator repair; state reconciled in paused status, original controller snapshot retained",
+  "final_actions": [],
+  "frozen_runtime_manifest": "frozen_runtime_manifest.json",
+  "controller_pid": 8156,
+  "resumed_after_user_pause": true,
+  "batch_log": "experiments/phase1_20261022/batch_resumed_20261023_afternoon.log",
+  "report_watcher_pid": 8230,
+  "final_acceptance": "experiments/phase1_20261022/final_acceptance.json",
+  "report": "experiments/阶段一_执行与结果_20261023.md"
+}

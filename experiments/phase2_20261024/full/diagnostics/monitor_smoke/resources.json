@@ -1,0 +1,67 @@
+[
+  {
+    "wall_seconds": 65.99156772000015,
+    "processed_frames": 0,
+    "expected_frames": 158,
+    "fraction": 0.0,
+    "map_points": 0,
+    "objects": 0,
+    "sensor_ns": 1710754089155536492,
+    "rss_bytes": 3188928512,
+    "cuda_allocated_bytes": 4589069824,
+    "cuda_reserved_bytes": 6002049024,
+    "transition_predictions": 0
+  },
+  {
+    "wall_seconds": 76.24707223099995,
+    "processed_frames": 31,
+    "expected_frames": 158,
+    "fraction": 0.1962025316455696,
+    "map_points": 3492,
+    "objects": 3,
+    "sensor_ns": 1710754092155486892,
+    "rss_bytes": 3208450048,
+    "cuda_allocated_bytes": 4591127040,
+    "cuda_reserved_bytes": 6004146176,
+    "transition_predictions": 0
+  },
+  {
+    "wall_seconds": 86.91564156599998,
+    "processed_frames": 91,
+    "expected_frames": 158,
+    "fraction": 0.5759493670886076,
+    "map_points": 19315,
+    "objects": 15,
+    "sensor_ns": 1710754098155387692,
+    "rss_bytes": 3208732672,
+    "cuda_allocated_bytes": 4596572160,
+    "cuda_reserved_bytes": 6006243328,
+    "transition_predictions": 0
+  },
+  {
+    "wall_seconds": 98.5654619779998,
+    "processed_frames": 121,
+    "expected_frames": 158,
+    "fraction": 0.7658227848101266,
+    "map_points": 29308,
+    "objects": 23,
+    "sensor_ns": 1710754101155338092,
+    "rss_bytes": 3218890752,
+    "cuda_allocated_bytes": 4599121408,
+    "cuda_reserved_bytes": 6392119296,
+    "transition_predictions": 0
+  },
+  {
+    "wall_seconds": 103.21791026500023,
+    "processed_frames": 158,
+    "expected_frames": 158,
+    "fraction": 1.0,
+    "map_points": 40984,
+    "objects": 30,
+    "sensor_ns": 1710754104855276892,
+    "rss_bytes": 3219709952,
+    "cuda_allocated_bytes": 4601803264,
+    "cuda_reserved_bytes": 6392119296,
+    "transition_predictions": 61
+  }
+]

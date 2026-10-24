@@ -1,0 +1,51 @@
+{
+  "status": "frozen_for_phase1_baselines",
+  "created_at": "2026-10-22T19:49:33.208792",
+  "repositories": {
+    "FAST-LIVO2": {
+      "commit": "837b7bbc1431cb04cf936528e52c83c835efba8e",
+      "patch": {
+        "patch": "experiments/patches/FAST-LIVO2.patch",
+        "sha256": "8b7bdd5acc3345d67d30972640d0494a5c460116c1c2db0014a9def8e689184d",
+        "updated_at": "2026-10-22",
+        "added_fix": "BGR8 ownership; sensor-time odometry/TF/path/cloud headers; exact input receipt traces (no estimator changes)"
+      }
+    },
+    "rpg_vikit": {
+      "commit": "4b7abc838f5d2ca9137f70f122eaaeff9eaf0f50",
+      "patch": {
+        "patch": "experiments/patches/rpg_vikit.patch",
+        "sha256": "dbcf89caae5925498b08471b0c86e0b9ae4c229254d690311df0e23c22443ca8",
+        "updated_at": "2026-10-22",
+        "added_fix": "ROS2 remote equidistant camera parameter loading and parameter service discovery wait"
+      }
+    }
+  },
+  "artifacts": {
+    "fast_livo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping": "7dfd8fbfd378f21a0664de6f6c289369d2dcb3adedd6ebe44e5ea5d2e4d286e1",
+    "fast_livo2_ws/install/vikit_ros/lib/libvikit_ros.so": "e39a80366f46f620a1196dad7d2758d4a656911efaa96c2178f95841cbc553f9",
+    "fast_livo2_ws/install/vikit_common/lib/libvikit_common.so": "d4c4d37d3c30c1890dc4760676ae73193c396e43e2ba4ae09bce4db4ad3d277b"
+  },
+  "estimator_changes": "None; data adapters and declared per-dataset configuration/resource settings only",
+  "semantic_source_versions": "experiments/multibench_20261020/source_versions.json",
+  "semantic_weights": "experiments/multibench_20261020/model_versions.json",
+  "semantic_changes": "None in this phase; retain published author weights and archived FP16/batch protocol",
+  "protocol": {
+    "geometry_playback_rate": 0.5,
+    "OMP_NUM_THREADS": 2,
+    "OPENBLAS_NUM_THREADS": 1,
+    "alignment": "One global SE3 per matching protocol, no scale/time search",
+    "nearest_time_tolerance_s": 0.01,
+    "interpolation_bracket_limit_s": 0.1,
+    "core_repetitions": 3,
+    "primary_full_output_cloud_capture": true,
+    "no_live_estimator_gt_input": true,
+    "player_start_paused": true,
+    "subscriber_discovery_wait_s": 3,
+    "playback_reliability": "reliable",
+    "playback_depth": 1000,
+    "wait_for_all_acked_ms": 5000,
+    "playback_flow_control": "Pause on observed image-to-native-state lag >2s, resume below0.25s after at least2s; preserve timestamps/data",
+    "transport_amendment": "2026-10-22 after retained FPV2_01 runtime transport failure; existing NTU/Retail retained only with exact reception and no lag-cap trigger evidence"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "playback_completed",
+  "diagnostic": false,
+  "error": null,
+  "dataset": "FusionPortableV2",
+  "sequence": "ugv_transition00",
+  "rate": 0.5,
+  "pacing": {
+    "nominal_rate": 0.5,
+    "pause_lag_threshold_s": 2.0,
+    "resume_lag_threshold_s": 0.25,
+    "pauses": 2,
+    "paused_wall_s": 47.4923403089997,
+    "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+  },
+  "mapper_clean_exit": true,
+  "player_returncode": 0,
+  "wall_seconds": 1090.2102136369995,
+  "received_outputs": {
+    "/aft_mapped_to_init": 9834,
+    "/cloud_registered": 19639,
+    "/rgb_img": 4864
+  },
+  "expected_lidar_span_s": 491.9982542991638,
+  "peak_mapper_rss_kib": 11173692,
+  "peak_mapper_swap_kib": 0,
+  "registered_output_points_captured": 35388948,
+  "registered_output_nonfinite_points": 0,
+  "input_callback_audit": {
+    "/os_cloud_node/points": {
+      "expected": 4921,
+      "received_callbacks": 4921,
+      "unique_received": 4921,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/stim300/imu/data_raw": {
+      "expected": 98400,
+      "received_callbacks": 98400,
+      "unique_received": 98400,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left_camera/image": {
+      "expected": 9840,
+      "received_callbacks": 9840,
+      "unique_received": 9840,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "pose_timestamp_basis": "sensor acquisition time; ROS odometry/TF and native TUM use last_lio_update_time",
+  "limitation": "RX traces establish callback receipt, not that every point contributes to an estimator update."
+}

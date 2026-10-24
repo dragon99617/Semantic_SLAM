@@ -1,0 +1,22 @@
+{
+  "status": "candidate_not_dataset_validated",
+  "calibration_repository": "https://github.com/fusionportable/calibration_files",
+  "calibration_commit": "20f1b4d867dfedcdd1d4c81578f82f65a85e4ea2",
+  "calibration_directory": "20230426_calib/calib",
+  "transform_convention": "Invert T_lidar_body and T_lidar_camera as used by official TFGraph",
+  "input_contract": "prepare_fusionportable_bag.py; clouds shifted by actual max(t), JPEG decoded to BGR8",
+  "image_scale": 1.0,
+  "sliding_map": {
+    "map_sliding_en": true,
+    "half_map_size": 60,
+    "sliding_thresh": 2.0
+  },
+  "sliding_map_half_extent_m": 30.0,
+  "unverified": [
+    "End-to-end trajectory accuracy",
+    "Camera calibrated offset is a fixed initial value; varying offsets are not corrected",
+    "Image decoding and ROS 1 to ROS 2 conversion have not been performed",
+    "Published GT reference point/lever arm must be confirmed before scoring"
+  ],
+  "estimator_base": "community NTU_VIRAL.yaml; no accuracy tuning performed"
+}

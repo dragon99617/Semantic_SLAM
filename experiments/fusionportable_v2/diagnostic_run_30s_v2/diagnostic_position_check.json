@@ -1,0 +1,9 @@
+{
+  "scope": "30 second diagnostic only; not a full-sequence accuracy result",
+  "poses": 590,
+  "matches": 559,
+  "rmse_m": 0.045162037482052865,
+  "path_length_m": 25.52790206750663,
+  "translation_scale": 1.0,
+  "time_offset_s": 0.0
+}

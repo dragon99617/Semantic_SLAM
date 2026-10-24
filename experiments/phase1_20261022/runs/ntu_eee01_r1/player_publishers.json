@@ -1,0 +1,23 @@
+{
+  "/os1_cloud_node1/points": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ],
+  "/imu/imu": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ],
+  "/left/image_raw": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ]
+}

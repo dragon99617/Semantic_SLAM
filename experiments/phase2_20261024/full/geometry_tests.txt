@@ -1,0 +1,12 @@
+test_bigendian_organized_padded_cloud (__main__.GeometryTests) ... ok
+test_distortion_maps_against_opencv_projection (__main__.GeometryTests) ... ok
+test_image_padding_bgr_to_rgb (__main__.GeometryTests) ... ok
+test_integer_time_offset_and_rejection (__main__.GeometryTests) ... ok
+test_quaternion_sign_equivalence (__main__.GeometryTests) ... ok
+test_transform_direction_and_metric_scale (__main__.GeometryTests) ... ok
+test_zbuffer_invalids_and_axial_depth (__main__.GeometryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.041s
+
+OK

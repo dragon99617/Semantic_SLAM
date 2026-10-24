@@ -1,0 +1,23 @@
+{
+  "vio_frames": 9816,
+  "vio_nonzero_retrieval_frames": 6299,
+  "vio_nonzero_update_frames": 6178,
+  "runtime_error_lines": 0,
+  "lidar_message_consumption": "No per-cloud callback logs; output counts do not establish zero input loss",
+  "/stim300/imu/data_raw": {
+    "bag_records": 98400,
+    "callback_log_entries": 98251,
+    "matched_records": 98251,
+    "unmatched_records": 149,
+    "tolerance_s": 2e-06,
+    "configured_timestamp_offset_s": 0.0
+  },
+  "/left_camera/image": {
+    "bag_records": 9840,
+    "callback_log_entries": 9828,
+    "matched_records": 9828,
+    "unmatched_records": 12,
+    "tolerance_s": 2e-06,
+    "configured_timestamp_offset_s": -0.013618216766727708
+  }
+}

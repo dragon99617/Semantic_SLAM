@@ -1,0 +1,9 @@
+{
+  "id": "oxford02_diagnostic",
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-18-christ-church-02",
+  "bag": "datasets/OxfordSpires/diagnostic_christ_church02_45s",
+  "mapper_config": "experiments/phase1_20261022/configs/oxford_mapper.yaml",
+  "camera_config": "experiments/phase1_20261022/configs/oxford_camera_diagnostic.yaml",
+  "expected_lidar_count": null
+}

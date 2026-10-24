@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-24T16:21:26.573264+08:00",
+  "target_repository": "https://github.com/dragon99617/Semantic_SLAM",
+  "target_branch": "main",
+  "unit_tests": {
+    "command": "third_party/semantic_venv/bin/python -m unittest discover -s scripts -p 'test_*.py' -v",
+    "passed": true,
+    "tests_run": 21,
+    "notes": [
+      "Non-failing ResourceWarning: tasks.csv file handle in existing scoring helper; frozen source preserved."
+    ]
+  },
+  "python_syntax": {
+    "passed": true,
+    "changed_or_new_files_checked": 78
+  },
+  "phase1_freeze": {
+    "passed": true,
+    "files_checked": 238,
+    "report": "experiments/phase2_20261024/phase1_recheck_before_upload.json"
+  },
+  "source_documentation_whitespace": {
+    "passed": true,
+    "scope": [
+      ".gitignore",
+      "README.md",
+      "THIRD_PARTY.md",
+      "docs/",
+      "scripts/",
+      "test1/README.md"
+    ],
+    "notes": [
+      "Frozen calibration, patch and generated evidence retain original whitespace and line endings."
+    ]
+  },
+  "credential_pattern_scan": {
+    "matches": 0,
+    "scope": "Changed/new publishable files; private-key, GitHub/HuggingFace token, AWS key and credential-URL patterns. This is a pattern scan, not a security certification."
+  },
+  "artifact_size_check": {
+    "passed": true,
+    "largest_staged_file_bytes": 5680183,
+    "limit_bytes": 94371840
+  },
+  "scope": [
+    "Phase-one baseline configurations, metrics, trajectories and integrity records",
+    "FAST-LIVO2 to OVO adapter and tests",
+    "Oxford02/05 full-sequence engineering reports and transition sampling",
+    "Original three-image CVAT trial and review",
+    "Reproduction instructions and semantic evaluation limitations"
+  ],
+  "excluded": [
+    "Raw datasets and ROS bags",
+    "Model weights and environments",
+    "Large map checkpoints, raw point clouds and per-point arrays",
+    "Full 114-image annotation ZIP and bulk image/mask directories"
+  ],
+  "semantic_accuracy_accepted": false,
+  "notes": [
+    "This upload archives current work; it does not claim new inference, completed mAP evaluation or semantic acceptance."
+  ]
+}

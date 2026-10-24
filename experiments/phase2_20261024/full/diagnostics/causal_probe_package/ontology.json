@@ -1,0 +1,98 @@
+{
+  "version": "oxford_transition_v1",
+  "ignore_id": 255,
+  "classes": [
+    {
+      "id": 0,
+      "name": "ground_floor",
+      "query": "ground or floor",
+      "definition": "室内地面、室外道路、人行道、草地以外的可行走水平地面"
+    },
+    {
+      "id": 1,
+      "name": "wall_building",
+      "query": "building wall",
+      "definition": "内外墙及建筑主体；排除门、窗、柱、楼梯等独立类别"
+    },
+    {
+      "id": 2,
+      "name": "ceiling_roof",
+      "query": "ceiling or roof",
+      "definition": "顶棚与屋顶"
+    },
+    {
+      "id": 3,
+      "name": "stairs",
+      "query": "stairs",
+      "definition": "台阶踏面、立面；楼梯扶手归 railing_fence"
+    },
+    {
+      "id": 4,
+      "name": "door",
+      "query": "door",
+      "definition": "门扇与门框，不把门洞内的可见背景标成门"
+    },
+    {
+      "id": 5,
+      "name": "window",
+      "query": "window",
+      "definition": "窗玻璃与窗框"
+    },
+    {
+      "id": 6,
+      "name": "column",
+      "query": "pillar or column",
+      "definition": "可辨识的独立柱体"
+    },
+    {
+      "id": 7,
+      "name": "vegetation",
+      "query": "tree or vegetation",
+      "definition": "树木、灌木、草地"
+    },
+    {
+      "id": 8,
+      "name": "person",
+      "query": "person",
+      "definition": "行人"
+    },
+    {
+      "id": 9,
+      "name": "vehicle",
+      "query": "vehicle",
+      "definition": "汽车、自行车及其他交通工具"
+    },
+    {
+      "id": 10,
+      "name": "furniture",
+      "query": "furniture",
+      "definition": "桌椅、长凳、柜等家具"
+    },
+    {
+      "id": 11,
+      "name": "sign",
+      "query": "sign",
+      "definition": "独立告示牌与标识"
+    },
+    {
+      "id": 12,
+      "name": "sky",
+      "query": "sky",
+      "definition": "天空"
+    },
+    {
+      "id": 13,
+      "name": "railing_fence",
+      "query": "railing or fence",
+      "definition": "栏杆、扶手与围栏"
+    },
+    {
+      "id": 14,
+      "name": "other_object",
+      "query": "other object",
+      "definition": "确有可辨物体但不属于前述类别；无法辨识不使用此类"
+    }
+  ],
+  "overlap_rule": "Prefer the most specific listed physical category; mark uncertain/occluded/illegible pixels 255.",
+  "template": "an image of {}"
+}

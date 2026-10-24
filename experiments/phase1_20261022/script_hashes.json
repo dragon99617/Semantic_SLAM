@@ -1,0 +1,202 @@
+{
+  "recorded_at": "2026-10-23T15:56:10.059955+08:00",
+  "scope": "Project execution, preparation, evaluation and reporting scripts; records current source bytes without changing the frozen native estimator",
+  "files": {
+    "scripts/01_install_system.sh": {
+      "sha256": "01330c6e52b001d8310371c97c5800263f69c37ed246fb1231c7dac1df9bcafe",
+      "bytes": 2784
+    },
+    "scripts/02_build.sh": {
+      "sha256": "7a8401231bd976389352533fdb473beae2754cf47b6070b7c611804b96162dec",
+      "bytes": 2476
+    },
+    "scripts/03_run.sh": {
+      "sha256": "e18a9808e09ba221c8302099f1f679d648a0507b2a34768421840a8a406ab678",
+      "bytes": 621
+    },
+    "scripts/04_prepare_retail_bag.py": {
+      "sha256": "eddc791cc6ae7ed8ebf7f277bfd9de2b4b96503a1e593db8abcbb694573b493a",
+      "bytes": 4967
+    },
+    "scripts/05_play.sh": {
+      "sha256": "e22a0dcec9481026be4c58dc64b7b64772fe902f2133a49f0d0ace144bfa3269",
+      "bytes": 570
+    },
+    "scripts/analyze_livo_transitions.py": {
+      "sha256": "89c92b26ce25892948a696b64865455871ac9248cbeb9c7d7f8fcd9e5b94d688",
+      "bytes": 8316
+    },
+    "scripts/audit_livo_parameters.py": {
+      "sha256": "ef0a9cc8621bdf2cbb7e9f107449a93b8481b2bdae9fec58b81733253a9d5bb4",
+      "bytes": 2548
+    },
+    "scripts/audit_osma_pairs.py": {
+      "sha256": "ff9e153067f1d9269f5525bf5c625d9e4e433db322383b14c299d3f20b811e96",
+      "bytes": 2984
+    },
+    "scripts/audit_phase1_inputs.py": {
+      "sha256": "c933457f64b3ded05950a7410d22cc914fa0e05f26b9c944550c2faca661694d",
+      "bytes": 2205
+    },
+    "scripts/bootstrap_sources.py": {
+      "sha256": "2a3e00d64cf55b1f50a0be7de7d903020c0c6998078f1a3a400382303cb3b10e",
+      "bytes": 3465
+    },
+    "scripts/cache_ros2_headers.py": {
+      "sha256": "4c92e20ffd9c52bc8f0b8a3fe819d54a6ebb68347b1151e00762e0dd830bdac1",
+      "bytes": 2132
+    },
+    "scripts/check_oxford_spires.py": {
+      "sha256": "d2a1d2d8ddb9a86ca0c5ba8ad0a33faefd03fb3db0805375b33963590a17cebb",
+      "bytes": 7642
+    },
+    "scripts/download_fusionportable.py": {
+      "sha256": "6ce03e1fbf7487fcd1daa5920f32f7395e00c3be978baf8a281ea80141075031",
+      "bytes": 5544
+    },
+    "scripts/download_m2dgr_door01.sh": {
+      "sha256": "8c8697c4d3eabd44c9900acc74fef9340b75aee7864a69ba2a1971a897cbe64a",
+      "bytes": 3290
+    },
+    "scripts/download_oxford_spires.py": {
+      "sha256": "6d3808c1c8def73edd21dd904845ede405bfe6618e9dfa16169e543775a39992",
+      "bytes": 9111
+    },
+    "scripts/download_replica_selected.py": {
+      "sha256": "934ae9f7dcc0434fa46374774615d17c2e4c569ce03e6f1f160a8c0ea3cd6cb5",
+      "bytes": 4104
+    },
+    "scripts/download_retail_mirror.py": {
+      "sha256": "515a3075dec7fe7f3487b512a9c96108792438383c675f2eb26037bf62ac7a27",
+      "bytes": 4503
+    },
+    "scripts/env.sh": {
+      "sha256": "6b895135fc682e1490b53683e357c73378f3fa49b18989f8dd28479924e5acfd",
+      "bytes": 729
+    },
+    "scripts/evaluate_fusionportable.py": {
+      "sha256": "fb29d535e209e17ae638770cd3fe9219308798f67df320f4b2c09b55ec71a399",
+      "bytes": 6787
+    },
+    "scripts/evaluate_livo_baseline.py": {
+      "sha256": "aa16d84fe7658a0e68ae14738d69ece11799a8796dd65fa6dbca81e4082702b1",
+      "bytes": 10931
+    },
+    "scripts/evaluate_ntu_accuracy.py": {
+      "sha256": "d4cfea70bd42f601218071eaa11b21e9397b9db601cefc86bee8a389ab9419eb",
+      "bytes": 12388
+    },
+    "scripts/evaluate_semantic_benchmark.py": {
+      "sha256": "16f34b57001e826c94769e47985d294acf7a2ffcf15cf14fb906ddcf3806a7d7",
+      "bytes": 12819
+    },
+    "scripts/inspect_bag.py": {
+      "sha256": "e250b14cf39764663bcb439a19a3fa061592d1a7e33043d036e49daee1560f49",
+      "bytes": 5498
+    },
+    "scripts/livo_map_utils.py": {
+      "sha256": "2e08c45050517444a33686e0d2294f3f28682d9d0700ddae92350b1334105db5",
+      "bytes": 2509
+    },
+    "scripts/prepare_fusionportable_bag.py": {
+      "sha256": "d38414c44e3057de581848b16878505f6d911a35dd68b9019c82fb9c4511a6b2",
+      "bytes": 10388
+    },
+    "scripts/prepare_fusionportable_config.py": {
+      "sha256": "c42b901309ba4c1d22593a89f7b4c1c12a61158b669a67adcaaa05cd9c28b7c1",
+      "bytes": 4966
+    },
+    "scripts/prepare_ntu_accuracy_bag.py": {
+      "sha256": "a727cb7121b08e61d878485e4ec15d2f44a65464645fb82536d692aed095a1e0",
+      "bytes": 8172
+    },
+    "scripts/prepare_oxford_livo.py": {
+      "sha256": "66a6a0fcae524d5b14ae2485714adeb160e95eccd00d8c6c841d200359818e0d",
+      "bytes": 10084
+    },
+    "scripts/probe_osma_replay.py": {
+      "sha256": "696ebbc16103fa1ec726c1cafeecb821de6a4deec5dd8a65602548b9bd421f1a",
+      "bytes": 3755
+    },
+    "scripts/refresh_phase1_accuracy_plots.py": {
+      "sha256": "f0cd597fb957b5d5e762e82693f7a1301ef0a9b51c0415987cb85792ba435a61",
+      "bytes": 2503
+    },
+    "scripts/render_osma_paired.py": {
+      "sha256": "7d8e4efe25a091c9d0e75272472a7bde4b8ffc2d01ce7497491980a52c9510b1",
+      "bytes": 6222
+    },
+    "scripts/run_fusionportable.py": {
+      "sha256": "4e5e3378cbdf50e7e27394230780889831f4722129efef62ae4935cd639590f2",
+      "bytes": 11395
+    },
+    "scripts/run_livo_baseline.py": {
+      "sha256": "a9d97f9f24dd5576d1efc4407aff4bf874dfdab064a541a15a69335ea585f3f1",
+      "bytes": 19218
+    },
+    "scripts/run_multibench_batch.py": {
+      "sha256": "814065a2b35a1819dca81d7f2c719a92e2b66cac7ef846ad0bc6b20fc0bb3e34",
+      "bytes": 2847
+    },
+    "scripts/run_ntu_accuracy.py": {
+      "sha256": "e249713c71335c1461895467625e073d7b75499610efe02581b5a7bcf240be0a",
+      "bytes": 7265
+    },
+    "scripts/run_osma_paired_batch.py": {
+      "sha256": "58e4d838861f47c08495b9d13ddf9211eadc44b5014a7d472425873660692eb8",
+      "bytes": 3678
+    },
+    "scripts/run_phase1_batch.py": {
+      "sha256": "2cd4d8d5c7fdc9d6c93e2ba4d4a4436e7b69322a6e8d47414bb5764b787ea321",
+      "bytes": 3971
+    },
+    "scripts/run_reproduction.py": {
+      "sha256": "79d5ac1fd34481b053f2344c43bb42f75bcb14b620ca3e1cd1e27feaafd97d13",
+      "bytes": 10097
+    },
+    "scripts/run_semantic_benchmark.py": {
+      "sha256": "e60d4bb1ed122859bcd85d6cb87eb217d80eff2b52f92e666b82c5380557c23c",
+      "bytes": 5666
+    },
+    "scripts/sample_transition_inputs.py": {
+      "sha256": "ae4917974dd94ee9f58758dadcc68d0aa15f4f09c8b8b04174cb46c745fb1039",
+      "bytes": 3448
+    },
+    "scripts/setup_semantic_env.sh": {
+      "sha256": "aabd80dcf036d1979b0484a39833a6c22a73854576bdb762c672ccb5c696874a",
+      "bytes": 1486
+    },
+    "scripts/summarize_multibench.py": {
+      "sha256": "23fb1d9983eb3c55d19f10a755f49511a9a212c40ae392f038ee729c01ce5092",
+      "bytes": 8734
+    },
+    "scripts/summarize_osma_paired.py": {
+      "sha256": "d9a22a2060bc1dbef11f6bf74bbbde5765f57a07a89e5b10ca1d918769442aee",
+      "bytes": 6654
+    },
+    "scripts/summarize_phase1.py": {
+      "sha256": "bc99d48fe0498f2ff12f0064bd5358ea6a458a34920d23f4f3fd39d3fe942302",
+      "bytes": 10522
+    },
+    "scripts/summarize_run.py": {
+      "sha256": "8b748cc960c7487157225a4d352405726b10b9efd468b0879777cb35d40da146",
+      "bytes": 6523
+    },
+    "scripts/verify_multibench_results.py": {
+      "sha256": "2a209ae9e3d8187ef09a507a08fdc2f65d309129bfc77cadcc693cf56891484d",
+      "bytes": 4688
+    },
+    "scripts/verify_semantic_protocol.py": {
+      "sha256": "97b2ff1e013e0d1c0908a0470fb16284fabb1215fefb4e791ac0ca95e989af84",
+      "bytes": 2152
+    },
+    "scripts/watch_phase1_reports.py": {
+      "sha256": "bf720d98263c31320b07f7e8850fe73d7bb4579511dc9d06f5e198f1f29ab1a3",
+      "bytes": 655
+    },
+    "scripts/write_phase1_report.py": {
+      "sha256": "9e1fa8edc9f840f9e3da811c6b53884cc97c3496281bddbff18de025faf9aa5c",
+      "bytes": 12630
+    }
+  }
+}

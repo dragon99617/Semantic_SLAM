@@ -1,0 +1,6 @@
+{
+  "captured_points": 69930,
+  "voxel_points": 6317,
+  "voxel_m": 0.1,
+  "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+}

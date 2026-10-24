@@ -1,0 +1,2050 @@
+{
+  "run": "experiments/phase1_20261022/runs/oxford05_r1",
+  "visual": {
+    "lio_blocks": 3959,
+    "native_poses": 3959,
+    "visual_frames": 3959,
+    "log_order_mapping_validated": true,
+    "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+    "retrieved_points": {
+      "samples": 3957,
+      "mean": 8.10411928228456,
+      "median": 1.0,
+      "p95": 54.0,
+      "max": 97.0,
+      "rmse": 20.00366405658356
+    },
+    "updated_appearance_map_points": {
+      "samples": 1997,
+      "mean": 10.033049574361542,
+      "median": 2.0,
+      "p95": 43.0,
+      "max": 91.0,
+      "rmse": 18.28424103443476
+    },
+    "missing_retrieval_entries": 2,
+    "zero_retrieval_frames": 1960
+  },
+  "trajectory_intervals_s": {
+    "samples": 3958,
+    "mean": 0.2019678582562046,
+    "median": 0.1999969482421875,
+    "p95": 0.199998140335083,
+    "max": 0.5999948978424072,
+    "rmse": 0.20342904235324027
+  },
+  "pose_gaps_over_0_5_s": 10,
+  "events": [
+    {
+      "id": "oxford05_t1",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710926448.6982598,
+      "interval_end_sensor_s": 1710926453.8981977,
+      "center_sensor_s": 1710926451.2982287,
+      "center_from_first_image_s": 129.39851689338684,
+      "uncertainty_half_width_s": 2.599968910217285,
+      "evidence_indices": [
+        25,
+        26
+      ],
+      "primary_indoor_outdoor": true,
+      "mapper_time_center_sensor_s": 1710926451.2982287,
+      "comparisons": {
+        "base": {
+          "nearest": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.08947389834005266,
+                  "median": 0.08618705861551462,
+                  "p95": 0.11165650344919549,
+                  "max": 0.11395044440060331,
+                  "rmse": 0.09013195455559295
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799721002578735
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 101,
+                  "mean": 0.14009899752975224,
+                  "median": 0.13953271905163706,
+                  "p95": 0.16514645249419727,
+                  "max": 0.16744872082845857,
+                  "rmse": 0.14107823614561332
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.999757051467896
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.16101736181419607,
+                  "median": 0.16061061661668674,
+                  "p95": 0.16676055201860554,
+                  "max": 0.16813053562921842,
+                  "rmse": 0.16106170277275805
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799760103225708
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 151
+            }
+          },
+          "interpolated": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.09073350905162661,
+                  "median": 0.08766139931960026,
+                  "p95": 0.1129132349327627,
+                  "max": 0.11520678041024711,
+                  "rmse": 0.09138038023065473
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799721002578735
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 91,
+                  "mean": 0.1433387383911713,
+                  "median": 0.14281610598954947,
+                  "p95": 0.1673051231370224,
+                  "max": 0.16885653247215288,
+                  "rmse": 0.14425245834749123
+                },
+                "reference_window_fraction_of_estimate_poses": 0.900990099009901,
+                "matched_time_span_s": 19.999757051467896
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.16331040139637154,
+                  "median": 0.16301697175334037,
+                  "p95": 0.1683401395561398,
+                  "max": 0.16961288068505426,
+                  "rmse": 0.16334481559396713
+                },
+                "reference_window_fraction_of_estimate_poses": 0.99,
+                "matched_time_span_s": 19.799760103225708
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 149
+            }
+          }
+        }
+      },
+      "windows": {
+        "before": {
+          "requested_sensor_interval_s": [
+            1710926421.2982287,
+            1710926441.2982287
+          ],
+          "observed_pose_samples": 100,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 99,
+            "mean": 0.19999718184422965,
+            "median": 0.1999979019165039,
+            "p95": 0.199998140335083,
+            "max": 0.19999909400939941,
+            "rmse": 0.1999971819312271
+          },
+          "image_samples": 11,
+          "appearance": {
+            "mean_gray": {
+              "samples": 11,
+              "mean": 78.78354681069959,
+              "median": 77.08005658436214,
+              "p95": 92.98803240740742,
+              "max": 95.78469393004116,
+              "rmse": 79.30369516244848
+            },
+            "black_fraction": {
+              "samples": 11,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 11,
+              "mean": 0.04310863262252151,
+              "median": 0.04573816872427983,
+              "p95": 0.058050411522633745,
+              "max": 0.059032921810699586,
+              "rmse": 0.04497410422959662
+            },
+            "laplacian_variance": {
+              "samples": 11,
+              "mean": 1685.7190772100892,
+              "median": 1772.7926377360027,
+              "p95": 2155.531836968316,
+              "max": 2310.587233843316,
+              "rmse": 1722.1289900255892
+            }
+          },
+          "visual": {
+            "frames": 100,
+            "retrieved_points": {
+              "samples": 100,
+              "mean": 47.16,
+              "median": 46.5,
+              "p95": 79.05,
+              "max": 97.0,
+              "rmse": 52.26279747583361
+            },
+            "fraction_zero_retrieval_among_known": 0.0,
+            "known_retrieval_frames": 100,
+            "appearance_map_updates": {
+              "samples": 100,
+              "mean": 28.19,
+              "median": 28.5,
+              "p95": 46.099999999999994,
+              "max": 55.0,
+              "rmse": 30.46292828997239
+            }
+          }
+        },
+        "transition": {
+          "requested_sensor_interval_s": [
+            1710926441.2982287,
+            1710926461.2982287
+          ],
+          "observed_pose_samples": 101,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 100,
+            "mean": 0.19999757051467895,
+            "median": 0.1999979019165039,
+            "p95": 0.199998140335083,
+            "max": 0.20000004768371582,
+            "rmse": 0.1999975705158269
+          },
+          "image_samples": 14,
+          "appearance": {
+            "mean_gray": {
+              "samples": 14,
+              "mean": 95.11312518371544,
+              "median": 95.14084104938271,
+              "p95": 101.39600771604938,
+              "max": 102.65255401234568,
+              "rmse": 95.2158547001549
+            },
+            "black_fraction": {
+              "samples": 14,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 14,
+              "mean": 0.1441058568489124,
+              "median": 0.14550925925925928,
+              "p95": 0.18764596193415636,
+              "max": 0.19103137860082303,
+              "rmse": 0.1478257586454998
+            },
+            "laplacian_variance": {
+              "samples": 14,
+              "mean": 1460.2780851457867,
+              "median": 1475.1966636542427,
+              "p95": 2118.032544743381,
+              "max": 2120.404935373264,
+              "rmse": 1524.930988391096
+            }
+          },
+          "visual": {
+            "frames": 101,
+            "retrieved_points": {
+              "samples": 101,
+              "mean": 16.514851485148515,
+              "median": 6.0,
+              "p95": 62.0,
+              "max": 66.0,
+              "rmse": 26.535237174014256
+            },
+            "fraction_zero_retrieval_among_known": 0.009900990099009901,
+            "known_retrieval_frames": 101,
+            "appearance_map_updates": {
+              "samples": 100,
+              "mean": 9.78,
+              "median": 3.0,
+              "p95": 40.099999999999994,
+              "max": 44.0,
+              "rmse": 16.769019053003667
+            }
+          }
+        },
+        "after": {
+          "requested_sensor_interval_s": [
+            1710926461.2982287,
+            1710926481.2982287
+          ],
+          "observed_pose_samples": 100,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 99,
+            "mean": 0.19999757680025967,
+            "median": 0.1999979019165039,
+            "p95": 0.199998140335083,
+            "max": 0.199998140335083,
+            "rmse": 0.19999757680090408
+          },
+          "image_samples": 12,
+          "appearance": {
+            "mean_gray": {
+              "samples": 12,
+              "mean": 81.8949659207819,
+              "median": 82.16542695473251,
+              "p95": 88.76243479938272,
+              "max": 89.873125,
+              "rmse": 82.0429388453004
+            },
+            "black_fraction": {
+              "samples": 12,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 12,
+              "mean": 0.08520211762688613,
+              "median": 0.08721707818930041,
+              "p95": 0.10429153806584361,
+              "max": 0.10986368312757201,
+              "rmse": 0.08632533708739394
+            },
+            "laplacian_variance": {
+              "samples": 12,
+              "mean": 1348.642609073441,
+              "median": 1351.428423328993,
+              "p95": 1450.427664296875,
+              "max": 1458.6125067708333,
+              "rmse": 1352.1047002416663
+            }
+          },
+          "visual": {
+            "frames": 100,
+            "retrieved_points": {
+              "samples": 100,
+              "mean": 4.07,
+              "median": 4.0,
+              "p95": 7.049999999999997,
+              "max": 10.0,
+              "rmse": 4.655104724922953
+            },
+            "fraction_zero_retrieval_among_known": 0.04,
+            "known_retrieval_frames": 100,
+            "appearance_map_updates": {
+              "samples": 96,
+              "mean": 2.3541666666666665,
+              "median": 2.0,
+              "p95": 5.0,
+              "max": 6.0,
+              "rmse": 2.8247418761130487
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "oxford05_t2",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Cathedral entrance via vestibule",
+      "interval_start_sensor_s": 1710926667.895254,
+      "interval_end_sensor_s": 1710926678.0951152,
+      "center_sensor_s": 1710926672.9951844,
+      "center_from_first_image_s": 351.095472574234,
+      "uncertainty_half_width_s": 5.099930644035339,
+      "evidence_indices": [
+        68,
+        70
+      ],
+      "primary_indoor_outdoor": true,
+      "mapper_time_center_sensor_s": 1710926672.9951844,
+      "comparisons": {
+        "base": {
+          "nearest": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.061792859348990904,
+                  "median": 0.05998346680768844,
+                  "p95": 0.0759870176840994,
+                  "max": 0.08048382934255029,
+                  "rmse": 0.06220308908323113
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799726009368896
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.07679578345632346,
+                  "median": 0.07760925361948659,
+                  "p95": 0.08978673775701453,
+                  "max": 0.09098264418710138,
+                  "rmse": 0.07722756417582657
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799726009368896
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 96,
+                  "mean": 0.0376279983308477,
+                  "median": 0.030600316137106447,
+                  "p95": 0.07394338700565928,
+                  "max": 0.08033527340646282,
+                  "rmse": 0.0418421283570243
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799715995788574
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 145
+            }
+          },
+          "interpolated": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.06252811791731329,
+                  "median": 0.060892980054206944,
+                  "p95": 0.0759682974853919,
+                  "max": 0.08038402837229106,
+                  "rmse": 0.06289715640489077
+                },
+                "reference_window_fraction_of_estimate_poses": 0.99,
+                "matched_time_span_s": 19.799726009368896
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.07714209896830893,
+                  "median": 0.07809247691305816,
+                  "p95": 0.08955059679740876,
+                  "max": 0.09074009161738486,
+                  "rmse": 0.07755696369212159
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799726009368896
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 92,
+                  "mean": 0.036687645599160525,
+                  "median": 0.02941917534248361,
+                  "p95": 0.07450126204981676,
+                  "max": 0.0770093855148945,
+                  "rmse": 0.04071577215490025
+                },
+                "reference_window_fraction_of_estimate_poses": 0.9583333333333334,
+                "matched_time_span_s": 19.799715995788574
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 141
+            }
+          }
+        }
+      },
+      "windows": {
+        "before": {
+          "requested_sensor_interval_s": [
+            1710926642.9951844,
+            1710926662.9951844
+          ],
+          "observed_pose_samples": 100,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 99,
+            "mean": 0.19999723241786765,
+            "median": 0.1999969482421875,
+            "p95": 0.199998140335083,
+            "max": 0.20000195503234863,
+            "rmse": 0.19999723241889739
+          },
+          "image_samples": 11,
+          "appearance": {
+            "mean_gray": {
+              "samples": 11,
+              "mean": 74.77653713056492,
+              "median": 74.23258744855967,
+              "p95": 84.01569830246913,
+              "max": 85.6336059670782,
+              "rmse": 75.04666031706279
+            },
+            "black_fraction": {
+              "samples": 11,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 11,
+              "mean": 0.05383885147774037,
+              "median": 0.04987139917695473,
+              "p95": 0.08639531893004115,
+              "max": 0.08886831275720164,
+              "rmse": 0.05774416522759041
+            },
+            "laplacian_variance": {
+              "samples": 11,
+              "mean": 1716.7075145581794,
+              "median": 1698.827515166558,
+              "p95": 1831.098360474989,
+              "max": 1853.5418904920791,
+              "rmse": 1718.9478611708284
+            }
+          },
+          "visual": {
+            "frames": 100,
+            "retrieved_points": {
+              "samples": 100,
+              "mean": 0.11,
+              "median": 0.0,
+              "p95": 1.0,
+              "max": 2.0,
+              "rmse": 0.3872983346207417
+            },
+            "fraction_zero_retrieval_among_known": 0.91,
+            "known_retrieval_frames": 100,
+            "appearance_map_updates": {
+              "samples": 9,
+              "mean": 0.2222222222222222,
+              "median": 0.0,
+              "p95": 1.0,
+              "max": 1.0,
+              "rmse": 0.4714045207910317
+            }
+          }
+        },
+        "transition": {
+          "requested_sensor_interval_s": [
+            1710926662.9951844,
+            1710926682.9951844
+          ],
+          "observed_pose_samples": 99,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 98,
+            "mean": 0.20203802050376424,
+            "median": 0.1999969482421875,
+            "p95": 0.199998140335083,
+            "max": 0.399993896484375,
+            "rmse": 0.20303533328663387
+          },
+          "image_samples": 11,
+          "appearance": {
+            "mean_gray": {
+              "samples": 11,
+              "mean": 42.40073162177329,
+              "median": 40.53562242798354,
+              "p95": 60.00475565843621,
+              "max": 60.76158179012346,
+              "rmse": 44.322036927026296
+            },
+            "black_fraction": {
+              "samples": 11,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 11,
+              "mean": 0.0029942947998503554,
+              "median": 6.430041152263375e-05,
+              "p95": 0.01243827160493827,
+              "max": 0.013189300411522633,
+              "rmse": 0.0057501966787714635
+            },
+            "laplacian_variance": {
+              "samples": 11,
+              "mean": 697.4359708247022,
+              "median": 382.8538730875651,
+              "p95": 1593.7818130805122,
+              "max": 1637.074777734375,
+              "rmse": 877.2039414534606
+            }
+          },
+          "visual": {
+            "frames": 99,
+            "retrieved_points": {
+              "samples": 99,
+              "mean": 4.707070707070707,
+              "median": 2.0,
+              "p95": 18.299999999999983,
+              "max": 24.0,
+              "rmse": 7.941706810925916
+            },
+            "fraction_zero_retrieval_among_known": 0.3333333333333333,
+            "known_retrieval_frames": 99,
+            "appearance_map_updates": {
+              "samples": 66,
+              "mean": 4.5,
+              "median": 2.5,
+              "p95": 14.0,
+              "max": 18.0,
+              "rmse": 6.549346486019761
+            }
+          }
+        },
+        "after": {
+          "requested_sensor_interval_s": [
+            1710926682.9951844,
+            1710926702.9951844
+          ],
+          "observed_pose_samples": 96,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 95,
+            "mean": 0.20841806311356395,
+            "median": 0.1999969482421875,
+            "p95": 0.199998140335083,
+            "max": 0.5999948978424072,
+            "rmse": 0.21618403336941253
+          },
+          "image_samples": 14,
+          "appearance": {
+            "mean_gray": {
+              "samples": 14,
+              "mean": 30.07622391240447,
+              "median": 31.6816975308642,
+              "p95": 35.327489711934156,
+              "max": 35.737919238683126,
+              "rmse": 30.401776344662068
+            },
+            "black_fraction": {
+              "samples": 14,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 14,
+              "mean": 0.00038727219282774837,
+              "median": 3.2150205761316875e-05,
+              "p95": 0.0017470421810699588,
+              "max": 0.0019393004115226338,
+              "rmse": 0.0007405684874675375
+            },
+            "laplacian_variance": {
+              "samples": 14,
+              "mean": 1128.998297634355,
+              "median": 1076.734133070204,
+              "p95": 2014.2628618126084,
+              "max": 2103.1436523328994,
+              "rmse": 1217.961783182213
+            }
+          },
+          "visual": {
+            "frames": 96,
+            "retrieved_points": {
+              "samples": 96,
+              "mean": 5.385416666666667,
+              "median": 3.0,
+              "p95": 24.0,
+              "max": 29.0,
+              "rmse": 8.68007776462861
+            },
+            "fraction_zero_retrieval_among_known": 0.09375,
+            "known_retrieval_frames": 96,
+            "appearance_map_updates": {
+              "samples": 87,
+              "mean": 3.8620689655172415,
+              "median": 2.0,
+              "p95": 18.700000000000003,
+              "max": 22.0,
+              "rmse": 6.7958743400667005
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "oxford05_t3",
+      "from_environment": "indoor",
+      "to_environment": "covered_passage",
+      "note": "Leave cathedral for cloister; broader uncertain interval",
+      "interval_start_sensor_s": 1710926939.4913528,
+      "interval_end_sensor_s": 1710926954.6911147,
+      "center_sensor_s": 1710926947.0912337,
+      "center_from_first_image_s": 625.1915218830109,
+      "uncertainty_half_width_s": 7.599880933761597,
+      "evidence_indices": [
+        121,
+        124
+      ],
+      "primary_indoor_outdoor": false,
+      "mapper_time_center_sensor_s": 1710926947.0912337,
+      "comparisons": {
+        "base": {
+          "nearest": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 98,
+                  "mean": 0.06741490443367898,
+                  "median": 0.06188208243051538,
+                  "p95": 0.10794097190159244,
+                  "max": 0.11081663189609575,
+                  "rmse": 0.07254465399443123
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799697875976562
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 101,
+                  "mean": 0.10564634666590175,
+                  "median": 0.11221817652616128,
+                  "p95": 0.12035749361385603,
+                  "max": 0.12141752761066865,
+                  "rmse": 0.10694761510325937
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.999675035476685
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.049971973946316826,
+                  "median": 0.044582547206124305,
+                  "p95": 0.08466030842235348,
+                  "max": 0.08900487615873341,
+                  "rmse": 0.05344596580053571
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.79969596862793
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 151
+            }
+          },
+          "interpolated": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 98,
+                  "mean": 0.06881744136263288,
+                  "median": 0.06380574792249707,
+                  "p95": 0.10964536603094921,
+                  "max": 0.11250091623858637,
+                  "rmse": 0.07402646875611414
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799697875976562
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 98,
+                  "mean": 0.10676064023971779,
+                  "median": 0.11337825365744675,
+                  "p95": 0.1215172749035442,
+                  "max": 0.12286042062423976,
+                  "rmse": 0.10808540349236913
+                },
+                "reference_window_fraction_of_estimate_poses": 0.9702970297029703,
+                "matched_time_span_s": 19.999675035476685
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.04971879558584317,
+                  "median": 0.04471132035720165,
+                  "p95": 0.08411045983861244,
+                  "max": 0.08836854279214545,
+                  "rmse": 0.05316300537398317
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.79969596862793
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 151
+            }
+          }
+        }
+      },
+      "windows": {
+        "before": {
+          "requested_sensor_interval_s": [
+            1710926917.0912337,
+            1710926937.0912337
+          ],
+          "observed_pose_samples": 98,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 97,
+            "mean": 0.20412059665955218,
+            "median": 0.1999969482421875,
+            "p95": 0.199998140335083,
+            "max": 0.399993896484375,
+            "rmse": 0.20608961789490454
+          },
+          "image_samples": 8,
+          "appearance": {
+            "mean_gray": {
+              "samples": 8,
+              "mean": 32.271697209362145,
+              "median": 32.374591049382715,
+              "p95": 42.526912037037036,
+              "max": 42.74479423868313,
+              "rmse": 33.1545055872284
+            },
+            "black_fraction": {
+              "samples": 8,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 8,
+              "mean": 0.002981610082304527,
+              "median": 0.0009979423868312757,
+              "p95": 0.011940200617283944,
+              "max": 0.01748456790123457,
+              "rmse": 0.0062575705590907395
+            },
+            "laplacian_variance": {
+              "samples": 8,
+              "mean": 1167.831110538398,
+              "median": 1127.6726711669921,
+              "p95": 2456.144796169705,
+              "max": 2611.5977087565107,
+              "rmse": 1431.2223791575468
+            }
+          },
+          "visual": {
+            "frames": 98,
+            "retrieved_points": {
+              "samples": 98,
+              "mean": 0.1836734693877551,
+              "median": 0.0,
+              "p95": 1.0,
+              "max": 2.0,
+              "rmse": 0.47380354147934284
+            },
+            "fraction_zero_retrieval_among_known": 0.8367346938775511,
+            "known_retrieval_frames": 98,
+            "appearance_map_updates": {
+              "samples": 16,
+              "mean": 0.75,
+              "median": 1.0,
+              "p95": 1.0,
+              "max": 1.0,
+              "rmse": 0.8660254037844386
+            }
+          }
+        },
+        "transition": {
+          "requested_sensor_interval_s": [
+            1710926937.0912337,
+            1710926957.0912337
+          ],
+          "observed_pose_samples": 101,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 100,
+            "mean": 0.19999675035476686,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.1999971866607666,
+            "rmse": 0.1999967503585443
+          },
+          "image_samples": 10,
+          "appearance": {
+            "mean_gray": {
+              "samples": 10,
+              "mean": 56.6715853909465,
+              "median": 62.282763631687246,
+              "p95": 84.29600668724278,
+              "max": 90.26404835390946,
+              "rmse": 60.11498310057992
+            },
+            "black_fraction": {
+              "samples": 10,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 10,
+              "mean": 0.02756301440329218,
+              "median": 0.015473251028806584,
+              "p95": 0.07699807098765431,
+              "max": 0.08024691358024691,
+              "rmse": 0.03844404831724746
+            },
+            "laplacian_variance": {
+              "samples": 10,
+              "mean": 2203.203267834201,
+              "median": 1847.3537515177409,
+              "p95": 4349.131104124891,
+              "max": 4800.486289539931,
+              "rmse": 2540.430765923187
+            }
+          },
+          "visual": {
+            "frames": 101,
+            "retrieved_points": {
+              "samples": 101,
+              "mean": 0.8316831683168316,
+              "median": 1.0,
+              "p95": 3.0,
+              "max": 4.0,
+              "rmse": 1.2742693499561322
+            },
+            "fraction_zero_retrieval_among_known": 0.4752475247524752,
+            "known_retrieval_frames": 101,
+            "appearance_map_updates": {
+              "samples": 53,
+              "mean": 1.0377358490566038,
+              "median": 1.0,
+              "p95": 2.0,
+              "max": 3.0,
+              "rmse": 1.2958569685805867
+            }
+          }
+        },
+        "after": {
+          "requested_sensor_interval_s": [
+            1710926957.0912337,
+            1710926977.0912337
+          ],
+          "observed_pose_samples": 100,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 99,
+            "mean": 0.19999692897603968,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.199998140335083,
+            "rmse": 0.19999692897677085
+          },
+          "image_samples": 12,
+          "appearance": {
+            "mean_gray": {
+              "samples": 12,
+              "mean": 64.15285729595335,
+              "median": 64.88549125514403,
+              "p95": 79.93232265946502,
+              "max": 83.8152109053498,
+              "rmse": 65.16586715151477
+            },
+            "black_fraction": {
+              "samples": 12,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 12,
+              "mean": 0.005857124485596708,
+              "median": 0.0037217078189300413,
+              "p95": 0.017658822016460903,
+              "max": 0.019575617283950617,
+              "rmse": 0.008571556463700003
+            },
+            "laplacian_variance": {
+              "samples": 12,
+              "mean": 2039.5121939986614,
+              "median": 2081.1275606418185,
+              "p95": 3531.3623486809624,
+              "max": 3587.872359350586,
+              "rmse": 2296.6768055293555
+            }
+          },
+          "visual": {
+            "frames": 100,
+            "retrieved_points": {
+              "samples": 100,
+              "mean": 0.24,
+              "median": 0.0,
+              "p95": 2.0,
+              "max": 3.0,
+              "rmse": 0.6633249580710799
+            },
+            "fraction_zero_retrieval_among_known": 0.84,
+            "known_retrieval_frames": 100,
+            "appearance_map_updates": {
+              "samples": 16,
+              "mean": 0.5625,
+              "median": 1.0,
+              "p95": 1.0,
+              "max": 1.0,
+              "rmse": 0.75
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "oxford05_t4",
+      "from_environment": "covered_passage",
+      "to_environment": "outdoor",
+      "note": "Leave cloister to courtyard",
+      "interval_start_sensor_s": 1710926995.4904506,
+      "interval_end_sensor_s": 1710927000.6903648,
+      "center_sensor_s": 1710926998.0904078,
+      "center_from_first_image_s": 676.1906960010529,
+      "uncertainty_half_width_s": 2.5999571084976196,
+      "evidence_indices": [
+        132,
+        133
+      ],
+      "primary_indoor_outdoor": false,
+      "mapper_time_center_sensor_s": 1710926998.0904078,
+      "comparisons": {
+        "base": {
+          "nearest": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.08725858602093604,
+                  "median": 0.08953453651060994,
+                  "p95": 0.11681513414575273,
+                  "max": 0.121738598576873,
+                  "rmse": 0.08974484752743148
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.79968285560608
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 101,
+                  "mean": 0.18158555449808256,
+                  "median": 0.1865874824318699,
+                  "p95": 0.19600752085395123,
+                  "max": 0.447142138492538,
+                  "rmse": 0.18901338266075135
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.999670028686523
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.19147485052746038,
+                  "median": 0.17871843297097803,
+                  "p95": 0.2899008715811941,
+                  "max": 0.5883874474287758,
+                  "rmse": 0.20737189171485773
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.7996768951416
+              }
+            },
+            "exploratory_recovery": {
+              "status": "return_below_fixed_threshold",
+              "time_to_return_s": 0.5999898910522461,
+              "first_excursion_sensor_s": 1710927019.690056,
+              "returned_sensor_s": 1710927020.290046
+            }
+          },
+          "interpolated": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.08678150265890514,
+                  "median": 0.08896392004118925,
+                  "p95": 0.1162683858967372,
+                  "max": 0.12148240520528167,
+                  "rmse": 0.08928700790957543
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.79968285560608
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 90,
+                  "mean": 0.1799537393287156,
+                  "median": 0.18548604966943424,
+                  "p95": 0.2263365707281786,
+                  "max": 0.44694898006612327,
+                  "rmse": 0.18830506335783936
+                },
+                "reference_window_fraction_of_estimate_poses": 0.8910891089108911,
+                "matched_time_span_s": 19.999670028686523
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 96,
+                  "mean": 0.1923517468951547,
+                  "median": 0.17901136951835828,
+                  "p95": 0.30244839811353474,
+                  "max": 0.5880621894501765,
+                  "rmse": 0.2085531397699572
+                },
+                "reference_window_fraction_of_estimate_poses": 0.9696969696969697,
+                "matched_time_span_s": 19.7996768951416
+              }
+            },
+            "exploratory_recovery": {
+              "status": "return_below_fixed_threshold",
+              "time_to_return_s": 0.5999898910522461,
+              "first_excursion_sensor_s": 1710927019.690056,
+              "returned_sensor_s": 1710927020.290046
+            }
+          }
+        }
+      },
+      "windows": {
+        "before": {
+          "requested_sensor_interval_s": [
+            1710926968.0904078,
+            1710926988.0904078
+          ],
+          "observed_pose_samples": 99,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 98,
+            "mean": 0.2020375801592457,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.399993896484375,
+            "rmse": 0.2030348995318508
+          },
+          "image_samples": 9,
+          "appearance": {
+            "mean_gray": {
+              "samples": 9,
+              "mean": 67.4229392432556,
+              "median": 67.61689300411523,
+              "p95": 78.14762602880658,
+              "max": 79.38527520576132,
+              "rmse": 68.07034204944361
+            },
+            "black_fraction": {
+              "samples": 9,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 9,
+              "mean": 0.008002972107910379,
+              "median": 0.0045241769547325105,
+              "p95": 0.01924639917695473,
+              "max": 0.021350308641975308,
+              "rmse": 0.01028263102333634
+            },
+            "laplacian_variance": {
+              "samples": 9,
+              "mean": 2603.8218031846786,
+              "median": 2698.1392239556208,
+              "p95": 3334.213274981011,
+              "max": 3587.872359350586,
+              "rmse": 2651.072315934723
+            }
+          },
+          "visual": {
+            "frames": 99,
+            "retrieved_points": {
+              "samples": 99,
+              "mean": 0.21212121212121213,
+              "median": 0.0,
+              "p95": 1.0,
+              "max": 3.0,
+              "rmse": 0.5773502691896257
+            },
+            "fraction_zero_retrieval_among_known": 0.8383838383838383,
+            "known_retrieval_frames": 99,
+            "appearance_map_updates": {
+              "samples": 16,
+              "mean": 0.5,
+              "median": 0.5,
+              "p95": 1.0,
+              "max": 1.0,
+              "rmse": 0.7071067811865476
+            }
+          }
+        },
+        "transition": {
+          "requested_sensor_interval_s": [
+            1710926988.0904078,
+            1710927008.0904078
+          ],
+          "observed_pose_samples": 101,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 100,
+            "mean": 0.19999670028686523,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.1999971866607666,
+            "rmse": 0.1999967002874164
+          },
+          "image_samples": 12,
+          "appearance": {
+            "mean_gray": {
+              "samples": 12,
+              "mean": 89.65585005144032,
+              "median": 82.5051440329218,
+              "p95": 128.19950527263373,
+              "max": 136.89281121399176,
+              "rmse": 91.54964661768503
+            },
+            "black_fraction": {
+              "samples": 12,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 12,
+              "mean": 0.04349472736625515,
+              "median": 0.03294753086419753,
+              "p95": 0.0927770061728395,
+              "max": 0.09606738683127572,
+              "rmse": 0.052263450837005634
+            },
+            "laplacian_variance": {
+              "samples": 12,
+              "mean": 3245.6713514508283,
+              "median": 3314.1048682006835,
+              "p95": 4205.893254825168,
+              "max": 4332.738093747287,
+              "rmse": 3332.6887287007166
+            }
+          },
+          "visual": {
+            "frames": 101,
+            "retrieved_points": {
+              "samples": 101,
+              "mean": 0.39603960396039606,
+              "median": 0.0,
+              "p95": 3.0,
+              "max": 5.0,
+              "rmse": 1.0624089943553419
+            },
+            "fraction_zero_retrieval_among_known": 0.8217821782178217,
+            "known_retrieval_frames": 101,
+            "appearance_map_updates": {
+              "samples": 18,
+              "mean": 1.2222222222222223,
+              "median": 1.0,
+              "p95": 3.299999999999997,
+              "max": 5.0,
+              "rmse": 1.8257418583505538
+            }
+          }
+        },
+        "after": {
+          "requested_sensor_interval_s": [
+            1710927008.0904078,
+            1710927028.0904078
+          ],
+          "observed_pose_samples": 99,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 98,
+            "mean": 0.2020375193381796,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.3999929428100586,
+            "rmse": 0.20303483003431047
+          },
+          "image_samples": 13,
+          "appearance": {
+            "mean_gray": {
+              "samples": 13,
+              "mean": 80.11780686134853,
+              "median": 72.16965534979424,
+              "p95": 115.98320730452673,
+              "max": 123.32606224279836,
+              "rmse": 82.23045684550571
+            },
+            "black_fraction": {
+              "samples": 13,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 13,
+              "mean": 0.03681366729977841,
+              "median": 0.03770061728395062,
+              "p95": 0.10525668724279828,
+              "max": 0.13512860082304526,
+              "rmse": 0.053175872573469764
+            },
+            "laplacian_variance": {
+              "samples": 13,
+              "mean": 2448.1308108196026,
+              "median": 2271.258854166667,
+              "p95": 3861.6897681711152,
+              "max": 3998.9398564995663,
+              "rmse": 2614.1912297283525
+            }
+          },
+          "visual": {
+            "frames": 99,
+            "retrieved_points": {
+              "samples": 99,
+              "mean": 0.1111111111111111,
+              "median": 0.0,
+              "p95": 1.0,
+              "max": 3.0,
+              "rmse": 0.4605661864718383
+            },
+            "fraction_zero_retrieval_among_known": 0.9292929292929293,
+            "known_retrieval_frames": 99,
+            "appearance_map_updates": {
+              "samples": 7,
+              "mean": 0.8571428571428571,
+              "median": 0.0,
+              "p95": 2.6999999999999993,
+              "max": 3.0,
+              "rmse": 1.4142135623730951
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "oxford05_t5",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Great Hall staircase entrance",
+      "interval_start_sensor_s": 1710927041.4896958,
+      "interval_end_sensor_s": 1710927046.489613,
+      "center_sensor_s": 1710927043.9896545,
+      "center_from_first_image_s": 722.0899426937103,
+      "uncertainty_half_width_s": 2.499958634376526,
+      "evidence_indices": [
+        141,
+        142
+      ],
+      "primary_indoor_outdoor": true,
+      "mapper_time_center_sensor_s": 1710927043.9896545,
+      "comparisons": {
+        "base": {
+          "nearest": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.19590585107698438,
+                  "median": 0.19062449319554214,
+                  "p95": 0.28591419041438393,
+                  "max": 0.5883874474287758,
+                  "rmse": 0.21101787916565154
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799674034118652
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.2302609873234719,
+                  "median": 0.2290849830361692,
+                  "p95": 0.2834342330487776,
+                  "max": 0.2959607006590637,
+                  "rmse": 0.23380746644154385
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799670934677124
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 96,
+                  "mean": 0.3288756061774237,
+                  "median": 0.33094116436692333,
+                  "p95": 0.38600561239503145,
+                  "max": 0.43236759507960776,
+                  "rmse": 0.3311316911820489
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799701929092407
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 146
+            }
+          },
+          "interpolated": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 100,
+                  "mean": 0.19640878777676288,
+                  "median": 0.19099359133965751,
+                  "p95": 0.2866306188492495,
+                  "max": 0.5880621894501765,
+                  "rmse": 0.2113983437872233
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799674034118652
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 95,
+                  "mean": 0.23221249732623134,
+                  "median": 0.2340088195464288,
+                  "p95": 0.28322824474745256,
+                  "max": 0.2950462915727006,
+                  "rmse": 0.23564016529505247
+                },
+                "reference_window_fraction_of_estimate_poses": 0.95,
+                "matched_time_span_s": 19.799670934677124
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 96,
+                  "mean": 0.3273979233949232,
+                  "median": 0.32971278543019733,
+                  "p95": 0.3839669628574168,
+                  "max": 0.43016032523478354,
+                  "rmse": 0.3296413136585502
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799701929092407
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 146
+            }
+          }
+        }
+      },
+      "windows": {
+        "before": {
+          "requested_sensor_interval_s": [
+            1710927013.9896545,
+            1710927033.9896545
+          ],
+          "observed_pose_samples": 100,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 99,
+            "mean": 0.19999670741533992,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.1999971866607666,
+            "rmse": 0.19999670741588393
+          },
+          "image_samples": 12,
+          "appearance": {
+            "mean_gray": {
+              "samples": 12,
+              "mean": 83.67787294238683,
+              "median": 77.11549382716049,
+              "p95": 116.59511188271604,
+              "max": 123.32606224279836,
+              "rmse": 85.41543289983142
+            },
+            "black_fraction": {
+              "samples": 12,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 12,
+              "mean": 0.04702760631001373,
+              "median": 0.03819958847736625,
+              "p95": 0.10774601337448556,
+              "max": 0.13512860082304526,
+              "rmse": 0.0586030157957814
+            },
+            "laplacian_variance": {
+              "samples": 12,
+              "mean": 2666.214176607259,
+              "median": 2454.3701479166666,
+              "p95": 3873.1272755318196,
+              "max": 3998.9398564995663,
+              "rmse": 2784.2013032986597
+            }
+          },
+          "visual": {
+            "frames": 100,
+            "retrieved_points": {
+              "samples": 100,
+              "mean": 0.11,
+              "median": 0.0,
+              "p95": 1.0,
+              "max": 3.0,
+              "rmse": 0.458257569495584
+            },
+            "fraction_zero_retrieval_among_known": 0.93,
+            "known_retrieval_frames": 100,
+            "appearance_map_updates": {
+              "samples": 7,
+              "mean": 0.8571428571428571,
+              "median": 0.0,
+              "p95": 2.6999999999999993,
+              "max": 3.0,
+              "rmse": 1.4142135623730951
+            }
+          }
+        },
+        "transition": {
+          "requested_sensor_interval_s": [
+            1710927033.9896545,
+            1710927053.9896545
+          ],
+          "observed_pose_samples": 100,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 99,
+            "mean": 0.19999667610784974,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.1999971866607666,
+            "rmse": 0.1999966761083981
+          },
+          "image_samples": 14,
+          "appearance": {
+            "mean_gray": {
+              "samples": 14,
+              "mean": 69.55158822016462,
+              "median": 69.74435956790123,
+              "p95": 88.73822235082304,
+              "max": 89.65429269547325,
+              "rmse": 70.9381612030612
+            },
+            "black_fraction": {
+              "samples": 14,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 14,
+              "mean": 0.021904578189300413,
+              "median": 0.006204989711934157,
+              "p95": 0.07296656378600823,
+              "max": 0.07464506172839507,
+              "rmse": 0.03491727840986861
+            },
+            "laplacian_variance": {
+              "samples": 14,
+              "mean": 1167.5296274210612,
+              "median": 1031.42199784885,
+              "p95": 2039.4256624674476,
+              "max": 2098.489730859375,
+              "rmse": 1336.2605918300756
+            }
+          },
+          "visual": {
+            "frames": 100,
+            "retrieved_points": {
+              "samples": 100,
+              "mean": 0.01,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 1.0,
+              "rmse": 0.1
+            },
+            "fraction_zero_retrieval_among_known": 0.99,
+            "known_retrieval_frames": 100,
+            "appearance_map_updates": {
+              "samples": 1,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            }
+          }
+        },
+        "after": {
+          "requested_sensor_interval_s": [
+            1710927053.9896545,
+            1710927073.9896545
+          ],
+          "observed_pose_samples": 96,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 95,
+            "mean": 0.20841791504307797,
+            "median": 0.1999969482421875,
+            "p95": 0.199998140335083,
+            "max": 0.5999889373779297,
+            "rmse": 0.2142273121638623
+          },
+          "image_samples": 12,
+          "appearance": {
+            "mean_gray": {
+              "samples": 12,
+              "mean": 42.304699717078186,
+              "median": 36.39377700617284,
+              "p95": 64.47587937242797,
+              "max": 73.14964248971194,
+              "rmse": 44.38625617862396
+            },
+            "black_fraction": {
+              "samples": 12,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 12,
+              "mean": 0.0016079389574759947,
+              "median": 0.00041409465020576135,
+              "p95": 0.0071423611111111045,
+              "max": 0.012109053497942387,
+              "rmse": 0.0036503151259553177
+            },
+            "laplacian_variance": {
+              "samples": 12,
+              "mean": 488.0524460245769,
+              "median": 382.2700500298394,
+              "p95": 922.4479830050998,
+              "max": 1060.7369398328995,
+              "rmse": 557.9151833150737
+            }
+          },
+          "visual": {
+            "frames": 96,
+            "retrieved_points": {
+              "samples": 96,
+              "mean": 1.0833333333333333,
+              "median": 1.0,
+              "p95": 4.0,
+              "max": 7.0,
+              "rmse": 1.7199806200458578
+            },
+            "fraction_zero_retrieval_among_known": 0.4479166666666667,
+            "known_retrieval_frames": 96,
+            "appearance_map_updates": {
+              "samples": 53,
+              "mean": 0.6792452830188679,
+              "median": 1.0,
+              "p95": 2.3999999999999986,
+              "max": 3.0,
+              "rmse": 1.063990353197863
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "oxford05_t6",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710927097.4888246,
+      "interval_end_sensor_s": 1710927102.488775,
+      "center_sensor_s": 1710927099.9887998,
+      "center_from_first_image_s": 778.0890879631042,
+      "uncertainty_half_width_s": 2.4999752044677734,
+      "evidence_indices": [
+        152,
+        153
+      ],
+      "primary_indoor_outdoor": true,
+      "mapper_time_center_sensor_s": 1710927099.9887998,
+      "comparisons": {
+        "base": {
+          "nearest": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 99,
+                  "mean": 0.3591457073065211,
+                  "median": 0.3481127956187058,
+                  "p95": 0.45610052082457603,
+                  "max": 0.46542532084774624,
+                  "rmse": 0.3617631697556336
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799695014953613
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 98,
+                  "mean": 0.25900220376519656,
+                  "median": 0.2419159107689376,
+                  "p95": 0.31079772838629843,
+                  "max": 0.31590493187342134,
+                  "rmse": 0.2603588249610828
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 19.799726963043213
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 57,
+                  "mean": 0.22171278496883395,
+                  "median": 0.21842580543807208,
+                  "p95": 0.23388052312744043,
+                  "max": 0.23528900541330544,
+                  "rmse": 0.2218072285457609
+                },
+                "reference_window_fraction_of_estimate_poses": 1.0,
+                "matched_time_span_s": 11.59982681274414
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 107
+            }
+          },
+          "interpolated": {
+            "windows": {
+              "before": {
+                "ape_m": {
+                  "samples": 89,
+                  "mean": 0.36030184798145026,
+                  "median": 0.3544296814071944,
+                  "p95": 0.4545941278496509,
+                  "max": 0.46315729126308147,
+                  "rmse": 0.3630392631946918
+                },
+                "reference_window_fraction_of_estimate_poses": 0.898989898989899,
+                "matched_time_span_s": 19.799695014953613
+              },
+              "transition": {
+                "ape_m": {
+                  "samples": 85,
+                  "mean": 0.25489253165208253,
+                  "median": 0.23864345945818613,
+                  "p95": 0.310701705338571,
+                  "max": 0.31480103556267836,
+                  "rmse": 0.2561888778222543
+                },
+                "reference_window_fraction_of_estimate_poses": 0.8673469387755102,
+                "matched_time_span_s": 19.799726963043213
+              },
+              "after": {
+                "ape_m": {
+                  "samples": 56,
+                  "mean": 0.221465453740753,
+                  "median": 0.21808237293792593,
+                  "p95": 0.2337126016513202,
+                  "max": 0.23508023261333605,
+                  "rmse": 0.22156312928346014
+                },
+                "reference_window_fraction_of_estimate_poses": 0.9824561403508771,
+                "matched_time_span_s": 11.59982681274414
+              }
+            },
+            "exploratory_recovery": {
+              "status": "no_observed_excursion_above_0_5_m",
+              "time_to_return_s": null,
+              "observed_samples": 106
+            }
+          }
+        }
+      },
+      "windows": {
+        "before": {
+          "requested_sensor_interval_s": [
+            1710927069.9887998,
+            1710927089.9887998
+          ],
+          "observed_pose_samples": 99,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 98,
+            "mean": 0.20203770423422054,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.399993896484375,
+            "rmse": 0.20303502174883037
+          },
+          "image_samples": 12,
+          "appearance": {
+            "mean_gray": {
+              "samples": 12,
+              "mean": 54.98651920438957,
+              "median": 47.220790895061725,
+              "p95": 93.89157510288065,
+              "max": 96.63539609053498,
+              "rmse": 59.06509130785428
+            },
+            "black_fraction": {
+              "samples": 12,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 12,
+              "mean": 0.049304698216735256,
+              "median": 0.04357767489711934,
+              "p95": 0.11336213991769546,
+              "max": 0.12342849794238683,
+              "rmse": 0.06288972521539765
+            },
+            "laplacian_variance": {
+              "samples": 12,
+              "mean": 862.4510798251682,
+              "median": 669.5465395562065,
+              "p95": 2166.448115615777,
+              "max": 2204.457764428711,
+              "rmse": 1100.2922771632097
+            }
+          },
+          "visual": {
+            "frames": 99,
+            "retrieved_points": {
+              "samples": 99,
+              "mean": 1.2828282828282829,
+              "median": 0.0,
+              "p95": 5.099999999999994,
+              "max": 10.0,
+              "rmse": 2.2940414692472895
+            },
+            "fraction_zero_retrieval_among_known": 0.5050505050505051,
+            "known_retrieval_frames": 99,
+            "appearance_map_updates": {
+              "samples": 49,
+              "mean": 1.5510204081632653,
+              "median": 1.0,
+              "p95": 3.5999999999999943,
+              "max": 6.0,
+              "rmse": 1.9691498217271746
+            }
+          }
+        },
+        "transition": {
+          "requested_sensor_interval_s": [
+            1710927089.9887998,
+            1710927109.9887998
+          ],
+          "observed_pose_samples": 98,
+          "truncated_by_estimate": false,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 97,
+            "mean": 0.20412089652621868,
+            "median": 0.1999969482421875,
+            "p95": 0.1999971866607666,
+            "max": 0.5999910831451416,
+            "rmse": 0.20808116114012487
+          },
+          "image_samples": 13,
+          "appearance": {
+            "mean_gray": {
+              "samples": 13,
+              "mean": 82.36609647040201,
+              "median": 75.56531121399178,
+              "p95": 109.34445627572016,
+              "max": 111.12588220164609,
+              "rmse": 83.66878914724421
+            },
+            "black_fraction": {
+              "samples": 13,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 13,
+              "mean": 0.06724853592909148,
+              "median": 0.05879115226337449,
+              "p95": 0.10752006172839502,
+              "max": 0.12070216049382716,
+              "rmse": 0.07088816137049661
+            },
+            "laplacian_variance": {
+              "samples": 13,
+              "mean": 1988.9085224093965,
+              "median": 1779.7513428710936,
+              "p95": 2946.353578905163,
+              "max": 3842.3963264295794,
+              "rmse": 2073.121862346443
+            }
+          },
+          "visual": {
+            "frames": 98,
+            "retrieved_points": {
+              "samples": 98,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "fraction_zero_retrieval_among_known": 1.0,
+            "known_retrieval_frames": 98,
+            "appearance_map_updates": {
+              "samples": 0
+            }
+          }
+        },
+        "after": {
+          "requested_sensor_interval_s": [
+            1710927109.9887998,
+            1710927129.9887998
+          ],
+          "observed_pose_samples": 57,
+          "truncated_by_estimate": true,
+          "other_boundary_overlaps": [],
+          "pose_intervals_s": {
+            "samples": 56,
+            "mean": 0.20713976451328822,
+            "median": 0.1999969482421875,
+            "p95": 0.1999979019165039,
+            "max": 0.5999889373779297,
+            "rmse": 0.21380573106412978
+          },
+          "image_samples": 7,
+          "appearance": {
+            "mean_gray": {
+              "samples": 7,
+              "mean": 73.32252939447383,
+              "median": 69.07553755144033,
+              "p95": 81.27294855967078,
+              "max": 81.28619855967078,
+              "rmse": 73.65058225736126
+            },
+            "black_fraction": {
+              "samples": 7,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "saturated_fraction": {
+              "samples": 7,
+              "mean": 0.0438124632569077,
+              "median": 0.03136574074074074,
+              "p95": 0.07024254115226337,
+              "max": 0.07025720164609053,
+              "rmse": 0.04952768707894251
+            },
+            "laplacian_variance": {
+              "samples": 7,
+              "mean": 1824.2134089060953,
+              "median": 1441.5122100585938,
+              "p95": 2726.723534152832,
+              "max": 2763.454825952149,
+              "rmse": 1972.007024587037
+            }
+          },
+          "visual": {
+            "frames": 57,
+            "retrieved_points": {
+              "samples": 57,
+              "mean": 0.0,
+              "median": 0.0,
+              "p95": 0.0,
+              "max": 0.0,
+              "rmse": 0.0
+            },
+            "fraction_zero_retrieval_among_known": 1.0,
+            "known_retrieval_frames": 57,
+            "appearance_map_updates": {
+              "samples": 0
+            }
+          }
+        }
+      }
+    }
+  ],
+  "reset_assessment": "No reset inference from position jumps. Initialization log entries are retained; this diagnostic does not establish relocalization.",
+  "annotation": "experiments/phase1_20261022/input_annotations/oxford05/events.json",
+  "protocol": {
+    "created_at": "2026-10-22T20:08:36.162564",
+    "alignment": "Reuse each full-sequence global SE3 and association CSV; do not realign per window",
+    "windows_relative_to_boundary_midpoint_s": {
+      "before": [
+        -30,
+        -10
+      ],
+      "transition": [
+        -10,
+        10
+      ],
+      "after": [
+        10,
+        30
+      ]
+    },
+    "overlap_policy": "Report next/previous boundary overlap and truncation; do not count overlapped windows as independent samples",
+    "recovery": "Exploratory fixed criterion: after center, APE above 0.5m triggers an excursion; first subsequent 5s with all matched APE<=0.5m and no matched-data gap>0.5s within 30s is return-below-threshold, otherwise right-censored. No excursion means not applicable, not zero recovery. Not proof of relocalization.",
+    "trajectory_gap_flag_s": 0.5,
+    "reset_detection": "Only explicit reset/reinitialization evidence in log; position jumps alone do not establish reset",
+    "diagnostics": "Image intensity/black/saturation statistics, visual retrieval/update counts, pose intervals; no claim of novel recovery/gating mechanism",
+    "semantic_scope": "OVO uses reference poses; original 18 runs and independent metrics are retained, not an integrated FAST-LIVO2+OVO result"
+  },
+  "camera_header_to_mapper_time_offset_s": 0.0
+}

@@ -1,0 +1,19 @@
+{
+  "classified_at": "2026-10-23T13:13:39.460312+08:00",
+  "reason": "用户要求保存并停止。已通过 SIGINT 正常收尾，原生 mapper 干净退出；未完成全程，不计入成功基线。恢复后从该序列开头重新运行，不能恢复内部估计器状态。",
+  "algorithm_failure": false,
+  "user_requested_pause": true,
+  "last_progress": {
+    "elapsed_s": 411,
+    "poses": 3867,
+    "sensor_seconds": 194.926,
+    "outputs": {
+      "/aft_mapped_to_init": 3867,
+      "/cloud_registered": 6881,
+      "/rgb_img": 2555
+    },
+    "peak_mapper_GiB": 2.0165023803710938
+  },
+  "native_clean_exit": true,
+  "resume_job": "oxford02_r2"
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks_against_existing_conversion_provenance": {
+    "/stim300/imu/data_raw": true,
+    "/os_cloud_node/points": true,
+    "/left_camera/image": true
+  },
+  "details": {
+    "method": "Read only 12-byte CDR prefix with SQLite incremental BLOB access",
+    "counts": {
+      "/os_cloud_node/points": 4921,
+      "/left_camera/image": 9840,
+      "/stim300/imu/data_raw": 98400
+    },
+    "strictly_increasing_all_topics": true,
+    "seconds": 10.913031488998968
+  }
+}

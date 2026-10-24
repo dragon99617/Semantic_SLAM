@@ -1,0 +1,467 @@
+{
+  "revision": "03f4382308333aa70c3253f12acd3fbf0c7c4a15",
+  "sequences": {
+    "2024-03-18-christ-church-02": {
+      "bags": [
+        {
+          "path": "sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0/1710754066_2024-03-18-09-27-47_0_blurred_filtered_compressed.db3",
+          "sqlite_quick_check": "ok",
+          "message_count": 244235,
+          "topics": [
+            {
+              "name": "/alphasense_driver_ros/imu",
+              "type": "sensor_msgs/msg/Imu",
+              "count": 208051,
+              "start_ns": 1710754089009402311,
+              "end_ns": 1710754609745930294
+            },
+            {
+              "name": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 10313,
+              "start_ns": 1710754089016701327,
+              "end_ns": 1710754609725069558
+            },
+            {
+              "name": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 10304,
+              "start_ns": 1710754089019241769,
+              "end_ns": 1710754609710823827
+            },
+            {
+              "name": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 10354,
+              "start_ns": 1710754089056822317,
+              "end_ns": 1710754609697295686
+            },
+            {
+              "name": "/hesai/pandar",
+              "type": "sensor_msgs/msg/PointCloud2",
+              "count": 5213,
+              "start_ns": 1710754089088506625,
+              "end_ns": 1710754609747342202
+            }
+          ],
+          "start_ns": 1710754089009402311,
+          "end_ns": 1710754609747342202,
+          "sample_messages": [
+            {
+              "topic": "/alphasense_driver_ros/imu",
+              "header_time": 1710754088.9968364,
+              "frame_id": "imu_sensor_frame",
+              "serialized_bytes": 332,
+              "gyro_accel": [
+                0.030041373886068357,
+                -0.014914157248402731,
+                -0.07872544433264013,
+                -0.9610986328125,
+                0.12489257812500001,
+                9.543276367187502
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+              "header_time": 1710754088.9055407,
+              "frame_id": "cam2_sensor_frame",
+              "serialized_bytes": 142067,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+              "header_time": 1710754088.9055407,
+              "frame_id": "cam1_sensor_frame",
+              "serialized_bytes": 183394,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+              "header_time": 1710754088.95554,
+              "frame_id": "cam0_sensor_frame",
+              "serialized_bytes": 117174,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/hesai/pandar",
+              "header_time": 1710754088.976705,
+              "frame_id": "pandar",
+              "serialized_bytes": 2617681,
+              "width": 54531,
+              "height": 1,
+              "point_step": 48,
+              "fields": [
+                {
+                  "name": "x",
+                  "offset": 0,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "y",
+                  "offset": 4,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "z",
+                  "offset": 8,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "intensity",
+                  "offset": 16,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "timestamp",
+                  "offset": 24,
+                  "datatype": 8,
+                  "count": 1
+                },
+                {
+                  "name": "ring",
+                  "offset": 32,
+                  "datatype": 4,
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/1710754066_2024-03-18-09-36-49_1_blurred_filtered_compressed.db3",
+          "sqlite_quick_check": "ok",
+          "message_count": 33522,
+          "topics": [
+            {
+              "name": "/alphasense_driver_ros/imu",
+              "type": "sensor_msgs/msg/Imu",
+              "count": 28555,
+              "start_ns": 1710754609754398280,
+              "end_ns": 1710754681216474812
+            },
+            {
+              "name": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 1421,
+              "start_ns": 1710754609755687595,
+              "end_ns": 1710754681193243387
+            },
+            {
+              "name": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 1414,
+              "start_ns": 1710754609778029513,
+              "end_ns": 1710754681151768307
+            },
+            {
+              "name": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 1417,
+              "start_ns": 1710754609792479625,
+              "end_ns": 1710754681158723537
+            },
+            {
+              "name": "/hesai/pandar",
+              "type": "sensor_msgs/msg/PointCloud2",
+              "count": 715,
+              "start_ns": 1710754609844579238,
+              "end_ns": 1710754681175040419
+            }
+          ],
+          "start_ns": 1710754609754398280,
+          "end_ns": 1710754681216474812,
+          "sample_messages": [
+            {
+              "topic": "/alphasense_driver_ros/imu",
+              "header_time": 1710754609.7410822,
+              "frame_id": "imu_sensor_frame",
+              "serialized_bytes": 332,
+              "gyro_accel": [
+                0.09779425967166933,
+                -0.03749845251026972,
+                0.19207303942050089,
+                0.11364746093750003,
+                3.46864013671875,
+                7.313273925781251
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+              "header_time": 1710754609.647009,
+              "frame_id": "cam0_sensor_frame",
+              "serialized_bytes": 128028,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+              "header_time": 1710754609.647009,
+              "frame_id": "cam1_sensor_frame",
+              "serialized_bytes": 158635,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+              "header_time": 1710754609.647009,
+              "frame_id": "cam2_sensor_frame",
+              "serialized_bytes": 173619,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/hesai/pandar",
+              "header_time": 1710754609.737921,
+              "frame_id": "pandar",
+              "serialized_bytes": 3229969,
+              "width": 67287,
+              "height": 1,
+              "point_step": 48,
+              "fields": [
+                {
+                  "name": "x",
+                  "offset": 0,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "y",
+                  "offset": 4,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "z",
+                  "offset": 8,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "intensity",
+                  "offset": 16,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "timestamp",
+                  "offset": 24,
+                  "datatype": 8,
+                  "count": 1
+                },
+                {
+                  "name": "ring",
+                  "offset": 32,
+                  "datatype": 4,
+                  "count": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "record_time_span_seconds": 592.2070724964142,
+      "between_bag_gaps_seconds": [
+        0.007056078
+      ],
+      "ground_truth": {
+        "frame": "base",
+        "poses": 14379,
+        "start": 1710754089.975849,
+        "end": 1710754650.797929,
+        "max_quaternion_norm_error": 5.551115123125783e-16,
+        "overlap_seconds": 560.8220801353455,
+        "source": "LiDAR-to-TLS registration; not independent motion capture"
+      }
+    },
+    "2024-03-20-christ-church-05": {
+      "bags": [
+        {
+          "path": "sequences/2024-03-20-christ-church-05/raw/ros2bag/1710926317_2024-03-20-09-18-38_0/1710926317_2024-03-20-09-18-38_0_blurred_filtered_compressed.db3",
+          "sqlite_quick_check": "ok",
+          "message_count": 339442,
+          "topics": [
+            {
+              "name": "/alphasense_driver_ros/imu",
+              "type": "sensor_msgs/msg/Imu",
+              "count": 319608,
+              "start_ns": 1710926322003724301,
+              "end_ns": 1710927121992979079
+            },
+            {
+              "name": "/hesai/pandar",
+              "type": "sensor_msgs/msg/PointCloud2",
+              "count": 8007,
+              "start_ns": 1710926322076144468,
+              "end_ns": 1710927121986491019
+            },
+            {
+              "name": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 3961,
+              "start_ns": 1710926322143028537,
+              "end_ns": 1710927121937147341
+            },
+            {
+              "name": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 3927,
+              "start_ns": 1710926322153321490,
+              "end_ns": 1710927121943179766
+            },
+            {
+              "name": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+              "type": "sensor_msgs/msg/CompressedImage",
+              "count": 3939,
+              "start_ns": 1710926322164469909,
+              "end_ns": 1710927121957183127
+            }
+          ],
+          "start_ns": 1710926322003724301,
+          "end_ns": 1710927121992979079,
+          "sample_messages": [
+            {
+              "topic": "/alphasense_driver_ros/imu",
+              "header_time": 1710926321.9892058,
+              "frame_id": "imu_sensor_frame",
+              "serialized_bytes": 332,
+              "gyro_accel": [
+                -0.006391781677886885,
+                0.001704475114103169,
+                0.0015979454194717207,
+                -0.7713671875,
+                -0.028112792968750005,
+                9.616848144531252
+              ]
+            },
+            {
+              "topic": "/hesai/pandar",
+              "header_time": 1710926321.969089,
+              "frame_id": "pandar",
+              "serialized_bytes": 1816849,
+              "width": 37847,
+              "height": 1,
+              "point_step": 48,
+              "fields": [
+                {
+                  "name": "x",
+                  "offset": 0,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "y",
+                  "offset": 4,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "z",
+                  "offset": 8,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "intensity",
+                  "offset": 16,
+                  "datatype": 7,
+                  "count": 1
+                },
+                {
+                  "name": "timestamp",
+                  "offset": 24,
+                  "datatype": 8,
+                  "count": 1
+                },
+                {
+                  "name": "ring",
+                  "offset": 32,
+                  "datatype": 4,
+                  "count": 1
+                }
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+              "header_time": 1710926321.8997118,
+              "frame_id": "cam0_sensor_frame",
+              "serialized_bytes": 66388,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+              "header_time": 1710926321.8997118,
+              "frame_id": "cam1_sensor_frame",
+              "serialized_bytes": 56006,
+              "format": "bgr8; jpeg compressed bgr8",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            },
+            {
+              "topic": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+              "header_time": 1710926321.8997118,
+              "frame_id": "cam2_sensor_frame",
+              "serialized_bytes": 134150,
+              "format": "jpg",
+              "decoded_shape": [
+                1080,
+                1440,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "record_time_span_seconds": 799.989254951477,
+      "between_bag_gaps_seconds": [],
+      "ground_truth": {
+        "frame": "base",
+        "poses": 11503,
+        "start": 1710926321.8997118,
+        "end": 1710927121.983733,
+        "max_quaternion_norm_error": 5.551115123125783e-16,
+        "overlap_seconds": 799.9800086021423,
+        "source": "LiDAR-to-TLS registration; not independent motion capture"
+      }
+    }
+  },
+  "status": "passed"
+}

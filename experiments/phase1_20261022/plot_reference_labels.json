@@ -1,0 +1,185 @@
+{
+  "scope": "Correct reference descriptions; figures redrawn only from unchanged, already globally aligned scored CSVs",
+  "plots": [
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_matched.csv",
+      "sha256": "102e1db5b7053f7637154b67a9bf6e1ff5db0eec950723821ca6bd8b807b0cd9",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_interpolated.csv",
+      "sha256": "fcd22796525ee178cc481f7387a4f20add570f73afb879b594a7b25b44c0a7c9",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_matched.csv",
+      "sha256": "d65b3ec1d1f1c87fb3e47736f3c09773e0eeb5536c13334dbc1b08b662091962",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "8c6b2cda05fa165ff0c9ff1b4fdd45accf8e3ab9719794111796d5c6f30cf36a",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/imu_direct_matched.csv",
+      "sha256": "b50b6a0f556f4ed57311704dc3a9ea695be43a3cfc8f3abcc14159111de3644d",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/imu_direct_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/imu_direct_interpolated.csv",
+      "sha256": "beec961efcf2cbaaeb9c83cd8c7cfe186285362426981bac157ca3de3465c7cc",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/imu_direct_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/prism_compensated_matched.csv",
+      "sha256": "aee7c98e5fdd06a665d7ae45a5b050b7f0cab2be10abb6992f094454937fe966",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/prism_compensated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "2e74040d1b5107da7cdcc86cfeec1f1ebad74e39b723af9dc2506a2669b55a10",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/prism_compensated_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/imu_direct_matched.csv",
+      "sha256": "06fbd06ebbe90d43a7248c0fb10a0d7fc1f70d80d33963962a4806a4b1791ddb",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/imu_direct_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/imu_direct_interpolated.csv",
+      "sha256": "fba0b36e59df588d48087651395536d7fb5ef96f81967c2ea62b01a4f76e8733",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/imu_direct_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/prism_compensated_matched.csv",
+      "sha256": "ea03ccdee0872fb4a30e93c8df2e7d90f85d62aaa9b169b3ac97dfe520a2dd86",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/prism_compensated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "b21fea0d1f8c5dd4e97ed42f4693eb8d50d75c1fc8461a168c4789a39a4fa295",
+      "plot": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/prism_compensated_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/imu_direct_matched.csv",
+      "sha256": "f4df782a7b5844bde1a26eb042d645e504873b6dd65e094a1866ed2ba5a3c015",
+      "plot": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/imu_direct_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/imu_direct_interpolated.csv",
+      "sha256": "03fd2cad2d0435eee14ae9eb6b4654802351b844e56ed7ad72c2bb50f9be8f85",
+      "plot": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/imu_direct_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/prism_compensated_matched.csv",
+      "sha256": "5d0f25c4a197b9519b100065f3e4027e4ae707e8e96c1bc5be183daf20b89de6",
+      "plot": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/prism_compensated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "2c5d7d35b95f99ea52a318a10d6fd8da53cd18dae62ed46be55ed3b216481c43",
+      "plot": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/prism_compensated_interpolated_accuracy.png",
+      "reference_label": "Published position reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_matched.csv",
+      "sha256": "8babf0c6ddcfb7f820769d00fa6f9922624f9ba4e4d3cee148f2e6e397f0b0c7",
+      "plot": "experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_accuracy.png",
+      "reference_label": "Leica prism reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_interpolated.csv",
+      "sha256": "c6f7d351bfe0f1471a1eca5f1f8839965ad766cfea74c5220f75e810a8ef3686",
+      "plot": "experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_interpolated_accuracy.png",
+      "reference_label": "Leica prism reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/ntu_eee01_r2/accuracy/prism_matched.csv",
+      "sha256": "ebe70426311f770b62f4cad4624153d1d7f81b288cb62e7692e42ea469c2ed49",
+      "plot": "experiments/phase1_20261022/runs/ntu_eee01_r2/accuracy/prism_accuracy.png",
+      "reference_label": "Leica prism reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/ntu_eee01_r2/accuracy/prism_interpolated.csv",
+      "sha256": "8b9c7873d9bfcb05152fde20f324263a28594f52d1b3b1110527b199a2514099",
+      "plot": "experiments/phase1_20261022/runs/ntu_eee01_r2/accuracy/prism_interpolated_accuracy.png",
+      "reference_label": "Leica prism reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/ntu_eee01_r3/accuracy/prism_matched.csv",
+      "sha256": "18de5d9ec363015a7a04812b6c14a4c9ffc62943fb197a4bc85f6b5adf148dfe",
+      "plot": "experiments/phase1_20261022/runs/ntu_eee01_r3/accuracy/prism_accuracy.png",
+      "reference_label": "Leica prism reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/ntu_eee01_r3/accuracy/prism_interpolated.csv",
+      "sha256": "5e25ea64ecc679b77bac0fe28811ab9ae8a50f26decddf32ab6032d39b985e58",
+      "plot": "experiments/phase1_20261022/runs/ntu_eee01_r3/accuracy/prism_interpolated_accuracy.png",
+      "reference_label": "Leica prism reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_matched.csv",
+      "sha256": "82947d1a868b25e5be13e80674102d84034e7a1a93e20df48116145ec515e2d3",
+      "plot": "experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_interpolated.csv",
+      "sha256": "bcd7d16a6eb64f85cfd085ec1a4789a32572161071216fc4eb6096ecef578f53",
+      "plot": "experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_interpolated_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_matched.csv",
+      "sha256": "a417fa2004d78137d5c7b521a62566ffa0fccbfedba602bacbc21f2320a2ffce",
+      "plot": "experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_interpolated.csv",
+      "sha256": "429043295dd7d90eb1905a3ab3f37c328094eab140554bb75f3eeacd361fd276",
+      "plot": "experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_interpolated_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford02_r3/accuracy/base_matched.csv",
+      "sha256": "bce28d2fccaf2238b671afde8fda558719f602b62bb29351fab82e50b7030660",
+      "plot": "experiments/phase1_20261022/runs/oxford02_r3/accuracy/base_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford02_r3/accuracy/base_interpolated.csv",
+      "sha256": "adc9661b69f82a7883cc8232a416eab2fe227a2017da2f4c3d3d2f03ddaa98d1",
+      "plot": "experiments/phase1_20261022/runs/oxford02_r3/accuracy/base_interpolated_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford05_r1/accuracy/base_matched.csv",
+      "sha256": "26f283602a4d7125d8d8b1fb84044d4647ae5d03ddb01d0a0c3f98236dd16cb5",
+      "plot": "experiments/phase1_20261022/runs/oxford05_r1/accuracy/base_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    },
+    {
+      "source_csv": "experiments/phase1_20261022/runs/oxford05_r1/accuracy/base_interpolated.csv",
+      "sha256": "1fbc7099cacb2dc6233738984dc1a93a5c3471f0a156372cad8e6920c8fb04c7",
+      "plot": "experiments/phase1_20261022/runs/oxford05_r1/accuracy/base_interpolated_accuracy.png",
+      "reference_label": "LiDAR-to-TLS base reference"
+    }
+  ]
+}

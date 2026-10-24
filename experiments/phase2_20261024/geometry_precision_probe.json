@@ -1,0 +1,14 @@
+[
+  {
+    "name": "FPV2",
+    "same_frame_points": 1394,
+    "float32_matches": 1096,
+    "autocast_bfloat16_matches": 228
+  },
+  {
+    "name": "Oxford",
+    "same_frame_points": 638,
+    "float32_matches": 632,
+    "autocast_bfloat16_matches": 239
+  }
+]

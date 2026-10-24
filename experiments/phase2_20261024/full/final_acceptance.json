@@ -1,0 +1,925 @@
+{
+  "updated_at": "2026-10-24T01:52:57.658222+08:00",
+  "status": "engineering_passed_semantic_annotations_pending",
+  "engineering_passed": true,
+  "semantic_accuracy_accepted": false,
+  "semantic_accuracy_status": "awaiting_independent_annotation",
+  "checks": {
+    "both_full_runs_pass": true,
+    "read_only_monitor_validated": true,
+    "all_13_transitions_audited": true,
+    "full_source_freeze_matches": true,
+    "phase1_freeze_still_matches": true
+  },
+  "runs": [
+    {
+      "sequence": "oxford02",
+      "engineering_passed": true,
+      "checks": {
+        "full_capture": true,
+        "full_sensor_counts": true,
+        "native_pose_span_over_99_percent": true,
+        "native_pose_count_matches": true,
+        "all_accepted_frames_traversed": true,
+        "projection_roundtrip": true,
+        "finite_saved_map_and_queries": true,
+        "every_transition_has_semantic_updates": true,
+        "map_grows": true,
+        "all_blind_sample_predictions_exported": true,
+        "prediction_causality": true,
+        "annotation_camera_and_rgb_match": true,
+        "finite_registered_map_tls_distances": true
+      },
+      "semantic_accuracy_status": "awaiting_independent_annotation",
+      "semantic_accuracy_accepted": false,
+      "pose_count": 11763,
+      "input_images": 11775,
+      "accepted_frames": 5935,
+      "mean_valid_depth_fraction": 0.016849802905966903,
+      "map_points": 1886151,
+      "semantic_points": 177560,
+      "objects": 526,
+      "max_sync_residual_ns": 245,
+      "trajectory_coverage": 0.9997430587875658,
+      "nearest_ape_rmse_m": 0.2976824077189417,
+      "interpolated_ape_rmse_m": 0.2976628182885549,
+      "rpe_translation_rmse_m": 0.015521109931214616,
+      "rpe_rotation_rmse_deg": 0.16260723335783064,
+      "annotation_rgb_images_compared": 32,
+      "integrated_map_tls_check": {
+        "points": 1886151,
+        "mean_m": 0.16641610696703513,
+        "median_m": 0.07325868721208602,
+        "p95_m": 0.7013795986487827,
+        "rmse_m": 0.35063737828904296,
+        "fraction_within_0_2_m": 0.80815692911119,
+        "fraction_within_0_5_m": 0.921715705688463,
+        "alignment": "Reuse the full-trajectory SE3; no map ICP, no scale fitting or distance trimming",
+        "limitation": "Sparse observed map to 5cm TLS; reference coverage/occlusion affect distances; not semantic accuracy or full-scene completeness"
+      },
+      "events": [
+        {
+          "event_id": "oxford02_t1",
+          "primary_indoor_outdoor": true,
+          "from_environment": "outdoor",
+          "to_environment": "indoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754312.9263086,
+                1710754332.9263086
+              ],
+              "raw_images": 397,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5037783375314862,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 63980,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754332.9263086,
+                1710754352.9263086
+              ],
+              "raw_images": 397,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5062972292191436,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 19361,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754352.9263086,
+                1710754372.9263086
+              ],
+              "raw_images": 396,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5050505050505051,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 23842,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford02_t2",
+          "primary_indoor_outdoor": true,
+          "from_environment": "indoor",
+          "to_environment": "outdoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754493.8734128,
+                1710754513.8734128
+              ],
+              "raw_images": 398,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5025125628140703,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 40930,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754513.8734128,
+                1710754533.8734128
+              ],
+              "raw_images": 398,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5025125628140703,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 258,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754533.8734128,
+                1710754553.8734128
+              ],
+              "raw_images": 399,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5037593984962406,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [
+                "oxford02_t3"
+              ],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1649,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford02_t3",
+          "primary_indoor_outdoor": false,
+          "from_environment": "outdoor",
+          "to_environment": "covered_passage",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754508.9231577,
+                1710754528.9231577
+              ],
+              "raw_images": 396,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5050505050505051,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [
+                "oxford02_t2"
+              ],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1163,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754528.9231577,
+                1710754548.9231577
+              ],
+              "raw_images": 399,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5012531328320802,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1637,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754548.9231577,
+                1710754568.9231577
+              ],
+              "raw_images": 400,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 14,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford02_t4",
+          "primary_indoor_outdoor": false,
+          "from_environment": "covered_passage",
+          "to_environment": "outdoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754549.0974944,
+                1710754569.0974944
+              ],
+              "raw_images": 400,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5025,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 11,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754569.0974944,
+                1710754589.0974944
+              ],
+              "raw_images": 397,
+              "accepted_rgbd": 203,
+              "accepted_fraction": 0.5113350125944585,
+              "semantic_updates": 21,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 15488,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754589.0974944,
+                1710754609.0974944
+              ],
+              "raw_images": 397,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5062972292191436,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [
+                "oxford02_t5"
+              ],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 12639,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford02_t5",
+          "primary_indoor_outdoor": true,
+          "from_environment": "outdoor",
+          "to_environment": "indoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754579.322005,
+                1710754599.322005
+              ],
+              "raw_images": 398,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5025125628140703,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [
+                "oxford02_t4"
+              ],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 21886,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754599.322005,
+                1710754619.322005
+              ],
+              "raw_images": 397,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5062972292191436,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 20864,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754619.322005,
+                1710754639.322005
+              ],
+              "raw_images": 398,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5050251256281407,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 19893,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford02_t6",
+          "primary_indoor_outdoor": true,
+          "from_environment": "indoor",
+          "to_environment": "outdoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754614.5714579,
+                1710754634.5714579
+              ],
+              "raw_images": 398,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5050251256281407,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 15405,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754634.5714579,
+                1710754654.5714579
+              ],
+              "raw_images": 396,
+              "accepted_rgbd": 201,
+              "accepted_fraction": 0.5075757575757576,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 39797,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754654.5714579,
+                1710754674.5714579
+              ],
+              "raw_images": 398,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5025125628140703,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [
+                "oxford02_t7"
+              ],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 23804,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford02_t7",
+          "primary_indoor_outdoor": true,
+          "from_environment": "outdoor",
+          "to_environment": "indoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710754629.721197,
+                1710754649.721197
+              ],
+              "raw_images": 399,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5012531328320802,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [
+                "oxford02_t6"
+              ],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 46867,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710754649.721197,
+                1710754669.721197
+              ],
+              "raw_images": 395,
+              "accepted_rgbd": 200,
+              "accepted_fraction": 0.5063291139240507,
+              "semantic_updates": 20,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 32388,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710754669.721197,
+                1710754689.721197
+              ],
+              "raw_images": 228,
+              "accepted_rgbd": 114,
+              "accepted_fraction": 0.5,
+              "semantic_updates": 11,
+              "truncated": true,
+              "overlaps": [],
+              "annotation_images": 2,
+              "causal_prediction_images": 2,
+              "predicted_pixels": 4056,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        }
+      ],
+      "frozen_events_sha256": "93d1f7d265c467d16425100b36168e2ea2f47ef7fb6f4f66aee768391fde04fc",
+      "map_checks_sha256": "48a8b7320fe11775c88dc0e23e331364bbfd005cfacd7e41b66de35b02b46a4f",
+      "limitations": [
+        "No independent semantic labels yet",
+        "Coverage and geometry metrics do not constitute semantic accuracy"
+      ]
+    },
+    {
+      "sequence": "oxford05",
+      "engineering_passed": true,
+      "checks": {
+        "full_capture": true,
+        "full_sensor_counts": true,
+        "native_pose_span_over_99_percent": true,
+        "native_pose_count_matches": true,
+        "all_accepted_frames_traversed": true,
+        "projection_roundtrip": true,
+        "finite_saved_map_and_queries": true,
+        "every_transition_has_semantic_updates": true,
+        "map_grows": true,
+        "all_blind_sample_predictions_exported": true,
+        "prediction_causality": true,
+        "annotation_camera_and_rgb_match": true,
+        "finite_registered_map_tls_distances": true
+      },
+      "semantic_accuracy_status": "awaiting_independent_annotation",
+      "semantic_accuracy_accepted": false,
+      "pose_count": 3959,
+      "input_images": 3961,
+      "accepted_frames": 3959,
+      "mean_valid_depth_fraction": 0.03130942274049751,
+      "map_points": 2356221,
+      "semantic_points": 164722,
+      "objects": 409,
+      "max_sync_residual_ns": 239,
+      "trajectory_coverage": 0.9993426573020611,
+      "nearest_ape_rmse_m": 0.1527687197694823,
+      "interpolated_ape_rmse_m": 0.1512019755370823,
+      "rpe_translation_rmse_m": 0.011773456218271092,
+      "rpe_rotation_rmse_deg": 0.10606053829421667,
+      "annotation_rgb_images_compared": 53,
+      "integrated_map_tls_check": {
+        "points": 2356221,
+        "mean_m": 0.10951112822820873,
+        "median_m": 0.05811366903278717,
+        "p95_m": 0.2562227395718838,
+        "rmse_m": 0.29578300711310956,
+        "fraction_within_0_2_m": 0.9157175833676043,
+        "fraction_within_0_5_m": 0.978659896503766,
+        "alignment": "Reuse the full-trajectory SE3; no map ICP, no scale fitting or distance trimming",
+        "limitation": "Sparse observed map to 5cm TLS; reference coverage/occlusion affect distances; not semantic accuracy or full-scene completeness"
+      },
+      "events": [
+        {
+          "event_id": "oxford05_t1",
+          "primary_indoor_outdoor": true,
+          "from_environment": "indoor",
+          "to_environment": "outdoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710926421.2982287,
+                1710926441.2982287
+              ],
+              "raw_images": 100,
+              "accepted_rgbd": 100,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1059,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710926441.2982287,
+                1710926461.2982287
+              ],
+              "raw_images": 101,
+              "accepted_rgbd": 101,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 680,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710926461.2982287,
+                1710926481.2982287
+              ],
+              "raw_images": 100,
+              "accepted_rgbd": 100,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 2545,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford05_t2",
+          "primary_indoor_outdoor": true,
+          "from_environment": "outdoor",
+          "to_environment": "indoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710926642.9951844,
+                1710926662.9951844
+              ],
+              "raw_images": 100,
+              "accepted_rgbd": 100,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 14139,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710926662.9951844,
+                1710926682.9951844
+              ],
+              "raw_images": 99,
+              "accepted_rgbd": 99,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 3360,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710926682.9951844,
+                1710926702.9951844
+              ],
+              "raw_images": 96,
+              "accepted_rgbd": 96,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford05_t3",
+          "primary_indoor_outdoor": false,
+          "from_environment": "indoor",
+          "to_environment": "covered_passage",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710926917.0912337,
+                1710926937.0912337
+              ],
+              "raw_images": 98,
+              "accepted_rgbd": 98,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 17638,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710926937.0912337,
+                1710926957.0912337
+              ],
+              "raw_images": 101,
+              "accepted_rgbd": 101,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1026,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710926957.0912337,
+                1710926977.0912337
+              ],
+              "raw_images": 100,
+              "accepted_rgbd": 100,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 2,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford05_t4",
+          "primary_indoor_outdoor": false,
+          "from_environment": "covered_passage",
+          "to_environment": "outdoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710926968.0904078,
+                1710926988.0904078
+              ],
+              "raw_images": 99,
+              "accepted_rgbd": 99,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1437,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710926988.0904078,
+                1710927008.0904078
+              ],
+              "raw_images": 101,
+              "accepted_rgbd": 101,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 8178,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710927008.0904078,
+                1710927028.0904078
+              ],
+              "raw_images": 99,
+              "accepted_rgbd": 99,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 12432,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford05_t5",
+          "primary_indoor_outdoor": true,
+          "from_environment": "outdoor",
+          "to_environment": "indoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710927013.9896545,
+                1710927033.9896545
+              ],
+              "raw_images": 100,
+              "accepted_rgbd": 100,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 11479,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710927033.9896545,
+                1710927053.9896545
+              ],
+              "raw_images": 100,
+              "accepted_rgbd": 100,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 16528,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710927053.9896545,
+                1710927073.9896545
+              ],
+              "raw_images": 96,
+              "accepted_rgbd": 96,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 8,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 1078,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        },
+        {
+          "event_id": "oxford05_t6",
+          "primary_indoor_outdoor": true,
+          "from_environment": "indoor",
+          "to_environment": "outdoor",
+          "windows": {
+            "before": {
+              "sensor_interval_s": [
+                1710927069.9887998,
+                1710927089.9887998
+              ],
+              "raw_images": 99,
+              "accepted_rgbd": 99,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 9,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 30250,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "transition": {
+              "sensor_interval_s": [
+                1710927089.9887998,
+                1710927109.9887998
+              ],
+              "raw_images": 98,
+              "accepted_rgbd": 98,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 10,
+              "truncated": false,
+              "overlaps": [],
+              "annotation_images": 3,
+              "causal_prediction_images": 3,
+              "predicted_pixels": 18338,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            },
+            "after": {
+              "sensor_interval_s": [
+                1710927109.9887998,
+                1710927129.9887998
+              ],
+              "raw_images": 57,
+              "accepted_rgbd": 57,
+              "accepted_fraction": 1.0,
+              "semantic_updates": 5,
+              "truncated": true,
+              "overlaps": [],
+              "annotation_images": 2,
+              "causal_prediction_images": 2,
+              "predicted_pixels": 12432,
+              "semantic_accuracy": null,
+              "semantic_accuracy_status": "awaiting_independent_annotation"
+            }
+          }
+        }
+      ],
+      "frozen_events_sha256": "c2f2e3cf459bde719db37468b7812373739d48027cca50654771ba8e680b9bde",
+      "map_checks_sha256": "2ce70fc1e7300e42160457901286d4bca423d43d07d127b8b613a2de6800df62",
+      "limitations": [
+        "No independent semantic labels yet",
+        "Coverage and geometry metrics do not constitute semantic accuracy"
+      ]
+    }
+  ],
+  "ontology_sha256": "ce89fec9c3aa081653f19f2a335922ddd1694a732ce0cb8983b476f6d51e6b0b",
+  "annotation_manifest_sha256": "4bc36cd91b7e595cbed4972b45875eca338bc60cd7a686edaf545a1bd2845e7a",
+  "source_sha256": {
+    "scripts/capture_livo_ovo.py": "fc5eadc085640598d839111c8555e9340669596784bc931f561062590d12bcd9",
+    "scripts/prepare_livo_ovo.py": "6110dc7952e2b7c1709198097ea56a44d8b3d388853bff2aeddb60b3dd31d5da",
+    "scripts/livo_ovo_geometry.py": "3d54088e39767f2a272c0bc78cd753089e36b8bd4ec0b5ea250540c6ca50f0d2",
+    "scripts/run_livo_ovo.py": "805049a2d0c1bc167804708f632ea8e6f6f8871af3cc2485d4006fb80e33e70d",
+    "scripts/sparse_depth_filter.py": "96313fd4706901ba85323b703da7a8648f950af8329f54688679b4cbfc7d07d8",
+    "scripts/run_oxford_ovo_full.py": "472c029bb4a888783877e6dcd039d91b6b0757b77fc394231253f629fb589983",
+    "scripts/inspect_livo_ovo.py": "a684b802fec924115d062a6bf613fa4b202f2fe0e3d92bb33baadf756b1e8c95",
+    "scripts/run_oxford_full_batch.py": "08e98b52806740a89cf16359a45e0d73eed6c576fb8d421fb279a7666d5d88e4",
+    "scripts/prepare_oxford_transition_annotations.py": "5029f23e64002d7a9927975df2211442d2c62262e85fb3d49fc9ea42b253ecb5",
+    "scripts/score_oxford_transition_annotations.py": "d7fad14b01a4b9fe4d96c824bb56b9c1e8992d1b9c327ee0830ea80c64e63128",
+    "scripts/audit_oxford_full_run.py": "ec48068db3b747941ebf0ed726c1db40bee05ff5a9f448127b4e658f2cf9706d",
+    "scripts/write_oxford_full_report.py": "1c60a6e9cb892fc74e1d8c24409758f856f3fd562d7240f4cd042d86cd386937"
+  },
+  "limits": [
+    "No independent reviewed semantic labels are available yet",
+    "Causal map renders preserve the original delayed descriptor queue",
+    "No instance-ID accuracy claim or full-scene 3D semantic ground truth",
+    "Fixed 15-class query vocabulary for future sampled 2D scoring; not an open-set recognition benchmark"
+  ]
+}

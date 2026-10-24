@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "input": "experiments/phase2_20261024/pipeline_fpv2_00_r2/input",
+      "same_frame_points": 1394,
+      "expected_filtered_self_matches": 1097,
+      "float32_matches": 1096,
+      "autocast_bfloat16_matches": 228,
+      "passed": true
+    },
+    {
+      "input": "experiments/phase2_20261024/inputs/oxford02_16s",
+      "same_frame_points": 638,
+      "expected_filtered_self_matches": 635,
+      "float32_matches": 632,
+      "autocast_bfloat16_matches": 239,
+      "passed": true
+    }
+  ],
+  "scope": "Same-frame projection self-consistency only; does not estimate semantic accuracy"
+}

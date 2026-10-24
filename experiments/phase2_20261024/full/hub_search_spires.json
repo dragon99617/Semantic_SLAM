@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ori-drs/oxford_spires_dataset",
+    "lastModified": "2026-05-22T15:15:44.000Z",
+    "tags": [
+      "task_categories:robotics",
+      "task_categories:image-to-3d",
+      "license:cc-by-nc-sa-4.0",
+      "arxiv:2411.10546",
+      "region:us",
+      "slam",
+      "lidar",
+      "3d-reconstruction",
+      "nerf",
+      "3d-gaussian-splatting",
+      "localization",
+      "sfm",
+      "mvs",
+      "multimodal",
+      "oxford"
+    ]
+  },
+  {
+    "id": "Aazeus/oxford-spires-part",
+    "lastModified": "2026-04-28T16:18:12.000Z",
+    "tags": [
+      "license:mit",
+      "region:us"
+    ]
+  },
+  {
+    "id": "Voxel51/oxford-spires-multimodal",
+    "lastModified": "2026-08-10T21:28:16.000Z",
+    "tags": [
+      "task_categories:robotics",
+      "task_categories:depth-estimation",
+      "language:en",
+      "license:cc-by-nc-sa-4.0",
+      "size_categories:n<1K",
+      "library:fiftyone",
+      "arxiv:2411.10546",
+      "region:us",
+      "fiftyone",
+      "mcap",
+      "multimodal",
+      "robotics",
+      "slam",
+      "lidar",
+      "point-cloud",
+      "localization",
+      "reconstruction",
+      "novel-view-synthesis",
+      "fisheye",
+      "handheld"
+    ]
+  }
+]

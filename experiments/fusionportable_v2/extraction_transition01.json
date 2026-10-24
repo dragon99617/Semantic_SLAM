@@ -1,0 +1,13 @@
+{
+  "archive": "ugv_transition01.7z",
+  "members": [
+    {
+      "filename": "ugv_transition01.bag",
+      "uncompressed": 32645006567,
+      "is_directory": false,
+      "crc32": 2931820593
+    }
+  ],
+  "crc_checked_by_extractor": true,
+  "seconds": 700.0902458429991
+}

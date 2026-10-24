@@ -88,7 +88,7 @@ def interpolation_check(reference, estimate, output, prefix):
     np.savetxt(output / f'{prefix}_interpolated.csv', np.column_stack((times, interpolated, aligned, errors)),
         delimiter=',', header='sensor_time,gt_x,gt_y,gt_z,estimate_x,estimate_y,estimate_z,ape_m', comments='')
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
-    axes[0].plot(*interpolated[:, :2].T, color='black', linewidth=1, label='Interpolated Leica GT')
+    axes[0].plot(*interpolated[:, :2].T, color='black', linewidth=1, label='Interpolated position reference')
     axes[0].plot(*aligned[:, :2].T, linewidth=0.6, label=prefix)
     axes[0].set(xlabel='x [m]', ylabel='y [m]', title='Matched trajectory, XY view', aspect='equal')
     axes[0].legend()
@@ -132,7 +132,7 @@ def evaluate(reference, estimate, output, prefix):
         header='estimate_sensor_time,gt_x,gt_y,gt_z,estimate_x,estimate_y,estimate_z,ape_m,abs_time_difference_s', comments='')
     fig = plt.figure(figsize=(13, 5))
     ax = fig.add_subplot(121, projection='3d')
-    ax.scatter(*matched_ref.positions_xyz.T, label='Leica matched samples', color='black', s=3)
+    ax.scatter(*matched_ref.positions_xyz.T, label='Matched position reference', color='black', s=3)
     ax.scatter(*matched_est.positions_xyz.T, label=f'{prefix} matched samples', s=2)
     ax.set(xlabel='x [m]', ylabel='y [m]', zlabel='z [m]')
     ax.legend()
@@ -146,7 +146,7 @@ def evaluate(reference, estimate, output, prefix):
     plt.close(fig)
     # Save an independently inspectable standard evo result archive too.
     command = [str(Path(sys.executable).with_name('evo_ape')), 'tum', str(reference), str(estimate),
-        '-a', '--t_max_diff', '0.01', '--save_results', str(output / f'{prefix}_evo_ape.zip')]
+        '-a', '--no_warnings', '--t_max_diff', '0.01', '--save_results', str(output / f'{prefix}_evo_ape.zip')]
     with (output / f'{prefix}_evo_stdout.txt').open('w') as log:
         subprocess.run(command, check=True, stdout=log, stderr=subprocess.STDOUT)
     result['command'] = command

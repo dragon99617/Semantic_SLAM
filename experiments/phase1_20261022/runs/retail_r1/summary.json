@@ -1,0 +1,49 @@
+{
+  "status": "playback_completed",
+  "diagnostic": false,
+  "error": null,
+  "dataset": "Retail_Street",
+  "sequence": "Retail_Street",
+  "rate": 0.5,
+  "mapper_clean_exit": true,
+  "player_returncode": 0,
+  "wall_seconds": 316.2089469060011,
+  "received_outputs": {
+    "/aft_mapped_to_init": 1351,
+    "/cloud_registered": 2684,
+    "/rgb_img": 687
+  },
+  "expected_lidar_span_s": 135.4001249074936,
+  "peak_mapper_rss_kib": 804976,
+  "peak_mapper_swap_kib": 0,
+  "registered_output_points_captured": 18660091,
+  "registered_output_nonfinite_points": 0,
+  "input_callback_audit": {
+    "/livox/lidar": {
+      "expected": 1355,
+      "received_callbacks": 1355,
+      "unique_received": 1355,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/livox/imu": {
+      "expected": 27447,
+      "received_callbacks": 27447,
+      "unique_received": 27447,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left_camera/image": {
+      "expected": 1355,
+      "received_callbacks": 1355,
+      "unique_received": 1355,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "pose_timestamp_basis": "sensor acquisition time; ROS odometry/TF and native TUM use last_lio_update_time",
+  "limitation": "RX traces establish callback receipt, not that every point contributes to an estimator update."
+}

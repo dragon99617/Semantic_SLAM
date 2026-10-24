@@ -1,0 +1,5 @@
+{
+  "status": "launcher_failed_before_capture",
+  "reason": "set -u is incompatible with ROS Humble setup.bash; moved nounset after sourcing ROS and reran into a new directory.",
+  "counts_as_success": false
+}

@@ -1,0 +1,20 @@
+{
+  "00": {
+    "rows": 8283,
+    "first_s": 1686614983.38,
+    "last_s": 1686615490.469987,
+    "duration_s": 507.08998680114746,
+    "max_gap_s": 70.05011987686157,
+    "gaps_over_0_1_s": 5,
+    "all_identity_quaternions": true
+  },
+  "01": {
+    "rows": 6245,
+    "first_s": 1686615983.39,
+    "last_s": 1686616378.779995,
+    "duration_s": 395.38999485969543,
+    "max_gap_s": 37.81000089645386,
+    "gaps_over_0_1_s": 12,
+    "all_identity_quaternions": true
+  }
+}

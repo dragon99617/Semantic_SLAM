@@ -1,0 +1,42 @@
+{
+  "ntu_eee01": {
+    "rows": 6616,
+    "finite": true,
+    "strictly_increasing": true,
+    "max_quaternion_norm_error": 0.0,
+    "identity_quaternion_fraction": 1.0,
+    "reference_sha256": "61dff03eb13716c5f88759cfb6a69107d7bf168d91b42bc9c63a66011fd5d262"
+  },
+  "fpv2_00": {
+    "rows": 8283,
+    "finite": true,
+    "strictly_increasing": true,
+    "max_quaternion_norm_error": 0.0,
+    "identity_quaternion_fraction": 1.0,
+    "reference_sha256": "845226f8715ff83c13967e594a858f25fef0db0ed8179f91b5a18cacac07c47c"
+  },
+  "fpv2_01": {
+    "rows": 6245,
+    "finite": true,
+    "strictly_increasing": true,
+    "max_quaternion_norm_error": 0.0,
+    "identity_quaternion_fraction": 1.0,
+    "reference_sha256": "cb1ba33fc3df91309aed7826f6d7d7a1dc47f5616a94eec3b49d9f3a6c0b742e"
+  },
+  "oxford02": {
+    "rows": 14379,
+    "finite": true,
+    "strictly_increasing": true,
+    "max_quaternion_norm_error": 5.551115123125783e-16,
+    "identity_quaternion_fraction": 0.0,
+    "reference_sha256": "01b7c1bf7e2b80f9da058dfe39b043bc7509e33c887221aa1505eb11dbde0cae"
+  },
+  "oxford05": {
+    "rows": 11503,
+    "finite": true,
+    "strictly_increasing": true,
+    "max_quaternion_norm_error": 5.551115123125783e-16,
+    "identity_quaternion_fraction": 0.0,
+    "reference_sha256": "993f09497fbe78679278ba498988ee74c5265997546eabc9dc9be867f13f3119"
+  }
+}

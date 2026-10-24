@@ -1,0 +1,51 @@
+{
+  "primary_runs_passed": true,
+  "complete_phase1_status": "completed_available_dataset_scope",
+  "runs": [
+    {
+      "id": "ntu_eee01_r1",
+      "poses": 3983,
+      "input_callbacks_exact": true,
+      "parameters_match": true,
+      "visual_trace_valid": true
+    },
+    {
+      "id": "retail_r1",
+      "poses": 1351,
+      "input_callbacks_exact": true,
+      "parameters_match": true,
+      "visual_trace_valid": true
+    },
+    {
+      "id": "fpv2_01_r1",
+      "poses": 7486,
+      "input_callbacks_exact": true,
+      "parameters_match": true,
+      "visual_trace_valid": true
+    },
+    {
+      "id": "oxford02_r1",
+      "poses": 11763,
+      "input_callbacks_exact": true,
+      "parameters_match": true,
+      "visual_trace_valid": true
+    },
+    {
+      "id": "oxford05_r1",
+      "poses": 3959,
+      "input_callbacks_exact": true,
+      "parameters_match": true,
+      "visual_trace_valid": true
+    },
+    {
+      "id": "fpv2_00_r1",
+      "poses": 9834,
+      "input_callbacks_exact": true,
+      "parameters_match": true,
+      "visual_trace_valid": true
+    }
+  ],
+  "updated_at": "2026-10-23T16:46:52.471567+08:00",
+  "completed_geometry_evaluations": 12,
+  "final_acceptance": "experiments/phase1_20261022/final_acceptance.json"
+}

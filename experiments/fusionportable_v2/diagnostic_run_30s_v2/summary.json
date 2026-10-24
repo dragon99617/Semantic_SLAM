@@ -1,0 +1,18 @@
+{
+  "status": "diagnostic_completed",
+  "error": null,
+  "diagnostic": true,
+  "rate": 0.5,
+  "mapper_clean_exit": true,
+  "player_returncode": 0,
+  "wall_seconds": 93.82037741500244,
+  "received_outputs": {
+    "/aft_mapped_to_init": 590,
+    "/cloud_registered": 1179,
+    "/rgb_img": 261
+  },
+  "max_cloud_points": 6974,
+  "timestamp_basis": "saved TUM sensor time; ROS output stamps are node time",
+  "map_artifact": "sampled output clouds, every tenth message, ~512 points/message, 10 cm deduplication",
+  "run_dir": "/home/hxy/SLAM_project/experiments/fusionportable_v2/diagnostic_run_30s_v2"
+}

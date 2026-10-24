@@ -1,0 +1,183 @@
+{
+  "status": "paused_user_requested",
+  "updated_at": "2026-10-23T13:13:39.460312+08:00",
+  "jobs": [
+    {
+      "id": "ntu_eee01_r1",
+      "descriptor": "experiments/phase1_20261022/ntu_eee01.json",
+      "repeat": 1,
+      "run": "experiments/phase1_20261022/runs/ntu_eee01_r1",
+      "state": "completed",
+      "reused_existing_run": true,
+      "evaluation_state": "completed"
+    },
+    {
+      "id": "retail_r1",
+      "descriptor": "experiments/phase1_20261022/retail.json",
+      "repeat": 1,
+      "run": "experiments/phase1_20261022/runs/retail_r1",
+      "state": "completed",
+      "reused_existing_run": true,
+      "evaluation_state": "completed"
+    },
+    {
+      "id": "fpv2_01_r1",
+      "descriptor": "experiments/phase1_20261022/fpv2_01.json",
+      "repeat": 1,
+      "run": "experiments/phase1_20261022/runs/fpv2_01_r1",
+      "state": "completed",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/fpv2_01.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_01_r1",
+        "--rate",
+        ".5",
+        "--record-clouds"
+      ],
+      "started_at": "2026-10-23T11:05:56+0800",
+      "exit_code": 0,
+      "evaluation_state": "completed",
+      "evaluation_exit_code": 0
+    },
+    {
+      "id": "oxford02_r1",
+      "descriptor": "experiments/phase1_20261022/oxford02.json",
+      "repeat": 1,
+      "run": "experiments/phase1_20261022/runs/oxford02_r1",
+      "state": "completed",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/oxford02.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford02_r1",
+        "--rate",
+        ".5",
+        "--record-clouds"
+      ],
+      "started_at": "2026-10-23T11:21:19+0800",
+      "exit_code": 0,
+      "evaluation_state": "completed",
+      "evaluation_exit_code": 1,
+      "evaluation_repair": "Offline evaluator repair succeeded; previous controller failure retained in pre-pause snapshot"
+    },
+    {
+      "id": "oxford05_r1",
+      "descriptor": "experiments/phase1_20261022/oxford05.json",
+      "repeat": 1,
+      "run": "experiments/phase1_20261022/runs/oxford05_r1",
+      "state": "completed",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/oxford05.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford05_r1",
+        "--rate",
+        ".5",
+        "--record-clouds"
+      ],
+      "started_at": "2026-10-23T11:43:54+0800",
+      "exit_code": 0,
+      "evaluation_state": "completed",
+      "evaluation_exit_code": 0
+    },
+    {
+      "id": "fpv2_00_r1",
+      "descriptor": "experiments/phase1_20261022/fpv2_00.json",
+      "repeat": 1,
+      "run": "experiments/phase1_20261022/runs/fpv2_00_r1",
+      "state": "completed",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/fpv2_00.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/fpv2_00_r1",
+        "--rate",
+        ".5",
+        "--record-clouds"
+      ],
+      "started_at": "2026-10-23T12:14:27+0800",
+      "exit_code": 0,
+      "evaluation_state": "completed",
+      "evaluation_exit_code": 0
+    },
+    {
+      "id": "ntu_eee01_r2",
+      "descriptor": "experiments/phase1_20261022/ntu_eee01.json",
+      "repeat": 2,
+      "run": "experiments/phase1_20261022/runs/ntu_eee01_r2",
+      "state": "completed",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/ntu_eee01.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/ntu_eee01_r2",
+        "--rate",
+        ".5"
+      ],
+      "started_at": "2026-10-23T12:34:35+0800",
+      "exit_code": 0,
+      "evaluation_state": "completed",
+      "evaluation_exit_code": 0
+    },
+    {
+      "id": "ntu_eee01_r3",
+      "descriptor": "experiments/phase1_20261022/ntu_eee01.json",
+      "repeat": 3,
+      "run": "experiments/phase1_20261022/runs/ntu_eee01_r3",
+      "state": "completed",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/ntu_eee01.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/ntu_eee01_r3",
+        "--rate",
+        ".5"
+      ],
+      "started_at": "2026-10-23T12:49:50+0800",
+      "exit_code": 0,
+      "evaluation_state": "completed",
+      "evaluation_exit_code": 0
+    },
+    {
+      "id": "oxford02_r2",
+      "descriptor": "experiments/phase1_20261022/oxford02.json",
+      "repeat": 2,
+      "run": "experiments/phase1_20261022/runs/oxford02_r2",
+      "state": "interrupted_by_user",
+      "command": [
+        "/usr/bin/python3",
+        "-u",
+        "scripts/run_livo_baseline.py",
+        "experiments/phase1_20261022/oxford02.json",
+        "--output",
+        "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford02_r2",
+        "--rate",
+        ".5"
+      ],
+      "started_at": "2026-10-23T13:05:04+0800",
+      "evaluation_state": "not_run",
+      "retained_attempt": "experiments/phase1_20261022/failed_full_attempts/oxford02_r2_user_paused_20261023",
+      "restart_required": true
+    }
+  ],
+  "completed_geometry_evaluations": 8,
+  "remaining_jobs": [
+    "oxford02_r2",
+    "oxford02_r3",
+    "fpv2_00_r2",
+    "fpv2_00_r3"
+  ]
+}

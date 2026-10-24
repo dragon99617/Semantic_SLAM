@@ -1,0 +1,38 @@
+{
+  "camera": [
+    "ros2",
+    "run",
+    "demo_nodes_cpp",
+    "parameter_blackboard",
+    "--ros-args",
+    "--params-file",
+    "/home/hxy/SLAM_project/experiments/fusionportable_v2/runs/ugv_transition00_memory_profile_20261021/camera.yaml"
+  ],
+  "gdb": [
+    "/home/hxy/SLAM_project/third_party/debug/usr/bin/gdb",
+    "--batch",
+    "-ex",
+    "set pagination off",
+    "-ex",
+    "run",
+    "-ex",
+    "thread apply all bt",
+    "--args",
+    "/home/hxy/SLAM_project/fast_livo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping",
+    "--ros-args",
+    "-r",
+    "__node:=laserMapping",
+    "--params-file",
+    "/home/hxy/SLAM_project/experiments/fusionportable_v2/debug_segfault/mapper.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/FusionPortableV2/ugv_transition00_humble",
+    "--rate",
+    "0.75",
+    "--read-ahead-queue-size",
+    "300"
+  ]
+}

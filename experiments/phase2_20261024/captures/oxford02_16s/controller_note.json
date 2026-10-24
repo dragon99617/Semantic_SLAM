@@ -1,0 +1,5 @@
+{
+  "status": "interrupted_sandbox_transport_unavailable",
+  "reason": "ROS 2 socket/getifaddrs denied in original sandbox; stopped before mapper playback. Retried with approved access.",
+  "counts_as_success": false
+}

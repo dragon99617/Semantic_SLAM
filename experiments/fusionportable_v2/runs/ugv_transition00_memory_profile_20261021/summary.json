@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "error": "Mapper process died",
+  "diagnostic": false,
+  "rate": 0.5,
+  "mapper_clean_exit": false,
+  "player_returncode": 0,
+  "wall_seconds": 378.5545717030036,
+  "received_outputs": {
+    "/aft_mapped_to_init": 3300,
+    "/cloud_registered": 6568,
+    "/rgb_img": 2174
+  },
+  "max_cloud_points": 9613,
+  "timestamp_basis": "saved TUM sensor time; ROS output stamps are node time",
+  "map_artifact": "sampled output clouds, every tenth message, ~512 points/message, 10 cm deduplication",
+  "run_dir": "/home/hxy/SLAM_project/experiments/fusionportable_v2/runs/ugv_transition00_memory_profile_20261021"
+}

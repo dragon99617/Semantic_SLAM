@@ -1,0 +1,26 @@
+{
+  "/os1_cloud_node1/points": {
+    "expected": 3987,
+    "received_callbacks": 3987,
+    "unique_received": 3987,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/imu/imu": {
+    "expected": 153347,
+    "received_callbacks": 153347,
+    "unique_received": 153347,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/left/image_raw": {
+    "expected": 3986,
+    "received_callbacks": 3986,
+    "unique_received": 3986,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "diagnostic_completed",
+  "diagnostic": true,
+  "error": null,
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-18-christ-church-02",
+  "rate": 0.5,
+  "mapper_clean_exit": true,
+  "player_returncode": 0,
+  "wall_seconds": 129.6764075179999,
+  "received_outputs": {
+    "/aft_mapped_to_init": 889,
+    "/cloud_registered": 1613,
+    "/rgb_img": 668
+  },
+  "expected_lidar_span_s": 44.85727381706238,
+  "peak_mapper_rss_kib": 741936,
+  "peak_mapper_swap_kib": 0,
+  "registered_output_points_captured": 0,
+  "registered_output_nonfinite_points": 0,
+  "input_callback_audit": {
+    "/hesai/pandar": {
+      "expected": 450,
+      "received_callbacks": 450,
+      "unique_received": 450,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/alphasense_driver_ros/imu": {
+      "expected": 17961,
+      "received_callbacks": 17961,
+      "unique_received": 17961,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left_camera/image": {
+      "expected": 895,
+      "received_callbacks": 895,
+      "unique_received": 895,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "pose_timestamp_basis": "sensor acquisition time; ROS odometry/TF and native TUM use last_lio_update_time",
+  "limitation": "RX traces establish callback receipt, not that every point contributes to an estimator update."
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "scope": "Bag static TF matches pinned 20230426 calibration used for both FPV2 sequences; fixed temporal calibration retained",
+  "checks": [
+    {
+      "parent": "ouster00",
+      "child": "frame_cam00",
+      "translation_difference_m": 0.0,
+      "rotation_matrix_max_difference": 1.1102230246251565e-16
+    },
+    {
+      "parent": "frame_cam00",
+      "child": "body_imu",
+      "translation_difference_m": 0.0,
+      "rotation_matrix_max_difference": 2.220446049250313e-16
+    }
+  ]
+}

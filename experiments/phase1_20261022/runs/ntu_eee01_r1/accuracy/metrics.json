@@ -1,0 +1,138 @@
+{
+  "status": "evaluated",
+  "dataset": "NTU_VIRAL",
+  "sequence": "eee_01",
+  "poses": 3983,
+  "trajectory_duration_s": 398.3250210285187,
+  "path_length_m": 245.24061914570964,
+  "trajectory_span_fraction": 0.9992832699782402,
+  "protocol": {
+    "alignment": "One global SE3 per association protocol",
+    "scale": 1.0,
+    "extra_time_offset_s": 0.0,
+    "time_offset_search": false,
+    "nearest_tolerance_s": 0.01,
+    "interpolation_max_each_neighbor_distance_s": 0.1,
+    "interpolation_max_total_bracket_span_s": 0.2
+  },
+  "comparisons": {
+    "prism": {
+      "nearest": {
+        "stats_m": {
+          "rmse": 0.02511763654478515,
+          "mean": 0.021609952020279877,
+          "median": 0.018853539678729145,
+          "std": 0.012802563777506763,
+          "min": 0.002229593656090605,
+          "max": 0.07810683703088184,
+          "sse": 0.8435075049017537
+        },
+        "reference_poses": 6616,
+        "estimated_poses": 3983,
+        "associated_poses": 1337,
+        "associated_estimate_fraction": 0.335676625659051,
+        "matched_time_start_s": 1609059075.189797,
+        "matched_time_end_s": 1609059391.989135,
+        "reference_time_start_s": 1609059060.1097538,
+        "reference_time_end_s": 1609059396.474167,
+        "association_abs_dt_max_s": 0.009997844696044922,
+        "association_abs_dt_median_s": 0.004686117172241211,
+        "alignment_R": [
+          [
+            -0.8862654794805286,
+            -0.4606105235284398,
+            -0.04869748962734061
+          ],
+          [
+            -0.46029514879353356,
+            0.8875799318118227,
+            -0.018172524372203125
+          ],
+          [
+            0.05159337048775542,
+            0.006309537207786112,
+            -0.9986482433078914
+          ]
+        ],
+        "alignment_t": [
+          -0.3853787882284785,
+          -0.2187008045975467,
+          -0.22948704508701123
+        ],
+        "scale": 1.0,
+        "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+        "estimate_file": "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism.tum",
+        "command": [
+          "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+          "tum",
+          "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism.tum",
+          "-a",
+          "--t_max_diff",
+          "0.01",
+          "--save_results",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_evo_ape.zip"
+        ]
+      },
+      "interpolated": {
+        "rmse_m": 0.031824444291289444,
+        "mean_m": 0.02539684569522829,
+        "median_m": 0.021065090694522965,
+        "max_m": 0.13730615478478006,
+        "matched_poses": 3341,
+        "estimated_poses": 3983,
+        "max_bracket_distance_s": 0.1,
+        "matched_time_start_s": 1609059060.185104,
+        "matched_time_end_s": 1609059396.390527,
+        "alignment": "rigid rotation and translation, no scale correction",
+        "time_offset_s": 0.0,
+        "reference_file": "/home/hxy/SLAM_project/experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum"
+      }
+    }
+  },
+  "RPE_evaluated": false,
+  "input_audit": {
+    "/os1_cloud_node1/points": {
+      "expected": 3987,
+      "received_callbacks": 3987,
+      "unique_received": 3987,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/imu/imu": {
+      "expected": 153347,
+      "received_callbacks": 153347,
+      "unique_received": 153347,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left/image_raw": {
+      "expected": 3986,
+      "received_callbacks": 3986,
+      "unique_received": 3986,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "reference_file": "experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum",
+  "ros_pose_time_check": {
+    "observed": 3982,
+    "matched_to_native": 3982,
+    "max_matched_dt_s": 2.384185791015625e-07,
+    "max_matched_position_difference_m": 8.361231966074012e-07
+  },
+  "reference_sha256": "61dff03eb13716c5f88759cfb6a69107d7bf168d91b42bc9c63a66011fd5d262",
+  "reference_rows": 6616,
+  "reference_gap_gt_0_1_s": 25,
+  "reference_point": "Leica prism, calibrated IMU lever arm",
+  "RPE_not_evaluated_reason": "GT orientations are identity placeholders; do not construct full-pose RPE from them",
+  "registered_map": {
+    "captured_points": 5373832,
+    "voxel_points": 1616888,
+    "voxel_m": 0.1,
+    "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+  }
+}

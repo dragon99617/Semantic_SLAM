@@ -1,0 +1,102 @@
+{
+  "bag": "datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/1710754066_2024-03-18-09-36-49_1_blurred_filtered_compressed.db3",
+  "samples": [
+    {
+      "topic": "/alphasense_driver_ros/imu",
+      "header_time": 1710754609.7410822,
+      "frame_id": "imu_sensor_frame",
+      "serialized_bytes": 332,
+      "gyro_accel": [
+        0.09779425967166933,
+        -0.03749845251026972,
+        0.19207303942050089,
+        0.11364746093750003,
+        3.46864013671875,
+        7.313273925781251
+      ]
+    },
+    {
+      "topic": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+      "header_time": 1710754609.647009,
+      "frame_id": "cam0_sensor_frame",
+      "serialized_bytes": 128028,
+      "format": "bgr8; jpeg compressed bgr8",
+      "decoded_shape": [
+        1080,
+        1440,
+        3
+      ]
+    },
+    {
+      "topic": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+      "header_time": 1710754609.647009,
+      "frame_id": "cam1_sensor_frame",
+      "serialized_bytes": 158635,
+      "format": "bgr8; jpeg compressed bgr8",
+      "decoded_shape": [
+        1080,
+        1440,
+        3
+      ]
+    },
+    {
+      "topic": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+      "header_time": 1710754609.647009,
+      "frame_id": "cam2_sensor_frame",
+      "serialized_bytes": 173619,
+      "format": "bgr8; jpeg compressed bgr8",
+      "decoded_shape": [
+        1080,
+        1440,
+        3
+      ]
+    },
+    {
+      "topic": "/hesai/pandar",
+      "header_time": 1710754609.737921,
+      "frame_id": "pandar",
+      "serialized_bytes": 3229969,
+      "width": 67287,
+      "height": 1,
+      "point_step": 48,
+      "fields": [
+        {
+          "name": "x",
+          "offset": 0,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "y",
+          "offset": 4,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "z",
+          "offset": 8,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "intensity",
+          "offset": 16,
+          "datatype": 7,
+          "count": 1
+        },
+        {
+          "name": "timestamp",
+          "offset": 24,
+          "datatype": 8,
+          "count": 1
+        },
+        {
+          "name": "ring",
+          "offset": 32,
+          "datatype": 4,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

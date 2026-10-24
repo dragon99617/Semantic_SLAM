@@ -1,0 +1,204 @@
+{
+  "runs": [
+    {
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00",
+      "processed_frames": 1380,
+      "artifacts": {
+        "metrics.json": "00b9e8259257fa9ed6738f00355bc0535dfa7cd87e85da18cb2add94a05b05a5",
+        "config.yaml": "a111bbab63074ec7a00735047c6fb08fa90837ad43287e05b2214462983e3276",
+        "runtime.json": "0ae72c8fabfb5d6fd0e56a5e0fb8bcc4d5b272c09679c675cc07b0fcb0b1b8d2",
+        "audit.json": "5516bafae605101a32885c8ff9a133a998252509050042abd0e31151899f6a27",
+        "confusion.npy": "919c4edcb19e1092643578a166a88f04eba78ff6c247e44c202436ed3ccd8541"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00",
+      "processed_frames": 770,
+      "artifacts": {
+        "metrics.json": "99c4761b6ca9d7925f43e9f3a76f3c8ddb1ce2a4eb904bef25a8cb495d4d72c9",
+        "config.yaml": "bdf767f84f5a463b66b51b43a2d580fdf46f5e2e7aa3fdcf12abb3f97bc88d2d",
+        "runtime.json": "c72f8d6f85930fadfd4251e2cfa811d67fd6f5c00957690be98f70aaf1732c26",
+        "audit.json": "d9fa64989632ec338e1191aa187edbd6ad6b96646fd419b93fd09fc707be9395",
+        "confusion.npy": "8d14afcb6b860b7c4b7251b752227805ca6baebafd3dc99946de3f0acaaf92f9"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00",
+      "processed_frames": 1318,
+      "artifacts": {
+        "metrics.json": "421ed4a8adf5624d33db6989908c0d266493b02ae9da8c674c595d1ca856d514",
+        "config.yaml": "8f387d36491d4129b5e9ead4ae7e6c5ec349fcc4cffe46f99ed444c9d25f1d61",
+        "runtime.json": "5f73440a47a26cd0c76a3a1bd508db8de5a1c2ba5905c664983f735f362ff53b",
+        "audit.json": "7da3cdf73e37801a2a5ad1b82f43afedfd87fb4f167b0e6c35c5282d8428a619",
+        "confusion.npy": "30250e46004564c854ed19bb8b4e73f4aa8c3668f9c95b032a50cde1e4287d0a"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/Replica/office0",
+      "processed_frames": 2000,
+      "artifacts": {
+        "metrics.json": "f2de8405d7f6f569ec6f5b7de538c77c1d0d678ed8cd1fc29e224fb5f33eed22",
+        "config.yaml": "adc5fd438f7728458c8815c016ecc3c496a9d7b172ad0834860dad4fe8f7e2d1",
+        "runtime.json": "e3ec6e7d66bc8bef8083c200c61da2def5b8241c9ecd2964264e405312b83802",
+        "audit.json": "a1d8bfa6a50a2717fc1a51e4398258618d0d43ebb7aa3535d152134171226cd6",
+        "confusion.npy": "a77013a9a8539ee10c8d2f0680eae7c774350e64a1e9bc58a8371210f0a0a8d9"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/Replica/office1",
+      "processed_frames": 2000,
+      "artifacts": {
+        "metrics.json": "06d4d114b18d03972a404e891a3df2ae4c0a028d475952826df465e6b9a80242",
+        "config.yaml": "7d2983491a3e875a7afcea528e1c3cb1d097672388e75bd897e00949ee1dc1b6",
+        "runtime.json": "e9ac664d06f83df824c9124b4de8c75ed00f33d9ffb2f1cb8880c3224314eb05",
+        "audit.json": "3b77a5babf771cf880be607750ddd2089ad870ea0db3e07942be4bb104fc0b08",
+        "confusion.npy": "5c69c2a598880210122193446f43ae908f69af1883809b4e051ac8da4187c1cb"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/runs/Replica/room0",
+      "processed_frames": 2000,
+      "artifacts": {
+        "metrics.json": "7dbfe057bbd243422f3327ae416bc40d9f32679d4c751ebfebb1209684a3ee68",
+        "config.yaml": "3ee07a66fcd56bf0e63f18fab2802b66a09d0c71676752b51b49c7f673a37e5b",
+        "runtime.json": "3b763618f22cc5c1986adae2d88d30a3d322dde23dd4a21acf78491400616774",
+        "audit.json": "cf716750897559c5af9c9cfc179d0adecd818f56f7060cb8125f60eee1e960a8",
+        "confusion.npy": "646657bae9b4c97314de80aa9b3d4941ed9147487bc79a0fd25027e3408fda7e"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00",
+      "processed_frames": 1380,
+      "artifacts": {
+        "metrics.json": "2c2896fcedf5d64eeefa5bd0dd5a8649c98be80f81e031148445e673cc16d5aa",
+        "config.yaml": "ba06cd10b10b18ee43b961cac267630f3d9c5bcd3be5c154a54610d5f9781bb5",
+        "runtime.json": "57c7e5d4f0bee5b6afb28c81f772fbc11c220682850c96c302b8f62c42f27d26",
+        "audit.json": "8b4d79d04ab4c1a08fd1ebf84d0da5ab900bd72665e0c6582b1ef4f69046893a",
+        "confusion.npy": "7adde988bcde496701d64626fa15045cae4bc7132671a00700ca6aa50e98526e"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00",
+      "processed_frames": 770,
+      "artifacts": {
+        "metrics.json": "9e8a2e73fa3c93988d89054e58847a54e7f72c5b1e59b53eed9cb8f70ba98991",
+        "config.yaml": "2fdd30eccab9629dfff98c507a34d9c8c9c3d2cc8bdf75a0d10333aee64b9c68",
+        "runtime.json": "f2b0e2a1d55ee3cba8292617e05387159f6cf1d6a1c39f660f283fdb255b46dd",
+        "audit.json": "1b5777ba3bb3933f58185da2e4b019b2ef7d5a531aed5aa7ddf2ccec32c414db",
+        "confusion.npy": "5286d98167413f7a533b66e41b6ef1f4c3cf9e0dfb96d666f0f5590306139ddd"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00",
+      "processed_frames": 1318,
+      "artifacts": {
+        "metrics.json": "1607482be1a0eda61981961044c77aa729443f0bf89b143eb749bada1ba52835",
+        "config.yaml": "d2e04e50c59a457f0b93bd0aeba0581b101497fc35ea5e9c85d75f4991be1a15",
+        "runtime.json": "17e034463fcb754b29f8a6bb80cf513716d002761eddae97ed9087ca2e080e92",
+        "audit.json": "4f227e3a4b1b6387ebde3f44bc17db46470ed56e62b80175586439e23bf2ccef",
+        "confusion.npy": "9a30079d0d2897cc0344aeb76fb2e9aeee52134818a1ab9dd10430d42c4e5c24"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00",
+      "processed_frames": 1380,
+      "artifacts": {
+        "metrics.json": "5f5e305c415ad2e8ebb0dc4ade1782183b7ff66b1d425dc05d63a8d2d85d72b4",
+        "config.yaml": "345f5aaf53fd60077c6774add7e17b0d66d7cb2a3cd76be28e60ab0d017ae20a",
+        "runtime.json": "0ffa28ad1c441b0fe1deb65d6d6c1a12f2979e6b1c254017331b02c8d643891f",
+        "audit.json": "3c28cf836c1ceadd7c2a3e13a1486c9f6c1705bf7ff56c5ffa3ef5b087da4744",
+        "confusion.npy": "f0e8072c2513f7622d2643860c448756aa6c85ec92719ca4c2cd0906f3e6b3a3"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00",
+      "processed_frames": 770,
+      "artifacts": {
+        "metrics.json": "2447236aad27d3a0712caaa6fa2bc5b028bfc31d3790f0c14be8d71c2b61688e",
+        "config.yaml": "0840de0b402aed2c0699d9a15d0878f4de5cfdb39777c8909555b43ccb7191ef",
+        "runtime.json": "7398fc3ccc04cf7ff17d009ab52e0646df78e2b37ae1a892895b0fe8403c5199",
+        "audit.json": "9d7dde90c023c347f7f9ba29ba390cf93c834154d504a2ab9ec3f2e503fbade6",
+        "confusion.npy": "97c101796dbc26e2b62a8d70b5724e65175f7572c7692e0a9cb45aa0bb09293e"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00",
+      "processed_frames": 1318,
+      "artifacts": {
+        "metrics.json": "d9beb0fc02d1e110762ef1dc0de6e3bc29630b9a1fd0f23fb28a2bb78aa298b1",
+        "config.yaml": "f5951263e6398ebc5c63bf88325d7ed2098834e9b30a5a2e4aa439014fd14223",
+        "runtime.json": "d640322ff593973069d05397f29ef1e7960a0819711f104ac319fb3a9d992783",
+        "audit.json": "781dc59c29a4376051f641b17d0dd511b093625d8292c7c6c2718034bc43a3d1",
+        "confusion.npy": "9ce300a1289614bd875788a1a03705c1fc3c9677a70b87b61d1b218b1753922e"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00",
+      "processed_frames": 1380,
+      "artifacts": {
+        "metrics.json": "2d095fa30d847c15a78a0ca0aceca11fc61cda2a64cb3e4c16aa3a1cac515c8c",
+        "config.yaml": "1ae2ddd850684e8a635dfe3e88a0eb86f100c20fa2b1d978550ce01b078e70d8",
+        "runtime.json": "72c6a49930fd22e7247fc1d174c7546a154f8830011f04657d3516dda33355ec",
+        "audit.json": "8fd3ba093af325d0ed0b94b25bf93a0b464aa1bc4d63c6f20d952e3776f24145",
+        "confusion.npy": "ea5d844ea860feb2e1bc4da616879f8781df2a8a6492538ca5310ce2aaac233b"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00",
+      "processed_frames": 770,
+      "artifacts": {
+        "metrics.json": "54f664597f01262db35f400b0639d7cf96e6cac910c20f45963c350de4297fd7",
+        "config.yaml": "76f76d6538e4b7fab2090d5b65fc4069b648904290c58c9f6977e01d37662feb",
+        "runtime.json": "9c413aa743ee6075d09c410d60422f86ad148710ef3a5420597ba19cdb32b8ba",
+        "audit.json": "88c251591a1ccbe1239d357f2b204de89ebd4527b99dbaa512c3fd29c6ca68a6",
+        "confusion.npy": "82e51384477a4dffe6280dd90d13283be4435189135639917b4cc295a39b0075"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00",
+      "processed_frames": 1318,
+      "artifacts": {
+        "metrics.json": "4e275d62b0e991ef0dbae20f3d43e286a16261051c818bb912f59d181174f7f5",
+        "config.yaml": "91ce678a7be690acdf72cf41c8aa51f07054855eafe61db009c949213a4ebe40",
+        "runtime.json": "ffc62386bd8a75968e37bb52697eb74ac609ccdf22b1c6808279b9ebc2febdda",
+        "audit.json": "3cdffcbfe9e5243206876bd5306473e230031dbcf1f7acf4492874e433f8df72",
+        "confusion.npy": "7a4d70c82ad4f5eab432580ac29402109bda255c4b5146c6108c02bba0d9c3da"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00",
+      "processed_frames": 1380,
+      "artifacts": {
+        "metrics.json": "0db9df27478d7025664a133ea0755a4dda32f955e14c088827338b8af7e29f0e",
+        "config.yaml": "ae4081c20743a78a64e72b7b3a3b2c7bbd4b0eb62b19ee70ca3cb60d61851297",
+        "runtime.json": "343d39ea7adc9a81e2fad61d8bee01e62ffe26893a186807f619af010d923fb5",
+        "audit.json": "9735120fcc82469eb8bb8862aabde68fd04441324faec286126619d5f44f2756",
+        "confusion.npy": "c49e41933737e45ec88e5736a8e188ce45c97e4afc88c490ed25c7971fab2bb8"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00",
+      "processed_frames": 770,
+      "artifacts": {
+        "metrics.json": "fffd0cb0b0fc884ac5149a562ca56431e6a937c5cddf93235d0de2c2fc0cd97b",
+        "config.yaml": "b7596d23d9ac0f1bc1ffd24efdbbd14eb122ab96262d27d7e86c731be03edbae",
+        "runtime.json": "8925f8a286c7dde8aaf0faa66a636e3ed0acabd8b94826f0611adbe15492042f",
+        "audit.json": "9367d1e0991e3f13e584b615704e04c5bb244b6b16801f19f0bed3f9f2cb47f8",
+        "confusion.npy": "ec1429dfd97569f4cc09fb48eaf38ad267d0b4beaad1728aa90d963c99942fac"
+      }
+    },
+    {
+      "run": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00",
+      "processed_frames": 1318,
+      "artifacts": {
+        "metrics.json": "471e69855ae6844de20a21415fde290a94fffc81b98d0886beaedecc58509ad6",
+        "config.yaml": "db432ad809b20082c5bfa9a6c932c5175b3635697c2e1b406316989b6bb8e2b5",
+        "runtime.json": "3ea5228eb8b32cf2fd2d54016d945054d6877c77070ce7a1a54e3cdb59f5df93",
+        "audit.json": "984b81bf27912ea1e4e4897ec9600ec9a8531dad769ad4e870f83d02d5921640",
+        "confusion.npy": "a582e577c9272bd548bda1c1d26a2b53a334f1a4a8c9583f547d6a510802500f"
+      }
+    }
+  ],
+  "frames": 23340,
+  "scope": "Compact artifact hashes and complete traversal checks; prior independent point-prediction confusion reconstruction retained unchanged"
+}

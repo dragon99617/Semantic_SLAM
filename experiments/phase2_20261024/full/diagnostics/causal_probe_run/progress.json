@@ -1,0 +1,13 @@
+{
+  "wall_seconds": 99.37902879700005,
+  "processed_frames": 158,
+  "expected_frames": 158,
+  "fraction": 1.0,
+  "map_points": 40984,
+  "objects": 30,
+  "sensor_ns": 1710754104855276892,
+  "rss_bytes": 3231080448,
+  "cuda_allocated_bytes": 4601872384,
+  "cuda_reserved_bytes": 6392119296,
+  "transition_predictions": 2
+}

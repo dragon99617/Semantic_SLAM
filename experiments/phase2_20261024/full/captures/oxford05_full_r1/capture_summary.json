@@ -1,0 +1,38 @@
+{
+  "completed": true,
+  "short_segment": false,
+  "requested_seconds": 0.0,
+  "source_bag": "/home/hxy/SLAM_project/datasets/OxfordSpires/christ_church05_livo_half",
+  "input_audit": {
+    "/hesai/pandar": {
+      "expected": 8007,
+      "received": 8007,
+      "exact": true
+    },
+    "/alphasense_driver_ros/imu": {
+      "expected": 319608,
+      "received": 319608,
+      "exact": true
+    },
+    "/left_camera/image": {
+      "expected": 3961,
+      "received": 3961,
+      "exact": true
+    }
+  },
+  "capture_images_exact": true,
+  "counts": {
+    "images": 3961,
+    "poses": 3959,
+    "cloud_publications": 7918,
+    "empty_cloud_publications": 3959,
+    "nonempty_clouds": 3959
+  },
+  "mapper_clean_exit": true,
+  "error": null,
+  "wall_seconds": 1639.4521431790004,
+  "pacing_events": [],
+  "pose_stage": "post_LIO_pre_same_frame_VIO",
+  "cloud_source": "same_state_world_XYZ_colored_in_VIO",
+  "limitation": "Registered cloud is image-filtered by upstream VIO projection, not a complete raw scan; last input frames may lack a future LiDAR bracket."
+}

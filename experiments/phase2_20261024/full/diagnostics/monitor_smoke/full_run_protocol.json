@@ -1,0 +1,11 @@
+{
+  "wrapper_sha256": "9f26a95ac8a58e26aa9a0a335cafd3218eedccc31c7a93a42e6a4f5e693b21ff",
+  "package_manifest_sha256": "15c807f4ed98dd926a59c812a577d021a6b078d8fb48e79ac421a8a30f9b1599",
+  "ontology_sha256": "ce89fec9c3aa081653f19f2a335922ddd1694a732ce0cb8983b476f6d51e6b0b",
+  "sequence": "oxford02",
+  "prediction_mode": "causal_map_at_raw_input_time",
+  "no_gt_read": true,
+  "pending_descriptor_policy": "retain existing past descriptor; abstain if descriptor not yet computed",
+  "missing_pose_policy": "all pixels abstain; no future/interpolated pose",
+  "rendering": "sparse nearest-pixel map z-buffer, no densification; no claim of perfect occlusion"
+}

@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-10-24T00:20:22.690198+08:00",
+  "input_manifest": "/home/hxy/SLAM_project/experiments/phase2_20261024/inputs/oxford02_16s/manifest.json",
+  "input_manifest_sha256": "ca954f2a30949ee32587b1aa38f3c15ff06b6778bd54afa5beb079e7f47d4154",
+  "source_version": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+  "ovo_patch_sha256": "da41369e61601573734b5410328d2d1740224697b41e323e5543fdde2e3ca407",
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "frame_count": 11,
+  "pose_source": "FAST-LIVO2_estimated",
+  "depth_policy": "author",
+  "original_semantic_config_unchanged": true,
+  "filter_probe": [
+    {
+      "frame_id": 0,
+      "valid_pixels": 2678,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 2666
+    },
+    {
+      "frame_id": 10,
+      "valid_pixels": 2684,
+      "author_surviving_pixels": 0,
+      "valid_mask_surviving_pixels": 2672
+    }
+  ]
+}

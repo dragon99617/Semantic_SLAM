@@ -1,0 +1,101 @@
+{
+  "2024-03-18-christ-church-02": {
+    "gt_poses": 14379,
+    "start": 1710754089.975849,
+    "end": 1710754650.797929,
+    "strict_timestamps": true,
+    "quat_max_error": 5.551115123125783e-16,
+    "bags": [
+      {
+        "directory": "datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0",
+        "duration_sec": 520.737939891,
+        "message_count": 244235,
+        "topics": [
+          {
+            "name": "/alphasense_driver_ros/imu",
+            "count": 208051
+          },
+          {
+            "name": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+            "count": 10313
+          },
+          {
+            "name": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+            "count": 10304
+          },
+          {
+            "name": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+            "count": 10354
+          },
+          {
+            "name": "/hesai/pandar",
+            "count": 5213
+          }
+        ]
+      },
+      {
+        "directory": "datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1",
+        "duration_sec": 71.462076532,
+        "message_count": 33522,
+        "topics": [
+          {
+            "name": "/alphasense_driver_ros/imu",
+            "count": 28555
+          },
+          {
+            "name": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+            "count": 1421
+          },
+          {
+            "name": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+            "count": 1414
+          },
+          {
+            "name": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+            "count": 1417
+          },
+          {
+            "name": "/hesai/pandar",
+            "count": 715
+          }
+        ]
+      }
+    ]
+  },
+  "2024-03-20-christ-church-05": {
+    "gt_poses": 11503,
+    "start": 1710926321.8997118,
+    "end": 1710927121.983733,
+    "strict_timestamps": true,
+    "quat_max_error": 5.551115123125783e-16,
+    "bags": [
+      {
+        "directory": "datasets/OxfordSpires/sequences/2024-03-20-christ-church-05/raw/ros2bag/1710926317_2024-03-20-09-18-38_0",
+        "duration_sec": 799.989254778,
+        "message_count": 339442,
+        "topics": [
+          {
+            "name": "/alphasense_driver_ros/imu",
+            "count": 319608
+          },
+          {
+            "name": "/hesai/pandar",
+            "count": 8007
+          },
+          {
+            "name": "/alphasense_driver_ros/cam0/debayered/image/compressed",
+            "count": 3961
+          },
+          {
+            "name": "/alphasense_driver_ros/cam1/debayered/image/compressed",
+            "count": 3927
+          },
+          {
+            "name": "/alphasense_driver_ros/cam2/debayered/image/compressed",
+            "count": 3939
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "run": "experiments/phase1_20261022/runs/retail_r1",
+  "visual": {
+    "lio_blocks": 1351,
+    "native_poses": 1351,
+    "visual_frames": 1350,
+    "log_order_mapping_validated": true,
+    "interpretation": "Retrieved sparse visual-map points and appearance-map point updates; positive retrieval is not an independently verified EKF acceptance flag. Native trajectory is saved after LIO update and before that frame VIO feedback.",
+    "retrieved_points": {
+      "samples": 1349,
+      "mean": 120.44625648628613,
+      "median": 117.0,
+      "p95": 162.0,
+      "max": 187.0,
+      "rmse": 122.83655149827408
+    },
+    "updated_appearance_map_points": {
+      "samples": 1349,
+      "mean": 45.09266123054114,
+      "median": 46.0,
+      "p95": 80.0,
+      "max": 118.0,
+      "rmse": 50.0928123020572
+    },
+    "missing_retrieval_entries": 1,
+    "zero_retrieval_frames": 0
+  },
+  "trajectory_intervals_s": {
+    "samples": 1350,
+    "mean": 0.09999997633474844,
+    "median": 0.0998450517654419,
+    "p95": 0.10064303874969482,
+    "max": 0.10072600841522217,
+    "rmse": 0.10000039438557294
+  },
+  "pose_gaps_over_0_5_s": 0,
+  "events": [],
+  "reset_assessment": "No reset inference from position jumps. Initialization log entries are retained; this diagnostic does not establish relocalization."
+}

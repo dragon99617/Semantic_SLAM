@@ -1,0 +1,13 @@
+{
+  "id": "oxford02",
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-18-christ-church-02",
+  "bag": "datasets/OxfordSpires/christ_church02_livo_half",
+  "expected_lidar_count": 5928,
+  "mapper_config": "experiments/phase1_20261022/configs/oxford_mapper.yaml",
+  "camera_config": "experiments/phase1_20261022/configs/oxford_camera.yaml",
+  "reference": "datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/processed/trajectory/gt-tum.txt",
+  "reference_frame": "base",
+  "sensor_config": "experiments/oxford_spires/sensor_config.yaml",
+  "input_readiness_file": "preparation.json"
+}

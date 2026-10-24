@@ -1,0 +1,38 @@
+{
+  "completed": true,
+  "short_segment": true,
+  "requested_seconds": 16.0,
+  "source_bag": "/home/hxy/SLAM_project/datasets/FusionPortableV2/ugv_transition00_humble",
+  "input_audit": {
+    "/os_cloud_node/points": {
+      "expected": 161,
+      "received": 161,
+      "exact": true
+    },
+    "/stim300/imu/data_raw": {
+      "expected": 3201,
+      "received": 3201,
+      "exact": true
+    },
+    "/left_camera/image": {
+      "expected": 320,
+      "received": 320,
+      "exact": true
+    }
+  },
+  "capture_images_exact": true,
+  "counts": {
+    "images": 320,
+    "poses": 315,
+    "cloud_publications": 629,
+    "empty_cloud_publications": 470,
+    "nonempty_clouds": 159
+  },
+  "mapper_clean_exit": true,
+  "error": null,
+  "wall_seconds": 59.34465635000004,
+  "pacing_events": [],
+  "pose_stage": "post_LIO_pre_same_frame_VIO",
+  "cloud_source": "same_state_world_XYZ_colored_in_VIO",
+  "limitation": "Registered cloud is image-filtered by upstream VIO projection, not a complete raw scan; last input frames may lack a future LiDAR bracket."
+}

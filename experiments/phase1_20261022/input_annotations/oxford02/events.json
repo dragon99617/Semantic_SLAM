@@ -1,0 +1,126 @@
+{
+  "sequence_id": "oxford02",
+  "created_at": "2026-10-22T20:08:36.159877",
+  "annotation_method": "Assistant visual inspection of input-image contact sheets sampled every 5s; no pose/error curves inspected for these labels",
+  "index_sha256": "5c9f0835a2f433b105477ebcebf1b6ceadfe2eb9586139f692f7998eda867a27",
+  "environment_definition": {
+    "indoor": "Enclosed hall, cathedral, staircase or workshop",
+    "outdoor": "Open courtyard or road",
+    "covered_passage": "Roofed cloister with open arches; report separately from enclosed indoor"
+  },
+  "timing": "Boundary is an interval between inspected frames, its midpoint is only a window anchor. Not exact physical threshold truth.",
+  "events": [
+    {
+      "id": "oxford02_t1",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Great Hall staircase entrance",
+      "interval_start_sensor_s": 1710754340.4013495,
+      "interval_end_sensor_s": 1710754345.4512675,
+      "center_sensor_s": 1710754342.9263086,
+      "center_from_first_image_s": 253.97076869010925,
+      "uncertainty_half_width_s": 2.5249589681625366,
+      "evidence_indices": [
+        50,
+        51
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t2",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710754521.3484547,
+      "interval_end_sensor_s": 1710754526.398371,
+      "center_sensor_s": 1710754523.8734128,
+      "center_from_first_image_s": 434.9178729057312,
+      "uncertainty_half_width_s": 2.5249581336975098,
+      "evidence_indices": [
+        86,
+        87
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t3",
+      "from_environment": "outdoor",
+      "to_environment": "covered_passage",
+      "note": "Enter cloister; open arches, secondary event",
+      "interval_start_sensor_s": 1710754536.3981993,
+      "interval_end_sensor_s": 1710754541.448116,
+      "center_sensor_s": 1710754538.9231577,
+      "center_from_first_image_s": 449.96761775016785,
+      "uncertainty_half_width_s": 2.524958372116089,
+      "evidence_indices": [
+        89,
+        90
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford02_t4",
+      "from_environment": "covered_passage",
+      "to_environment": "outdoor",
+      "note": "Leave cloister, secondary event",
+      "interval_start_sensor_s": 1710754576.5975356,
+      "interval_end_sensor_s": 1710754581.597453,
+      "center_sensor_s": 1710754579.0974944,
+      "center_from_first_image_s": 490.14195442199707,
+      "uncertainty_half_width_s": 2.4999587535858154,
+      "evidence_indices": [
+        97,
+        98
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford02_t5",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Staircase entrance",
+      "interval_start_sensor_s": 1710754606.797037,
+      "interval_end_sensor_s": 1710754611.8469732,
+      "center_sensor_s": 1710754609.322005,
+      "center_from_first_image_s": 520.3664650917053,
+      "uncertainty_half_width_s": 2.524968147277832,
+      "evidence_indices": [
+        103,
+        104
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t6",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Staircase exit",
+      "interval_start_sensor_s": 1710754642.0464933,
+      "interval_end_sensor_s": 1710754647.0964224,
+      "center_sensor_s": 1710754644.5714579,
+      "center_from_first_image_s": 555.6159179210663,
+      "uncertainty_half_width_s": 2.5249645709991455,
+      "evidence_indices": [
+        110,
+        111
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t7",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Return to staircase",
+      "interval_start_sensor_s": 1710754657.1962342,
+      "interval_end_sensor_s": 1710754662.2461596,
+      "center_sensor_s": 1710754659.721197,
+      "center_from_first_image_s": 570.7656569480896,
+      "uncertainty_half_width_s": 2.5249626636505127,
+      "evidence_indices": [
+        113,
+        114
+      ],
+      "primary_indoor_outdoor": true
+    }
+  ]
+}

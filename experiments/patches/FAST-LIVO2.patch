@@ -2,9 +2,7 @@ diff --git a/CMakeLists.txt b/CMakeLists.txt
 index af27e8a..b93d2af 100755
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -31,8 +31,11 @@ if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(arm|aarch64|ARM|AARCH64)")
-   add_definitions(-DARM_ARCH)
- else()
+@@ -33,4 +33,7 @@ else()
    # x86-64 (Intel/AMD) optimizations
 -  set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -march=native -mtune=native -funroll-loops") #-flto
 -  message(STATUS "Using general x86 optimizations: -O3 -march=native -mtune=native -funroll-loops") 
@@ -14,20 +12,12 @@ index af27e8a..b93d2af 100755
 +  set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -mtune=native -funroll-loops")
 +  message(STATUS "Using x86 optimizations compatible with system PCL: -O3 -mtune=native -funroll-loops")
    add_definitions(-DX86_ARCH)
- endif()
- 
-@@ -126,7 +129,7 @@ set(dependencies
-   livox_ros_driver2
- )
+@@ -128,3 +131,3 @@ set(dependencies
  
 -set(COMMON_DEPENDENCIES OpenMP::OpenMP_CXX fmt::fmt)
 +set(COMMON_DEPENDENCIES OpenMP::OpenMP_CXX fmt::fmt Sophus::Sophus)
  
- # link_directories(${COMMON_DEPENDENCIES}
- #   ${vikit_common_LIBRARIES}/libvikit_common.so
-@@ -148,11 +151,7 @@ ament_target_dependencies(imu_proc ${dependencies})
- ament_target_dependencies(laser_mapping ${dependencies})
- 
+@@ -150,7 +153,3 @@ ament_target_dependencies(laser_mapping ${dependencies})
  # linking libraries or executables to public dependencies
 -target_link_libraries(laser_mapping 
 -    ${CMAKE_SOURCE_DIR}/../../install/vikit_common/lib/libvikit_common.so 
@@ -36,11 +26,7 @@ index af27e8a..b93d2af 100755
 -)
 +target_link_libraries(laser_mapping ${COMMON_DEPENDENCIES})
  target_link_libraries(vio ${COMMON_DEPENDENCIES})
- target_link_libraries(lio utils ${COMMON_DEPENDENCIES})
- target_link_libraries(pre ${COMMON_DEPENDENCIES})
-@@ -209,4 +208,4 @@ ament_export_dependencies(
-   Sophus
- )
+@@ -211,2 +210,2 @@ ament_export_dependencies(
  
 -ament_package()
 \ No newline at end of file
@@ -49,9 +35,7 @@ diff --git a/launch/mapping_aviz.launch.py b/launch/mapping_aviz.launch.py
 index a9b17a5..a04e9d9 100644
 --- a/launch/mapping_aviz.launch.py
 +++ b/launch/mapping_aviz.launch.py
-@@ -26,6 +26,12 @@ def generate_launch_description():
-         description="Whether to launch Rviz2",
-     )
+@@ -28,2 +28,8 @@ def generate_launch_description():
  
 +    use_compressed_image_arg = DeclareLaunchArgument(
 +        'use_compressed_image',
@@ -60,31 +44,79 @@ index a9b17a5..a04e9d9 100644
 +    )
 +
      avia_config_arg = DeclareLaunchArgument(
-         'avia_params_file',
-         default_value=avia_config_cmd,
-@@ -50,6 +56,7 @@ def generate_launch_description():
- 
-     return LaunchDescription([
+@@ -52,2 +58,3 @@ def generate_launch_description():
          use_rviz_arg,
 +        use_compressed_image_arg,
          avia_config_arg,
-         camera_config_arg,
-         use_respawn_arg,
-@@ -76,6 +83,7 @@ def generate_launch_description():
-         # https://robotics.stackexchange.com/questions/110939/how-do-i-remap-compressed-video-to-raw-video-in-ros2
-         # ros2 run image_transport republish compressed raw --ros-args --remap in:=/left_camera/image --remap out:=/left_camera/image
+@@ -78,2 +85,3 @@ def generate_launch_description():
          Node(
 +            condition=IfCondition(LaunchConfiguration('use_compressed_image')),
              package="image_transport",
-             executable="republish",
-             name="republish",
+diff --git a/src/LIVMapper.cpp b/src/LIVMapper.cpp
+index d67d140..6c400b8 100755
+--- a/src/LIVMapper.cpp
++++ b/src/LIVMapper.cpp
+@@ -781,2 +781,3 @@ void LIVMapper::standard_pcl_cbk(const sensor_msgs::msg::PointCloud2::ConstShare
+ {
++  std::cout << "RX_LIDAR " << (int64_t(msg->header.stamp.sec) * 1000000000LL + msg->header.stamp.nanosec) << std::endl;
+   if (!lidar_en) return;
+@@ -804,2 +805,3 @@ void LIVMapper::livox_pcl_cbk(const livox_ros_driver2::msg::CustomMsg::ConstShar
+ {
++  std::cout << "RX_LIDAR " << (int64_t(msg_in->header.stamp.sec) * 1000000000LL + msg_in->header.stamp.nanosec) << std::endl;
+   if (!lidar_en) return;
+@@ -847,2 +849,3 @@ void LIVMapper::imu_cbk(const sensor_msgs::msg::Imu::ConstSharedPtr &msg_in)
+ {
++  std::cout << "RX_IMU " << (int64_t(msg_in->header.stamp.sec) * 1000000000LL + msg_in->header.stamp.nanosec) << std::endl;
+   if (!imu_en) return;
+@@ -899,5 +902,6 @@ cv::Mat LIVMapper::getImageFromMsg(const sensor_msgs::msg::Image::ConstSharedPtr
+ {
+-  cv::Mat img;
+-  img = cv_bridge::toCvShare(img_msg, "bgr8")->image;
+-  return img;
++  // Frames outlive this callback in img_buffer and visual map observations.
++  // toCvShare may only wrap the message's external buffer for BGR8 input;
++  // returning its Mat alone drops the ROS owner and leaves dangling pixels.
++  return cv_bridge::toCvCopy(img_msg, "bgr8")->image;
+ }
+@@ -907,2 +911,3 @@ void LIVMapper::img_cbk(const sensor_msgs::msg::Image::ConstSharedPtr &msg_in)
+ {
++  std::cout << "RX_IMAGE " << (int64_t(msg_in->header.stamp.sec) * 1000000000LL + msg_in->header.stamp.nanosec) << std::endl;
+   if (!img_en) return;
+@@ -1263,3 +1268,3 @@ void LIVMapper::publish_frame_world(const rclcpp::Publisher<sensor_msgs::msg::Po
+   }
+-  laserCloudmsg.header.stamp = this->node->get_clock()->now(); //.fromSec(last_timestamp_lidar);
++  laserCloudmsg.header.stamp = sec2Stamp(LidarMeasures.last_lio_update_time);
+   laserCloudmsg.header.frame_id = "camera_init";
+@@ -1396,3 +1401,3 @@ void LIVMapper::publish_effect_world(const rclcpp::Publisher<sensor_msgs::msg::P
+   pcl::toROSMsg(*laserCloudWorld, laserCloudFullRes3);
+-  laserCloudFullRes3.header.stamp = this->node->get_clock()->now();
++  laserCloudFullRes3.header.stamp = sec2Stamp(LidarMeasures.last_lio_update_time);
+   laserCloudFullRes3.header.frame_id = "camera_init";
+@@ -1416,3 +1421,3 @@ void LIVMapper::publish_odometry(const rclcpp::Publisher<nav_msgs::msg::Odometry
+   odomAftMapped.child_frame_id = "aft_mapped";
+-  odomAftMapped.header.stamp = this->node->get_clock()->now(); //.ros::Time()fromSec(last_timestamp_lidar);
++  odomAftMapped.header.stamp = sec2Stamp(LidarMeasures.last_lio_update_time); // State acquisition time, shared with native TUM output.
+   set_posestamp(odomAftMapped.pose.pose);
+@@ -1435,3 +1440,3 @@ void LIVMapper::publish_mavros(const rclcpp::Publisher<geometry_msgs::msg::PoseS
+ {
+-  msg_body_pose.header.stamp = this->node->get_clock()->now();
++  msg_body_pose.header.stamp = sec2Stamp(LidarMeasures.last_lio_update_time);
+   msg_body_pose.header.frame_id = "camera_init";
+@@ -1444,3 +1449,3 @@ void LIVMapper::publish_path(const rclcpp::Publisher<nav_msgs::msg::Path>::Share
+   set_posestamp(msg_body_pose.pose);
+-  msg_body_pose.header.stamp = this->node->get_clock()->now();
++  msg_body_pose.header.stamp = sec2Stamp(LidarMeasures.last_lio_update_time);
+   msg_body_pose.header.frame_id = "camera_init";
+@@ -1448,2 +1453,2 @@ void LIVMapper::publish_path(const rclcpp::Publisher<nav_msgs::msg::Path>::Share
+   pubPath->publish(path);
+-}
+\ No newline at end of file
++}
 diff --git a/src/main.cpp b/src/main.cpp
 index 61dd592..01f4ffa 100755
 --- a/src/main.cpp
 +++ b/src/main.cpp
-@@ -3,12 +3,13 @@
- int main(int argc, char **argv)
- {
+@@ -5,6 +5,7 @@ int main(int argc, char **argv)
    rclcpp::init(argc, argv);
 -  rclcpp::NodeOptions options;
    rclcpp::Node::SharedPtr nh;
@@ -94,8 +126,7 @@ index 61dd592..01f4ffa 100755
 +  nh = mapper.node;
 +  image_transport::ImageTransport it_(nh);
    mapper.initializeSubscribersAndPublishers(nh, it_);
-   mapper.run(nh);
-   rclcpp::shutdown();
+@@ -13,2 +14,2 @@ int main(int argc, char **argv)
    return 0;
 -}
 \ No newline at end of file

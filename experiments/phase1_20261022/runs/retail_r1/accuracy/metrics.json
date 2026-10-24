@@ -1,0 +1,60 @@
+{
+  "status": "engineering_run_no_verified_gt",
+  "dataset": "Retail_Street",
+  "sequence": "Retail_Street",
+  "poses": 1351,
+  "trajectory_duration_s": 134.9999680519104,
+  "path_length_m": 67.4437159724165,
+  "trajectory_span_fraction": 0.9970446345167217,
+  "protocol": {
+    "alignment": "One global SE3 per association protocol",
+    "scale": 1.0,
+    "extra_time_offset_s": 0.0,
+    "time_offset_search": false,
+    "nearest_tolerance_s": 0.01,
+    "interpolation_max_each_neighbor_distance_s": 0.1,
+    "interpolation_max_total_bracket_span_s": 0.2
+  },
+  "comparisons": {},
+  "RPE_evaluated": false,
+  "input_audit": {
+    "/livox/lidar": {
+      "expected": 1355,
+      "received_callbacks": 1355,
+      "unique_received": 1355,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/livox/imu": {
+      "expected": 27447,
+      "received_callbacks": 27447,
+      "unique_received": 27447,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left_camera/image": {
+      "expected": 1355,
+      "received_callbacks": 1355,
+      "unique_received": 1355,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "reference_file": null,
+  "ros_pose_time_check": {
+    "observed": 1351,
+    "matched_to_native": 1351,
+    "max_matched_dt_s": 1.1920928955078125e-07,
+    "max_matched_position_difference_m": 8.285656283173839e-07
+  },
+  "reference_limitation": "No verified matching Retail Street pose reference; no ATE/RPE or claimed accuracy",
+  "registered_map": {
+    "captured_points": 18660091,
+    "voxel_points": 212175,
+    "voxel_m": 0.1,
+    "scope": "Voxelized union of every point in the observed registered-output stream; not an export of every raw input point or internal local map."
+  }
+}

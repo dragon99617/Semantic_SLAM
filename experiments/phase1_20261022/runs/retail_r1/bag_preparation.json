@@ -1,0 +1,12 @@
+{
+  "source": "/home/hxy/SLAM_project/datasets/Retail_Street_mirror/Retail_Street.db3",
+  "destination": "/home/hxy/SLAM_project/datasets/Retail_Street_humble/Retail_Street.db3",
+  "source_provenance": "../Retail_Street_mirror/provenance.json",
+  "message_count": 30157,
+  "all_payloads_and_timestamps_identical": true,
+  "changes": [
+    "SQLite schema 4 to Humble schema 3",
+    "metadata version 9 to 5",
+    "livox_ros_driver/msg/CustomMsg to livox_ros_driver2/msg/CustomMsg"
+  ]
+}

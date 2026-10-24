@@ -1,0 +1,688 @@
+{
+  "passed": true,
+  "scope": "Metadata/cache agreement and existing full conversion checks; no new full database scan or repeated raw-file hash claim",
+  "sequences": [
+    {
+      "id": "ntu_eee01",
+      "passed": true,
+      "checks": {
+        "/os1_cloud_node1/points": {
+          "cache_count": 3987,
+          "metadata_count": 3987,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1609059013173237687,
+          "last_ns": 1609059411783955170
+        },
+        "/imu/imu": {
+          "cache_count": 153347,
+          "metadata_count": 153347,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1609059013114589857,
+          "last_ns": 1609059411797435511
+        },
+        "/left/image_raw": {
+          "cache_count": 3986,
+          "metadata_count": 3986,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1609059013170260000,
+          "last_ns": 1609059411795316000
+        }
+      },
+      "metadata_sha256": "2e1e0a66bb1863c6d59ac718a1934360f56a8951f765a370ca12b7c4c8eb7554",
+      "header_cache_sha256": "68e5a45aba19ffece5c8b93501061ff0dfcbc76a9e2750b8702b4e0aed74ff03",
+      "preparation": {
+        "source_bag": "/home/hxy/SLAM_project/datasets/NTU_VIRAL_original/extracted/eee_01/eee_01.bag",
+        "selected_topics": [
+          "/imu/imu",
+          "/left/image_raw",
+          "/leica/pose/relative",
+          "/os1_cloud_node1/points"
+        ],
+        "all_selected_record_counts_match_source": true,
+        "sensor_headers_preserved": true,
+        "all_image_and_pointcloud_buffers_verified_equal_after_conversion": true,
+        "record_timestamps_preserved": true,
+        "data_transform": "ROS 1 wire serialization to ROS 2 CDR only; Header.seq omitted by ROS 2 schema",
+        "ground_truth": "Leica measured prism positions from message header times; identity quaternions are placeholders, not measured orientations",
+        "restamping_applied": false,
+        "concatenated_ros1_payload_sha256": "7a5cd5d00921016cde5c9ab146984e26f9fc22e56dbf070cc9e952553e915b7b",
+        "concatenated_cdr_payload_sha256": "2090efca6fdaded1f82ba9f7acd6e1bfe127ddaa143b443782f458262fe2b51c",
+        "headers": {
+          "/imu/imu": {
+            "count": 153347,
+            "first_ns": 1609059013114589857,
+            "last_ns": 1609059411797435511,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 6.26e-06,
+            "dt_median_s": 0.0050621325,
+            "dt_max_s": 0.022256221
+          },
+          "/left/image_raw": {
+            "count": 3986,
+            "first_ns": 1609059013170260000,
+            "last_ns": 1609059411795316000,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.098477,
+            "dt_median_s": 0.100031,
+            "dt_max_s": 0.101472
+          },
+          "/os1_cloud_node1/points": {
+            "count": 3987,
+            "first_ns": 1609059013173237687,
+            "last_ns": 1609059411783955170,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.069217624,
+            "dt_median_s": 0.10299000950000001,
+            "dt_max_s": 0.112734575
+          },
+          "/leica/pose/relative": {
+            "count": 6616,
+            "first_ns": 1609059060109753943,
+            "last_ns": 1609059396474166966,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.03738904,
+            "dt_median_s": 0.049820185,
+            "dt_max_s": 0.245398045
+          }
+        },
+        "image": {
+          "width": 752,
+          "height": 480,
+          "encoding": "mono8",
+          "step": 752
+        },
+        "pointcloud": {
+          "width": 1024,
+          "height": 16,
+          "point_step": 48,
+          "row_step": 49152,
+          "fields": [
+            {
+              "name": "x",
+              "offset": 0,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "y",
+              "offset": 4,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "z",
+              "offset": 8,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "intensity",
+              "offset": 16,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "t",
+              "offset": 20,
+              "datatype": 6,
+              "count": 1
+            },
+            {
+              "name": "reflectivity",
+              "offset": 24,
+              "datatype": 4,
+              "count": 1
+            },
+            {
+              "name": "ring",
+              "offset": 26,
+              "datatype": 2,
+              "count": 1
+            },
+            {
+              "name": "ambient",
+              "offset": 28,
+              "datatype": 4,
+              "count": 1
+            },
+            {
+              "name": "range",
+              "offset": 32,
+              "datatype": 6,
+              "count": 1
+            }
+          ]
+        },
+        "conversion_seconds": 67.37493735099997
+      }
+    },
+    {
+      "id": "retail",
+      "passed": true,
+      "checks": {
+        "/livox/lidar": {
+          "cache_count": 1355,
+          "metadata_count": 1355,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 946685437499511003,
+          "last_ns": 946685572899635911
+        },
+        "/livox/imu": {
+          "cache_count": 27447,
+          "metadata_count": 27447,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 946685437510941982,
+          "last_ns": 946685573018302917
+        },
+        "/left_camera/image": {
+          "cache_count": 1355,
+          "metadata_count": 1355,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 946685437499511003,
+          "last_ns": 946685572899635911
+        }
+      },
+      "metadata_sha256": "8c7eb9723e1db1434ebcfd7adf9f76489764f8a5d5f8be9643cec2c6ca7ec9bf",
+      "header_cache_sha256": "41777dc54db4195bdb764dffa540734aaa7291ddbf3ae227e59c8ddf8b8bd1bc",
+      "preparation": {
+        "source": "/home/hxy/SLAM_project/datasets/Retail_Street_mirror/Retail_Street.db3",
+        "destination": "/home/hxy/SLAM_project/datasets/Retail_Street_humble/Retail_Street.db3",
+        "source_provenance": "../Retail_Street_mirror/provenance.json",
+        "message_count": 30157,
+        "all_payloads_and_timestamps_identical": true,
+        "changes": [
+          "SQLite schema 4 to Humble schema 3",
+          "metadata version 9 to 5",
+          "livox_ros_driver/msg/CustomMsg to livox_ros_driver2/msg/CustomMsg"
+        ]
+      }
+    },
+    {
+      "id": "fpv2_00",
+      "passed": true,
+      "checks": {
+        "/os_cloud_node/points": {
+          "cache_count": 4921,
+          "metadata_count": 4921,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1686614988883507777,
+          "last_ns": 1686615480881762043
+        },
+        "/stim300/imu/data_raw": {
+          "cache_count": 98400,
+          "metadata_count": 98400,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1686614988999900816,
+          "last_ns": 1686615480994886093
+        },
+        "/left_camera/image": {
+          "cache_count": 9840,
+          "metadata_count": 9840,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1686614989032397270,
+          "last_ns": 1686615480982938051
+        }
+      },
+      "metadata_sha256": "57ca353313af6d5b2190e05be44e190c4a189cbac359b569f76a5f42208894e3",
+      "header_cache_sha256": "e4245b50b21821dcec04dbd5dc03ec4a25ba7f2007970c7f0a268e21f039082e",
+      "preparation": {
+        "source_bag": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/extracted/ugv_transition00/ugv_transition00.bag",
+        "selected_topics": {
+          "/os_cloud_node/points": "/os_cloud_node/points",
+          "/stim300/imu/data_raw": "/stim300/imu/data_raw",
+          "/stereo/frame_left/image_raw/compressed": "/left_camera/image"
+        },
+        "all_selected_record_counts_match_source": true,
+        "all_cdr_messages_roundtrip_verified": true,
+        "all_pointcloud_buffers_preserved": true,
+        "image_pixels_equal_to_opencv_jpeg_decode": true,
+        "record_timestamps_preserved": true,
+        "imu_and_image_headers_preserved": true,
+        "cloud_header_transform": "original scan-end header - max(uint32 per-point t) nanoseconds",
+        "additional_lidar_time_offset_required": 0.0,
+        "scan_duration_s": {
+          "min": 0.0993635,
+          "median": 0.09989965,
+          "max": 0.10045569
+        },
+        "concatenated_selected_source_payload_sha256": "fbdeef65a607263732007af580a911ebfc28a1ee5ba965472afb1ba4c00ab3ba",
+        "concatenated_cloud_data_sha256": "9a9481bc7f0768ea7704884bc63226021604c37d3d4abaa2d99ead70a4853530",
+        "headers": {
+          "/stim300/imu/data_raw": {
+            "count": 98400,
+            "first_ns": 1686614988999900816,
+            "last_ns": 1686615480994886093,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 8.3307e-05,
+            "dt_median_s": 0.005000182,
+            "dt_max_s": 0.012383645
+          },
+          "/os_cloud_node/points": {
+            "count": 4921,
+            "first_ns": 1686614988883507777,
+            "last_ns": 1686615480881762043,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.092197792,
+            "dt_median_s": 0.10016242850000001,
+            "dt_max_s": 0.108754903
+          },
+          "/stereo/frame_left/image_raw/compressed": {
+            "count": 9840,
+            "first_ns": 1686614989032397270,
+            "last_ns": 1686615480982938051,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.038008928,
+            "dt_median_s": 0.049984216,
+            "dt_max_s": 0.060702324
+          }
+        },
+        "pointcloud": {
+          "width": 1024,
+          "height": 128,
+          "point_step": 48,
+          "fields": [
+            {
+              "name": "x",
+              "offset": 0,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "y",
+              "offset": 4,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "z",
+              "offset": 8,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "intensity",
+              "offset": 16,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "t",
+              "offset": 20,
+              "datatype": 6,
+              "count": 1
+            },
+            {
+              "name": "reflectivity",
+              "offset": 24,
+              "datatype": 4,
+              "count": 1
+            },
+            {
+              "name": "ring",
+              "offset": 26,
+              "datatype": 2,
+              "count": 1
+            },
+            {
+              "name": "ambient",
+              "offset": 28,
+              "datatype": 4,
+              "count": 1
+            },
+            {
+              "name": "range",
+              "offset": 32,
+              "datatype": 6,
+              "count": 1
+            }
+          ]
+        },
+        "image": {
+          "source_format": "jpg",
+          "width": 1024,
+          "height": 768,
+          "encoding": "bgr8"
+        },
+        "conversion_seconds": 830.4282754870073
+      }
+    },
+    {
+      "id": "fpv2_01",
+      "passed": true,
+      "checks": {
+        "/os_cloud_node/points": {
+          "cache_count": 3749,
+          "metadata_count": 3749,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1686615992977385010,
+          "last_ns": 1686616367777358947
+        },
+        "/stim300/imu/data_raw": {
+          "cache_count": 75200,
+          "metadata_count": 75200,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1686615992999857875,
+          "last_ns": 1686616368994851479
+        },
+        "/left_camera/image": {
+          "cache_count": 7520,
+          "metadata_count": 7520,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1686615993032255888,
+          "last_ns": 1686616368983942270
+        }
+      },
+      "metadata_sha256": "7bb4d41b883da7ca88f0c24bf63dab59a2a74718b7cfeecaa9f53f9ea02e5017",
+      "header_cache_sha256": "45be6ab954111155282557b3bb95673627a8987e27086de1e578ef0d595bda59",
+      "preparation": {
+        "source_bag": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/extracted/ugv_transition01.bag",
+        "selected_topics": {
+          "/os_cloud_node/points": "/os_cloud_node/points",
+          "/stim300/imu/data_raw": "/stim300/imu/data_raw",
+          "/stereo/frame_left/image_raw/compressed": "/left_camera/image"
+        },
+        "all_selected_record_counts_match_source": true,
+        "all_cdr_messages_roundtrip_verified": true,
+        "all_pointcloud_buffers_preserved": true,
+        "image_pixels_equal_to_opencv_jpeg_decode": true,
+        "record_timestamps_preserved": true,
+        "imu_and_image_headers_preserved": true,
+        "cloud_header_transform": "original scan-end header - max(uint32 per-point t) nanoseconds",
+        "additional_lidar_time_offset_required": 0.0,
+        "scan_duration_s": {
+          "min": 0.09934036,
+          "median": 0.09989966,
+          "max": 0.10043437
+        },
+        "concatenated_selected_source_payload_sha256": "a75c226d14b089b83041bc80097091942477975ec122c59a7b2cda903ae8fb5f",
+        "concatenated_cloud_data_sha256": "ba9f22c3b31f5c5de3acb0cf9c623d430cf31ce4c45d2631e56f5dc918e962e0",
+        "headers": {
+          "/stim300/imu/data_raw": {
+            "count": 75200,
+            "first_ns": 1686615992999857875,
+            "last_ns": 1686616368994851479,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 8.7395e-05,
+            "dt_median_s": 0.005000198,
+            "dt_max_s": 0.01250693
+          },
+          "/stereo/frame_left/image_raw/compressed": {
+            "count": 7520,
+            "first_ns": 1686615993032255888,
+            "last_ns": 1686616368983942270,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.041461706,
+            "dt_median_s": 0.050003052,
+            "dt_max_s": 0.05961895
+          },
+          "/os_cloud_node/points": {
+            "count": 3749,
+            "first_ns": 1686615992977385010,
+            "last_ns": 1686616367777358947,
+            "backward_steps": 0,
+            "duplicate_steps": 0,
+            "dt_min_s": 0.081430236,
+            "dt_median_s": 0.10027010350000001,
+            "dt_max_s": 0.117273148
+          }
+        },
+        "image": {
+          "source_format": "jpg",
+          "width": 1024,
+          "height": 768,
+          "encoding": "bgr8"
+        },
+        "pointcloud": {
+          "width": 1024,
+          "height": 128,
+          "point_step": 48,
+          "fields": [
+            {
+              "name": "x",
+              "offset": 0,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "y",
+              "offset": 4,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "z",
+              "offset": 8,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "intensity",
+              "offset": 16,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "t",
+              "offset": 20,
+              "datatype": 6,
+              "count": 1
+            },
+            {
+              "name": "reflectivity",
+              "offset": 24,
+              "datatype": 4,
+              "count": 1
+            },
+            {
+              "name": "ring",
+              "offset": 26,
+              "datatype": 2,
+              "count": 1
+            },
+            {
+              "name": "ambient",
+              "offset": 28,
+              "datatype": 4,
+              "count": 1
+            },
+            {
+              "name": "range",
+              "offset": 32,
+              "datatype": 6,
+              "count": 1
+            }
+          ]
+        },
+        "conversion_seconds": 1155.6982192450014
+      }
+    },
+    {
+      "id": "oxford02",
+      "passed": true,
+      "checks": {
+        "/hesai/pandar": {
+          "cache_count": 5928,
+          "metadata_count": 5928,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1710754088976705000,
+          "last_ns": 1710754681069178000
+        },
+        "/alphasense_driver_ros/imu": {
+          "cache_count": 236606,
+          "metadata_count": 236606,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1710754088996836492,
+          "last_ns": 1710754681209888881
+        },
+        "/left_camera/image": {
+          "cache_count": 11775,
+          "metadata_count": 11775,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1710754088955539892,
+          "last_ns": 1710754681095875581
+        }
+      },
+      "metadata_sha256": "3dae4c1d5888bb11a6b17272c50f835c5ccbcf1b89f29914dbafbe5a3fc13d95",
+      "header_cache_sha256": "17a5d6cebb9baa797067ba858102f5528ddc60956def41b7c5e17a1ac140328f",
+      "preparation": {
+        "dataset": "OxfordSpires",
+        "sequence": "2024-03-18-christ-church-02",
+        "diagnostic": false,
+        "source_databases": [
+          "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0/1710754066_2024-03-18-09-27-47_0_blurred_filtered_compressed.db3",
+          "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/1710754066_2024-03-18-09-36-49_1_blurred_filtered_compressed.db3"
+        ],
+        "headers": {
+          "/alphasense_driver_ros/imu": {
+            "count": 236606,
+            "first_ns": 1710754088996836492,
+            "last_ns": 1710754681209888881,
+            "dt_min_s": 0.002465175,
+            "dt_median_s": 0.002503,
+            "dt_max_s": 0.002535216
+          },
+          "/left_camera/image": {
+            "count": 11775,
+            "first_ns": 1710754088955539892,
+            "last_ns": 1710754681095875581,
+            "dt_min_s": 0.049961375,
+            "dt_median_s": 0.0499992,
+            "dt_max_s": 0.1499976
+          },
+          "/hesai/pandar": {
+            "count": 5928,
+            "first_ns": 1710754088976705000,
+            "last_ns": 1710754681069178000,
+            "dt_min_s": 0.098599,
+            "dt_median_s": 0.099903,
+            "dt_max_s": 0.100847
+          }
+        },
+        "selected_topics": {
+          "/hesai/pandar": "/hesai/pandar",
+          "/alphasense_driver_ros/imu": "/alphasense_driver_ros/imu",
+          "/alphasense_driver_ros/cam0/debayered/image/compressed": "/left_camera/image"
+        },
+        "all_selected_record_counts_match_source": true,
+        "timestamps_preserved": true,
+        "point_records_preserved_by_stable_permutation": true,
+        "reordered_clouds": 5928,
+        "source_point_bytes_sha256": "abca35ccfb661a1ade396756b3f07a3e24e479cfd186487ce6732a3837f27888",
+        "output_point_bytes_sha256": "978aa18c86cba494fe0d2d031129ea331326e7bff8d9108a2f77f31770447171",
+        "native_camera_model": "EquidistantCamera",
+        "images": "JPEG decoded to BGR8; optional declared linear half-resolution, no rectification",
+        "image_scale": 0.5,
+        "image_cdr_pixel_roundtrip_verified": true,
+        "duration_record_s": 592.207072501,
+        "conversion_seconds": 2006.9253625019992
+      }
+    },
+    {
+      "id": "oxford05",
+      "passed": true,
+      "checks": {
+        "/hesai/pandar": {
+          "cache_count": 8007,
+          "metadata_count": 8007,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1710926321969089000,
+          "last_ns": 1710927121883690000
+        },
+        "/alphasense_driver_ros/imu": {
+          "cache_count": 319608,
+          "metadata_count": 319608,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1710926321989205842,
+          "last_ns": 1710927121988289829
+        },
+        "/left_camera/image": {
+          "cache_count": 3961,
+          "metadata_count": 3961,
+          "nondecreasing": true,
+          "duplicate_count": 0,
+          "first_ns": 1710926321899711842,
+          "last_ns": 1710927121688489629
+        }
+      },
+      "metadata_sha256": "df4d8df41dcaf819cedfd91005b91da16e7ce85768300d75d40faee9fb5e2563",
+      "header_cache_sha256": "6e5bd07a42f78d1c51b167fbf3bbc619cd76d3d89d407ff47f2c43866f8c32db",
+      "preparation": {
+        "dataset": "OxfordSpires",
+        "sequence": "2024-03-20-christ-church-05",
+        "diagnostic": false,
+        "source_databases": [
+          "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-20-christ-church-05/raw/ros2bag/1710926317_2024-03-20-09-18-38_0/1710926317_2024-03-20-09-18-38_0_blurred_filtered_compressed.db3"
+        ],
+        "headers": {
+          "/alphasense_driver_ros/imu": {
+            "count": 319608,
+            "first_ns": 1710926321989205842,
+            "last_ns": 1710927121988289829,
+            "dt_min_s": 0.002443995,
+            "dt_median_s": 0.0025031,
+            "dt_max_s": 0.0025342
+          },
+          "/hesai/pandar": {
+            "count": 8007,
+            "first_ns": 1710926321969089000,
+            "last_ns": 1710927121883690000,
+            "dt_min_s": 0.098699,
+            "dt_median_s": 0.0999125,
+            "dt_max_s": 0.101098
+          },
+          "/left_camera/image": {
+            "count": 3961,
+            "first_ns": 1710926321899711842,
+            "last_ns": 1710927121688489629,
+            "dt_min_s": 0.199938895,
+            "dt_median_s": 0.1999972,
+            "dt_max_s": 0.599994689
+          }
+        },
+        "selected_topics": {
+          "/hesai/pandar": "/hesai/pandar",
+          "/alphasense_driver_ros/imu": "/alphasense_driver_ros/imu",
+          "/alphasense_driver_ros/cam0/debayered/image/compressed": "/left_camera/image"
+        },
+        "all_selected_record_counts_match_source": true,
+        "timestamps_preserved": true,
+        "point_records_preserved_by_stable_permutation": true,
+        "reordered_clouds": 0,
+        "source_point_bytes_sha256": "f8b51709942a147109a91f76420cb04b80426f7ec64e8e6d8398f8495862f3af",
+        "output_point_bytes_sha256": "f8b51709942a147109a91f76420cb04b80426f7ec64e8e6d8398f8495862f3af",
+        "native_camera_model": "EquidistantCamera",
+        "images": "JPEG decoded to BGR8; optional declared linear half-resolution, no rectification",
+        "image_scale": 0.5,
+        "image_cdr_pixel_roundtrip_verified": true,
+        "duration_record_s": 799.989254778,
+        "conversion_seconds": 713.7576477729999
+      }
+    }
+  ]
+}

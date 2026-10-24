@@ -1,0 +1,480 @@
+{
+  "source": "test1/test1.zip",
+  "xml_sha256": "e89b889e4978c7e5e6efea04b018783d69afd63f931bb9b2d3d1b1ff180e6569",
+  "images": [
+    {
+      "image": "oxford02_1710754317901738028.png",
+      "original_bytes_match": true,
+      "width": 720,
+      "height": 540,
+      "shapes": [
+        {
+          "region_id": 1,
+          "label": "ground_floor",
+          "pixels": 125914,
+          "bbox": [
+            4,
+            265,
+            716,
+            275
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 2,
+          "label": "door",
+          "pixels": 2679,
+          "bbox": [
+            321,
+            218,
+            398,
+            71
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 3,
+          "label": "window",
+          "pixels": 12413,
+          "bbox": [
+            189,
+            62,
+            516,
+            173
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 4,
+          "label": "wall_building",
+          "pixels": 163590,
+          "bbox": [
+            43,
+            0,
+            677,
+            426
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 5,
+          "label": "ceiling_roof",
+          "pixels": 4208,
+          "bbox": [
+            437,
+            54,
+            255,
+            68
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 6,
+          "label": "vegetation",
+          "pixels": 13814,
+          "bbox": [
+            405,
+            272,
+            315,
+            99
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 7,
+          "label": "railing_fence",
+          "pixels": 2755,
+          "bbox": [
+            513,
+            364,
+            78,
+            84
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 8,
+          "label": "sky",
+          "pixels": 39158,
+          "bbox": [
+            285,
+            0,
+            435,
+            144
+          ],
+          "z_order": 0,
+          "attributes": {}
+        }
+      ],
+      "label_pixel_counts": {
+        "ground_floor": 125914,
+        "door": 2679,
+        "window": 12413,
+        "wall_building": 163590,
+        "ceiling_roof": 4208,
+        "vegetation": 13814,
+        "railing_fence": 2755,
+        "sky": 39158
+      },
+      "valid_pixels": 388800,
+      "unlabelled_valid_pixels": 44138,
+      "overlapping_valid_pixels": 19841,
+      "cross_class_overlaps": [
+        {
+          "first": "ground_floor",
+          "second": "wall_building",
+          "pixels": 1175
+        },
+        {
+          "first": "ground_floor",
+          "second": "vegetation",
+          "pixels": 140
+        },
+        {
+          "first": "ground_floor",
+          "second": "railing_fence",
+          "pixels": 142
+        },
+        {
+          "first": "door",
+          "second": "wall_building",
+          "pixels": 1297
+        },
+        {
+          "first": "door",
+          "second": "vegetation",
+          "pixels": 21
+        },
+        {
+          "first": "window",
+          "second": "wall_building",
+          "pixels": 12413
+        },
+        {
+          "first": "wall_building",
+          "second": "ceiling_roof",
+          "pixels": 171
+        },
+        {
+          "first": "wall_building",
+          "second": "vegetation",
+          "pixels": 18
+        },
+        {
+          "first": "wall_building",
+          "second": "sky",
+          "pixels": 500
+        },
+        {
+          "first": "ceiling_roof",
+          "second": "sky",
+          "pixels": 4017
+        },
+        {
+          "first": "vegetation",
+          "second": "railing_fence",
+          "pixels": 3
+        }
+      ],
+      "raw_covered_fraction": 0.8864763374485597,
+      "explicit_ignore_pixels": 0,
+      "painted_invalid_pixels": 0
+    },
+    {
+      "image": "oxford02_1710754322901634345.png",
+      "original_bytes_match": true,
+      "width": 720,
+      "height": 540,
+      "shapes": [
+        {
+          "region_id": 1,
+          "label": "person",
+          "pixels": 1726,
+          "bbox": [
+            307,
+            231,
+            47,
+            62
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 2,
+          "label": "ground_floor",
+          "pixels": 115384,
+          "bbox": [
+            51,
+            246,
+            610,
+            294
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 3,
+          "label": "wall_building",
+          "pixels": 164655,
+          "bbox": [
+            39,
+            0,
+            681,
+            369
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 4,
+          "label": "door",
+          "pixels": 2800,
+          "bbox": [
+            303,
+            195,
+            50,
+            66
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 5,
+          "label": "window",
+          "pixels": 13492,
+          "bbox": [
+            137,
+            0,
+            565,
+            213
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 6,
+          "label": "door",
+          "pixels": 1469,
+          "bbox": [
+            475,
+            229,
+            216,
+            49
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 7,
+          "label": "vegetation",
+          "pixels": 36523,
+          "bbox": [
+            430,
+            273,
+            290,
+            267
+          ],
+          "z_order": 0,
+          "attributes": {}
+        }
+      ],
+      "label_pixel_counts": {
+        "person": 1726,
+        "ground_floor": 115384,
+        "wall_building": 164655,
+        "door": 4269,
+        "window": 13492,
+        "vegetation": 36523
+      },
+      "valid_pixels": 388800,
+      "unlabelled_valid_pixels": 69471,
+      "overlapping_valid_pixels": 16720,
+      "cross_class_overlaps": [
+        {
+          "first": "person",
+          "second": "ground_floor",
+          "pixels": 246
+        },
+        {
+          "first": "person",
+          "second": "door",
+          "pixels": 706
+        },
+        {
+          "first": "ground_floor",
+          "second": "wall_building",
+          "pixels": 659
+        },
+        {
+          "first": "ground_floor",
+          "second": "door",
+          "pixels": 13
+        },
+        {
+          "first": "ground_floor",
+          "second": "vegetation",
+          "pixels": 94
+        },
+        {
+          "first": "wall_building",
+          "second": "door",
+          "pixels": 1510
+        },
+        {
+          "first": "wall_building",
+          "second": "window",
+          "pixels": 13492
+        }
+      ],
+      "raw_covered_fraction": 0.8213194444444445,
+      "explicit_ignore_pixels": 0,
+      "painted_invalid_pixels": 0
+    },
+    {
+      "image": "oxford02_1710754327901552945.png",
+      "original_bytes_match": true,
+      "width": 720,
+      "height": 540,
+      "shapes": [
+        {
+          "region_id": 1,
+          "label": "ground_floor",
+          "pixels": 111353,
+          "bbox": [
+            30,
+            267,
+            630,
+            273
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 2,
+          "label": "vegetation",
+          "pixels": 23117,
+          "bbox": [
+            453,
+            299,
+            267,
+            204
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 3,
+          "label": "wall_building",
+          "pixels": 161543,
+          "bbox": [
+            55,
+            0,
+            665,
+            399
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 4,
+          "label": "door",
+          "pixels": 30870,
+          "bbox": [
+            89,
+            82,
+            464,
+            300
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 5,
+          "label": "window",
+          "pixels": 10238,
+          "bbox": [
+            421,
+            78,
+            287,
+            111
+          ],
+          "z_order": 0,
+          "attributes": {}
+        },
+        {
+          "region_id": 6,
+          "label": "person",
+          "pixels": 1929,
+          "bbox": [
+            318,
+            245,
+            46,
+            55
+          ],
+          "z_order": 0,
+          "attributes": {}
+        }
+      ],
+      "label_pixel_counts": {
+        "ground_floor": 111353,
+        "vegetation": 23117,
+        "wall_building": 161543,
+        "door": 30870,
+        "window": 10238,
+        "person": 1929
+      },
+      "valid_pixels": 388800,
+      "unlabelled_valid_pixels": 65446,
+      "overlapping_valid_pixels": 15694,
+      "cross_class_overlaps": [
+        {
+          "first": "ground_floor",
+          "second": "vegetation",
+          "pixels": 437
+        },
+        {
+          "first": "ground_floor",
+          "second": "wall_building",
+          "pixels": 542
+        },
+        {
+          "first": "ground_floor",
+          "second": "door",
+          "pixels": 115
+        },
+        {
+          "first": "ground_floor",
+          "second": "person",
+          "pixels": 363
+        },
+        {
+          "first": "wall_building",
+          "second": "door",
+          "pixels": 2953
+        },
+        {
+          "first": "wall_building",
+          "second": "window",
+          "pixels": 10238
+        },
+        {
+          "first": "door",
+          "second": "person",
+          "pixels": 1050
+        }
+      ],
+      "raw_covered_fraction": 0.8316718106995885,
+      "explicit_ignore_pixels": 0,
+      "painted_invalid_pixels": 0
+    }
+  ],
+  "review_only": true,
+  "labels_imported_to_official_package": false
+}

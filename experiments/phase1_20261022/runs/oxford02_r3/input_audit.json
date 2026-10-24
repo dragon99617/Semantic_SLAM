@@ -1,0 +1,26 @@
+{
+  "/hesai/pandar": {
+    "expected": 5928,
+    "received_callbacks": 5928,
+    "unique_received": 5928,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/alphasense_driver_ros/imu": {
+    "expected": 236606,
+    "received_callbacks": 236606,
+    "unique_received": 236606,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/left_camera/image": {
+    "expected": 11775,
+    "received_callbacks": 11775,
+    "unique_received": 11775,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  }
+}

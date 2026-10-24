@@ -1,0 +1,14 @@
+[
+  {
+    "action": "pause",
+    "wall_s": 1064.0901529149996,
+    "image_to_state_lag_s": 2.799973487854004,
+    "forced_diagnostic": false
+  },
+  {
+    "action": "resume",
+    "wall_s": 1070.072475967001,
+    "image_to_state_lag_s": 4.76837158203125e-07,
+    "forced_diagnostic": false
+  }
+]

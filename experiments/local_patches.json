@@ -1,10 +1,14 @@
 {
   "FAST-LIVO2": {
     "patch": "experiments/patches/FAST-LIVO2.patch",
-    "sha256": "548e5da6e68d27e7ca985a1c7633d3defcf73d33b27d4a4f97de8850443e3322"
+    "sha256": "8b7bdd5acc3345d67d30972640d0494a5c460116c1c2db0014a9def8e689184d",
+    "updated_at": "2026-10-22",
+    "added_fix": "BGR8 ownership; sensor-time odometry/TF/path/cloud headers; exact input receipt traces (no estimator changes)"
   },
   "rpg_vikit": {
     "patch": "experiments/patches/rpg_vikit.patch",
-    "sha256": "962c667990e4c8c5ae82d51ba6392d4b7d62871d0fd20c537bd1312746720609"
+    "sha256": "dbcf89caae5925498b08471b0c86e0b9ae4c229254d690311df0e23c22443ca8",
+    "updated_at": "2026-10-22",
+    "added_fix": "ROS2 remote equidistant camera parameter loading and parameter service discovery wait"
   }
 }

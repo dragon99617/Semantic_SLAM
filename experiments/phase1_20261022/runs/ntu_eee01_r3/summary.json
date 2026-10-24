@@ -1,0 +1,57 @@
+{
+  "status": "playback_completed",
+  "diagnostic": false,
+  "error": null,
+  "dataset": "NTU_VIRAL",
+  "sequence": "eee_01",
+  "rate": 0.5,
+  "pacing": {
+    "nominal_rate": 0.5,
+    "pause_lag_threshold_s": 2.0,
+    "resume_lag_threshold_s": 0.25,
+    "pauses": 0,
+    "paused_wall_s": 0.0,
+    "scope": "Playback flow control only; fixed sensor timestamps, point/image payloads and estimator settings"
+  },
+  "mapper_clean_exit": true,
+  "player_returncode": 0,
+  "wall_seconds": 838.4905117620001,
+  "received_outputs": {
+    "/aft_mapped_to_init": 3983,
+    "/cloud_registered": 7567,
+    "/rgb_img": 1391
+  },
+  "expected_lidar_span_s": 398.61071729660034,
+  "peak_mapper_rss_kib": 4529196,
+  "peak_mapper_swap_kib": 0,
+  "registered_output_points_captured": 0,
+  "registered_output_nonfinite_points": 0,
+  "input_callback_audit": {
+    "/os1_cloud_node1/points": {
+      "expected": 3987,
+      "received_callbacks": 3987,
+      "unique_received": 3987,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/imu/imu": {
+      "expected": 153347,
+      "received_callbacks": 153347,
+      "unique_received": 153347,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left/image_raw": {
+      "expected": 3986,
+      "received_callbacks": 3986,
+      "unique_received": 3986,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "pose_timestamp_basis": "sensor acquisition time; ROS odometry/TF and native TUM use last_lio_update_time",
+  "limitation": "RX traces establish callback receipt, not that every point contributes to an estimator update."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ntu_eee01",
+  "dataset": "NTU_VIRAL",
+  "sequence": "eee_01",
+  "bag": "datasets/NTU_VIRAL_eee01_humble",
+  "expected_lidar_count": 3987,
+  "mapper_config": "experiments/phase1_20261022/configs/ntu_eee01_mapper.yaml",
+  "camera_config": "experiments/phase1_20261022/configs/ntu_eee01_camera.yaml",
+  "reference": "experiments/accuracy/eee_01/runs/20261020_114001/accuracy/eee_01_gt_from_bag.tum"
+}

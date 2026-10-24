@@ -1,0 +1,10 @@
+{
+  "elapsed_s": 348,
+  "poses": 3281,
+  "processed_sensor_s": 164.59,
+  "received_outputs": {
+    "/aft_mapped_to_init": 3281,
+    "/cloud_registered": 6529,
+    "/rgb_img": 2166
+  }
+}

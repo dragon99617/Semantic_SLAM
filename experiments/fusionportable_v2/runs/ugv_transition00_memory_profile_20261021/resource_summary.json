@@ -1,0 +1,9 @@
+{
+  "sampling_interval_s": 10,
+  "observations": 27,
+  "max_observed_rss_kib": 1616640,
+  "max_kernel_peak_rss_kib": 1629128,
+  "max_observed_swap_kib": 0,
+  "process_pid": 471397,
+  "scope": "Mapper process only; kernel high-water values sampled until process exits"
+}

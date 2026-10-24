@@ -1,0 +1,33 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/phase2_20261024/captures/fpv2_00_16s/mapper.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/experiments/phase2_20261024/captures/fpv2_00_16s/camera.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/experiments/phase2_20261024/captures/fpv2_00_16s/input_bag",
+    "--rate",
+    "0.5",
+    "--start-paused",
+    "--read-ahead-queue-size",
+    "300",
+    "--wait-for-all-acked",
+    "5000",
+    "--qos-profile-overrides-path",
+    "/home/hxy/SLAM_project/experiments/phase2_20261024/captures/fpv2_00_16s/playback_qos.yaml"
+  ],
+  "ROS_DOMAIN_ID": "87",
+  "frozen_artifacts": {
+    "fast_livo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping": "7dfd8fbfd378f21a0664de6f6c289369d2dcb3adedd6ebe44e5ea5d2e4d286e1",
+    "fast_livo2_ws/install/vikit_ros/lib/libvikit_ros.so": "e39a80366f46f620a1196dad7d2758d4a656911efaa96c2178f95841cbc553f9",
+    "fast_livo2_ws/install/vikit_common/lib/libvikit_common.so": "d4c4d37d3c30c1890dc4760676ae73193c396e43e2ba4ae09bce4db4ad3d277b"
+  }
+}

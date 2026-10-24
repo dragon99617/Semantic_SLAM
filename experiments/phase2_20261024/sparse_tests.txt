@@ -1,0 +1,11 @@
+test_dense_exact_author_equivalence (__main__.SparseFilterTests.test_dense_exact_author_equivalence) ... ok
+test_empty_and_nonfinite (__main__.SparseFilterTests.test_empty_and_nonfinite) ... ok
+test_observed_discontinuity_is_still_rejected (__main__.SparseFilterTests.test_observed_discontinuity_is_still_rejected) ... ok
+test_pooling_dense_author_equivalence (__main__.SparseFilterTests.test_pooling_dense_author_equivalence) ... ok
+test_pooling_preserves_new_sparse_points (__main__.SparseFilterTests.test_pooling_preserves_new_sparse_points) ... ok
+test_sparse_plane_preserved_without_creating_depth (__main__.SparseFilterTests.test_sparse_plane_preserved_without_creating_depth) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.053s
+
+OK

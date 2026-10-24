@@ -1,0 +1,106 @@
+/**:
+  ros__parameters:
+    common:
+      img_topic: /left_camera/image
+      lid_topic: /os_cloud_node/points
+      imu_topic: /stim300/imu/data_raw
+      img_en: 1
+      lidar_en: 1
+      ros_driver_bug_fix: false
+    extrin_calib:
+      extrinsic_T:
+      - 0.035956798191244664
+      - -0.01764044203104225
+      - 0.0329176377916694
+      extrinsic_R:
+      - 0.9999585898643646
+      - 0.008307470848977424
+      - 0.003715438677313323
+      - -0.008312360633185318
+      - 0.9999646033575394
+      - 0.0013025715729253619
+      - -0.0037044860878880943
+      - -0.0013334016994561654
+      - 0.9999922493813301
+      Rcl:
+      - 0.002337961926134391
+      - -0.9998545467694837
+      - -0.01689435522362942
+      - 0.004480439510561707
+      - 0.016904705453508
+      - -0.9998470666033492
+      - 0.9999872297163721
+      - 0.0022619102370262656
+      - 0.004519310373883478
+      Pcl:
+      - 0.0862166801264656
+      - -0.05238498204045112
+      - -0.04876748634687176
+    time_offset:
+      lidar_time_offset: 0.0
+      imu_time_offset: 0.0
+      img_time_offset: -0.013618216766727708
+      exposure_time_init: 0.0
+    preprocess:
+      point_filter_num: 3
+      filter_size_surf: 0.1
+      lidar_type: 3
+      scan_line: 128
+      blind: 0.5
+    vio:
+      max_iterations: 5
+      outlier_threshold: 1000
+      img_point_cov: 100
+      patch_size: 8
+      patch_pyrimid_level: 3
+      normal_en: true
+      raycast_en: false
+      inverse_composition_en: false
+      exposure_estimate_en: true
+      inv_expo_cov: 0.1
+    imu:
+      imu_en: true
+      imu_int_frame: 30
+      acc_cov: 0.5
+      gyr_cov: 0.3
+      b_acc_cov: 0.0001
+      b_gyr_cov: 0.0001
+    lio:
+      max_iterations: 5
+      dept_err: 0.02
+      beam_err: 0.01
+      min_eigen_value: 0.0025
+      voxel_size: 0.5
+      max_layer: 2
+      max_points_num: 50
+      layer_init_num:
+      - 5
+      - 5
+      - 5
+      - 5
+      - 5
+    local_map:
+      map_sliding_en: true
+      half_map_size: 60
+      sliding_thresh: 2.0
+    uav:
+      imu_rate_odom: false
+      gravity_align_en: false
+    publish:
+      dense_map_en: true
+      pub_effect_point_en: false
+      pub_plane_en: false
+      pub_scan_num: 1
+      blind_rgb_points: 0.0
+    evo:
+      seq_name: Phase2_fpv2_00_fpv2_00_16s
+      pose_output_en: true
+    pcd_save:
+      pcd_save_en: false
+      type: 0
+      colmap_output_en: false
+      filter_size_pcd: 0.15
+      interval: -1
+    image_save:
+      img_save_en: false
+      interval: 1

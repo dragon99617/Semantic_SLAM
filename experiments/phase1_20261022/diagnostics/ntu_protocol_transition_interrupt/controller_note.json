@@ -1,0 +1,4 @@
+{
+  "classification": "controller_interruption_not_algorithm_failure",
+  "reason": "Stop initial replay to standardize start-paused, reliable QoS and subscriber discovery before formal repeatability runs."
+}

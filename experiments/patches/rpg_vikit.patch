@@ -163,9 +163,7 @@ diff --git a/vikit_common/package.xml b/vikit_common/package.xml
 index 4717938..0654e3d 100644
 --- a/vikit_common/package.xml
 +++ b/vikit_common/package.xml
-@@ -16,15 +16,19 @@
- 
-  <!-- Build dependencies -->
+@@ -18,3 +18,6 @@
   <build_depend>rclcpp</build_depend>
 - <build_depend>cmake_modules</build_depend> <!-- for FindEigen.cmake module -->
 + <depend>eigen</depend>
@@ -173,15 +171,11 @@ index 4717938..0654e3d 100644
 + <depend>libopencv-dev</depend>
 + <depend>fmt</depend>
   
-  <!-- Run dependencies -->
-  <exec_depend>rclcpp</exec_depend>
- 
-  <!-- The export tag contains other, unspecified, tags -->
+@@ -25,2 +28,3 @@
   <export>
 +   <build_type>ament_cmake</build_type>
     <!-- You can specify that this package is a metapackage here: -->
-    <!-- <metapackage/> -->
-    <!-- Other tools can request additional information be placed here -->
+@@ -29,2 +33,2 @@
   </export>
 -</package>
 \ No newline at end of file
@@ -190,19 +184,13 @@ diff --git a/vikit_ros/CMakeLists.txt b/vikit_ros/CMakeLists.txt
 index 06f7a64..56e501f 100644
 --- a/vikit_ros/CMakeLists.txt
 +++ b/vikit_ros/CMakeLists.txt
-@@ -83,7 +83,8 @@ target_include_directories(${PROJECT_NAME} PUBLIC
- )
- 
+@@ -85,3 +85,4 @@ target_include_directories(${PROJECT_NAME} PUBLIC
  target_link_libraries(${PROJECT_NAME}
 -  ${cpp_typesupport_target}
 +  Sophus::Sophus
 +  ${OpenCV_LIBRARIES}
  )
- 
- ament_target_dependencies(${PROJECT_NAME} ${dependencies})
-@@ -110,5 +111,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
- 
- # Ensure the include directory is correctly set for downstream packages
+@@ -112,3 +113,5 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
  ament_export_include_directories(include)
 +ament_export_libraries(${PROJECT_NAME})
 +ament_export_dependencies(Sophus OpenCV)
@@ -210,13 +198,22 @@ index 06f7a64..56e501f 100644
 -ament_package()
 \ No newline at end of file
 +ament_package()
+diff --git a/vikit_ros/include/vikit/params_helper.h b/vikit_ros/include/vikit/params_helper.h
+index 9e12931..aa3dc9b 100644
+--- a/vikit_ros/include/vikit/params_helper.h
++++ b/vikit_ros/include/vikit/params_helper.h
+@@ -115,4 +115,4 @@ T getRemoteParam(const rclcpp::Node::SharedPtr &nh, const std::string& remote_no
+         auto parameters_client = std::make_shared<rclcpp::SyncParametersClient>(nh, remote_node_name);
+-        // Wait briefly for the service to be available
+-        if (parameters_client->wait_for_service(std::chrono::milliseconds(100))) {
++        // Launch starts the camera parameter server concurrently; allow DDS discovery.
++        if (parameters_client->wait_for_service(std::chrono::seconds(10))) {
+             auto values = parameters_client->get_parameters({param_name});
 diff --git a/vikit_ros/package.xml b/vikit_ros/package.xml
 index 7e1cdff..a4e1858 100644
 --- a/vikit_ros/package.xml
 +++ b/vikit_ros/package.xml
-@@ -20,7 +20,11 @@
-   <buildtool_depend>ament_cmake</buildtool_depend>
-   <buildtool_depend>rosidl_default_generators</buildtool_depend>
+@@ -22,3 +22,7 @@
    <depend>rclcpp</depend>
 -  <depend>cmake_modules</depend> <!-- for FindEigen.cmake module -->
 +  <depend>eigen</depend>
@@ -225,12 +222,37 @@ index 7e1cdff..a4e1858 100644
 +  <depend>tf2_ros</depend>
 +  <depend>tf2_geometry_msgs</depend>
    <depend>vikit_common</depend>
-   <depend>tf2</depend>
-   <depend>visualization_msgs</depend>
-@@ -35,4 +39,4 @@
-     <!-- Other tools can request additional information be placed here -->
-     <build_type>ament_cmake</build_type>
+@@ -37,2 +41,2 @@
    </export>
 -</package>
 \ No newline at end of file
 +</package>
+diff --git a/vikit_ros/src/camera_loader.cpp b/vikit_ros/src/camera_loader.cpp
+index f6fbf71..3ef5079 100644
+--- a/vikit_ros/src/camera_loader.cpp
++++ b/vikit_ros/src/camera_loader.cpp
+@@ -41,13 +41,13 @@ bool loadFromRosNs(const rclcpp::Node::SharedPtr & nh, const std::string& ns, vk
+     cam = new vk::EquidistantCamera(
+-        getParam<int>(nh, ns+"/cam_width"),
+-        getParam<int>(nh, ns+"/cam_height"),
+-        getParam<double>(nh, ns+"/scale", 1.0),
+-        getParam<double>(nh, ns+"/cam_fx"),
+-        getParam<double>(nh, ns+"/cam_fy"),
+-        getParam<double>(nh, ns+"/cam_cx"),
+-        getParam<double>(nh, ns+"/cam_cy"),
+-        getParam<double>(nh, ns+"/k1", 0.0),
+-        getParam<double>(nh, ns+"/k2", 0.0),
+-        getParam<double>(nh, ns+"/k3", 0.0),
+-        getParam<double>(nh, ns+"/k4", 0.0));
++        getRemoteParam<int>(nh, ns, "cam_width", 0),
++        getRemoteParam<int>(nh, ns, "cam_height", 0),
++        getRemoteParam<double>(nh, ns, "scale", 1.0),
++        getRemoteParam<double>(nh, ns, "cam_fx", 0.0),
++        getRemoteParam<double>(nh, ns, "cam_fy", 0.0),
++        getRemoteParam<double>(nh, ns, "cam_cx", 0.0),
++        getRemoteParam<double>(nh, ns, "cam_cy", 0.0),
++        getRemoteParam<double>(nh, ns, "k1", 0.0),
++        getRemoteParam<double>(nh, ns, "k2", 0.0),
++        getRemoteParam<double>(nh, ns, "k3", 0.0),
++        getRemoteParam<double>(nh, ns, "k4", 0.0));
+   }

@@ -1,0 +1,6803 @@
+{
+  "images": [
+    {
+      "stamp_ns": 1710754088955539892,
+      "path": "raw/rgb_000000.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089005539092,
+      "path": "raw/rgb_000001.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089055538192,
+      "path": "raw/rgb_000002.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089105537392,
+      "path": "raw/rgb_000003.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089155536492,
+      "path": "raw/rgb_000004.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089205535692,
+      "path": "raw/rgb_000005.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089255534892,
+      "path": "raw/rgb_000006.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089305533992,
+      "path": "raw/rgb_000007.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089355533192,
+      "path": "raw/rgb_000008.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089405532392,
+      "path": "raw/rgb_000009.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089455531592,
+      "path": "raw/rgb_000010.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089505530792,
+      "path": "raw/rgb_000011.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089555529992,
+      "path": "raw/rgb_000012.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089605529092,
+      "path": "raw/rgb_000013.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089655528292,
+      "path": "raw/rgb_000014.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089705527392,
+      "path": "raw/rgb_000015.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089755526592,
+      "path": "raw/rgb_000016.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089805525792,
+      "path": "raw/rgb_000017.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089855524892,
+      "path": "raw/rgb_000018.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089905524092,
+      "path": "raw/rgb_000019.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754089955523392,
+      "path": "raw/rgb_000020.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090005522492,
+      "path": "raw/rgb_000021.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090055521692,
+      "path": "raw/rgb_000022.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090105520792,
+      "path": "raw/rgb_000023.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090155519992,
+      "path": "raw/rgb_000024.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090205519192,
+      "path": "raw/rgb_000025.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090255518292,
+      "path": "raw/rgb_000026.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090305517492,
+      "path": "raw/rgb_000027.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090355516692,
+      "path": "raw/rgb_000028.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090405515792,
+      "path": "raw/rgb_000029.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090455515092,
+      "path": "raw/rgb_000030.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090505514292,
+      "path": "raw/rgb_000031.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090555513392,
+      "path": "raw/rgb_000032.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090605512592,
+      "path": "raw/rgb_000033.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090655511692,
+      "path": "raw/rgb_000034.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090705510892,
+      "path": "raw/rgb_000035.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090755510092,
+      "path": "raw/rgb_000036.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090805509192,
+      "path": "raw/rgb_000037.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090855508392,
+      "path": "raw/rgb_000038.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090905507592,
+      "path": "raw/rgb_000039.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754090955506792,
+      "path": "raw/rgb_000040.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091005505992,
+      "path": "raw/rgb_000041.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091055505092,
+      "path": "raw/rgb_000042.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091105504292,
+      "path": "raw/rgb_000043.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091155503492,
+      "path": "raw/rgb_000044.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091205502592,
+      "path": "raw/rgb_000045.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091255501792,
+      "path": "raw/rgb_000046.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091305500992,
+      "path": "raw/rgb_000047.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091355500092,
+      "path": "raw/rgb_000048.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091405499292,
+      "path": "raw/rgb_000049.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091455498592,
+      "path": "raw/rgb_000050.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091505497692,
+      "path": "raw/rgb_000051.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091555496892,
+      "path": "raw/rgb_000052.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091605495992,
+      "path": "raw/rgb_000053.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091655495192,
+      "path": "raw/rgb_000054.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091705494392,
+      "path": "raw/rgb_000055.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091755493492,
+      "path": "raw/rgb_000056.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091805492692,
+      "path": "raw/rgb_000057.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091855491892,
+      "path": "raw/rgb_000058.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091905490992,
+      "path": "raw/rgb_000059.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754091955490292,
+      "path": "raw/rgb_000060.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092005489392,
+      "path": "raw/rgb_000061.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092055488592,
+      "path": "raw/rgb_000062.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092105487792,
+      "path": "raw/rgb_000063.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092155486892,
+      "path": "raw/rgb_000064.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092205486092,
+      "path": "raw/rgb_000065.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092255485292,
+      "path": "raw/rgb_000066.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092305484392,
+      "path": "raw/rgb_000067.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092355483592,
+      "path": "raw/rgb_000068.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092405482792,
+      "path": "raw/rgb_000069.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092455481992,
+      "path": "raw/rgb_000070.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092505481192,
+      "path": "raw/rgb_000071.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092555480292,
+      "path": "raw/rgb_000072.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092605479492,
+      "path": "raw/rgb_000073.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092655478692,
+      "path": "raw/rgb_000074.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092705477792,
+      "path": "raw/rgb_000075.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092755476992,
+      "path": "raw/rgb_000076.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092805476192,
+      "path": "raw/rgb_000077.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092855475292,
+      "path": "raw/rgb_000078.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092905474492,
+      "path": "raw/rgb_000079.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754092955473692,
+      "path": "raw/rgb_000080.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093005472892,
+      "path": "raw/rgb_000081.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093055472092,
+      "path": "raw/rgb_000082.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093105471192,
+      "path": "raw/rgb_000083.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093155470392,
+      "path": "raw/rgb_000084.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093205469592,
+      "path": "raw/rgb_000085.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093255468692,
+      "path": "raw/rgb_000086.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093305467892,
+      "path": "raw/rgb_000087.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093355466992,
+      "path": "raw/rgb_000088.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093405466192,
+      "path": "raw/rgb_000089.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093455465492,
+      "path": "raw/rgb_000090.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093505464592,
+      "path": "raw/rgb_000091.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093555463792,
+      "path": "raw/rgb_000092.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093605462992,
+      "path": "raw/rgb_000093.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093655462092,
+      "path": "raw/rgb_000094.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093705461292,
+      "path": "raw/rgb_000095.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093755460492,
+      "path": "raw/rgb_000096.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093805459592,
+      "path": "raw/rgb_000097.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093855458792,
+      "path": "raw/rgb_000098.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093905457892,
+      "path": "raw/rgb_000099.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754093955457192,
+      "path": "raw/rgb_000100.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094005456392,
+      "path": "raw/rgb_000101.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094055455492,
+      "path": "raw/rgb_000102.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094105454692,
+      "path": "raw/rgb_000103.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094155453892,
+      "path": "raw/rgb_000104.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094205452992,
+      "path": "raw/rgb_000105.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094255452192,
+      "path": "raw/rgb_000106.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094305451292,
+      "path": "raw/rgb_000107.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094355450492,
+      "path": "raw/rgb_000108.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094405449692,
+      "path": "raw/rgb_000109.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094455448892,
+      "path": "raw/rgb_000110.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094505448092,
+      "path": "raw/rgb_000111.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094555447292,
+      "path": "raw/rgb_000112.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094605446392,
+      "path": "raw/rgb_000113.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094655445592,
+      "path": "raw/rgb_000114.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094705444792,
+      "path": "raw/rgb_000115.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094755443892,
+      "path": "raw/rgb_000116.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094805443092,
+      "path": "raw/rgb_000117.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094855442192,
+      "path": "raw/rgb_000118.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094905441392,
+      "path": "raw/rgb_000119.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754094955440692,
+      "path": "raw/rgb_000120.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095005439792,
+      "path": "raw/rgb_000121.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095055438992,
+      "path": "raw/rgb_000122.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095105438192,
+      "path": "raw/rgb_000123.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095155437292,
+      "path": "raw/rgb_000124.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095205436492,
+      "path": "raw/rgb_000125.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095255435592,
+      "path": "raw/rgb_000126.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095305434792,
+      "path": "raw/rgb_000127.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095355433992,
+      "path": "raw/rgb_000128.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095405433092,
+      "path": "raw/rgb_000129.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095455432392,
+      "path": "raw/rgb_000130.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095505431592,
+      "path": "raw/rgb_000131.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095555430692,
+      "path": "raw/rgb_000132.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095605429892,
+      "path": "raw/rgb_000133.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095655429092,
+      "path": "raw/rgb_000134.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095705428192,
+      "path": "raw/rgb_000135.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095755427392,
+      "path": "raw/rgb_000136.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095805426492,
+      "path": "raw/rgb_000137.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095855425692,
+      "path": "raw/rgb_000138.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095905424892,
+      "path": "raw/rgb_000139.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754095955424092,
+      "path": "raw/rgb_000140.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096005423292,
+      "path": "raw/rgb_000141.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096055422492,
+      "path": "raw/rgb_000142.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096105421592,
+      "path": "raw/rgb_000143.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096155420792,
+      "path": "raw/rgb_000144.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096205419892,
+      "path": "raw/rgb_000145.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096255419092,
+      "path": "raw/rgb_000146.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096305418292,
+      "path": "raw/rgb_000147.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096355417392,
+      "path": "raw/rgb_000148.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096405416592,
+      "path": "raw/rgb_000149.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096455415892,
+      "path": "raw/rgb_000150.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096505414992,
+      "path": "raw/rgb_000151.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096555414192,
+      "path": "raw/rgb_000152.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096605413392,
+      "path": "raw/rgb_000153.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096655412492,
+      "path": "raw/rgb_000154.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096705411692,
+      "path": "raw/rgb_000155.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096755410792,
+      "path": "raw/rgb_000156.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096805409992,
+      "path": "raw/rgb_000157.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096855409192,
+      "path": "raw/rgb_000158.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096905408292,
+      "path": "raw/rgb_000159.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754096955407592,
+      "path": "raw/rgb_000160.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097005406792,
+      "path": "raw/rgb_000161.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097055405892,
+      "path": "raw/rgb_000162.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097105405092,
+      "path": "raw/rgb_000163.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097155404192,
+      "path": "raw/rgb_000164.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097205403392,
+      "path": "raw/rgb_000165.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097255402592,
+      "path": "raw/rgb_000166.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097305401692,
+      "path": "raw/rgb_000167.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097355400892,
+      "path": "raw/rgb_000168.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097405400092,
+      "path": "raw/rgb_000169.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097455399292,
+      "path": "raw/rgb_000170.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097505398492,
+      "path": "raw/rgb_000171.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097555397692,
+      "path": "raw/rgb_000172.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097605396792,
+      "path": "raw/rgb_000173.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097655395992,
+      "path": "raw/rgb_000174.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097705395092,
+      "path": "raw/rgb_000175.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097755394292,
+      "path": "raw/rgb_000176.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097805393492,
+      "path": "raw/rgb_000177.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097855392592,
+      "path": "raw/rgb_000178.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097905391792,
+      "path": "raw/rgb_000179.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754097955391092,
+      "path": "raw/rgb_000180.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098005390192,
+      "path": "raw/rgb_000181.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098055389392,
+      "path": "raw/rgb_000182.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098105388492,
+      "path": "raw/rgb_000183.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098155387692,
+      "path": "raw/rgb_000184.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098205386892,
+      "path": "raw/rgb_000185.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098255385992,
+      "path": "raw/rgb_000186.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098305385192,
+      "path": "raw/rgb_000187.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098355384392,
+      "path": "raw/rgb_000188.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098405383492,
+      "path": "raw/rgb_000189.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098455382792,
+      "path": "raw/rgb_000190.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098505381992,
+      "path": "raw/rgb_000191.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098555381092,
+      "path": "raw/rgb_000192.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098605380292,
+      "path": "raw/rgb_000193.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098655379392,
+      "path": "raw/rgb_000194.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098705378592,
+      "path": "raw/rgb_000195.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098755377792,
+      "path": "raw/rgb_000196.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098805376892,
+      "path": "raw/rgb_000197.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098855376092,
+      "path": "raw/rgb_000198.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098905375292,
+      "path": "raw/rgb_000199.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754098955374492,
+      "path": "raw/rgb_000200.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099005373692,
+      "path": "raw/rgb_000201.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099055372792,
+      "path": "raw/rgb_000202.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099105371992,
+      "path": "raw/rgb_000203.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099155371192,
+      "path": "raw/rgb_000204.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099205370292,
+      "path": "raw/rgb_000205.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099255369492,
+      "path": "raw/rgb_000206.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099305368692,
+      "path": "raw/rgb_000207.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099355367792,
+      "path": "raw/rgb_000208.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099405366992,
+      "path": "raw/rgb_000209.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099455366192,
+      "path": "raw/rgb_000210.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099505365392,
+      "path": "raw/rgb_000211.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099555364592,
+      "path": "raw/rgb_000212.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099605363692,
+      "path": "raw/rgb_000213.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099655362892,
+      "path": "raw/rgb_000214.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099705362092,
+      "path": "raw/rgb_000215.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099755361192,
+      "path": "raw/rgb_000216.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099805360392,
+      "path": "raw/rgb_000217.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099855359592,
+      "path": "raw/rgb_000218.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099905358692,
+      "path": "raw/rgb_000219.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754099955357992,
+      "path": "raw/rgb_000220.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100005357092,
+      "path": "raw/rgb_000221.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100055356292,
+      "path": "raw/rgb_000222.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100105355492,
+      "path": "raw/rgb_000223.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100155354592,
+      "path": "raw/rgb_000224.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100205353792,
+      "path": "raw/rgb_000225.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100255352992,
+      "path": "raw/rgb_000226.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100305352092,
+      "path": "raw/rgb_000227.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100355351292,
+      "path": "raw/rgb_000228.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100405350392,
+      "path": "raw/rgb_000229.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100455349692,
+      "path": "raw/rgb_000230.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100505348892,
+      "path": "raw/rgb_000231.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100555347992,
+      "path": "raw/rgb_000232.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100605347192,
+      "path": "raw/rgb_000233.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100655346392,
+      "path": "raw/rgb_000234.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100705345492,
+      "path": "raw/rgb_000235.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100755344692,
+      "path": "raw/rgb_000236.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100805343892,
+      "path": "raw/rgb_000237.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100855342992,
+      "path": "raw/rgb_000238.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100905342192,
+      "path": "raw/rgb_000239.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754100955341392,
+      "path": "raw/rgb_000240.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101005340592,
+      "path": "raw/rgb_000241.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101055339792,
+      "path": "raw/rgb_000242.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101105338892,
+      "path": "raw/rgb_000243.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101155338092,
+      "path": "raw/rgb_000244.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101205337292,
+      "path": "raw/rgb_000245.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101255336392,
+      "path": "raw/rgb_000246.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101305335592,
+      "path": "raw/rgb_000247.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101355334692,
+      "path": "raw/rgb_000248.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101405333892,
+      "path": "raw/rgb_000249.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101455333192,
+      "path": "raw/rgb_000250.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101505332292,
+      "path": "raw/rgb_000251.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101555331492,
+      "path": "raw/rgb_000252.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101605330692,
+      "path": "raw/rgb_000253.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101655329792,
+      "path": "raw/rgb_000254.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101705328992,
+      "path": "raw/rgb_000255.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101755328192,
+      "path": "raw/rgb_000256.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101805327292,
+      "path": "raw/rgb_000257.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101855326492,
+      "path": "raw/rgb_000258.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101905325592,
+      "path": "raw/rgb_000259.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754101955324892,
+      "path": "raw/rgb_000260.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102005324092,
+      "path": "raw/rgb_000261.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102055323192,
+      "path": "raw/rgb_000262.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102105322392,
+      "path": "raw/rgb_000263.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102155321592,
+      "path": "raw/rgb_000264.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102205320692,
+      "path": "raw/rgb_000265.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102255319892,
+      "path": "raw/rgb_000266.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102305318992,
+      "path": "raw/rgb_000267.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102355318192,
+      "path": "raw/rgb_000268.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102405317392,
+      "path": "raw/rgb_000269.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102455316592,
+      "path": "raw/rgb_000270.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102505315792,
+      "path": "raw/rgb_000271.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102555314992,
+      "path": "raw/rgb_000272.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102605314092,
+      "path": "raw/rgb_000273.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102655313292,
+      "path": "raw/rgb_000274.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102705312492,
+      "path": "raw/rgb_000275.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102755311592,
+      "path": "raw/rgb_000276.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102805310792,
+      "path": "raw/rgb_000277.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102855309892,
+      "path": "raw/rgb_000278.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102905309092,
+      "path": "raw/rgb_000279.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754102955308392,
+      "path": "raw/rgb_000280.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103005307492,
+      "path": "raw/rgb_000281.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103055306692,
+      "path": "raw/rgb_000282.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103105305892,
+      "path": "raw/rgb_000283.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103155304992,
+      "path": "raw/rgb_000284.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103205304192,
+      "path": "raw/rgb_000285.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103255303292,
+      "path": "raw/rgb_000286.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103305302492,
+      "path": "raw/rgb_000287.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103355301692,
+      "path": "raw/rgb_000288.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103405300792,
+      "path": "raw/rgb_000289.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103455300092,
+      "path": "raw/rgb_000290.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103505299292,
+      "path": "raw/rgb_000291.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103555298392,
+      "path": "raw/rgb_000292.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103605297592,
+      "path": "raw/rgb_000293.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103655296792,
+      "path": "raw/rgb_000294.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103705295892,
+      "path": "raw/rgb_000295.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103755295092,
+      "path": "raw/rgb_000296.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103805294192,
+      "path": "raw/rgb_000297.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103855293392,
+      "path": "raw/rgb_000298.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103905292592,
+      "path": "raw/rgb_000299.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754103955291792,
+      "path": "raw/rgb_000300.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104005290992,
+      "path": "raw/rgb_000301.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104055290192,
+      "path": "raw/rgb_000302.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104105289292,
+      "path": "raw/rgb_000303.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104155288492,
+      "path": "raw/rgb_000304.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104205287592,
+      "path": "raw/rgb_000305.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104255286792,
+      "path": "raw/rgb_000306.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104305285992,
+      "path": "raw/rgb_000307.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104355285092,
+      "path": "raw/rgb_000308.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104405284292,
+      "path": "raw/rgb_000309.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104455283592,
+      "path": "raw/rgb_000310.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104505282692,
+      "path": "raw/rgb_000311.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104555281892,
+      "path": "raw/rgb_000312.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104605280992,
+      "path": "raw/rgb_000313.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104655280192,
+      "path": "raw/rgb_000314.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104705279392,
+      "path": "raw/rgb_000315.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104755278492,
+      "path": "raw/rgb_000316.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104805277692,
+      "path": "raw/rgb_000317.npy",
+      "encoding": "bgr8"
+    },
+    {
+      "stamp_ns": 1710754104855276892,
+      "path": "raw/rgb_000318.npy",
+      "encoding": "bgr8"
+    }
+  ],
+  "poses": [
+    {
+      "stamp_ns": 1710754089155536413,
+      "position": [
+        -1.8024558798169983e-05,
+        4.704441407999378e-06,
+        2.9736127035505153e-05
+      ],
+      "quaternion_xyzw": [
+        0.0003220562118971246,
+        -0.00012355467463462692,
+        -0.000635441649198131,
+        0.9999997386139405
+      ]
+    },
+    {
+      "stamp_ns": 1710754089205535650,
+      "position": [
+        -3.43265551553538e-05,
+        5.639176645173186e-05,
+        0.00010556125622528673
+      ],
+      "quaternion_xyzw": [
+        0.00036243110127718344,
+        -8.760123595423537e-05,
+        -0.000565782759065877,
+        0.9999997704297685
+      ]
+    },
+    {
+      "stamp_ns": 1710754089255534887,
+      "position": [
+        0.003928962344522156,
+        -0.0009518321035979996,
+        0.0006733826273069207
+      ],
+      "quaternion_xyzw": [
+        4.908775616252998e-05,
+        -3.589467966172614e-05,
+        0.0015136237762604708,
+        0.9999988526218558
+      ]
+    },
+    {
+      "stamp_ns": 1710754089305533885,
+      "position": [
+        0.004145298276694027,
+        -0.0008448904083936183,
+        9.31894357945687e-05
+      ],
+      "quaternion_xyzw": [
+        -0.000588534887365297,
+        7.7499369673402e-05,
+        0.0023533900656853898,
+        0.9999970545835287
+      ]
+    },
+    {
+      "stamp_ns": 1710754089355533361,
+      "position": [
+        0.01582155600369806,
+        -0.0004778808520953488,
+        0.002422295727463098
+      ],
+      "quaternion_xyzw": [
+        -0.0004766806888246736,
+        0.00020216250834380786,
+        0.002919509987692048,
+        0.9999956041739747
+      ]
+    },
+    {
+      "stamp_ns": 1710754089405532360,
+      "position": [
+        0.013165579716590589,
+        0.0019426291675948785,
+        0.0017510153438965014
+      ],
+      "quaternion_xyzw": [
+        -0.0009236817657718255,
+        0.0005149873805023314,
+        0.003875160060883909,
+        0.9999919323347044
+      ]
+    },
+    {
+      "stamp_ns": 1710754089455531597,
+      "position": [
+        0.02018126418748041,
+        -0.00011985031167904745,
+        0.002670506734684154
+      ],
+      "quaternion_xyzw": [
+        -0.0010810456540211624,
+        0.0005781537138938339,
+        0.005385960764835141,
+        0.9999847441362377
+      ]
+    },
+    {
+      "stamp_ns": 1710754089505530834,
+      "position": [
+        0.017318264833572284,
+        0.0003710150184959974,
+        0.0017141944225024157
+      ],
+      "quaternion_xyzw": [
+        -0.0014035337323454293,
+        0.0008512014116598825,
+        0.006414494141839409,
+        0.9999780796668112
+      ]
+    },
+    {
+      "stamp_ns": 1710754089555530071,
+      "position": [
+        0.018867345142257033,
+        -0.0013526445056880087,
+        0.003894507373589839
+      ],
+      "quaternion_xyzw": [
+        -0.0011047673307094242,
+        0.00029973712294415877,
+        0.007256955571384103,
+        0.9999730127571629
+      ]
+    },
+    {
+      "stamp_ns": 1710754089605529069,
+      "position": [
+        0.013674233916290537,
+        -0.001056885765904621,
+        0.004905061141963495
+      ],
+      "quaternion_xyzw": [
+        -0.0012097654593102856,
+        0.0004949447408236991,
+        0.006910657517525188,
+        0.9999752668490918
+      ]
+    },
+    {
+      "stamp_ns": 1710754089655528306,
+      "position": [
+        0.0167654700512869,
+        -0.0005343830489927363,
+        0.005452214881975997
+      ],
+      "quaternion_xyzw": [
+        -0.001193829547703311,
+        0.0003029159263173728,
+        0.006502542288799222,
+        0.9999780997385569
+      ]
+    },
+    {
+      "stamp_ns": 1710754089705527305,
+      "position": [
+        0.016124028755020763,
+        0.0012119812943628535,
+        0.006155551383262419
+      ],
+      "quaternion_xyzw": [
+        -0.0018583905764899937,
+        0.0006530738206842559,
+        0.005421114013647048,
+        0.9999833655625981
+      ]
+    },
+    {
+      "stamp_ns": 1710754089755526542,
+      "position": [
+        0.017550929636745163,
+        0.0001254379917164848,
+        0.004977681477212154
+      ],
+      "quaternion_xyzw": [
+        -0.0011761865456586657,
+        0.00044467803423487047,
+        0.005237798800756234,
+        0.999985492049949
+      ]
+    },
+    {
+      "stamp_ns": 1710754089805525779,
+      "position": [
+        0.016796267564775244,
+        0.0007778421059468628,
+        0.005655742432592927
+      ],
+      "quaternion_xyzw": [
+        -0.0014786325716347334,
+        0.0007739618512817211,
+        0.00422552593127305,
+        0.9999896797264336
+      ]
+    },
+    {
+      "stamp_ns": 1710754089855524778,
+      "position": [
+        0.01726163981367839,
+        -0.0010939994719752744,
+        0.006250161050914579
+      ],
+      "quaternion_xyzw": [
+        -0.0009511414318428722,
+        0.000424228424911166,
+        0.004177696447606631,
+        0.9999907310633492
+      ]
+    },
+    {
+      "stamp_ns": 1710754089905524015,
+      "position": [
+        0.016545181643456374,
+        -0.0017024704932365859,
+        0.007156727806243368
+      ],
+      "quaternion_xyzw": [
+        -0.0013648738384940122,
+        0.0005377560800882968,
+        0.003619438244925756,
+        0.9999923737732176
+      ]
+    },
+    {
+      "stamp_ns": 1710754089955523252,
+      "position": [
+        0.017270105009442736,
+        -0.002560046393492106,
+        0.006735320475486329
+      ],
+      "quaternion_xyzw": [
+        -0.000909383371794586,
+        0.0003891950070727438,
+        0.0036515296820519507,
+        0.9999928439144506
+      ]
+    },
+    {
+      "stamp_ns": 1710754090005522489,
+      "position": [
+        0.016498108962061303,
+        -0.00296602416467073,
+        0.007570824856939823
+      ],
+      "quaternion_xyzw": [
+        -0.0013759718253769863,
+        0.0005377085623112076,
+        0.003304323832260257,
+        0.9999934494860699
+      ]
+    },
+    {
+      "stamp_ns": 1710754090055521726,
+      "position": [
+        0.017812710117066966,
+        -0.0038104722154183946,
+        0.0071507662181140965
+      ],
+      "quaternion_xyzw": [
+        -0.0008538698501785845,
+        0.0004023472523897029,
+        0.0033791182647019925,
+        0.9999938452724201
+      ]
+    },
+    {
+      "stamp_ns": 1710754090105520963,
+      "position": [
+        0.016590755831345044,
+        -0.00457694479476474,
+        0.007851456841165888
+      ],
+      "quaternion_xyzw": [
+        -0.0013077559814793523,
+        0.00048363830857379715,
+        0.0032816281168450106,
+        0.9999936433723878
+      ]
+    },
+    {
+      "stamp_ns": 1710754090155519962,
+      "position": [
+        0.018710441021473425,
+        -0.005652773444748056,
+        0.006391917369043668
+      ],
+      "quaternion_xyzw": [
+        -0.0008739063838585993,
+        0.0004136261423318031,
+        0.004062277149878976,
+        0.9999912815146962
+      ]
+    },
+    {
+      "stamp_ns": 1710754090205519199,
+      "position": [
+        0.01803882223767661,
+        -0.006171971931594985,
+        0.007155449717431012
+      ],
+      "quaternion_xyzw": [
+        -0.0012919105027376064,
+        0.0006142075253714798,
+        0.004520481126560377,
+        0.9999887594202012
+      ]
+    },
+    {
+      "stamp_ns": 1710754090255518198,
+      "position": [
+        0.01907841090593908,
+        -0.007088167628130082,
+        0.0059364562183940785
+      ],
+      "quaternion_xyzw": [
+        -0.0008942148868993135,
+        0.0004534115166745514,
+        0.005444972297875818,
+        0.999984673419752
+      ]
+    },
+    {
+      "stamp_ns": 1710754090305517673,
+      "position": [
+        0.018648558068463456,
+        -0.0079705310016895,
+        0.006643513452746465
+      ],
+      "quaternion_xyzw": [
+        -0.0012510907995811193,
+        0.000626997393175009,
+        0.005363893665780023,
+        0.99998463502737
+      ]
+    },
+    {
+      "stamp_ns": 1710754090355516672,
+      "position": [
+        0.01888106782168055,
+        -0.008642579931478872,
+        0.0059928928579406245
+      ],
+      "quaternion_xyzw": [
+        -0.0008993200261646935,
+        0.00044885293523888413,
+        0.005807919045387638,
+        0.9999826287645677
+      ]
+    },
+    {
+      "stamp_ns": 1710754090405515670,
+      "position": [
+        0.019064573019081793,
+        -0.009667364381092024,
+        0.006878294733427097
+      ],
+      "quaternion_xyzw": [
+        -0.001252862786439457,
+        0.0007040504610754581,
+        0.005482782931395389,
+        0.9999839367405426
+      ]
+    },
+    {
+      "stamp_ns": 1710754090455515146,
+      "position": [
+        0.019761172792932224,
+        -0.011263544449241058,
+        0.0061171485665103805
+      ],
+      "quaternion_xyzw": [
+        -0.0008661589801468217,
+        0.0004940801130904702,
+        0.005606861884295183,
+        0.9999837842451613
+      ]
+    },
+    {
+      "stamp_ns": 1710754090505514144,
+      "position": [
+        0.019365088573828775,
+        -0.012545471760634763,
+        0.006898195942200419
+      ],
+      "quaternion_xyzw": [
+        -0.000885933092923209,
+        0.0006675668845872621,
+        0.004948706651724838,
+        0.99998713980705
+      ]
+    },
+    {
+      "stamp_ns": 1710754090555513381,
+      "position": [
+        0.020184805259024254,
+        -0.014182941488204757,
+        0.0073159774453277265
+      ],
+      "quaternion_xyzw": [
+        -0.0007425747103736212,
+        0.0004553185479914696,
+        0.004741688824614503,
+        0.9999883787599284
+      ]
+    },
+    {
+      "stamp_ns": 1710754090605512619,
+      "position": [
+        0.01972206532367481,
+        -0.016121280956084633,
+        0.008578962582026537
+      ],
+      "quaternion_xyzw": [
+        -0.0005963141365362591,
+        0.0005699702984566345,
+        0.004181536211682014,
+        0.9999909171078605
+      ]
+    },
+    {
+      "stamp_ns": 1710754090655511856,
+      "position": [
+        0.020799766551271047,
+        -0.01705893796118059,
+        0.007520682681960317
+      ],
+      "quaternion_xyzw": [
+        -0.0007643652011008209,
+        0.00044163938860720053,
+        0.004024600885847637,
+        0.9999915116080733
+      ]
+    },
+    {
+      "stamp_ns": 1710754090705510854,
+      "position": [
+        0.018854528460354594,
+        -0.01778942760893367,
+        0.008039748076605032
+      ],
+      "quaternion_xyzw": [
+        -0.000400904179717906,
+        0.0005300890653859338,
+        0.003628176992754037,
+        0.9999931972834267
+      ]
+    },
+    {
+      "stamp_ns": 1710754090755510091,
+      "position": [
+        0.020188026835183722,
+        -0.018450622951731263,
+        0.007398946330296011
+      ],
+      "quaternion_xyzw": [
+        -0.0007589779228269833,
+        0.0004471931632178215,
+        0.003777639735270834,
+        0.9999924766761088
+      ]
+    },
+    {
+      "stamp_ns": 1710754090805509090,
+      "position": [
+        0.018681842055165532,
+        -0.018698412029635944,
+        0.007868283215684614
+      ],
+      "quaternion_xyzw": [
+        -0.00022165489067303392,
+        0.0005319399652542234,
+        0.0035738597420645795,
+        0.999993447696297
+      ]
+    },
+    {
+      "stamp_ns": 1710754090855508565,
+      "position": [
+        0.02035486261862881,
+        -0.019213493917234294,
+        0.006461868601511288
+      ],
+      "quaternion_xyzw": [
+        -0.0008186447338886601,
+        0.000401206135569704,
+        0.0036421456112041444,
+        0.999992951790053
+      ]
+    },
+    {
+      "stamp_ns": 1710754090905507564,
+      "position": [
+        0.018839214724756442,
+        -0.018832036063625136,
+        0.006697899333803472
+      ],
+      "quaternion_xyzw": [
+        -0.0001201835224412297,
+        0.0005970359337633069,
+        0.0035997167293041646,
+        0.9999933355495342
+      ]
+    },
+    {
+      "stamp_ns": 1710754090955506801,
+      "position": [
+        0.02092753136680748,
+        -0.01905992583114503,
+        0.005162320440665208
+      ],
+      "quaternion_xyzw": [
+        -0.0009101977896337875,
+        0.0004424987811931024,
+        0.003944481380879665,
+        0.9999917083663485
+      ]
+    },
+    {
+      "stamp_ns": 1710754091005506038,
+      "position": [
+        0.019681076586381,
+        -0.018628108846468157,
+        0.005395990484672929
+      ],
+      "quaternion_xyzw": [
+        -0.0003546490322062008,
+        0.0006304007324682199,
+        0.003895852118709704,
+        0.9999921495468099
+      ]
+    },
+    {
+      "stamp_ns": 1710754091055505037,
+      "position": [
+        0.020361112950219237,
+        -0.018036055087042546,
+        0.0055064160677845775
+      ],
+      "quaternion_xyzw": [
+        -0.0009384678611928239,
+        0.0003707183130613072,
+        0.004145496677142281,
+        0.9999908983102325
+      ]
+    },
+    {
+      "stamp_ns": 1710754091105504274,
+      "position": [
+        0.01991081049788637,
+        -0.018097139726357563,
+        0.006503676784674471
+      ],
+      "quaternion_xyzw": [
+        -0.0008146520576302078,
+        0.0005883506964193325,
+        0.004018734143078562,
+        0.9999914199438764
+      ]
+    },
+    {
+      "stamp_ns": 1710754091155503511,
+      "position": [
+        0.02045513622600223,
+        -0.01695038512634909,
+        0.0057405034800957775
+      ],
+      "quaternion_xyzw": [
+        -0.0009503250009776394,
+        0.0003891189350602999,
+        0.004154750529590984,
+        0.9999908417165048
+      ]
+    },
+    {
+      "stamp_ns": 1710754091205502510,
+      "position": [
+        0.019701308268753263,
+        -0.01683603674770058,
+        0.006631156276774048
+      ],
+      "quaternion_xyzw": [
+        -0.0008934249294909296,
+        0.0006136932988139443,
+        0.003762556194048641,
+        0.999992334142276
+      ]
+    },
+    {
+      "stamp_ns": 1710754091255501747,
+      "position": [
+        0.019998996185299052,
+        -0.01668843007600536,
+        0.006194169440150933
+      ],
+      "quaternion_xyzw": [
+        -0.0008322265818015728,
+        0.0004367107828368317,
+        0.004160909026152843,
+        0.9999909017179531
+      ]
+    },
+    {
+      "stamp_ns": 1710754091305500984,
+      "position": [
+        0.019058029294262233,
+        -0.01664548708085929,
+        0.007117672568614877
+      ],
+      "quaternion_xyzw": [
+        -0.000801153256277714,
+        0.0006560800366468178,
+        0.0037784236526629145,
+        0.9999923255841249
+      ]
+    },
+    {
+      "stamp_ns": 1710754091355499982,
+      "position": [
+        0.02014617476968739,
+        -0.01610160956583139,
+        0.006019811846307396
+      ],
+      "quaternion_xyzw": [
+        -0.0009130510068829791,
+        0.00045966029382440066,
+        0.004326428360167089,
+        0.9999901184851366
+      ]
+    },
+    {
+      "stamp_ns": 1710754091405499458,
+      "position": [
+        0.01920264759310199,
+        -0.015762157729989266,
+        0.006725739219024505
+      ],
+      "quaternion_xyzw": [
+        -0.0008934496380766971,
+        0.0006112392892316988,
+        0.0038932900523563738,
+        0.9999918351800898
+      ]
+    },
+    {
+      "stamp_ns": 1710754091455498456,
+      "position": [
+        0.01957311395709588,
+        -0.015447782548106906,
+        0.006502832280770211
+      ],
+      "quaternion_xyzw": [
+        -0.0008763247391860655,
+        0.00043503193526014906,
+        0.004073895819833623,
+        0.9999912230489904
+      ]
+    },
+    {
+      "stamp_ns": 1710754091505497694,
+      "position": [
+        0.01883433554871822,
+        -0.01537983579589128,
+        0.00727911528895285
+      ],
+      "quaternion_xyzw": [
+        -0.0008566440356827146,
+        0.0006720163167844271,
+        0.0036759570759591783,
+        0.9999926509203164
+      ]
+    },
+    {
+      "stamp_ns": 1710754091555496931,
+      "position": [
+        0.019522923381459133,
+        -0.015842003099503735,
+        0.006478738519251712
+      ],
+      "quaternion_xyzw": [
+        -0.0008120863074141517,
+        0.0004681838946887252,
+        0.004138915653042085,
+        0.9999909953079014
+      ]
+    },
+    {
+      "stamp_ns": 1710754091605496168,
+      "position": [
+        0.01907705003113894,
+        -0.01647987137140833,
+        0.007269295810422615
+      ],
+      "quaternion_xyzw": [
+        -0.0007458152208312885,
+        0.0006899736547598096,
+        0.00387419211901047,
+        0.9999919791335515
+      ]
+    },
+    {
+      "stamp_ns": 1710754091655495166,
+      "position": [
+        0.01962164842915772,
+        -0.01713909187975346,
+        0.006598438985497842
+      ],
+      "quaternion_xyzw": [
+        -0.0008133092554115749,
+        0.0004599074575309753,
+        0.004353408035593449,
+        0.9999900873767006
+      ]
+    },
+    {
+      "stamp_ns": 1710754091705494165,
+      "position": [
+        0.019574306044016235,
+        -0.017679364883258525,
+        0.007316632173161623
+      ],
+      "quaternion_xyzw": [
+        -0.0006189733932701911,
+        0.0006055641903964293,
+        0.00412633624606238,
+        0.9999911117170662
+      ]
+    },
+    {
+      "stamp_ns": 1710754091755493402,
+      "position": [
+        0.019624299930585887,
+        -0.017305210134828775,
+        0.0076333104943584525
+      ],
+      "quaternion_xyzw": [
+        -0.0008572118899530757,
+        0.0004231601112857954,
+        0.004408761308523443,
+        0.999989824421739
+      ]
+    },
+    {
+      "stamp_ns": 1710754091805492639,
+      "position": [
+        0.019249436697969986,
+        -0.01828650604731508,
+        0.008595203633009755
+      ],
+      "quaternion_xyzw": [
+        -0.0007247786736355163,
+        0.000561929858867358,
+        0.003853475959863618,
+        0.9999921547960937
+      ]
+    },
+    {
+      "stamp_ns": 1710754091855491876,
+      "position": [
+        0.020436815799987768,
+        -0.01820272315189147,
+        0.006574843189147561
+      ],
+      "quaternion_xyzw": [
+        -0.0008601773853950217,
+        0.00046913409056350403,
+        0.004021887108511,
+        0.9999914321793747
+      ]
+    },
+    {
+      "stamp_ns": 1710754091905490875,
+      "position": [
+        0.019584194942263097,
+        -0.01789355880335083,
+        0.007114872698290586
+      ],
+      "quaternion_xyzw": [
+        -0.0007824519569158887,
+        0.0006307756617027683,
+        0.0035712849063761934,
+        0.9999931178838769
+      ]
+    },
+    {
+      "stamp_ns": 1710754091955490350,
+      "position": [
+        0.020493839021448544,
+        -0.017914757986446383,
+        0.00557558318219624
+      ],
+      "quaternion_xyzw": [
+        -0.000888653708080043,
+        0.0004540746703270913,
+        0.004063238398119293,
+        0.9999912470639435
+      ]
+    },
+    {
+      "stamp_ns": 1710754092005489349,
+      "position": [
+        0.01964945183609267,
+        -0.017430978227334196,
+        0.006008820932369972
+      ],
+      "quaternion_xyzw": [
+        -0.0007362542583725072,
+        0.0005824853348858269,
+        0.003369344869459276,
+        0.9999938830591176
+      ]
+    },
+    {
+      "stamp_ns": 1710754092055488586,
+      "position": [
+        0.019033980652940083,
+        -0.017690807945985515,
+        0.006844813189106282
+      ],
+      "quaternion_xyzw": [
+        -0.0008629255255815805,
+        0.000346245842181243,
+        0.00319443451900433,
+        0.9999944655154137
+      ]
+    },
+    {
+      "stamp_ns": 1710754092105487823,
+      "position": [
+        0.018655548027610946,
+        -0.017170269021307562,
+        0.0075797831611274106
+      ],
+      "quaternion_xyzw": [
+        -0.0010717159937940859,
+        0.0004419291324263281,
+        0.001726550615733367,
+        0.999997837570883
+      ]
+    },
+    {
+      "stamp_ns": 1710754092155487060,
+      "position": [
+        0.01995621409270155,
+        -0.015649292551674007,
+        0.005701389733064292
+      ],
+      "quaternion_xyzw": [
+        -0.0009402858041168092,
+        0.0004545559461125216,
+        0.0006238249908259565,
+        0.999999260041666
+      ]
+    },
+    {
+      "stamp_ns": 1710754092205486059,
+      "position": [
+        0.01965860454739028,
+        -0.01467722072338116,
+        0.006085539179576864
+      ],
+      "quaternion_xyzw": [
+        -0.0013188492060949334,
+        0.0007719906156431776,
+        -0.0013797186641993815,
+        0.9999978805195882
+      ]
+    },
+    {
+      "stamp_ns": 1710754092255485296,
+      "position": [
+        0.020712847020115277,
+        -0.01290010354632507,
+        0.004918078013906323
+      ],
+      "quaternion_xyzw": [
+        -0.001085574461135243,
+        0.0003968516965511481,
+        -0.0018853856039424634,
+        0.9999975546759826
+      ]
+    },
+    {
+      "stamp_ns": 1710754092305484294,
+      "position": [
+        0.019036131557483463,
+        -0.011585898941418598,
+        0.005385287167103305
+      ],
+      "quaternion_xyzw": [
+        -0.0018887180625776674,
+        0.0006450382611157596,
+        -0.003199131750293298,
+        0.9999928910876148
+      ]
+    },
+    {
+      "stamp_ns": 1710754092355483531,
+      "position": [
+        0.019719770741949583,
+        -0.009858299367566712,
+        0.003785296481864254
+      ],
+      "quaternion_xyzw": [
+        -0.0011968586047582394,
+        0.0004228501440567859,
+        -0.0022652710217154876,
+        0.9999966286315339
+      ]
+    },
+    {
+      "stamp_ns": 1710754092405482769,
+      "position": [
+        0.017958814579038824,
+        -0.006994097955671752,
+        0.003912948852422249
+      ],
+      "quaternion_xyzw": [
+        -0.002477870740886139,
+        0.0008103521894450066,
+        -0.002742116068472187,
+        0.9999928421170762
+      ]
+    },
+    {
+      "stamp_ns": 1710754092455482006,
+      "position": [
+        0.019245626400330982,
+        -0.001874876650505185,
+        0.0022783714585341386
+      ],
+      "quaternion_xyzw": [
+        -0.0014825053610382727,
+        0.0004300707445397581,
+        0.00017009903278820338,
+        0.9999987941409371
+      ]
+    },
+    {
+      "stamp_ns": 1710754092505481243,
+      "position": [
+        0.01932447052708743,
+        7.702199562629151e-05,
+        0.003255880601903133
+      ],
+      "quaternion_xyzw": [
+        -0.0037425006904735192,
+        0.0011733014944983935,
+        0.0008682786933798382,
+        0.9999919315395975
+      ]
+    },
+    {
+      "stamp_ns": 1710754092555480241,
+      "position": [
+        0.020601232133751868,
+        0.0038631546883173907,
+        0.0019436297599854276
+      ],
+      "quaternion_xyzw": [
+        -0.0015759573970551219,
+        0.0005719449258644453,
+        0.005797378012366038,
+        0.9999817896569247
+      ]
+    },
+    {
+      "stamp_ns": 1710754092605479478,
+      "position": [
+        0.021927071483037054,
+        0.0057387613187088755,
+        0.003435998835713141
+      ],
+      "quaternion_xyzw": [
+        -0.004706769725945726,
+        0.0013566453421498944,
+        0.006147305687762558,
+        0.9999691077553066
+      ]
+    },
+    {
+      "stamp_ns": 1710754092655478715,
+      "position": [
+        0.021385544098847537,
+        0.007358955092121397,
+        0.0027385121944554732
+      ],
+      "quaternion_xyzw": [
+        -0.0013975843828869315,
+        0.0006316854695158812,
+        0.012075320304324719,
+        0.9999259144411189
+      ]
+    },
+    {
+      "stamp_ns": 1710754092705477952,
+      "position": [
+        0.024395677089910184,
+        0.008854942102441116,
+        0.0043098824700208375
+      ],
+      "quaternion_xyzw": [
+        -0.005935084636449829,
+        0.0016888348902466797,
+        0.011292728397777365,
+        0.9999171950178704
+      ]
+    },
+    {
+      "stamp_ns": 1710754092755476951,
+      "position": [
+        0.023372508620273354,
+        0.009014718017353134,
+        0.0044809658829107115
+      ],
+      "quaternion_xyzw": [
+        -0.0010340614293178002,
+        0.0006164830487697821,
+        0.015496745499012641,
+        0.9998791934751666
+      ]
+    },
+    {
+      "stamp_ns": 1710754092805476188,
+      "position": [
+        0.028059714471253654,
+        0.008735539759368366,
+        0.0074806199681098804
+      ],
+      "quaternion_xyzw": [
+        -0.0050009099318799,
+        0.0009769514843295578,
+        0.012664012645041987,
+        0.9999068252839246
+      ]
+    },
+    {
+      "stamp_ns": 1710754092855475187,
+      "position": [
+        0.025010403430796486,
+        0.009355746660722912,
+        0.010534678534715416
+      ],
+      "quaternion_xyzw": [
+        -0.0008849977163014367,
+        0.00045493707117805356,
+        0.014556949342685558,
+        0.9998935468524327
+      ]
+    },
+    {
+      "stamp_ns": 1710754092905474662,
+      "position": [
+        0.030566178317914586,
+        0.007564665346585694,
+        0.01349879729045515
+      ],
+      "quaternion_xyzw": [
+        -0.004788584864670472,
+        0.0009063228974226893,
+        0.010917631789483876,
+        0.9999285241205537
+      ]
+    },
+    {
+      "stamp_ns": 1710754092955473661,
+      "position": [
+        0.02768964197566984,
+        0.00588187993926746,
+        0.013505235342869308
+      ],
+      "quaternion_xyzw": [
+        -0.0006997502570457947,
+        0.000665589719069128,
+        0.013248984782304648,
+        0.9999117619780966
+      ]
+    },
+    {
+      "stamp_ns": 1710754093005472660,
+      "position": [
+        0.030844217514905865,
+        0.0026947718580755237,
+        0.014876017558437775
+      ],
+      "quaternion_xyzw": [
+        -0.003922628551383714,
+        0.0012566924817176586,
+        0.010123463270968067,
+        0.9999402728166596
+      ]
+    },
+    {
+      "stamp_ns": 1710754093055472135,
+      "position": [
+        0.021730169235904446,
+        -0.0008950608975802959,
+        0.017090878806625007
+      ],
+      "quaternion_xyzw": [
+        -0.0007482504006140081,
+        0.000414457646013867,
+        0.012549705319942853,
+        0.999920883491579
+      ]
+    },
+    {
+      "stamp_ns": 1710754093105471134,
+      "position": [
+        0.022875412806354863,
+        -0.0044521356808226095,
+        0.018927908451870902
+      ],
+      "quaternion_xyzw": [
+        -0.0035136104153312983,
+        0.00039100227797450197,
+        0.012454102657753938,
+        0.9999161949813883
+      ]
+    },
+    {
+      "stamp_ns": 1710754093155470371,
+      "position": [
+        0.004740591581311225,
+        -0.0059964717321905146,
+        0.025806990009540242
+      ],
+      "quaternion_xyzw": [
+        -0.000778470053591743,
+        2.6599128146053943e-05,
+        0.018642340799926525,
+        0.9998259130500475
+      ]
+    },
+    {
+      "stamp_ns": 1710754093205469608,
+      "position": [
+        -0.003369055436267551,
+        -0.010915644091373425,
+        0.027393936027770963
+      ],
+      "quaternion_xyzw": [
+        -0.004067367208061102,
+        -0.0009185130505725242,
+        0.02285656081417841,
+        0.999730058808636
+      ]
+    },
+    {
+      "stamp_ns": 1710754093255468845,
+      "position": [
+        -0.021076224182463323,
+        -0.010732721472336122,
+        0.030218165125153112
+      ],
+      "quaternion_xyzw": [
+        -0.000506310450458521,
+        -0.0003268926413543632,
+        0.03245527710643477,
+        0.9994730070286408
+      ]
+    },
+    {
+      "stamp_ns": 1710754093305467844,
+      "position": [
+        -0.03577697752309508,
+        -0.014357967313457513,
+        0.030272322144077313
+      ],
+      "quaternion_xyzw": [
+        -0.004051886926048751,
+        -0.00132739988971079,
+        0.03983349312696755,
+        0.9991972343072087
+      ]
+    },
+    {
+      "stamp_ns": 1710754093355467081,
+      "position": [
+        -0.05324735848154851,
+        -0.013953916508309893,
+        0.028770142630942665
+      ],
+      "quaternion_xyzw": [
+        -0.0007875495183425718,
+        -0.0002591406907552313,
+        0.05378613582538577,
+        0.9985521339443583
+      ]
+    },
+    {
+      "stamp_ns": 1710754093405466079,
+      "position": [
+        -0.06893143398728992,
+        -0.018776894632760086,
+        0.027480041121347006
+      ],
+      "quaternion_xyzw": [
+        -0.0060084440525445355,
+        -0.0014307459920505148,
+        0.06519028482007964,
+        0.9978537359408194
+      ]
+    },
+    {
+      "stamp_ns": 1710754093455465555,
+      "position": [
+        -0.08391476662535749,
+        -0.024426341261552572,
+        0.018553181599357736
+      ],
+      "quaternion_xyzw": [
+        -0.013378178263180147,
+        -0.008493479874891997,
+        0.07973209383500543,
+        0.9966903623285716
+      ]
+    },
+    {
+      "stamp_ns": 1710754093505464553,
+      "position": [
+        -0.09491403498488252,
+        -0.02753144491439204,
+        0.01318751546746286
+      ],
+      "quaternion_xyzw": [
+        -0.008857251778213776,
+        -0.013765768354255543,
+        0.09915912951996811,
+        0.994936942597568
+      ]
+    },
+    {
+      "stamp_ns": 1710754093555463790,
+      "position": [
+        -0.12142878081942386,
+        -0.03479543478575213,
+        0.022782071246455014
+      ],
+      "quaternion_xyzw": [
+        -0.005712427109922127,
+        -0.014696554309886336,
+        0.12279061944920991,
+        0.9923073330592744
+      ]
+    },
+    {
+      "stamp_ns": 1710754093605463027,
+      "position": [
+        -0.1406283542720188,
+        -0.04075047860305997,
+        0.017878149640195712
+      ],
+      "quaternion_xyzw": [
+        -0.016226032979176037,
+        -0.015827521323412034,
+        0.13744749308821191,
+        0.9902496614825382
+      ]
+    },
+    {
+      "stamp_ns": 1710754093655462026,
+      "position": [
+        -0.15434360390046856,
+        -0.03710444927573752,
+        0.006731691429200567
+      ],
+      "quaternion_xyzw": [
+        -0.018699604684242012,
+        -0.02086207232544387,
+        0.1588147575296716,
+        0.9869108224726958
+      ]
+    },
+    {
+      "stamp_ns": 1710754093705461263,
+      "position": [
+        -0.16919754744165577,
+        -0.03757789953567217,
+        0.005694976326348932
+      ],
+      "quaternion_xyzw": [
+        -0.021512369110449472,
+        -0.022204012890600665,
+        0.17724770916849936,
+        0.9836805626733349
+      ]
+    },
+    {
+      "stamp_ns": 1710754093755460500,
+      "position": [
+        -0.18014077755041671,
+        -0.04169030143503295,
+        0.01211435375994628
+      ],
+      "quaternion_xyzw": [
+        -0.021458087300582657,
+        -0.018080765523042525,
+        0.20015580173009972,
+        0.9793621860380777
+      ]
+    },
+    {
+      "stamp_ns": 1710754093805459737,
+      "position": [
+        -0.19134677530771121,
+        -0.05117702886099099,
+        0.008938012909167542
+      ],
+      "quaternion_xyzw": [
+        -0.028335591498861036,
+        -0.017731389889548213,
+        0.21789137994825047,
+        0.9754004503849902
+      ]
+    },
+    {
+      "stamp_ns": 1710754093855458736,
+      "position": [
+        -0.20996560127947173,
+        -0.0622026671397917,
+        0.011967778429819302
+      ],
+      "quaternion_xyzw": [
+        -0.024256237134889367,
+        -0.015519359510478985,
+        0.24015864764369008,
+        0.9703064507682068
+      ]
+    },
+    {
+      "stamp_ns": 1710754093905457973,
+      "position": [
+        -0.22051171057955624,
+        -0.0739206222191264,
+        0.012666240538263169
+      ],
+      "quaternion_xyzw": [
+        -0.03007612009686043,
+        -0.015395675717957765,
+        0.2577015478411576,
+        0.9656336326005729
+      ]
+    },
+    {
+      "stamp_ns": 1710754093955457210,
+      "position": [
+        -0.23718023311972322,
+        -0.08756112838300108,
+        0.017672018219472306
+      ],
+      "quaternion_xyzw": [
+        -0.02533259336822766,
+        -0.01099431168857391,
+        0.2807396358911765,
+        0.9593865965623161
+      ]
+    },
+    {
+      "stamp_ns": 1710754094005456447,
+      "position": [
+        -0.2470787221336751,
+        -0.09969400192284775,
+        0.01556557797518286
+      ],
+      "quaternion_xyzw": [
+        -0.030328321933035605,
+        -0.007300031123153708,
+        0.29902866304959996,
+        0.9537341144727371
+      ]
+    },
+    {
+      "stamp_ns": 1710754094055455446,
+      "position": [
+        -0.2617415499631724,
+        -0.11577089833260089,
+        0.009237904297031967
+      ],
+      "quaternion_xyzw": [
+        -0.026518423498667735,
+        -0.005634110764320504,
+        0.32303256104765427,
+        0.9459994685590656
+      ]
+    },
+    {
+      "stamp_ns": 1710754094105454683,
+      "position": [
+        -0.2691686514545363,
+        -0.1294355507734788,
+        0.00946652781361524
+      ],
+      "quaternion_xyzw": [
+        -0.029822993911184564,
+        0.0019070326285159367,
+        0.3444830346580545,
+        0.9383167861087773
+      ]
+    },
+    {
+      "stamp_ns": 1710754094155453920,
+      "position": [
+        -0.27875246897805606,
+        -0.14647332387476206,
+        0.011437734057146116
+      ],
+      "quaternion_xyzw": [
+        -0.025834190819539436,
+        0.0061782376725857575,
+        0.3705338333598126,
+        0.9284390676289118
+      ]
+    },
+    {
+      "stamp_ns": 1710754094205453157,
+      "position": [
+        -0.2855525650202059,
+        -0.15932430762350575,
+        0.00925878848386787
+      ],
+      "quaternion_xyzw": [
+        -0.025477562610018552,
+        0.007571988855108165,
+        0.39088304497865384,
+        0.9200565221422249
+      ]
+    },
+    {
+      "stamp_ns": 1710754094255452156,
+      "position": [
+        -0.29808954758380624,
+        -0.18182102088859434,
+        0.01299220080025286
+      ],
+      "quaternion_xyzw": [
+        -0.022224953399592122,
+        0.008108000703599665,
+        0.41576219629166417,
+        0.909165610824402
+      ]
+    },
+    {
+      "stamp_ns": 1710754094305451154,
+      "position": [
+        -0.30223793271867033,
+        -0.18859825746248862,
+        0.014933744307714363
+      ],
+      "quaternion_xyzw": [
+        -0.01842089699372507,
+        0.008447691546886661,
+        0.4321733169335536,
+        0.9015628270908943
+      ]
+    },
+    {
+      "stamp_ns": 1710754094355450391,
+      "position": [
+        -0.3108067955517101,
+        -0.19247225472934182,
+        0.007279268023487179
+      ],
+      "quaternion_xyzw": [
+        -0.01681004244447594,
+        0.009300248231386646,
+        0.45656360388143974,
+        0.8894833351258703
+      ]
+    },
+    {
+      "stamp_ns": 1710754094405449628,
+      "position": [
+        -0.3113777256061996,
+        -0.19656025660978424,
+        0.005593115735824298
+      ],
+      "quaternion_xyzw": [
+        -0.019898625865783226,
+        0.013899742555531266,
+        0.4730831643697915,
+        0.8806833491303263
+      ]
+    },
+    {
+      "stamp_ns": 1710754094455448865,
+      "position": [
+        -0.3234957059904301,
+        -0.20777179485509903,
+        -0.00427467292903522
+      ],
+      "quaternion_xyzw": [
+        -0.019312648273675834,
+        0.012541412639475061,
+        0.4940636662743607,
+        0.8691207213346146
+      ]
+    },
+    {
+      "stamp_ns": 1710754094505448102,
+      "position": [
+        -0.3245094591711148,
+        -0.20844847465071528,
+        -0.0027056209281850103
+      ],
+      "quaternion_xyzw": [
+        -0.020515173470096824,
+        0.01481272654130825,
+        0.5075766366410418,
+        0.8612349671988893
+      ]
+    },
+    {
+      "stamp_ns": 1710754094555447340,
+      "position": [
+        -0.32923335078224764,
+        -0.2088265279387424,
+        -0.005633279881862132
+      ],
+      "quaternion_xyzw": [
+        -0.019994556610972252,
+        0.012187048089922967,
+        0.5238675729890158,
+        0.8514778091855257
+      ]
+    },
+    {
+      "stamp_ns": 1710754094605446338,
+      "position": [
+        -0.3279970817581563,
+        -0.20592299517730153,
+        -0.00548305879384983
+      ],
+      "quaternion_xyzw": [
+        -0.02133036576161275,
+        0.014082746857324378,
+        0.5328101881058971,
+        0.8458486833872751
+      ]
+    },
+    {
+      "stamp_ns": 1710754094655445575,
+      "position": [
+        -0.32485926157244255,
+        -0.20182323386034057,
+        -0.008731715086169812
+      ],
+      "quaternion_xyzw": [
+        -0.02274980907351,
+        0.012619640741791938,
+        0.5467072315905857,
+        0.8369195862095861
+      ]
+    },
+    {
+      "stamp_ns": 1710754094705444812,
+      "position": [
+        -0.321422209114164,
+        -0.19212434124428118,
+        -0.006161239734613992
+      ],
+      "quaternion_xyzw": [
+        -0.028791056656596904,
+        0.01308227000246541,
+        0.5553331898405055,
+        0.8310264601862858
+      ]
+    },
+    {
+      "stamp_ns": 1710754094755444049,
+      "position": [
+        -0.30466740452191937,
+        -0.16777741508289487,
+        -0.015553984156530379
+      ],
+      "quaternion_xyzw": [
+        -0.02714069277294432,
+        0.010897278248162634,
+        0.5674652245180013,
+        0.8228777862388321
+      ]
+    },
+    {
+      "stamp_ns": 1710754094805443048,
+      "position": [
+        -0.3026033144959384,
+        -0.1540853593593613,
+        -0.0094675377314525
+      ],
+      "quaternion_xyzw": [
+        -0.031149757774031638,
+        0.009874235171464456,
+        0.5732412520366575,
+        0.8187347916351442
+      ]
+    },
+    {
+      "stamp_ns": 1710754094855442285,
+      "position": [
+        -0.30265601686901195,
+        -0.13502341165368936,
+        -0.015162858808716553
+      ],
+      "quaternion_xyzw": [
+        -0.030771610073222842,
+        0.006139827763726418,
+        0.5820951859822483,
+        0.8125149875447377
+      ]
+    },
+    {
+      "stamp_ns": 1710754094905441284,
+      "position": [
+        -0.29776707486293646,
+        -0.12124024960947202,
+        -0.01014060612951312
+      ],
+      "quaternion_xyzw": [
+        -0.03500881046122989,
+        0.0024088081971857453,
+        0.5885460076666288,
+        0.807701787600369
+      ]
+    },
+    {
+      "stamp_ns": 1710754094955440521,
+      "position": [
+        -0.2893392731493349,
+        -0.11088630687706454,
+        -0.01184847047639515
+      ],
+      "quaternion_xyzw": [
+        -0.03447712556811372,
+        -0.000619145293994209,
+        0.5967019170361242,
+        0.8017217514057355
+      ]
+    },
+    {
+      "stamp_ns": 1710754095005439758,
+      "position": [
+        -0.28151921755203274,
+        -0.09693520056352851,
+        -0.011868916937830444
+      ],
+      "quaternion_xyzw": [
+        -0.0346489302072272,
+        -0.0031744299385363713,
+        0.6020454739758109,
+        0.797703342035936
+      ]
+    },
+    {
+      "stamp_ns": 1710754095055438995,
+      "position": [
+        -0.2693180866894967,
+        -0.08925986323674007,
+        -0.02190691793078536
+      ],
+      "quaternion_xyzw": [
+        -0.03747948617515739,
+        -0.008210857445657449,
+        0.6096665426679917,
+        0.79172885300923
+      ]
+    },
+    {
+      "stamp_ns": 1710754095105438232,
+      "position": [
+        -0.26558899186835033,
+        -0.07898187154861593,
+        -0.01904473511491928
+      ],
+      "quaternion_xyzw": [
+        -0.03647318512558928,
+        -0.008283771698550374,
+        0.6156336301276154,
+        0.7871444081927633
+      ]
+    },
+    {
+      "stamp_ns": 1710754095155437231,
+      "position": [
+        -0.25750906675175056,
+        -0.07380336615363503,
+        -0.01611589079399268
+      ],
+      "quaternion_xyzw": [
+        -0.037561165554210026,
+        -0.010532270202945298,
+        0.6255558789033672,
+        0.779203485936772
+      ]
+    },
+    {
+      "stamp_ns": 1710754095205436468,
+      "position": [
+        -0.25326261515228143,
+        -0.0654550487986133,
+        -0.00843855126878743
+      ],
+      "quaternion_xyzw": [
+        -0.04069875987621861,
+        -0.010179596894148478,
+        0.6331725438975501,
+        0.7728728979631229
+      ]
+    },
+    {
+      "stamp_ns": 1710754095255435466,
+      "position": [
+        -0.24788538362069848,
+        -0.05690070254229125,
+        -0.002822084121707484
+      ],
+      "quaternion_xyzw": [
+        -0.03967083587325431,
+        -0.008251393056070757,
+        0.6430187116251391,
+        0.7647777950448728
+      ]
+    },
+    {
+      "stamp_ns": 1710754095305434942,
+      "position": [
+        -0.2375662656588352,
+        -0.05069446024921724,
+        0.002762900572632577
+      ],
+      "quaternion_xyzw": [
+        -0.043524475811846944,
+        -0.002459004096556746,
+        0.6512259145334799,
+        0.7576307686097429
+      ]
+    },
+    {
+      "stamp_ns": 1710754095355433940,
+      "position": [
+        -0.22401990506004352,
+        -0.04386734948111204,
+        0.003550743480489644
+      ],
+      "quaternion_xyzw": [
+        -0.041978622155117065,
+        0.002410832772813891,
+        0.6622311151369549,
+        0.7481189299247577
+      ]
+    },
+    {
+      "stamp_ns": 1710754095405433177,
+      "position": [
+        -0.2098240680705203,
+        -0.03970614869387833,
+        0.007920517698391262
+      ],
+      "quaternion_xyzw": [
+        -0.042621963000104755,
+        0.007580314799739876,
+        0.6697539509135382,
+        0.7413201415942107
+      ]
+    },
+    {
+      "stamp_ns": 1710754095455432415,
+      "position": [
+        -0.19511621085653685,
+        -0.03688760734871867,
+        0.004569121498868618
+      ],
+      "quaternion_xyzw": [
+        -0.04180749026912611,
+        0.01062397131851369,
+        0.6804703777932145,
+        0.7315048393119353
+      ]
+    },
+    {
+      "stamp_ns": 1710754095505431652,
+      "position": [
+        -0.17901645402116295,
+        -0.035910042410486016,
+        0.01210787323866767
+      ],
+      "quaternion_xyzw": [
+        -0.04381848342071859,
+        0.015372422207937683,
+        0.6886389980814405,
+        0.7236158922160009
+      ]
+    },
+    {
+      "stamp_ns": 1710754095555430650,
+      "position": [
+        -0.15317383582187616,
+        -0.03748291524042301,
+        0.008487928592313135
+      ],
+      "quaternion_xyzw": [
+        -0.042135351237816115,
+        0.017371218711570907,
+        0.6988440263327724,
+        0.7138206215818788
+      ]
+    },
+    {
+      "stamp_ns": 1710754095605430126,
+      "position": [
+        -0.1326822894378976,
+        -0.041241214029839796,
+        0.014673414071052177
+      ],
+      "quaternion_xyzw": [
+        -0.042148653357100156,
+        0.01968909670320635,
+        0.7073135429599523,
+        0.7053675513068591
+      ]
+    },
+    {
+      "stamp_ns": 1710754095655429124,
+      "position": [
+        -0.10681499065827917,
+        -0.042911754468411535,
+        0.011648487369609956
+      ],
+      "quaternion_xyzw": [
+        -0.04180008557694047,
+        0.0202324772196268,
+        0.7174742754140186,
+        0.6950352968234396
+      ]
+    },
+    {
+      "stamp_ns": 1710754095705428123,
+      "position": [
+        -0.08573185541938409,
+        -0.04654407060345003,
+        0.011364537186835588
+      ],
+      "quaternion_xyzw": [
+        -0.04261495350587087,
+        0.019804927213306046,
+        0.725189069814255,
+        0.6869443526354254
+      ]
+    },
+    {
+      "stamp_ns": 1710754095755427360,
+      "position": [
+        -0.06242236649714559,
+        -0.055220288295755135,
+        0.008183920252274922
+      ],
+      "quaternion_xyzw": [
+        -0.04450014843101888,
+        0.01654888262690409,
+        0.7328277463744902,
+        0.6787557479808949
+      ]
+    },
+    {
+      "stamp_ns": 1710754095805426359,
+      "position": [
+        -0.03967499205251094,
+        -0.05830089307390816,
+        0.008055162891575757
+      ],
+      "quaternion_xyzw": [
+        -0.0452271665416021,
+        0.014885498003091167,
+        0.7363970789551911,
+        0.6748720378427899
+      ]
+    },
+    {
+      "stamp_ns": 1710754095855425834,
+      "position": [
+        -0.015610797398148994,
+        -0.06817609212675227,
+        0.010407824955197494
+      ],
+      "quaternion_xyzw": [
+        -0.04791434683733413,
+        0.014333984505962936,
+        0.7415817702699135,
+        0.6689956877728555
+      ]
+    },
+    {
+      "stamp_ns": 1710754095905424833,
+      "position": [
+        0.006818228029927292,
+        -0.06934412653400757,
+        0.015770280177035856
+      ],
+      "quaternion_xyzw": [
+        -0.05184802930872451,
+        0.0130091738202604,
+        0.7455249966712352,
+        0.6643305070457555
+      ]
+    },
+    {
+      "stamp_ns": 1710754095955424070,
+      "position": [
+        0.031898807581264274,
+        -0.06899258450745796,
+        0.018584715516140386
+      ],
+      "quaternion_xyzw": [
+        -0.055518023969918014,
+        0.012386527608058188,
+        0.7545085262817587,
+        0.653820469790002
+      ]
+    },
+    {
+      "stamp_ns": 1710754096005423307,
+      "position": [
+        0.05555983732501961,
+        -0.06960586917625869,
+        0.02502658413680839
+      ],
+      "quaternion_xyzw": [
+        -0.056717110766941414,
+        0.016887432254988066,
+        0.7611991626847884,
+        0.6458125259748844
+      ]
+    },
+    {
+      "stamp_ns": 1710754096055422544,
+      "position": [
+        0.08569735486780322,
+        -0.07032185488256334,
+        0.02884358342335878
+      ],
+      "quaternion_xyzw": [
+        -0.05304267804994604,
+        0.02068971728548507,
+        0.7676501308511166,
+        0.6383350895166273
+      ]
+    },
+    {
+      "stamp_ns": 1710754096105421543,
+      "position": [
+        0.1104968018651114,
+        -0.07195209820158718,
+        0.03480852001682643
+      ],
+      "quaternion_xyzw": [
+        -0.04965180819475141,
+        0.023174418087340977,
+        0.7715192386248473,
+        0.6338420218958666
+      ]
+    },
+    {
+      "stamp_ns": 1710754096155420780,
+      "position": [
+        0.13373250445684426,
+        -0.07096181648210138,
+        0.038284542583138736
+      ],
+      "quaternion_xyzw": [
+        -0.0495364533332651,
+        0.022209036558475444,
+        0.7791068690898515,
+        0.6245361358827163
+      ]
+    },
+    {
+      "stamp_ns": 1710754096205419778,
+      "position": [
+        0.1557125482803169,
+        -0.06952711700245885,
+        0.04096169650416206
+      ],
+      "quaternion_xyzw": [
+        -0.049249601882850914,
+        0.023724694062331318,
+        0.7845674693579638,
+        0.6176289352283214
+      ]
+    },
+    {
+      "stamp_ns": 1710754096255419254,
+      "position": [
+        0.18128632346405657,
+        -0.06744387359960985,
+        0.042701174720839376
+      ],
+      "quaternion_xyzw": [
+        -0.048901778295721905,
+        0.024064636267382616,
+        0.7920041637105646,
+        0.6080780492880531
+      ]
+    },
+    {
+      "stamp_ns": 1710754096305418252,
+      "position": [
+        0.20428558714852904,
+        -0.06245628588444866,
+        0.046829747068848515
+      ],
+      "quaternion_xyzw": [
+        -0.04653961789105245,
+        0.027061020378503158,
+        0.7980971012188194,
+        0.600118973345075
+      ]
+    },
+    {
+      "stamp_ns": 1710754096355417251,
+      "position": [
+        0.23387746842065296,
+        -0.054169043366366645,
+        0.04653631050088411
+      ],
+      "quaternion_xyzw": [
+        -0.0465076587119624,
+        0.029023082546969493,
+        0.8058697427042407,
+        0.5895495366416671
+      ]
+    },
+    {
+      "stamp_ns": 1710754096405416727,
+      "position": [
+        0.255286110025098,
+        -0.0430655300692174,
+        0.04697531134454567
+      ],
+      "quaternion_xyzw": [
+        -0.047199756515618516,
+        0.030758591917073665,
+        0.8116174355821953,
+        0.5814664481009427
+      ]
+    },
+    {
+      "stamp_ns": 1710754096455415725,
+      "position": [
+        0.2795712016229036,
+        -0.03360834236333315,
+        0.05181253041105428
+      ],
+      "quaternion_xyzw": [
+        -0.05157070079418433,
+        0.03036753697370603,
+        0.8190207365050086,
+        0.5706341285732394
+      ]
+    },
+    {
+      "stamp_ns": 1710754096505414962,
+      "position": [
+        0.3034804163129699,
+        -0.017159363233270993,
+        0.053371993405465896
+      ],
+      "quaternion_xyzw": [
+        -0.053941326703436966,
+        0.03135039233417622,
+        0.8247356237673246,
+        0.5620663991585767
+      ]
+    },
+    {
+      "stamp_ns": 1710754096555414199,
+      "position": [
+        0.32935589111168306,
+        0.002032469232054449,
+        0.056435185967262574
+      ],
+      "quaternion_xyzw": [
+        -0.05605270516723967,
+        0.030935386955026206,
+        0.8314420128625145,
+        0.5519105682304948
+      ]
+    },
+    {
+      "stamp_ns": 1710754096605413436,
+      "position": [
+        0.35317759339297033,
+        0.024673613567710747,
+        0.06184450560059819
+      ],
+      "quaternion_xyzw": [
+        -0.05749282676342562,
+        0.030437011032328334,
+        0.8366671956526216,
+        0.5438346871512945
+      ]
+    },
+    {
+      "stamp_ns": 1710754096655412435,
+      "position": [
+        0.37747777629630624,
+        0.04782709879762463,
+        0.0607631834423235
+      ],
+      "quaternion_xyzw": [
+        -0.05802801340023822,
+        0.029763263048419603,
+        0.843444348095944,
+        0.53324340548997
+      ]
+    },
+    {
+      "stamp_ns": 1710754096705411672,
+      "position": [
+        0.39621782360462376,
+        0.0698072080676607,
+        0.06668403475916691
+      ],
+      "quaternion_xyzw": [
+        -0.05891664583445076,
+        0.025893810403103592,
+        0.8468149308827865,
+        0.5279799354714225
+      ]
+    },
+    {
+      "stamp_ns": 1710754096755410671,
+      "position": [
+        0.4187627145354175,
+        0.08830797039752002,
+        0.07148989526267004
+      ],
+      "quaternion_xyzw": [
+        -0.06026363658447392,
+        0.01789791596932705,
+        0.8492884125809098,
+        0.5241728254739727
+      ]
+    },
+    {
+      "stamp_ns": 1710754096805410146,
+      "position": [
+        0.43632740612707677,
+        0.10941745292548254,
+        0.08082444779486993
+      ],
+      "quaternion_xyzw": [
+        -0.06029063853345298,
+        0.012367727596364838,
+        0.8487426238204255,
+        0.5252123729785412
+      ]
+    },
+    {
+      "stamp_ns": 1710754096855409145,
+      "position": [
+        0.4627471986310222,
+        0.13208988192602278,
+        0.08713743437625915
+      ],
+      "quaternion_xyzw": [
+        -0.05902807209927368,
+        0.01651456733524894,
+        0.8513652970985363,
+        0.5209799292355642
+      ]
+    },
+    {
+      "stamp_ns": 1710754096905408143,
+      "position": [
+        0.4870592040407217,
+        0.1589185761265787,
+        0.09261841426058796
+      ],
+      "quaternion_xyzw": [
+        -0.05764555774217301,
+        0.02363277145743384,
+        0.8541688894364828,
+        0.5162499298834627
+      ]
+    },
+    {
+      "stamp_ns": 1710754096955407619,
+      "position": [
+        0.5174180638799222,
+        0.1841321116689875,
+        0.09337015784384674
+      ],
+      "quaternion_xyzw": [
+        -0.05879749541192611,
+        0.026237409293498888,
+        0.8595512498672034,
+        0.5069774173852107
+      ]
+    },
+    {
+      "stamp_ns": 1710754097005406618,
+      "position": [
+        0.539566804060513,
+        0.20308151481805445,
+        0.09554931542127494
+      ],
+      "quaternion_xyzw": [
+        -0.05948847118008049,
+        0.027639143272101686,
+        0.8642687951158036,
+        0.4987350492445042
+      ]
+    },
+    {
+      "stamp_ns": 1710754097055405855,
+      "position": [
+        0.5670298864957934,
+        0.22412399916834433,
+        0.09507012967894388
+      ],
+      "quaternion_xyzw": [
+        -0.06170433909015698,
+        0.025472476596030726,
+        0.8696339346880813,
+        0.4891631089038067
+      ]
+    },
+    {
+      "stamp_ns": 1710754097105405092,
+      "position": [
+        0.5889722455831123,
+        0.24410103504377367,
+        0.09457440428783218
+      ],
+      "quaternion_xyzw": [
+        -0.05987040906479553,
+        0.026044686418508333,
+        0.872523120648873,
+        0.4841906776889942
+      ]
+    },
+    {
+      "stamp_ns": 1710754097155404329,
+      "position": [
+        0.6220762282051193,
+        0.26608821802326765,
+        0.0935468588778184
+      ],
+      "quaternion_xyzw": [
+        -0.061203520457971075,
+        0.02455740081721839,
+        0.8766893721601458,
+        0.47651527561044943
+      ]
+    },
+    {
+      "stamp_ns": 1710754097205403327,
+      "position": [
+        0.6499904713835923,
+        0.28647216875941717,
+        0.09233498948801104
+      ],
+      "quaternion_xyzw": [
+        -0.06019439528070355,
+        0.02466954059740605,
+        0.8797543677357138,
+        0.47095679312802996
+      ]
+    },
+    {
+      "stamp_ns": 1710754097255402565,
+      "position": [
+        0.6873698531195951,
+        0.30900731803977854,
+        0.08857547299024052
+      ],
+      "quaternion_xyzw": [
+        -0.06102048566014389,
+        0.022926145001954463,
+        0.8825681608170951,
+        0.4656439989059022
+      ]
+    },
+    {
+      "stamp_ns": 1710754097305401563,
+      "position": [
+        0.7226112244139261,
+        0.3331109112708697,
+        0.08573412776222909
+      ],
+      "quaternion_xyzw": [
+        -0.060499274300921294,
+        0.022121166051516403,
+        0.883634998858253,
+        0.46372371150757274
+      ]
+    },
+    {
+      "stamp_ns": 1710754097355401039,
+      "position": [
+        0.7639418221889793,
+        0.35937366221753503,
+        0.08720913549510871
+      ],
+      "quaternion_xyzw": [
+        -0.06116570096803127,
+        0.020600054084810075,
+        0.885058966120037,
+        0.4609826691832607
+      ]
+    },
+    {
+      "stamp_ns": 1710754097405400037,
+      "position": [
+        0.8034684854345823,
+        0.3886499087817105,
+        0.09415606213593258
+      ],
+      "quaternion_xyzw": [
+        -0.06121793827558233,
+        0.02078629586042114,
+        0.8847545768013368,
+        0.4615513327537658
+      ]
+    },
+    {
+      "stamp_ns": 1710754097455399274,
+      "position": [
+        0.8511111356396657,
+        0.4184106163668366,
+        0.10139044954678883
+      ],
+      "quaternion_xyzw": [
+        -0.06408284891085601,
+        0.024747795946516077,
+        0.8896214453415713,
+        0.45150262353571313
+      ]
+    },
+    {
+      "stamp_ns": 1710754097505398511,
+      "position": [
+        0.8901632146533875,
+        0.4476440937178045,
+        0.105066935080695
+      ],
+      "quaternion_xyzw": [
+        -0.06748676015162267,
+        0.03177237307805421,
+        0.8969443059571723,
+        0.43580611001250624
+      ]
+    },
+    {
+      "stamp_ns": 1710754097555397748,
+      "position": [
+        0.9366053536135985,
+        0.47280454498152835,
+        0.10740012326536319
+      ],
+      "quaternion_xyzw": [
+        -0.06509986979970037,
+        0.03665073861032489,
+        0.9006527531522175,
+        0.42806932680432813
+      ]
+    },
+    {
+      "stamp_ns": 1710754097605396747,
+      "position": [
+        0.9792219513154828,
+        0.4954328134812574,
+        0.1098753038096598
+      ],
+      "quaternion_xyzw": [
+        -0.05791595616413971,
+        0.03868945026304228,
+        0.9028388945239432,
+        0.4243003641227772
+      ]
+    },
+    {
+      "stamp_ns": 1710754097655395984,
+      "position": [
+        1.0231400280816638,
+        0.5177154836374845,
+        0.10784946860354917
+      ],
+      "quaternion_xyzw": [
+        -0.045893151537992866,
+        0.039903629595171505,
+        0.9061905334340528,
+        0.41847369821955227
+      ]
+    },
+    {
+      "stamp_ns": 1710754097705395221,
+      "position": [
+        1.0605698112244502,
+        0.5394880686508436,
+        0.11149440338878806
+      ],
+      "quaternion_xyzw": [
+        -0.03797181526107553,
+        0.0371307703050249,
+        0.9047732078668003,
+        0.42256939012279854
+      ]
+    },
+    {
+      "stamp_ns": 1710754097755394220,
+      "position": [
+        1.0970737561949366,
+        0.5671122186451885,
+        0.11408612516044457
+      ],
+      "quaternion_xyzw": [
+        -0.03429336321273314,
+        0.038862881066952716,
+        0.9046185070821745,
+        0.42305909558731053
+      ]
+    },
+    {
+      "stamp_ns": 1710754097805393457,
+      "position": [
+        1.1281247897766347,
+        0.5984122056579974,
+        0.12070837827589666
+      ],
+      "quaternion_xyzw": [
+        -0.03120692755198135,
+        0.043313035987739126,
+        0.9029669738506533,
+        0.426380994793722
+      ]
+    },
+    {
+      "stamp_ns": 1710754097855392456,
+      "position": [
+        1.162404523193213,
+        0.6299293466116503,
+        0.1288981938210023
+      ],
+      "quaternion_xyzw": [
+        -0.029353829338370073,
+        0.047896131960552105,
+        0.9014335177121626,
+        0.4292574127391015
+      ]
+    },
+    {
+      "stamp_ns": 1710754097905391931,
+      "position": [
+        1.1917721239176338,
+        0.6648158655826684,
+        0.13964562008743617
+      ],
+      "quaternion_xyzw": [
+        -0.02794410156602587,
+        0.04966120279668339,
+        0.8981438062810605,
+        0.43599380197821974
+      ]
+    },
+    {
+      "stamp_ns": 1710754097955390930,
+      "position": [
+        1.2254235567340594,
+        0.7005098618472003,
+        0.14856737091938407
+      ],
+      "quaternion_xyzw": [
+        -0.02851628334155264,
+        0.05202808046793256,
+        0.8953583567407469,
+        0.44137661179735843
+      ]
+    },
+    {
+      "stamp_ns": 1710754098005390167,
+      "position": [
+        1.2560108606626061,
+        0.7382996245694601,
+        0.15562928548290997
+      ],
+      "quaternion_xyzw": [
+        -0.02865348767313393,
+        0.052954012040037635,
+        0.8909520987794683,
+        0.45008800021050294
+      ]
+    },
+    {
+      "stamp_ns": 1710754098055389404,
+      "position": [
+        1.2860400378699453,
+        0.7748804316365308,
+        0.16023606084638356
+      ],
+      "quaternion_xyzw": [
+        -0.03243360090477322,
+        0.05110540095597601,
+        0.8883809821691175,
+        0.45509947269329243
+      ]
+    },
+    {
+      "stamp_ns": 1710754098105388641,
+      "position": [
+        1.3119323678298378,
+        0.8130918088593565,
+        0.16835560360168228
+      ],
+      "quaternion_xyzw": [
+        -0.03802706051349012,
+        0.050288625768708115,
+        0.8855675232082225,
+        0.46021208005206954
+      ]
+    },
+    {
+      "stamp_ns": 1710754098155387639,
+      "position": [
+        1.3428326751947852,
+        0.8463781186289265,
+        0.1713914201534978
+      ],
+      "quaternion_xyzw": [
+        -0.04008251921896101,
+        0.05188245075781172,
+        0.8805524893595063,
+        0.4693920711294571
+      ]
+    },
+    {
+      "stamp_ns": 1710754098205387115,
+      "position": [
+        1.3711659990242833,
+        0.8829443487214188,
+        0.18160330702296268
+      ],
+      "quaternion_xyzw": [
+        -0.04058406584940907,
+        0.05444361981177556,
+        0.8743108383832993,
+        0.48059274208670083
+      ]
+    },
+    {
+      "stamp_ns": 1710754098255386114,
+      "position": [
+        1.402828634825094,
+        0.9159147000813977,
+        0.19391743531717734
+      ],
+      "quaternion_xyzw": [
+        -0.04141896390678926,
+        0.06007584636282985,
+        0.8683507893091932,
+        0.49055302345289753
+      ]
+    },
+    {
+      "stamp_ns": 1710754098305385112,
+      "position": [
+        1.4335434558518254,
+        0.9481445816482723,
+        0.2085322812279417
+      ],
+      "quaternion_xyzw": [
+        -0.04021915877390948,
+        0.06561676765817487,
+        0.8589220360221592,
+        0.5062902281351682
+      ]
+    },
+    {
+      "stamp_ns": 1710754098355384349,
+      "position": [
+        1.466696835311208,
+        0.9755548900326785,
+        0.21801494193560886
+      ],
+      "quaternion_xyzw": [
+        -0.03911905670270992,
+        0.06767378651683453,
+        0.8490701670841109,
+        0.5224651274381134
+      ]
+    },
+    {
+      "stamp_ns": 1710754098405383348,
+      "position": [
+        1.496923186252111,
+        1.0043296355439173,
+        0.22374580402591443
+      ],
+      "quaternion_xyzw": [
+        -0.03931253813295306,
+        0.06980238778849149,
+        0.8379175194619259,
+        0.5398855263695659
+      ]
+    },
+    {
+      "stamp_ns": 1710754098455382823,
+      "position": [
+        1.5288804361581962,
+        1.027956105106401,
+        0.2259427981753344
+      ],
+      "quaternion_xyzw": [
+        -0.04174873229644618,
+        0.0704025642194568,
+        0.8290053773423045,
+        0.5532184077202316
+      ]
+    },
+    {
+      "stamp_ns": 1710754098505381822,
+      "position": [
+        1.560726292072742,
+        1.0528334934410457,
+        0.22518338290986817
+      ],
+      "quaternion_xyzw": [
+        -0.04256566042091471,
+        0.06995905710674352,
+        0.8200117000487833,
+        0.5664580361022085
+      ]
+    },
+    {
+      "stamp_ns": 1710754098555381059,
+      "position": [
+        1.595375728582061,
+        1.0677204175799493,
+        0.22339930190736876
+      ],
+      "quaternion_xyzw": [
+        -0.046058544213830446,
+        0.06699908802695087,
+        0.8141106565030417,
+        0.5749900622416408
+      ]
+    },
+    {
+      "stamp_ns": 1710754098605380296,
+      "position": [
+        1.6331602044030604,
+        1.0815968661005768,
+        0.21948890399652055
+      ],
+      "quaternion_xyzw": [
+        -0.04576734275902148,
+        0.06412343069998895,
+        0.8094840924326937,
+        0.5818324845438422
+      ]
+    },
+    {
+      "stamp_ns": 1710754098655379533,
+      "position": [
+        1.6702064319675083,
+        1.0915713140486047,
+        0.21550832048710522
+      ],
+      "quaternion_xyzw": [
+        -0.04804828640108942,
+        0.058846175342638155,
+        0.8071773238700545,
+        0.5854000834057336
+      ]
+    },
+    {
+      "stamp_ns": 1710754098705378532,
+      "position": [
+        1.709049051001275,
+        1.1005414996744445,
+        0.2163015064884887
+      ],
+      "quaternion_xyzw": [
+        -0.047286139819736776,
+        0.05183092322185493,
+        0.8011204057652211,
+        0.5943767087003712
+      ]
+    },
+    {
+      "stamp_ns": 1710754098755377769,
+      "position": [
+        1.748735581381122,
+        1.1070952995039023,
+        0.2164851210939866
+      ],
+      "quaternion_xyzw": [
+        -0.04935455815571258,
+        0.04336108443426394,
+        0.7986100396812998,
+        0.5982524120019675
+      ]
+    },
+    {
+      "stamp_ns": 1710754098805376768,
+      "position": [
+        1.7895179201981166,
+        1.1157456719397707,
+        0.2238257968689664
+      ],
+      "quaternion_xyzw": [
+        -0.051585984717712516,
+        0.03346961609124058,
+        0.7939061252007935,
+        0.6049229168646788
+      ]
+    },
+    {
+      "stamp_ns": 1710754098855376243,
+      "position": [
+        1.8299008914029669,
+        1.1270166362455056,
+        0.23409988227225284
+      ],
+      "quaternion_xyzw": [
+        -0.05810523623877694,
+        0.026381967361626922,
+        0.7937211643527091,
+        0.6049251908941679
+      ]
+    },
+    {
+      "stamp_ns": 1710754098905375242,
+      "position": [
+        1.87148268245183,
+        1.1391142808152321,
+        0.24407181655088211
+      ],
+      "quaternion_xyzw": [
+        -0.061945715532978146,
+        0.023313954348223816,
+        0.7957326518174052,
+        0.6020205434130937
+      ]
+    },
+    {
+      "stamp_ns": 1710754098955374479,
+      "position": [
+        1.9151698652659015,
+        1.148916415816173,
+        0.2558096351659205
+      ],
+      "quaternion_xyzw": [
+        -0.0632591111772084,
+        0.024311064836064916,
+        0.8005593373631102,
+        0.595409106699204
+      ]
+    },
+    {
+      "stamp_ns": 1710754099005373716,
+      "position": [
+        1.9598316067565165,
+        1.161257852012328,
+        0.26830817992409645
+      ],
+      "quaternion_xyzw": [
+        -0.0590867499168777,
+        0.025107446416839672,
+        0.8025031028007458,
+        0.5931839024399276
+      ]
+    },
+    {
+      "stamp_ns": 1710754099055372714,
+      "position": [
+        2.005509799498219,
+        1.1741963065695549,
+        0.2770062755601212
+      ],
+      "quaternion_xyzw": [
+        -0.05742886279680738,
+        0.024363133650258093,
+        0.8056085522471921,
+        0.5891546689815744
+      ]
+    },
+    {
+      "stamp_ns": 1710754099105371952,
+      "position": [
+        2.0507505168376743,
+        1.18951360378109,
+        0.28307276540043635
+      ],
+      "quaternion_xyzw": [
+        -0.05532149500343025,
+        0.02518123451858728,
+        0.8065624171455938,
+        0.5880157352205486
+      ]
+    },
+    {
+      "stamp_ns": 1710754099155371189,
+      "position": [
+        2.0991610103230927,
+        1.2095873434130362,
+        0.28579742552841136
+      ],
+      "quaternion_xyzw": [
+        -0.05599545206180209,
+        0.026424388895911942,
+        0.8097786157566572,
+        0.5834593854614938
+      ]
+    },
+    {
+      "stamp_ns": 1710754099205370426,
+      "position": [
+        2.146764777055363,
+        1.2314091593962933,
+        0.28626771412518587
+      ],
+      "quaternion_xyzw": [
+        -0.055143136248274056,
+        0.02855491625528863,
+        0.8100019547491507,
+        0.5831300751846988
+      ]
+    },
+    {
+      "stamp_ns": 1710754099255369424,
+      "position": [
+        2.195790997277911,
+        1.2563313850070876,
+        0.2835846151256825
+      ],
+      "quaternion_xyzw": [
+        -0.05581297862128407,
+        0.02903098555451781,
+        0.8105677051255648,
+        0.5822560508080862
+      ]
+    },
+    {
+      "stamp_ns": 1710754099305368661,
+      "position": [
+        2.2428056760095894,
+        1.2838167457251979,
+        0.2814989511541328
+      ],
+      "quaternion_xyzw": [
+        -0.05518256236791716,
+        0.02979737888103866,
+        0.8097860153539371,
+        0.5833640461663061
+      ]
+    },
+    {
+      "stamp_ns": 1710754099355367660,
+      "position": [
+        2.286350347942182,
+        1.311795294081941,
+        0.2806351408501122
+      ],
+      "quaternion_xyzw": [
+        -0.05961472403947168,
+        0.025940129833427177,
+        0.8100692802281632,
+        0.5827185903783648
+      ]
+    },
+    {
+      "stamp_ns": 1710754099405367136,
+      "position": [
+        2.324259621343536,
+        1.3407269520393477,
+        0.2833556321176221
+      ],
+      "quaternion_xyzw": [
+        -0.0638972045479869,
+        0.01635990401629526,
+        0.8075747718399795,
+        0.5860652597442843
+      ]
+    },
+    {
+      "stamp_ns": 1710754099455366134,
+      "position": [
+        2.36017654059624,
+        1.3680140548622246,
+        0.2944912349262922
+      ],
+      "quaternion_xyzw": [
+        -0.07091370334920258,
+        0.006587218963662409,
+        0.8061022242745243,
+        0.5874751562775151
+      ]
+    },
+    {
+      "stamp_ns": 1710754099505365610,
+      "position": [
+        2.4031913768427504,
+        1.394411077114516,
+        0.31143526393701054
+      ],
+      "quaternion_xyzw": [
+        -0.07041481111979885,
+        0.0025769401549640414,
+        0.7972130035571231,
+        0.5995719645829273
+      ]
+    },
+    {
+      "stamp_ns": 1710754099555364608,
+      "position": [
+        2.4552163181546813,
+        1.4227629104411794,
+        0.32793642203760903
+      ],
+      "quaternion_xyzw": [
+        -0.06514371795880347,
+        0.008558192388223938,
+        0.7932424694939801,
+        0.6053506735311708
+      ]
+    },
+    {
+      "stamp_ns": 1710754099605363607,
+      "position": [
+        2.5073989941696397,
+        1.45150285691635,
+        0.3408060136033108
+      ],
+      "quaternion_xyzw": [
+        -0.058943518989526045,
+        0.017696708983461804,
+        0.7884651607988948,
+        0.6119927926590795
+      ]
+    },
+    {
+      "stamp_ns": 1710754099655362844,
+      "position": [
+        2.5592995671888605,
+        1.4766330856385717,
+        0.3465578201193892
+      ],
+      "quaternion_xyzw": [
+        -0.05701458335025026,
+        0.024197887701261897,
+        0.7868328388189647,
+        0.6140503914763704
+      ]
+    },
+    {
+      "stamp_ns": 1710754099705362081,
+      "position": [
+        2.6087406326699814,
+        1.499232162963055,
+        0.351323030572076
+      ],
+      "quaternion_xyzw": [
+        -0.054818330316495904,
+        0.026814988693875805,
+        0.7843434244014185,
+        0.617317827088215
+      ]
+    },
+    {
+      "stamp_ns": 1710754099755361318,
+      "position": [
+        2.6586380177808113,
+        1.516351441585739,
+        0.3536183051666231
+      ],
+      "quaternion_xyzw": [
+        -0.05398445397665159,
+        0.025916667487704707,
+        0.7843594398136163,
+        0.617409324719383
+      ]
+    },
+    {
+      "stamp_ns": 1710754099805360317,
+      "position": [
+        2.7100076928618098,
+        1.5326512353658654,
+        0.35420438733348075
+      ],
+      "quaternion_xyzw": [
+        -0.05144222912820119,
+        0.02640273870216887,
+        0.783328610809612,
+        0.6189126593780662
+      ]
+    },
+    {
+      "stamp_ns": 1710754099855359554,
+      "position": [
+        2.763144274965074,
+        1.5444628418629118,
+        0.35306253515122443
+      ],
+      "quaternion_xyzw": [
+        -0.05097851638970856,
+        0.02547046488820045,
+        0.7856195865939656,
+        0.6160797930828519
+      ]
+    },
+    {
+      "stamp_ns": 1710754099905358552,
+      "position": [
+        2.817829200645446,
+        1.5548513419476961,
+        0.3514445704705477
+      ],
+      "quaternion_xyzw": [
+        -0.050592386223932674,
+        0.023116420404893513,
+        0.7840697407597954,
+        0.6181752851648957
+      ]
+    },
+    {
+      "stamp_ns": 1710754099955358028,
+      "position": [
+        2.867803654650891,
+        1.5622269987677324,
+        0.3515882371974581
+      ],
+      "quaternion_xyzw": [
+        -0.05396540159621319,
+        0.017775093022133516,
+        0.7868641633704089,
+        0.6145051422909334
+      ]
+    },
+    {
+      "stamp_ns": 1710754100005357027,
+      "position": [
+        2.92017802845003,
+        1.5730657436124658,
+        0.35798923347827305
+      ],
+      "quaternion_xyzw": [
+        -0.056760378825604925,
+        0.012889237705715983,
+        0.7862522212068421,
+        0.6151581679488994
+      ]
+    },
+    {
+      "stamp_ns": 1710754100055356502,
+      "position": [
+        2.9711374938997954,
+        1.582367501731404,
+        0.3700030930150872
+      ],
+      "quaternion_xyzw": [
+        -0.060606714255299246,
+        0.007812098960327883,
+        0.7890740093440538,
+        0.6112511800190742
+      ]
+    },
+    {
+      "stamp_ns": 1710754100105355501,
+      "position": [
+        3.023414681352248,
+        1.593927946355035,
+        0.38370095477841004
+      ],
+      "quaternion_xyzw": [
+        -0.06284571984868832,
+        0.010359868991640927,
+        0.7936326710730756,
+        0.6050539414106744
+      ]
+    },
+    {
+      "stamp_ns": 1710754100155354738,
+      "position": [
+        3.0774506262659527,
+        1.6046998069905887,
+        0.4007715475878795
+      ],
+      "quaternion_xyzw": [
+        -0.0618637449008928,
+        0.015972272863148944,
+        0.7986702268189462,
+        0.5983674726782826
+      ]
+    },
+    {
+      "stamp_ns": 1710754100205353736,
+      "position": [
+        3.1335503182449664,
+        1.6202430030362234,
+        0.417652913034601
+      ],
+      "quaternion_xyzw": [
+        -0.05784108099259638,
+        0.020309440086980005,
+        0.7986755076503116,
+        0.5986312466556338
+      ]
+    },
+    {
+      "stamp_ns": 1710754100255352973,
+      "position": [
+        3.1880225579175145,
+        1.6343574118893465,
+        0.4302293564886453
+      ],
+      "quaternion_xyzw": [
+        -0.05751118715733649,
+        0.021932726687069325,
+        0.7984933553027445,
+        0.5988487124384497
+      ]
+    },
+    {
+      "stamp_ns": 1710754100305352210,
+      "position": [
+        3.245539261422025,
+        1.653972616325598,
+        0.4348825114012355
+      ],
+      "quaternion_xyzw": [
+        -0.05597689253389453,
+        0.02328548048131468,
+        0.7946066276912609,
+        0.6040899611234447
+      ]
+    },
+    {
+      "stamp_ns": 1710754100355351209,
+      "position": [
+        3.3018358626348854,
+        1.6724250349197736,
+        0.43694586595006113
+      ],
+      "quaternion_xyzw": [
+        -0.05544642291586227,
+        0.026333852383295872,
+        0.7918628797118094,
+        0.6076062887586093
+      ]
+    },
+    {
+      "stamp_ns": 1710754100405350446,
+      "position": [
+        3.3628802765066834,
+        1.6964947750264887,
+        0.43691613148070374
+      ],
+      "quaternion_xyzw": [
+        -0.05292234215761569,
+        0.031009121135338817,
+        0.7876681545790527,
+        0.613038773952346
+      ]
+    },
+    {
+      "stamp_ns": 1710754100455349683,
+      "position": [
+        3.4222385450700896,
+        1.7190634270884144,
+        0.43606449513661527
+      ],
+      "quaternion_xyzw": [
+        -0.05358619633846358,
+        0.03599561751237894,
+        0.7873023040095658,
+        0.613178536140256
+      ]
+    },
+    {
+      "stamp_ns": 1710754100505348920,
+      "position": [
+        3.479786130080743,
+        1.7435902397602767,
+        0.43632873718741205
+      ],
+      "quaternion_xyzw": [
+        -0.05409805627498151,
+        0.0382186369421925,
+        0.7864587738572968,
+        0.6140808848355623
+      ]
+    },
+    {
+      "stamp_ns": 1710754100555347919,
+      "position": [
+        3.5319942625226615,
+        1.7664706806715942,
+        0.4403777720324041
+      ],
+      "quaternion_xyzw": [
+        -0.05746584003363949,
+        0.0349881303905587,
+        0.7873818166144408,
+        0.6127833082142042
+      ]
+    },
+    {
+      "stamp_ns": 1710754100605347156,
+      "position": [
+        3.5815281874937313,
+        1.7887238750282586,
+        0.44788963319863906
+      ],
+      "quaternion_xyzw": [
+        -0.06154365783624105,
+        0.028993317510300633,
+        0.7860948739802769,
+        0.6143505634585316
+      ]
+    },
+    {
+      "stamp_ns": 1710754100655346393,
+      "position": [
+        3.628026974435901,
+        1.8091960512215428,
+        0.45970364173956757
+      ],
+      "quaternion_xyzw": [
+        -0.06570923499797804,
+        0.021444677433721828,
+        0.7843564749248424,
+        0.6164473558133079
+      ]
+    },
+    {
+      "stamp_ns": 1710754100705345630,
+      "position": [
+        3.677327742516588,
+        1.8268806295585218,
+        0.47543546522391406
+      ],
+      "quaternion_xyzw": [
+        -0.06272610222390736,
+        0.01916289111808351,
+        0.7797828094019902,
+        0.6226050030837625
+      ]
+    },
+    {
+      "stamp_ns": 1710754100755344629,
+      "position": [
+        3.729359313017813,
+        1.842250119130485,
+        0.4928877500869735
+      ],
+      "quaternion_xyzw": [
+        -0.05965868273406275,
+        0.0200196312092694,
+        0.7796986543288492,
+        0.622984802686601
+      ]
+    },
+    {
+      "stamp_ns": 1710754100805344104,
+      "position": [
+        3.781508121278362,
+        1.85713854190137,
+        0.503300007833638
+      ],
+      "quaternion_xyzw": [
+        -0.05678527858561552,
+        0.020758490684413197,
+        0.7791012277747228,
+        0.6239757960693496
+      ]
+    },
+    {
+      "stamp_ns": 1710754100855343103,
+      "position": [
+        3.8321869481074904,
+        1.8698100629370071,
+        0.5094424826393564
+      ],
+      "quaternion_xyzw": [
+        -0.058137325085592585,
+        0.01883415839447116,
+        0.7826188856713876,
+        0.6194941530797038
+      ]
+    },
+    {
+      "stamp_ns": 1710754100905342102,
+      "position": [
+        3.8830941223720647,
+        1.8830234647554949,
+        0.5106086006784374
+      ],
+      "quaternion_xyzw": [
+        -0.058209711622792495,
+        0.01829290188873995,
+        0.7853778433989347,
+        0.6160021447294795
+      ]
+    },
+    {
+      "stamp_ns": 1710754100955341339,
+      "position": [
+        3.937993810993013,
+        1.8943196604514665,
+        0.5104675386491182
+      ],
+      "quaternion_xyzw": [
+        -0.059405368807635826,
+        0.016993737559083403,
+        0.7886640020424351,
+        0.6117117841949848
+      ]
+    },
+    {
+      "stamp_ns": 1710754101005340576,
+      "position": [
+        3.9964906294047116,
+        1.9047957734886833,
+        0.5069966354425539
+      ],
+      "quaternion_xyzw": [
+        -0.05779795609807063,
+        0.015170641909174547,
+        0.7873344929681608,
+        0.61362337315125
+      ]
+    },
+    {
+      "stamp_ns": 1710754101055339813,
+      "position": [
+        4.056893956198837,
+        1.9148387931928759,
+        0.5057589086617512
+      ],
+      "quaternion_xyzw": [
+        -0.058396931235305524,
+        0.010679229191407642,
+        0.7842936758535022,
+        0.61754285883846
+      ]
+    },
+    {
+      "stamp_ns": 1710754101105338811,
+      "position": [
+        4.1145938962057205,
+        1.9250247273999177,
+        0.5065010564776827
+      ],
+      "quaternion_xyzw": [
+        -0.06127268638681971,
+        0.004203772221348809,
+        0.7783189066332261,
+        0.6248581165187126
+      ]
+    },
+    {
+      "stamp_ns": 1710754101155338048,
+      "position": [
+        4.1694710442053085,
+        1.9341338153469187,
+        0.51470847066937
+      ],
+      "quaternion_xyzw": [
+        -0.06801078873074777,
+        -0.003656974106251251,
+        0.7743777185433243,
+        0.629047143050697
+      ]
+    },
+    {
+      "stamp_ns": 1710754101205337285,
+      "position": [
+        4.222691329618263,
+        1.9447731203337686,
+        0.5255107739723942
+      ],
+      "quaternion_xyzw": [
+        -0.07362134234955268,
+        -0.00729907203004234,
+        0.7736912744444799,
+        0.629228442893856
+      ]
+    },
+    {
+      "stamp_ns": 1710754101255336523,
+      "position": [
+        4.280649563376177,
+        1.956963834062791,
+        0.5431742268088838
+      ],
+      "quaternion_xyzw": [
+        -0.07662012776987681,
+        -0.0033617299027223907,
+        0.7788439546252809,
+        0.6225111638647474
+      ]
+    },
+    {
+      "stamp_ns": 1710754101305335521,
+      "position": [
+        4.340762734010069,
+        1.9681323551275656,
+        0.5631499548253579
+      ],
+      "quaternion_xyzw": [
+        -0.07306677077365369,
+        0.002143186670804806,
+        0.780647833518122,
+        0.620681571969933
+      ]
+    },
+    {
+      "stamp_ns": 1710754101355334758,
+      "position": [
+        4.401296571540012,
+        1.977341186338031,
+        0.5800240775243486
+      ],
+      "quaternion_xyzw": [
+        -0.07073024478335115,
+        0.0047767734284398095,
+        0.7839823184858843,
+        0.616722092364136
+      ]
+    },
+    {
+      "stamp_ns": 1710754101405333995,
+      "position": [
+        4.463053047991924,
+        1.9884737298171475,
+        0.5894434102692154
+      ],
+      "quaternion_xyzw": [
+        -0.06760467658205532,
+        0.0074359993932947566,
+        0.7843833303145566,
+        0.6165363774684377
+      ]
+    },
+    {
+      "stamp_ns": 1710754101455333232,
+      "position": [
+        4.522265340027005,
+        1.9986036062632337,
+        0.5947739883152815
+      ],
+      "quaternion_xyzw": [
+        -0.0655989253398365,
+        0.010344340217585422,
+        0.7856665317888513,
+        0.6150755046712552
+      ]
+    },
+    {
+      "stamp_ns": 1710754101505332231,
+      "position": [
+        4.58585945088484,
+        2.012390309403534,
+        0.5955761551782922
+      ],
+      "quaternion_xyzw": [
+        -0.06243560067545155,
+        0.01253201450580295,
+        0.7839236954159664,
+        0.6175826941763322
+      ]
+    },
+    {
+      "stamp_ns": 1710754101555331468,
+      "position": [
+        4.650861153517429,
+        2.0282860622429,
+        0.5953823128318184
+      ],
+      "quaternion_xyzw": [
+        -0.06106867337858972,
+        0.01578593858133163,
+        0.7850007982665616,
+        0.6162752372079756
+      ]
+    },
+    {
+      "stamp_ns": 1710754101605330705,
+      "position": [
+        4.715760064984442,
+        2.0457834431673105,
+        0.5937753314548406
+      ],
+      "quaternion_xyzw": [
+        -0.059675459922288114,
+        0.01888350270194819,
+        0.7844717556508152,
+        0.6169978260860377
+      ]
+    },
+    {
+      "stamp_ns": 1710754101655329704,
+      "position": [
+        4.780091494485697,
+        2.065448723160514,
+        0.594612882813841
+      ],
+      "quaternion_xyzw": [
+        -0.061518270815627434,
+        0.017966568872965025,
+        0.7845744493396912,
+        0.6167135787398459
+      ]
+    },
+    {
+      "stamp_ns": 1710754101705328941,
+      "position": [
+        4.842697099339366,
+        2.0849904630772897,
+        0.6003673820282104
+      ],
+      "quaternion_xyzw": [
+        -0.06384652205866799,
+        0.01475727795742278,
+        0.781388418225032,
+        0.6205948632014947
+      ]
+    },
+    {
+      "stamp_ns": 1710754101755328178,
+      "position": [
+        4.903589876110834,
+        2.106156925582331,
+        0.6133331028619599
+      ],
+      "quaternion_xyzw": [
+        -0.06635749412401397,
+        0.013775617846625683,
+        0.7770079480618853,
+        0.6258318975373368
+      ]
+    },
+    {
+      "stamp_ns": 1710754101805327415,
+      "position": [
+        4.9683916824787016,
+        2.1238494512928896,
+        0.632553770622209
+      ],
+      "quaternion_xyzw": [
+        -0.060614343724466,
+        0.016014193706791816,
+        0.7671443736624479,
+        0.6384034436724353
+      ]
+    },
+    {
+      "stamp_ns": 1710754101855326414,
+      "position": [
+        5.033273930342662,
+        2.1393132892409783,
+        0.6551964877604888
+      ],
+      "quaternion_xyzw": [
+        -0.05411584928046308,
+        0.019418658177500707,
+        0.7591341174157735,
+        0.6483901467069146
+      ]
+    },
+    {
+      "stamp_ns": 1710754101905325651,
+      "position": [
+        5.09987762190015,
+        2.155275367905117,
+        0.6710597063621291
+      ],
+      "quaternion_xyzw": [
+        -0.046820286836048886,
+        0.021694774080895464,
+        0.7501075500849278,
+        0.6592995228450846
+      ]
+    },
+    {
+      "stamp_ns": 1710754101955324888,
+      "position": [
+        5.163217992835288,
+        2.16672101534508,
+        0.68010966901183
+      ],
+      "quaternion_xyzw": [
+        -0.04246137198883759,
+        0.023233732637163183,
+        0.7462050638765949,
+        0.6639542365265073
+      ]
+    },
+    {
+      "stamp_ns": 1710754102005324125,
+      "position": [
+        5.2271567550504665,
+        2.176032963813335,
+        0.6833557728413375
+      ],
+      "quaternion_xyzw": [
+        -0.03824597114496843,
+        0.02525303904429231,
+        0.7452851097767637,
+        0.6651688769442263
+      ]
+    },
+    {
+      "stamp_ns": 1710754102055323123,
+      "position": [
+        5.292946345090029,
+        2.184146477305339,
+        0.6864456975870814
+      ],
+      "quaternion_xyzw": [
+        -0.03675495595705658,
+        0.026638138036710324,
+        0.7468781718148891,
+        0.6634097371014244
+      ]
+    },
+    {
+      "stamp_ns": 1710754102105322599,
+      "position": [
+        5.359799237011793,
+        2.189762615876744,
+        0.6866912490443947
+      ],
+      "quaternion_xyzw": [
+        -0.03406738133112594,
+        0.02773038676636034,
+        0.7462692245186455,
+        0.6641932578063158
+      ]
+    },
+    {
+      "stamp_ns": 1710754102155321598,
+      "position": [
+        5.424273020146257,
+        2.192259360193984,
+        0.6881893756921289
+      ],
+      "quaternion_xyzw": [
+        -0.034983429262420145,
+        0.028532580368318374,
+        0.748064394970864,
+        0.6620889007614023
+      ]
+    },
+    {
+      "stamp_ns": 1710754102205320596,
+      "position": [
+        5.489352438953512,
+        2.195410776391655,
+        0.6906691782478758
+      ],
+      "quaternion_xyzw": [
+        -0.039186727109189544,
+        0.023858003845945615,
+        0.7475439156957681,
+        0.6626260560657082
+      ]
+    },
+    {
+      "stamp_ns": 1710754102255319833,
+      "position": [
+        5.547791845483505,
+        2.1985662081360653,
+        0.7031668020266334
+      ],
+      "quaternion_xyzw": [
+        -0.044141638383671467,
+        0.0195709169382945,
+        0.7473309673659946,
+        0.6626951940272439
+      ]
+    },
+    {
+      "stamp_ns": 1710754102305318832,
+      "position": [
+        5.608673421578503,
+        2.2029950851532365,
+        0.7133330832207261
+      ],
+      "quaternion_xyzw": [
+        -0.048455356980406525,
+        0.0187588567302417,
+        0.7508798448875784,
+        0.6583917087993149
+      ]
+    },
+    {
+      "stamp_ns": 1710754102355318307,
+      "position": [
+        5.66836865389685,
+        2.2090674186246715,
+        0.7310056528464572
+      ],
+      "quaternion_xyzw": [
+        -0.0529852927742336,
+        0.02446491185501553,
+        0.7607913147297772,
+        0.6463672348358108
+      ]
+    },
+    {
+      "stamp_ns": 1710754102405317306,
+      "position": [
+        5.729798741572354,
+        2.2130967139110624,
+        0.7472490920499572
+      ],
+      "quaternion_xyzw": [
+        -0.05176835257300967,
+        0.026485820900226758,
+        0.7658253262882218,
+        0.6404140134152722
+      ]
+    },
+    {
+      "stamp_ns": 1710754102455316543,
+      "position": [
+        5.7881171288675555,
+        2.215885370755456,
+        0.7629420279621724
+      ],
+      "quaternion_xyzw": [
+        -0.05173492925108199,
+        0.02566297735782043,
+        0.7717235912795805,
+        0.63333056720094
+      ]
+    },
+    {
+      "stamp_ns": 1710754102505315780,
+      "position": [
+        5.849007734435935,
+        2.2191679478589195,
+        0.7706029556820554
+      ],
+      "quaternion_xyzw": [
+        -0.05029895334123445,
+        0.023858155931171576,
+        0.7736289162280502,
+        0.6311886434847767
+      ]
+    },
+    {
+      "stamp_ns": 1710754102555315017,
+      "position": [
+        5.9103865926350725,
+        2.2245847736388926,
+        0.7749279016491882
+      ],
+      "quaternion_xyzw": [
+        -0.04994865669718837,
+        0.024148317314676586,
+        0.7757790861682906,
+        0.628560895959101
+      ]
+    },
+    {
+      "stamp_ns": 1710754102605314016,
+      "position": [
+        5.978126719177847,
+        2.2346390280015624,
+        0.7748777250211233
+      ],
+      "quaternion_xyzw": [
+        -0.0459863697955442,
+        0.024840882874969078,
+        0.7730708478122138,
+        0.6321626757361782
+      ]
+    },
+    {
+      "stamp_ns": 1710754102655313491,
+      "position": [
+        6.044525378743802,
+        2.247738747762731,
+        0.7733145030712559
+      ],
+      "quaternion_xyzw": [
+        -0.04419086776401497,
+        0.025787053915816406,
+        0.7714024241710791,
+        0.6342873915186937
+      ]
+    },
+    {
+      "stamp_ns": 1710754102705312490,
+      "position": [
+        6.110002265598525,
+        2.262576262848697,
+        0.7697999306130671
+      ],
+      "quaternion_xyzw": [
+        -0.04454590377888205,
+        0.025649996234345378,
+        0.770422381895661,
+        0.6354581761405836
+      ]
+    },
+    {
+      "stamp_ns": 1710754102755311727,
+      "position": [
+        6.1734490119622585,
+        2.2801210521146666,
+        0.7720594520883947
+      ],
+      "quaternion_xyzw": [
+        -0.04965969939837788,
+        0.026488525865203234,
+        0.7752514776010005,
+        0.6291402218350189
+      ]
+    },
+    {
+      "stamp_ns": 1710754102805310726,
+      "position": [
+        6.2357194597526036,
+        2.29881498508217,
+        0.78131345234986
+      ],
+      "quaternion_xyzw": [
+        -0.05395586991860663,
+        0.028176258667336182,
+        0.7773734421598345,
+        0.6260873692811635
+      ]
+    },
+    {
+      "stamp_ns": 1710754102855309724,
+      "position": [
+        6.2970794879026855,
+        2.3182410689413993,
+        0.794393289141426
+      ],
+      "quaternion_xyzw": [
+        -0.053733378511340996,
+        0.02672706755273058,
+        0.7724101702042785,
+        0.6322823078805749
+      ]
+    },
+    {
+      "stamp_ns": 1710754102905309200,
+      "position": [
+        6.35941981404114,
+        2.331163000777349,
+        0.8155058197618409
+      ],
+      "quaternion_xyzw": [
+        -0.04919368878620518,
+        0.023277157419335302,
+        0.7614360962255204,
+        0.6459514117106034
+      ]
+    },
+    {
+      "stamp_ns": 1710754102955308198,
+      "position": [
+        6.420492359951447,
+        2.3407657517436724,
+        0.8372665652980614
+      ],
+      "quaternion_xyzw": [
+        -0.045753989795915655,
+        0.023508692012674783,
+        0.7549187537719666,
+        0.65379781968204
+      ]
+    },
+    {
+      "stamp_ns": 1710754103005307435,
+      "position": [
+        6.484101163888664,
+        2.3503389812113706,
+        0.8532293392355393
+      ],
+      "quaternion_xyzw": [
+        -0.04051885115846497,
+        0.021740056076068954,
+        0.7486987338725388,
+        0.6613136914961496
+      ]
+    },
+    {
+      "stamp_ns": 1710754103055306673,
+      "position": [
+        6.545394086038166,
+        2.3572039117025887,
+        0.8602939729855094
+      ],
+      "quaternion_xyzw": [
+        -0.037910025851709835,
+        0.019874660637851888,
+        0.7473345146062679,
+        0.6630678329422013
+      ]
+    },
+    {
+      "stamp_ns": 1710754103105305910,
+      "position": [
+        6.609720032610679,
+        2.3610453745525217,
+        0.8621291863924138
+      ],
+      "quaternion_xyzw": [
+        -0.03407958168409927,
+        0.017129706972387682,
+        0.7466163389447805,
+        0.6641605210127816
+      ]
+    },
+    {
+      "stamp_ns": 1710754103155304908,
+      "position": [
+        6.6742124000564855,
+        2.365056882868392,
+        0.8603576444534561
+      ],
+      "quaternion_xyzw": [
+        -0.03307637812189794,
+        0.016006337124195823,
+        0.7474791762024812,
+        0.66326814451311
+      ]
+    },
+    {
+      "stamp_ns": 1710754103205304384,
+      "position": [
+        6.741744563264004,
+        2.368217636658149,
+        0.8565057449900076
+      ],
+      "quaternion_xyzw": [
+        -0.03180481536916019,
+        0.014339567999253313,
+        0.7467085235120917,
+        0.6642358101030992
+      ]
+    },
+    {
+      "stamp_ns": 1710754103255303144,
+      "position": [
+        6.805843930995999,
+        2.369151265015884,
+        0.8557700873388583
+      ],
+      "quaternion_xyzw": [
+        -0.03509975031007164,
+        0.013655322412476958,
+        0.7486885693258364,
+        0.6618511659420219
+      ]
+    },
+    {
+      "stamp_ns": 1710754103305302619,
+      "position": [
+        6.867888149338097,
+        2.369145282753048,
+        0.8627999650692533
+      ],
+      "quaternion_xyzw": [
+        -0.04022751071807829,
+        0.008164123504328505,
+        0.7499704632432664,
+        0.6601964849433187
+      ]
+    },
+    {
+      "stamp_ns": 1710754103355301618,
+      "position": [
+        6.928571803958207,
+        2.3697721507991543,
+        0.8751963623961261
+      ],
+      "quaternion_xyzw": [
+        -0.04530330570856064,
+        0.0035270771420786926,
+        0.7554497230590967,
+        0.6536290126276868
+      ]
+    },
+    {
+      "stamp_ns": 1710754103405300617,
+      "position": [
+        6.98873675978914,
+        2.371387585265697,
+        0.8917182976442144
+      ],
+      "quaternion_xyzw": [
+        -0.04677301131915351,
+        0.005777631800144255,
+        0.7639548477020631,
+        0.6435463425857052
+      ]
+    },
+    {
+      "stamp_ns": 1710754103455300092,
+      "position": [
+        7.049550311366394,
+        2.374921166571425,
+        0.9117290929919252
+      ],
+      "quaternion_xyzw": [
+        -0.04586218426312047,
+        0.012042757485496122,
+        0.7717224813734389,
+        0.6341892807274365
+      ]
+    },
+    {
+      "stamp_ns": 1710754103505299091,
+      "position": [
+        7.109773270390113,
+        2.3771600963094826,
+        0.9304858651042978
+      ],
+      "quaternion_xyzw": [
+        -0.04450591416920517,
+        0.011443561541897483,
+        0.7726260205884772,
+        0.6331960998085934
+      ]
+    },
+    {
+      "stamp_ns": 1710754103555298328,
+      "position": [
+        7.1690975338208816,
+        2.3831950790639302,
+        0.9444977157923398
+      ],
+      "quaternion_xyzw": [
+        -0.044882972017189576,
+        0.01045886253236198,
+        0.7726110865174705,
+        0.6332047378279216
+      ]
+    },
+    {
+      "stamp_ns": 1710754103605297565,
+      "position": [
+        7.227991137403561,
+        2.3889442716977576,
+        0.9515421970120007
+      ],
+      "quaternion_xyzw": [
+        -0.04373295115040457,
+        0.008759273541191482,
+        0.7672454674247349,
+        0.639800825903583
+      ]
+    },
+    {
+      "stamp_ns": 1710754103655296802,
+      "position": [
+        7.290554275267585,
+        2.400944800748852,
+        0.952785141552379
+      ],
+      "quaternion_xyzw": [
+        -0.0418915130390941,
+        0.009380440275979576,
+        0.7618808203487802,
+        0.6462930636021044
+      ]
+    },
+    {
+      "stamp_ns": 1710754103705295801,
+      "position": [
+        7.3533301264788005,
+        2.412443591289264,
+        0.9499888633156455
+      ],
+      "quaternion_xyzw": [
+        -0.041221117051168696,
+        0.010274560845354004,
+        0.7558138306259491,
+        0.6534069990006366
+      ]
+    },
+    {
+      "stamp_ns": 1710754103755295038,
+      "position": [
+        7.415743531674405,
+        2.4282122365847707,
+        0.9462498708096722
+      ],
+      "quaternion_xyzw": [
+        -0.04275791154336158,
+        0.014515382222309114,
+        0.7556741689208234,
+        0.6533893288883843
+      ]
+    },
+    {
+      "stamp_ns": 1710754103805294036,
+      "position": [
+        7.477716496060468,
+        2.4446952607635257,
+        0.943877483027522
+      ],
+      "quaternion_xyzw": [
+        -0.045431358012662834,
+        0.01630770223586233,
+        0.7544387975626233,
+        0.6545931188831537
+      ]
+    },
+    {
+      "stamp_ns": 1710754103855293512,
+      "position": [
+        7.5315579123449155,
+        2.4631297336688953,
+        0.9456521178746516
+      ],
+      "quaternion_xyzw": [
+        -0.05194408517997359,
+        0.012357354858798141,
+        0.750974885153303,
+        0.6581685419895823
+      ]
+    },
+    {
+      "stamp_ns": 1710754103905292510,
+      "position": [
+        7.582401863930546,
+        2.480926686849845,
+        0.9555195235533925
+      ],
+      "quaternion_xyzw": [
+        -0.06219276773308825,
+        0.004128984700001732,
+        0.744820831973829,
+        0.6643470022396869
+      ]
+    },
+    {
+      "stamp_ns": 1710754103955291986,
+      "position": [
+        7.6317119079288664,
+        2.497454973791768,
+        0.9708966120788844
+      ],
+      "quaternion_xyzw": [
+        -0.06874642093293337,
+        0.00014895673494561695,
+        0.740076635010873,
+        0.6689996126544365
+      ]
+    },
+    {
+      "stamp_ns": 1710754104005290985,
+      "position": [
+        7.688478386852011,
+        2.509181204114136,
+        0.9879426151304075
+      ],
+      "quaternion_xyzw": [
+        -0.06498818151388877,
+        0.0014776558727137151,
+        0.7328401016204837,
+        0.6772885192098849
+      ]
+    },
+    {
+      "stamp_ns": 1710754104055290222,
+      "position": [
+        7.747079563931598,
+        2.519182672951092,
+        1.0026726485434512
+      ],
+      "quaternion_xyzw": [
+        -0.060666355959141924,
+        0.003241299179908678,
+        0.729066860549343,
+        0.681740859918921
+      ]
+    },
+    {
+      "stamp_ns": 1710754104105289220,
+      "position": [
+        7.806279896773845,
+        2.526627237733508,
+        1.0115845147197626
+      ],
+      "quaternion_xyzw": [
+        -0.05843157585041492,
+        0.0004969931328549469,
+        0.726773953364339,
+        0.6843866777287769
+      ]
+    },
+    {
+      "stamp_ns": 1710754104155288457,
+      "position": [
+        7.864719756585104,
+        2.533158424217919,
+        1.0146600387895257
+      ],
+      "quaternion_xyzw": [
+        -0.060050849341289576,
+        -0.0010095143467017675,
+        0.7302123379272226,
+        0.6805753579972118
+      ]
+    },
+    {
+      "stamp_ns": 1710754104205287694,
+      "position": [
+        7.927555152887522,
+        2.538321002239741,
+        1.0144743817642778
+      ],
+      "quaternion_xyzw": [
+        -0.058964871964190535,
+        -0.001164580188442229,
+        0.733236244120415,
+        0.6774115425171159
+      ]
+    },
+    {
+      "stamp_ns": 1710754104255286693,
+      "position": [
+        7.9939413441102385,
+        2.5427473779606298,
+        1.0118422642387768
+      ],
+      "quaternion_xyzw": [
+        -0.05696705312188909,
+        0.0016684026884378825,
+        0.7382116026408967,
+        0.6721574227942706
+      ]
+    },
+    {
+      "stamp_ns": 1710754104305285930,
+      "position": [
+        8.062826998653922,
+        2.545313803035546,
+        1.0090115945773515
+      ],
+      "quaternion_xyzw": [
+        -0.053917228933339806,
+        0.004031654338407076,
+        0.7418481755573216,
+        0.6683845918404453
+      ]
+    },
+    {
+      "stamp_ns": 1710754104355284929,
+      "position": [
+        8.124002201914628,
+        2.5494666777006825,
+        1.0139792013387294
+      ],
+      "quaternion_xyzw": [
+        -0.05554524762619961,
+        0.0011099725054682617,
+        0.7434625716440141,
+        0.6664659766196999
+      ]
+    },
+    {
+      "stamp_ns": 1710754104405284404,
+      "position": [
+        8.186796590129147,
+        2.550947460166783,
+        1.030776617299078
+      ],
+      "quaternion_xyzw": [
+        -0.055483242271814004,
+        -0.006008459521249305,
+        0.7414529782617506,
+        0.6686800350451394
+      ]
+    },
+    {
+      "stamp_ns": 1710754104455283641,
+      "position": [
+        8.249074342204697,
+        2.5558655764623355,
+        1.0466053544493608
+      ],
+      "quaternion_xyzw": [
+        -0.057493372003339024,
+        -0.0022254804112027404,
+        0.7503654928647006,
+        0.6585143783779821
+      ]
+    },
+    {
+      "stamp_ns": 1710754104505282878,
+      "position": [
+        8.313990336428141,
+        2.564579086808093,
+        1.0686570773555215
+      ],
+      "quaternion_xyzw": [
+        -0.056711385054608036,
+        0.006715353082717965,
+        0.7597325894010651,
+        0.6477230237069813
+      ]
+    },
+    {
+      "stamp_ns": 1710754104555281877,
+      "position": [
+        8.378237867210297,
+        2.575064489632156,
+        1.0901505677302459
+      ],
+      "quaternion_xyzw": [
+        -0.05308388504333642,
+        0.014184347402986134,
+        0.7671945002159894,
+        0.6390567300919342
+      ]
+    },
+    {
+      "stamp_ns": 1710754104605281114,
+      "position": [
+        8.446078438934693,
+        2.5827408419290863,
+        1.1057534204516144
+      ],
+      "quaternion_xyzw": [
+        -0.047563070651850115,
+        0.01903405955354239,
+        0.7723711561331523,
+        0.6331020897616882
+      ]
+    },
+    {
+      "stamp_ns": 1710754104655280113,
+      "position": [
+        8.512139491113658,
+        2.593636835116085,
+        1.113795869124362
+      ],
+      "quaternion_xyzw": [
+        -0.04376380417265694,
+        0.023752180842042045,
+        0.7782801167567045,
+        0.625939792001399
+      ]
+    },
+    {
+      "stamp_ns": 1710754104705279588,
+      "position": [
+        8.579751986815324,
+        2.6056927958210876,
+        1.1178901898131641
+      ],
+      "quaternion_xyzw": [
+        -0.03932994250406919,
+        0.027870125110798057,
+        0.7802842208339482,
+        0.6235647091252787
+      ]
+    },
+    {
+      "stamp_ns": 1710754104755278587,
+      "position": [
+        8.646442583455965,
+        2.623182364325386,
+        1.119202587164598
+      ],
+      "quaternion_xyzw": [
+        -0.037630632182268836,
+        0.03359281388445292,
+        0.7835885920166745,
+        0.6192288565935962
+      ]
+    },
+    {
+      "stamp_ns": 1710754104805277585,
+      "position": [
+        8.712151500089973,
+        2.6427276694737722,
+        1.1188698432073338
+      ],
+      "quaternion_xyzw": [
+        -0.037763134312881697,
+        0.035520218407519205,
+        0.7844934625936275,
+        0.6179662344489463
+      ]
+    },
+    {
+      "stamp_ns": 1710754104855276823,
+      "position": [
+        8.774214431015544,
+        2.664761204173665,
+        1.1163460166218693
+      ],
+      "quaternion_xyzw": [
+        -0.040604548291095305,
+        0.038375454097596795,
+        0.7873961511338204,
+        0.6139103325083598
+      ]
+    }
+  ],
+  "clouds": [
+    {
+      "stamp_ns": 1710754089155536413,
+      "path": "raw/cloud_000000.npy",
+      "points": 10322
+    },
+    {
+      "stamp_ns": 1710754089255534887,
+      "path": "raw/cloud_000001.npy",
+      "points": 10276
+    },
+    {
+      "stamp_ns": 1710754089355533361,
+      "path": "raw/cloud_000002.npy",
+      "points": 10305
+    },
+    {
+      "stamp_ns": 1710754089455531597,
+      "path": "raw/cloud_000003.npy",
+      "points": 10320
+    },
+    {
+      "stamp_ns": 1710754089555530071,
+      "path": "raw/cloud_000004.npy",
+      "points": 10324
+    },
+    {
+      "stamp_ns": 1710754089655528306,
+      "path": "raw/cloud_000005.npy",
+      "points": 10268
+    },
+    {
+      "stamp_ns": 1710754089755526542,
+      "path": "raw/cloud_000006.npy",
+      "points": 10301
+    },
+    {
+      "stamp_ns": 1710754089855524778,
+      "path": "raw/cloud_000007.npy",
+      "points": 10277
+    },
+    {
+      "stamp_ns": 1710754089955523252,
+      "path": "raw/cloud_000008.npy",
+      "points": 10275
+    },
+    {
+      "stamp_ns": 1710754090055521726,
+      "path": "raw/cloud_000009.npy",
+      "points": 10325
+    },
+    {
+      "stamp_ns": 1710754090155519962,
+      "path": "raw/cloud_000010.npy",
+      "points": 10306
+    },
+    {
+      "stamp_ns": 1710754090255518198,
+      "path": "raw/cloud_000011.npy",
+      "points": 10297
+    },
+    {
+      "stamp_ns": 1710754090355516672,
+      "path": "raw/cloud_000012.npy",
+      "points": 10288
+    },
+    {
+      "stamp_ns": 1710754090455515146,
+      "path": "raw/cloud_000013.npy",
+      "points": 10336
+    },
+    {
+      "stamp_ns": 1710754090555513381,
+      "path": "raw/cloud_000014.npy",
+      "points": 10280
+    },
+    {
+      "stamp_ns": 1710754090655511856,
+      "path": "raw/cloud_000015.npy",
+      "points": 10324
+    },
+    {
+      "stamp_ns": 1710754090755510091,
+      "path": "raw/cloud_000016.npy",
+      "points": 10338
+    },
+    {
+      "stamp_ns": 1710754090855508565,
+      "path": "raw/cloud_000017.npy",
+      "points": 10273
+    },
+    {
+      "stamp_ns": 1710754090955506801,
+      "path": "raw/cloud_000018.npy",
+      "points": 10311
+    },
+    {
+      "stamp_ns": 1710754091055505037,
+      "path": "raw/cloud_000019.npy",
+      "points": 10367
+    },
+    {
+      "stamp_ns": 1710754091155503511,
+      "path": "raw/cloud_000020.npy",
+      "points": 10316
+    },
+    {
+      "stamp_ns": 1710754091255501747,
+      "path": "raw/cloud_000021.npy",
+      "points": 10321
+    },
+    {
+      "stamp_ns": 1710754091355499982,
+      "path": "raw/cloud_000022.npy",
+      "points": 10293
+    },
+    {
+      "stamp_ns": 1710754091455498456,
+      "path": "raw/cloud_000023.npy",
+      "points": 10316
+    },
+    {
+      "stamp_ns": 1710754091555496931,
+      "path": "raw/cloud_000024.npy",
+      "points": 10251
+    },
+    {
+      "stamp_ns": 1710754091655495166,
+      "path": "raw/cloud_000025.npy",
+      "points": 10325
+    },
+    {
+      "stamp_ns": 1710754091755493402,
+      "path": "raw/cloud_000026.npy",
+      "points": 10330
+    },
+    {
+      "stamp_ns": 1710754091855491876,
+      "path": "raw/cloud_000027.npy",
+      "points": 10330
+    },
+    {
+      "stamp_ns": 1710754091955490350,
+      "path": "raw/cloud_000028.npy",
+      "points": 10284
+    },
+    {
+      "stamp_ns": 1710754092055488586,
+      "path": "raw/cloud_000029.npy",
+      "points": 10284
+    },
+    {
+      "stamp_ns": 1710754092155487060,
+      "path": "raw/cloud_000030.npy",
+      "points": 10305
+    },
+    {
+      "stamp_ns": 1710754092255485296,
+      "path": "raw/cloud_000031.npy",
+      "points": 10278
+    },
+    {
+      "stamp_ns": 1710754092355483531,
+      "path": "raw/cloud_000032.npy",
+      "points": 10230
+    },
+    {
+      "stamp_ns": 1710754092455482006,
+      "path": "raw/cloud_000033.npy",
+      "points": 10245
+    },
+    {
+      "stamp_ns": 1710754092555480241,
+      "path": "raw/cloud_000034.npy",
+      "points": 10213
+    },
+    {
+      "stamp_ns": 1710754092655478715,
+      "path": "raw/cloud_000035.npy",
+      "points": 10260
+    },
+    {
+      "stamp_ns": 1710754092755476951,
+      "path": "raw/cloud_000036.npy",
+      "points": 10285
+    },
+    {
+      "stamp_ns": 1710754092855475187,
+      "path": "raw/cloud_000037.npy",
+      "points": 10265
+    },
+    {
+      "stamp_ns": 1710754092955473661,
+      "path": "raw/cloud_000038.npy",
+      "points": 10276
+    },
+    {
+      "stamp_ns": 1710754093055472135,
+      "path": "raw/cloud_000039.npy",
+      "points": 10311
+    },
+    {
+      "stamp_ns": 1710754093155470371,
+      "path": "raw/cloud_000040.npy",
+      "points": 10394
+    },
+    {
+      "stamp_ns": 1710754093255468845,
+      "path": "raw/cloud_000041.npy",
+      "points": 10576
+    },
+    {
+      "stamp_ns": 1710754093355467081,
+      "path": "raw/cloud_000042.npy",
+      "points": 10759
+    },
+    {
+      "stamp_ns": 1710754093455465555,
+      "path": "raw/cloud_000043.npy",
+      "points": 10939
+    },
+    {
+      "stamp_ns": 1710754093555463790,
+      "path": "raw/cloud_000044.npy",
+      "points": 11243
+    },
+    {
+      "stamp_ns": 1710754093655462026,
+      "path": "raw/cloud_000045.npy",
+      "points": 11443
+    },
+    {
+      "stamp_ns": 1710754093755460500,
+      "path": "raw/cloud_000046.npy",
+      "points": 11690
+    },
+    {
+      "stamp_ns": 1710754093855458736,
+      "path": "raw/cloud_000047.npy",
+      "points": 12056
+    },
+    {
+      "stamp_ns": 1710754093955457210,
+      "path": "raw/cloud_000048.npy",
+      "points": 12625
+    },
+    {
+      "stamp_ns": 1710754094055455446,
+      "path": "raw/cloud_000049.npy",
+      "points": 13365
+    },
+    {
+      "stamp_ns": 1710754094155453920,
+      "path": "raw/cloud_000050.npy",
+      "points": 14040
+    },
+    {
+      "stamp_ns": 1710754094255452156,
+      "path": "raw/cloud_000051.npy",
+      "points": 14723
+    },
+    {
+      "stamp_ns": 1710754094355450391,
+      "path": "raw/cloud_000052.npy",
+      "points": 15333
+    },
+    {
+      "stamp_ns": 1710754094455448865,
+      "path": "raw/cloud_000053.npy",
+      "points": 15865
+    },
+    {
+      "stamp_ns": 1710754094555447340,
+      "path": "raw/cloud_000054.npy",
+      "points": 16168
+    },
+    {
+      "stamp_ns": 1710754094655445575,
+      "path": "raw/cloud_000055.npy",
+      "points": 16469
+    },
+    {
+      "stamp_ns": 1710754094755444049,
+      "path": "raw/cloud_000056.npy",
+      "points": 16650
+    },
+    {
+      "stamp_ns": 1710754094855442285,
+      "path": "raw/cloud_000057.npy",
+      "points": 16697
+    },
+    {
+      "stamp_ns": 1710754094955440521,
+      "path": "raw/cloud_000058.npy",
+      "points": 16799
+    },
+    {
+      "stamp_ns": 1710754095055438995,
+      "path": "raw/cloud_000059.npy",
+      "points": 16930
+    },
+    {
+      "stamp_ns": 1710754095155437231,
+      "path": "raw/cloud_000060.npy",
+      "points": 17101
+    },
+    {
+      "stamp_ns": 1710754095255435466,
+      "path": "raw/cloud_000061.npy",
+      "points": 17368
+    },
+    {
+      "stamp_ns": 1710754095355433940,
+      "path": "raw/cloud_000062.npy",
+      "points": 17763
+    },
+    {
+      "stamp_ns": 1710754095455432415,
+      "path": "raw/cloud_000063.npy",
+      "points": 18268
+    },
+    {
+      "stamp_ns": 1710754095555430650,
+      "path": "raw/cloud_000064.npy",
+      "points": 18627
+    },
+    {
+      "stamp_ns": 1710754095655429124,
+      "path": "raw/cloud_000065.npy",
+      "points": 19003
+    },
+    {
+      "stamp_ns": 1710754095755427360,
+      "path": "raw/cloud_000066.npy",
+      "points": 19084
+    },
+    {
+      "stamp_ns": 1710754095855425834,
+      "path": "raw/cloud_000067.npy",
+      "points": 19159
+    },
+    {
+      "stamp_ns": 1710754095955424070,
+      "path": "raw/cloud_000068.npy",
+      "points": 19355
+    },
+    {
+      "stamp_ns": 1710754096055422544,
+      "path": "raw/cloud_000069.npy",
+      "points": 19753
+    },
+    {
+      "stamp_ns": 1710754096155420780,
+      "path": "raw/cloud_000070.npy",
+      "points": 20061
+    },
+    {
+      "stamp_ns": 1710754096255419254,
+      "path": "raw/cloud_000071.npy",
+      "points": 20393
+    },
+    {
+      "stamp_ns": 1710754096355417251,
+      "path": "raw/cloud_000072.npy",
+      "points": 20673
+    },
+    {
+      "stamp_ns": 1710754096455415725,
+      "path": "raw/cloud_000073.npy",
+      "points": 20922
+    },
+    {
+      "stamp_ns": 1710754096555414199,
+      "path": "raw/cloud_000074.npy",
+      "points": 20999
+    },
+    {
+      "stamp_ns": 1710754096655412435,
+      "path": "raw/cloud_000075.npy",
+      "points": 21134
+    },
+    {
+      "stamp_ns": 1710754096755410671,
+      "path": "raw/cloud_000076.npy",
+      "points": 21024
+    },
+    {
+      "stamp_ns": 1710754096855409145,
+      "path": "raw/cloud_000077.npy",
+      "points": 21070
+    },
+    {
+      "stamp_ns": 1710754096955407619,
+      "path": "raw/cloud_000078.npy",
+      "points": 21394
+    },
+    {
+      "stamp_ns": 1710754097055405855,
+      "path": "raw/cloud_000079.npy",
+      "points": 21517
+    },
+    {
+      "stamp_ns": 1710754097155404329,
+      "path": "raw/cloud_000080.npy",
+      "points": 21574
+    },
+    {
+      "stamp_ns": 1710754097255402565,
+      "path": "raw/cloud_000081.npy",
+      "points": 21560
+    },
+    {
+      "stamp_ns": 1710754097355401039,
+      "path": "raw/cloud_000082.npy",
+      "points": 21520
+    },
+    {
+      "stamp_ns": 1710754097455399274,
+      "path": "raw/cloud_000083.npy",
+      "points": 21810
+    },
+    {
+      "stamp_ns": 1710754097555397748,
+      "path": "raw/cloud_000084.npy",
+      "points": 21900
+    },
+    {
+      "stamp_ns": 1710754097655395984,
+      "path": "raw/cloud_000085.npy",
+      "points": 22208
+    },
+    {
+      "stamp_ns": 1710754097755394220,
+      "path": "raw/cloud_000086.npy",
+      "points": 22230
+    },
+    {
+      "stamp_ns": 1710754097855392456,
+      "path": "raw/cloud_000087.npy",
+      "points": 22267
+    },
+    {
+      "stamp_ns": 1710754097955390930,
+      "path": "raw/cloud_000088.npy",
+      "points": 22160
+    },
+    {
+      "stamp_ns": 1710754098055389404,
+      "path": "raw/cloud_000089.npy",
+      "points": 22086
+    },
+    {
+      "stamp_ns": 1710754098155387639,
+      "path": "raw/cloud_000090.npy",
+      "points": 21821
+    },
+    {
+      "stamp_ns": 1710754098255386114,
+      "path": "raw/cloud_000091.npy",
+      "points": 21827
+    },
+    {
+      "stamp_ns": 1710754098355384349,
+      "path": "raw/cloud_000092.npy",
+      "points": 21562
+    },
+    {
+      "stamp_ns": 1710754098455382823,
+      "path": "raw/cloud_000093.npy",
+      "points": 21368
+    },
+    {
+      "stamp_ns": 1710754098555381059,
+      "path": "raw/cloud_000094.npy",
+      "points": 21176
+    },
+    {
+      "stamp_ns": 1710754098655379533,
+      "path": "raw/cloud_000095.npy",
+      "points": 21052
+    },
+    {
+      "stamp_ns": 1710754098755377769,
+      "path": "raw/cloud_000096.npy",
+      "points": 20771
+    },
+    {
+      "stamp_ns": 1710754098855376243,
+      "path": "raw/cloud_000097.npy",
+      "points": 20504
+    },
+    {
+      "stamp_ns": 1710754098955374479,
+      "path": "raw/cloud_000098.npy",
+      "points": 20606
+    },
+    {
+      "stamp_ns": 1710754099055372714,
+      "path": "raw/cloud_000099.npy",
+      "points": 20669
+    },
+    {
+      "stamp_ns": 1710754099155371189,
+      "path": "raw/cloud_000100.npy",
+      "points": 20887
+    },
+    {
+      "stamp_ns": 1710754099255369424,
+      "path": "raw/cloud_000101.npy",
+      "points": 20857
+    },
+    {
+      "stamp_ns": 1710754099355367660,
+      "path": "raw/cloud_000102.npy",
+      "points": 20816
+    },
+    {
+      "stamp_ns": 1710754099455366134,
+      "path": "raw/cloud_000103.npy",
+      "points": 20414
+    },
+    {
+      "stamp_ns": 1710754099555364608,
+      "path": "raw/cloud_000104.npy",
+      "points": 20233
+    },
+    {
+      "stamp_ns": 1710754099655362844,
+      "path": "raw/cloud_000105.npy",
+      "points": 20468
+    },
+    {
+      "stamp_ns": 1710754099755361318,
+      "path": "raw/cloud_000106.npy",
+      "points": 20486
+    },
+    {
+      "stamp_ns": 1710754099855359554,
+      "path": "raw/cloud_000107.npy",
+      "points": 20650
+    },
+    {
+      "stamp_ns": 1710754099955358028,
+      "path": "raw/cloud_000108.npy",
+      "points": 20616
+    },
+    {
+      "stamp_ns": 1710754100055356502,
+      "path": "raw/cloud_000109.npy",
+      "points": 20468
+    },
+    {
+      "stamp_ns": 1710754100155354738,
+      "path": "raw/cloud_000110.npy",
+      "points": 20695
+    },
+    {
+      "stamp_ns": 1710754100255352973,
+      "path": "raw/cloud_000111.npy",
+      "points": 20719
+    },
+    {
+      "stamp_ns": 1710754100355351209,
+      "path": "raw/cloud_000112.npy",
+      "points": 20652
+    },
+    {
+      "stamp_ns": 1710754100455349683,
+      "path": "raw/cloud_000113.npy",
+      "points": 20798
+    },
+    {
+      "stamp_ns": 1710754100555347919,
+      "path": "raw/cloud_000114.npy",
+      "points": 20774
+    },
+    {
+      "stamp_ns": 1710754100655346393,
+      "path": "raw/cloud_000115.npy",
+      "points": 20463
+    },
+    {
+      "stamp_ns": 1710754100755344629,
+      "path": "raw/cloud_000116.npy",
+      "points": 20469
+    },
+    {
+      "stamp_ns": 1710754100855343103,
+      "path": "raw/cloud_000117.npy",
+      "points": 20668
+    },
+    {
+      "stamp_ns": 1710754100955341339,
+      "path": "raw/cloud_000118.npy",
+      "points": 20729
+    },
+    {
+      "stamp_ns": 1710754101055339813,
+      "path": "raw/cloud_000119.npy",
+      "points": 20444
+    },
+    {
+      "stamp_ns": 1710754101155338048,
+      "path": "raw/cloud_000120.npy",
+      "points": 20076
+    },
+    {
+      "stamp_ns": 1710754101255336523,
+      "path": "raw/cloud_000121.npy",
+      "points": 20242
+    },
+    {
+      "stamp_ns": 1710754101355334758,
+      "path": "raw/cloud_000122.npy",
+      "points": 20463
+    },
+    {
+      "stamp_ns": 1710754101455333232,
+      "path": "raw/cloud_000123.npy",
+      "points": 20602
+    },
+    {
+      "stamp_ns": 1710754101555331468,
+      "path": "raw/cloud_000124.npy",
+      "points": 20694
+    },
+    {
+      "stamp_ns": 1710754101655329704,
+      "path": "raw/cloud_000125.npy",
+      "points": 20761
+    },
+    {
+      "stamp_ns": 1710754101755328178,
+      "path": "raw/cloud_000126.npy",
+      "points": 20364
+    },
+    {
+      "stamp_ns": 1710754101855326414,
+      "path": "raw/cloud_000127.npy",
+      "points": 20253
+    },
+    {
+      "stamp_ns": 1710754101955324888,
+      "path": "raw/cloud_000128.npy",
+      "points": 20315
+    },
+    {
+      "stamp_ns": 1710754102055323123,
+      "path": "raw/cloud_000129.npy",
+      "points": 20544
+    },
+    {
+      "stamp_ns": 1710754102155321598,
+      "path": "raw/cloud_000130.npy",
+      "points": 20617
+    },
+    {
+      "stamp_ns": 1710754102255319833,
+      "path": "raw/cloud_000131.npy",
+      "points": 20441
+    },
+    {
+      "stamp_ns": 1710754102355318307,
+      "path": "raw/cloud_000132.npy",
+      "points": 20900
+    },
+    {
+      "stamp_ns": 1710754102455316543,
+      "path": "raw/cloud_000133.npy",
+      "points": 21035
+    },
+    {
+      "stamp_ns": 1710754102555315017,
+      "path": "raw/cloud_000134.npy",
+      "points": 21070
+    },
+    {
+      "stamp_ns": 1710754102655313491,
+      "path": "raw/cloud_000135.npy",
+      "points": 20967
+    },
+    {
+      "stamp_ns": 1710754102755311727,
+      "path": "raw/cloud_000136.npy",
+      "points": 21182
+    },
+    {
+      "stamp_ns": 1710754102855309724,
+      "path": "raw/cloud_000137.npy",
+      "points": 20886
+    },
+    {
+      "stamp_ns": 1710754102955308198,
+      "path": "raw/cloud_000138.npy",
+      "points": 20642
+    },
+    {
+      "stamp_ns": 1710754103055306673,
+      "path": "raw/cloud_000139.npy",
+      "points": 20767
+    },
+    {
+      "stamp_ns": 1710754103155304908,
+      "path": "raw/cloud_000140.npy",
+      "points": 20808
+    },
+    {
+      "stamp_ns": 1710754103255303144,
+      "path": "raw/cloud_000141.npy",
+      "points": 20843
+    },
+    {
+      "stamp_ns": 1710754103355301618,
+      "path": "raw/cloud_000142.npy",
+      "points": 20964
+    },
+    {
+      "stamp_ns": 1710754103455300092,
+      "path": "raw/cloud_000143.npy",
+      "points": 21308
+    },
+    {
+      "stamp_ns": 1710754103555298328,
+      "path": "raw/cloud_000144.npy",
+      "points": 21228
+    },
+    {
+      "stamp_ns": 1710754103655296802,
+      "path": "raw/cloud_000145.npy",
+      "points": 20926
+    },
+    {
+      "stamp_ns": 1710754103755295038,
+      "path": "raw/cloud_000146.npy",
+      "points": 20983
+    },
+    {
+      "stamp_ns": 1710754103855293512,
+      "path": "raw/cloud_000147.npy",
+      "points": 20722
+    },
+    {
+      "stamp_ns": 1710754103955291986,
+      "path": "raw/cloud_000148.npy",
+      "points": 20238
+    },
+    {
+      "stamp_ns": 1710754104055290222,
+      "path": "raw/cloud_000149.npy",
+      "points": 20196
+    },
+    {
+      "stamp_ns": 1710754104155288457,
+      "path": "raw/cloud_000150.npy",
+      "points": 20391
+    },
+    {
+      "stamp_ns": 1710754104255286693,
+      "path": "raw/cloud_000151.npy",
+      "points": 20620
+    },
+    {
+      "stamp_ns": 1710754104355284929,
+      "path": "raw/cloud_000152.npy",
+      "points": 20651
+    },
+    {
+      "stamp_ns": 1710754104455283641,
+      "path": "raw/cloud_000153.npy",
+      "points": 20906
+    },
+    {
+      "stamp_ns": 1710754104555281877,
+      "path": "raw/cloud_000154.npy",
+      "points": 21316
+    },
+    {
+      "stamp_ns": 1710754104655280113,
+      "path": "raw/cloud_000155.npy",
+      "points": 21677
+    },
+    {
+      "stamp_ns": 1710754104755278587,
+      "path": "raw/cloud_000156.npy",
+      "points": 21823
+    },
+    {
+      "stamp_ns": 1710754104855276823,
+      "path": "raw/cloud_000157.npy",
+      "points": 21927
+    }
+  ]
+}

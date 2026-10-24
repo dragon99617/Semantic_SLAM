@@ -1,0 +1,126 @@
+## Overview
+
+Ground truth for the Oxford Spires Dataset is provided in two forms:
+
+| Type | Source | Files |
+|---|---|---|
+| **Map** | Leica RTC360 TLS point cloud | `ground_truth_map/<site>/merged-cloud-1cm.pcd` |
+| **Trajectory** | ICP registration of LiDAR clouds to TLS map | `processed/trajectory/gt-tum.txt` |
+
+---
+
+## Ground Truth Map
+
+### Sensor: Leica RTC360
+<img src="media/gt.png" height="300" />
+
+A Leica RTC360 terrestrial laser scanner (TLS) was used to generate ground truth point clouds.
+
+- Range: 130 m
+- FoV: 360° × 300°
+- Point accuracy: 1.9 mm at 10 m, 5.3 mm at 40 m
+- Cloud-to-cloud registration error across sites: 3–7 mm
+- Point clouds are coloured using 432 MP images from the three onboard cameras
+- Scans are registered and re-optimised using Leica's Cyclone REGISTER 360 Plus software; the merged cloud is downsampled to 1 cm resolution for distribution
+
+
+### Files
+
+Located under `data/ground_truth_map/<site-name>/`:
+
+| File | Description |
+|---|---|
+| `merged-cloud-1cm.pcd` | All TLS scans merged and downsampled to 1 cm resolution |
+| `individual_cloud_e57.zip` | Individual TLS scans in E57 format, containing point positions and sensor origin |
+| `FinalizeReport.pdf` | Leica survey report (number of scans, overlap, registration residuals) |
+
+The individual E57 scans include the **sensor origin** for each scan, which is required for methods such as occupancy mapping. The merged PCD is provided at 1 cm resolution for ease of use; the original full-resolution scans are in the E57 archive.
+
+---
+
+## Ground Truth Trajectory
+
+Ground truth trajectories are computed by registering undistorted LiDAR clouds to the Ground Truth map. Each pose is defined for the **base frame** (defined with respect to the LiDAR sensor frame [here](https://github.com/ori-drs/oxford_spires_dataset/blob/main/configs/sensor.yaml#L37)).
+
+Ground truth trajectories are provided only for **core sequences** — those whose path falls completely within the TLS map coverage. See the [Sequences](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/#sequences) section on the website for which sequences have ground truth.
+
+
+### File format
+
+The trajectory is stored as `processed/trajectory/gt-tum.txt` in **TUM format**:
+
+```
+timestamp tx ty tz qx qy qz qw
+```
+
+- `timestamp`: Unix time in seconds (nanosecond precision)
+- `tx ty tz`: position in metres
+- `qx qy qz qw`: orientation as a unit quaternion
+
+Read it in Python using:
+
+```python
+from oxspires_tools.trajectory.file_interfaces import TumTrajReader
+
+gt_traj = TumTrajReader("processed/trajectory/gt-tum.txt").read()
+```
+
+### Generation method
+
+1. Each undistorted LiDAR point cloud (from `processed/vilens-slam/undist-clouds/`) is registered to the merged TLS map using **ICP** (Iterative Closest Point).
+2. Registration is performed with an offline version of **VILENS** (Wisth et al. 2023) with ICP at its core, which allows allocating sufficient compute time per frame.
+3. The resulting per-frame poses are synchronised with the camera timestamps using the procedure described for the handheld perception unit.
+
+### Accuracy
+
+The ground truth trajectory accuracy is approximately **1–2 cm**. The error sources include LiDAR sensor noise and ICP matching.
+
+
+## Using Ground Truth for Evaluation
+
+### Map Reconstruction Evaluation
+
+To evaluate a reconstructed point cloud against the TLS ground truth map, `oxspires_tools` provides point-to-point distance metrics. Five metrics are computed:
+
+| Metric | Definition |
+|---|---|
+| **Accuracy** | Mean distance from each input point to its nearest GT point |
+| **Completeness** | Mean distance from each GT point to its nearest input point |
+| **Precision** @ τ | Fraction of input points within τ metres of the GT cloud |
+| **Recall** @ τ | Fraction of GT points within τ metres of the input cloud |
+| **F1 Score** @ τ | Harmonic mean of precision and recall |
+
+In the paper we used threshold τ of 5cm and 10cm.
+
+
+```python
+import numpy as np
+import open3d as o3d
+from oxspires_tools.eval import get_recon_metrics_multi_thresholds, save_error_cloud
+
+gt_cloud = np.asarray(o3d.io.read_point_cloud("merged-cloud-1cm.pcd").points)
+input_cloud = np.asarray(o3d.io.read_point_cloud("my_reconstruction.pcd").points)
+
+results = get_recon_metrics_multi_thresholds(input_cloud, gt_cloud, thresholds=[0.05, 0.1])
+# results[0]: {"accuracy": ..., "completeness": ...}
+# results[1:]: {"threshold": ..., "precision": ..., "recall": ..., "f1_score": ...}
+
+save_error_cloud(input_cloud, gt_cloud, "error_cloud.ply")  # colour-coded by distance
+```
+
+---
+
+### Trajectory Evaluation
+
+To evaluate a SLAM or odometry trajectory against the ground truth trajectory:
+
+1. **Align** the estimated trajectory to the ground truth frame using a `SE(3)` Umeyama alignment (provided in `oxspires_tools`).
+2. **Compute ATE** (Absolute Trajectory Error) using [evo](https://github.com/MichaelGrupp/evo):
+
+```bash
+evo_ape tum gt-tum.txt estimated-tum.txt --align --correct_scale
+```
+
+For odometry methods (which accumulate drift), **RPE** (Relative Pose Error) is more appropriate than ATE.
+
+Scripts for running the full localisation benchmark are in `scripts/localisation_benchmark/`. See the [README](https://github.com/ori-drs/oxford_spires_dataset) for details.

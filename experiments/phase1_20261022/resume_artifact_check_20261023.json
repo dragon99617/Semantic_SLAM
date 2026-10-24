@@ -1,0 +1,391 @@
+{
+  "checked_at": "2026-10-23T15:28:28.289702+08:00",
+  "scope": "Recheck compact archived semantic outputs and original/snapshot native artifacts after resuming; no inference rerun",
+  "passed": true,
+  "checks": [
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc0_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc1_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/OSMa/v3_sc2_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office0/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office0/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office0/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office0/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office0/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office1/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office1/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office1/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office1/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/office1/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/room0/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/room0/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/room0/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/room0/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/runs/Replica/room0/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc0_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc1_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/baseline/v3_sc2_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc0_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc1_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/camera_lights/v3_sc2_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc0_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc1_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/dynamic_lights/v3_sc2_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc0_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc1_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00/metrics.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00/config.yaml",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00/runtime.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00/audit.json",
+      "matches": true
+    },
+    {
+      "path": "experiments/multibench_20261020/paired_runs/no_lights/v3_sc2_staging_00/confusion.npy",
+      "matches": true
+    },
+    {
+      "path": "fast_livo2_ws/install/fast_livo/lib/fast_livo/fastlivo_mapping",
+      "matches": true
+    },
+    {
+      "path": "experiments/phase1_20261022/frozen_runtime/fastlivo_mapping",
+      "matches": true
+    },
+    {
+      "path": "fast_livo2_ws/install/vikit_ros/lib/libvikit_ros.so",
+      "matches": true
+    },
+    {
+      "path": "experiments/phase1_20261022/frozen_runtime/libvikit_ros.so",
+      "matches": true
+    },
+    {
+      "path": "fast_livo2_ws/install/vikit_common/lib/libvikit_common.so",
+      "matches": true
+    },
+    {
+      "path": "experiments/phase1_20261022/frozen_runtime/libvikit_common.so",
+      "matches": true
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "checked_at": "2026-10-23T16:47:26.437893+08:00",
+  "scope": "Final selected available-data phase1 acceptance; M2DGR unavailable exception, no FAST-LIVO2 to OVO integration",
+  "passed": true,
+  "checks": {
+    "summary_status_complete": true,
+    "all_summary_checks_pass": true,
+    "controller_all_completed": true,
+    "all_12_full_clean_frozen_runs": true,
+    "all_30_scored_csvs_match_report": true,
+    "identical_reference_bytes_within_each_sequence": true,
+    "all_49_script_hashes_match": true,
+    "resumed_semantic_and_native_artifact_checks_pass": true,
+    "resumed_source_weight_checks_pass": true,
+    "resumed_semantic_source_checks_pass": true,
+    "baseline_freeze.json_hashes_match": true,
+    "protocol_hashes.json_hashes_match": true,
+    "all_30_plots_refreshed_from_unchanged_csvs": true,
+    "no_task_compute_or_playback_processes_left": true,
+    "git_diff_check_passed": true
+  },
+  "runs": [
+    {
+      "id": "ntu_eee01_r1",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "82507523f184bc471f8ee00a9edd9bbb34999c09fc07f748aa3c310cfc3b49c0",
+        "estimate_imu.tum": "29532fe51514448558ab228709499a73ad364ee6155cdf62fe811fe6100098db",
+        "descriptor.json": "6eebbc9842a94688bf48ede154f5fdc56593b5c1007c67ed8a3b07016a9b00f2",
+        "accuracy/metrics.json": "1be46620aa054341a8464ccfbb0e071d79b8253edaf916315098d51c6240028e",
+        "diagnostics.json": "b144cd9141cb6d59dcc371eb8f654c9628d10ee3f10138848b0ddb71db2bd27d",
+        "mapper.yaml": "8430e4ef003783e9891e22a3609972dcbaf45f54f615e4f127907c5e6d766e89",
+        "camera.yaml": "0870a3a506d294b2bc076e5e8594794a4f9baedbb20ed8f1b7daff418b3829cd",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "8523f2de3d83629e68e89f9f69ef676e8988051059f8350e74e69d11b8bd2dd4",
+        "camera_parameters.yaml": "0be8801f6e694ba424a3853c254826d77510d79f0533d57a6277af8c83c26eef",
+        "resources.csv": "9000cf4d7a73a4294c788748c7060b2c71f1712d60b86d79e6257f49d62c528a"
+      }
+    },
+    {
+      "id": "retail_r1",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "compact_artifacts": {
+        "summary.json": "3dc9218c2abd107479a98338af63aeea275fbd32902092bb2c5699f6372302fd",
+        "estimate_imu.tum": "e3acdb60eda559a004d6e912fe761c7f21249f54b1352926988865ec52415cf9",
+        "descriptor.json": "6a10725ac3d86958f6ff28bf230ea859343c93b5b980a2465058b938cee1bb4b",
+        "accuracy/metrics.json": "6cd76cc908a3db076450a9712247945f1eff2cb6490c9f5d126d1896af43a918",
+        "diagnostics.json": "56658745481bb3cd745fa26485530b5a9e775999a46dbf933b990babbd8273af",
+        "mapper.yaml": "740b7c6d5acf46d7ffb12ceda0454761e6ae22d94d703d1a64ccfd713afa8cf8",
+        "camera.yaml": "cd58242cf93b5f8408428387291bb91425420be8f7bf2c75ceb1efe1770b442c",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "5070afa59de0a5773e6cf87a5ba8c1a78c7b2a539ab6662205d536eab534817c",
+        "camera_parameters.yaml": "8ba95511cf6c811d02e560a3b969b02f396b145d9d30dab3c48228f03a8f895d",
+        "resources.csv": "008965c2ee93593e50dc4180f91005ad3808a26fc77e44bd9f4eaa1ea6eef7ea"
+      }
+    },
+    {
+      "id": "fpv2_01_r1",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "2305e905334b4486b7aa27839f99f5100801466021b9454d0fda84e3ec5f5a0e",
+        "estimate_imu.tum": "aafc1311ee05a512e28c970f97c9fb6b4c8640495a6a1b69c544155f906f115e",
+        "descriptor.json": "c950e176ba4892d7bd28f94acb3575fc3da608c5f37b3e81435ef4c998482211",
+        "accuracy/metrics.json": "e2e73e1e2f793a80570c2ddb870d81bc0855a43b381f9461d06a8039d4981b4b",
+        "diagnostics.json": "63ace1933be4ca4e4329ceb643c6fa3a481779f84dd52e9aeb4fa15e62d6b559",
+        "mapper.yaml": "2cc4d9a2127f8f5272b6967cafc66f6c761f9ee6609e0641c73fc35437f0cff4",
+        "camera.yaml": "d74dfe8e1261719005d6446c1a2a757dca10151f8944ad71638f455680d25b8a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "58d138fee9863479561a95e39a5b77642d7ebba4ec81601dccc6ca0a6e1886d1",
+        "camera_parameters.yaml": "fd9422eb341263755e716d502d75eeefd3d905d8903d7df34ce3139e91da7d7d",
+        "resources.csv": "37bd14b4a479b5d2e78aacaa018d40fa0befd12a0e0f654b1d11d2e191048c4a"
+      }
+    },
+    {
+      "id": "oxford02_r1",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "68ced58762682add25dbb7265f87468cc2a664101509b7590a30e4c6a8309c7e",
+        "estimate_imu.tum": "9cbee48be57ea7bb5380c89ae2483752b27f1f4abf1dbaea24f6b2de2937a65c",
+        "descriptor.json": "93605fe5f32aa568a89e06a2841e6994e087e19cd8bf2476a2ebd3af9d3e9b00",
+        "accuracy/metrics.json": "4502de510d5928845100dda071f680e7290f3083cb403d469be24bee1b35c407",
+        "diagnostics.json": "d2ceaff8f439a7a6fb3394843da1e88535f2cf2e9cff062f8eaebd3e754c845c",
+        "mapper.yaml": "f1af2bac0bba3eca8245320a0d63381efdfcb24947d8c940af44de7f0e026471",
+        "camera.yaml": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "3c1daf84edaa8e9f8ba535e31f340f29d5f47cf3b473ba82c695b6a199cfe0e1",
+        "camera_parameters.yaml": "acadb53f607aea9796689adcc18f793eeb199ec1f6e335d6c3c90a1b75408470",
+        "resources.csv": "432e9281152f045aef24dab750e275d75cfb1ceba97e39b5418aff64ed8fdaf0"
+      }
+    },
+    {
+      "id": "oxford05_r1",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "12d49377f2bcfc49e8841415e23187d26db088453926da50b1c4b155e24a0194",
+        "estimate_imu.tum": "5f24ca50b657424d1db023ecfe534ae36a9e7de181f4d139a252810d467627f5",
+        "descriptor.json": "d3c96318327ce29f97660c071a9f4fa814ccb04ac5225959c308b78477ff47fa",
+        "accuracy/metrics.json": "36e66c26c3213f71a8dde0299aaf04722a427617da6b8fa8c0b7792db93fef5b",
+        "diagnostics.json": "6138a83c56692eb3ee23d15452c4211497e7a056c9899c58d48932bcd392b7bf",
+        "mapper.yaml": "9c485d308a617b96234406830e4338930e80dec7c4508a1997b7869f855c21ab",
+        "camera.yaml": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "cfc85e85adc864f67c6a3d7aeae00feb349ec6554f8914ddab803a2a5386cfa1",
+        "camera_parameters.yaml": "acadb53f607aea9796689adcc18f793eeb199ec1f6e335d6c3c90a1b75408470",
+        "resources.csv": "0a01908fb0e03101c2fcaf8eeb8afea74d97416a160b07d867d5123c109cecf9"
+      }
+    },
+    {
+      "id": "fpv2_00_r1",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "7d347d0a719ee8ea8ffce991d6ff8e4727ed0e6959bbd427aed2e6ff83583027",
+        "estimate_imu.tum": "f252bc7bdca9e177b7d18e80a2ecabd4634f5e6f1cbe088162b62cf3a82c42bc",
+        "descriptor.json": "30cbcf4bd08784a74fd718e54b769e80781c0c5da4e8af611a28e3fa7bac72fa",
+        "accuracy/metrics.json": "b8884c23682afcb125e4c650c56564e42f8e5e768936bd75f764caccaa97e70f",
+        "diagnostics.json": "c1679241de0312bdc4180dc76989e836da3f55ae70bea28c948779fdaf80755e",
+        "mapper.yaml": "5409ed15b23038c654aa28dbae361db5f8d8a954fc436690e53a5fa37eb2e82d",
+        "camera.yaml": "d74dfe8e1261719005d6446c1a2a757dca10151f8944ad71638f455680d25b8a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "29624e7a81072bc3d1ae2519fd58c7345f323e9c39fdb89d704990957ff7c3f3",
+        "camera_parameters.yaml": "fd9422eb341263755e716d502d75eeefd3d905d8903d7df34ce3139e91da7d7d",
+        "resources.csv": "54a836c0299f120d51b1c341df4bccd996bacb9ec20f43ea52280d939ae2b5a9"
+      }
+    },
+    {
+      "id": "ntu_eee01_r2",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "79daf3a64a89de2efee50bac0b4937ce1250b11684456c70509e0dcbaad3f66e",
+        "estimate_imu.tum": "f02ec083146784886ea13405b68aa7dc6478d93552d30de37cd572a273925120",
+        "descriptor.json": "180d86184fe098d70aafd71de6a1480a8dcc7d0ecf191653001d3d61defee6c5",
+        "accuracy/metrics.json": "6f008126787a1440d5e4688365d3771febb1c52caa95b2e10956f5015bfee5c8",
+        "diagnostics.json": "e688a03451f05e144c6387f57677f7c60a9920a07621a51ac5cd9afceaeac7e7",
+        "mapper.yaml": "cc5ea1b76f920ce08ec626d3e495c95590a81d6adcdc7df0d471deda8c78db97",
+        "camera.yaml": "0870a3a506d294b2bc076e5e8594794a4f9baedbb20ed8f1b7daff418b3829cd",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "aa2b5f4c8dbab6672fb6628467661679c9a959ce34787f12932a13a42bec9541",
+        "camera_parameters.yaml": "0be8801f6e694ba424a3853c254826d77510d79f0533d57a6277af8c83c26eef",
+        "resources.csv": "e09b4229d319404de1b1433cd364983c5993510a2bf8ecaae2e754abd87052b5"
+      }
+    },
+    {
+      "id": "ntu_eee01_r3",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "03d30ef21be1ccaee02c70c2149635fca4401bd854a65a3882a28f45b577cf73",
+        "estimate_imu.tum": "df67e5c5d9ea3c6c460ceb7339c4b74fd906175051365831f434b3db7aa8a68c",
+        "descriptor.json": "180d86184fe098d70aafd71de6a1480a8dcc7d0ecf191653001d3d61defee6c5",
+        "accuracy/metrics.json": "c5e983fc08673981b37ad43eaf683c1203d884e3b68f17f38941666235555584",
+        "diagnostics.json": "77e12d531532bf3d3f710fd00f3a6f4ecf6834300445e4191d35a5dd28c52f17",
+        "mapper.yaml": "282918ea8b178767c3afbd3c7ef1e6434f946d533860d0243e23b965d8f3cd58",
+        "camera.yaml": "0870a3a506d294b2bc076e5e8594794a4f9baedbb20ed8f1b7daff418b3829cd",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "cb68375ed4b626524ffbbbafd6729f4dfb93f0dc9773180e58447f71081b85d6",
+        "camera_parameters.yaml": "0be8801f6e694ba424a3853c254826d77510d79f0533d57a6277af8c83c26eef",
+        "resources.csv": "d2c0d9a5fd9aa533423b787b68bd3b0c7c146f1a8088a97407c6e082dcaa2a6f"
+      }
+    },
+    {
+      "id": "oxford02_r2",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "490f93bd657f8edc77e7469a484102c514f4543bc04ebc952551bd3c9140a8b0",
+        "estimate_imu.tum": "3a7c792be279675f8f0ae0b7f4f33dab3c8afb51c27b9e78b82e919e58552de8",
+        "descriptor.json": "93605fe5f32aa568a89e06a2841e6994e087e19cd8bf2476a2ebd3af9d3e9b00",
+        "accuracy/metrics.json": "aa2d6668b0fb35d61ee948ae0c4eafb83c27acd719899b744971015a1cc04115",
+        "diagnostics.json": "9a5b26e87a0fdf1a794b8a1ecfd95e4c1000bf265116326585fb71e3c483beda",
+        "mapper.yaml": "a236d96deb493479c49b9731334dc148c563bd7477f32319e741efcf44c6ea59",
+        "camera.yaml": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "a09692129b66c4ac27c3fd8de562d1b51c4fd5785a683f1b0a48b87c99aba97a",
+        "camera_parameters.yaml": "acadb53f607aea9796689adcc18f793eeb199ec1f6e335d6c3c90a1b75408470",
+        "resources.csv": "50a685e087e1b4516a36f692baebb3f0b9c3b68b385da4a7ca9ae73dc47be3e2"
+      }
+    },
+    {
+      "id": "oxford02_r3",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "4013255dba9130a7a0875b20eeed528ab5531d13b0e7c7174a620927e00271ec",
+        "estimate_imu.tum": "142d96ba1132f172967f7e0fd11712fcb5776c414351c7c6d317991e221c3d47",
+        "descriptor.json": "93605fe5f32aa568a89e06a2841e6994e087e19cd8bf2476a2ebd3af9d3e9b00",
+        "accuracy/metrics.json": "b6a92cfbd9f9628ec07a8573702b9c53f4123683c63d38f19eb02c5b0ec59b15",
+        "diagnostics.json": "a0d78fe6382ca5705b8edeccd1c7707d4bcfb2694687b1a68d060cc46279effb",
+        "mapper.yaml": "5730d0fd782a62ecbf635efe195e8a3d869c339dd327d4eb0603dce032f755fa",
+        "camera.yaml": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "209f6480238a01f8fde1bedbbd9b22d0311ae2a0a76c315b8b0360f2e08cc415",
+        "camera_parameters.yaml": "acadb53f607aea9796689adcc18f793eeb199ec1f6e335d6c3c90a1b75408470",
+        "resources.csv": "ab537505609738fcad3772536abd869a5233eddf7449540d7f29263cd99345b9"
+      }
+    },
+    {
+      "id": "fpv2_00_r2",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "7383589403be7a519fecfc6497c5b376a5ea9ae58e90df3299fb5a6b14e68bac",
+        "estimate_imu.tum": "b1d5e0d447b7d545f24a424d331a11b005f6431213623257934c363c5c10091b",
+        "descriptor.json": "30cbcf4bd08784a74fd718e54b769e80781c0c5da4e8af611a28e3fa7bac72fa",
+        "accuracy/metrics.json": "20317fb39d9faf1c4a0c670c45a48ce87db859a978a8282f8937de8703314e9e",
+        "diagnostics.json": "0bd4ea98a2e782c57b0638ea4d1e0ae226740773c78ed69307c0f5565072872f",
+        "mapper.yaml": "28872d8e87296ee73ce0af8dc41cc4eef8174342817329267652df8f3f44c1f5",
+        "camera.yaml": "d74dfe8e1261719005d6446c1a2a757dca10151f8944ad71638f455680d25b8a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "c951bd8a308f2d4efefd62abea52bb7216093738d1cd2e6a4989a3a1bb57f296",
+        "camera_parameters.yaml": "fd9422eb341263755e716d502d75eeefd3d905d8903d7df34ce3139e91da7d7d",
+        "resources.csv": "cc13f40f775ce4f6511c67bb8681a63a31643bfaabfdcf792cd6251c292758a2"
+      }
+    },
+    {
+      "id": "fpv2_00_r3",
+      "clean_full_run": true,
+      "all_input_callbacks_exact": true,
+      "frozen_native_binary": true,
+      "trajectory_rows_match": true,
+      "trajectory_finite_monotonic": true,
+      "trajectory_coverage_above_99_percent": true,
+      "reference_file_hash_match": true,
+      "compact_artifacts": {
+        "summary.json": "9ea5842f78402885b756cebfb773d0e394e61bbd9ab926aa439aafab65e8f37c",
+        "estimate_imu.tum": "7edb405681c545a5258843b22a699f501de415f8617284064f5dbac67caa6c66",
+        "descriptor.json": "30cbcf4bd08784a74fd718e54b769e80781c0c5da4e8af611a28e3fa7bac72fa",
+        "accuracy/metrics.json": "faba671c0c479ae110adfda6623c413a465a02d3d6fc1d194ebc5ce2d20bf7eb",
+        "diagnostics.json": "08478ccde83a01fd02629d2855d4fb3b8d1413ed2dd8857078f67fae62db43fb",
+        "mapper.yaml": "8f6d3c42dd6b42d1ae037b85237c483c955ae9e1dcce6c12e72ac3dd2784014b",
+        "camera.yaml": "d74dfe8e1261719005d6446c1a2a757dca10151f8944ad71638f455680d25b8a",
+        "binary.json": "72de1ba18524c96eae96b90c1392dc650c2ddef38d8e184241c8b2b103406e14",
+        "mapper_parameters.yaml": "ffca0d9c95d02a5b5159fd6712d6f129fdc6c3c45197f6f41ccc0fda4ef071c3",
+        "camera_parameters.yaml": "fd9422eb341263755e716d502d75eeefd3d905d8903d7df34ce3139e91da7d7d",
+        "resources.csv": "d2f61fadfe34c3002701c63b75587278a973113c87d50fa0f09d9bdc2e283104"
+      }
+    }
+  ],
+  "scored_csv_checks": [
+    {
+      "file": "experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_matched.csv",
+      "sha256": "8babf0c6ddcfb7f820769d00fa6f9922624f9ba4e4d3cee148f2e6e397f0b0c7",
+      "rows": 1337,
+      "recomputed_rmse_m": 0.02511763654478515,
+      "reported_rmse_m": 0.02511763654478515,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/ntu_eee01_r1/accuracy/prism_interpolated.csv",
+      "sha256": "c6f7d351bfe0f1471a1eca5f1f8839965ad766cfea74c5220f75e810a8ef3686",
+      "rows": 3341,
+      "recomputed_rmse_m": 0.031824444291289444,
+      "reported_rmse_m": 0.031824444291289444,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/imu_direct_matched.csv",
+      "sha256": "f4df782a7b5844bde1a26eb042d645e504873b6dd65e094a1866ed2ba5a3c015",
+      "rows": 2739,
+      "recomputed_rmse_m": 0.1688268591615953,
+      "reported_rmse_m": 0.1688268591615953,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/imu_direct_interpolated.csv",
+      "sha256": "03fd2cad2d0435eee14ae9eb6b4654802351b844e56ed7ad72c2bb50f9be8f85",
+      "rows": 5921,
+      "recomputed_rmse_m": 0.19880222481530593,
+      "reported_rmse_m": 0.19880222481530593,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/prism_compensated_matched.csv",
+      "sha256": "5d0f25c4a197b9519b100065f3e4027e4ae707e8e96c1bc5be183daf20b89de6",
+      "rows": 2739,
+      "recomputed_rmse_m": 0.16892383301930128,
+      "reported_rmse_m": 0.16892383301930128,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_01_r1/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "2c5d7d35b95f99ea52a318a10d6fd8da53cd18dae62ed46be55ed3b216481c43",
+      "rows": 5921,
+      "recomputed_rmse_m": 0.1988999735909106,
+      "reported_rmse_m": 0.1988999735909106,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_matched.csv",
+      "sha256": "82947d1a868b25e5be13e80674102d84034e7a1a93e20df48116145ec515e2d3",
+      "rows": 11144,
+      "recomputed_rmse_m": 0.2970479661022926,
+      "reported_rmse_m": 0.2970479661022926,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford02_r1/accuracy/base_interpolated.csv",
+      "sha256": "bcd7d16a6eb64f85cfd085ec1a4789a32572161071216fc4eb6096ecef578f53",
+      "rows": 11139,
+      "recomputed_rmse_m": 0.29702834264417216,
+      "reported_rmse_m": 0.29702834264417216,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford05_r1/accuracy/base_matched.csv",
+      "sha256": "26f283602a4d7125d8d8b1fb84044d4647ae5d03ddb01d0a0c3f98236dd16cb5",
+      "rows": 3959,
+      "recomputed_rmse_m": 0.14722816428447413,
+      "reported_rmse_m": 0.14722816428447413,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford05_r1/accuracy/base_interpolated.csv",
+      "sha256": "1fbc7099cacb2dc6233738984dc1a93a5c3471f0a156372cad8e6920c8fb04c7",
+      "rows": 3795,
+      "recomputed_rmse_m": 0.1457710983830523,
+      "reported_rmse_m": 0.1457710983830523,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_matched.csv",
+      "sha256": "102e1db5b7053f7637154b67a9bf6e1ff5db0eec950723821ca6bd8b807b0cd9",
+      "rows": 3729,
+      "recomputed_rmse_m": 0.1685805430227578,
+      "reported_rmse_m": 0.1685805430227578,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/imu_direct_interpolated.csv",
+      "sha256": "fcd22796525ee178cc481f7387a4f20add570f73afb879b594a7b25b44c0a7c9",
+      "rows": 7969,
+      "recomputed_rmse_m": 0.17512911102241546,
+      "reported_rmse_m": 0.17512911102241546,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_matched.csv",
+      "sha256": "d65b3ec1d1f1c87fb3e47736f3c09773e0eeb5536c13334dbc1b08b662091962",
+      "rows": 3729,
+      "recomputed_rmse_m": 0.16846860920255333,
+      "reported_rmse_m": 0.1684686092025533,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r1/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "8c6b2cda05fa165ff0c9ff1b4fdd45accf8e3ab9719794111796d5c6f30cf36a",
+      "rows": 7969,
+      "recomputed_rmse_m": 0.17501246808133133,
+      "reported_rmse_m": 0.17501246808133133,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/ntu_eee01_r2/accuracy/prism_matched.csv",
+      "sha256": "ebe70426311f770b62f4cad4624153d1d7f81b288cb62e7692e42ea469c2ed49",
+      "rows": 1337,
+      "recomputed_rmse_m": 0.02493197601466663,
+      "reported_rmse_m": 0.02493197601466663,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/ntu_eee01_r2/accuracy/prism_interpolated.csv",
+      "sha256": "8b9c7873d9bfcb05152fde20f324263a28594f52d1b3b1110527b199a2514099",
+      "rows": 3341,
+      "recomputed_rmse_m": 0.03155018939181025,
+      "reported_rmse_m": 0.03155018939181025,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/ntu_eee01_r3/accuracy/prism_matched.csv",
+      "sha256": "18de5d9ec363015a7a04812b6c14a4c9ffc62943fb197a4bc85f6b5adf148dfe",
+      "rows": 1337,
+      "recomputed_rmse_m": 0.025038063754789657,
+      "reported_rmse_m": 0.025038063754789657,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/ntu_eee01_r3/accuracy/prism_interpolated.csv",
+      "sha256": "5e25ea64ecc679b77bac0fe28811ab9ae8a50f26decddf32ab6032d39b985e58",
+      "rows": 3341,
+      "recomputed_rmse_m": 0.031574353274814886,
+      "reported_rmse_m": 0.031574353274814886,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_matched.csv",
+      "sha256": "a417fa2004d78137d5c7b521a62566ffa0fccbfedba602bacbc21f2320a2ffce",
+      "rows": 11144,
+      "recomputed_rmse_m": 0.29513101725227536,
+      "reported_rmse_m": 0.29513101725227536,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_interpolated.csv",
+      "sha256": "429043295dd7d90eb1905a3ab3f37c328094eab140554bb75f3eeacd361fd276",
+      "rows": 11139,
+      "recomputed_rmse_m": 0.29511194590115797,
+      "reported_rmse_m": 0.29511194590115797,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford02_r3/accuracy/base_matched.csv",
+      "sha256": "bce28d2fccaf2238b671afde8fda558719f602b62bb29351fab82e50b7030660",
+      "rows": 11144,
+      "recomputed_rmse_m": 0.29698435352049074,
+      "reported_rmse_m": 0.29698435352049074,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/oxford02_r3/accuracy/base_interpolated.csv",
+      "sha256": "adc9661b69f82a7883cc8232a416eab2fe227a2017da2f4c3d3d2f03ddaa98d1",
+      "rows": 11139,
+      "recomputed_rmse_m": 0.29696511809140075,
+      "reported_rmse_m": 0.29696511809140075,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/imu_direct_matched.csv",
+      "sha256": "b50b6a0f556f4ed57311704dc3a9ea695be43a3cfc8f3abcc14159111de3644d",
+      "rows": 3729,
+      "recomputed_rmse_m": 0.16777988521174866,
+      "reported_rmse_m": 0.16777988521174866,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/imu_direct_interpolated.csv",
+      "sha256": "beec961efcf2cbaaeb9c83cd8c7cfe186285362426981bac157ca3de3465c7cc",
+      "rows": 7969,
+      "recomputed_rmse_m": 0.1734999984242755,
+      "reported_rmse_m": 0.1734999984242755,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/prism_compensated_matched.csv",
+      "sha256": "aee7c98e5fdd06a665d7ae45a5b050b7f0cab2be10abb6992f094454937fe966",
+      "rows": 3729,
+      "recomputed_rmse_m": 0.16770476454916952,
+      "reported_rmse_m": 0.16770476454916952,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r2/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "2e74040d1b5107da7cdcc86cfeec1f1ebad74e39b723af9dc2506a2669b55a10",
+      "rows": 7969,
+      "recomputed_rmse_m": 0.17340201626427465,
+      "reported_rmse_m": 0.17340201626427465,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/imu_direct_matched.csv",
+      "sha256": "06fbd06ebbe90d43a7248c0fb10a0d7fc1f70d80d33963962a4806a4b1791ddb",
+      "rows": 3729,
+      "recomputed_rmse_m": 0.1647905548205734,
+      "reported_rmse_m": 0.1647905548205734,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/imu_direct_interpolated.csv",
+      "sha256": "fba0b36e59df588d48087651395536d7fb5ef96f81967c2ea62b01a4f76e8733",
+      "rows": 7967,
+      "recomputed_rmse_m": 0.16842697845892723,
+      "reported_rmse_m": 0.16842697845892723,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/prism_compensated_matched.csv",
+      "sha256": "ea03ccdee0872fb4a30e93c8df2e7d90f85d62aaa9b169b3ac97dfe520a2dd86",
+      "rows": 3729,
+      "recomputed_rmse_m": 0.1647821543009874,
+      "reported_rmse_m": 0.1647821543009874,
+      "passed": true
+    },
+    {
+      "file": "experiments/phase1_20261022/runs/fpv2_00_r3/accuracy/prism_compensated_interpolated.csv",
+      "sha256": "b21fea0d1f8c5dd4e97ed42f4693eb8d50d75c1fc8461a168c4789a39a4fa295",
+      "rows": 7967,
+      "recomputed_rmse_m": 0.16832763668550413,
+      "reported_rmse_m": 0.16832763668550413,
+      "passed": true
+    }
+  ],
+  "reference_hashes_by_sequence": {
+    "ntu_eee01": [
+      "61dff03eb13716c5f88759cfb6a69107d7bf168d91b42bc9c63a66011fd5d262"
+    ],
+    "fpv2_01": [
+      "cb1ba33fc3df91309aed7826f6d7d7a1dc47f5616a94eec3b49d9f3a6c0b742e"
+    ],
+    "oxford02": [
+      "01b7c1bf7e2b80f9da058dfe39b043bc7509e33c887221aa1505eb11dbde0cae"
+    ],
+    "oxford05": [
+      "993f09497fbe78679278ba498988ee74c5265997546eabc9dc9be867f13f3119"
+    ],
+    "fpv2_00": [
+      "845226f8715ff83c13967e594a858f25fef0db0ed8179f91b5a18cacac07c47c"
+    ]
+  },
+  "script_hash_manifest": "experiments/phase1_20261022/script_hashes.json",
+  "active_task_processes": [],
+  "git_diff_check_output": ""
+}

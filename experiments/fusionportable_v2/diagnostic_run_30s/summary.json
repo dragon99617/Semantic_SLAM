@@ -1,0 +1,14 @@
+{
+  "status": "failed",
+  "error": "Command '['ros2', 'param', 'dump', '--no-daemon', '--spin-time', '2', '/parameter_blackboard']' returned non-zero exit status 1.",
+  "diagnostic": true,
+  "rate": 0.5,
+  "mapper_clean_exit": true,
+  "player_returncode": null,
+  "wall_seconds": 10.894996447997983,
+  "received_outputs": {},
+  "max_cloud_points": 0,
+  "timestamp_basis": "saved TUM sensor time; ROS output stamps are node time",
+  "map_artifact": "sampled output clouds, every tenth message, ~512 points/message, 10 cm deduplication",
+  "run_dir": "/home/hxy/SLAM_project/experiments/fusionportable_v2/diagnostic_run_30s"
+}

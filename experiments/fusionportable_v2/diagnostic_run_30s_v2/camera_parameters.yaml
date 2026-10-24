@@ -1,0 +1,23 @@
+/parameter_blackboard:
+  ros__parameters:
+    cam_cx: 516.623047
+    cam_cy: 395.985901
+    cam_d0: -0.0897810012
+    cam_d1: 0.0848949999
+    cam_d2: 0.000813000021
+    cam_d3: 0.00043700001
+    cam_fx: 601.26178
+    cam_fy: 601.177307
+    cam_height: 768
+    cam_model: Pinhole
+    cam_width: 1024
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    scale: 1.0
+    use_sim_time: false
+

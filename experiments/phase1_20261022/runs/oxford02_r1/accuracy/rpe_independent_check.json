@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "pairs": 560,
+  "independent_formula": "NumPy homogeneous inverse/products and SciPy Rotation magnitude, using unaligned estimate (global SE3 invariance)",
+  "max_translation_difference_m": 4.562669686514198e-14,
+  "max_rotation_difference_deg": 1.0880185641326534e-14,
+  "reference_pair_intervals_within_1s_plus_minus_0_05s": true,
+  "nonoverlapping_consecutive_pairs": true
+}

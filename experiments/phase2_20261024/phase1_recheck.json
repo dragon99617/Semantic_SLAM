@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-24T00:13:52.100396+08:00",
+  "passed": true,
+  "checks": {
+    "archived_acceptance_passed": true,
+    "OVO_commit_matches": true,
+    "OSMa-Bench_commit_matches": true,
+    "SAM2_commit_matches": true,
+    "ovo_working_patch_matches": true,
+    "all_frozen_files_match": true,
+    "12_completed_geometry_runs": true
+  },
+  "files_checked": 238,
+  "mismatches": [],
+  "scope": "Read-only byte/commit recheck of archived acceptance; no reruns"
+}

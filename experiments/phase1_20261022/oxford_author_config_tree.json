@@ -1,0 +1,449 @@
+{
+  "sha": "f2c9abb72f82359bcb9190e31b8faa6b6b7b9a64",
+  "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/f2c9abb72f82359bcb9190e31b8faa6b6b7b9a64",
+  "tree": [
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7f51009ec3769af516a8c52926f06c5763a6670d",
+      "size": 4203,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/7f51009ec3769af516a8c52926f06c5763a6670d"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "size": 18092,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/d159169d1050894d3ea3b98e1c965c4058208fe1"
+    },
+    {
+      "path": "Log",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73457087481afb51a4c03f1007e5ae9f8f11930a",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/73457087481afb51a4c03f1007e5ae9f8f11930a"
+    },
+    {
+      "path": "Log/Colmap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "186b0eee4295fdc67efa1367e45c803c41e52c7c",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/186b0eee4295fdc67efa1367e45c803c41e52c7c"
+    },
+    {
+      "path": "Log/Colmap/sparse",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59853d2953e7de03b2617fa9529140ae2fe1d70f",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/59853d2953e7de03b2617fa9529140ae2fe1d70f"
+    },
+    {
+      "path": "Log/Colmap/sparse/0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ff6259b55c02582419939c2c159a9a93f0b54b3",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/5ff6259b55c02582419939c2c159a9a93f0b54b3"
+    },
+    {
+      "path": "Log/Colmap/sparse/0/cameras.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f766cbcbcdb3b5131c57ac2108aa644df952da",
+      "size": 156,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/98f766cbcbcdb3b5131c57ac2108aa644df952da"
+    },
+    {
+      "path": "Log/Colmap/sparse/0/images.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "Log/Colmap/sparse/0/points3D.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "Log/PCD",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "Log/PCD/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "Log/guide.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ebd4d1146f631146a33f183babfa0910653d3352",
+      "size": 76,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/ebd4d1146f631146a33f183babfa0910653d3352"
+    },
+    {
+      "path": "Log/plot.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b8dd1df6fb630d540f2a7f02ce2b00284fe328a2",
+      "size": 3283,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/b8dd1df6fb630d540f2a7f02ce2b00284fe328a2"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac5d4e65708ba8c51b265eed16f126cdc5599ed",
+      "size": 3569,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/eac5d4e65708ba8c51b265eed16f126cdc5599ed"
+    },
+    {
+      "path": "Supplementary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "106bf7027f064ea8934abf1dea811f6d8eb2e227",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/106bf7027f064ea8934abf1dea811f6d8eb2e227"
+    },
+    {
+      "path": "Supplementary/LIVO2_supplementary.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c81aa68da03e09701d60e664c4bd8d4ee04fe9",
+      "size": 19608440,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/34c81aa68da03e09701d60e664c4bd8d4ee04fe9"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eeac64d35784b3fbc18422ca8eb7d1c0350d5cc1",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/eeac64d35784b3fbc18422ca8eb7d1c0350d5cc1"
+    },
+    {
+      "path": "config/avia.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "04c24bab15c0c70a62f7eb89456c5d3eeb94674a",
+      "size": 1823,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/04c24bab15c0c70a62f7eb89456c5d3eeb94674a"
+    },
+    {
+      "path": "config/camera_fisheye.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f2aa4370b008b5481d219d8caeb4f834fa4fb7",
+      "size": 245,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/b7f2aa4370b008b5481d219d8caeb4f834fa4fb7"
+    },
+    {
+      "path": "config/camera_fisheye_v8.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1831aaa57ba75d21c223af11a7af4a0820bb630f",
+      "size": 284,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/1831aaa57ba75d21c223af11a7af4a0820bb630f"
+    },
+    {
+      "path": "config/camera_pinhole.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83fd89e055c1efc74896540aaa1a183e90470947",
+      "size": 205,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/83fd89e055c1efc74896540aaa1a183e90470947"
+    },
+    {
+      "path": "config/frontier_v8.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d308f83799fa3537b899381fe9cbde07c0945d96",
+      "size": 1209,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/d308f83799fa3537b899381fe9cbde07c0945d96"
+    },
+    {
+      "path": "config/oxford_spires.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50134830b16edee61282aaa0d5cfd7373feb883e",
+      "size": 1601,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/50134830b16edee61282aaa0d5cfd7373feb883e"
+    },
+    {
+      "path": "include",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d33aeee1b3e4f6fcb1d33e48677a3911430ec95",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/8d33aeee1b3e4f6fcb1d33e48677a3911430ec95"
+    },
+    {
+      "path": "include/IMU_Processing.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4552b51c26ba0a1129bff9257c6e74854388c7c0",
+      "size": 2651,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/4552b51c26ba0a1129bff9257c6e74854388c7c0"
+    },
+    {
+      "path": "include/LIVMapper.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f211dfcb29e3f0342486d4e363864ecc8b5f2cd4",
+      "size": 6494,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/f211dfcb29e3f0342486d4e363864ecc8b5f2cd4"
+    },
+    {
+      "path": "include/common_lib.h",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f85267d2dc54c7a05aa2eb5befbf043b5404d612",
+      "size": 7059,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/f85267d2dc54c7a05aa2eb5befbf043b5404d612"
+    },
+    {
+      "path": "include/feature.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a17f870a1c4bcd9ccb73a0f3cfdd699784802f",
+      "size": 2034,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/08a17f870a1c4bcd9ccb73a0f3cfdd699784802f"
+    },
+    {
+      "path": "include/frame.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8172dcdc6db0aeff1153a308c2c2005d94fc8b66",
+      "size": 3144,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/8172dcdc6db0aeff1153a308c2c2005d94fc8b66"
+    },
+    {
+      "path": "include/preprocess.h",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "649ed8383e38f8e302a44c1784cacbc304545d85",
+      "size": 4985,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/649ed8383e38f8e302a44c1784cacbc304545d85"
+    },
+    {
+      "path": "include/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b604f044a99d3a8f94724a5845a8d4f4f682930",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/3b604f044a99d3a8f94724a5845a8d4f4f682930"
+    },
+    {
+      "path": "include/utils/color.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ffc24fcb89c50b18fe379ac6e22be6621e22129",
+      "size": 1125,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/6ffc24fcb89c50b18fe379ac6e22be6621e22129"
+    },
+    {
+      "path": "include/utils/so3_math.h",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7594890091d5ebef5372c2697ba7c46facccbfa",
+      "size": 2526,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/a7594890091d5ebef5372c2697ba7c46facccbfa"
+    },
+    {
+      "path": "include/utils/types.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e0564a240afb5983e23a1a085548633e20f5b09",
+      "size": 1488,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/4e0564a240afb5983e23a1a085548633e20f5b09"
+    },
+    {
+      "path": "include/vio.h",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5600b1d0a1bce75e99ed50950117fd2ba28a2f5",
+      "size": 6177,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/d5600b1d0a1bce75e99ed50950117fd2ba28a2f5"
+    },
+    {
+      "path": "include/visual_point.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "494cc726d12ab45db0d82f93d92ea98f71880a0e",
+      "size": 1739,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/494cc726d12ab45db0d82f93d92ea98f71880a0e"
+    },
+    {
+      "path": "include/voxel_map.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21afaa34e3fe8c680e27b041b9a75686200a876b",
+      "size": 7182,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/21afaa34e3fe8c680e27b041b9a75686200a876b"
+    },
+    {
+      "path": "launch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "580c219925ffc977e1f30c19c151be43a797b6f6",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/580c219925ffc977e1f30c19c151be43a797b6f6"
+    },
+    {
+      "path": "launch/mapping_avia.launch",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1e5c36029e2f7f2e4a0445df5b02605fc730b511",
+      "size": 737,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/1e5c36029e2f7f2e4a0445df5b02605fc730b511"
+    },
+    {
+      "path": "launch/mapping_frontier_v8.launch",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fbb392aeb456ded6f9b4c8d002bb04a42d19b6e1",
+      "size": 757,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/fbb392aeb456ded6f9b4c8d002bb04a42d19b6e1"
+    },
+    {
+      "path": "launch/mapping_oxford_spires.launch",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "86d31f9a95943e89d4cb814eb277d329d60a79c2",
+      "size": 756,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/86d31f9a95943e89d4cb814eb277d329d60a79c2"
+    },
+    {
+      "path": "package.xml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "af3a353ccde1ba90eec8498710cea406a991b1e2",
+      "size": 1798,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/af3a353ccde1ba90eec8498710cea406a991b1e2"
+    },
+    {
+      "path": "pics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2251ac046586e48d4a47993ca99c34353e29a64a",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/2251ac046586e48d4a47993ca99c34353e29a64a"
+    },
+    {
+      "path": "pics/Framework.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f1479342ffe622d379a49b570fa417c48523e2",
+      "size": 1717083,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/c2f1479342ffe622d379a49b570fa417c48523e2"
+    },
+    {
+      "path": "rviz_cfg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96564133db2706ca5281341b132724064034bdb2",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/96564133db2706ca5281341b132724064034bdb2"
+    },
+    {
+      "path": "rviz_cfg/fast_livo2.rviz",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7e92212834e955c41155c11da89315f80fd69d91",
+      "size": 20667,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/7e92212834e955c41155c11da89315f80fd69d91"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8a83dd311e18d9a56a7c7aebeeb5a39af30622f",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/f8a83dd311e18d9a56a7c7aebeeb5a39af30622f"
+    },
+    {
+      "path": "scripts/colmap_output.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f0b35d531585a2fcbe6cd98c5646b48ffa29a9d3",
+      "size": 465,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/f0b35d531585a2fcbe6cd98c5646b48ffa29a9d3"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6fb21654f8c1f59bb9e11fd48c449cc2f1df40f",
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/trees/e6fb21654f8c1f59bb9e11fd48c449cc2f1df40f"
+    },
+    {
+      "path": "src/IMU_Processing.cpp",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b9306242800faca13b22ae2e2a219002c1774509",
+      "size": 20977,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/b9306242800faca13b22ae2e2a219002c1774509"
+    },
+    {
+      "path": "src/LIVMapper.cpp",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ba2bb18280599d37c4c7b47f4af7af55de295ae",
+      "size": 48449,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/2ba2bb18280599d37c4c7b47f4af7af55de295ae"
+    },
+    {
+      "path": "src/frame.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a0b1268cef7032664845dfea885eaa5ef711a11",
+      "size": 1639,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/2a0b1268cef7032664845dfea885eaa5ef711a11"
+    },
+    {
+      "path": "src/main.cpp",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "135b3363b381b2be59df6a47d07ddee515355c60",
+      "size": 270,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/135b3363b381b2be59df6a47d07ddee515355c60"
+    },
+    {
+      "path": "src/preprocess.cpp",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "322776b02c410618fb60fe7e18e2ad97b7bbd3f1",
+      "size": 32034,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/322776b02c410618fb60fe7e18e2ad97b7bbd3f1"
+    },
+    {
+      "path": "src/vio.cpp",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ff8fd0f795142933fbbd4df3aba2b53cd5986e4",
+      "size": 67978,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/2ff8fd0f795142933fbbd4df3aba2b53cd5986e4"
+    },
+    {
+      "path": "src/visual_point.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b7465096dfc30505545384c15ac4db77a9debf3",
+      "size": 2858,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/1b7465096dfc30505545384c15ac4db77a9debf3"
+    },
+    {
+      "path": "src/voxel_map.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01923ccac6e10dec4f800e10d548c7a620d98942",
+      "size": 37208,
+      "url": "https://api.github.com/repos/ori-drs/FAST-LIVO2/git/blobs/01923ccac6e10dec4f800e10d548c7a620d98942"
+    }
+  ],
+  "truncated": false
+}

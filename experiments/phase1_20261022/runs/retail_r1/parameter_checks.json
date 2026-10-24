@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "source_contract": "Frozen FAST-LIVO2 ROS2 837b7bbc1431cb04cf936528e52c83c835efba8e plus recorded non-estimator patch",
+  "checks": {
+    "mapper.yaml": {
+      "requested_values": 61,
+      "declared_values_matching": 58,
+      "upstream_unexposed_yaml_values": {
+        "imu.b_acc_cov": {
+          "requested": 0.0001,
+          "effective": 0.0001,
+          "basis": "Pinned LIVMapper.cpp initializeComponents sets both bias covariances to V3D(0.0001); YAML keys are not declared/read",
+          "matches": true
+        },
+        "imu.b_gyr_cov": {
+          "requested": 0.0001,
+          "effective": 0.0001,
+          "basis": "Pinned LIVMapper.cpp initializeComponents sets both bias covariances to V3D(0.0001); YAML keys are not declared/read",
+          "matches": true
+        },
+        "lio.max_iterations": {
+          "requested": 5,
+          "effective": 5,
+          "basis": "Pinned voxel_map.cpp uses ROS2 lio.min_iterations as config_setting_.max_iterations_; lio.max_iterations YAML key is not declared/read",
+          "matches": true
+        }
+      },
+      "unresolved_missing": [],
+      "different_declared_values": {},
+      "passed": true
+    },
+    "camera.yaml": {
+      "requested_values": 12,
+      "declared_values_matching": 12,
+      "upstream_unexposed_yaml_values": {},
+      "unresolved_missing": [],
+      "different_declared_values": {},
+      "passed": true
+    }
+  }
+}

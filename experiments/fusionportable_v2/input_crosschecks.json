@@ -1,0 +1,15 @@
+{
+  "static_tf_checked": true,
+  "imu_lidar_translation_difference_m": 3.615296675760554e-07,
+  "imu_lidar_rotation_difference_deg": 0.00015260882638072818,
+  "projection_overlay": "first_projection.jpg",
+  "ground_truth_comparison": {
+    "published_rows": 8283,
+    "official_resampled_example_rows": 8283,
+    "positions_identical": true,
+    "published_minus_example_time_median_s": -0.019999980926513672,
+    "new_time_offset_fitted": false
+  },
+  "point_buffer_audit": "All points retained; ROS 2 cloud headers change end to start by actual max(t).",
+  "image_audit": "JPEG decoded to BGR8; no image restamping, resizing, or photometric changes in converter."
+}

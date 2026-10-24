@@ -1,0 +1,29 @@
+{
+  "mapper": [
+    "ros2",
+    "launch",
+    "fast_livo",
+    "mapping_aviz.launch.py",
+    "use_rviz:=False",
+    "use_compressed_image:=False",
+    "avia_params_file:=/home/hxy/SLAM_project/experiments/phase1_20261022/runs/retail_r1/mapper.yaml",
+    "camera_params_file:=/home/hxy/SLAM_project/experiments/phase1_20261022/runs/retail_r1/camera.yaml"
+  ],
+  "player": [
+    "ros2",
+    "bag",
+    "play",
+    "/home/hxy/SLAM_project/datasets/Retail_Street_humble",
+    "--rate",
+    "0.5",
+    "--read-ahead-queue-size",
+    "300",
+    "--start-paused",
+    "--wait-for-all-acked",
+    "5000",
+    "--qos-profile-overrides-path",
+    "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/retail_r1/playback_qos.yaml"
+  ],
+  "ROS_DOMAIN_ID": "82",
+  "OMP_NUM_THREADS": "2"
+}

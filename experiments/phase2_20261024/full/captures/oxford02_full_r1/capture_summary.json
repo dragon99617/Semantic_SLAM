@@ -1,0 +1,69 @@
+{
+  "completed": true,
+  "short_segment": false,
+  "requested_seconds": 0.0,
+  "source_bag": "/home/hxy/SLAM_project/datasets/OxfordSpires/christ_church02_livo_half",
+  "input_audit": {
+    "/hesai/pandar": {
+      "expected": 5928,
+      "received": 5928,
+      "exact": true
+    },
+    "/alphasense_driver_ros/imu": {
+      "expected": 236606,
+      "received": 236606,
+      "exact": true
+    },
+    "/left_camera/image": {
+      "expected": 11775,
+      "received": 11775,
+      "exact": true
+    }
+  },
+  "capture_images_exact": true,
+  "counts": {
+    "images": 11775,
+    "poses": 11763,
+    "cloud_publications": 23525,
+    "empty_cloud_publications": 17583,
+    "nonempty_clouds": 5942
+  },
+  "mapper_clean_exit": true,
+  "error": null,
+  "wall_seconds": 1301.148216042,
+  "pacing_events": [
+    {
+      "action": "pause",
+      "lag_s": 2.0999655723571777,
+      "wall_s": 702.1026762330002
+    },
+    {
+      "action": "resume",
+      "lag_s": 0.0,
+      "wall_s": 706.090749172
+    },
+    {
+      "action": "pause",
+      "lag_s": 2.2499630451202393,
+      "wall_s": 1007.5848616809999
+    },
+    {
+      "action": "resume",
+      "lag_s": 0.0,
+      "wall_s": 1071.812966863
+    },
+    {
+      "action": "pause",
+      "lag_s": 2.24996280670166,
+      "wall_s": 1090.8867775970002
+    },
+    {
+      "action": "resume",
+      "lag_s": 0.0,
+      "wall_s": 1094.914601946
+    }
+  ],
+  "pose_stage": "post_LIO_pre_same_frame_VIO",
+  "cloud_source": "same_state_world_XYZ_colored_in_VIO",
+  "limitation": "Registered cloud is image-filtered by upstream VIO projection, not a complete raw scan; last input frames may lack a future LiDAR bracket."
+}

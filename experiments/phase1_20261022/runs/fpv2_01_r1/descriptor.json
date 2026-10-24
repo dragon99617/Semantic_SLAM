@@ -1,0 +1,11 @@
+{
+  "id": "fpv2_01",
+  "dataset": "FusionPortableV2",
+  "sequence": "ugv_transition01",
+  "bag": "datasets/FusionPortableV2/ugv_transition01_humble",
+  "expected_lidar_count": 3749,
+  "mapper_config": "experiments/phase1_20261022/configs/fpv2_00_mapper.yaml",
+  "camera_config": "experiments/phase1_20261022/configs/fpv2_00_camera.yaml",
+  "reference": "datasets/FusionPortableV2/original/ugv_transition01_gt.tum",
+  "input_readiness_file": "preparation.json"
+}

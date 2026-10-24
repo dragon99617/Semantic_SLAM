@@ -1,0 +1,204 @@
+{
+  "status": "evaluated",
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-18-christ-church-02",
+  "poses": 11763,
+  "trajectory_duration_s": 591.9403400421143,
+  "path_length_m": 663.4152442233619,
+  "trajectory_span_fraction": 0.9997430587367586,
+  "protocol": {
+    "alignment": "One global SE3 per association protocol",
+    "scale": 1.0,
+    "extra_time_offset_s": 0.0,
+    "time_offset_search": false,
+    "nearest_tolerance_s": 0.01,
+    "interpolation_max_each_neighbor_distance_s": 0.1,
+    "interpolation_max_total_bracket_span_s": 0.2
+  },
+  "comparisons": {
+    "base": {
+      "nearest": {
+        "stats_m": {
+          "rmse": 0.29513101725227536,
+          "mean": 0.2251480215929516,
+          "median": 0.1507711338942105,
+          "std": 0.19081584241656313,
+          "min": 0.04069099607574255,
+          "max": 0.8744223781167878,
+          "sse": 970.6682244855798
+        },
+        "reference_poses": 14379,
+        "estimated_poses": 11763,
+        "associated_poses": 11144,
+        "associated_estimate_fraction": 0.9473773697186092,
+        "matched_time_start_s": 1710754090.005522,
+        "matched_time_end_s": 1710754650.796368,
+        "reference_time_start_s": 1710754089.975849,
+        "reference_time_end_s": 1710754650.797929,
+        "association_abs_dt_max_s": 7.152557373046875e-07,
+        "association_abs_dt_median_s": 2.384185791015625e-07,
+        "alignment_R": [
+          [
+            0.9231904084964487,
+            -0.36746452926951456,
+            0.11264674601999797
+          ],
+          [
+            0.3651407546824067,
+            0.930032877167314,
+            0.04136516236944318
+          ],
+          [
+            -0.11996540722275892,
+            0.0029439967088913145,
+            0.9927737073237065
+          ]
+        ],
+        "alignment_t": [
+          -63.59350727886427,
+          8.882464932605423,
+          0.4980403473875601
+        ],
+        "scale": 1.0,
+        "reference_file": "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/processed/trajectory/gt-tum.txt",
+        "estimate_file": "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford02_r2/accuracy/base.tum",
+        "command": [
+          "/home/hxy/SLAM_project/third_party/accuracy_venv/bin/evo_ape",
+          "tum",
+          "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/processed/trajectory/gt-tum.txt",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford02_r2/accuracy/base.tum",
+          "-a",
+          "--no_warnings",
+          "--t_max_diff",
+          "0.01",
+          "--save_results",
+          "/home/hxy/SLAM_project/experiments/phase1_20261022/runs/oxford02_r2/accuracy/base_evo_ape.zip"
+        ]
+      },
+      "interpolated": {
+        "rmse_m": 0.29511194590115797,
+        "mean_m": 0.22511668853493216,
+        "median_m": 0.15073865842539613,
+        "max_m": 0.8743883808673478,
+        "matched_poses": 11139,
+        "estimated_poses": 11763,
+        "max_bracket_distance_s": 0.1,
+        "matched_time_start_s": 1710754090.005522,
+        "matched_time_end_s": 1710754650.796368,
+        "alignment": "rigid rotation and translation, no scale correction",
+        "time_offset_s": 0.0,
+        "reference_file": "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/processed/trajectory/gt-tum.txt"
+      }
+    }
+  },
+  "RPE_evaluated": true,
+  "input_audit": {
+    "/hesai/pandar": {
+      "expected": 5928,
+      "received_callbacks": 5928,
+      "unique_received": 5928,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/alphasense_driver_ros/imu": {
+      "expected": 236606,
+      "received_callbacks": 236606,
+      "unique_received": 236606,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    },
+    "/left_camera/image": {
+      "expected": 11775,
+      "received_callbacks": 11775,
+      "unique_received": 11775,
+      "missing": 0,
+      "missing_ns": [],
+      "received_is_exact_multiset": true
+    }
+  },
+  "reference_file": "datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/processed/trajectory/gt-tum.txt",
+  "ros_pose_time_check": {
+    "observed": 11763,
+    "matched_to_native": 11763,
+    "max_matched_dt_s": 4.76837158203125e-07,
+    "max_matched_position_difference_m": 8.505110219343177e-07
+  },
+  "reference_sha256": "01b7c1bf7e2b80f9da058dfe39b043bc7509e33c887221aa1505eb11dbde0cae",
+  "reference_rows": 14379,
+  "reference_gap_gt_0_1_s": 8,
+  "reference_point": "base frame; apply full IMU<-base rigid transform to estimate",
+  "T_imu_base": {
+    "R": [
+      [
+        0.016638045748656106,
+        0.9998601056363501,
+        0.0017159809243348027
+      ],
+      [
+        -0.9998552572581156,
+        0.016631813594098228,
+        0.0035843144224121702
+      ],
+      [
+        0.003555273122162421,
+        -0.0017753685358884413,
+        0.9999921040186209
+      ]
+    ],
+    "t": [
+      -0.000864490317989603,
+      -0.015954797548488175,
+      -0.03936636309511997
+    ]
+  },
+  "reference_source": "Author LiDAR-to-Leica TLS registration, not independent motion capture",
+  "RPE": {
+    "delta_s": 1.0,
+    "relative_delta_tolerance": 0.05,
+    "pairs_from_reference": true,
+    "all_pairs": false,
+    "pair_filter": "Nearest reference timestamp at +1s within0.05s, next pair starts at prior endpoint; no interpolation",
+    "error_formula": "evo.metrics.RPE.rpe_base, standard TUM SE3 relative error",
+    "reference_dt_min_s": 0.9999618530273438,
+    "reference_dt_max_s": 1.049983263015747,
+    "translation_m": {
+      "stats": {
+        "rmse": 0.017748177426155455,
+        "mean": 0.010643588328426132,
+        "median": 0.007050548973837608,
+        "std": 0.014202528980617682,
+        "min": 0.0005285485254545923,
+        "max": 0.15851340838700076,
+        "sse": 0.17639876909216468
+      },
+      "pairs": 560
+    },
+    "rotation_deg": {
+      "stats": {
+        "rmse": 0.16601211749778827,
+        "mean": 0.13483407932040795,
+        "median": 0.10830169710724305,
+        "std": 0.09684933768445401,
+        "min": 0.006771594160132946,
+        "max": 0.5685462644811528,
+        "sse": 15.4336129674157
+      },
+      "pairs": 560
+    }
+  },
+  "registered_map_tls_check": {
+    "scope": "Observed registered outputs to 5cm-voxel TLS, using the trajectory global alignment; not full-map completeness or raw-cloud registration accuracy",
+    "output_voxel_m": 0.1,
+    "tls_voxel_m": 0.05,
+    "points": 193341,
+    "mean_m": 0.17883878243852622,
+    "rmse_m": 0.35543369255487556,
+    "median_m": 0.07740141755326328,
+    "p95_m": 0.7437603673490466,
+    "max_m": 13.807186720664326,
+    "fraction_within_0_2_m": 0.789594550560926,
+    "fraction_within_0_5_m": 0.8992505469610688
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "source_bag": "/home/hxy/SLAM_project/datasets/FusionPortableV2/original/extracted/ugv_transition01.bag",
+  "selected_topics": {
+    "/os_cloud_node/points": "/os_cloud_node/points",
+    "/stim300/imu/data_raw": "/stim300/imu/data_raw",
+    "/stereo/frame_left/image_raw/compressed": "/left_camera/image"
+  },
+  "all_selected_record_counts_match_source": true,
+  "all_cdr_messages_roundtrip_verified": true,
+  "all_pointcloud_buffers_preserved": true,
+  "image_pixels_equal_to_opencv_jpeg_decode": true,
+  "record_timestamps_preserved": true,
+  "imu_and_image_headers_preserved": true,
+  "cloud_header_transform": "original scan-end header - max(uint32 per-point t) nanoseconds",
+  "additional_lidar_time_offset_required": 0.0,
+  "scan_duration_s": {
+    "min": 0.09934036,
+    "median": 0.09989966,
+    "max": 0.10043437
+  },
+  "concatenated_selected_source_payload_sha256": "a75c226d14b089b83041bc80097091942477975ec122c59a7b2cda903ae8fb5f",
+  "concatenated_cloud_data_sha256": "ba9f22c3b31f5c5de3acb0cf9c623d430cf31ce4c45d2631e56f5dc918e962e0",
+  "headers": {
+    "/stim300/imu/data_raw": {
+      "count": 75200,
+      "first_ns": 1686615992999857875,
+      "last_ns": 1686616368994851479,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 8.7395e-05,
+      "dt_median_s": 0.005000198,
+      "dt_max_s": 0.01250693
+    },
+    "/stereo/frame_left/image_raw/compressed": {
+      "count": 7520,
+      "first_ns": 1686615993032255888,
+      "last_ns": 1686616368983942270,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.041461706,
+      "dt_median_s": 0.050003052,
+      "dt_max_s": 0.05961895
+    },
+    "/os_cloud_node/points": {
+      "count": 3749,
+      "first_ns": 1686615992977385010,
+      "last_ns": 1686616367777358947,
+      "backward_steps": 0,
+      "duplicate_steps": 0,
+      "dt_min_s": 0.081430236,
+      "dt_median_s": 0.10027010350000001,
+      "dt_max_s": 0.117273148
+    }
+  },
+  "image": {
+    "source_format": "jpg",
+    "width": 1024,
+    "height": 768,
+    "encoding": "bgr8"
+  },
+  "pointcloud": {
+    "width": 1024,
+    "height": 128,
+    "point_step": 48,
+    "fields": [
+      {
+        "name": "x",
+        "offset": 0,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "y",
+        "offset": 4,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "z",
+        "offset": 8,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "intensity",
+        "offset": 16,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "t",
+        "offset": 20,
+        "datatype": 6,
+        "count": 1
+      },
+      {
+        "name": "reflectivity",
+        "offset": 24,
+        "datatype": 4,
+        "count": 1
+      },
+      {
+        "name": "ring",
+        "offset": 26,
+        "datatype": 2,
+        "count": 1
+      },
+      {
+        "name": "ambient",
+        "offset": 28,
+        "datatype": 4,
+        "count": 1
+      },
+      {
+        "name": "range",
+        "offset": 32,
+        "datatype": 6,
+        "count": 1
+      }
+    ]
+  },
+  "conversion_seconds": 1155.6982192450014
+}

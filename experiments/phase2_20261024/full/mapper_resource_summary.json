@@ -1,0 +1,8 @@
+{
+  "started_at": "2026-10-24T01:01:26.670589+08:00",
+  "kernel_peak_rss_kib": {
+    "oxford02": 5767392,
+    "oxford05": 2393008
+  },
+  "scope": "Sampling began after Oxford02 capture startup; kernel HWM includes earlier process peak. Not a full wall-time RSS trace."
+}

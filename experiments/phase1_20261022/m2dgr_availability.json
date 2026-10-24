@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-22T20:05:22.513898",
+  "sequence": "M2DGR door01",
+  "url": "https://sjtueducn-my.sharepoint.com/_api/v2.1/shares/u!aHR0cHM6Ly9zanR1ZWR1Y24tbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvNTk0NjY2X3NqdHVfZWR1X2NuL0VSeElrOG9fSHdsQWdicUoyd3dnSGw4QnIzdUJaaHl1QmJ4TTJiR18wQTZRWUE_ZT11UXI5NFI/driveItem?$select=name,size",
+  "probe_only": true,
+  "http_status": 429,
+  "response_type": "application/json; charset=utf-8",
+  "retry_after": "300",
+  "response_excerpt": "{\"error\":{\"code\":\"activityLimitReached\",\"innerError\":{\"code\":\"throttledRequest\",\"innerError\":{\"code\":\"forbiddenQuota\"}},\"message\":\"The request has been throttled\",\"retryAfterSeconds\":300,\"@error.X-ClientErrorCode\":\"forbidden\"}}",
+  "available": false
+}

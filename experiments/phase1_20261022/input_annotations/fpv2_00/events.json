@@ -1,0 +1,46 @@
+{
+  "sequence_id": "fpv2_00",
+  "created_at": "2026-10-22T20:08:36.156575",
+  "annotation_method": "Assistant visual inspection of input-image contact sheets sampled every 5s; no pose/error curves inspected for these labels",
+  "index_sha256": "ad01cc569cd75826288e87503e7e015750a2d06f6858c080cb7f54c8a405340f",
+  "environment_definition": {
+    "indoor": "Enclosed hall, cathedral, staircase or workshop",
+    "outdoor": "Open courtyard or road",
+    "covered_passage": "Roofed cloister with open arches; report separately from enclosed indoor"
+  },
+  "timing": "Boundary is an interval between inspected frames, its midpoint is only a window anchor. Not exact physical threshold truth.",
+  "events": [
+    {
+      "id": "fpv2_00_t1",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Workshop entrance",
+      "interval_start_sensor_s": 1686615104.633082,
+      "interval_end_sensor_s": 1686615109.6828153,
+      "center_sensor_s": 1686615107.1579485,
+      "center_from_first_image_s": 118.12555122375488,
+      "uncertainty_half_width_s": 2.5248667001724243,
+      "evidence_indices": [
+        23,
+        24
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "fpv2_00_t2",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Workshop exit",
+      "interval_start_sensor_s": 1686615220.1829717,
+      "interval_end_sensor_s": 1686615225.232062,
+      "center_sensor_s": 1686615222.707517,
+      "center_from_first_image_s": 233.675119638443,
+      "uncertainty_half_width_s": 2.524545192718506,
+      "evidence_indices": [
+        46,
+        47
+      ],
+      "primary_indoor_outdoor": true
+    }
+  ]
+}

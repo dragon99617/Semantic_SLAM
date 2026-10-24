@@ -1,0 +1,12 @@
+[
+  {
+    "image_id": 0,
+    "image_stamp_ns": 1710926321899711842,
+    "reason": "missing_same_frame_pose"
+  },
+  {
+    "image_id": 1,
+    "image_stamp_ns": 1710926322099709742,
+    "reason": "missing_same_frame_pose"
+  }
+]

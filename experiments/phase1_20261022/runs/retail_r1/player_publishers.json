@@ -1,0 +1,23 @@
+{
+  "/livox/lidar": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ],
+  "/livox/imu": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ],
+  "/left_camera/image": [
+    {
+      "node": "rosbag2_player",
+      "reliability": "ReliabilityPolicy.RELIABLE",
+      "depth": 0
+    }
+  ]
+}

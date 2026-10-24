@@ -1,0 +1,300 @@
+{
+  "repository": "ori-drs/oxford_spires_dataset",
+  "revision": "03f4382308333aa70c3253f12acd3fbf0c7c4a15",
+  "sequences": [
+    "2024-03-18-christ-church-02",
+    "2024-03-20-christ-church-05"
+  ],
+  "selection_reason": "Both sequences explicitly contain outdoor and proper indoor areas, and have released gt-tum.txt. Select complete ROS2 bags, calibration, trajectories and one shared TLS ground-truth map without duplicate ROS1/image/cloud archives.",
+  "total_bytes": 41948348476,
+  "files": [
+    {
+      "type": "file",
+      "oid": "385ae40c48b5a18b3ec58e57e8ae1c88ecdc5614",
+      "size": 2834,
+      "path": "CHANGELOG.md"
+    },
+    {
+      "type": "file",
+      "oid": "c52fd676a4d56deabe6ed013f69e844fc14e839e",
+      "size": 362,
+      "path": "LICENSE.md"
+    },
+    {
+      "type": "file",
+      "oid": "b2fae3369c762a69c7ab9f6c647c1798da3e7b25",
+      "size": 2269,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "4d1c2a62d84df3d736e6a4586e763eb24c5022de",
+      "size": 2523,
+      "path": "calibration/README.md"
+    },
+    {
+      "type": "file",
+      "oid": "82b603bec5e917e944bb40c78815d953c9d23213",
+      "size": 1644,
+      "path": "calibration/calibration-sequences-2024-03-19/cam-lidar.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "8d3807f3072c6df9a33f5b60de982f6c678b1680",
+      "size": 715,
+      "path": "calibration/calibration-sequences-2024-03-19/cam0.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a0aefccc6e17c091c144ee750d8b04fb4de56614",
+      "size": 716,
+      "path": "calibration/calibration-sequences-2024-03-19/cam1.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "9a8baf04efe7ce928f3bddf94da56541013b1f11",
+      "size": 715,
+      "path": "calibration/calibration-sequences-2024-03-19/cam2.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a13594392d647e765fb5cdbc641ce25e2c5c8da6",
+      "size": 1806,
+      "path": "calibration/calibration-sequences-2024-06-29/cam-lidar-imu.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "fe2dcea9860a888a490ce388150e34a575c7fafd",
+      "size": 714,
+      "path": "calibration/calibration-sequences-2024-06-29/cam0.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "d3221974a73fef503b6d76f62143cb7445b1528c",
+      "size": 716,
+      "path": "calibration/calibration-sequences-2024-06-29/cam1.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "46911a43698db49cb43114c45e6e5b55d435a5d9",
+      "size": 716,
+      "path": "calibration/calibration-sequences-2024-06-29/cam2.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "6d8bcf383b9de07de5010030db470716bcbec7e8",
+      "size": 338,
+      "path": "calibration/calibration-sequences-2024-06-29/imu.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "92a6af8b6e23f891f44921010680038b1d852719",
+      "size": 1806,
+      "path": "calibration/calibration-sequences-2024-10-29/cam-lidar-imu.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "4fece049d1080fc780922ae7f06f2531c1e77f09",
+      "size": 725,
+      "path": "calibration/calibration-sequences-2024-10-29/cam0.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "3b00d27d54bf433971f0b555781441046290fe32",
+      "size": 733,
+      "path": "calibration/calibration-sequences-2024-10-29/cam1.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "d29b8875cf95c80812197b14b33d0422a64d0ffd",
+      "size": 727,
+      "path": "calibration/calibration-sequences-2024-10-29/cam2.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "716560472d2328dcdab146748b23d3ca4c452cac",
+      "size": 337,
+      "path": "calibration/calibration-sequences-2024-10-29/imu.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "410e1a1f8af9df8839947019598ef697d18b0d66",
+      "size": 638,
+      "path": "calibration/calibration_target.txt"
+    },
+    {
+      "type": "file",
+      "oid": "b4986fd6ea8a10dccc1ddcc8848701c7dd2ad322",
+      "size": 1820,
+      "path": "calibration/cam-lidar-imu.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "8d3807f3072c6df9a33f5b60de982f6c678b1680",
+      "size": 715,
+      "path": "calibration/cam0.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "a0aefccc6e17c091c144ee750d8b04fb4de56614",
+      "size": 716,
+      "path": "calibration/cam1.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "9a8baf04efe7ce928f3bddf94da56541013b1f11",
+      "size": 715,
+      "path": "calibration/cam2.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "6d8bcf383b9de07de5010030db470716bcbec7e8",
+      "size": 338,
+      "path": "calibration/imu.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "6483b6858e0f4a4d8c1a17fadff76e42c2ac9216",
+      "size": 727958,
+      "lfs": {
+        "oid": "c33dc2c12fa9f3d3641a1fef7b3b6accc654bb42e1102f792381d6bca7b90ebf",
+        "size": 727958,
+        "pointerSize": 131
+      },
+      "xetHash": "f9d455bed84a4bf8c0d436c1c0a613341b4a6815f3135297a8f0021fec45d5e0",
+      "path": "ground_truth_map/christ-church/FinalizeReport.pdf"
+    },
+    {
+      "type": "file",
+      "oid": "e5206bda47806900fec5e26113eb77b551581512",
+      "size": 2735906782,
+      "lfs": {
+        "oid": "0da1757d9bec20c79fa6f0698956ba6a5be988fb5b2f6fc51bcd2ada413c2f0b",
+        "size": 2735906782,
+        "pointerSize": 135
+      },
+      "xetHash": "d644360a2ad5ee08b5f4cabd478a9ef9d05d7197843476f8d316a87e107871ea",
+      "path": "ground_truth_map/christ-church/merged-cloud-1cm.pcd"
+    },
+    {
+      "type": "file",
+      "oid": "c7e4a8d86718e8479da3d704db3364a93112d8c7",
+      "size": 83544,
+      "path": "sequences/2024-03-18-christ-church-02/processed/trajectory/colmap-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "d40324103cd5034094677af1e1e29fefc4dba581",
+      "size": 2240218,
+      "path": "sequences/2024-03-18-christ-church-02/processed/trajectory/gt-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "c2ea292051c5905d6fbb433aa3e279ef35b8a0dd",
+      "size": 73820,
+      "path": "sequences/2024-03-18-christ-church-02/processed/trajectory/hba-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "6bf784029f1318d98561b0ec62254e2a652692ee",
+      "size": 74368,
+      "path": "sequences/2024-03-18-christ-church-02/processed/trajectory/vilens-slam-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "3817896d1647a92dcb9bc0eb6a97ab7208edf3aa",
+      "size": 21174722560,
+      "lfs": {
+        "oid": "89477812e2c7b8c7be7fde301f5f97934564238199f90ff55f14eb78f9bf8dc9",
+        "size": 21174722560,
+        "pointerSize": 136
+      },
+      "xetHash": "0f3ebe72f91ef9a430cd8462533a6cb37a473a2214ac30221d9bc018aa775fb9",
+      "path": "sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0/1710754066_2024-03-18-09-27-47_0_blurred_filtered_compressed.db3"
+    },
+    {
+      "type": "file",
+      "oid": "9b2508efc6a64c91d19577d9ab5a2c8e9a15263c",
+      "size": 2154,
+      "path": "sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0/metadata.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "b2be47c69a1d76188b71d9885231c5f049015142",
+      "size": 3021377536,
+      "lfs": {
+        "oid": "d9baab7b8d9fad250eb05f2077f470a9634233c004d118f8bf9e33834168d700",
+        "size": 3021377536,
+        "pointerSize": 135
+      },
+      "xetHash": "ebe5d02a115582bbd7814b60ad219ab263f2331523090af9741545b8a8149f5a",
+      "path": "sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/1710754066_2024-03-18-09-36-49_1_blurred_filtered_compressed.db3"
+    },
+    {
+      "type": "file",
+      "oid": "1d6524eeb1767114479aa31d614fc91597159b8e",
+      "size": 2145,
+      "path": "sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/metadata.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "b0e503f14359ebfc83999afd826606dd290d8859",
+      "size": 1785838,
+      "path": "sequences/2024-03-20-christ-church-05/processed/trajectory/gt-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "04e0330faba9befd5262dd9ca5d6763f55d73f7d",
+      "size": 90073,
+      "path": "sequences/2024-03-20-christ-church-05/processed/trajectory/hba-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "c7dc12488ebb262ad5f53fb0d25d202474d1b0f8",
+      "size": 90089,
+      "path": "sequences/2024-03-20-christ-church-05/processed/trajectory/vilens-slam-tum.txt"
+    },
+    {
+      "type": "file",
+      "oid": "a2fb0f16b0501d09d3ae747a6b327c7706793efd",
+      "size": 15010918400,
+      "lfs": {
+        "oid": "ca8877c8a2a702dc30d004aa0362c64178156556ef8658480f1c2f7816bef964",
+        "size": 15010918400,
+        "pointerSize": 136
+      },
+      "xetHash": "8dbbc275ee6b73328d14d6c7863b8a5a20843d0a12cfdaa1f7a186b835be928c",
+      "path": "sequences/2024-03-20-christ-church-05/raw/ros2bag/1710926317_2024-03-20-09-18-38_0/1710926317_2024-03-20-09-18-38_0_blurred_filtered_compressed.db3"
+    },
+    {
+      "type": "file",
+      "oid": "09d0df2277b72473f3132dab61aae1516a1359ee",
+      "size": 2151,
+      "path": "sequences/2024-03-20-christ-church-05/raw/ros2bag/1710926317_2024-03-20-09-18-38_0/metadata.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "1f84cfbc92a768dc2625843dc7df04e20b7a1019",
+      "size": 169447,
+      "lfs": {
+        "oid": "5c282e760fc7e9bf40692bd7395ee2bc1ac2580ef338db96fd8167e4d62a0218",
+        "size": 169447,
+        "pointerSize": 131
+      },
+      "xetHash": "05a9d02bb7659d111db774e1c77061e670333fc3bdc3ab2c815011bb4c153c77",
+      "path": "sequences/screenshots_slam_map/2024-03-18-christ-church-02.png"
+    },
+    {
+      "type": "file",
+      "oid": "7a28b66e523df65281975b8773202e1f1d9d44bf",
+      "size": 56055,
+      "lfs": {
+        "oid": "d4ef54ecdaa5c24e3576425e7d7836a415bcd1168cf3cbef9d5c612a9c6ab5c3",
+        "size": 56055,
+        "pointerSize": 130
+      },
+      "xetHash": "c34db9396f13465258e42618f6ca5ddde9449aecfbf927fe2e1bcfc882eb70fa",
+      "path": "sequences/screenshots_slam_map/2024-03-20-christ-church-05.png"
+    }
+  ]
+}

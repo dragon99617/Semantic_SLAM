@@ -1,0 +1,26 @@
+{
+  "/os_cloud_node/points": {
+    "expected": 3749,
+    "received_callbacks": 3749,
+    "unique_received": 3749,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/stim300/imu/data_raw": {
+    "expected": 75200,
+    "received_callbacks": 75200,
+    "unique_received": 75200,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/left_camera/image": {
+    "expected": 7520,
+    "received_callbacks": 7520,
+    "unique_received": 7520,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  }
+}

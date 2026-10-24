@@ -1,0 +1,16 @@
+{
+  "missing_total": 149,
+  "before_first_callback": 142,
+  "between_first_and_last_callback": 7,
+  "after_last_callback": 0,
+  "between_callback_missing_sensor_times": [
+    1686615347.1198158,
+    1686615347.124858,
+    1686615347.1298878,
+    1686615376.4048955,
+    1686615415.084995,
+    1686615415.0898523,
+    1686615415.094863
+  ],
+  "scope": "Header-to-log matching only; not a direct DDS loss counter"
+}

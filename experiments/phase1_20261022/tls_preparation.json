@@ -1,0 +1,8 @@
+{
+  "source": "datasets/OxfordSpires/ground_truth_map/christ-church/merged-cloud-1cm.pcd",
+  "source_points": 113996107,
+  "voxel_m": 0.05,
+  "output_points": 17192744,
+  "seconds": 154.19222252799955,
+  "selection": "First finite source point in each 5cm global voxel; geometry only"
+}

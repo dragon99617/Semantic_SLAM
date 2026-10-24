@@ -1,0 +1,3257 @@
+{
+  "schema": "oxford_transition_annotation_v1",
+  "status": "awaiting_independent_annotation",
+  "blinded_to_model_predictions": true,
+  "sampling": "Nearest raw input to fixed frozen-event anchors; no selection by semantic output/quality",
+  "anchor_offsets_s": {
+    "before": [
+      -25,
+      -20,
+      -15
+    ],
+    "transition": [
+      -5,
+      0,
+      5
+    ],
+    "after": [
+      15,
+      20,
+      25
+    ]
+  },
+  "max_image_distance_ns": 350000000,
+  "ontology_sha256": "ce89fec9c3aa081653f19f2a335922ddd1694a732ce0cb8983b476f6d51e6b0b",
+  "sources": [
+    {
+      "sequence": "oxford02",
+      "descriptor": "/home/hxy/SLAM_project/experiments/phase1_20261022/oxford02.json",
+      "bag": "/home/hxy/SLAM_project/datasets/OxfordSpires/christ_church02_livo_half",
+      "camera_config": "/home/hxy/SLAM_project/experiments/phase1_20261022/configs/oxford_camera.yaml",
+      "camera_sha256": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+      "events_sha256": "93d1f7d265c467d16425100b36168e2ea2f47ef7fb6f4f66aee768391fde04fc",
+      "header_cache_sha256": "17a5d6cebb9baa797067ba858102f5528ddc60956def41b7c5e17a1ac140328f"
+    },
+    {
+      "sequence": "oxford05",
+      "descriptor": "/home/hxy/SLAM_project/experiments/phase1_20261022/oxford05.json",
+      "bag": "/home/hxy/SLAM_project/datasets/OxfordSpires/christ_church05_livo_half",
+      "camera_config": "/home/hxy/SLAM_project/experiments/phase1_20261022/configs/oxford_camera.yaml",
+      "camera_sha256": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+      "events_sha256": "c2f2e3cf459bde719db37468b7812373739d48027cca50654771ba8e680b9bde",
+      "header_cache_sha256": "6e5bd07a42f78d1c51b167fbf3bbc619cd76d3d89d407ff47f2c43866f8c32db"
+    }
+  ],
+  "events": [
+    {
+      "id": "oxford02_t1",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Great Hall staircase entrance",
+      "interval_start_sensor_s": 1710754340.4013495,
+      "interval_end_sensor_s": 1710754345.4512675,
+      "center_sensor_s": 1710754342.9263086,
+      "center_from_first_image_s": 253.97076869010925,
+      "uncertainty_half_width_s": 2.5249589681625366,
+      "evidence_indices": [
+        50,
+        51
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t2",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710754521.3484547,
+      "interval_end_sensor_s": 1710754526.398371,
+      "center_sensor_s": 1710754523.8734128,
+      "center_from_first_image_s": 434.9178729057312,
+      "uncertainty_half_width_s": 2.5249581336975098,
+      "evidence_indices": [
+        86,
+        87
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t3",
+      "from_environment": "outdoor",
+      "to_environment": "covered_passage",
+      "note": "Enter cloister; open arches, secondary event",
+      "interval_start_sensor_s": 1710754536.3981993,
+      "interval_end_sensor_s": 1710754541.448116,
+      "center_sensor_s": 1710754538.9231577,
+      "center_from_first_image_s": 449.96761775016785,
+      "uncertainty_half_width_s": 2.524958372116089,
+      "evidence_indices": [
+        89,
+        90
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford02_t4",
+      "from_environment": "covered_passage",
+      "to_environment": "outdoor",
+      "note": "Leave cloister, secondary event",
+      "interval_start_sensor_s": 1710754576.5975356,
+      "interval_end_sensor_s": 1710754581.597453,
+      "center_sensor_s": 1710754579.0974944,
+      "center_from_first_image_s": 490.14195442199707,
+      "uncertainty_half_width_s": 2.4999587535858154,
+      "evidence_indices": [
+        97,
+        98
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford02_t5",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Staircase entrance",
+      "interval_start_sensor_s": 1710754606.797037,
+      "interval_end_sensor_s": 1710754611.8469732,
+      "center_sensor_s": 1710754609.322005,
+      "center_from_first_image_s": 520.3664650917053,
+      "uncertainty_half_width_s": 2.524968147277832,
+      "evidence_indices": [
+        103,
+        104
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t6",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Staircase exit",
+      "interval_start_sensor_s": 1710754642.0464933,
+      "interval_end_sensor_s": 1710754647.0964224,
+      "center_sensor_s": 1710754644.5714579,
+      "center_from_first_image_s": 555.6159179210663,
+      "uncertainty_half_width_s": 2.5249645709991455,
+      "evidence_indices": [
+        110,
+        111
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford02_t7",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Return to staircase",
+      "interval_start_sensor_s": 1710754657.1962342,
+      "interval_end_sensor_s": 1710754662.2461596,
+      "center_sensor_s": 1710754659.721197,
+      "center_from_first_image_s": 570.7656569480896,
+      "uncertainty_half_width_s": 2.5249626636505127,
+      "evidence_indices": [
+        113,
+        114
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t1",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710926448.6982598,
+      "interval_end_sensor_s": 1710926453.8981977,
+      "center_sensor_s": 1710926451.2982287,
+      "center_from_first_image_s": 129.39851689338684,
+      "uncertainty_half_width_s": 2.599968910217285,
+      "evidence_indices": [
+        25,
+        26
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t2",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Cathedral entrance via vestibule",
+      "interval_start_sensor_s": 1710926667.895254,
+      "interval_end_sensor_s": 1710926678.0951152,
+      "center_sensor_s": 1710926672.9951844,
+      "center_from_first_image_s": 351.095472574234,
+      "uncertainty_half_width_s": 5.099930644035339,
+      "evidence_indices": [
+        68,
+        70
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t3",
+      "from_environment": "indoor",
+      "to_environment": "covered_passage",
+      "note": "Leave cathedral for cloister; broader uncertain interval",
+      "interval_start_sensor_s": 1710926939.4913528,
+      "interval_end_sensor_s": 1710926954.6911147,
+      "center_sensor_s": 1710926947.0912337,
+      "center_from_first_image_s": 625.1915218830109,
+      "uncertainty_half_width_s": 7.599880933761597,
+      "evidence_indices": [
+        121,
+        124
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford05_t4",
+      "from_environment": "covered_passage",
+      "to_environment": "outdoor",
+      "note": "Leave cloister to courtyard",
+      "interval_start_sensor_s": 1710926995.4904506,
+      "interval_end_sensor_s": 1710927000.6903648,
+      "center_sensor_s": 1710926998.0904078,
+      "center_from_first_image_s": 676.1906960010529,
+      "uncertainty_half_width_s": 2.5999571084976196,
+      "evidence_indices": [
+        132,
+        133
+      ],
+      "primary_indoor_outdoor": false
+    },
+    {
+      "id": "oxford05_t5",
+      "from_environment": "outdoor",
+      "to_environment": "indoor",
+      "note": "Great Hall staircase entrance",
+      "interval_start_sensor_s": 1710927041.4896958,
+      "interval_end_sensor_s": 1710927046.489613,
+      "center_sensor_s": 1710927043.9896545,
+      "center_from_first_image_s": 722.0899426937103,
+      "uncertainty_half_width_s": 2.499958634376526,
+      "evidence_indices": [
+        141,
+        142
+      ],
+      "primary_indoor_outdoor": true
+    },
+    {
+      "id": "oxford05_t6",
+      "from_environment": "indoor",
+      "to_environment": "outdoor",
+      "note": "Great Hall staircase exit",
+      "interval_start_sensor_s": 1710927097.4888246,
+      "interval_end_sensor_s": 1710927102.488775,
+      "center_sensor_s": 1710927099.9887998,
+      "center_from_first_image_s": 778.0890879631042,
+      "uncertainty_half_width_s": 2.4999752044677734,
+      "evidence_indices": [
+        152,
+        153
+      ],
+      "primary_indoor_outdoor": true
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "oxford02_1710754317901738028",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754317901738028,
+      "raw_image_index": 4551,
+      "image_path": "images/oxford02_1710754317901738028.png",
+      "image_sha256": "f4d7e0c02a967bdf1eac1adbe094175c619edf8921338f1dabe5b4f29a38f709",
+      "source_cdr_sha256": "34d258ef4b43824bcade1a182e0b288950c85ff88e50685bb3321f8ab7b38858",
+      "valid_mask_path": "valid_masks/oxford02_1710754317901738028.png",
+      "label_path": "labels/oxford02_1710754317901738028.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754317926308600,
+          "actual_delta_ns": -24570572
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754322901634345",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754322901634345,
+      "raw_image_index": 4650,
+      "image_path": "images/oxford02_1710754322901634345.png",
+      "image_sha256": "e248ebc4460b9048e2e3f23544d4272c44a1ca6fd89303ceb9135081c0347b4f",
+      "source_cdr_sha256": "766d827a65dd98d647cc6e64af6ced401784865a6df961f4b89ce6eeb4697891",
+      "valid_mask_path": "valid_masks/oxford02_1710754322901634345.png",
+      "label_path": "labels/oxford02_1710754322901634345.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754322926308600,
+          "actual_delta_ns": -24674255
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754327901552945",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754327901552945,
+      "raw_image_index": 4750,
+      "image_path": "images/oxford02_1710754327901552945.png",
+      "image_sha256": "f8553842acd5af010e2055f069e4d0b816eaea1a2541d74a42fdea9ad28a0836",
+      "source_cdr_sha256": "7b268ea2de82c3b1c6284cc692a2aabba9fa39cd91d605eb9c907006a5b29fed",
+      "valid_mask_path": "valid_masks/oxford02_1710754327901552945.png",
+      "label_path": "labels/oxford02_1710754327901552945.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754327926308600,
+          "actual_delta_ns": -24755655
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754337901390245",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754337901390245,
+      "raw_image_index": 4948,
+      "image_path": "images/oxford02_1710754337901390245.png",
+      "image_sha256": "49af1630b61b84827945582aa7cb3c12bfa6f698d4d4a4a5d49e6f2f33eeb622",
+      "source_cdr_sha256": "a440095804c84612c3ff90df2f212833f1b0afdb89e1970f3fa15b18954bdf9e",
+      "valid_mask_path": "valid_masks/oxford02_1710754337901390245.png",
+      "label_path": "labels/oxford02_1710754337901390245.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754337926308600,
+          "actual_delta_ns": -24918355
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754342951308145",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754342951308145,
+      "raw_image_index": 5048,
+      "image_path": "images/oxford02_1710754342951308145.png",
+      "image_sha256": "2eb48fe10e87a67d4e28578b906882278786375afc36056d5695bcc2c7683b78",
+      "source_cdr_sha256": "d5880fca26b2c66725170c1bd539b22bc43c77566b15ef4b812e410e3aba695c",
+      "valid_mask_path": "valid_masks/oxford02_1710754342951308145.png",
+      "label_path": "labels/oxford02_1710754342951308145.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754342926308600,
+          "actual_delta_ns": 24999545
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754347951226745",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754347951226745,
+      "raw_image_index": 5148,
+      "image_path": "images/oxford02_1710754347951226745.png",
+      "image_sha256": "58a2342f826ee6962c8d9bc5c4dfcdc52374422d3cf481ae07b39ae51198187b",
+      "source_cdr_sha256": "63e4a42ef4cc2b3552641f75b5e43eda37686ee643790935ad34c8d374faca66",
+      "valid_mask_path": "valid_masks/oxford02_1710754347951226745.png",
+      "label_path": "labels/oxford02_1710754347951226745.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754347926308600,
+          "actual_delta_ns": 24918145
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754357951064045",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754357951064045,
+      "raw_image_index": 5347,
+      "image_path": "images/oxford02_1710754357951064045.png",
+      "image_sha256": "b79e00245fe2cb3429a67e0bdeea981dd76aa0b5a20437bd6f008ce0b7351f1b",
+      "source_cdr_sha256": "a3caca84fa650758528727a9b775ef39711d9a4c648008e5fea09aa5a50154a7",
+      "valid_mask_path": "valid_masks/oxford02_1710754357951064045.png",
+      "label_path": "labels/oxford02_1710754357951064045.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754357926308600,
+          "actual_delta_ns": 24755445
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754362951011209",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754362951011209,
+      "raw_image_index": 5445,
+      "image_path": "images/oxford02_1710754362951011209.png",
+      "image_sha256": "947deb044bbfc4ca61ebd30f512a0c9c7f6e8981dc7c2b670e6b865feb11c163",
+      "source_cdr_sha256": "e9711cbe2219794fdb6f49bd151e956ceff069c5637f509412220506e6429330",
+      "valid_mask_path": "valid_masks/oxford02_1710754362951011209.png",
+      "label_path": "labels/oxford02_1710754362951011209.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754362926308600,
+          "actual_delta_ns": 24702609
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754367950929909",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754367950929909,
+      "raw_image_index": 5545,
+      "image_path": "images/oxford02_1710754367950929909.png",
+      "image_sha256": "c54f2804364bab125edeb7eaa06a78ad9968ae08f9d824a71e14cfd20975f248",
+      "source_cdr_sha256": "b26d1cbd1f6cf96ee8c11634fe54e42286a12c788ac96cc57428d369861651c0",
+      "valid_mask_path": "valid_masks/oxford02_1710754367950929909.png",
+      "label_path": "labels/oxford02_1710754367950929909.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t1",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710754367926308600,
+          "actual_delta_ns": 24621309
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754498848817694",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754498848817694,
+      "raw_image_index": 8150,
+      "image_path": "images/oxford02_1710754498848817694.png",
+      "image_sha256": "901e219ead8a77ab05ac8e1d444d35abb1e64affe1c7c5ebe1f0d4c90354e8b5",
+      "source_cdr_sha256": "506cd87b9690dbe99c0962de34dd28473743baf3c6ffdb58fce369b6219864a2",
+      "valid_mask_path": "valid_masks/oxford02_1710754498848817694.png",
+      "label_path": "labels/oxford02_1710754498848817694.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754498873412800,
+          "actual_delta_ns": -24595106
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754503848737094",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754503848737094,
+      "raw_image_index": 8250,
+      "image_path": "images/oxford02_1710754503848737094.png",
+      "image_sha256": "573f32879d86ba778f089c5cde6528ee43465be13f91edbd775630fcbaecc0bb",
+      "source_cdr_sha256": "d3121120b66c0657dcb70ae582cce1ae18eaa1229371f482490181a8877a003b",
+      "valid_mask_path": "valid_masks/oxford02_1710754503848737094.png",
+      "label_path": "labels/oxford02_1710754503848737094.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754503873412800,
+          "actual_delta_ns": -24675706
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754508848656394",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754508848656394,
+      "raw_image_index": 8350,
+      "image_path": "images/oxford02_1710754508848656394.png",
+      "image_sha256": "25808511e857ad1a94a9bc57a9fd1f0cfe4ecae76e2578b94cb930df405024aa",
+      "source_cdr_sha256": "3c8d9e4c0b5be18e78881446b7d133a6fc43132a617102372efac11d50c2515b",
+      "valid_mask_path": "valid_masks/oxford02_1710754508848656394.png",
+      "label_path": "labels/oxford02_1710754508848656394.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754508873412800,
+          "actual_delta_ns": -24756406
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754513898574994",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754513898574994,
+      "raw_image_index": 8449,
+      "image_path": "images/oxford02_1710754513898574994.png",
+      "image_sha256": "0ca06c2cdcc64a6ff8863cf09df419494c5e13297b47a21c6fd8f4e51d2a82ac",
+      "source_cdr_sha256": "46471b0a873fbdb194e67ac97dc27c3d901cc387875f2cfd0fdc4deba1431907",
+      "valid_mask_path": "valid_masks/oxford02_1710754513898574994.png",
+      "label_path": "labels/oxford02_1710754513898574994.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754513923157700,
+          "actual_delta_ns": -24582706
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754518848495094",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754518848495094,
+      "raw_image_index": 8548,
+      "image_path": "images/oxford02_1710754518848495094.png",
+      "image_sha256": "7c0d59659a11fbbbb95442139df840fe217b454ead73ea47ae54bf1936df3c89",
+      "source_cdr_sha256": "8b4652f53fc969b41f8d8440000ab05ad2fb9683434d4c74534e789bf87c5cd7",
+      "valid_mask_path": "valid_masks/oxford02_1710754518848495094.png",
+      "label_path": "labels/oxford02_1710754518848495094.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754518873412800,
+          "actual_delta_ns": -24917706
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754518898494294",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754518898494294,
+      "raw_image_index": 8549,
+      "image_path": "images/oxford02_1710754518898494294.png",
+      "image_sha256": "f272c8af192909946b005ec33778c3a923870bb264d279eab8cd3a3975aa629f",
+      "source_cdr_sha256": "381737d7f88862066213770c9f9a7f3c9eca8aeb3becbd39fd0446245fb2c4af",
+      "valid_mask_path": "valid_masks/oxford02_1710754518898494294.png",
+      "label_path": "labels/oxford02_1710754518898494294.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754518923157700,
+          "actual_delta_ns": -24663406
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754523848414494",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754523848414494,
+      "raw_image_index": 8646,
+      "image_path": "images/oxford02_1710754523848414494.png",
+      "image_sha256": "4e557f47dd623f7f25696cd21f978ad2cc3a528727d0d8f371b3d35c31b04af0",
+      "source_cdr_sha256": "5859ed5970fb38649db9ade12f9696b10fa52107ef052cf483655d00e22e67a3",
+      "valid_mask_path": "valid_masks/oxford02_1710754523848414494.png",
+      "label_path": "labels/oxford02_1710754523848414494.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754523873412800,
+          "actual_delta_ns": -24998306
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754523898413694",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754523898413694,
+      "raw_image_index": 8647,
+      "image_path": "images/oxford02_1710754523898413694.png",
+      "image_sha256": "e81531440162cffe1e8ff8faac6c2e0d115802ad0fb7d448623b2619540967fc",
+      "source_cdr_sha256": "ed031844bbdcf65f22a627574304c38764e143b101a0f298add91bb850698719",
+      "valid_mask_path": "valid_masks/oxford02_1710754523898413694.png",
+      "label_path": "labels/oxford02_1710754523898413694.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754523923157700,
+          "actual_delta_ns": -24744006
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754528898323319",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754528898323319,
+      "raw_image_index": 8747,
+      "image_path": "images/oxford02_1710754528898323319.png",
+      "image_sha256": "b5ee4a03bdf4937e344ecb04484e3931fd32837242577324553fb342bac4b29a",
+      "source_cdr_sha256": "47a71e1761e0ed8b6ad41f94dac8c8bd14e8c12bf6a75697ca7fb4b30b5a0c9d",
+      "valid_mask_path": "valid_masks/oxford02_1710754528898323319.png",
+      "label_path": "labels/oxford02_1710754528898323319.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754528873412800,
+          "actual_delta_ns": 24910519
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754533898240719",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754533898240719,
+      "raw_image_index": 8847,
+      "image_path": "images/oxford02_1710754533898240719.png",
+      "image_sha256": "20943e7f146e32a0025851df94f2a208744c29eaefda7b781f25095ca83b8518",
+      "source_cdr_sha256": "d0f12feaf23865965695ec4e2f6b1688111cbd5d1be63ad09cbaa26c30f95718",
+      "valid_mask_path": "valid_masks/oxford02_1710754533898240719.png",
+      "label_path": "labels/oxford02_1710754533898240719.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754533923157700,
+          "actual_delta_ns": -24916981
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754538898158119",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754538898158119,
+      "raw_image_index": 8946,
+      "image_path": "images/oxford02_1710754538898158119.png",
+      "image_sha256": "1f12460dd51d0ad7295c76bb469f99d5bc5ccc83ad5b27df407157ec466d2412",
+      "source_cdr_sha256": "ae7acecd3709b4fe8d33e946ad1cc53b3004e38749a21a8dcee16994fc48fc4e",
+      "valid_mask_path": "valid_masks/oxford02_1710754538898158119.png",
+      "label_path": "labels/oxford02_1710754538898158119.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754538873412800,
+          "actual_delta_ns": 24745319
+        },
+        {
+          "event_id": "oxford02_t3",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754538923157700,
+          "actual_delta_ns": -24999581
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754543898075619",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754543898075619,
+      "raw_image_index": 9046,
+      "image_path": "images/oxford02_1710754543898075619.png",
+      "image_sha256": "de2c14befdb7d5e7a1064b3afbe140de58389c7bb4167770fb8112b96bc3f3d7",
+      "source_cdr_sha256": "0cd615dcb8f0657dc296e008edc59534c2f19bde36f518c6dc6aae6f5060e7dc",
+      "valid_mask_path": "valid_masks/oxford02_1710754543898075619.png",
+      "label_path": "labels/oxford02_1710754543898075619.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754543873412800,
+          "actual_delta_ns": 24662819
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754543948074819",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754543948074819,
+      "raw_image_index": 9047,
+      "image_path": "images/oxford02_1710754543948074819.png",
+      "image_sha256": "0af99dea6044a5d1578ab1a9f22c7b2075b9af450d318700226f5012b89f4f1e",
+      "source_cdr_sha256": "d85230278cf717c5d6e8b2d3a9907f9a2950fb78a7f76a0899c75f1e85aa3b2d",
+      "valid_mask_path": "valid_masks/oxford02_1710754543948074819.png",
+      "label_path": "labels/oxford02_1710754543948074819.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754543923157700,
+          "actual_delta_ns": 24917119
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754548897993019",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754548897993019,
+      "raw_image_index": 9146,
+      "image_path": "images/oxford02_1710754548897993019.png",
+      "image_sha256": "827bd7a3a4428c3a6c492b881edac71ee369a896202f21fa525693a4850e5d5f",
+      "source_cdr_sha256": "f11e5f84963de1e2d1fd095793a702e8bcf1bc88a441c5938704d991e4b8ade1",
+      "valid_mask_path": "valid_masks/oxford02_1710754548897993019.png",
+      "label_path": "labels/oxford02_1710754548897993019.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t2",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710754548873412800,
+          "actual_delta_ns": 24580219
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754553947909719",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754553947909719,
+      "raw_image_index": 9247,
+      "image_path": "images/oxford02_1710754553947909719.png",
+      "image_sha256": "ad26058d53bf0060e48e4b1e5dad5c0d03e21bbd89465c1e1ed95429cba12f08",
+      "source_cdr_sha256": "3803d40b998322dbdfb238e875e63c315efe1aae2237fa600d0e456fd63f3fb7",
+      "valid_mask_path": "valid_masks/oxford02_1710754553947909719.png",
+      "label_path": "labels/oxford02_1710754553947909719.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754553923157700,
+          "actual_delta_ns": 24752019
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754554097907219",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754554097907219,
+      "raw_image_index": 9250,
+      "image_path": "images/oxford02_1710754554097907219.png",
+      "image_sha256": "8b4144e637e9e7a4dc9d1dbec97b935a152fa4195e8f55ab9cf63560c265faf4",
+      "source_cdr_sha256": "72a2ec22f2268709c88f8f14e4a1458806ebc02ff8f6c1e559c5d68b44c6f564",
+      "valid_mask_path": "valid_masks/oxford02_1710754554097907219.png",
+      "label_path": "labels/oxford02_1710754554097907219.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754554097494400,
+          "actual_delta_ns": 412819
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754558947827119",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754558947827119,
+      "raw_image_index": 9347,
+      "image_path": "images/oxford02_1710754558947827119.png",
+      "image_sha256": "2feac02e6521c7cfa9473ae4d2ab151e4c47f524ebe1f43aefc56148b4c86b81",
+      "source_cdr_sha256": "f52e5926e8eecf028b4a711aa7a25194caa8e8d3d636e25406e1474b5c3bc8d3",
+      "valid_mask_path": "valid_masks/oxford02_1710754558947827119.png",
+      "label_path": "labels/oxford02_1710754558947827119.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754558923157700,
+          "actual_delta_ns": 24669419
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754559097824619",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754559097824619,
+      "raw_image_index": 9350,
+      "image_path": "images/oxford02_1710754559097824619.png",
+      "image_sha256": "4b897941cfbc29c058fb0183ae4f979f3a6e9be1e2f48eda676843cd4d80b6d7",
+      "source_cdr_sha256": "2d84f764e87a549ee13f3147ad0da908a6ba943203b53eb23bfc4f5853505575",
+      "valid_mask_path": "valid_masks/oxford02_1710754559097824619.png",
+      "label_path": "labels/oxford02_1710754559097824619.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754559097494400,
+          "actual_delta_ns": 330219
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754563947744519",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754563947744519,
+      "raw_image_index": 9447,
+      "image_path": "images/oxford02_1710754563947744519.png",
+      "image_sha256": "73ba48a68b314d947c55152c7f78c483b066eee0395e53b3b707e65357b96f68",
+      "source_cdr_sha256": "d63bfbc60f56568eb88e5ca1c1bac6c9ac5d45e34a02a7ce0a0981325b34e761",
+      "valid_mask_path": "valid_masks/oxford02_1710754563947744519.png",
+      "label_path": "labels/oxford02_1710754563947744519.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t3",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710754563923157700,
+          "actual_delta_ns": 24586819
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754564097742019",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754564097742019,
+      "raw_image_index": 9450,
+      "image_path": "images/oxford02_1710754564097742019.png",
+      "image_sha256": "9a60b5801f9e35276188734aa45e6674028d833a8a126d27d1b692a79b9d4a14",
+      "source_cdr_sha256": "a46094bd3db5e98a5cbbb000ee7e1e4927b8efcfee77aceb01c3d64d0fc95582",
+      "valid_mask_path": "valid_masks/oxford02_1710754564097742019.png",
+      "label_path": "labels/oxford02_1710754564097742019.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754564097494400,
+          "actual_delta_ns": 247619
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754574097576919",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754574097576919,
+      "raw_image_index": 9649,
+      "image_path": "images/oxford02_1710754574097576919.png",
+      "image_sha256": "a09d399e9049eb743f09aa4ccd3bff81a7b8af9091fff673a626ed40f8fc3b25",
+      "source_cdr_sha256": "9d1088b14996813b94b22a81557b2ce4438d8cc53e2514f755b37655d2e40f43",
+      "valid_mask_path": "valid_masks/oxford02_1710754574097576919.png",
+      "label_path": "labels/oxford02_1710754574097576919.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754574097494400,
+          "actual_delta_ns": 82519
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754579097494319",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754579097494319,
+      "raw_image_index": 9747,
+      "image_path": "images/oxford02_1710754579097494319.png",
+      "image_sha256": "669f31e9b83bc306f530d2789e0b997f39e2294f0d52feb1b2f8fe51de92ca02",
+      "source_cdr_sha256": "40a7590d88c8f8f9ed3dc0e080738c3b71e5e9eb37d732fb9f70ba65c20a2525",
+      "valid_mask_path": "valid_masks/oxford02_1710754579097494319.png",
+      "label_path": "labels/oxford02_1710754579097494319.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754579097494400,
+          "actual_delta_ns": -81
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754584097411719",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754584097411719,
+      "raw_image_index": 9847,
+      "image_path": "images/oxford02_1710754584097411719.png",
+      "image_sha256": "af261f4fe817445c4fd0cd93879ed6d3081b997fe0d2d25f663a02e6fd3fb945",
+      "source_cdr_sha256": "5caf55c9c7c29e4aadf4739390a4af4a6cc37f0c721ce1ec3563fa4d47953f38",
+      "valid_mask_path": "valid_masks/oxford02_1710754584097411719.png",
+      "label_path": "labels/oxford02_1710754584097411719.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754584097494400,
+          "actual_delta_ns": -82681
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754584297408419",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754584297408419,
+      "raw_image_index": 9851,
+      "image_path": "images/oxford02_1710754584297408419.png",
+      "image_sha256": "f30875a5db8363de8869ed8f424a85e22969440799f11af3ac4e1f63ea1c7f6b",
+      "source_cdr_sha256": "b2101d7a1aa2f56f22c8920d19fd733a966b4bc1293a5cfceef502d53f6b5aab",
+      "valid_mask_path": "valid_masks/oxford02_1710754584297408419.png",
+      "label_path": "labels/oxford02_1710754584297408419.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754584322005000,
+          "actual_delta_ns": -24596581
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754589297325819",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754589297325819,
+      "raw_image_index": 9950,
+      "image_path": "images/oxford02_1710754589297325819.png",
+      "image_sha256": "9490914e072ef4e74685843eeeee9c4fd5acc3930858389cfc6b8eaa03dccabe",
+      "source_cdr_sha256": "7267bd4490ff0f79e9db7b5f994ab84c3159949df2292b5fce00f75c4ede5340",
+      "valid_mask_path": "valid_masks/oxford02_1710754589297325819.png",
+      "label_path": "labels/oxford02_1710754589297325819.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754589322005000,
+          "actual_delta_ns": -24679181
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754594097246619",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754594097246619,
+      "raw_image_index": 10045,
+      "image_path": "images/oxford02_1710754594097246619.png",
+      "image_sha256": "3c1c2d7399dc77c801f1726cbec5f589e5919a11f6896638116c55a39228c8bb",
+      "source_cdr_sha256": "9845c6d6b70f422a4efd41ec4455553c816565b4697da2a309a4d62906512119",
+      "valid_mask_path": "valid_masks/oxford02_1710754594097246619.png",
+      "label_path": "labels/oxford02_1710754594097246619.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754594097494400,
+          "actual_delta_ns": -247781
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754594297243219",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754594297243219,
+      "raw_image_index": 10049,
+      "image_path": "images/oxford02_1710754594297243219.png",
+      "image_sha256": "7ac99352f25a7f5ef4a342449cdd662064487fb2eb2cb2b3b36ff438cb32e36c",
+      "source_cdr_sha256": "988b5070aefa7aa980724951374e25bb79a04b0b59bbcf166476a0bbf458130c",
+      "valid_mask_path": "valid_masks/oxford02_1710754594297243219.png",
+      "label_path": "labels/oxford02_1710754594297243219.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754594322005000,
+          "actual_delta_ns": -24761781
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754599097164019",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754599097164019,
+      "raw_image_index": 10145,
+      "image_path": "images/oxford02_1710754599097164019.png",
+      "image_sha256": "778610455c8212b1111a7a1e8abaf595e403084f9624b9f8d792b357dbcd9c9f",
+      "source_cdr_sha256": "813c63bdf54b258aadce2c5a3ef4ab1547551e8c182013c3cecb7215ae81f1f0",
+      "valid_mask_path": "valid_masks/oxford02_1710754599097164019.png",
+      "label_path": "labels/oxford02_1710754599097164019.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754599097494400,
+          "actual_delta_ns": -330381
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754604097081419",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754604097081419,
+      "raw_image_index": 10244,
+      "image_path": "images/oxford02_1710754604097081419.png",
+      "image_sha256": "49645ce000b6103ae57fb4982e5523b215285221cc95714a04d45c6e64e1c2be",
+      "source_cdr_sha256": "b9ecc77fb9ac10882c792308f7903a5c681c1ec18750c3d546c186556cba6637",
+      "valid_mask_path": "valid_masks/oxford02_1710754604097081419.png",
+      "label_path": "labels/oxford02_1710754604097081419.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t4",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710754604097494400,
+          "actual_delta_ns": -412981
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754604297078119",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754604297078119,
+      "raw_image_index": 10248,
+      "image_path": "images/oxford02_1710754604297078119.png",
+      "image_sha256": "80af3dcc35a6028e11136438f0c48cbc99821329069f71dd59a3422471af1b4a",
+      "source_cdr_sha256": "b2206207ceb147204743d437a6809025f24064cbb93c09ab822b109db3d33fc7",
+      "valid_mask_path": "valid_masks/oxford02_1710754604297078119.png",
+      "label_path": "labels/oxford02_1710754604297078119.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754604322005000,
+          "actual_delta_ns": -24926881
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754609297014382",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754609297014382,
+      "raw_image_index": 10347,
+      "image_path": "images/oxford02_1710754609297014382.png",
+      "image_sha256": "ec83726485f4332cea74cb7d81dabf6f1a27e10ce8f7b566dbad128ce337b9bf",
+      "source_cdr_sha256": "273dd5ad668c5e74eed9844544f89d6f524db6ade114beadc763820f28e12852",
+      "valid_mask_path": "valid_masks/oxford02_1710754609297014382.png",
+      "label_path": "labels/oxford02_1710754609297014382.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754609322005000,
+          "actual_delta_ns": -24990618
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754614346932682",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754614346932682,
+      "raw_image_index": 10447,
+      "image_path": "images/oxford02_1710754614346932682.png",
+      "image_sha256": "c5c6298974096d2660a554730c71b774de6bb9f4972ebfa0353800d5fc26532e",
+      "source_cdr_sha256": "fc2521d913d741e2bc4c38ef812a56e91b0043cac43afdcd04bc1491eb3feaf6",
+      "valid_mask_path": "valid_masks/oxford02_1710754614346932682.png",
+      "label_path": "labels/oxford02_1710754614346932682.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754614322005000,
+          "actual_delta_ns": 24927682
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754619546848582",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754619546848582,
+      "raw_image_index": 10551,
+      "image_path": "images/oxford02_1710754619546848582.png",
+      "image_sha256": "b17fb9acaf8f66ea2d08c1712b38bc26b67f1691b5e2679a29e1c9e76a52d5eb",
+      "source_cdr_sha256": "ab5c1d234af276beccf62ef934e2977e4f988ef8db4780ce785d060f56f42aee",
+      "valid_mask_path": "valid_masks/oxford02_1710754619546848582.png",
+      "label_path": "labels/oxford02_1710754619546848582.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754619571457900,
+          "actual_delta_ns": -24609318
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754624346772873",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754624346772873,
+      "raw_image_index": 10646,
+      "image_path": "images/oxford02_1710754624346772873.png",
+      "image_sha256": "5c106f14b32332ea5c6e64bdcc8ef43c761228f25c48a903c06df1b375256db8",
+      "source_cdr_sha256": "6b62e44b012ed2a989e2df5f60aaafdab455e5b6e82f7a5ce950ad933e65212d",
+      "valid_mask_path": "valid_masks/oxford02_1710754624346772873.png",
+      "label_path": "labels/oxford02_1710754624346772873.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754624322005000,
+          "actual_delta_ns": 24767873
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754624546769673",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754624546769673,
+      "raw_image_index": 10650,
+      "image_path": "images/oxford02_1710754624546769673.png",
+      "image_sha256": "344f9c0311ae4b95f04252f1c7c3d7d76ef97eece36c89b7a8d84a4f370b31a5",
+      "source_cdr_sha256": "b150086bbe491eb2767337c41c054a0a78bf31bb8c72a50fcc8167d03bc9de38",
+      "valid_mask_path": "valid_masks/oxford02_1710754624546769673.png",
+      "label_path": "labels/oxford02_1710754624546769673.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754624571457900,
+          "actual_delta_ns": -24688227
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754629346695047",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754629346695047,
+      "raw_image_index": 10745,
+      "image_path": "images/oxford02_1710754629346695047.png",
+      "image_sha256": "c61a7787ae355cd63a4bd17599e3b387da56214286ce312bec949e8018ba22ba",
+      "source_cdr_sha256": "d8b39fe1003873cba643f14fb1882b6709613f16b8084e13a1c395f8c4ace2ad",
+      "valid_mask_path": "valid_masks/oxford02_1710754629346695047.png",
+      "label_path": "labels/oxford02_1710754629346695047.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754629322005000,
+          "actual_delta_ns": 24690047
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754629546691847",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754629546691847,
+      "raw_image_index": 10749,
+      "image_path": "images/oxford02_1710754629546691847.png",
+      "image_sha256": "937a9f25897f8ab439b445b2fac7629153081a6e68e9d5b6c5936560f7aaf926",
+      "source_cdr_sha256": "5128c6248b433500c4f509acdc7c2590de4ded2d744afb200cc315ed9c3c443d",
+      "valid_mask_path": "valid_masks/oxford02_1710754629546691847.png",
+      "label_path": "labels/oxford02_1710754629546691847.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754629571457900,
+          "actual_delta_ns": -24766053
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754634346615547",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754634346615547,
+      "raw_image_index": 10845,
+      "image_path": "images/oxford02_1710754634346615547.png",
+      "image_sha256": "0a6c431b0412cade3e5718c915d7efbd85036a78901c9b1b2b8f90f7f9401c0c",
+      "source_cdr_sha256": "5964ac890ae5b3a4f94e47838a28a83f4ff225c9e9e171684c2f04dbb425ddc0",
+      "valid_mask_path": "valid_masks/oxford02_1710754634346615547.png",
+      "label_path": "labels/oxford02_1710754634346615547.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t5",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710754634322005000,
+          "actual_delta_ns": 24610547
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754634696610047",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754634696610047,
+      "raw_image_index": 10852,
+      "image_path": "images/oxford02_1710754634696610047.png",
+      "image_sha256": "536f37b367e7fa6a6df2c4257d0fbc74840c7724b6018a1b270ccdd778632b6c",
+      "source_cdr_sha256": "3e6073efd7d1d0960940fd8b0850ae48f897d31c9f37890eda045400440172c4",
+      "valid_mask_path": "valid_masks/oxford02_1710754634696610047.png",
+      "label_path": "labels/oxford02_1710754634696610047.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710754634721197000,
+          "actual_delta_ns": -24586953
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754639546532947",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754639546532947,
+      "raw_image_index": 10949,
+      "image_path": "images/oxford02_1710754639546532947.png",
+      "image_sha256": "fc6202a08ec8ee9376abfb3de96238018cfb192187f3814c1026f70c3f91ce96",
+      "source_cdr_sha256": "b2696f3e46b178e74e134570da50c9f6f4d39b8db5032ff1d4c5ec99defed91c",
+      "valid_mask_path": "valid_masks/oxford02_1710754639546532947.png",
+      "label_path": "labels/oxford02_1710754639546532947.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754639571457900,
+          "actual_delta_ns": -24924953
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754639696530547",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754639696530547,
+      "raw_image_index": 10952,
+      "image_path": "images/oxford02_1710754639696530547.png",
+      "image_sha256": "0f66c722d0dc37195f809b43fc305a048254e1721274b364c8c1582927fa40bc",
+      "source_cdr_sha256": "bf7e50cc8dbd95e2029fccbd4a8d3c1143916867a04f4e3b7e5650b62d11b09e",
+      "valid_mask_path": "valid_masks/oxford02_1710754639696530547.png",
+      "label_path": "labels/oxford02_1710754639696530547.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710754639721197000,
+          "actual_delta_ns": -24666453
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754644596454737",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754644596454737,
+      "raw_image_index": 11050,
+      "image_path": "images/oxford02_1710754644596454737.png",
+      "image_sha256": "d9eded80166818e6875de2a6c06fd15c55407957f1aa71483e08ec26a91469d6",
+      "source_cdr_sha256": "a758d76fe1069a72ac57256adbc8b2e2361a26135443e6dce2b32d463926888e",
+      "valid_mask_path": "valid_masks/oxford02_1710754644596454737.png",
+      "label_path": "labels/oxford02_1710754644596454737.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754644571457900,
+          "actual_delta_ns": 24996837
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754644696453137",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754644696453137,
+      "raw_image_index": 11052,
+      "image_path": "images/oxford02_1710754644696453137.png",
+      "image_sha256": "8510a7dd98aacab57bfe78a68d18c6b7d5f8922449fd0e1b9b0e4ef9ef24f38d",
+      "source_cdr_sha256": "1f605345aa747ee014a93fdf22e290ac8c673d1b5e9d65246498efce0c734a16",
+      "valid_mask_path": "valid_masks/oxford02_1710754644696453137.png",
+      "label_path": "labels/oxford02_1710754644696453137.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710754644721197000,
+          "actual_delta_ns": -24743863
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754649596385954",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754649596385954,
+      "raw_image_index": 11149,
+      "image_path": "images/oxford02_1710754649596385954.png",
+      "image_sha256": "3a474bbab9c72393aefe74062848678ffe8076ffb7d594eb96ed2d18a7275de2",
+      "source_cdr_sha256": "ede56075895331c71128b4f56cd0ffd7e83e01520797e6213e346209941cfaf8",
+      "valid_mask_path": "valid_masks/oxford02_1710754649596385954.png",
+      "label_path": "labels/oxford02_1710754649596385954.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754649571457900,
+          "actual_delta_ns": 24928054
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754654696272529",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754654696272529,
+      "raw_image_index": 11248,
+      "image_path": "images/oxford02_1710754654696272529.png",
+      "image_sha256": "bda57557be19434fb36655163ad144e2d9ad0103e1445cccd5d85c989bf74e58",
+      "source_cdr_sha256": "b1cfa54ec3864305f6a559fcb13754cbe0af179b9616becb93fd1c0d0ada62eb",
+      "valid_mask_path": "valid_masks/oxford02_1710754654696272529.png",
+      "label_path": "labels/oxford02_1710754654696272529.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710754654721197000,
+          "actual_delta_ns": -24924471
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754659596199245",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754659596199245,
+      "raw_image_index": 11346,
+      "image_path": "images/oxford02_1710754659596199245.png",
+      "image_sha256": "dd0eabaf778e3681d63445cd09341839ffa53a43f7b7521cf54f61f0262a54af",
+      "source_cdr_sha256": "e8e5335e529103ddeb5a99df833711266e4a19125136f55334f131df04ed3fb8",
+      "valid_mask_path": "valid_masks/oxford02_1710754659596199245.png",
+      "label_path": "labels/oxford02_1710754659596199245.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754659571457900,
+          "actual_delta_ns": 24741345
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754659696197745",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754659696197745,
+      "raw_image_index": 11348,
+      "image_path": "images/oxford02_1710754659696197745.png",
+      "image_sha256": "a7b1bda1ff0bc384e0b472184c1e0320a5141d04011eae07c226e8b6ff29cb5a",
+      "source_cdr_sha256": "489f68ee2548ea407e03c8b309fd5ede243d80b190177f4e70118ef9339cb645",
+      "valid_mask_path": "valid_masks/oxford02_1710754659696197745.png",
+      "label_path": "labels/oxford02_1710754659696197745.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710754659721197000,
+          "actual_delta_ns": -24999255
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754664596123953",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754664596123953,
+      "raw_image_index": 11445,
+      "image_path": "images/oxford02_1710754664596123953.png",
+      "image_sha256": "75ba8a654d6e9b8e91cde0cec8dd0ed5de080ba23990f3a6008999bd870af976",
+      "source_cdr_sha256": "0d052dc9d7ce7e896ae50f242b74e3000d4a09a677534c62329fdad5026d1e10",
+      "valid_mask_path": "valid_masks/oxford02_1710754664596123953.png",
+      "label_path": "labels/oxford02_1710754664596123953.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754664571457900,
+          "actual_delta_ns": 24666053
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754664746121653",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754664746121653,
+      "raw_image_index": 11448,
+      "image_path": "images/oxford02_1710754664746121653.png",
+      "image_sha256": "8b607cdf9c9391f23d05756e9ac934a13ab34106cb96c4c3e7a8b2515719445a",
+      "source_cdr_sha256": "e8fd2801b46b64c58ac79713d4b853a7f7e4a4db61012ea7e67de071532c7003",
+      "valid_mask_path": "valid_masks/oxford02_1710754664746121653.png",
+      "label_path": "labels/oxford02_1710754664746121653.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710754664721197000,
+          "actual_delta_ns": 24924653
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754669596050081",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754669596050081,
+      "raw_image_index": 11544,
+      "image_path": "images/oxford02_1710754669596050081.png",
+      "image_sha256": "23f0d1cca22899dd86206c107885c507b04be398c196541c56b457f5c8d088b9",
+      "source_cdr_sha256": "d4c8c37c4d452761cc1c561d320d405f283a49e8abc2a2c386635bb3ba8d130b",
+      "valid_mask_path": "valid_masks/oxford02_1710754669596050081.png",
+      "label_path": "labels/oxford02_1710754669596050081.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t6",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710754669571457900,
+          "actual_delta_ns": 24592181
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754674745971981",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754674745971981,
+      "raw_image_index": 11647,
+      "image_path": "images/oxford02_1710754674745971981.png",
+      "image_sha256": "49ce9ca20054ec2ef4cc3080faf7991a5cd8002d744fe8a82126b70b40d64416",
+      "source_cdr_sha256": "b7a3e3345ad724290378f9124af2edcff0fb4770f9088c2c561e13b00d402bc0",
+      "valid_mask_path": "valid_masks/oxford02_1710754674745971981.png",
+      "label_path": "labels/oxford02_1710754674745971981.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710754674721197000,
+          "actual_delta_ns": 24774981
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford02_1710754679745896081",
+      "sequence": "oxford02",
+      "image_stamp_ns": 1710754679745896081,
+      "raw_image_index": 11747,
+      "image_path": "images/oxford02_1710754679745896081.png",
+      "image_sha256": "c6f747284481ae819e00736ebb95745423d8a3581e8d882b8dcd61bdee325ae1",
+      "source_cdr_sha256": "026f25dc888d1e268580c4f4928e513d72997a9dfe8fd81fef67bbf5ccb17521",
+      "valid_mask_path": "valid_masks/oxford02_1710754679745896081.png",
+      "label_path": "labels/oxford02_1710754679745896081.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford02_t7",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710754679721197000,
+          "actual_delta_ns": 24699081
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926426298574964",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926426298574964,
+      "raw_image_index": 519,
+      "image_path": "images/oxford05_1710926426298574964.png",
+      "image_sha256": "31b0ca3407c61ef6aaa93107a04df73ea1442dc864ea9273f046422a2046dd97",
+      "source_cdr_sha256": "f6ae6e6474c2ab346ca5dd168d16be8333b0f15d72366b284ac74f204e4ef9d3",
+      "valid_mask_path": "valid_masks/oxford05_1710926426298574964.png",
+      "label_path": "labels/oxford05_1710926426298574964.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710926426298228700,
+          "actual_delta_ns": 346264
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926431298519664",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926431298519664,
+      "raw_image_index": 544,
+      "image_path": "images/oxford05_1710926431298519664.png",
+      "image_sha256": "4d517aa79fe1b5fc565de174d1e80d2e24fc183222a14efa93ab398653263418",
+      "source_cdr_sha256": "6b98118b05fb886354a1c70031deb73d83952f6633139498a7e19dd38c471c2a",
+      "valid_mask_path": "valid_masks/oxford05_1710926431298519664.png",
+      "label_path": "labels/oxford05_1710926431298519664.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710926431298228700,
+          "actual_delta_ns": 290964
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926436298464564",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926436298464564,
+      "raw_image_index": 569,
+      "image_path": "images/oxford05_1710926436298464564.png",
+      "image_sha256": "ccecd5c8bd5b5361390eee627dee5fb80cbd2c37ecc13c557ce0f570ebce5e46",
+      "source_cdr_sha256": "37e4f7fd03a0d882b32d222cfaa6939d612d40d42bcff6d171ae5bcf374561b0",
+      "valid_mask_path": "valid_masks/oxford05_1710926436298464564.png",
+      "label_path": "labels/oxford05_1710926436298464564.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710926436298228700,
+          "actual_delta_ns": 235864
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926446298287059",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926446298287059,
+      "raw_image_index": 619,
+      "image_path": "images/oxford05_1710926446298287059.png",
+      "image_sha256": "148c0a795ed82645069a9fd3253452810df87f98e61fc547c36e586f366f60f5",
+      "source_cdr_sha256": "43d3d854ba923af2ab3fac2aac5d4d5b225141f1cd0763e2ec91250a845b46ed",
+      "valid_mask_path": "valid_masks/oxford05_1710926446298287059.png",
+      "label_path": "labels/oxford05_1710926446298287059.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710926446298228700,
+          "actual_delta_ns": 58359
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926451298229323",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926451298229323,
+      "raw_image_index": 644,
+      "image_path": "images/oxford05_1710926451298229323.png",
+      "image_sha256": "6880981524d4e99023b1fa2ccb2bc15263eeed2e89413b262ea2c70deb6dc6ec",
+      "source_cdr_sha256": "680a77a75afacea9a9c35c9ea00ef6b50768a270095f1bfec4463bdd9dd407c6",
+      "valid_mask_path": "valid_masks/oxford05_1710926451298229323.png",
+      "label_path": "labels/oxford05_1710926451298229323.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710926451298228700,
+          "actual_delta_ns": 623
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926456298168723",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926456298168723,
+      "raw_image_index": 669,
+      "image_path": "images/oxford05_1710926456298168723.png",
+      "image_sha256": "04e65e8e41800275b476d08cadc3dc6d4267e4d731c2dd9b8f3f27899e96f101",
+      "source_cdr_sha256": "45eeb0386c23d3e778892d338aff41c87405c22d7bfe065e63a471b5f9556ce6",
+      "valid_mask_path": "valid_masks/oxford05_1710926456298168723.png",
+      "label_path": "labels/oxford05_1710926456298168723.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710926456298228700,
+          "actual_delta_ns": -59977
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926466298044325",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926466298044325,
+      "raw_image_index": 719,
+      "image_path": "images/oxford05_1710926466298044325.png",
+      "image_sha256": "2d3fbefc9865a1f8e228c97be88cae3a88faa61043bd380757cd1a0f679efa3e",
+      "source_cdr_sha256": "3797975d58bf622736ad7c22444eefa2ffe195a4a42cf94a494307897d536f0c",
+      "valid_mask_path": "valid_masks/oxford05_1710926466298044325.png",
+      "label_path": "labels/oxford05_1710926466298044325.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710926466298228700,
+          "actual_delta_ns": -184375
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926471297983725",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926471297983725,
+      "raw_image_index": 744,
+      "image_path": "images/oxford05_1710926471297983725.png",
+      "image_sha256": "aca90a900d85a80976daaa58f6ccadc76b3b17480632b6e69bfdabec562f9baa",
+      "source_cdr_sha256": "c2d0d6298f685c47b90940522ad8bca52fc972540effb68c02c34d4498c7346b",
+      "valid_mask_path": "valid_masks/oxford05_1710926471297983725.png",
+      "label_path": "labels/oxford05_1710926471297983725.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710926471298228700,
+          "actual_delta_ns": -244975
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926476297923125",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926476297923125,
+      "raw_image_index": 769,
+      "image_path": "images/oxford05_1710926476297923125.png",
+      "image_sha256": "ea9621ed5422029778d9754be4d2a0623920ade398954d4fa91f77be57efc45d",
+      "source_cdr_sha256": "bd8af21ea2a1ba4f7f559d7b040f36f96de35c9c438760fba36b8be5c6930185",
+      "valid_mask_path": "valid_masks/oxford05_1710926476297923125.png",
+      "label_path": "labels/oxford05_1710926476297923125.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t1",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710926476298228700,
+          "actual_delta_ns": -305575
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926647895529962",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926647895529962,
+      "raw_image_index": 1624,
+      "image_path": "images/oxford05_1710926647895529962.png",
+      "image_sha256": "d71503b0fd6c5f0e0b7ceff93abf0751871e952725a80b1e28c141e48c479d9b",
+      "source_cdr_sha256": "8b42f803b48ae0a8a7df53990877680f83edffec2f6fb646c75a8cddbfcc528c",
+      "valid_mask_path": "valid_masks/oxford05_1710926647895529962.png",
+      "label_path": "labels/oxford05_1710926647895529962.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710926647995184400,
+          "actual_delta_ns": -99654438
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926652895464718",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926652895464718,
+      "raw_image_index": 1649,
+      "image_path": "images/oxford05_1710926652895464718.png",
+      "image_sha256": "2eea2fc9ebb310745f36da037add0706fe97a2d9d423ec1c6c0ef8d368b5b50c",
+      "source_cdr_sha256": "ef9e3da64c2935e363d18435dbd8b25541d521b3944364c5b1436eb91bd84e50",
+      "valid_mask_path": "valid_masks/oxford05_1710926652895464718.png",
+      "label_path": "labels/oxford05_1710926652895464718.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710926652995184400,
+          "actual_delta_ns": -99719682
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926657895394418",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926657895394418,
+      "raw_image_index": 1674,
+      "image_path": "images/oxford05_1710926657895394418.png",
+      "image_sha256": "69d5b4121971a790b4dfabba096d21141500c9b7fe7358e58244a483718e9677",
+      "source_cdr_sha256": "491a5d452e2345f674bd0ff1fbd29950bc4693332894d31dca479e8bee7354bf",
+      "valid_mask_path": "valid_masks/oxford05_1710926657895394418.png",
+      "label_path": "labels/oxford05_1710926657895394418.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710926657995184400,
+          "actual_delta_ns": -99789982
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926667895253818",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926667895253818,
+      "raw_image_index": 1724,
+      "image_path": "images/oxford05_1710926667895253818.png",
+      "image_sha256": "6904a33744ada293c9a11abd3506174f95c8a28bd11990d287ddbe417cdbed68",
+      "source_cdr_sha256": "68209997b442c50a0d2086ec1596bf40138cd9e73f1eac3fa2ad8931328857ad",
+      "valid_mask_path": "valid_masks/oxford05_1710926667895253818.png",
+      "label_path": "labels/oxford05_1710926667895253818.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710926667995184400,
+          "actual_delta_ns": -99930582
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926673095180818",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926673095180818,
+      "raw_image_index": 1750,
+      "image_path": "images/oxford05_1710926673095180818.png",
+      "image_sha256": "5a38e0a3215ed4da5a5eb1395cb3dfd9700c4f650d8393a9f5ceb6644efd0731",
+      "source_cdr_sha256": "f67efd97238b34ec34a6c52c527455fcdac866da979687519491791516e656a8",
+      "valid_mask_path": "valid_masks/oxford05_1710926673095180818.png",
+      "label_path": "labels/oxford05_1710926673095180818.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710926672995184400,
+          "actual_delta_ns": 99996418
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926678095115121",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926678095115121,
+      "raw_image_index": 1775,
+      "image_path": "images/oxford05_1710926678095115121.png",
+      "image_sha256": "392bf2779ae55e45d580451584ea25b9d6a5440ecb087b9d4a0713ef6a1e6600",
+      "source_cdr_sha256": "802472e790dc568be4ee0b29d106f3117562bc72bd0940f9f9005a0a2a53673e",
+      "valid_mask_path": "valid_masks/oxford05_1710926678095115121.png",
+      "label_path": "labels/oxford05_1710926678095115121.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710926677995184400,
+          "actual_delta_ns": 99930721
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926688094969021",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926688094969021,
+      "raw_image_index": 1824,
+      "image_path": "images/oxford05_1710926688094969021.png",
+      "image_sha256": "2edf21b712690e3ea82885bde1c178eb71e37847f8b90ee2dda8b6c0ddd5a140",
+      "source_cdr_sha256": "c389397a09739711b7442044384632a21afdf126de9da1d1a05aa71b4ea12cfa",
+      "valid_mask_path": "valid_masks/oxford05_1710926688094969021.png",
+      "label_path": "labels/oxford05_1710926688094969021.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710926687995184400,
+          "actual_delta_ns": 99784621
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926693094895921",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926693094895921,
+      "raw_image_index": 1849,
+      "image_path": "images/oxford05_1710926693094895921.png",
+      "image_sha256": "17c664e88e30951b8e62c53f7d05cb5fef92f95e6b06ef44332abc04c7a10a56",
+      "source_cdr_sha256": "aa70719120a3eb1a76530803175e31f0a7ed0f8da299ff5fc05dc65a712e5e02",
+      "valid_mask_path": "valid_masks/oxford05_1710926693094895921.png",
+      "label_path": "labels/oxford05_1710926693094895921.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710926692995184400,
+          "actual_delta_ns": 99711521
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926698094825061",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926698094825061,
+      "raw_image_index": 1874,
+      "image_path": "images/oxford05_1710926698094825061.png",
+      "image_sha256": "ff1cb225f1ed5fdefc6332171b4fb746ac1b36728075d401af6cdad5af5c7e03",
+      "source_cdr_sha256": "fabb089d43298b92b8cf7004a5e1bd69bad0b9c2ef6f6ae2b9ac5c1a77283d5a",
+      "valid_mask_path": "valid_masks/oxford05_1710926698094825061.png",
+      "label_path": "labels/oxford05_1710926698094825061.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t2",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710926697995184400,
+          "actual_delta_ns": 99640661
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926922091622768",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926922091622768,
+      "raw_image_index": 2974,
+      "image_path": "images/oxford05_1710926922091622768.png",
+      "image_sha256": "f6e10c28ed4581752095fc8c331a7eb6c5cc408d59cadebbe623e7223a9e9e65",
+      "source_cdr_sha256": "c762cd00aae1c627909880aa54cdc8d00e04cdeb8964096be616003d3b39dfff",
+      "valid_mask_path": "valid_masks/oxford05_1710926922091622768.png",
+      "label_path": "labels/oxford05_1710926922091622768.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710926922091233700,
+          "actual_delta_ns": 389068
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926927091547471",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926927091547471,
+      "raw_image_index": 2998,
+      "image_path": "images/oxford05_1710926927091547471.png",
+      "image_sha256": "f4332b8d3bb49fb03df208c86d6d428c2229ec4aa37393f6e8eb9dca88344dcb",
+      "source_cdr_sha256": "8a13a28ca8b6522fb2bf82691ff908fc2dc079113549f323a1a7083e448de24a",
+      "valid_mask_path": "valid_masks/oxford05_1710926927091547471.png",
+      "label_path": "labels/oxford05_1710926927091547471.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710926927091233700,
+          "actual_delta_ns": 313771
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926932091468790",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926932091468790,
+      "raw_image_index": 3023,
+      "image_path": "images/oxford05_1710926932091468790.png",
+      "image_sha256": "13aca2c63b37a346c59366414f089b7ae558f81706752b13a262e4f3a46bf757",
+      "source_cdr_sha256": "4198effc8f771fc2627b6161c82d064bb5c770ea3aa54455c56c749af11fa3d4",
+      "valid_mask_path": "valid_masks/oxford05_1710926932091468790.png",
+      "label_path": "labels/oxford05_1710926932091468790.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710926932091233700,
+          "actual_delta_ns": 235090
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926942091312090",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926942091312090,
+      "raw_image_index": 3072,
+      "image_path": "images/oxford05_1710926942091312090.png",
+      "image_sha256": "a265227124f472b2eb42de13c510cf1e62db2263dd2c6b9791b3b16b66e2a481",
+      "source_cdr_sha256": "e01b559e7cadc96daa2013f62758e138abbfa8e648dca2d4a19216cb525ee8b3",
+      "valid_mask_path": "valid_masks/oxford05_1710926942091312090.png",
+      "label_path": "labels/oxford05_1710926942091312090.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710926942091233700,
+          "actual_delta_ns": 78390
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926947091233690",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926947091233690,
+      "raw_image_index": 3097,
+      "image_path": "images/oxford05_1710926947091233690.png",
+      "image_sha256": "da969111f6b5af35dc30430da7ea1881c6120aef1880e6d075c7f1ca410938c3",
+      "source_cdr_sha256": "d81273d0116badd4df2c7f50b15844d0843a626fa588dddcafa1ceae0f7d2e13",
+      "valid_mask_path": "valid_masks/oxford05_1710926947091233690.png",
+      "label_path": "labels/oxford05_1710926947091233690.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710926947091233700,
+          "actual_delta_ns": -10
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926952091155390",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926952091155390,
+      "raw_image_index": 3122,
+      "image_path": "images/oxford05_1710926952091155390.png",
+      "image_sha256": "7797e501d84474e6834123075305e3c8798b8e1d15e83957554a15c1196ee731",
+      "source_cdr_sha256": "e433bdf690a904bd268b7418720d73235e37c0ab0cb8864ecf9f005a4f0ee7cd",
+      "valid_mask_path": "valid_masks/oxford05_1710926952091155390.png",
+      "label_path": "labels/oxford05_1710926952091155390.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710926952091233700,
+          "actual_delta_ns": -78310
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926962090983125",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926962090983125,
+      "raw_image_index": 3172,
+      "image_path": "images/oxford05_1710926962090983125.png",
+      "image_sha256": "2273228aff2e76a8ac50110bf9648e647c6ef5e37120ce4392409f3cd603f9fb",
+      "source_cdr_sha256": "6333e004d2573eab4740b098e2467a634b566f732fc17c4909bc08e3ae1bb382",
+      "valid_mask_path": "valid_masks/oxford05_1710926962090983125.png",
+      "label_path": "labels/oxford05_1710926962090983125.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710926962091233700,
+          "actual_delta_ns": -250575
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926967090907525",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926967090907525,
+      "raw_image_index": 3197,
+      "image_path": "images/oxford05_1710926967090907525.png",
+      "image_sha256": "0d71dcd05991db8acaad0d25d6b22dbd70b4eba6b6bdf4f0b1fdd2152c5e6da3",
+      "source_cdr_sha256": "94092e337a4527ed706f75315c4cfb80e6f3ee24ecc3b3c624ff55ac0444dd1b",
+      "valid_mask_path": "valid_masks/oxford05_1710926967090907525.png",
+      "label_path": "labels/oxford05_1710926967090907525.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710926967091233700,
+          "actual_delta_ns": -326175
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926972090832125",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926972090832125,
+      "raw_image_index": 3222,
+      "image_path": "images/oxford05_1710926972090832125.png",
+      "image_sha256": "4578ca77343756ba7af45d5a2eef3b71c6db340c98a36acdfcce9d098e18c149",
+      "source_cdr_sha256": "ccf937ff1ee756200629b52dc93ccbb6363ffa14e2a0e40594c50ede2dd318fb",
+      "valid_mask_path": "valid_masks/oxford05_1710926972090832125.png",
+      "label_path": "labels/oxford05_1710926972090832125.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t3",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710926972091233700,
+          "actual_delta_ns": -401575
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926973090816925",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926973090816925,
+      "raw_image_index": 3227,
+      "image_path": "images/oxford05_1710926973090816925.png",
+      "image_sha256": "382b9927b917a4fb8071636c70c5ef4e425927dd121e2be97d2ff1d3a7713b0f",
+      "source_cdr_sha256": "c046099a860c25928b2440b8abd8c4a08115e2f820ef2d168979059042c5d10f",
+      "valid_mask_path": "valid_masks/oxford05_1710926973090816925.png",
+      "label_path": "labels/oxford05_1710926973090816925.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710926973090407800,
+          "actual_delta_ns": 409125
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926978090738419",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926978090738419,
+      "raw_image_index": 3252,
+      "image_path": "images/oxford05_1710926978090738419.png",
+      "image_sha256": "68d4750bcd3c16192b1fa73eb903cb44aeb9ec91524bb4a12e7531ed862edc19",
+      "source_cdr_sha256": "af75d4e5be4582884002623504272c00b4dd2db6f0ea56b6bc15a7e2be8936a5",
+      "valid_mask_path": "valid_masks/oxford05_1710926978090738419.png",
+      "label_path": "labels/oxford05_1710926978090738419.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710926978090407800,
+          "actual_delta_ns": 330619
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926983090654626",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926983090654626,
+      "raw_image_index": 3277,
+      "image_path": "images/oxford05_1710926983090654626.png",
+      "image_sha256": "bdae2bcea2c44a647096c59345f116f813fe184ebf93a5383e569b31b8ba6050",
+      "source_cdr_sha256": "43f2c596508edd15ff36e81b1581d35dc7389d621a710380f195855b65c46f98",
+      "valid_mask_path": "valid_masks/oxford05_1710926983090654626.png",
+      "label_path": "labels/oxford05_1710926983090654626.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710926983090407800,
+          "actual_delta_ns": 246826
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926993090490026",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926993090490026,
+      "raw_image_index": 3326,
+      "image_path": "images/oxford05_1710926993090490026.png",
+      "image_sha256": "0b7f679ec6235aca394796ce46191852a6b16c0f89e52695bd60f9581964c48b",
+      "source_cdr_sha256": "56c023db0910c45317822d9e4f23f43f2c432ff830455c641727ce881c749d2a",
+      "valid_mask_path": "valid_masks/oxford05_1710926993090490026.png",
+      "label_path": "labels/oxford05_1710926993090490026.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710926993090407800,
+          "actual_delta_ns": 82226
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710926998090407826",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710926998090407826,
+      "raw_image_index": 3351,
+      "image_path": "images/oxford05_1710926998090407826.png",
+      "image_sha256": "e6c54821c520742f2438cbc7906f812381ea6e218e9afb9229d261b362d41c4b",
+      "source_cdr_sha256": "d71519be51131767b7e0ec8b408c5eeeb60ab5d550f5c95e6868df60ddf91330",
+      "valid_mask_path": "valid_masks/oxford05_1710926998090407826.png",
+      "label_path": "labels/oxford05_1710926998090407826.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710926998090407800,
+          "actual_delta_ns": 26
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927003090325426",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927003090325426,
+      "raw_image_index": 3376,
+      "image_path": "images/oxford05_1710927003090325426.png",
+      "image_sha256": "a25c53fc2b6699a8e1e3baff9d2b258426a16727510e9e003895fc74f48c9d7f",
+      "source_cdr_sha256": "c0ec8e344b42e3295b1352ba58caeaffa7f41c8e9f51eaa98e505b34ecac8b02",
+      "valid_mask_path": "valid_masks/oxford05_1710927003090325426.png",
+      "label_path": "labels/oxford05_1710927003090325426.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710927003090407800,
+          "actual_delta_ns": -82374
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927013090160826",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927013090160826,
+      "raw_image_index": 3426,
+      "image_path": "images/oxford05_1710927013090160826.png",
+      "image_sha256": "3a58c5c08cdafd4b5da0e8f945eeea8bbc928aead20b5a5dfb89aacd8189c131",
+      "source_cdr_sha256": "aa21da745b70c0fe3f9a09ab238a1b4da1f69309be5407e0c783735b4dc8903b",
+      "valid_mask_path": "valid_masks/oxford05_1710927013090160826.png",
+      "label_path": "labels/oxford05_1710927013090160826.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710927013090407800,
+          "actual_delta_ns": -246974
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927018090082132",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927018090082132,
+      "raw_image_index": 3450,
+      "image_path": "images/oxford05_1710927018090082132.png",
+      "image_sha256": "c16e98567a7d6da3c93944fa30140b94756e81b0480dc9f42f5a913bba467832",
+      "source_cdr_sha256": "c214337dfe87d32f9fbdfec1e2dbeab8db4762b713f5bffe5bcf6e7367b31a86",
+      "valid_mask_path": "valid_masks/oxford05_1710927018090082132.png",
+      "label_path": "labels/oxford05_1710927018090082132.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710927018090407800,
+          "actual_delta_ns": -325668
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927018890068932",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927018890068932,
+      "raw_image_index": 3454,
+      "image_path": "images/oxford05_1710927018890068932.png",
+      "image_sha256": "dfeb3d43aefb41bb6257f43d64b329a8acd6cb69420ba8a3a9f75ef73db328eb",
+      "source_cdr_sha256": "c828498898f39b4cde4a6753f8778437a633bb24db7dce850105ce9590115a00",
+      "valid_mask_path": "valid_masks/oxford05_1710927018890068932.png",
+      "label_path": "labels/oxford05_1710927018890068932.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710927018989654500,
+          "actual_delta_ns": -99585568
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927023089999832",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927023089999832,
+      "raw_image_index": 3475,
+      "image_path": "images/oxford05_1710927023089999832.png",
+      "image_sha256": "877e18f1e8d85e6019c203b8793aea9c43ea09cb8dbc7c25e7765d707bc14010",
+      "source_cdr_sha256": "8c16e572001e5d40555b0050bf21b3fad7341ff3f9bb61b6bcb1a2cdff9f3402",
+      "valid_mask_path": "valid_masks/oxford05_1710927023089999832.png",
+      "label_path": "labels/oxford05_1710927023089999832.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t4",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710927023090407800,
+          "actual_delta_ns": -407968
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927023889986632",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927023889986632,
+      "raw_image_index": 3479,
+      "image_path": "images/oxford05_1710927023889986632.png",
+      "image_sha256": "45ec0047295720e903ff65831e512da5c1f96980562774b3b66a3f7ffe08f423",
+      "source_cdr_sha256": "885cf932ed8ee667d2380259832ea094f401d794612f36f294d52c47367abe37",
+      "valid_mask_path": "valid_masks/oxford05_1710927023889986632.png",
+      "label_path": "labels/oxford05_1710927023889986632.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710927023989654500,
+          "actual_delta_ns": -99667868
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927028889904332",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927028889904332,
+      "raw_image_index": 3504,
+      "image_path": "images/oxford05_1710927028889904332.png",
+      "image_sha256": "d0f25f6bff13a0e559bfae01d16950a2bd6673db6451a6975f812cd934fd7ad4",
+      "source_cdr_sha256": "9f1c827f2a9dd44d69223970636f0277bfd0ff5852c90970ee7569942475e1da",
+      "valid_mask_path": "valid_masks/oxford05_1710927028889904332.png",
+      "label_path": "labels/oxford05_1710927028889904332.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710927028989654500,
+          "actual_delta_ns": -99750168
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927038889739732",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927038889739732,
+      "raw_image_index": 3554,
+      "image_path": "images/oxford05_1710927038889739732.png",
+      "image_sha256": "ad7e7a3b821e88184931c2937b6530624f2262ab46dbae90e4ec78da55b93c2c",
+      "source_cdr_sha256": "3404144e1497d8562f1378be8a32270bb9ba8ec8be76c5a425e157e7ba862825",
+      "valid_mask_path": "valid_masks/oxford05_1710927038889739732.png",
+      "label_path": "labels/oxford05_1710927038889739732.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710927038989654500,
+          "actual_delta_ns": -99914768
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927044089652781",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927044089652781,
+      "raw_image_index": 3580,
+      "image_path": "images/oxford05_1710927044089652781.png",
+      "image_sha256": "cbb53d4abab78dc5a7d04313ddcc029bf7b6107a14da7cc0fc7d6affc6faff4c",
+      "source_cdr_sha256": "abc3ad3b6fc24d946bae529451bb56366ac7fbea54d4b10ff98ce4b793d63d3c",
+      "valid_mask_path": "valid_masks/oxford05_1710927044089652781.png",
+      "label_path": "labels/oxford05_1710927044089652781.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710927043989654500,
+          "actual_delta_ns": 99998281
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927049089569681",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927049089569681,
+      "raw_image_index": 3605,
+      "image_path": "images/oxford05_1710927049089569681.png",
+      "image_sha256": "97f6d45a566f356f5ea71c7c72177c7a40c85714bf86a2c428673ae5389714f1",
+      "source_cdr_sha256": "e26875251ca8cd32ae61a0b763f3d377df63adc81a233199f59b143eba5b14c0",
+      "valid_mask_path": "valid_masks/oxford05_1710927049089569681.png",
+      "label_path": "labels/oxford05_1710927049089569681.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710927048989654500,
+          "actual_delta_ns": 99915181
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927059089414891",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927059089414891,
+      "raw_image_index": 3652,
+      "image_path": "images/oxford05_1710927059089414891.png",
+      "image_sha256": "d76e5c82ad838fa0db9ada49eee4f35ec2546d6029f07d2c0ecc441de6a0960c",
+      "source_cdr_sha256": "25731df114c6dfc2a4ac69e7fc246ed7c988c680336a2e9b2f3018e716f0be86",
+      "valid_mask_path": "valid_masks/oxford05_1710927059089414891.png",
+      "label_path": "labels/oxford05_1710927059089414891.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710927058989654500,
+          "actual_delta_ns": 99760391
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927064089341191",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927064089341191,
+      "raw_image_index": 3677,
+      "image_path": "images/oxford05_1710927064089341191.png",
+      "image_sha256": "78c9db20e3b7906a7ade719b82271fab07440e7610bfd52050f87a2f0df1111e",
+      "source_cdr_sha256": "d9d454c83a77a091ee3efe92e9d37b138c660f980788f7cdd0835320f75c58b5",
+      "valid_mask_path": "valid_masks/oxford05_1710927064089341191.png",
+      "label_path": "labels/oxford05_1710927064089341191.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710927063989654500,
+          "actual_delta_ns": 99686691
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927069089265002",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927069089265002,
+      "raw_image_index": 3702,
+      "image_path": "images/oxford05_1710927069089265002.png",
+      "image_sha256": "5228865644a1be7af1a9328356cd9b1ab58a0d50c8ef5e85a4c5de7a7f5ce6b9",
+      "source_cdr_sha256": "43e5555b0ff0b8a5454ba9b6f87fe79cd9b8f2e907a6dcdec0829e49074d5ddb",
+      "valid_mask_path": "valid_masks/oxford05_1710927069089265002.png",
+      "label_path": "labels/oxford05_1710927069089265002.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t5",
+          "window": "after",
+          "anchor_offset_s": 25,
+          "requested_ns": 1710927068989654500,
+          "actual_delta_ns": 99610502
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927074889173149",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927074889173149,
+      "raw_image_index": 3730,
+      "image_path": "images/oxford05_1710927074889173149.png",
+      "image_sha256": "7e6cfeaa460d89266fd1bcd8a454c5c83336f6e5271dfc5facb7f818260ba274",
+      "source_cdr_sha256": "1c0a0d82131627688c7a7d93108c756bee44d44d56a33a084363ae28975fba31",
+      "valid_mask_path": "valid_masks/oxford05_1710927074889173149.png",
+      "label_path": "labels/oxford05_1710927074889173149.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "before",
+          "anchor_offset_s": -25,
+          "requested_ns": 1710927074988799800,
+          "actual_delta_ns": -99626651
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927079889095949",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927079889095949,
+      "raw_image_index": 3755,
+      "image_path": "images/oxford05_1710927079889095949.png",
+      "image_sha256": "654169ddc4eced91d83b4f4603b02eabc2a0220d51c7db0b0df5ac0260e539a5",
+      "source_cdr_sha256": "507dd2737a50686d7ec97d3830f98125023dc4d6ecef313955f46a033530b23d",
+      "valid_mask_path": "valid_masks/oxford05_1710927079889095949.png",
+      "label_path": "labels/oxford05_1710927079889095949.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "before",
+          "anchor_offset_s": -20,
+          "requested_ns": 1710927079988799800,
+          "actual_delta_ns": -99703851
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927084889018849",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927084889018849,
+      "raw_image_index": 3780,
+      "image_path": "images/oxford05_1710927084889018849.png",
+      "image_sha256": "a5ed95c2c2a512739484da165c8e91d2e33d864ba1ac5fef1cc78457a8500a84",
+      "source_cdr_sha256": "38f26caa430916b21ff5db7c067701fe3560faf3014cd88e33a25d119b15c8d3",
+      "valid_mask_path": "valid_masks/oxford05_1710927084889018849.png",
+      "label_path": "labels/oxford05_1710927084889018849.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "before",
+          "anchor_offset_s": -15,
+          "requested_ns": 1710927084988799800,
+          "actual_delta_ns": -99780951
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927094888864649",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927094888864649,
+      "raw_image_index": 3830,
+      "image_path": "images/oxford05_1710927094888864649.png",
+      "image_sha256": "2d42a67b5f79e3d8dfc3b696f091dbd16224d88e3fcad519ba7ef5f478323427",
+      "source_cdr_sha256": "fd41179acc2beadf6703e641c99108b2e4ea6f571e53847dc4394e32d8210308",
+      "valid_mask_path": "valid_masks/oxford05_1710927094888864649.png",
+      "label_path": "labels/oxford05_1710927094888864649.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "transition",
+          "anchor_offset_s": -5,
+          "requested_ns": 1710927094988799800,
+          "actual_delta_ns": -99935151
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927100088784449",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927100088784449,
+      "raw_image_index": 3854,
+      "image_path": "images/oxford05_1710927100088784449.png",
+      "image_sha256": "583fbc384879b643816634197995edb185c5905f774cbc338468e3e1e05260be",
+      "source_cdr_sha256": "9f74a0efad2070ee097cd843e39e76d7c286cfe73836028cbc6b4a22e6cda8e5",
+      "valid_mask_path": "valid_masks/oxford05_1710927100088784449.png",
+      "label_path": "labels/oxford05_1710927100088784449.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "transition",
+          "anchor_offset_s": 0,
+          "requested_ns": 1710927099988799800,
+          "actual_delta_ns": 99984649
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927105088736731",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927105088736731,
+      "raw_image_index": 3879,
+      "image_path": "images/oxford05_1710927105088736731.png",
+      "image_sha256": "de0844ba309d680c24d36d7f29f8cabcfe86dab50b3c2b3232bcdc33b2d37d5a",
+      "source_cdr_sha256": "6ec9a6d07ad78caa8ac02c89ca30217db2cb0239c88806bc3d58f90ba9161bec",
+      "valid_mask_path": "valid_masks/oxford05_1710927105088736731.png",
+      "label_path": "labels/oxford05_1710927105088736731.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "transition",
+          "anchor_offset_s": 5,
+          "requested_ns": 1710927104988799800,
+          "actual_delta_ns": 99936931
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927115088589231",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927115088589231,
+      "raw_image_index": 3929,
+      "image_path": "images/oxford05_1710927115088589231.png",
+      "image_sha256": "fefb39b037005f19ee7c22b788140e9f9c7b3bc3329a8406928b53f47e3da3aa",
+      "source_cdr_sha256": "2badd76fd0a568bd38a3699d9cb6f492ac09c9f67e4d985befda21d8855f6f06",
+      "valid_mask_path": "valid_masks/oxford05_1710927115088589231.png",
+      "label_path": "labels/oxford05_1710927115088589231.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "after",
+          "anchor_offset_s": 15,
+          "requested_ns": 1710927114988799800,
+          "actual_delta_ns": 99789431
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    },
+    {
+      "sample_id": "oxford05_1710927120088513329",
+      "sequence": "oxford05",
+      "image_stamp_ns": 1710927120088513329,
+      "raw_image_index": 3952,
+      "image_path": "images/oxford05_1710927120088513329.png",
+      "image_sha256": "301e26eb40211de5008c5aa53f3a34a53b08ad21466300bfa0a47a4c425bcdb4",
+      "source_cdr_sha256": "7b0f2766ac7af828fb603e2d2fdad8b6d76e469d3159b8685716b3ae0239faa2",
+      "valid_mask_path": "valid_masks/oxford05_1710927120088513329.png",
+      "label_path": "labels/oxford05_1710927120088513329.png",
+      "width": 720,
+      "height": 540,
+      "memberships": [
+        {
+          "event_id": "oxford05_t6",
+          "window": "after",
+          "anchor_offset_s": 20,
+          "requested_ns": 1710927119988799800,
+          "actual_delta_ns": 99713529
+        }
+      ],
+      "annotation_status": "pending",
+      "annotator": null,
+      "reviewer": null,
+      "valid_mask_sha256": "c2d286c467a8c4eb74e10e411882ce97a3afb38200645d49a610f95d498b0d70"
+    }
+  ],
+  "missing_anchors": [
+    {
+      "sequence": "oxford02",
+      "reason": "no_raw_input_within_350ms_or_sequence_truncated",
+      "event_id": "oxford02_t7",
+      "window": "after",
+      "anchor_offset_s": 25,
+      "requested_ns": 1710754684721197000,
+      "actual_delta_ns": -3625321419
+    },
+    {
+      "sequence": "oxford05",
+      "reason": "no_raw_input_within_350ms_or_sequence_truncated",
+      "event_id": "oxford05_t6",
+      "window": "after",
+      "anchor_offset_s": 25,
+      "requested_ns": 1710927124988799800,
+      "actual_delta_ns": -3300310171
+    }
+  ],
+  "requested_anchors": 117,
+  "unique_images": 114,
+  "labels_available": 0,
+  "limitations": [
+    "Boundary intervals are approximate; midpoint only anchors windows",
+    "Overlapping event windows are correlated; deduplicate global scores",
+    "Sampled 2D evaluation does not equal full-scene 3D or instance accuracy"
+  ],
+  "build_script_sha256": "5029f23e64002d7a9927975df2211442d2c62262e85fb3d49fc9ea42b253ecb5"
+}

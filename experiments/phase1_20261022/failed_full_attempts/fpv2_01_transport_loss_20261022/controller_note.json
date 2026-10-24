@@ -1,0 +1,9 @@
+{
+  "stopped_at": "2026-10-22T20:33:40.680702+08:00",
+  "reason": "Runtime IMU callback receipt has a 0.494719612s gap near sensor +57.4s despite source max IMU gap 0.01250693s; upstream >0.2s guard rejects all later IMUs, causing fixed pose and growing input queues. Stop without changing estimator. Retain failed transport attempt; add bounded playback pacing before retry.",
+  "first_missing_receipt_interval_sensor_s": [
+    1686616050.3851328,
+    1686616050.8798525
+  ],
+  "not_an_accuracy_filtered_attempt": true
+}

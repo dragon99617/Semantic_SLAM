@@ -1,0 +1,25 @@
+test_abstentions_count_as_false_negatives (__main__.ScoringTests) ... ok
+test_future_snapshot_is_rejected (__main__.ScoringTests) ... /home/hxy/SLAM_project/scripts/score_oxford_transition_annotations.py:54: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpgzr_s28_/tasks.csv' mode='r' encoding='UTF-8'>
+  tasks = list(csv.DictReader((package/'tasks.csv').open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_invalid_class_is_rejected (__main__.ScoringTests) ... ok
+test_no_labelled_pixels_has_no_numeric_accuracy (__main__.ScoringTests) ... ok
+test_no_predictions_is_zero_score_with_coverage_zero (__main__.ScoringTests) ... ok
+test_pending_annotations_cannot_produce_accuracy (__main__.ScoringTests) ... /home/hxy/SLAM_project/scripts/score_oxford_transition_annotations.py:54: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmptqxm0xnu/tasks.csv' mode='r' encoding='UTF-8'>
+  tasks = list(csv.DictReader((package/'tasks.csv').open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_reviewed_empty_template_is_rejected (__main__.ScoringTests) ... /home/hxy/SLAM_project/scripts/score_oxford_transition_annotations.py:54: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpniu0554o/tasks.csv' mode='r' encoding='UTF-8'>
+  tasks = list(csv.DictReader((package/'tasks.csv').open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_reviewed_scores_deduplicate_global_images (__main__.ScoringTests) ... /home/hxy/SLAM_project/scripts/score_oxford_transition_annotations.py:54: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp9fyeay8c/tasks.csv' mode='r' encoding='UTF-8'>
+  tasks = list(csv.DictReader((package/'tasks.csv').open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.031s
+
+OK

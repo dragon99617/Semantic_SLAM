@@ -1,0 +1,24 @@
+[
+  {
+    "sample_id": "probe_120",
+    "raw_image_stamp_ns": 1710754101155338092,
+    "last_processed_frame_id": 120,
+    "map_image_stamp_ns": 1710754101155338092,
+    "causal": true,
+    "pose_available": true,
+    "map_points": 29308,
+    "available_descriptor_objects": 2,
+    "predicted_pixels": 0
+  },
+  {
+    "sample_id": "probe_150",
+    "raw_image_stamp_ns": 1710754104155288492,
+    "last_processed_frame_id": 150,
+    "map_image_stamp_ns": 1710754104155288492,
+    "causal": true,
+    "pose_available": true,
+    "map_points": 39232,
+    "available_descriptor_objects": 5,
+    "predicted_pixels": 0
+  }
+]

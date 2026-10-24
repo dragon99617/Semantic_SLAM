@@ -1,0 +1,15 @@
+/left_camera/image:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/os_cloud_node/points:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable
+/stim300/imu/data_raw:
+  depth: 1000
+  durability: volatile
+  history: keep_last
+  reliability: reliable

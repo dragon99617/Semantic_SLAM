@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-22T20:10:43.538271",
+  "scope": "Frozen dataset settings, input-only annotations, evaluation windows and job list; excludes per-run output name",
+  "files": {
+    "experiments/phase1_20261022/configs/ntu_eee01_camera.yaml": "0870a3a506d294b2bc076e5e8594794a4f9baedbb20ed8f1b7daff418b3829cd",
+    "experiments/phase1_20261022/configs/ntu_eee01_mapper.yaml": "f794da67da2911aab72a8d470cdf44538281f3f49fb7ef7eaeaebe135c91f44c",
+    "experiments/phase1_20261022/configs/oxford_camera.yaml": "4a28cf8c152f09ae179fd986631f859f34404ac3495f0bef7d9e36eae834302a",
+    "experiments/phase1_20261022/configs/retail_camera.yaml": "cd58242cf93b5f8408428387291bb91425420be8f7bf2c75ceb1efe1770b442c",
+    "experiments/phase1_20261022/configs/fpv2_00_camera.yaml": "d74dfe8e1261719005d6446c1a2a757dca10151f8944ad71638f455680d25b8a",
+    "experiments/phase1_20261022/configs/oxford_mapper.yaml": "a9f1b1f0b3e1dfc21a350f7af0bb218bb2dda9aa31972cdb8bdba52d4092a828",
+    "experiments/phase1_20261022/configs/oxford_camera_diagnostic.yaml": "a82c9e1a5a9fad8b8dbe73fa987e7b760df92bc9e567ed4522741bd0affa1648",
+    "experiments/phase1_20261022/configs/retail_mapper.yaml": "8539a067430a2f3ed69a6df1c99005b6a7ee99a423d788671af8cfab80f4bb7d",
+    "experiments/phase1_20261022/configs/fpv2_00_mapper.yaml": "24aba007c20fba338e3579d6641427f230c5278dcf83e6b045860c55e2422b3e",
+    "experiments/phase1_20261022/ntu_eee01.json": "180d86184fe098d70aafd71de6a1480a8dcc7d0ecf191653001d3d61defee6c5",
+    "experiments/phase1_20261022/retail.json": "6a10725ac3d86958f6ff28bf230ea859343c93b5b980a2465058b938cee1bb4b",
+    "experiments/phase1_20261022/fpv2_00.json": "30cbcf4bd08784a74fd718e54b769e80781c0c5da4e8af611a28e3fa7bac72fa",
+    "experiments/phase1_20261022/fpv2_01.json": "c950e176ba4892d7bd28f94acb3575fc3da608c5f37b3e81435ef4c998482211",
+    "experiments/phase1_20261022/oxford02.json": "93605fe5f32aa568a89e06a2841e6994e087e19cd8bf2476a2ebd3af9d3e9b00",
+    "experiments/phase1_20261022/oxford05.json": "d3c96318327ce29f97660c071a9f4fa814ccb04ac5225959c308b78477ff47fa",
+    "experiments/phase1_20261022/jobs.json": "3bb522fa11e7ee1b65a90b37d0477ba6a95540a3a2ed58e9116793526b3a66a5",
+    "experiments/phase1_20261022/input_annotations/oxford05/events.json": "c2f2e3cf459bde719db37468b7812373739d48027cca50654771ba8e680b9bde",
+    "experiments/phase1_20261022/input_annotations/fpv2_00/events.json": "943e4acc504243762764f73372c8200d550ed72a208c312e516c432ef51a857f",
+    "experiments/phase1_20261022/input_annotations/oxford02/events.json": "93d1f7d265c467d16425100b36168e2ea2f47ef7fb6f4f66aee768391fde04fc",
+    "experiments/phase1_20261022/input_annotations/fpv2_01/events.json": "029d34b9f4f2f4b096da98ae4f7735535fbdf04b122a5f011885c76818557659",
+    "experiments/phase1_20261022/input_annotations/analysis_protocol.json": "70fcce61bd6f9eabc4eff511789ad5f7d51a1929fe12a3d85db4d53540c7eeb8"
+  }
+}

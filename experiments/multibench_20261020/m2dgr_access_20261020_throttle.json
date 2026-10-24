@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-20T19:09:02+08:00",
+  "scope": "M2DGR 全部公开序列入口 + M2DGR-plus",
+  "observation": "sharepoint 302 -> /_layouts/15/PolicyViolationThrottle.htm?fabDeleteSchdDate=2026-11-15",
+  "probes": [
+    {"seq": "door_01", "http": 302, "target": "PolicyViolationThrottle"},
+    {"seq": "door_02", "http": 302, "target": "PolicyViolationThrottle"},
+    {"seq": "street_03", "http": 302, "target": "PolicyViolationThrottle"},
+    {"seq": "room_01", "http": 302, "target": "PolicyViolationThrottle"},
+    {"seq": "M2DGR-plus", "http": 302, "target": "PolicyViolationThrottle"}
+  ],
+  "throttle_page": "自身 302 循环，无法读取正文",
+  "earlier_429": {"time": "2026-10-20T18:08:33", "retry_after": "300", "body": "429 TOO MANY REQUESTS"},
+  "readme_history": "M2DGR README 全部历史版本只出现 sjtueducn-my.sharepoint.com，无 Google Drive/百度/阿里云盘镜像",
+  "conclusion": "阻塞位于托管侧（SJTU 租户策略），不是本地网络或客户端;官方无镜像渠道。",
+  "downloader": "scripts/download_m2dgr_door01.sh (退避重试 + 断点续传 + bag 头校验)"
+}

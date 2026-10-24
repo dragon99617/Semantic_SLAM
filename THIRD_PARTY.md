@@ -14,6 +14,7 @@
 - [OVO](https://github.com/tberriel/OVO)、[SAM2](https://github.com/facebookresearch/sam2)
 - [OSMa-Bench](https://github.com/be2rlab/OSMa-Bench)、[HaDaGe](https://github.com/warmhammer/habitat_data_generator)
 - [NTU-VIRAL](https://ntu-aris.github.io/ntu_viral_dataset/)、[M2DGR](https://github.com/SJTU-ViSYS/M2DGR)
+- [Oxford Spires](https://dynamic.robots.ox.ac.uk/datasets/oxford-spires/)、[作者数据仓库](https://huggingface.co/datasets/ori-drs/oxford_spires_dataset)：所选版本与逐文件哈希见 `experiments/oxford_spires/download_manifest.json`。
 - [Replica 预处理数据](https://cvg-data.inf.ethz.ch/nice-slam/data/Replica.zip)、[OVO 数据说明](https://github.com/tberriel/OVO/blob/main/data/input/ReadMe.md)
 - [OSMa 数据](https://huggingface.co/datasets/warmhammer/OSMa-Bench_dataset)、[Augmented ReplicaCAD](https://huggingface.co/datasets/warmhammer/Augmented_ReplicaCAD_dataset)
 

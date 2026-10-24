@@ -1,0 +1,7 @@
+{
+  "rows": 6245,
+  "positions_equal_to_author_example": true,
+  "example_minus_published_time_s_median": 0.059999942779541016,
+  "matches_official_correlation_offset_s": 0.06,
+  "extra_offset_applied_in_evaluation": 0.0
+}

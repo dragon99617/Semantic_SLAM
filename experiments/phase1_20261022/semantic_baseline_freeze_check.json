@@ -1,0 +1,38 @@
+{
+  "OVO": {
+    "expected": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+    "actual": "e0d16f7a459ea5451540c50ac264b00aca3aeb85",
+    "matches": true
+  },
+  "OSMa-Bench": {
+    "expected": "7d9f33c756adaea2030711d24b08ca96d74ff344",
+    "actual": "7d9f33c756adaea2030711d24b08ca96d74ff344",
+    "matches": true
+  },
+  "SAM2": {
+    "expected": "c98aa6bea377d5c000cdc80197ce402dbf5304dc",
+    "actual": "c98aa6bea377d5c000cdc80197ce402dbf5304dc",
+    "matches": true
+  },
+  "OVO_patch": {
+    "sha256": "da41369e61601573734b5410328d2d1740224697b41e323e5543fdde2e3ca407",
+    "working_diff_matches_archived_patch": true
+  },
+  "sam2.1_hiera_large.pt": {
+    "path": "third_party/OVO/data/input/sam_ckpts/sam2.1_hiera_large.pt",
+    "sha256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+    "matches": true
+  },
+  "model.pt": {
+    "path": "third_party/OVO/data/input/weights_predictor/base/model.pt",
+    "sha256": "cf83bc853446fcbcfdf2c21496d38256f19ecc67874a240511fa91f5d7f01192",
+    "matches": true
+  },
+  "existing_independent_result_check_passed": true,
+  "checked_at": "2026-10-22T20:07:20.310789",
+  "SigLIP": {
+    "path": "third_party/model_cache/hub/models--timm--ViT-SO400M-14-SigLIP-384/blobs/97faeafa0576c1ba4c92bae739ca06ef5f5d0c2db92f86a6086653d82a262043",
+    "sha256": "97faeafa0576c1ba4c92bae739ca06ef5f5d0c2db92f86a6086653d82a262043",
+    "matches": true
+  }
+}

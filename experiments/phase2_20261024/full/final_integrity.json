@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": {
+    "oxford02_runtime_and_audit": true,
+    "oxford05_runtime_and_audit": true,
+    "all_114_causal_predictions_valid": true,
+    "no_independent_labels_fabricated": true,
+    "current_source_hashes_match": true,
+    "no_task_processes_left": true
+  },
+  "active_task_processes": [],
+  "annotation_zip_sha256": "d679f2d6412a0ad073e23826b91d843346ed1e30c305289130f9b13b24b92864",
+  "acceptance_sha256": "9f5380f2da58f35ccb4f64fbc542d6c69c59e1091d9f3952e9373b7b84ae9c94"
+}

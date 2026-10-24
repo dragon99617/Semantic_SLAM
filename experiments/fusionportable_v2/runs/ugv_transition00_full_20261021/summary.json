@@ -1,0 +1,24 @@
+{
+  "status": "failed",
+  "error": "Controller interrupted run because map memory continued growing past 5 GB before completing sequence",
+  "diagnostic": false,
+  "rate": 0.5,
+  "mapper_clean_exit": false,
+  "player_returncode": 0,
+  "wall_seconds": 414.8221873959992,
+  "received_outputs": {
+    "/aft_mapped_to_init": 3508,
+    "/cloud_registered": 7002,
+    "/rgb_img": 1432
+  },
+  "max_cloud_points": 9655,
+  "timestamp_basis": "saved TUM sensor time; ROS output stamps are node time",
+  "map_artifact": "sampled output clouds, every tenth message, ~512 points/message, 10 cm deduplication",
+  "run_dir": "/home/hxy/SLAM_project/experiments/fusionportable_v2/runs/ugv_transition00_full_20261021",
+  "resource_stop": {
+    "observed_rss_kib": 5055928,
+    "processed_sensor_seconds_approximately": 175,
+    "out_of_memory_observed": false
+  },
+  "shutdown_note": "Interrupting during processing triggered rclcpp invalid-context exception; mapper did not exit cleanly. Partial run is excluded from full-sequence evaluation."
+}

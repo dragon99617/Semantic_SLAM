@@ -1,0 +1,26 @@
+{
+  "/livox/lidar": {
+    "expected": 1355,
+    "received_callbacks": 1355,
+    "unique_received": 1355,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/livox/imu": {
+    "expected": 27447,
+    "received_callbacks": 27447,
+    "unique_received": 27447,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  },
+  "/left_camera/image": {
+    "expected": 1355,
+    "received_callbacks": 1355,
+    "unique_received": 1355,
+    "missing": 0,
+    "missing_ns": [],
+    "received_is_exact_multiset": true
+  }
+}

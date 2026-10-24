@@ -1,0 +1,410 @@
+{
+  "path": "datasets/FusionPortableV2/original/extracted/ugv_transition01.bag",
+  "bytes": 32645006567,
+  "topics": {
+    "/stim300/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 75200
+    },
+    "/os_cloud_node/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 37490
+    },
+    "/stereo/davis_left/image_raw/compressed": {
+      "type": "sensor_msgs/msg/CompressedImage",
+      "count": 7499
+    },
+    "/stereo/davis_left/image_chunk_data": {
+      "type": "geometry_msgs/msg/PointStamped",
+      "count": 7499
+    },
+    "/stereo/davis_right/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 373642
+    },
+    "/3dm_ins/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 184225
+    },
+    "/3dm_ins/mag/data_raw": {
+      "type": "sensor_msgs/msg/MagneticField",
+      "count": 184225
+    },
+    "/stereo/davis_left/imu/data_raw": {
+      "type": "sensor_msgs/msg/Imu",
+      "count": 372866
+    },
+    "/stereo/davis_left/events": {
+      "type": "dvs_msgs/msg/EventArray",
+      "count": 11248
+    },
+    "/stereo/davis_right/events": {
+      "type": "dvs_msgs/msg/EventArray",
+      "count": 11249
+    },
+    "/stereo/davis_right/image_raw/compressed": {
+      "type": "sensor_msgs/msg/CompressedImage",
+      "count": 7499
+    },
+    "/stereo/davis_right/image_chunk_data": {
+      "type": "geometry_msgs/msg/PointStamped",
+      "count": 7499
+    },
+    "/3dm_ins/gnss_right/aiding_status": {
+      "type": "microstrain_inertial_msgs/msg/GNSSAidingStatus",
+      "count": 11361
+    },
+    "/3dm_ins/gnss_left/aiding_status": {
+      "type": "microstrain_inertial_msgs/msg/GNSSAidingStatus",
+      "count": 11361
+    },
+    "/3dm_ins/nav/status": {
+      "type": "microstrain_inertial_msgs/msg/FilterStatus",
+      "count": 11361
+    },
+    "/3dm_ins/nav/heading": {
+      "type": "microstrain_inertial_msgs/msg/FilterHeading",
+      "count": 11361
+    },
+    "/3dm_ins/nav/aiding_summary": {
+      "type": "microstrain_inertial_msgs/msg/FilterAidingMeasurementSummary",
+      "count": 11361
+    },
+    "/3dm_ins/nav/odom": {
+      "type": "nav_msgs/msg/Odometry",
+      "count": 11361
+    },
+    "/3dm_ins/nav/dual_antenna_status": {
+      "type": "microstrain_inertial_msgs/msg/GNSSDualAntennaStatus",
+      "count": 11361
+    },
+    "/stereo/frame_right/image_raw/compressed": {
+      "type": "sensor_msgs/msg/CompressedImage",
+      "count": 7520
+    },
+    "/stereo/frame_left/image_raw/compressed": {
+      "type": "sensor_msgs/msg/CompressedImage",
+      "count": 7520
+    },
+    "/tf_static": {
+      "type": "tf2_msgs/msg/TFMessage",
+      "count": 90240
+    },
+    "/stereo/frame_left/camera_info": {
+      "type": "sensor_msgs/msg/CameraInfo",
+      "count": 7520
+    },
+    "/stereo/frame_right/camera_info": {
+      "type": "sensor_msgs/msg/CameraInfo",
+      "count": 7520
+    },
+    "/stereo/davis_left/camera_info": {
+      "type": "sensor_msgs/msg/CameraInfo",
+      "count": 7520
+    },
+    "/stereo/davis_right/camera_info": {
+      "type": "sensor_msgs/msg/CameraInfo",
+      "count": 7520
+    },
+    "/stereo/frame_right/image_chunk_data": {
+      "type": "geometry_msgs/msg/PointStamped",
+      "count": 7520
+    },
+    "/stereo/frame_left/image_chunk_data": {
+      "type": "geometry_msgs/msg/PointStamped",
+      "count": 7520
+    },
+    "/3dm_ins/gnss_right/fix": {
+      "type": "sensor_msgs/msg/NavSatFix",
+      "count": 750
+    },
+    "/3dm_ins/gnss_right/odom": {
+      "type": "nav_msgs/msg/Odometry",
+      "count": 750
+    },
+    "/3dm_ins/gnss_right/fix_info": {
+      "type": "microstrain_inertial_msgs/msg/GNSSFixInfo",
+      "count": 750
+    },
+    "/os_cloud_node/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 3749
+    },
+    "/os_image_node/range_image": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 3749
+    },
+    "/os_image_node/nearir_image": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 3749
+    },
+    "/os_image_node/signal_image": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 3749
+    },
+    "/os_image_node/reflec_image": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 3749
+    },
+    "/3dm_ins/gnss_left/fix": {
+      "type": "sensor_msgs/msg/NavSatFix",
+      "count": 750
+    },
+    "/3dm_ins/gnss_left/odom": {
+      "type": "nav_msgs/msg/Odometry",
+      "count": 750
+    },
+    "/3dm_ins/gnss_left/fix_info": {
+      "type": "microstrain_inertial_msgs/msg/GNSSFixInfo",
+      "count": 750
+    }
+  },
+  "first_imu": {
+    "accel": [
+      0.0021510405540466305,
+      0.05820902786254883,
+      9.74258640089035
+    ],
+    "gyro": [
+      -0.0001587244009687226,
+      -0.00023222764705490957,
+      -0.0005486111845563231
+    ]
+  },
+  "first_image_format": "jpg",
+  "tf_static": [
+    {
+      "parent": "frame_cam00",
+      "child": "frame_cam01",
+      "translation": [
+        0.15980000299215136,
+        -0.0023142946599957726,
+        0.0018943033742104048
+      ],
+      "rotation_xyzw": [
+        -0.005851386624852494,
+        -0.0030744529866177303,
+        -0.009415622115883822,
+        0.9999338253472428
+      ]
+    },
+    {
+      "parent": "event_cam00",
+      "child": "event_cam01",
+      "translation": [
+        0.2512396952931959,
+        -0.004354508878139435,
+        -0.0073785647719716045
+      ],
+      "rotation_xyzw": [
+        -0.01100582863765046,
+        -0.004320968111824741,
+        -0.013868304551477773,
+        0.9998339217587302
+      ]
+    },
+    {
+      "parent": "ouster00",
+      "child": "ouster00_imu",
+      "translation": [
+        0.006253,
+        -0.011775,
+        0.007645
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "parent": "ouster00",
+      "child": "frame_cam00",
+      "translation": [
+        0.0488,
+        0.0872,
+        -0.0507
+      ],
+      "rotation_xyzw": [
+        -0.4952054992876045,
+        0.5025055803554549,
+        -0.49630551150330815,
+        0.5059056181130839
+      ]
+    },
+    {
+      "parent": "ouster00",
+      "child": "event_cam00",
+      "translation": [
+        0.0252,
+        0.1316,
+        -0.0392
+      ],
+      "rotation_xyzw": [
+        -0.491393747054353,
+        0.5026936032645976,
+        -0.4991936478012474,
+        0.5065935536380446
+      ]
+    },
+    {
+      "parent": "body_imu",
+      "child": "optrack_marker",
+      "translation": [
+        -0.001,
+        -0.0,
+        0.1441
+      ],
+      "rotation_xyzw": [
+        -0.0002999830769320588,
+        -0.0031998194872752943,
+        0.9152483677197115,
+        0.402877272319755
+      ]
+    },
+    {
+      "parent": "body_imu",
+      "child": "leica_marker",
+      "translation": [
+        -0.001,
+        -0.0,
+        0.1441
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "parent": "frame_cam00",
+      "child": "body_imu",
+      "translation": [
+        0.069308,
+        -0.019229,
+        -0.084857
+      ],
+      "rotation_xyzw": [
+        0.4943665238246194,
+        -0.5051695352713559,
+        0.4978155274791407,
+        0.5025785325259617
+      ]
+    },
+    {
+      "parent": "frame_cam00",
+      "child": "3dm_imu",
+      "translation": [
+        0.064698,
+        0.054734,
+        -0.187184
+      ],
+      "rotation_xyzw": [
+        -0.494399516754061,
+        0.5082025311811864,
+        0.4932595155625141,
+        0.503978526766191
+      ]
+    },
+    {
+      "parent": "event_cam00",
+      "child": "event_cam00_imu",
+      "translation": [
+        -0.001627,
+        0.000229,
+        -0.053838
+      ],
+      "rotation_xyzw": [
+        0.008408003789610078,
+        0.0003370001518908892,
+        0.0015130006819314996,
+        0.9999634506981283
+      ]
+    },
+    {
+      "parent": "event_cam01",
+      "child": "event_cam01_imu",
+      "translation": [
+        -0.001502,
+        -0.000666,
+        -0.043625
+      ],
+      "rotation_xyzw": [
+        0.0003310000403154763,
+        0.005094000620444217,
+        0.0013030001587041257,
+        0.999986121797317
+      ]
+    },
+    {
+      "parent": "ouster00",
+      "child": "os_sensor",
+      "translation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "first_cloud": {
+    "width": 1024,
+    "height": 128,
+    "t_min_ns": 0,
+    "t_max_ns": 100039800,
+    "fields": [
+      {
+        "name": "x",
+        "datatype": 7,
+        "offset": 0
+      },
+      {
+        "name": "y",
+        "datatype": 7,
+        "offset": 4
+      },
+      {
+        "name": "z",
+        "datatype": 7,
+        "offset": 8
+      },
+      {
+        "name": "intensity",
+        "datatype": 7,
+        "offset": 16
+      },
+      {
+        "name": "t",
+        "datatype": 6,
+        "offset": 20
+      },
+      {
+        "name": "reflectivity",
+        "datatype": 4,
+        "offset": 24
+      },
+      {
+        "name": "ring",
+        "datatype": 2,
+        "offset": 26
+      },
+      {
+        "name": "ambient",
+        "datatype": 4,
+        "offset": 28
+      },
+      {
+        "name": "range",
+        "datatype": 6,
+        "offset": 32
+      }
+    ]
+  }
+}

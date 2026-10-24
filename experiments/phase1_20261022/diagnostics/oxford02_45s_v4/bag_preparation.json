@@ -1,0 +1,51 @@
+{
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-18-christ-church-02",
+  "diagnostic": true,
+  "source_databases": [
+    "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0/1710754066_2024-03-18-09-27-47_0_blurred_filtered_compressed.db3",
+    "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/1710754066_2024-03-18-09-36-49_1_blurred_filtered_compressed.db3"
+  ],
+  "headers": {
+    "/alphasense_driver_ros/imu": {
+      "count": 17961,
+      "first_ns": 1710754088996836492,
+      "last_ns": 1710754133951474745,
+      "dt_min_s": 0.0024886,
+      "dt_median_s": 0.002503,
+      "dt_max_s": 0.0025333
+    },
+    "/left_camera/image": {
+      "count": 895,
+      "first_ns": 1710754088955539892,
+      "last_ns": 1710754133904782045,
+      "dt_min_s": 0.049989586,
+      "dt_median_s": 0.0499992,
+      "dt_max_s": 0.1499975
+    },
+    "/hesai/pandar": {
+      "count": 450,
+      "first_ns": 1710754088976705000,
+      "last_ns": 1710754133833979000,
+      "dt_min_s": 0.098944,
+      "dt_median_s": 0.099917,
+      "dt_max_s": 0.100765
+    }
+  },
+  "selected_topics": {
+    "/hesai/pandar": "/hesai/pandar",
+    "/alphasense_driver_ros/imu": "/alphasense_driver_ros/imu",
+    "/alphasense_driver_ros/cam0/debayered/image/compressed": "/left_camera/image"
+  },
+  "all_selected_record_counts_match_source": false,
+  "timestamps_preserved": true,
+  "point_records_preserved_by_stable_permutation": true,
+  "reordered_clouds": 450,
+  "source_point_bytes_sha256": "34ca1808ebc9c4113db294615faaac607d3e3cac15c50751a9c588b53d794728",
+  "output_point_bytes_sha256": "f7f3a80e00a4a7f797ef1062a5bdb86f68cea5702cfb0d1e7e7dcea23a3a058d",
+  "native_camera_model": "EquidistantCamera",
+  "images": "JPEG decoded to BGR8 without rectification or resizing",
+  "image_cdr_pixel_roundtrip_verified": true,
+  "duration_record_s": 44.992648979,
+  "conversion_seconds": 129.12670145200173
+}

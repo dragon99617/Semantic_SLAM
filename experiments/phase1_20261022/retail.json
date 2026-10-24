@@ -1,0 +1,10 @@
+{
+  "id": "retail",
+  "dataset": "Retail_Street",
+  "sequence": "Retail_Street",
+  "bag": "datasets/Retail_Street_humble",
+  "expected_lidar_count": 1355,
+  "mapper_config": "experiments/phase1_20261022/configs/retail_mapper.yaml",
+  "camera_config": "experiments/phase1_20261022/configs/retail_camera.yaml",
+  "reference": null
+}

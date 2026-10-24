@@ -1,0 +1,52 @@
+{
+  "dataset": "OxfordSpires",
+  "sequence": "2024-03-18-christ-church-02",
+  "diagnostic": false,
+  "source_databases": [
+    "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-27-47_0/1710754066_2024-03-18-09-27-47_0_blurred_filtered_compressed.db3",
+    "/home/hxy/SLAM_project/datasets/OxfordSpires/sequences/2024-03-18-christ-church-02/raw/ros2bag/1710754066_2024-03-18-09-36-49_1/1710754066_2024-03-18-09-36-49_1_blurred_filtered_compressed.db3"
+  ],
+  "headers": {
+    "/alphasense_driver_ros/imu": {
+      "count": 236606,
+      "first_ns": 1710754088996836492,
+      "last_ns": 1710754681209888881,
+      "dt_min_s": 0.002465175,
+      "dt_median_s": 0.002503,
+      "dt_max_s": 0.002535216
+    },
+    "/left_camera/image": {
+      "count": 11775,
+      "first_ns": 1710754088955539892,
+      "last_ns": 1710754681095875581,
+      "dt_min_s": 0.049961375,
+      "dt_median_s": 0.0499992,
+      "dt_max_s": 0.1499976
+    },
+    "/hesai/pandar": {
+      "count": 5928,
+      "first_ns": 1710754088976705000,
+      "last_ns": 1710754681069178000,
+      "dt_min_s": 0.098599,
+      "dt_median_s": 0.099903,
+      "dt_max_s": 0.100847
+    }
+  },
+  "selected_topics": {
+    "/hesai/pandar": "/hesai/pandar",
+    "/alphasense_driver_ros/imu": "/alphasense_driver_ros/imu",
+    "/alphasense_driver_ros/cam0/debayered/image/compressed": "/left_camera/image"
+  },
+  "all_selected_record_counts_match_source": true,
+  "timestamps_preserved": true,
+  "point_records_preserved_by_stable_permutation": true,
+  "reordered_clouds": 5928,
+  "source_point_bytes_sha256": "abca35ccfb661a1ade396756b3f07a3e24e479cfd186487ce6732a3837f27888",
+  "output_point_bytes_sha256": "978aa18c86cba494fe0d2d031129ea331326e7bff8d9108a2f77f31770447171",
+  "native_camera_model": "EquidistantCamera",
+  "images": "JPEG decoded to BGR8; optional declared linear half-resolution, no rectification",
+  "image_scale": 0.5,
+  "image_cdr_pixel_roundtrip_verified": true,
+  "duration_record_s": 592.207072501,
+  "conversion_seconds": 2006.9253625019992
+}
